@@ -181,6 +181,8 @@ In the following change the following to your info:
 
 8. Key pairs for Github:
 
+- Note: Do not enter a passphase, when prompted.
+
 ```
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key" -C "mickey.mouse@github_mick_v210713"
 ```
@@ -189,6 +191,8 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713
 
 9. Key pairs for Cloud Provider:
 
+- Note: Do not enter a passphase, when prompted.
+
 ```
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_key" -C "mickey.mouse@Vultr_mick_v210713"
 ```
@@ -196,6 +200,8 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_
 ![Create New ssh key2](./images/fr0101-03_Create-New-ssh-key2.png "Create New ssh key2")
 
 10. Key pairs for access to Remote Server on Cloud Provider:
+
+- Note: Do not enter a passphase, when prompted.
 
 ```
 Change "Vultr-FormR0_nimda" below to your VM Instance name and login

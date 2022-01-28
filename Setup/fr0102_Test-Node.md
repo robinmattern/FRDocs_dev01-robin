@@ -107,13 +107,18 @@ node batch.js
 
 ![Node-install-express](images/fr0102-09_Node-install-express.png "Node-install-express")
 
+a. Initialize - Enter: npm init
+
 ```
 npm init
-
-Press enter to accept all defaults
 ```
 
+- Press enter to accept all defaults
+
+
 ![Node-npm-init](images/fr0102-09_Node-npm-init.png "Node-npm-init")
+
+b. Install express
 
 ```
 npm install express
