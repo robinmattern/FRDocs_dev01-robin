@@ -266,11 +266,54 @@ npm start
 
 ![Node-start-app](images/fr0102-18_Node-start-3.png "Node-start-app")
 
-6. Adjust package.json for React-Scripts
+6. Adjust package.json for React-Scripts (prevent npm audit from returning development vulnerabilities list for react-scripts)
 
-- npm audit will return vulnerabilities list for react-scripts
+- In VScode edit myProject/client/package.json, replace
 
-     1. In vscode edit package.json
+```
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0",
+    "web-vitals": "^1.1.2"
+  },
+
+```
+
+- with
+
+```
+ "dependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "web-vitals": "^1.1.2"
+  },
+  "devdependencies": {
+    "react-scripts": "^5.0.0"
+  },
+
+```
+
+![Node-package-json](images/fr0102-18_Node-Package.png "Node-package-json")
+
+- Test by running npm audit. From client folder, right click and click Open in integated Terminal
+
+![Node-terminal](images/fr0102-18_Node-Terminal.png "Node-terminal")
+
+- Enter
+
+```
+npm audit fix --production
+```
+![Node-audit](images/fr0102-18_Node-Audit.png "Node-audit")
+
+
 #### Push your changes to GitHub
      1. Click the Source Control charm
      2. Add description of your choice
