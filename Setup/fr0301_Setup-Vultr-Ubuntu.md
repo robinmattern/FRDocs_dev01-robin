@@ -123,6 +123,8 @@ Password = Vultr-FormR0 root password (copy from Vultr web page)
 
 5. Click Login
 
+![Vultr New-Profile-Host](./images/fr0301-09_Vultr-New-Profile-Host.png "Vultr New-Profile-Host")
+
 ![Vultr New-Profile-Auth](./images/fr0301-09_Vultr-New-Profile-Auth.png "Vultr New-Profile-Auth")
 
 6. Important-- Save Profile
