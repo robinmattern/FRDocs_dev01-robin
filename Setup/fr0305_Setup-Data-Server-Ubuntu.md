@@ -24,22 +24,35 @@
 
 ----
 ### 1. Restart your Vultr VM and Login 0:05
+
 ----
-1. Login the your Vultr-FormR0 console and click the Restart button
+1. Open Bitvise and Load profile for Vultr-FormR0-root and click Login
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
-2. From your Vultr-FormR0 console
- 
-3. Copy the root password
- 
-4. Click View Console button
- 
 ![Restart VM](./images/fr0300-01_restart-vm1.png "Restart VM")
 
-5. Login as root using the Send Clipboard button
+![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
+
+2. Click New terminal console
+
+![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
+
+3. Enter:
+
+```
+reboot
+```
+
+![Restart VM](./images/fr0300-01_restart-vm4.png "Restart VM")
+
+4. From Bitvise click Login then click New terminal console
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
+
+![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
+
+#### Note: Just click on the terminal prompt to paste commands into the terminal 
 
 ----
 ### 2. Install MySQL from the Vultr-FormR0 console 0:05
