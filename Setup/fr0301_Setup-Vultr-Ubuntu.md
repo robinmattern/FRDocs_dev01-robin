@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.1 Create Vultr Ubuntu 0:20
+## 2.1 Create Vultr Ubuntu 0:25
 ----
 - [Purpose and Background](../Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217076885008495)
@@ -82,33 +82,62 @@ https://www.vultr.com/?ref=8778592
 ![Vultr Installing](./images/fr0301-08_Vultr-Installing.png "Installing")
 
 ----
-### 2. Open Vultr VM Console to Log in 0:10
+### 2. Use Bitvise access Vultr-FormR0  0:15
 ----
-1. Click on Products, then the Server Name i.e. Vultr-FormR0
+1. Open Bitvise
 
-![Vultr Open Console](./images/fr0301-09_Vultr-Open-Console.png "Open Console")
+![Vultr Open-Bitvise](./images/fr0301-09_Vultr-Open-Bitvise.png "Vultr Open-Bitvise")
 
-2. Click the copy password icon
+2. Click New Profile
 
-![Vultr Copy Password](./images/fr0301-10_Vultr-Copy-Password.png "Copy Password")
+![Vultr New-Profile](./images/fr0301-09_Vultr-New-Profile.png "Vultr New-Profile")
 
+3. Enter new profile name
 
 ```
-#### !! Remember to write your passwords in a safe place !!
+Vultr-FormR-root.tlp
 ```
 
-3. Click the View Console icon
+![Vultr New-Profile-Name](./images/fr0301-09_Vultr-New-Profile-Name.png "Vultr New-Profile-Name")
 
-![Vultr View Console](./images/fr0301-11_Vultr-View-Console.png "View Console")
+4. Fill in the following:
 
-4. Click in the console window and then enter login: root and press enter
+```
+Host = Vultr-FormR0 IP Address (copy from Vultr web page)
 
-5. Click the Send clipboard button and press enter.
+Port = 22
 
-![Vultr Login](./images/fr0301-12_Vultr-Login.png "Login")
+Username = root
+
+Initial Method = password
+
+Click Checkbox - Store encrypted password in profile
+
+Password = Vultr-FormR0 root password (copy from Vultr web page)
+
+```
+
+![Vultr New-Profile-Copy](./images/fr0301-09_Vultr-New-Profile-Copy.png "Vultr New-Profile-Copy")
+
+![Vultr New-Profile-Login](./images/fr0301-09_Vultr-New-Profile-Login.png "Vultr New-Profile-Login")
+
+5. Click Login
+
+![Vultr New-Profile-Auth](./images/fr0301-09_Vultr-New-Profile-Auth.png "Vultr New-Profile-Auth")
+
+6. Important-- Save Profile
+
+![Vultr New-Profile-Save](./images/fr0301-09_Vultr-New-Profile-Save.png "Vultr New-Profile-Save")
+
+![Vultr New-Profile-Save1](./images/fr0301-09_Vultr-New-Profile-Save1.png "Vultr New-Profile-Save1")
 
 
-6. You will see the Welcome screen for Ubuntu and the command prompt:
+
+6. Click New terminal console button
+
+![Vultr New-Profile-Console](./images/fr0301-09_Vultr-New-Profile-Console.png "Vultr New-Profile-Console")
+
+7. You will see the Welcome screen for Ubuntu and the command prompt:
 
     root@Vultr-FormR0:~#
 
