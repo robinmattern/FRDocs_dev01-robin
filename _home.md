@@ -104,6 +104,12 @@ and it's very secure
 3. You will install and test web, application and database servers.
 4. You will obtain a unique domain/URL (Estimated cost $20/yr.)
 5. You will intall and test an SSL certificate and access your website from the Internet.
+
+#### Note: We focus on securing the remote server and the application. For a full discussion of secuity, visit:
+
+```
+https://www.educba.com/security-architecture/
+```
 ----
 ### The FormR Application Development Strategy
 ----
