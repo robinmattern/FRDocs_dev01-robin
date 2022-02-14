@@ -187,7 +187,7 @@ systemctl status mysql.service
 mysqlsh /connect nimdas@xxx.xxx.xxx.xxx:3306
 ```
 
-- Enter the password FormR!12324
+- Enter the password FormR!1234
 
 2. Check Version. From the mysql command prompt enter the following:
 

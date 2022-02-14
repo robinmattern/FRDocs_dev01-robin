@@ -15,31 +15,25 @@
 #### Introduction  (*This section is not complete*)
 ----
 
-Harden Ubuntu
+##### Note: This tutorial focuses on securing a single remote server and a basic application. For a full discussion of secuity, visit:
+<br />
+
+- [Security Architecture](https://www.educba.com/security-architecture/)
+
+----
+- Harden Ubuntu
 https://www.lifewire.com/harden-ubuntu-server-security-4178243
-
-Linux Hardening
+----
+- Linux Hardening
 https://linux-audit.com/linux-server-hardening-most-important-steps-to-secure-systems/
-
-Lynis
+----
+- Lynis
 https://cisofy.com/documentation/lynis/
 https://vitux.com/how-to-use-lynis-linux-security-audit-tool-on-ubuntu/
-
-Hardening Install upgrades
+----
+- Hardening Install upgrades
 https://linux-audit.com/using-unattended-upgrades-on-debian-and-ubuntu/
-
-
-1. Restart Your Vultr VM And Login
-2. Create A New Sudo User
-3. Update And Upgrade Server
-4. Install And Configure Unattended-Updates
-5. Secure Shared Memory
-6. Enable SSH Login For Specific Users Only
-7. Include A Security Login Banner
-8. Install Fail2ban
-9. Enable Firewall
-10. Set The Server Time Zone
-11. Test Local Access After Hardening
+----
 
 <!-- ------------------------------------------------------------------------- -->
 
