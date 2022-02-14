@@ -66,7 +66,7 @@ reboot
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 ```
 
-![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs.png "Install NodeJS")
+![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs1.png "Install NodeJS")
 
 - Reset profile
 
@@ -74,7 +74,7 @@ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 source ~/.profile
 ```
 
-![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs.png "Install NodeJS")
+![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs2.png "Install NodeJS")
 
 
 ----
@@ -87,17 +87,17 @@ source ~/.profile
 nvm install 14
 ```
 
-![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs.png "Install NodeJS")
+![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs3.png "Install NodeJS")
 
 2. Check
 
 ```
-nodejs --version
+node --version
 
 nom --version
 ```
 
-![Check NodeJS](./images/fr0304-02_Ubuntu-check-nodejs.png "Check NodeJS")
+![Check NodeJS](./images/fr0304-01_Ubuntu-install-nodejs4.png "Check NodeJS")
 
 ----
 ### 4. Install  pm2 0:05
