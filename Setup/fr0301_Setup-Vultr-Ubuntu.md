@@ -95,7 +95,7 @@ https://www.vultr.com/?ref=8778592
 3. Enter new profile name
 
 ```
-Vultr-FormR-root.tlp
+Vultr-FormR0-root.tlp
 ```
 
 ![Vultr New-Profile-Name](./images/fr0301-09_Vultr-New-Profile-Name.png "Vultr New-Profile-Name")
