@@ -24,75 +24,28 @@
 - This documentation was produced during 2021. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 
 ----
-### 1. Use Bitvise securely. Open Bitvise on your local workstation and login as nimda to the Ubuntu server 0:05
+### 1. Restart your Vultr VM and Login 0:05
+
 ----
-1. Open Bitvise Client app 
+1. Open Bitvise and Load profile for Vultr-FormR0-root and click Login
 
- ![BitVise Open](./images/fr0306-01_Ubuntu-Bitvise-Open.png "BitVise Open")
+![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
-2. Click New Profile
- 
-![BitVise New Profile](./images/fr0306-01_Ubuntu-Bitvise-New-Profile.png "BitVise New Profile")
+![Restart VM](./images/fr0300-01_restart-vm1.png "Restart VM")
 
-3. Navigate to the Local_Admin\.shh folder and enter new profile name: 
+![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
-```
-Vultr-FormR0-nimda
-```
+2. Click New terminal console
 
-![BitVise New Profile Name](./images/fr0306-01_Ubuntu-Bitvise-New-Profile-Name.png "BitVise New Profile Name")
+![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
-
-4. Enter:
+3. Enter:
 
 ```
-  Host IP address: Your Vultr Ubuntu server IP 
+reboot
 ```
 
- ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
-
-5. then enter:
-
-```
-  Port: 22
-  Username: nimda
-  Initial Method: password
-  Check the box: "Store encrypted password in profile
-  Password: FormR!1234
-```
-
-#### !! Remember to write your passwords in a safe place !!
-
-![BitVise Initial Login](./images/fr0306-02_Ubuntu-Bitvise-Initial-Login.png "BitVise Initial Login")
-  
-6. Click log In (You will see Host Key, Warning message and then be logged in via password)
-
-- Host key - Click Accept and Save (This will only happen on the first logon.)
-
-![BitVise Click Login Host Key](./images/fr0306-03_Ubuntu-Bitvise-Click-Login-Host-Key.png "BitVise Click Login Host Key")
-
-- Warning Banner - Click the X to close it
-
-![BitVise Click Login](./images/fr0306-03_Ubuntu-Bitvise-Click-Login.png "BitVise Click Login")
-
-- Authenticated Completion 
-
-![BitVise Click Login2](./images/fr0306-03_Ubuntu-Bitvise-Click-Login2.png "BitVise Click Login2")
-
-
-7. Click Save profile icon
-
-![BitVise Save Profile](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
-
-- Select - Any account on this computer - and click OK
-
-![BitVise Save Profile2](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile2.png "BitVise Save Profile2")
-
-8.  Close Bitvise by clicking X in upper right corner
-
-![BitVise Close](./images/fr0306-13_Ubuntu-Bitvise-Close.png "BitVise Close")
-
-
+![Restart VM](./images/fr0300-01_restart-vm4.png "Restart VM")
 ----
 ### 2. Configure Login via Public Key (SSH keys are more secure than passwords) 0:15
 ----
