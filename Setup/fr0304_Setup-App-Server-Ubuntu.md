@@ -81,10 +81,10 @@ source ~/.profile
 ### 3. Install nodejs and npm Node package Manager 0:05
 ----
 
-1. Install node -- version 14 latest version 
+1. Install node version 16 latest version 
 
 ```
-nvm install 14
+nvm install 16
 ```
 
 ![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs3.png "Install NodeJS")
