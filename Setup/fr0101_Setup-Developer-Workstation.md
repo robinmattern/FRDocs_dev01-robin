@@ -689,35 +689,35 @@ Added Workspace and Updated Readme.md
 ----
 1. Be sure to CLOSE VSCode before installing Node
 
-2. To download browse to: 
+2. To download browse to this URL and click to open the downloaded .msi file: 
 
 ```
-nodejs.org/en/
+https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 ```
-
-3. Select the version that is Recommended for Most Users
 
 ![Nodejs-install-0](./images/fr0101-11_Nodejs-install-0.png "Nodejs-install-0")
 
-4. Download and install using all the defaults.
+3. Install nvs using the defaults
 
 ![Nodejs-install-1](./images/fr0101-11_Nodejs-install-1.png "Nodejs-install-1")
 
-5. Allow changes
+![Nodejs-install-1](./images/fr0101-11_Nodejs-install-2.png "Nodejs-install-1")
 
-![Git-for-Windows1](./images/fr0101-06_Git-for-Windows1.png "Git-for-Windows1")
+4. From Windows command propt add and use Node Version 16 latest release
 
-6. Finish
+```
+    nvs add 16
+    nvs use 16
+```
+![Nodejs-install-check](./images/fr0101-11_Nodejs-install-3.png "Nodejs-install-check")
 
-![Nodejs-install-2](./images/fr0101-11_Nodejs-install-2.png "Nodejs-install-2")
-
-7. Test from Windows command prompt:
+5. Test from Windows command prompt:
 
 ```
     node --version
     npm --version
 ```
-![Nodejs-install-check](./images/fr0101-11_Nodejs-install-check.png "Nodejs-install-check")
+![Nodejs-install-check](./images/fr0101-11_Nodejs-install-4.png "Nodejs-install-check")
 
 ----
 ### 12. Install MySql for windows0:45
