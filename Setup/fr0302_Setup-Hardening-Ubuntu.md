@@ -150,7 +150,7 @@ nano /etc/apt/apt.conf.d/50unattended-upgrades
 Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";
 Unattended-Upgrade::Remove-Unused-Dependencies "true";
 Unattended-Upgrade::Automatic-Reboot "true";
-Unattended-Upgrade::Automatic-Reboot-Time "02:38";
+Unattended-Upgrade::Automatic-Reboot-Time "02:30";
 ```
 
 ![Modify apt.conf.d-2](./images/fr0302-08_Ubuntu-Modify-apt-conf-d-2.png "Modify apt.conf.d-2")
@@ -193,9 +193,10 @@ unattended-upgrades --dry-run --debug
 From the console prompt enter:
 
 clear
-reboot (or you can Click the Send CtrlAltDel button)
 
-After reboot login again as root, copy the password from the Vultr and click the Send Clipboard button
+reboot 
+
+After reboot Bitvise will reconect
 ```
 
 ----
@@ -224,9 +225,9 @@ From the console prompt enter:
 
 clear
 
-reboot  (or you can Click the Send CtrlAltDel button)
+reboot  
 
-After reboot login again as root, copy the password from the Vultr and click the Send Clipboard button
+After reboot Bitvise will reconnect
 ```
 
 ----
