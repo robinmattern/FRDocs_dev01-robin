@@ -55,23 +55,23 @@ reboot
 
 #### Note: Just click on the terminal prompt to paste commands into the terminal 
 ----
-### 2. Install nvm and nodejs 0:05
+### 2. Install nvs and nodejs 0:05
 ----
 
 1. Install 
 
-- Install nvm (node vesrion manager)
+- Clone nvs (node version selector)
 
 ```
-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+git clone https://github.com/jasongin/nvs .nvs
 ```
 
 ![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs1.png "Install NodeJS")
 
-- Reset profile
+- Install nvs
 
 ```
-source ~/.profile
+source .nvs/nvs.sh install
 ```
 
 ![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs2.png "Install NodeJS")
@@ -81,10 +81,12 @@ source ~/.profile
 ### 3. Install nodejs and npm Node package Manager 0:05
 ----
 
-1. Install node version 16 latest version 
+1. Add and use node version 16 latest version 
 
 ```
-nvm install 16
+nvs add 16
+
+nvs use 16
 ```
 
 ![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs3.png "Install NodeJS")
@@ -94,7 +96,7 @@ nvm install 16
 ```
 node --version
 
-nom --version
+npm --version
 ```
 
 ![Check NodeJS](./images/fr0304-01_Ubuntu-install-nodejs4.png "Check NodeJS")
