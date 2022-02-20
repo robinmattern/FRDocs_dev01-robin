@@ -264,7 +264,6 @@ AllowUsers nimda@xxx.xxx.xxx.xxx
 systemctl restart sshd
 ```
 
-
 #### - Test local access to your Vultr FormR VM. 
 
 6. Get the VM IP address from your Vultr-FormR0 console i.e 45.76.252.191
@@ -286,6 +285,20 @@ ssh nimda@<your VM IP address>
 9. Enter the password: FormR!1234
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
+
+10. Logout of Bitvise and then change the Username and Password and Login
+
+```
+Username = nimda
+
+Password = FormR!1234
+```
+
+![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers4.png "SSH-AllowUsers")
+
+11. Save the Profile
+
+![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers3.png "SSH-AllowUsers")
 
 ----
 ### 7. Include a Security Login Banner 0:05
