@@ -87,7 +87,11 @@ source .nvs/nvs.sh install
 nvs add 16
 
 nvs use 16
+
+nvs link
 ```
+
+- nvs link sets version 16 as the default
 
 ![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs3.png "Install NodeJS")
 

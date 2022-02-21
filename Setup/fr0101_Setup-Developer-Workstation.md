@@ -707,8 +707,14 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 
 ```
     nvs add 16
+
     nvs use 16
+    
+    nvs link
 ```
+
+- nvs link sets version 16 ton default
+
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-3.png "Nodejs-install-check")
 
 5. Test from Windows command prompt:
