@@ -43,15 +43,17 @@
 reboot
 ```
 
+- Close the Terminal window and wait for Bitvise to automatically login
+
 ![Restart VM](./images/fr0300-01_restart-vm4.png "Restart VM")
 
-4. From Bitvise click Login then click New terminal console
+4. From Bitvise click New terminal console
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
-#### Note: Just click on the terminal prompt to paste commands into the terminal 
+#### Note: To paste commands into the terminal, right-click at the terminal prompt  
 
 ----
 ### 2. Install nginx 0:05
@@ -62,7 +64,7 @@ reboot
 ```
 apt-get install nginx
 
-(Enter Y when asked to continue)
+(Enter Y to continue, if asked)
 
 ```
 
@@ -112,7 +114,7 @@ http://xxx.xxx.xxx.xxx
 ```
 apt-get install python-certbot-nginx
 
-(Enter Y when asked to continue)
+(Enter Y to continue, if asked)
 ```
 
 ![Install Certbot](./images/fr0303-06_Ubuntu-install-certbot.png "Install Certbot")

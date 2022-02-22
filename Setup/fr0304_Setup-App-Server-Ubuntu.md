@@ -47,13 +47,15 @@ reboot
 
 ![Restart VM](./images/fr0300-01_restart-vm4.png "Restart VM")
 
-4. From Bitvise click Login then click New terminal console
+- Close the Terminal window and wait for Bitvise to automatically login
+
+4. From Bitvise click New terminal console
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
-#### Note: Just click on the terminal prompt to paste commands into the terminal 
+#### Note: To paste commands into the terminal, right-click at the terminal prompt 
 ----
 ### 2. Install nvs and nodejs 0:05
 ----

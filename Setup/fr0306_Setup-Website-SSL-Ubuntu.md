@@ -44,19 +44,16 @@
 ```
 reboot
 ```
-
 ![Restart VM](./images/fr0300-01_restart-vm4.png "Restart VM")
+
+- Close the Terminal window and wait for Bitvise to automatically login
+
+4. From Bitvise click New terminal console
+
 ----
 ### 2. Configure Login via Public Key (SSH keys are more secure than passwords) 0:15
 ----
-1. Open Bitvise, the profile, Vultr-FormR0-nimda, should load. 
-- Click Log in, then 
-- Warning Banner - Click the X to close it
-
-![BitVise Click Login](./images/fr0306-03_Ubuntu-Bitvise-Click-Login.png "BitVise Click Login")
-
-
-- Click New SFTP window icon
+1. In Bitvise click New SFTP window icon
 
 ![BitVise New SFTP window](./images/fr0306-05_Ubuntu-Bitvise-New-SFTP-window.png "BitVise New SFTP window")
 

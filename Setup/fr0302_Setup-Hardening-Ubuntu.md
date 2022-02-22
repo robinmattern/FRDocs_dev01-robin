@@ -45,13 +45,13 @@ reboot
 
 ![Restart VM](./images/fr0300-01_restart-vm4.png "Restart VM")
 
-4. From Bitvise click Login then click New terminal console
+- Close the Terminal window and wait for Bitvise to automatically login
 
-![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
+4. From Bitvise click New terminal console
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
-#### Note: Just click on the terminal prompt to paste commands into the terminal 
+#### Note: To paste commands into the terminal, right-click at the terminal prompt 
 
 ----
 ### 2. Create a new sudo user 0:05
@@ -66,7 +66,7 @@ useradd -ou 0 -g 0 -d /root -s /bin/bash -G sudo nimda
 ![New User](./images/fr0302-02_Ubuntu-New-User.png "New User")
 
 
-2. Add the nimda password: FormR!1234
+2. Add the nimda password: FormR!1234 and retype it
 
 ```
 passwd nimda
@@ -104,7 +104,7 @@ cat /etc/passwd
 ```
 apt-get update && apt-get upgrade
 
-(Enter Y when asked to continue)
+(Enter Y to continue, if asked)
 ```
 
 ![Update and Upgrade](./images/fr0302-04_Ubuntu-Update-Upgrade.png "Update and Upgrade")
@@ -117,7 +117,7 @@ apt-get update && apt-get upgrade
 ```
 apt-get install unattended-upgrades
 
-(Enter Y when asked to continue)
+(Enter Y to continue, if asked)
 
 ```
 
@@ -129,6 +129,10 @@ systemctl status unattended-upgrades
 ```
 
 ![Check Unattended Upgrades](./images/fr0302-06_Ubuntu-Check-Unattended-Upgrades.png "Check Unattended Upgrades")
+
+- Note: If you get a "lines ... (END)" message, press ctrl-c to continue
+
+![Check Unattended Upgrades](./images/fr0302-06_Ubuntu-Check-Unattended-Upgrades1.png "Check Unattended Upgrades")
 
 3. Using the nano editor, modify apt.conf.d/50unattended-upgrades
 
@@ -183,21 +187,21 @@ unattended-upgrades --dry-run --debug
 
 ![Check Unattended Upgrades](./images/fr0302-10_Ubuntu-Check-Unattended-Upgrades.png "Check Unattended Upgrades")
 
-- Reboot Warnings will occur on the console. Here is a sample:
+- For your information only... here's a sample Reboot Warning that will occur on the console at 2:30am
 
 ![Sample Console Warning](./images/fr0302-10_Ubuntu-Sample-Console-Warning.png "Sample Console Warning")
 
 11. Reboot the server
 
+- From the console prompt enter:
+
 ```
-From the console prompt enter:
-
-clear
-
 reboot 
-
-After reboot Bitvise will reconect
 ```
+
+- Close the terminal window and Bitvise will automatically reconnect
+
+- Open a New terminal window
 
 ----
 ### 5. Secure Shared Memory 0:05
@@ -220,15 +224,15 @@ tmpfs /run/shm tmpfs defaults,noexec,nosuid 0 0
 
 4. Reboot the server
 
+- From the console prompt enter:
+
 ```
-From the console prompt enter:
-
-clear
-
-reboot  
-
-After reboot Bitvise will reconnect
+reboot 
 ```
+
+- Close the terminal window and Bitvise will automatically reconnect
+
+- Open a New terminal window
 
 ----
 ### 6. Enable SSH Login for Specific Users Only 0:10
@@ -266,7 +270,7 @@ systemctl restart sshd
 
 #### - Test local access to your Vultr FormR VM. 
 
-6. Get the VM IP address from your Vultr-FormR0 console i.e 45.76.252.191
+6. Get the VM IP address from your Vultr-FormR0 VM i.e 45.76.252.191
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
@@ -371,12 +375,12 @@ systemctl restart sshd
 ----
 ### 8. Install Fail2ban 0:10
 ----
-1. Install (Enter Y or y when asked to continue.)
+1. Install (Enter Y or y to continue, if asked.)
 
 ```
 apt-get install fail2ban
 
-(Enter Y when asked to continue)
+(Enter Y to continue, if asked)
 
 ```
 
@@ -464,7 +468,7 @@ timedatectl
 ----
 1. Test local access to your Vultr FormR VM. 
 
-2. Get the VM IP address from your Vultr-FormR0 console 
+2. Get the VM IP address from your Vultr-FormR0 VM
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
