@@ -50,6 +50,9 @@ reboot
 
 4. From Bitvise click New terminal console
 
+![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
+
+
 ----
 ### 2. Configure Login via Public Key (SSH keys are more secure than passwords) 0:15
 ----

@@ -51,8 +51,6 @@ reboot
 
 4. From Bitvise click New terminal console
 
-![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
-
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
 #### Note: To paste commands into the terminal, right-click at the terminal prompt 
