@@ -110,9 +110,7 @@ http://xxx.xxx.xxx.xxx
 1. Install  (Certbot is used to create SSL certificates using LetsEncrypt.)
 
 ```
-apt-get install python-certbot-nginx
-
-(Enter Y to continue, if asked)
+snap install --classic certbot
 ```
 
 ![Install Certbot](./images/fr0303-06_Ubuntu-install-certbot.png "Install Certbot")
