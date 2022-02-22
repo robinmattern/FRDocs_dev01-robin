@@ -43,9 +43,9 @@
 reboot
 ```
 
-- Close the Terminal window and wait for Bitvise to automatically login
-
 ![Restart VM](./images/fr0300-01_restart-vm4.png "Restart VM")
+
+- Close the Terminal window and wait for Bitvise to automatically login
 
 4. From Bitvise click New terminal console
 
