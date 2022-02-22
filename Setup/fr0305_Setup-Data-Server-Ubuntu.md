@@ -116,7 +116,7 @@ to:                  bind-address = 0.0.0.0
 ```
 systemctl restart mysql.service
 
-netstat -tulnp | grep mysql
+systemctl status mysql.service
 ```
 
 ![Mysql-setup-allow-remote-access](./images/fr0305-05_Ubuntu-allow-remote-access-mysql.png "Mysql-setup-allow-remote-access")
@@ -134,7 +134,7 @@ ufw status
 6. Create and Grant Privileges to user account: nimdas with host %
 (Note: root@localhost has all rights and nimdas@% will have all rights) 
 
-7. From the Vultr console prompt enter:
+7. From the  New terminal console prompt enter:
 
 ```
 mysql -p
