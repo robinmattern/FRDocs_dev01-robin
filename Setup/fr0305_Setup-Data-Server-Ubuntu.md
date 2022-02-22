@@ -121,6 +121,10 @@ systemctl status mysql.service
 
 ![Mysql-setup-allow-remote-access](./images/fr0305-05_Ubuntu-allow-remote-access-mysql.png "Mysql-setup-allow-remote-access")
 
+- Note: If you get a "lines ... (END)" message, press ctrl-c then Enter to continue
+
+![Check Unattended Upgrades](./images/fr0302-06_Ubuntu-Check-Unattended-Upgrades1.png "Check Unattended Upgrades")
+
 5. Open firewall rule for port 3306
 
 ```
@@ -175,6 +179,11 @@ systemctl status mysql.service
 ```
 
 ![Mysql-setup-check-status](./images/fr0305-09_Ubuntu-check-status-mysql.png "Mysql-setup-check-status")
+
+- Note: If you get a "lines ... (END)" message, press ctrl-c then Enter to continue
+
+![Check Unattended Upgrades](./images/fr0302-06_Ubuntu-Check-Unattended-Upgrades1.png "Check Unattended Upgrades")
+
 
 ----
 ### 4. Login as nimdas remotely from your local PC with MySQL Shell. --Don't save the password-- 0:05

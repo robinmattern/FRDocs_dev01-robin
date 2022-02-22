@@ -130,7 +130,7 @@ systemctl status unattended-upgrades
 
 ![Check Unattended Upgrades](./images/fr0302-06_Ubuntu-Check-Unattended-Upgrades.png "Check Unattended Upgrades")
 
-- Note: If you get a "lines ... (END)" message, press ctrl-c to continue
+- Note: If you get a "lines ... (END)" message, press ctrl-c then Enter to continue
 
 ![Check Unattended Upgrades](./images/fr0302-06_Ubuntu-Check-Unattended-Upgrades1.png "Check Unattended Upgrades")
 
