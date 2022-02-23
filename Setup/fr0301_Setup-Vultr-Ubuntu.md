@@ -47,7 +47,7 @@ https://www.vultr.com/?ref=8778592
 
 ![Vultr Server Location](./images/fr0301-03_Vultr-Server-Location.png "Server Location")
 
-5. Server Type: Ubuntu 18.04 x64 (We use this version for the FormR tutorial. If this version is not available in the future, then choose the lowest version, since it is the most tested.)
+5. Server Type: Ubuntu 21.10 x64 (We always choose the highest version for the FormR tutorial. If this version is not available in the future, then choose the highest version.)
 
 ![Vultr Server Type](./images/fr0301-04_Vultr-Server-Type.png "Server Type")
 
