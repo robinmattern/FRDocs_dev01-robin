@@ -59,8 +59,6 @@ code FRApps.code-workspace
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
  
-![FRApps-Clone-04](images/fr0103-FRApps-Clone-04.png "FRApps-Clone-04")
-
 ----
 ### 2. Install Node modules  0:15
 ----
@@ -76,13 +74,10 @@ npm install
 
 ![FRApps-Clone-05](images/fr0103-FRApps-Clone-05.png "FRApps-Clone-05")
 
-
-![FRApps-Clone-06](images/fr0103-FRApps-Clone-06.png "FRApps-Clone-06")
-
-3. Fix the vulnerabilities
+3. Test for production vulnerabilities
 
 ```
-npm audit fix --force
+npm audit --production
 ```
 
 ![FRApps-Clone-06](images/fr0103-FRApps-Clone-06b.png "FRApps-Clone-06")
@@ -117,9 +112,14 @@ npm start
 
 ![FRApps-Clone22](images/fr0103-FRApps-Clone-22.png "FRApps-Clone-22")
 
+- If you are prompted, click Allow Acess
+
 ![FRApps-Clone22a](images/fr0103-FRApps-Clone-22a.png "FRApps-Clone-22a")
 
+![FRApps-Clone22b](images/fr0103-FRApps-Clone-22d.png "FRApps-Clone-22b")
+
 ![FRApps-Clone22b](images/fr0103-FRApps-Clone-22b.png "FRApps-Clone-22b")
+
 
 ----
  ### 4. Run Client 2c-react-button application 0:05
@@ -149,11 +149,12 @@ npm start
 1. Right click on the client/3c-react-no-api folder
 2. Click Open in Integrated Terminal, then 
 
-![FRApps-Clone-41](images/fr0103-FRApps-Clone-41.png "FRApps-Clone-41") 
+![FRApps-Clone-41](images/fr0103-FRApps-Clone-41a.png "FRApps-Clone-41") 
 
 ```
 npm start
 ```
+![FRApps-Clone-41](images/fr0103-FRApps-Clone-41.png "FRApps-Clone-41") 
 
 ![FRApps-Clone44](images/fr0103-FRApps-Clone-44.png "FRApps-Clone-44")
 
@@ -167,7 +168,7 @@ npm start
  ### 6a. Run Server 4s-react-wi-api application 0:05
 ----
 
-1. Right click on the server/4s-react-wi-api folder
+1. Right click on the server/4s-react-wi-api folder (Note: server folder not client)
 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-51](images/fr0103-FRApps-Clone-51.png "FRApps-Clone-51") 
@@ -194,7 +195,7 @@ http://localhost:50114/invoices
  ### 6b. Run Client 4c-react-wi-api application 0:05
 ----
 
-1. Right click on the client/4c-react-wi-api folder
+1. Right click on the client/4c-react-wi-api folder (note: client folder not server)
 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-61](images/fr0103-FRApps-Clone-61.png "FRApps-Clone-61") 
