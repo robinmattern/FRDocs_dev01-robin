@@ -15,24 +15,19 @@
  5. [Install Data Server        ](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
  6. [Run Website SSL            ](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 
-<!--
- 7. [Run First React Apps       ](/Setup/fr0307_Setup-React-Apps-Ubuntu.md)
--->
-
 <h>3. Run FormR Apps</h>
- 1. [Deploy First React Apps    ](/FormR/fr0401_FRTools-Setup.md)
- 2. [Deploy FormR Tools         ](/FormR/fr0401_FRTools-Setup.md)
- 3. [Clone FormR                ](/Setup/fr0103_Clone-FormR.md)	
- 4. [Deploy FormR               ](/FormR/fr0401_FRTools-Setup.md)
- 5. [Run First React Apps       ](/FormR/fr0401_FRTools-Setup.md)
- 6. [Run World Database         ](/FormR/fr0401_World-Database-Access.md)
- 7. [Run Authentication         ](/FormR/fr0402_Authentication.md)
- 8. [Run User Administration    ](/FormR/fr0403_User-Administration.md)
- 9. [Run World Application      ](/FormR/fr0404_Complete-World-Application.md)
+ 1. [Deploy My React App        ](/FormR/fr0401_Deploy-My-React-App.md)
+ 2. [Install FormR Tools        ](/FormR/fr0401_FRTools-Setup.md)
+ 3. [Clone FormR                ](/FormR/fr0401_Clone-FormR.md)	
+ 4. [Deploy FormR               ](/FormR/fr0401_Deploy-FormR.md)
+ 5. [Run World Database         ](/FormR/fr0401_World-Database.md)
+ 6. [Run Authentication         ](/FormR/fr0402_Authentication.md)
+ 7. [Run User Administration    ](/FormR/fr0403_User-Administration.md)
+ 8. [Run World Application      ](/FormR/fr0404_Complete-World-Application.md)
 
 <h>4. Customize FormR</h>
  1. [Use Your Own Data          ](/FormR/fr0501_Use-Your_Qwn_Data.md)
- 2. [Deploy to Remote Server    ](/FormR/fr0502_Deloy-To-Remote_Server.md)
+ 2. [Deploy Your Own App        ](/FormR/fr0501_Deploy-Your-Own-App.md)
 
 <h>5. Collaborate with Discord</h>
  1. [How To Videos              ](/Discord/fr0601_Video-Carousel.md)
