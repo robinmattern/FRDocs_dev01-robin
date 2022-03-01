@@ -214,6 +214,32 @@ npm start
 
 ![FRApps-Clone-66c](images/fr0103-FRApps-Clone-66c.png "FRApps-Clone-66c")
 
+----
+ ### 7. Run Client 5c-my-react-app application 0:05
+----
+
+Note: This app is based on this [W3C Tutorial](https://www.w3.org/Style/Examples/011/firstcss.en.html)
+<br></br>
+
+1. Right click on the client/5c-my-react-app folder
+2. Click Open in Integrated Terminal, then 
+
+![FRApps-Clone-67](images/fr0103-FRApps-Clone-67.png "FRApps-Clone-67") 
+
+```
+npm start
+```
+
+![FRApps-Clone68](images/fr0103-FRApps-Clone-68.png "FRApps-Clone-68")
+
+- If you are prompted, click Allow Acess
+
+![FRApps-Clone68a](images/fr0103-FRApps-Clone-22a.png "FRApps-Clone-68a")
+
+![FRApps-Clone68d](images/fr0103-FRApps-Clone-68d.png "FRApps-Clone-68d")
+
+![FRApps-Clone68b](images/fr0103-FRApps-Clone-68b.png "FRApps-Clone-68b")
+
 
 ----
 #### Congratulations! You have cloned and run the FRApps successfully to your local workstation.
