@@ -11,7 +11,6 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 2.2 Harden Ubuntu 1:10
-----
 - [Purpose and Background](../Setup/purposes/pfr0302_Setup-Hardening-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217151241642005)
 

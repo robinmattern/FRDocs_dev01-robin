@@ -12,7 +12,6 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 2.6 Run Website SSL 1:35
-----
 - [Purpose and Background](../Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931218167236276224)
 
@@ -136,6 +135,42 @@ reboot
 - Select - Any account on this computer - and click OK
 
 ![BitVise Save Profile2](./images/fr0306-04_Ubuntu-Bitvise-Save-Profile2.png "BitVise Save Profile2")
+
+27. Configure ssh key Access to your Vultr server
+
+- In Windows Explorer navigate to and  open the file 'config' with notepad
+
+```
+C:\Users\Local_Admin\.ssh
+```
+
+![ssh-key-to-vultr](./images/fr0306-06_Ubuntu-ssh-key-to-vultr.png "ssh-key-to-vultr")
+
+- then paste in the following:
+
+```
+Host vultr-form0-nimda
+    HostName       <paste your formr0 server IP address here>
+    IdentityFile   C:/Users/Local_Admin/.ssh/<paste your key heere>
+    User           nimda
+```
+
+- then change the Hostname to the IP address of your Vultr server
+- and change the IdentityFile to your private key for vultr-form0-nimda.
+- and save the file
+
+![ssh-key-to-vultr](./images/fr0306-06_Ubuntu-ssh-key-to-vultr1.png "ssh-key-to-vultr")
+
+28. Login to your Vultr server using your private key
+
+- From the Windows Command prompt enter:
+
+```
+ssh vultr-formr0-nimda
+```
+
+![ssh-key-to-vultr](./images/fr0306-06_Ubuntu-ssh-key-to-vultr2.png "ssh-key-to-vultr")
+
 
 ----
 ### 3. Using Bitvise New Terminal console delete nginx default files  0:05

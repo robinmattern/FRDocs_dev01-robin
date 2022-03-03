@@ -17,7 +17,6 @@ NEXT
 
 
 ## 3.5 Run World Database
-----
 - [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 

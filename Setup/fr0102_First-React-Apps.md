@@ -12,7 +12,6 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 1.3 Clone First React Apps 0:45
-----
 - [Purpose and Background](../Setup/purposes/pfr0102_First-React-Apps.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
