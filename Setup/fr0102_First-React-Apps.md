@@ -111,7 +111,7 @@ npm start
 
 ![FRApps-Clone22](images/fr0103-FRApps-Clone-22.png "FRApps-Clone-22")
 
-- If you are prompted, click Allow Acess
+- If you are prompted, click Allow Access
 
 ![FRApps-Clone22a](images/fr0103-FRApps-Clone-22a.png "FRApps-Clone-22a")
 
@@ -231,7 +231,7 @@ npm start
 
 ![FRApps-Clone68](images/fr0103-FRApps-Clone-68.png "FRApps-Clone-68")
 
-- If you are prompted, click Allow Acess
+- If you are prompted, click Allow Access
 
 ![FRApps-Clone68a](images/fr0103-FRApps-Clone-22a.png "FRApps-Clone-68a")
 
