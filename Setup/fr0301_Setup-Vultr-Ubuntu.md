@@ -67,7 +67,7 @@ https://www.vultr.com/?ref=8778592
 
 ![Vultr-add-SSH-key-pasted](./images/fr0301-06_Vultr-add-SSH-key-pasted.png "Vultr-add-SSH-key-pasted")
 
-8. Server Host Name and Label: Vultr-FormR0 for both
+8. Server Hostname and Label: Vultr-FormR0 for both
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Host-Label.png "Vultr-Host-Label")
 
