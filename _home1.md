@@ -26,7 +26,7 @@ Please contact us at:
 
 ---
 
-*This work is licensed licensed under a [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) unless stated otherwise.*
+*This work is licensed under a [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) unless stated otherwise.*
 <br/><br/>
 
 <!--

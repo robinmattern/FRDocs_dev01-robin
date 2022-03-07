@@ -170,7 +170,7 @@ GraspingTech, LifeWire, SQL-Hub and W3Schools.
 
 ----
 
-*This work is licensed licensed under a [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) unless stated otherwise.*
+*This work is licensed under a [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) unless stated otherwise.*
 <br/><br/>
 
 *If you are interested in licensing this work or part thereof under a different license (be it Commercial or Free Culture license), get it touch with us. We are happy to talk.*
