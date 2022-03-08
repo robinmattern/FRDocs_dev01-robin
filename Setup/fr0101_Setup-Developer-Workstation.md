@@ -159,8 +159,8 @@ Format:
 
 ssh-keygen -t rsa -f
 "<local user folder>/.ssh/
-<key owner name>@<host name>_<host user handle>_v<date>_key"
--C "<key owner name>@<host name>_<host user handle>_v<date>"
+<key owner name>@<host name>_<host user initials>_v<date>_key"
+-C "<key owner name>@<host name>_<host user initials>_v<date>"
 
 Example: 
 
@@ -172,7 +172,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713
 In the following change the following to your info:
 
 - "mickey.mouse" to <your Key Owner Name> 
-- "mick" to your <Host User Handle> i.e. kff or cbt or bill, etc.
+- "mick" to <your initiaks> i.e. kff or cbt or bill, etc.
 - "v210713" to the <current date>
 ```
 
@@ -201,8 +201,6 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_
 - Note: Do not enter a passphase, when prompted.
 
 ```
-Change "Vultr-FormR0_nimda" below to your VM Instance name and login
-
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-FormR0_nimda_v210713_key" -C "mickey.mouse@Vultr-FormR0_nimda_v210713"
 ```
 
@@ -551,7 +549,7 @@ Navigate to repos, right click and Open Git Bash here
 
 ```
 Change:
-    github-mick to github-<your handle> that you created above
+    github-mick to github-<your initials> that you created above
     mickeymouse-gmail to <your github account name>
 
 git clone github-mick:mickeymouse-gmail/myProject.git
