@@ -530,6 +530,8 @@ https://code.visualstudio.com/download
 
 ![VSCode11b](./images/fr0101-07_VSCode11b.png "VSCode11b")
 
+- This is your bash terminal
+
 ![VSCode11c](./images/fr0101-07_VSCode11c.png "VSCode11c")
 
 9. Close VSCode
@@ -695,7 +697,7 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 
 ![Nodejs-install-0](./images/fr0101-11_Nodejs-install-0.png "Nodejs-install-0")
 
-3. Install nvs using the defaults
+3. From your Downloads folder click the .msi file to Install nvs using the defaults
 
 ![Nodejs-install-1](./images/fr0101-11_Nodejs-install-1.png "Nodejs-install-1")
 
@@ -711,7 +713,7 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
     nvs link
 ```
 
-- nvs link sets version 16 ton default
+- nvs link sets version 16 to default
 
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-3.png "Nodejs-install-check")
 
@@ -724,7 +726,7 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-4.png "Nodejs-install-check")
 
 ----
-### 12. Install MySql for windows0:45
+### 12. Install MySql for Windows 0:45
 ----
 1. Browse to: 
 
