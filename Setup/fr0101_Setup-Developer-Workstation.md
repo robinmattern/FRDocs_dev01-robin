@@ -703,15 +703,19 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 
 ![Nodejs-install-1](./images/fr0101-11_Nodejs-install-2.png "Nodejs-install-1")
 
-4. From Windows command propt add and use Node Version 16 latest release
+4. From Windows command prompt, add nvs to path and add and use Node Version 16 latest release
 
 ```
+    setx path "%path%;C:\Users\Local_Admin\AppData\Local\nvs\;
+
     nvs add 16
 
     nvs use 16
     
     nvs link
 ```
+
+- Always choose the latest even numbered release. Use nvs list to find it.
 
 - nvs link sets version 16 to default
 
