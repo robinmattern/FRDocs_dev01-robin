@@ -715,11 +715,22 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
     nvs link
 ```
 
-- Always choose the latest even numbered release. Use nvs list to find it.
-
 - nvs link sets version 16 to default
 
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-3.png "Nodejs-install-check")
+
+- NOTE: Always choose the latest EVEN numbered release. To see the version list enter:"
+
+```
+ nvs menu
+ 
+ then a comma
+```
+
+![Nodejs-install-check](./images/fr0101-11_Nodejs-install-7.png "Nodejs-install-check")
+
+
+![Nodejs-install-check](./images/fr0101-11_Nodejs-install-6.png "Nodejs-install-check")
 
 5. Test from Windows command prompt:
 
@@ -727,6 +738,7 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
     node --version
     npm --version
 ```
+
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-4.png "Nodejs-install-check")
 
 ----
