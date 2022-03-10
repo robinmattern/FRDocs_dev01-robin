@@ -180,8 +180,6 @@ ssh vultr-formr0-nimda
 ![BitVise New Terminal](./images/fr0306-06_Ubuntu-Bitvise-new-terminal.png "BitVise New Terminal")
 
 ```
-unlink /etc/nginx/sites-available/default
-
 unlink /etc/nginx/sites-enabled/default
 ```
 
@@ -283,16 +281,16 @@ reboot
 
 1. Go to the Bitvise New terminal console
 
-- Copy simpleApp.conf file
+- Copy formr-xxx-00_all-apps.conf file
 
 ```
-cp /webs/simpleApp/etc/nginx/sites-available/simpleApp.conf /etc/nginx/sites-available/simpleApp.conf
+cp -r /webs/simpleApp/etc/nginx/* /etc/nginx/*
 ```
 
 2. Create symbolic link to /etc/nginx/sites-enabled
 
 ```
-ln -s /etc/nginx/sites-available/simpleApp.conf /etc/nginx/sites-enabled/simpleApp.conf
+ln -s /etc/nginx/sites-available/formr-xxx-00_all-apps.conf /etc/nginx/sites-enabled/formr-xxx-00_all-apps.conf
 ```
 
 ![BitVise nginx conf file](./images/fr0306-08_Ubuntu-Bitvise-nginx-conf-file.png "BitVise nginx conf file")
