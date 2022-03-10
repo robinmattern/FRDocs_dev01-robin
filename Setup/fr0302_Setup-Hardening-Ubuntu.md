@@ -303,6 +303,10 @@ Password = FormR!1234
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers3.png "SSH-AllowUsers")
 
+- If asked, select"Any account on this computer"
+
+![SSH-AllowUsers](./images/SavingSensitiveInfo.png "SSH-AllowUsers")
+
 ----
 ### 7. Include a Security Login Banner 0:05
 ----

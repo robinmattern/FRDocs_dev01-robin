@@ -410,7 +410,9 @@ e.g http://formr-cbt-00.com
 
 ![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
 
-6. Change  yourURL  to  formr-yourInitials-00.com
+6. Change yourURL e.g. formr-cbt-00.com
+
+!!!!!! MODIFY THESE PICTURES with new simpleApp conf file
 
 ![BitVise simpleApp2](./images/fr0306-10_Ubuntu-Bitvise-simpleApp2.png "BitVise simpleApp2")
  
@@ -460,7 +462,7 @@ http:<your VM IP>:5000
 ----
 ### 11. Add SSL certificate using Letsencrypt 0:05
 ----
-1. Open Bitvise New Terminal Console and enter (You might use notpad to build yoururl)
+1. Open Bitvise New Terminal Console and enter (You might use notpad to build yourURL)
 
 ```
 certbot --nginx -d <yoururl>  
