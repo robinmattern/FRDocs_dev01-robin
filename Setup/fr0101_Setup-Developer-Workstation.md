@@ -697,17 +697,31 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 
 ![Nodejs-install-0](./images/fr0101-11_Nodejs-install-0.png "Nodejs-install-0")
 
-3. From your Downloads folder click the .msi file to Install nvs using the defaults
+3. From your Downloads folder click the .msi file to Install nvs as follows:
 
 ![Nodejs-install-1](./images/fr0101-11_Nodejs-install-1.png "Nodejs-install-1")
 
+![Nodejs-install-1](./images/fr0101-11_Nodejs-install-1-1.png "Nodejs-install-1")
+
+![Nodejs-install-1](./images/fr0101-11_Nodejs-install-1-2.png "Nodejs-install-1")
+
+![Nodejs-install-1](./images/fr0101-11_Nodejs-install-1-3.png "Nodejs-install-1")
+
+![Nodejs-install-1](./images/fr0101-11_Nodejs-install-1-4.png "Nodejs-install-1")
+
 ![Nodejs-install-1](./images/fr0101-11_Nodejs-install-2.png "Nodejs-install-1")
 
-4. From Windows command prompt, add nvs to path and add and use Node Version 16 latest release
+4. Open Windows command as Administrator 
+
+![Nodejs-install-1](./images/fr0101-11_Nodejs-install-2-1.png "Nodejs-install-1")
+
+![Nodejs-install-1](./images/fr0101-11_Nodejs-install-2-2.png "Nodejs-install-1")
+
+![Nodejs-install-1](./images/fr0101-11_Nodejs-install-2-3.png "Nodejs-install-1")
+
+- Add and use Node Version 16 - the latest release
 
 ```
-    setx path "%path%;C:\Users\Local_Admin\AppData\Local\nvs\;
-
     nvs add 16
 
     nvs use 16
