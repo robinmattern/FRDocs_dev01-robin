@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.1 Build Workstation 2:30 
+## 1.1 Build Workstation 2:30
 - [Purpose and Background](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)  
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 
