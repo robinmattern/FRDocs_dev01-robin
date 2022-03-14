@@ -539,22 +539,24 @@ https://code.visualstudio.com/download
 ----
 ### 8. Clone myProject 0:05
 ----
-1. Using File Explorer open git bash in c/repos folder
+1. Using File Explorer 
 
 ```
-Navigate to repos, right click and Open Git Bash here
+Navigate to repos folder, right click and select Git Bash here
 ```
 
 ![Open-git-bash](./images/fr0101-08_Open-git-bash.png "Open-git-bash")
+
+![Open-git-bash](./images/fr0101-08_Open-git-bash1.png "Open-git-bash")
 
 2. Clone myProject from github into the local repos folder
 
 ```
 Change:
     github-mick to github-<your initials> that you created above
-    mickeymouse-gmail to <your github account name>
+    mickeymouse to <your github account name>
 
-git clone github-mick:mickeymouse-gmail/myProject.git
+git clone github-mick:mickeymouse/myProject.git
 ```
 
 ![Clone-from-GitHub](./images/fr0101-08_Clone-from-GitHub.png "Clone-from-GitHub")

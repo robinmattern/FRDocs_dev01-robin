@@ -203,27 +203,41 @@ git clone https://github.com/8020Data/simpleApp.git simpleApp
 cd simpleApp
 ls -l
 ```
-2. Open port 5000 through the firewall
-```
-ufw allow 5000
-```
 
 ![BitVise Clone simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Clone-simpleApp.png "BitVise Clone simpleApp")
+
+
+2. Open port 5000 through the firewall
+
+```
+ufw allow 5000
+
+ufw status
+```
+
+![BitVise Clone simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Clone-simpleApp1.png "BitVise Clone simpleApp")
 
 3. Install and start app.js on the server
 
 ```
 npm install
-
-node app.js
 ```
 
 ![BitVise Run simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Run-simpleApp.png "BitVise Run simpleApp")
 
+```
+node app.js
+```
+
+![BitVise Run simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Run-simpleApp1.png "BitVise Run simpleApp")
+
 4. Use your local browser to test your server
-5. Get your IP address from the Bitvise console
+
+- Get your IP address from the Bitvise console
 
 ![BitVise Browse simpleApp0](./images/fr0306-07_Ubuntu-Bitvise-Browse-simpleApp0.png "BitVise Browse simpleApp0")
+
+- Browse to:
 
 ```
 <your server ip address here>:5000
@@ -281,19 +295,22 @@ reboot
 
 1. Go to the Bitvise New terminal console
 
-- Copy formr-xxx-00_all-apps.conf file
+- Copy new folder and files into the nginx folder
 
 ```
-cp -r /webs/simpleApp/etc/nginx/* /etc/nginx/*
+cp -r /webs/simpleApp/etc/nginx/* /etc/nginx/
 ```
+![BitVise nginx conf file](./images/fr0306-08_Ubuntu-Bitvise-nginx-conf-file.png "BitVise nginx conf file")
 
 2. Create symbolic link to /etc/nginx/sites-enabled
 
 ```
-ln -s /etc/nginx/sites-available/formr-xxx-00_all-apps.conf /etc/nginx/sites-enabled/formr-xxx-00_all-apps.conf
+cd /etc/nginx/site-enabled
+
+ln -s ../sites-available/formr-xxx-00.com_all-apps.conf
 ```
 
-![BitVise nginx conf file](./images/fr0306-08_Ubuntu-Bitvise-nginx-conf-file.png "BitVise nginx conf file")
+![BitVise nginx conf file](./images/fr0306-08_Ubuntu-Bitvise-nginx-conf-file1.png "BitVise nginx conf file")
 
 3. Test and Reload nginx
 ```
