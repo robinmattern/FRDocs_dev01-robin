@@ -26,7 +26,11 @@ The following steps create several basic node applications. There are script, se
 ----
 ### 1. Test the Node version 0:05
 ----
-1. In VSCode select the myProject folder and open terminal
+1. In File Explorer navigate to C repos myProject, then double click on myProject.code-workspace, then
+
+![Node-test-terminal](images/fr0102-01_Node-test-terminal0.png "Node-test-terminal")
+
+- In vscode right click on the myProject folder and click on Open terminal
 
 ![Node-test-terminal](images/fr0102-01_Node-test-terminal.png "Node-test-terminal")
 
@@ -43,26 +47,41 @@ The following steps create several basic node applications. There are script, se
 ----
 ### 2. Create sub-folders in myProject 0:05
 ----
-1. Click on myProject and create a new folder:
+1. Right-click on the myProject folder and create a new folder:
 
 ![Node-new-folder](images/fr0102-03_Node-new-folder.png "Node-new-folder")
 
-2. Create the following myProject sub-folders:
+- Enter - client
+
+
+![Node-new-folder](images/fr0102-03_Node-new-folder1.png "Node-new-folder")
+
+2. Repeat step 1. for the following:
 
 ```
-     client
      docs
+
      scripts
+
      server
-     app01s as sub-folder to the server folder
 ```
+
+3. Right-click on the server folder and create a new folder:
+
+![Node-create-folders](images/fr0102-04_Node-create-server-folder.png "Node-create-folders")
+
+- Enter -  app01s
+
+![Node-create-folders](images/fr0102-04_Node-create-server-folder1.png "Node-create-folders")
+
+- Your new folders:
 
 ![Node-create-folders](images/fr0102-04_Node-create-folders.png "Node-create-folders")
 
 ----
 ### 3. Create a new file, batch.js, in the scripts folder and run it with Nodejs. 0:10
 ----
-1. Click on the scripts folder, then click the new file icon
+1. Right-click on the scripts folder, then click New File
 
 ![Node-create-empty-file0](images/fr0102-05_Node-create-empty-file0.png "Node-create-empty-file0")
 
@@ -129,13 +148,27 @@ npm install express
 
 3. Create a new file in the myProject folder, .gitignore and add:
 
+![Node-gitignore](images/fr0102-08_Node-gitignore.png "Node-gitignore")
+
+![Node-gitignore](images/fr0102-08_Node-gitignore1.png "Node-gitignore")
+
+- Enter:
+
 ```
 node_modules
 ```
 
-![Node-gitignore](images/fr0102-08_Node-gitignore.png "Node-gitignore")
+![Node-gitignore](images/fr0102-08_Node-gitignore2.png "Node-gitignore")
 
-4. Create a new file, server.js in the server/app01s folder and add this code: 
+4. Create a new file, server.js in the server/app01s folder
+
+![Node-create-server-js](images/fr0102-11_Node-create-server-js0.png "Node-create-server-js")
+
+![Node-create-server-js](images/fr0102-11_Node-create-server-js1.png "Node-create-server-js")
+
+
+
+- Add this code:
 
 ```
 const express = require("express")
