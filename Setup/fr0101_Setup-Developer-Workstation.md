@@ -577,7 +577,7 @@ code .
 
 ![Trust-authors](./images/fr0101-08_Trust-authors.png "Trust-authors")
 
-5. Close the VSCode Welcome window
+5. Close the Welcome window
 
 ![Close-welcome](./images/fr0101-08_Close-welcome.png "Close-welcome")
 
