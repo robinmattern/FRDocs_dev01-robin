@@ -26,10 +26,22 @@ NEXT
 ----
 ### 1. Run 5c-my-react-app  0:05
 ----
-1. Right click on the client/5c-my-react-app folder
-2. Click Open in Integrated Terminal, then 
+1. From File Explorer navigate to:
+
+```
+C repos FRApps
+```
+- double click on FRApps.code-workspace to open VSCode
+
+![FRApps-Deploy-1](/images/fr0103-FRApps-Deploy-1.png "FRApps-Deploy-1")
+
+
+2. Right click on the client/5c-my-react-app folder, then
+click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-67](../Setup/images/fr0103-FRApps-Clone-67.png "FRApps-Clone-67") 
+
+- Enter:
 
 ```
 npm start

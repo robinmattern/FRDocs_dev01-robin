@@ -305,7 +305,7 @@ cp -r /webs/simpleApp/etc/nginx/* /etc/nginx/
 2. Create symbolic link to /etc/nginx/sites-enabled
 
 ```
-cd /etc/nginx/site-enabled
+cd /etc/nginx/sites-enabled
 
 ln -s ../sites-available/formr-xxx-00.com_all-apps.conf
 ```
@@ -413,7 +413,7 @@ e.g http://formr-cbt-00.com
 ![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
 
 ----
-### 9. Modify simpleApp.conf to use your new URL 0:05
+### 9. Modify formr-xxx-00.com_all-apps.conf to use your new URL 0:05
 ----
 1. Open Bitvise 
 2. Load Profile: Vultr-FormR0-nimda.tlp
@@ -423,19 +423,17 @@ e.g http://formr-cbt-00.com
 ```
 /etc/nginx/sites-available
 ```
-5. On "simpleApp.conf" right click and select Edit 
+5. On "formr-xxx-00.com_all-apps" right click and select Edit 
 
 ![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
 
 6. Change yourURL e.g. formr-cbt-00.com
 
-!!!!!! MODIFY THESE PICTURES with new simpleApp conf file
-
 ![BitVise simpleApp2](./images/fr0306-10_Ubuntu-Bitvise-simpleApp2.png "BitVise simpleApp2")
  
 ![BitVise simpleApp3](./images/fr0306-10_Ubuntu-Bitvise-simpleApp3.png "BitVise simpleApp3")
 
-7. Save this file
+7. Save then close this file
 
 ----
 ### 10. Personalize the FormR Home Page 0:05
@@ -455,7 +453,7 @@ e.g http://formr-cbt-00.com
 ![BitVise appjs2](./images/fr0306-10_Ubuntu-Bitvise-appjs2.png "BitVise appjs2")
  
 
-4. Save this file then Close the SFTP window
+4. Save then close this file then close the SFTP window
 
 5. Reboot from the Bitvise New terminal console (Bitvise will reconnect when server is back up)
 
@@ -593,7 +591,7 @@ service nginx reload
 ssllabs.com/ssltest/
 ```
 
-- Enter your URL e.g. formr-cbt.00.com
+- Enter your URL into Hostname e.g. formr-cbt.00.com
 
 ![SSL Test](./images/fr0306-11_Ubuntu-SSL-test1.png "SSL Test")
 
