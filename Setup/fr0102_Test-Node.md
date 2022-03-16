@@ -339,10 +339,10 @@ npm start
 
 ![Node-terminal](images/fr0102-18_Node-Terminal.png "Node-terminal")
 
-- Enter
+- Test for vulnerabilities in production
 
 ```
-npm audit fix --production
+npm audit --production
 ```
 ![Node-audit](images/fr0102-18_Node-Audit.png "Node-audit")
 

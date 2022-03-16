@@ -6,7 +6,7 @@
 [BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[First React Apps - NEXT](/Setup/fr0307_Setup-React-Apps-Ubuntu.md)
+[Deploy my-react-app - NEXT](/FormR/fr0401_Deploy-My-React-App.md)
 </div>
 <div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
@@ -629,6 +629,6 @@ ssllabs.com/ssltest/
 [BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[First React Apps - NEXT](/Setup/fr0307_Setup-React-Apps-Ubuntu.md)
+[Deploy my-react-app - NEXT](/FormR/fr0401_Deploy-My-React-App.md)
 </div>
 <!-- ------------------------------------------------------------------------- -->

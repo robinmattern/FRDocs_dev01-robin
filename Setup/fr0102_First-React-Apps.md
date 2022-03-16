@@ -79,7 +79,7 @@ npm install
 npm audit --production
 ```
 
-![FRApps-Clone-06](images/fr0103-FRApps-Clone-06b.png "FRApps-Clone-06")
+![FRApps-Clone-06](images/fr0103-FRApps-Clone-06a.png "FRApps-Clone-06")
 
 
 4. Right click on the server folder

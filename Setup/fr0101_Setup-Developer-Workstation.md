@@ -929,39 +929,6 @@ https://bitvise.com/ssh-client-download
 
 ![Bitvise-start](./images/fr0101-13_Bitvise-start.png "Bitvise-start")
 
-----
-### 14. Install TextPad 0:05
-----
-1. Install Textpad from: 
-
-```
-https://textpad.com/download
-```
-
-2. Select the latest version then accept the defaults
-
-![Textpad-download](./images/fr0101-14_Textpad-download.png "Textpad-download")
-
-![Textpad-download-1](./images/fr0101-14_Textpad-download-1.png "Textpad-download-1")
-
-![Textpad-download-2](./images/fr0101-14_Textpad-download-2.png "Textpad-download-2")
-
-![Textpad-download-3](./images/fr0101-14_Textpad-download-3.png "Textpad-download-3")
-
-![Textpad-download-4](./images/fr0101-14_Textpad-download-4.png "Textpad-download-4")
-
-![Textpad-download-5](./images/fr0101-14_Textpad-download-5.png "Textpad-download-5")
-
-![Textpad-download-6](./images/fr0101-14_Textpad-download-6.png "Textpad-download-6")
-
-![Textpad-download-7](./images/fr0101-14_Textpad-download-7.png "Textpad-download-7")
-
-![Textpad-download-8](./images/fr0101-14_Textpad-download-8.png "Textpad-download-8")
-
-![Textpad-download-9](./images/fr0101-14_Textpad-download-9.png "Textpad-download-9")
-
-![Textpad-download-10](./images/fr0101-14_Textpad-download-10.png "Textpad-download-10")
-
 
 ----
 #### Congratulations! Your Developer Workstation is setup.

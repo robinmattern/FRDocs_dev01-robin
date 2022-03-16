@@ -1,15 +1,12 @@
-# Not Ready Yet
-
-![Not Ready Yet](./images/fr0000-01_not-ready.png "Not Ready Yet")
 
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
 
-[BACK - First  React Apps](/Setup/fr0102_First-React-Apps.md)
+[BACK - Install FormR Tools](/FormR/fr0401_FRTools-Setup.md)
 </div><div class="page-next">
 
-[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Utu.md)
+[Deploy FormR - NEXT](/FormR/fr0401_Deploy-FormR.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
 
 <!-- ------------------------------------------------------------------------- -->
@@ -80,15 +77,13 @@ npm install
 
 ![FormR-Clone-06](images/fr0103-FormR-Clone-06.png "FormR-Clone-06")
 
-3. Fix the vulnerabilities
+3. Test for vulnerabilities for production
 
 ```
-npm audit fix --force
+npm audit --production
 ```
 
 ![FormR-Clone-06](images/fr0103-FormR-Clone-06a.png "FormR-Clone-06")
-
-![FormR-Clone-06](images/fr0103-FormR-Clone-06b.png "FormR-Clone-06")
 
 4. Right click on the server folder
 
@@ -104,6 +99,13 @@ npm install
 
 ![FormR-Clone-09](images/fr0103-FormR-Clone-09.png "FormR-Clone-09")
 
+3. Test for vulnerabilities for production
+
+```
+npm audit --production
+```
+
+![FormR-Clone-06](images/fr0103-FormR-Clone-06a.png "FormR-Clone-06")
 
 ----
 ### 3. Install RAuth and World databases 0:05
@@ -275,10 +277,10 @@ npm start
 
 <div class="page-back">
 
-[BACK - First  React Apps](/Setup/fr0102_First-Reacpps.md)
+[BACK - Install FormR Tools](/FormR/fr0401_FRTools-Setup.md)
 </div><div class="page-next">
 
-[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubu.md)
+[Deploy FormR - NEXT](/FormR/fr0401_Deploy-FormR.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

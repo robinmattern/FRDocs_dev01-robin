@@ -4,11 +4,13 @@
 <div class="page-back">
 
 
-[Back - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
-</div><div class="page-next disabled">
+[BACK - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
+</div><div class="page-next">
 
-NEXT
+[Install FormR Tools - NEXT](/FormR/fr0401_FRTools-Setup.md)
 </div><div style="margin-top:35px">&nbsp;</div>
+
+
 
 <!-- ------------------------------------------------------------------------- -->
 
@@ -73,23 +75,7 @@ npm run build
 
 ![FRApps-Deploy-12a](/images/fr0103-FRApps-Deploy-12a.png "FRApps-Deploy-12a")
 
-----
-### 3. Test Production Build 5c-my-react-app  0:05
-----
-1. Right click on the client/5c-my-react-app folder
-2. Click Open in Integrated Terminal, then 
-
-![FRApps-Clone-67](../Setup/images/fr0103-FRApps-Clone-67.png "FRApps-Clone-67") 
-
-```
-npm run prod
-```
-
-![FRApps-Deploy-13](/images/fr0103-FRApps-Deploy-13.png "FRApps-Deploy-13")
-
-
-----
-### 4. Deploy Production Build to Remote Server 5c-my-react-app  0:05
+### 3. Deploy Production Build to Remote Server 5c-my-react-app  0:05
 ----
 1. Right click on the client/5c-my-react-app folder
 2. Click Open in Integrated Terminal, then 
@@ -115,9 +101,67 @@ npm run deploy
 ```
 
 ![FRApps-Deploy-14b](/images/fr0103-FRApps-Deploy-14b.png "FRApps-Deploy-14b")
-### 5. Configure your remote server to run my-react-app
 
-- !!! Not Ready yet !!!
+### 4. Configure your remote server to run my-react-app
+
+1. Login using Bitvise and open New SFTP Window
+
+![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15.png "FRApps-Deploy-15")
+
+2. Navigate to:
+
+```
+/etc/nginx/apps-enabled
+```
+
+![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15a.png "FRApps-Deploy-15")
+
+
+3. Create a New File:
+
+```
+formr-xxx-00.com_my-react-app.conf
+```
+![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15b.png "FRApps-Deploy-15")
+
+4. Right-click on formr-xxx-00.com_my-react-app.conf and select Edit.
+
+![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15c.png "FRApps-Deploy-15")
+
+- Add the following and then save the file
+
+```
+location      /my-react-app {      
+
+	alias       /webs/FRApps/client/5c-my-react-app/build/;      
+
+}    
+```
+
+![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15d.png "FRApps-Deploy-15")
+
+![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15d-1.png "FRApps-Deploy-15")
+
+- Save the file
+
+5. In Bitvise open New terminal console and restart the nginx service:
+
+```
+systemctl restart nginx
+```
+
+![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15e.png "FRApps-Deploy-15")
+
+6. From your browser visit
+
+```
+formr-<your initials>-00.com/my-react-app
+
+e.g. formr-cbt-00.com/my-react-app
+```
+
+![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15f.png "FRApps-Deploy-15")
+
 
 
 ----
@@ -129,10 +173,10 @@ npm run deploy
 
 <div class="page-back">
 
-[Back - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
+[BACK - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next disabled">
 
-NEXT
+[Install FormR Tools - NEXT](/FormR/fr0401_FRTools-Setup.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

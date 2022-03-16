@@ -11,7 +11,7 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 2.4 Install App Server 0:30
+## 2.4 Install App Server 0:25
 - [Purpose and Background](../Setup/purposes/pfr0304_Setup-App-Server-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931218086256857118)
 
@@ -130,27 +130,7 @@ pm2 startup systemd
 ![Autostart PM2](./images/fr0304-07_Ubuntu-autostart-pm2.png "Autostart PM2")
 
 ----
-### 5. Install Docsify 0:05
-----
-
-1. Install
-
-```
- npm install docsify -g
-```
-
-![Install Docsify](./images/fr0304-08_Ubuntu-install-docsify.png "Install Docsify")
-
-2. Check
-
-```
-ps -aux | egrep 'docsify'
-```
-
-![Check Docsify](./images/fr0304-09_Ubuntu-check-docsify.png "Check Docsify")
-
-----
-### 6. Install Express 0:05
+### 5. Install Express 0:05
 ----
 
 1. Install 

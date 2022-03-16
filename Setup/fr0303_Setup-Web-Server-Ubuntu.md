@@ -106,7 +106,7 @@ http://xxx.xxx.xxx.xxx
 ----
 ### 3. Install Certbot 0:05
 ----
-1. Install  (Certbot is used to create SSL certificates using LetsEncrypt.)
+1. Install  (Certbot is used to create SSL certificates using LetsEncrypt.) This takes several minutes. Be patient.
 
 ```
 snap install --classic certbot
