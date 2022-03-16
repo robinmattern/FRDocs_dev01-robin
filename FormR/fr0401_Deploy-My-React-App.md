@@ -14,7 +14,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 3.1 Deploy My React App :45 
+## 3.1 Deploy My React App 0:25
 - [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 
@@ -102,7 +102,7 @@ npm run deploy
 
 ![FRApps-Deploy-14b](/images/fr0103-FRApps-Deploy-14b.png "FRApps-Deploy-14b")
 
-### 4. Configure your remote server to run my-react-app
+### 4. Configure your remote server to run my-react-app 0:10 
 
 1. Login using Bitvise and open New SFTP Window
 
