@@ -645,7 +645,7 @@ Added Workspace and Updated Readme.md
 
 ![Github-no](./images/fr0101-10_Github-no.png "Github-no")
 
-6. From the Source Control menu, click the three dots (...) More menu, and click Push.
+6. Click the Sync Changes button to push to github
 
 ![Github-push-3](./images/fr0101-10_Github-push-3.png "Github-push-3")
 
