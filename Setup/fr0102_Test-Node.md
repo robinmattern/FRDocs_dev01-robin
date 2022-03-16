@@ -234,7 +234,7 @@ Add Node App - batch.js
 
 ![Node-github-message-1](images/fr0102-14_Node-github-message-1.png "Node-github-message-1")
 
-3. Click on Commit checkmark
+3. Click on Commit checkmark -
 
 ![Node-github-checkmark](images/fr0102-15_Node-github-checkmark.png "Node-github-checkmark")
 
@@ -275,6 +275,7 @@ npm init
 ```
 npx create-react-app app01c
 ```
+
 
 ![Node-create-react-app](images/fr0102-16_Node-create-react-app.png "Node-create-react-app")
 
