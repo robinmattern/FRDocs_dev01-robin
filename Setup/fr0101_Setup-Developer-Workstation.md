@@ -678,7 +678,7 @@ Added Workspace and Updated Readme.md
 
 ![Github-push-6a](./images/fr0101-10_Github-push-6a.png "Github-push-6a")
 
-10. In VSCode, From the Source Control menu, click the three dots (...) More menu, and click Pull.
+10. Click the Sync Changes button to push to github
 
 ![Github-push-7](./images/fr0101-10_Github-push-7.png "Github-push-7")
 

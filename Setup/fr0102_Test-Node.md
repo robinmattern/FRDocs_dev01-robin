@@ -351,7 +351,7 @@ npm audit --production
      1. Click the Source Control charm
      2. Add description of your choice
      3. Click the checkmark to Commit
-     4. Click Push on the Source Control three dots (...) menu
+     4. Click the Sync Changes button to push to github
 
 ----
 ### 6. Create a Nodejs routine to access the local MySQL database and return information. 0:10
@@ -514,7 +514,7 @@ node queryDB
      1. Click the Source Control charm
      2. Add description of your choice
      3. Click the checkmark to Commit
-     4. Click Push on the Source Control three dots (...) menu
+     4. Click the Sync Changes button to push to github
   
 ----
 #### Congratulations! You have run the Node applications that test your development environment.
