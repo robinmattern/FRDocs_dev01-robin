@@ -12,7 +12,7 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 3.7 Run User Administration
+## 3.6 Run User Administration
 - [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 

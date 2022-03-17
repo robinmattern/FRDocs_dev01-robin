@@ -48,7 +48,7 @@ dir
 
 ![FRApps-Clone-02](images/fr0103-FRApps-Clone-02.png "FRApps-Clone-02")
 
-2. Open with VSCode
+2. Enter the following in the terminal. (It will open VSCode)
 
 ```
 code FRApps.code-workspace
@@ -79,8 +79,7 @@ npm install
 npm audit --production
 ```
 
-![FRApps-Clone-06](images/fr0103-FRApps-Clone-06a.png "FRApps-Clone-06")
-
+![FRApps-Clone-06](images/fr0103-FRApps-Clone-06b.png "FRApps-Clone-06")
 
 4. Right click on the server folder
 

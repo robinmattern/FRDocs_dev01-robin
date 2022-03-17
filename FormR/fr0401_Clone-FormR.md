@@ -3,7 +3,7 @@
 
 <div class="page-back">
 
-[BACK - Install FormR Tools](/FormR/fr0401_FRTools-Setup.md)
+[BACK - Deploy my-react-app](/FormR/fr0401_Deploy-My-React-App.md)
 </div><div class="page-next">
 
 [Deploy FormR - NEXT](/FormR/fr0401_Deploy-FormR.md)
@@ -11,7 +11,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 3.3 Clone FormR 0:45
+## 3.2 Clone FormR 0:45
 - [Purpose and Background](../Setup/purposes/pfr0103_Clone-FormR.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 
@@ -269,6 +269,12 @@ npm start
 ```
 
 ----
+ ### 6. Install FRTools 0:10
+----
+
+Get info from fr0401_FRTools-Setup.md
+
+----
 #### Congratulations! You have Cloned FormR successfully to your local workstation.
 ----
 
@@ -277,7 +283,7 @@ npm start
 
 <div class="page-back">
 
-[BACK - Install FormR Tools](/FormR/fr0401_FRTools-Setup.md)
+[BACK - Deploy my-react-app](/FormR/fr0401_Deploy-My-React-App.md)
 </div><div class="page-next">
 
 [Deploy FormR - NEXT](/FormR/fr0401_Deploy-FormR.md)

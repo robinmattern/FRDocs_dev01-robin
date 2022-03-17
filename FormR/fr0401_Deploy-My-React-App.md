@@ -7,7 +7,7 @@
 [BACK - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next">
 
-[Install FormR Tools - NEXT](/FormR/fr0401_FRTools-Setup.md)
+[Clone FormR - NEXT](/FormR/fr0401_Clone-FormR.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 
@@ -176,7 +176,7 @@ e.g. formr-cbt-00.com/my-react-app
 [BACK - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next disabled">
 
-[Install FormR Tools - NEXT](/FormR/fr0401_FRTools-Setup.md)
+[Clone FormR - NEXT](/FormR/fr0401_Clone-FormR.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->
