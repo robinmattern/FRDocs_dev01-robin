@@ -149,7 +149,7 @@ C:\Users\Local_Admin\.ssh
 - then paste in the following:
 
 ```
-Host vultr-form0-nimda
+Host vultr-formr0-nimda
     HostName       <paste your formr0 server IP address here>
     IdentityFile   C:/Users/Local_Admin/.ssh/<paste your key heere>
     User           nimda
