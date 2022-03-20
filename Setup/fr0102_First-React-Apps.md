@@ -194,6 +194,9 @@ http://localhost:50114/invoices
  ### 6b. Run Client 4c-react-wi-api application 0:05
 ----
 
+#### Note: Be sure step 6a is running
+<br/>
+
 1. Right click on the client/4c-react-wi-api folder (note: client folder not server)
 2. Click Open in Integrated Terminal, then 
 
