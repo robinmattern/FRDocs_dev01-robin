@@ -145,7 +145,7 @@ Password = Vultr-FormR0 root password (copy from Vultr web page)
 
 6. Click New terminal console button
 
-![Vultr New-Profile-Console](./images/fr0301-09_Vultr-New-Profile-Console.png "Vultr New-Profile-Console")
+![Vultr New-Profile-Console](./images/fr0301-09_Vultr-New-Profile-Console-root.png "Vultr New-Profile-Console")
 
 7. You will see the Welcome screen for Ubuntu and the command prompt:
 
