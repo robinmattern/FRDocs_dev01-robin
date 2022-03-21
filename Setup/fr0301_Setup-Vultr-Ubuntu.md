@@ -43,19 +43,23 @@ https://www.vultr.com/?ref=8778592
 
 ![Vultr Cloud Compute](./images/fr0301-02_Vultr-Cloud-Compute.png "Cloud Compute")
 
-4. Server Location
+4. CPU and Storage
+
+![Vultr Server Location](./images/fr0301-03_Vultr-Server-CPU.png "Server Location")
+
+5. Server Location
 
 ![Vultr Server Location](./images/fr0301-03_Vultr-Server-Location.png "Server Location")
 
-5. Server Type: Ubuntu 21.10 x64 (We always choose the highest version for the FormR tutorial. If this version is not available in the future, then choose the highest version.)
+6. Server Image: Ubuntu choose the highest version for the FormR tutorial.
 
 ![Vultr Server Type](./images/fr0301-04_Vultr-Server-Type.png "Server Type")
 
-6. Server Size: 25GB SSD
+7. Server Size: 25GB
 
 ![Vultr Server Size](./images/fr0301-05_Vultr-Server-Size.png "Server Size")
 
-7. Add SSH Key
+8. Add SSH Key
     - Select your Vultr public key in C:\users\Local_Admin\\.ssh
 
 ![Vultr-Select-Key](./images/fr0301-06_Vultr-Select-Key.png "Vultr-Select-Key")
@@ -68,12 +72,16 @@ https://www.vultr.com/?ref=8778592
 
 ![Vultr-add-SSH-key-pasted](./images/fr0301-06_Vultr-add-SSH-key-pasted.png "Vultr-add-SSH-key-pasted")
 
-8. Server Hostname and Label: Vultr-FormR0 for both
+9. Auto Backup = Off
+
+![Vultr-Host-Label](./images/fr0301-07_Vultr-Auto-Backup.png "Vultr-Host-Label")
+
+10. Server Hostname and Label: Vultr-FormR0 for both
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Host-Label.png "Vultr-Host-Label")
 
 
-9. Click Deploy Now
+11. Click Deploy Now
 
 ![Vultr Deploy Now](./images/fr0301-07_Vultr-Deploy-Now.png "Deploy Now")
 
