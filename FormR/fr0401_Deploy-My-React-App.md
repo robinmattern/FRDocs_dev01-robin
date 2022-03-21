@@ -112,18 +112,28 @@ npm run deploy
 2. Navigate to:
 
 ```
-/etc/nginx/apps-enabled
+/etc/nginx/
 ```
+
+- Create a new folder
 
 ![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15a.png "FRApps-Deploy-15")
 
 
-3. Create a New File:
+```
+apps-enabled
+```
+
+![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15a-1.png "FRApps-Deploy-15")
+
+
+3. Create a new Ffle:
+
+![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15b.png "FRApps-Deploy-15")
 
 ```
 formr-xxx-00.com_my-react-app.conf
 ```
-![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15b.png "FRApps-Deploy-15")
 
 4. Right-click on formr-xxx-00.com_my-react-app.conf and select Edit.
 
