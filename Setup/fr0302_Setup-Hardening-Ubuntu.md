@@ -123,6 +123,15 @@ apt-get install unattended-upgrades
 
 ![Install Unattended Upgrades](./images/fr0302-05_Ubuntu-Install-Unattended-Upgrades.png "Install Unattended Upgrades")
 
+- Restart Unattended Upgades
+
+```
+systemctl restart unattended-upgrades
+```
+
+![Install Unattended Upgrades](./images/fr0302-05_Ubuntu-Install-Unattended-Upgrades-1.png "Install Unattended Upgrades")
+
+
 2. Check installation
 ```
 systemctl status unattended-upgrades
