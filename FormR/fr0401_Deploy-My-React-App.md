@@ -76,7 +76,22 @@ npm run build
 
 ![FRApps-Deploy-12a](/images/fr0103-FRApps-Deploy-12a.png "FRApps-Deploy-12a")
 
-### 3. Deploy Production Build to Remote Server 5c-my-react-app  0:05
+### 3. Run Production version of 5c-my-react-app locally 0:05
+----
+1. Right click on the client/5c-my-react-app folder
+2. Click Open in Integrated Terminal, then 
+
+![FRApps-Clone-67](../Setup/images/fr0103-FRApps-Clone-67.png "FRApps-Clone-67") 
+
+```
+npm run prod
+```
+
+![FRApps-Deploy-13](/images/fr0103-FRApps-Deploy-13.png "FRApps-Deploy-13")
+
+![FRApps-Deploy-13a](/images/fr0103-FRApps-Deploy-13a.png "FRApps-Deploy-13a")
+
+### 4. Deploy Production Build to Remote Server 5c-my-react-app  0:05
 ----
 1. Right click on the client/5c-my-react-app folder
 2. Click Open in Integrated Terminal, then 
@@ -103,7 +118,7 @@ npm run deploy
 
 ![FRApps-Deploy-14b](/images/fr0103-FRApps-Deploy-14b.png "FRApps-Deploy-14b")
 
-### 4. Configure your remote server to run my-react-app 0:10 
+### 5. Configure your remote server to run my-react-app 0:10 
 
 1. Login using Bitvise and open New SFTP Window
 
@@ -166,9 +181,9 @@ systemctl restart nginx
 6. From your browser visit
 
 ```
-formr-<your initials>-00.com/my-react-app
+formr-<your initials>-00.com/5c-my-react-app
 
-e.g. formr-cbt-00.com/my-react-app
+e.g. formr-cbt-00.com/5c-my-react-app
 ```
 
 ![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15f.png "FRApps-Deploy-15")
