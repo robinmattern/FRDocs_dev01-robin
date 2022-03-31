@@ -485,11 +485,11 @@ certbot --nginx -d <yoururl>
 
 <yoururl> =  formr-<yourinitials>-00.com e.g. formr-cbt-00.com
 ```
-2. Enter A to Accept
+2. Enter your email address to get renewal notices and then Y to register:
 
 ![BitVise Add SSL](./images/fr0306-11_Ubuntu-Bitvise-add-ssl.png "BitVise Add SSL")
 
-3. Enter 2 to Redirect
+3. Enter Y to Share your email with Lets Encrypt
 
 ![BitVise Add SSL2](./images/fr0306-11_Ubuntu-Bitvise-add-ssl2.png "BitVise Add SSL2")
 

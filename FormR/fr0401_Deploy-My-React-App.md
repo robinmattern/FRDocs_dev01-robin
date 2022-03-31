@@ -148,7 +148,7 @@ npm run deploy
 ![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15b.png "FRApps-Deploy-15")
 
 ```
-formr-xxx-00.com_my-react-app.conf
+formr-xxx-00.com_5c-my-react-app.conf
 ```
 
 4. Right-click on formr-xxx-00.com_my-react-app.conf and select Edit.
@@ -166,8 +166,6 @@ location      /5c-my-react-app {
 ```
 
 ![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15d.png "FRApps-Deploy-15")
-
-![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15d-1.png "FRApps-Deploy-15")
 
 - Save the file
 
