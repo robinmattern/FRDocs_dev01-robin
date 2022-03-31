@@ -38,6 +38,14 @@ C repos FRApps
 
 ![FRApps-Deploy-1](/images/fr0103-FRApps-Deploy-1.png "FRApps-Deploy-1")
 
+- Pull from github to get the latest changes, by clicking the VSCode Source Control charm
+
+![FRApps-Deploy-1](/images/fr0103-FRApps-Deploy-1a.png "FRApps-Deploy-1")
+
+- then click the three dots next to the refresh icon and click Pull
+
+![FRApps-Deploy-1](/images/fr0103-FRApps-Deploy-1b.png "FRApps-Deploy-1")
+
 
 2. Right click on the client/5c-my-react-app folder, then
 click Open in Integrated Terminal, then 
@@ -89,6 +97,8 @@ npm run prod
 
 ![FRApps-Deploy-13](/images/fr0103-FRApps-Deploy-13.png "FRApps-Deploy-13")
 
+- Enter the URL into your browser
+
 ![FRApps-Deploy-13a](/images/fr0103-FRApps-Deploy-13a.png "FRApps-Deploy-13a")
 
 ### 4. Deploy Production Build to Remote Server 5c-my-react-app  0:05
@@ -127,22 +137,13 @@ npm run deploy
 2. Navigate to:
 
 ```
-/etc/nginx/
-```
-
-- Create a new folder
-
-![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15a.png "FRApps-Deploy-15")
-
-
-```
-apps-enabled
+/etc/nginx/apps-enabled
 ```
 
 ![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15a-1.png "FRApps-Deploy-15")
 
 
-3. Create a new Ffle:
+3. Right click to create a new file and enter the name:
 
 ![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15b.png "FRApps-Deploy-15")
 
