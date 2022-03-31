@@ -157,7 +157,7 @@ formr-xxx-00.com_my-react-app.conf
 - Add the following and then save the file
 
 ```
-location      /my-react-app {      
+location      /5c-my-react-app {      
 
 	alias       /webs/FRApps/client/5c-my-react-app/build/;      
 
