@@ -16,7 +16,10 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931218086256857118)
 
 #### Introduction
-
+- You will be using NodeJS to run your applications.
+- nvs (node versuion selector) will help you manazge Nodejs
+- pm2 will be used for running your simpleApp.
+- express will be used for ?????????
 
 #### Important note about names, capitalization, pictures and code copying
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
@@ -55,12 +58,12 @@ reboot
 
 #### Note: To paste commands into the terminal, right-click at the terminal prompt 
 ----
-### 2. Install nvs and nodejs 0:05
+### 2. Install nvs (node version selector) 0:05
 ----
 
 1. Install 
 
-- Clone nvs (node version selector)
+- Clone nvs
 
 ```
 git clone https://github.com/jasongin/nvs .nvs

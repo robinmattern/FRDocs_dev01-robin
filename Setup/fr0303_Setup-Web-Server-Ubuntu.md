@@ -15,7 +15,9 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217213539635200)
 
 #### Introduction
-
+- On your server you will use the web service, NGINX, which is similar to Apache.
+- You will also install, Certbot, which will use the LetsEncrypt stategy for SSL certificates.
+- You will create the /webs folder, which will hold you application files.
 
 #### Important note about names, capitalization, pictures and code copying
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.

@@ -16,7 +16,12 @@
 
 #### Introduction
 - In order to test our FormR apps on the Internet  we will create an Ubuntu server on the cloud provider, Vultr.com. 
-- Vultr costs only $5 per month. Once you complete your secure website, you can destroy the server, which stops the charges.
+- Vultr costs under $10 per month. 
+- Please use the following link when you star:
+
+```
+https://www.vultr.com/?ref=8778592
+```
 
 #### Important note about names, capitalization, pictures and code copying
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.

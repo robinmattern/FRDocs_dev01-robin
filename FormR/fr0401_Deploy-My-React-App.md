@@ -19,7 +19,13 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 
 #### Introduction
-
+- In this step using 5c-my-teact-app you will:
+1. Run the app from development code locally
+2. Build a production version
+3. Run the production version locally
+4. Deploy the production version to your server
+5. Configure the app on your server
+6. Run the app on your server from your local browser
 
 #### Important note about names, capitalization, pictures and code copying
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.

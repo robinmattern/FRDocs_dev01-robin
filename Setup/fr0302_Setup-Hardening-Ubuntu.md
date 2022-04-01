@@ -15,8 +15,8 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217151241642005)
 
 #### Introduction
-- IMPORTANT:  Copy the code lines from the documentation, then click the Send Clipboard button to paste to the console.
-- Tip: To clear the console at the console prompt enter: clear
+- When you secure a server on the internet it is called "hardening". 
+- In this step you will perform a number of tasks that will make it very difficult for malicious people to harm your server.
 
 #### Important note about names, capitalization, pictures and code copying
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
@@ -65,6 +65,7 @@ useradd -ou 0 -g 0 -d /root -s /bin/bash -G sudo nimda
 
 ![New User](./images/fr0302-02_Ubuntu-New-User.png "New User")
 
+- Tip: To clear the console at the console prompt enter: clear
 
 2. Add the nimda password: FormR!1234 and retype it
 

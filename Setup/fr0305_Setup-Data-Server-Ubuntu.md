@@ -15,7 +15,9 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 
 #### Introduction
-
+- MySql will be your database on your server.
+- In this step you will install and secure it.
+- You will test your access from your local workstation.
 
 #### Important note about names, capitalization, pictures and code copying
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
@@ -186,7 +188,7 @@ systemctl status mysql.service
 
 
 ----
-### 4. Login as nimdas remotely from your local PC with MySQL Shell. --Don't save the password-- 0:05
+### 4. Login as nimdas remotely from your local PC with MySQL Shell.  0:05
 ----
 1. From Windows command prompt enter the following: (Use your Vultur server IP address)
 
@@ -194,9 +196,13 @@ systemctl status mysql.service
 
 ```
 mysqlsh /connect nimdas@xxx.xxx.xxx.xxx:3306
+
+Enter the password FormR!1234
+
+Enter v to never save the password
 ```
 
-- Enter the password FormR!1234
+![Mysql-setup-login-admin-mysqlsh-local](./images/fr0305-10_Ubuntu-login-admin-mysqlsh-local.png "Mysql-setup-login-admin-mysqlsh-local")
 
 2. Check Version. From the mysql command prompt enter the following:
 
@@ -204,13 +210,14 @@ mysqlsh /connect nimdas@xxx.xxx.xxx.xxx:3306
 \sql SELECT VERSION();
 ```
 
-![Mysql-setup-login-admin-mysqlsh-local](./images/fr0305-10_Ubuntu-login-admin-mysqlsh-local.png "Mysql-setup-login-admin-mysqlsh-local")
+![Mysql-setup-login-admin-mysqlsh-local](./images/fr0305-10_Ubuntu-login-admin-mysqlsh-local1.png "Mysql-setup-login-admin-mysqlsh-local")
  
 3. Exit mysqlsh. From the mysql command prompt enter the following:
 
 ```
 \quit
 ```
+![Mysql-setup-login-admin-mysqlsh-local](./images/fr0305-10_Ubuntu-login-admin-mysqlsh-local2.png "Mysql-setup-login-admin-mysqlsh-local")
 
 ----
 #### Congratulations! You have installed a Database server on your Ubuntu server.

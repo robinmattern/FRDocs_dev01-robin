@@ -16,7 +16,15 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931218167236276224)
 
 #### Introduction
-
+- In this step you will:
+    1. Configue publickey access from Bitvice to your server
+    2. Clone SimpleApp to your server
+    3. Configure your server to run the app
+    4. Obtain a Domain Name and update your DNS record
+    5. Personalize your app
+    6. Add an SSL certificate
+    7. Clean up protocols
+    8. Test your new website for SSL security
 
 #### Important note about names, capitalization, pictures and code copying
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.

@@ -23,21 +23,36 @@
 1. If you have access to a Windows 10 or higher workstation.
 2. If you have zero knowledge about computing.
 3. If you have substantial knowledge about it.
-4. If you want to spend under $30.
-5. If you want to boast:  "I have completed all the steps to build my own live and secure web database server on the Internet" 
+4. If you are willing to spend $30.
+5. If you want to create database applications on your own server. 
+6. If you want to boast:  "I have completed all the steps to build my own live and secure web database server on the Internet" 
 
 ----
+<br/>
+
 Your URL would be: formr-yourinitials-00.com
 
 <br/>
 
 ![Your FormR Website](/images/fr0001-01_FormR.png "Your FormR Website")
 
+<br/>
+
 and it's very secure
 
 <br/>
 
 ![Your FormR Secure](/images/fr0001-01_FormR1.png "Your FormR Secure")
+
+<br/>
+
+
+- You will create multiple applications starting with the following customizable app:
+
+<br/>
+
+![Your FormR Custom](/images/fr0001-01_FormR2.png "Your FormR Custom")
+
 
 ----
 ### Background for FormR
@@ -50,7 +65,9 @@ and it's very secure
 ----
 ### How is this FormR tutorial funded
 ----
-- We are funded by donations from you. If you find this tutorial valuable, then please donate $5, $10 or $20 via Zelle at your bank. Send to 8020data@gmail.com. Thank you! This helps us keep FormR updated.
+- We are funded by donations and referrals by you. 
+- If you need our advice, we will be glad to help. Just send us an email to 8020data@gmail.com. 
+- If you find this tutorial valuable, then please donate $5, $10 or $20 via Zelle at your bank. Zelle to 8020data@gmail.com. Thank you! This helps us keep FormR updated.
 
 - [Find your bank on Zelle](https://www.zellepay.com/get-started)
 
@@ -99,7 +116,7 @@ and it's very secure
 ----
 #### Build a secure Cloud Server
 ----
-1. You will create an Ubuntu server on the cloud. (Estimated cost $5/mo.)
+1. You will create an Ubuntu server on the cloud. (Estimated cost under $10/mo.)
 2. You will harden your Ubuntu server to make it secure.
 3. You will install and test web, application and database servers.
 4. You will obtain a unique domain/URL (Estimated cost $20/yr.)
