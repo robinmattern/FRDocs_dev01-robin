@@ -6,24 +6,45 @@
 [BACK - Workstation](/Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[First React Apps - NEXT](/Setup/purposes/pfr0102_First-React-Apps.md)
+[Clone First React Apps - NEXT](/Setup/purposes/pfr0102_Clone-Clone-First-React-Apps.md)
 </div><div style="margin-top:35px">&nbsp;</div>
  
 <!-- ------------------------------------------------------------------------- -->
 
-## Purpose for 1.2 Test Node
+## Purpose for 1.2 Test NodeJS 
 
-#### Introduction  (*This section is not complete*)
 ----
 
+After building your workstation youu will test its capabilities by creating and running serveral simple routines.
 
-1. Test The Node Version.0:05
-2. Create Sub-Folders In MyProject0:05
-3. Create A New File, Batch.Js, In The Scripts Folder And Run It With Nodejs. 0:10
-4. Create A New File, Server.Js In The Server Folder And Run It With Nodejs. 0:10
-5. Create A Basic React App In The Client Folder And Run It With Nodejs. 0:10
-6. Create A Nodejs Routine To Access The Local MySQL Database And Return Information.
+<br/>
 
+You will use github, express, VSCode and MySQL.
+
+----
+
+Why github
+
+https://happygitwithr.com/big-picture.html
+
+----
+Why MySQL
+
+http://www.databasequest.com/index.php/product-service/mysql-dbquest
+
+----
+Why Express
+
+https://www.besanttechnologies.com/what-is-expressjs
+
+----
+Why VSCode
+
+https://blog.devgenius.io/the-reasons-why-you-must-use-visual-studio-code-b522f946a849
+
+
+
+----
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
@@ -31,7 +52,7 @@
 [BACK - Workstation](/Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[First React Apps - NEXT](/Setup/purposes/pfr0102_First-React-Apps.md)
+[Clone First React Apps - NEXT](/Setup/purposes/pfr0102_Clone-Clone-First-React-Apps.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

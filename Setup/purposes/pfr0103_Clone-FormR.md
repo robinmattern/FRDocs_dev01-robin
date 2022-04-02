@@ -3,15 +3,15 @@
 
 <div class="page-back">
 
-[BACK - First React Apps](/Setup/purposes/pfr0102_First-React-Apps.md)
+[BACK - Deploy my-react-app](/Setup/purposes/pfr0307_Deploy-my-react-app.md)
 </div><div class="page-next">
 
-[Vultr Ubuntu - NEXT](/Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
+[Deploy-FormR - NEXT](/Setup/purposes/pfr0307_Deploy-FormR.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
 
 <!-- ------------------------------------------------------------------------- -->
 
-## Purpose for 1.4 Clone FormR
+## Purpose for 3.2 Clone FormR
 
 #### Introduction  (*This section is not complete*)
 ----
@@ -27,10 +27,10 @@
 
 <div class="page-back">
 
-[BACK - First React Apps](/Setup/purposes/pfr0102_First-React-Apps.md)
+[BACK - Deploy my-react-app](/Setup/purposes/pfr0307_Deploy-my-react-app.md)
 </div><div class="page-next">
 
-[Vultr Ubuntu - NEXT](/Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
+[Deploy-FormR - NEXT](/Setup/purposes/pfr0307_Deploy-FormR.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

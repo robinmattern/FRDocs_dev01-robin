@@ -6,7 +6,7 @@
 [BACK - Install Data Server](/Setup/purposes/pfr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[First React Apps - NEXT](/Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
+[Deploy my-react-app - NEXT](/Setup/purposes/pfr0307_Deploy-my-react-app.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
 
@@ -48,7 +48,7 @@ https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with
 [BACK - Install Data Server](/Setup/purposes/pfr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[First React Apps - NEXT](/Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
+[Deploy my-react-app - NEXT](/Setup/purposes/pfr0307_Deploy-my-react-app.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

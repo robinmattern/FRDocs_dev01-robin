@@ -5,13 +5,15 @@
 BACK
 </div><div class="page-next">
 
-[Test Node - NEXT](/Setup/purposes/pfr0102_Test-Node.md)
+[Test NodeJS - NEXT](/Setup/purposes/pfr0102_Test-Node.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
 ## Purpose for 1.1 Workstation 
-#### Introduction  (*This section is not complete*)
+----
+
+The FormR tutorial uses the following tools to create and maintain your applications during development and in production. 
 
 ----
 Why MySQL
@@ -34,17 +36,24 @@ Why Node
 https://relevant.software/blog/why-and-when-to-use-node-js/
 
 ----
-
 Why Javascript
 
 https://www.zdnet.com/article/top-programming-languages-most-popular-and-fastest-growing-choices-for-developers/
 
 ----
+Why VSCode
 
-
+https://blog.devgenius.io/the-reasons-why-you-must-use-visual-studio-code-b522f946a849
 
 ----
+Why Bitvise
 
+https://www.youtube.com/watch?v=lJjEhWC0XYQ
+
+----
+Why Markdown
+
+https://www.makeuseof.com/why-is-markdown-popular-reasons-you-should-use-it/
 
 ----
 <!-- ------------------------------------------------------------------------- -->
@@ -55,7 +64,7 @@ https://www.zdnet.com/article/top-programming-languages-most-popular-and-fastest
 BACK
 </div><div class="page-next">
 
-[Test Node - NEXT](/Setup/purposes/pfr0102_Test-Node.md)
+[Test NodeJS - NEXT](/Setup/purposes/pfr0102_Test-Node.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->
