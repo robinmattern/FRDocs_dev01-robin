@@ -5,7 +5,7 @@
 [BACK - Use Your Own Data](/FormR/fr0501_Use-Your_Qwn_Data.md)
 </div><div class="page-next disabled">
 
-NEXT
+
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -35,7 +35,7 @@ NEXT
 [BACK - Use Your Own Data](/FormR/fr0501_Use-Your_Qwn_Data.md)
 </div><div class="page-next disabled">
 
-NEXT
+
 </div>
 
 <!-- ------------------------------------------------------------------------- -->
