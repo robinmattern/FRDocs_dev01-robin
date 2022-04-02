@@ -16,8 +16,7 @@
 
 ## 3.1 Deploy My React App 0:25
 - [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
-- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
-
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217970355667016)
 #### Introduction
 - In this step using 5c-my-teact-app you will:
 1. Run the app from development code locally
