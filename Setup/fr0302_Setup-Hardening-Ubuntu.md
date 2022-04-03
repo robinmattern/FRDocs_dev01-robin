@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.2 Harden Ubuntu 1:10
+## 2.2 Harden Ubuntu 1:20
 - [Purpose and Background](../Setup/purposes/pfr0302_Setup-Hardening-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217151241642005)
 
@@ -463,7 +463,7 @@ ufw status
 ----
 ### 10. Set the server time zone 0:05
 ----
-1. Enter into the cpnsole:
+1. Enter into the server console:
 
 ```
 timedatectl set-timezone America/New_York 
@@ -477,8 +477,46 @@ timedatectl
 
 ![Set Time Zone](./images/fr0302-19_Ubuntu-set-timezone.png "Set Time Zone")
 
+---
+### 11. Clone Lynis and perform audit 0:10
 ----
-### 11. Test local access after Hardening 0:05
+
+1. Enter into the server console:
+
+```
+cd /etc
+
+git clone https://github.com/CISOfy/lynis
+```
+
+![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis.png "Install Lynis")
+
+2. Check Lynis version
+
+```
+cd /etc/lynis
+
+./lynis --version
+```
+
+![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis1.png "Install Lynis")
+
+3. Audit your system
+
+```
+./lynis audit system --quick
+```
+
+![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis2.png "Install Lynis")
+
+![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis3.png "Install Lynis")
+
+4. Study the suggestions
+
+![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis4.png "Install Lynis")
+
+----
+### 12. Test local access after Hardening 0:05
 ----
 1. Test local access to your Vultr FormR VM. 
 
@@ -495,6 +533,7 @@ ssh nimda@<your VM IP address>
 ```
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
+
 
 ----
 #### Congratulations! You have hardened your Ubuntu server on Vultr.
