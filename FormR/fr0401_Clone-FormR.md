@@ -78,6 +78,13 @@ npm install
 
 ![FormR-Clone-06](images/fr0103-FormR-Clone-06.png "FormR-Clone-06")
 
+- This process takes several minutes. 
+
+- If you receive a network connectivity error such as follows, then npm install again before proceeding
+
+![FormR-Clone-06](images/fr0103-FormR-Clone-06-error.png "FormR-Clone-06")
+
+
 3. Test for vulnerabilities for production
 
 ```
@@ -85,6 +92,14 @@ npm audit --production
 ```
 
 ![FormR-Clone-06](images/fr0103-FormR-Clone-06a.png "FormR-Clone-06")
+
+- If you get errors such as follows, run the following and then repeat npm audit --production
+
+```
+npm audit fix
+```
+
+![FormR-Clone-06](images/fr0103-FormR-Clone-06a-error.png "FormR-Clone-06")
 
 4. Right click on the server folder
 
