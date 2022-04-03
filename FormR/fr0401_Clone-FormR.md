@@ -119,6 +119,8 @@ Note: The World sample database has been modified so that all tables contain ID 
 
 1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
 
+![FormR-Clone-10](images/fr0103-FormR-Clone-10-1.png "FormR-Clone-10")
+
 2. Click the Local Instance under MySQL Connections
 
 ![FormR-Clone-10](images/fr0103-FormR-Clone-10.png "FormR-Clone-10")
