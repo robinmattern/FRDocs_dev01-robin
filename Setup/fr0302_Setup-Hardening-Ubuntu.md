@@ -477,8 +477,44 @@ timedatectl
 
 ![Set Time Zone](./images/fr0302-19_Ubuntu-set-timezone.png "Set Time Zone")
 
----
-### 11. Clone Lynis and perform audit 0:10
+----
+### 11. Install Rootkit Hunter and perform check 0:05
+----
+
+1. Enter into the server console:
+
+```
+apt-get install rkhunter -y
+```
+
+![Install Lynis](./images/fr0302-19_Ubuntu-install-rkhunter.png "Install rkhunter")
+
+2. Check rkhunter version
+
+```
+rkhunter --version
+```
+
+![Install rkhunter](./images/fr0302-19_Ubuntu-install-rkhunter1.png "Install rkhunter")
+
+3. Audit your system
+
+```
+rkhunter --check
+```
+
+![Install rkhunter](./images/fr0302-19_Ubuntu-install-rkhunter2.png "Install rkhunter")
+
+- Press Enter for each of 4 pauses
+
+![Install rkhunter](./images/fr0302-19_Ubuntu-install-rkhunter3.png "Install rkhunter")
+
+- Summary
+
+![Install rkhunter](./images/fr0302-19_Ubuntu-install-rkhunter4.png "Install rkhunter")
+
+----
+### 12. Clone Lynis and perform audit 0:10
 ----
 
 1. Enter into the server console:
@@ -515,8 +551,12 @@ cd /etc/lynis
 
 ![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis4.png "Install Lynis")
 
+
+- For more: [Lynis Security Tool for Audit and Hardening](https://www.geeksforgeeks.org/lynis-security-tool-for-audit-and-hardening-linux-systems/)
+
+
 ----
-### 12. Test local access after Hardening 0:05
+### 13. Test local access after Hardening 0:05
 ----
 1. Test local access to your Vultr FormR VM. 
 

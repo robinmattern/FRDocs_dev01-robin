@@ -17,7 +17,7 @@
 #### Introduction
 - In order to test our FormR apps on the Internet  we will create an Ubuntu server on the cloud provider, Vultr.com. 
 - Vultr costs under $10 per month. 
-- Please use the following link when you star:
+- Please use the following link when you begin:
 
 ```
 https://www.vultr.com/?ref=8778592

@@ -15,7 +15,9 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 
 #### Introduction
-The following steps create the development environment on your workstation for developing an MERN stack (MYSql, Express, React and Node) application. You will access a repository on github and modify it, run it and push changes back to github. We will be using an empty 'Windows Pro N' VM in these instructions. You should be able to use any workstation. Just follow the steps. The total disk space required is 7 GB.
+- The following steps create the development environment on your workstation for developing an MERN stack (MYSql, Express, React and Node) application. 
+
+- You will access a repository on github and modify it, run it and push changes back to github. We will be using an empty 'Windows Pro N' VM in these instructions. You should be able to use any workstation. Just follow the steps. The total disk space required is 7 GB.
 
 #### Important note about names, capitalization, pictures and code copying
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.

@@ -16,7 +16,8 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216136853413958)
 
 #### Introduction
-The following steps create several basic node applications. There are script, server, client and MySQL testing applications. Each has special requirements. You will create a folder structure and install the required packages. Everything will be installed in the repos/myProject folder. All activities will be done in VSCode.   
+- The following steps create several basic node applications. 
+- There are script, server, client and MySQL testing applications. Each has special requirements. You will create a folder structure and install the required packages. Everything will be installed in the repos/myProject folder. All activities will be done in VSCode.   
 
 #### Important note about names, capitalization, pictures and code copying
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
