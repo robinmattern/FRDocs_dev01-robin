@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.2 Harden Ubuntu 1:20
+## 2.2 Harden Ubuntu 1:35
 - [Purpose and Background](../Setup/purposes/pfr0302_Setup-Hardening-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217151241642005)
 
@@ -551,8 +551,19 @@ cd /etc/lynis
 
 ![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis4.png "Install Lynis")
 
+#### Note: Issues reported by both rkhunter and lynis require more attention than FormR can offer.
 
-- For more: [Lynis Security Tool for Audit and Hardening](https://www.geeksforgeeks.org/lynis-security-tool-for-audit-and-hardening-linux-systems/)
+<br/>
+
+- For more information: 
+
+<br/>
+
+[How To Use RKHunter to Guard Against Rootkits on an Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-use-rkhunter-to-guard-against-rootkits-on-an-ubuntu-vps)
+
+<br/>
+
+[Lynis Security Tool for Audit and Hardening](https://www.geeksforgeeks.org/lynis-security-tool-for-audit-and-hardening-linux-systems/)
 
 
 ----
