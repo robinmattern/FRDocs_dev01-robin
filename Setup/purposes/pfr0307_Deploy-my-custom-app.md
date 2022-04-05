@@ -12,7 +12,7 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## Purpose for 3.1 Deploy My React Apps
+## Purpose for 3.1 Deploy My Custom App
 
 #### Introduction  (*This section is not complete*)
 ----

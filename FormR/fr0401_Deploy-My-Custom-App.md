@@ -14,7 +14,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 3.1 Deploy My React App 0:25
+## 3.1 Deploy My Custom App 0:25
 - [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217970355667016)
 #### Introduction

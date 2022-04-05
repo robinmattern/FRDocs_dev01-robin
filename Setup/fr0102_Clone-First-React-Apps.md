@@ -6,7 +6,7 @@
 [BACK - Test NodeJS](/Setup/fr0102_Test-Node.md)
 </div><div class="page-next">
 
-[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+[Build Custom React App - NEXT](/Setup/fr0104_build-custom-react-app.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
@@ -244,6 +244,7 @@ npm start
 ![FRApps-Clone68b](images/fr0103-FRApps-Clone-68b.png "FRApps-Clone-68b")
 
 
+
 ----
 #### Congratulations! You have cloned and run the FRApps successfully to your local workstation.
 ----
@@ -256,7 +257,7 @@ npm start
 </div><div class="page-next">
 
 
-[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+[Build Custom React App - NEXT](/Setup/fr0104_build-custom-react-app.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

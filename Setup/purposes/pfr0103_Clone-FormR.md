@@ -3,7 +3,7 @@
 
 <div class="page-back">
 
-[BACK - Deploy my-react-app](/Setup/purposes/pfr0307_Deploy-my-react-app.md)
+[BACK - Deploy my-react-app](/Setup/purposes/pfr0307_Deploy-My-Custom-App.md)
 </div><div class="page-next">
 
 [Deploy-FormR - NEXT](/Setup/purposes/pfr0307_Deploy-FormR.md)
@@ -27,7 +27,7 @@
 
 <div class="page-back">
 
-[BACK - Deploy my-react-app](/Setup/purposes/pfr0307_Deploy-my-react-app.md)
+[BACK - Deploy my-react-app](/Setup/purposes/pfr0307_Deploy-My-Custom-App.md)
 </div><div class="page-next">
 
 [Deploy-FormR - NEXT](/Setup/purposes/pfr0307_Deploy-FormR.md)

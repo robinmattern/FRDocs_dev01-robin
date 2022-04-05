@@ -6,7 +6,7 @@
 [BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[Deploy my-react-app - NEXT](/FormR/fr0401_Deploy-My-React-App.md)
+[Deploy my-react-app - NEXT](/FormR/fr0401_Deploy-My-Custom-App.md)
 </div>
 <div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
