@@ -81,6 +81,21 @@ PORT=50166
 
 ![FRApps-Clone69](images/fr0103-FRApps-Clone-69-7.png "FRApps-Clone-69")
 
+6. From 6c-my-custom-app/public folder, click to open the index.html file
+
+![FRApps-Clone69](images/fr0103-FRApps-Clone-69-8.png "FRApps-Clone-69")
+
+- Change the title
+
+```
+    <title>My Custom App</title>
+```
+
+![FRApps-Clone69](images/fr0103-FRApps-Clone-69-9.png "FRApps-Clone-69")
+
+
+
+
 ----
 ### 2. Run Client 6c-my-custom-app application 0:05
 ----
