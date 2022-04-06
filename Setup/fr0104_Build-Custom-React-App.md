@@ -105,7 +105,64 @@ npm start
 ![FRApps-Custom-01c](images/fr0103-FRApps-Custom-01c.png "FRApps-Custom-01c")
 
 ----
-### 3. Modify App.js - Add Component Library 0:05
+### 3. Install and test React-Bootstrap component library 0:05
+----
+
+[React-Bootstrap Reference](https://react-bootstrap.github.io/forms/overview/)
+
+<br/>
+
+1. Right click on the client/ folder
+2. Click Open in Integrated Terminal, then 
+
+![FRApps-Custom-02](images/fr0103-FRApps-Custom-02.png "FRApps-Custom-02")
+
+```
+npm install react-bootstrap bootstrap
+```
+
+![FRApps-Custom-02](images/fr0103-FRApps-Custom-02a.png "FRApps-Custom-02")
+
+3. Check for production vulnerabilities
+
+```
+npm audit --production
+```
+
+![FRApps-Custom-02](images/fr0103-FRApps-Custom-02b.png "FRApps-Custom-02")
+
+3. Open src/App.js and add a Primary Button
+
+<br/>
+
+- Add the following import statement to App.js
+
+```
+import Button from 'react-bootstrap/Button';
+```
+
+![FRApps-Custom-02](images/fr0103-FRApps-Custom-02c.png "FRApps-Custom-02")
+
+- Add the following code snippet to App.js
+
+```
+      <p>
+        <Button variant="primary">
+          Primary Button
+        </Button>
+      </p>
+```
+
+![FRApps-Custom-02](images/fr0103-FRApps-Custom-02d.png "FRApps-Custom-02")
+
+
+4. Run or refresh http://localhost:50166/6c-my-custom-app on your browser
+
+![FRApps-Custom-02](images/fr0103-FRApps-Custom-02e.png "FRApps-Custom-02")
+
+
+----
+### 4. Add Carousel component 0:05
 ----
 
 
