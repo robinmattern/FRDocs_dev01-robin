@@ -105,7 +105,7 @@ npm start
 ![FRApps-Custom-01c](images/fr0103-FRApps-Custom-01c.png "FRApps-Custom-01c")
 
 ----
-### 3. Modify App.js - Add Component 0:05
+### 3. Modify App.js - Add Component Library 0:05
 ----
 
 
