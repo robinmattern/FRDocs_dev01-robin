@@ -120,7 +120,7 @@ npm start
 ![FRApps-Custom-01c](images/fr0103-FRApps-Custom-01c.png "FRApps-Custom-01c")
 
 ----
-### 3. Install and test React-Bootstrap component library 0:05
+### 3. Install and test React-Bootstrap and BootStrap libraries 0:05
 ----
 
 [React-Bootstrap Reference](https://react-bootstrap.github.io/forms/overview/)
@@ -132,13 +132,22 @@ npm start
 
 ![FRApps-Custom-02](images/fr0103-FRApps-Custom-02.png "FRApps-Custom-02")
 
+
 ```
-npm install react-bootstrap bootstrap
+npm install react-bootstrap 
 ```
 
 ![FRApps-Custom-02](images/fr0103-FRApps-Custom-02a.png "FRApps-Custom-02")
 
-3. Check for production vulnerabilities
+3. In terminal Enter
+
+```
+npm install bootstrap
+```
+
+![FRApps-Custom-02](images/fr0103-FRApps-Custom-02a1.png "FRApps-Custom-02")
+
+4. Check for production vulnerabilities
 
 ```
 npm audit --production
@@ -146,15 +155,23 @@ npm audit --production
 
 ![FRApps-Custom-02](images/fr0103-FRApps-Custom-02b.png "FRApps-Custom-02")
 
-3. Open src/App.js and add a Primary Button
+### 5. Add a Primary Button 0:05
 
 <br/>
 
-- Add the following import statement to App.js
+- Open src/App.js and add the following import statements to App.js
 
 ```
 import Button from 'react-bootstrap/Button';
+import "bootstrap/dist/css/bootstrap.css";
 ```
+
+- Remove this import statement
+
+```
+import "./App.css";
+```
+
 
 ![FRApps-Custom-02](images/fr0103-FRApps-Custom-02c.png "FRApps-Custom-02")
 
@@ -171,21 +188,66 @@ import Button from 'react-bootstrap/Button';
 ![FRApps-Custom-02](images/fr0103-FRApps-Custom-02d.png "FRApps-Custom-02")
 
 
-4. Run or refresh http://localhost:50166/6c-my-custom-app on your browser
+6. Run or refresh http://localhost:50166/6c-my-custom-app on your browser
 
 ![FRApps-Custom-02](images/fr0103-FRApps-Custom-02e.png "FRApps-Custom-02")
 
 
 ----
-### 4. Add Carousel component 0:05
+### 6. Add Carousel component 0:05
 ----
 
+[Carousel Sample](https://codesandbox.io/s/carousel-9vhdv2?file=/src/App.js)
+
+<br/>
+
+1. Open src/App.js and add the following import statements to App.js
+
+```
+import Carousel from "react-bootstrap/Carousel";
+import Image from 'react-bootstrap/Image'
+```
+
+![FRApps-Custom-03](images/fr0103-FRApps-Custom-03c.png "FRApps-Custom-03")
+
+2. Add the following code snippet to App.js
+
+```
+      <div>
+        <Carousel>
+          <Carousel.Item interval={500}>
+            <Image
+              className="d-block w-100"
+              src="https://iso.500px.com/wp-content/uploads/2016/02/stock-photo-114337435.jpg"
+              alt="First Slide"
+              roundedCircle
+            />
+            <Carousel.Caption>
+              <h3>Label for first slide</h3>
+              <p>Sample Text for Image One</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item interval={500}>
+            <Image
+              className="d-block w-100"
+              src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+              alt="Second Slide"
+            />
+            <Carousel.Caption>
+              <h3>Label for second slide</h3>
+              <p>Sample Text for Image Two</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </div>
+```
+
+![FRApps-Custom-03](images/fr0103-FRApps-Custom-03d.png "FRApps-Custom-03")
 
 
+3. Run or refresh http://localhost:50166/6c-my-custom-app on your browser
 
-
-
-
+![FRApps-Custom-03](images/fr0103-FRApps-Custom-03e.png "FRApps-Custom-03")
 
 <!-- ------------------------------------------------------------------------- -->
 
