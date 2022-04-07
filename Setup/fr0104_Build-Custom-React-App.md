@@ -249,6 +249,64 @@ import Image from 'react-bootstrap/Image'
 
 ![FRApps-Custom-03](images/fr0103-FRApps-Custom-03e.png "FRApps-Custom-03")
 
+
+### 7. Add Nav component 0:05
+----
+
+[Nav Sample](https://codesandbox.io/s/carousel-9vhdv2?file=/src/App.js)
+
+<br/>
+
+1. Open src/App.js and add the following import statements to App.js
+
+```
+import Carousel from "react-bootstrap/Carousel";
+import Image from 'react-bootstrap/Image'
+```
+
+![FRApps-Custom-03](images/fr0103-FRApps-Custom-03c.png "FRApps-Custom-03")
+
+2. Add the following code snippet to App.js
+
+```
+      <div>
+        <Carousel>
+          <Carousel.Item interval={500}>
+            <Image
+              className="d-block w-100"
+              src="https://iso.500px.com/wp-content/uploads/2016/02/stock-photo-114337435.jpg"
+              alt="First Slide"
+              roundedCircle
+            />
+            <Carousel.Caption>
+              <h3>Label for first slide</h3>
+              <p>Sample Text for Image One</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item interval={500}>
+            <Image
+              className="d-block w-100"
+              src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111.jpg"
+              alt="Second Slide"
+            />
+            <Carousel.Caption>
+              <h3>Label for second slide</h3>
+              <p>Sample Text for Image Two</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
+      </div>
+```
+
+![FRApps-Custom-03](images/fr0103-FRApps-Custom-03d.png "FRApps-Custom-03")
+
+
+3. Run or refresh http://localhost:50166/6c-my-custom-app on your browser
+
+![FRApps-Custom-03](images/fr0103-FRApps-Custom-03e.png "FRApps-Custom-03")
+
+
+
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
