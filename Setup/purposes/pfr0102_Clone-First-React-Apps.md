@@ -6,7 +6,7 @@
 [BACK - Test NodeJS](/Setup/purposes/pfr0102_Test-Node.md)
 </div><div class="page-next">
 
-[Customize FR Apps - NEXT](/Setup/purposes/pfr0104_Build-Custom-React-App.md)
+[Custom FR Apps HTML - NEXT](/Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 </div><div style="margin-top:35px">&nbsp;</div>
  
 <!-- ------------------------------------------------------------------------- -->
@@ -45,6 +45,6 @@ https://relevant.software/blog/react-js-security-guide/
 [BACK - Test Node](/Setup/purposes/pfr0102_Test-Node.md)
 </div><div class="page-next">
 
-[Customize FR Apps - NEXT](/Setup/purposes/pfr0104_Build-Custom-React-App.md)
+[Custom FR Apps HTML - NEXT](/Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 </div>
 <!-- ------------------------------------------------------------------------- -->

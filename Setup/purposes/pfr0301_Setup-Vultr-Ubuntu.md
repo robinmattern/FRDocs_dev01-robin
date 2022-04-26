@@ -2,7 +2,7 @@
 
 <div class="page-back">
 
-[BACK - Customize FR Apps ](/Setup/purposes/pfr0104_Build-Custom-React-App.md)
+[BACK - Custom FR Apps HTML ](/Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 </div><div class="page-next">
 
 [Harden Ubuntu - NEXT](/Setup/purposes/pfr0302_Setup-Hardening-Ubuntu.md)
@@ -35,7 +35,7 @@ https://fossbytes.com/reasons-to-use-ubuntu-linux-advantage/
 
 <div class="page-back">
 
-[BACK - Customize FR Apps ](/Setup/purposes/pfr0104_Build-Custom-React-App.md)
+[BACK - Custom FR Apps HTML ](/Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 </div><div class="page-next">
 
 [Harden Ubuntu - NEXT](/Setup/purposes/pfr0302_Setup-Hardening-Ubuntu.md)
