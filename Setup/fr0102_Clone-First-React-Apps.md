@@ -6,17 +6,17 @@
 [BACK - Test NodeJS](/Setup/fr0102_Test-Node.md)
 </div><div class="page-next">
 
-[Build Custom React App - NEXT](/Setup/fr0104_build-custom-react-app.md)
+[Customize FR Apps - NEXT](/Setup/fr0104_build-custom-react-app.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.3 Clone First React Apps 0:45
+## 1.3 Clone FR Apps 0:45
 - [Purpose and Background](../Setup/purposes/pfr0102_Clone-First-React-Apps.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
 #### Introduction  
-- First React Apps is a collection of applications that use React. The apps increase from simple through database access. For the rest of the tutorial we will focus on React apps. 
+- FR Apps is a collection of applications that use React. The apps increase from simple through database access. For the rest of the tutorial we will focus on React apps. 
 - In this topic you will clone and test these basic React applications on your local workstation.
 
 
@@ -257,7 +257,7 @@ npm start
 </div><div class="page-next">
 
 
-[Build Custom React App - NEXT](/Setup/fr0104_build-custom-react-app.md)
+[Customize FR Apps - NEXT](/Setup/fr0104_build-custom-react-app.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

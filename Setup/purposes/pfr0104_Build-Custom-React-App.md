@@ -3,7 +3,7 @@
 
 <div class="page-back">
 
-[BACK - Clone First React Apps](/Setup/purposes/pfr0102_Clone-First-React-Apps.md)
+[BACK - Clone FR Apps](/Setup/purposes/pfr0102_Clone-First-React-Apps.md)
 </div><div class="page-next">
 
 [Vultr Ubuntu - NEXT](/Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
@@ -11,7 +11,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## Purpose for 1.4 Build Custom React App
+## Purpose for 1.4 Customize FR Apps
 
 ----
 
@@ -25,7 +25,7 @@ Build Custom ...
 
 <div class="page-back">
 
-[BACK - Clone First React Apps](/Setup/purposes/pfr0102_Clone-First-React-Apps.md)
+[BACK - Clone FR Apps](/Setup/purposes/pfr0102_Clone-First-React-Apps.md)
 </div><div class="page-next">
 
 [Vultr Ubuntu - NEXT](/Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)

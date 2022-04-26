@@ -6,7 +6,7 @@
 [BACK - Workstation](/Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[Clone First React Apps - NEXT](/Setup/purposes/pfr0102_Clone-Clone-First-React-Apps.md)
+[Clone FR Apps - NEXT](/Setup/purposes/pfr0102_Clone-Clone-First-React-Apps.md)
 </div><div style="margin-top:35px">&nbsp;</div>
  
 <!-- ------------------------------------------------------------------------- -->
@@ -52,7 +52,7 @@ https://blog.devgenius.io/the-reasons-why-you-must-use-visual-studio-code-b522f9
 [BACK - Workstation](/Setup/purposes/pfr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[Clone First React Apps - NEXT](/Setup/purposes/pfr0102_Clone-Clone-First-React-Apps.md)
+[Clone FR Apps - NEXT](/Setup/purposes/pfr0102_Clone-Clone-First-React-Apps.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->
