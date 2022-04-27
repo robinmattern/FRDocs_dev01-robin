@@ -34,7 +34,7 @@
 1. Clone into the local repos folder using the Windows Command prompt
 
 ```
-cd C:\repos\
+cd C:\repos
 ```
  
 ![FRApps-Clone-01](images/fr0103-FRApps-Clone-01.png "FRApps-Clone-01")
@@ -144,10 +144,10 @@ npm start
 ![FRApps-Clone33b](images/fr0103-FRApps-Clone-33b.png "FRApps-Clone-33b")
 
 ----
- ### 5. Run Client 4c-react-app-no-apiapplication 0:05
+ ### 5. Run Client 4c-react-app-no-api Application 0:05
 ----
 
-1. Right click on the client/4c-react-app-no-apifolder
+1. Right click on the client/4c-react-app-no-api folder
 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-41](images/fr0103-FRApps-Clone-41a.png "FRApps-Clone-41") 
