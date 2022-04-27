@@ -29,7 +29,7 @@
 ----
 
 
-### 1 Clone FRApps Repository 0:05
+### 1 Clone FRApps Repository into 2 repos folders 0:05
 ----
 1. Clone into the local repos folder using the Windows Command prompt
 
@@ -39,8 +39,9 @@ cd C:\repos\
  
 ![FRApps-Clone-01](images/fr0103-FRApps-Clone-01.png "FRApps-Clone-01")
 
- 
 ```
+git clone https://github.com/8020data/FRApps_prod-master.git FRApps_dev
+
 git clone https://github.com/8020data/FRApps_prod-master.git FRApps
 
 cd FRApps
