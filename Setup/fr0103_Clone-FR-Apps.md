@@ -169,7 +169,8 @@ npm start
  ### 6a. Run Server 5s-react-app-wi-api application 0:05
 ----
 
-1. Right click on the server/5s-react-app-wi-api folder (Note: server folder not client)
+1. Right click on the server/5s-react-app-wi-api folder 
+####  Note: server folder  client folder
 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-51](images/fr0103-FRApps-Clone-51.png "FRApps-Clone-51") 
@@ -185,7 +186,7 @@ npm start
 3. Browse to
 
 ```
-http://localhost:50114/invoices
+http://localhost:50115/invoices
 ```
 
 ![FRApps-Clone55b](images/fr0103-FRApps-Clone-55b.png "FRApps-Clone-55b")
@@ -199,7 +200,8 @@ http://localhost:50114/invoices
 #### Note: Be sure step 6a is running
 <br/>
 
-1. Right click on the client/5c-react-app-wi-api folder (note: client folder not server)
+1. Right click on the client/5c-react-app-wi-api folder
+####  Note: client folder NOT server folder
 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-61](images/fr0103-FRApps-Clone-61.png "FRApps-Clone-61") 
