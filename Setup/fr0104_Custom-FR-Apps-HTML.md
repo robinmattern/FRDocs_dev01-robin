@@ -15,10 +15,9 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
 #### Introduction  
-- Blah
+- The following steps use the repo: FRApps_dev. Customization of your web apps will be done here. You will create an FRApps_dev repo in your pewrsonal github account. You will be able to Push and Pull as you develop your apps.
 
-- More Blah
-
+- Your first customization will be done using only html, css and javascript. 
 
 #### Important note about names, capitalization, pictures and code copying
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
@@ -29,14 +28,37 @@
 ----
 
 
-### 1. Copy FRApps repo to FRApps_dev repo 0:05
+### 1. Change the remote github repo from 8020data to your own pewrsonal repo 0:05
 ----
 
-1. From Windows File Explorer, right click on the C:\repos\FRApps folderand click Copy
+1. From Windows File Explorer, right click on the C:\repos\FRApps_dev folder and click  folderand click Copy
 
 ![FRApps-Custom01](images/fr0103-FRApps-Custom01.png "FRApps-Custom01")
 
 
+2. Open FRApps-dev
+
+3. pull from 8020data
+
+4  Create FRApps_dev in y7our github
+
+5. git terminology - Change Remote github
+
+git remote -v
+
+git remote set-url origin "github-rs:blueNSX/FRApps_dev" 
+
+6. client npm install
+
+npm audit --production
+
+7. server npm install
+
+Update author package.json
+
+
+
+5. 
 ----
 
 
