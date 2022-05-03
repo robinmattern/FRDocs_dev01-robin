@@ -57,6 +57,8 @@ code FRApps.code-workspace
 
 - If prompted, click "Yes I trust the authors".
 
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-00.png "FRApps-Clone-03")
+
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
  
 3. Create FRApps in your github. 
@@ -75,9 +77,7 @@ https://github.com/brucetroutman-gmail?tab=repositories
 
 4. Using VSCode Connect your local FRApps to your personal github FRApps
 
-- Right click on the server folder
-
-- Click Open in Integrated Terminal, then 
+- Right click on FRApps and click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-03.png "FRApps-Clone-03")
 
@@ -132,12 +132,12 @@ git push
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-10.png "FRApps-Clone-03")
 
 
-8. Comfirm the transfer from github
+8. Confirm the transfer from github
 
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-11.png "FRApps-Clone-03")
 
-9. Update author package.json
+9. Update author in package.json
 
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-12.png "FRApps-Clone-03")
