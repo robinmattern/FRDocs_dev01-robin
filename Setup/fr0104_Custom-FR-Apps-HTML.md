@@ -28,37 +28,10 @@
 ----
 
 
-### 1. Change the remote github repo from 8020data to your own pewrsonal repo 0:05
+### 1. From VSCode open and run the 1c-html-custom-app 0:05
 ----
 
-1. From Windows File Explorer, right click on the C:\repos\FRApps_dev folder and click  folderand click Copy
 
-![FRApps-Custom01](images/fr0103-FRApps-Custom01.png "FRApps-Custom01")
-
-
-2. Open FRApps-dev
-
-3. pull from 8020data
-
-4  Create FRApps_dev in y7our github
-
-5. git terminology - Change Remote github
-
-git remote -v
-
-git remote set-url origin "github-rs:blueNSX/FRApps_dev" 
-
-6. client npm install
-
-npm audit --production
-
-7. server npm install
-
-Update author package.json
-
-
-
-5. 
 ----
 
 

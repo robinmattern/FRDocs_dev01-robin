@@ -16,8 +16,8 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
 #### Introduction  
-- FR Apps is a collection of applications that use React. The apps increase from simple through database access. For the rest of the tutorial we will focus on React apps. 
-- In this topic you will clone and test these basic React applications on your local workstation.
+- FR Apps is a collection of applications. The apps increase from simple through database access. 
+- In this topic you will clone and test these basic applications on your local workstation.
 
 
 #### Important note about names, capitalization, pictures and code copying
@@ -29,7 +29,7 @@
 ----
 
 
-### 1 Clone FRApps Repository into 2 repos folders 0:05
+### 1 Clone FRApps Repository 0:05
 ----
 1. Clone into the local repos folder using the Windows Command prompt
 
@@ -40,8 +40,6 @@ cd C:\repos
 ![FRApps-Clone-01](images/fr0103-FRApps-Clone-01.png "FRApps-Clone-01")
 
 ```
-git clone https://github.com/8020data/FRApps_prod-master.git FRApps_dev
-
 git clone https://github.com/8020data/FRApps_prod-master.git FRApps
 
 cd FRApps
@@ -61,6 +59,87 @@ code FRApps.code-workspace
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
  
+3. Create FRApps in your github. 
+
+- Browse to and login to your personal github account. (We created this in Step 1.1.5)
+
+```
+https://github.com/brucetroutman-gmail?tab=repositories
+```
+
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+
+- Add a new repository in your personal github: FRApps
+
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+
+4. Using VSCode Connect your local FRApps to your personal github FRApps
+
+- Right click on the server folder
+
+- Click Open in Integrated Terminal, then 
+
+![FRApps-Clone-07](images/fr0103-FRApps-Clone-07.png "FRApps-Clone-07")
+
+- Show your current remotes: 8020data
+
+```
+git remote -v
+```
+
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+
+- Change your remote to your personal github. 
+
+    - change your=github-hostname to your (Your github host is found in the config file in the .ssh folder)
+e.g. github-btg
+
+
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+
+    - change your-github-account-name to your github account name. e.g brucetroutman-gmail
+
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+
+```
+git remote set-url origin your=github-hostname:your-github-account-name/FRApps
+```
+
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+
+- Confirm that your remotes have changed
+
+```
+git remote -v
+```
+
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+
+6. Pull from your personal github FRApps repo to your local FRApps repo
+
+```
+git pull
+```
+
+7.  Push from your local FRApps repo to personal github FRApps repo
+
+```
+git push
+```
+
+8. Comfirm the transfer from github
+
+
+9. Update author package.json
+
+
+
+
+----
+
+
+
+
 ----
 ### 2. Install Node modules  0:15
 ----
