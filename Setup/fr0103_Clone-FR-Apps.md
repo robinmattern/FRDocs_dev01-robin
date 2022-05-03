@@ -65,15 +65,24 @@ code FRApps.code-workspace
 
 - Browse to and login to your personal github account. (We created this in Step 1.1.5)
 
+- Use Notepad to change your-github-name  e.g. brucetroutman-gmail
+
+- be sure that you are signed in to your github account
+
 ```
-https://github.com/brucetroutman-gmail?tab=repositories
+https://github.com/your-github-name?tab=repositories
+
+then click the New green button
 ```
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-01.png "FRApps-Clone-03")
 
-- Add a new repository in your personal github: FRApps
+
+- Enter FRApps as a new repository and click the Create Repository green button
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-02.png "FRApps-Clone-03")
+
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-021.png "FRApps-Clone-03")
 
 4. Using VSCode Connect your local FRApps to your personal github FRApps
 
@@ -91,18 +100,18 @@ git remote -v
 
 - Change your remote to your personal github. 
 
-    - change your=github-hostname to your (Your github host is found in the config file in the .ssh folder)
-e.g. github-btg
+    - Use notpad to change your=github-hostname to your host. e.g. github-btg
+ (Your github host is found in the config file in the .ssh folder)
 
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-05.png "FRApps-Clone-03")
 
-    - change your-github-account-name to your github account name. e.g brucetroutman-gmail
+    - then, change your-github-name to your github name. e.g brucetroutman-gmail
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-06.png "FRApps-Clone-03")
 
 ```
-git remote set-url origin your=github-hostname:your-github-account-name/FRApps
+git remote set-url origin your=github-hostname:your-github-name/FRApps
 ```
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-07.png "FRApps-Clone-03")
@@ -132,15 +141,20 @@ git push
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-10.png "FRApps-Clone-03")
 
 
-8. Confirm the transfer from github
+8. Confirm the transfer from your github FRApps repo
 
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-11.png "FRApps-Clone-03")
 
 9. Update author in package.json
 
+- Open package.json from the client folder and change the author from 8020data to your name
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-12.png "FRApps-Clone-03")
+
+- Open package.json from the server folder and change the author from 8020data to your name
+
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-13.png "FRApps-Clone-03")
 
 
 
