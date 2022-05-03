@@ -16,7 +16,7 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
 #### Introduction  
-- FR Apps is a collection of applications. The apps increase from simple through database access. 
+- FR Apps is a collection of applications. The apps increase in complexity from simple through database access. 
 - In this topic you will clone and test these basic applications on your local workstation.
 
 
@@ -67,11 +67,11 @@ code FRApps.code-workspace
 https://github.com/brucetroutman-gmail?tab=repositories
 ```
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-01.png "FRApps-Clone-03")
 
 - Add a new repository in your personal github: FRApps
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-02.png "FRApps-Clone-03")
 
 4. Using VSCode Connect your local FRApps to your personal github FRApps
 
@@ -79,7 +79,7 @@ https://github.com/brucetroutman-gmail?tab=repositories
 
 - Click Open in Integrated Terminal, then 
 
-![FRApps-Clone-07](images/fr0103-FRApps-Clone-07.png "FRApps-Clone-07")
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-03.png "FRApps-Clone-03")
 
 - Show your current remotes: 8020data
 
@@ -87,7 +87,7 @@ https://github.com/brucetroutman-gmail?tab=repositories
 git remote -v
 ```
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-04.png "FRApps-Clone-03")
 
 - Change your remote to your personal github. 
 
@@ -95,17 +95,17 @@ git remote -v
 e.g. github-btg
 
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-05.png "FRApps-Clone-03")
 
     - change your-github-account-name to your github account name. e.g brucetroutman-gmail
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-06.png "FRApps-Clone-03")
 
 ```
 git remote set-url origin your=github-hostname:your-github-account-name/FRApps
 ```
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-07.png "FRApps-Clone-03")
 
 - Confirm that your remotes have changed
 
@@ -113,7 +113,7 @@ git remote set-url origin your=github-hostname:your-github-account-name/FRApps
 git remote -v
 ```
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-08.png "FRApps-Clone-03")
 
 6. Pull from your personal github FRApps repo to your local FRApps repo
 
@@ -121,17 +121,26 @@ git remote -v
 git pull
 ```
 
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-09.png "FRApps-Clone-03")
+
 7.  Push from your local FRApps repo to personal github FRApps repo
 
 ```
 git push
 ```
 
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-10.png "FRApps-Clone-03")
+
+
 8. Comfirm the transfer from github
 
 
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-11.png "FRApps-Clone-03")
+
 9. Update author package.json
 
+
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-12.png "FRApps-Clone-03")
 
 
 
