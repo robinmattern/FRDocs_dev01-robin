@@ -142,7 +142,7 @@ git push
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-10.png "FRApps-Clone-03")
 
 
-8. Confirm the transfer from your github FRApps repo
+8. Confirm the transfer to your github FRApps repo
 
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-11.png "FRApps-Clone-03")
@@ -156,12 +156,6 @@ git push
 - Open package.json from the server folder and change the author from 8020data to your name
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-13.png "FRApps-Clone-03")
-
-
-
-----
-
-
 
 
 ----
