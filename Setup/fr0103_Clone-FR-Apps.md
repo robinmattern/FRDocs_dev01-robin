@@ -100,13 +100,14 @@ git remote -v
 
 - Change your remote to your personal github. 
 
-    - Use notpad to change your=github-hostname to your host. e.g. github-btg
+- Use Notepad to change your=github-hostname below to your host. e.g. github-btg
  (Your github host is found in the config file in the .ssh folder)
 
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-05.png "FRApps-Clone-03")
 
-    - then, change your-github-name to your github name. e.g brucetroutman-gmail
+
+- then, change your-github-name below to your github name. e.g brucetroutman-gmail
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-06.png "FRApps-Clone-03")
 
