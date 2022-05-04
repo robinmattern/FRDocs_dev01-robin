@@ -202,7 +202,22 @@ npm install
 ![FRApps-Clone-09](images/fr0103-FRApps-Clone-09.png "FRApps-Clone-09")
 
 ----
- ### 3. Run Client 2c-React-Empty application 0:05
+ ### 3. Run Client 1c-html-custom-app 0:05
+----
+
+1. Click on the client/1c-html-custom-app folder
+2. Right Click on index.html, then Open with Live Server 
+
+![FRApps-Clone-21](images/fr0103-FRApps-Clone-1c1.png "FRApps-Clone-21") 
+
+![FRApps-Clone22](images/fr0103-FRApps-Clone-1c2.png "FRApps-Clone-22")
+
+3. In your browser click Cards in the navigation menu
+
+![FRApps-Clone22a](images/fr0103-FRApps-Clone-1c3.png "FRApps-Clone-22a")
+
+----
+ ### 4. Run Client 2c-React-Empty application 0:05
 ----
 
 1. Right click on the client/2c-React-Empty folder
@@ -226,7 +241,7 @@ npm start
 
 
 ----
- ### 4. Run Client 3c-React-Button application 0:05
+ ### 5. Run Client 3c-React-Button application 0:05
 ----
 
 1. Right click on the client/3c-React-Button folder
@@ -247,7 +262,7 @@ npm start
 ![FRApps-Clone33b](images/fr0103-FRApps-Clone-33b.png "FRApps-Clone-33b")
 
 ----
- ### 5. Run Client 4c-react-app-no-api Application 0:05
+ ### 6. Run Client 4c-react-app-no-api Application 0:05
 ----
 
 1. Right click on the client/4c-react-app-no-api folder
@@ -269,7 +284,7 @@ npm start
 ![FRApps-Clone44b](images/fr0103-FRApps-Clone-44b.png "FRApps-Clone-44b")
 
 ----
- ### 6a. Run Server 5s-react-app-wi-api application 0:05
+ ### 7a. Run Server 5s-react-app-wi-api application 0:05
 ----
 
 1. Right click on the server/5s-react-app-wi-api folder 
@@ -294,17 +309,17 @@ http://localhost:50115/invoices
 
 ![FRApps-Clone55b](images/fr0103-FRApps-Clone-55b.png "FRApps-Clone-55b")
 
-#### Note: Keep this step 6a running when you do step 6b (next step)
+#### Note: Keep this step 6a running when you do step 7b (next step)
 
 ----
- ### 6b. Run Client 5c-react-app-wi-api application 0:05
+ ### 7b. Run Client 5c-react-app-wi-api application 0:05
 ----
 
-#### Note: Be sure step 6a is running
+#### Note: Be sure step 7a is running
 <br/>
 
 1. Right click on the client/5c-react-app-wi-api folder
-####  Note: client folder NOT server folder
+####  Note: "client" folder NOT "server" folder
 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-61](images/fr0103-FRApps-Clone-61.png "FRApps-Clone-61") 
