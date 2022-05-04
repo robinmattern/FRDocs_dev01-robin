@@ -490,21 +490,25 @@ https://code.visualstudio.com/download
 
 ![VSCode5](./images/fr0101-07_VSCode5.png "VSCode5")
 
-6. React Snippets
+6. Live Server
+
+![VSCode6](./images/fr0101-07_VSCode5-1.png "VSCode6")
+
+7. React Snippets
 
 ![VSCode6](./images/fr0101-07_VSCode6.png "VSCode6")
 
 ![VSCode6a](./images/fr0101-07_VSCode6a.png "VSCode6a")
 
-7. Change default terminal and add Autosave
+8. Change default terminal and add Autosave
 
-        - Using File Explorer create or edit settings.json: 
+- Using File Explorer create or edit settings.json: 
 
 ```
  C:\Users\Local_Admin\AppData\Roaming\Code\User\settings.json
 ```
 
-        - Delete all lines and Add these lines:
+- Delete all lines and Add these lines:
 
 ```
 {
@@ -529,7 +533,7 @@ https://code.visualstudio.com/download
 
 ![VSCode11a](./images/fr0101-07_VSCode11a.png "VSCode11a")
 
-8. From VSCode open a new Terminal
+9. From VSCode open a new Terminal
 
 ![VSCode11b](./images/fr0101-07_VSCode11b.png "VSCode11b")
 
@@ -537,7 +541,7 @@ https://code.visualstudio.com/download
 
 ![VSCode11c](./images/fr0101-07_VSCode11c.png "VSCode11c")
 
-9. Close VSCode
+10. Close VSCode
 
 ----
 ### 8. Clone myProject 0:05
@@ -556,7 +560,8 @@ Navigate to repos folder, right click and select Git Bash here
 
 ```
 Change:
-    github-mick to github-<your initials> that you created above
+    github-mick to github-<your initials> that you created in step 1.1.3 above
+
     mickeymouse to <your github account name>
 
 git clone github-mick:mickeymouse/myProject.git
