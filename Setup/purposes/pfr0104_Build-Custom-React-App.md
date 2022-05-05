@@ -3,7 +3,7 @@
 
 <div class="page-back">
 
-[BACK - Clone FR Apps](/Setup/purposes/pfr0103_Clone-FR-Apps.md)
+[BACK - Clone FRApps](/Setup/purposes/pfr0103_Clone-FR-Apps.md)
 </div><div class="page-next">
 
 [Vultr Ubuntu - NEXT](/Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
@@ -11,7 +11,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## Purpose for 1.4 Custom FR Apps HTML
+## Purpose for 1.4 Custom FRApps HTML
 
 ----
 
@@ -25,7 +25,7 @@ Build Custom ...
 
 <div class="page-back">
 
-[BACK - Clone FR Apps](/Setup/purposes/pfr0103_Clone-FR-Apps.md)
+[BACK - Clone FRApps](/Setup/purposes/pfr0103_Clone-FR-Apps.md)
 </div><div class="page-next">
 
 [Vultr Ubuntu - NEXT](/Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)

@@ -2,15 +2,15 @@
 
 <div class="page-back">
 
-[BACK - Clone FR Apps](/Setup/fr0103_Clone-FR-Apps.md)
+[BACK - Clone FRApps](/Setup/fr0103_Clone-FR-Apps.md)
 </div><div class="page-next">
 
-[Custom FR Apps React - NEXT](/Setup/fr0105_Custom-FR-Apps-React.md)
+[Custom FRApps React - NEXT](/Setup/fr0105_Custom-FR-Apps-React.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.4 Custom FR Apps HTML 0:45
+## 1.4 Custom FRApps HTML 0:45
 - [Purpose and Background](../Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
@@ -40,10 +40,10 @@
 
 <div class="page-back">
 
-[BACK - Clone FR Apps](/Setup/fr0103_Clone-FR-Apps.md)
+[BACK - Clone FRApps](/Setup/fr0103_Clone-FR-Apps.md)
 </div><div class="page-next">
 
-[Custom FR Apps React - NEXT](/Setup/fr0105_Custom-FR-Apps-React.md)
+[Custom FRApps React - NEXT](/Setup/fr0105_Custom-FR-Apps-React.md)
 </div>
 
 

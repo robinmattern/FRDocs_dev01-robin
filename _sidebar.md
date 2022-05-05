@@ -2,9 +2,9 @@
 
 1. [Build Workstation ](/Setup/fr0101_Setup-Developer-Workstation.md)
 2. [Test NodeJS ](/Setup/fr0102_Test-Node.md)
-3. [Clone FR Apps ](/Setup/fr0103_Clone-FR-Apps.md)
-4. [Custom FR Apps HTML ](/Setup/fr0104_Custom-FR-Apps-HTML.md)
-5. [Custom FR Apps React ](/Setup/fr0105_Custom-FR-Apps-React.md)
+3. [Clone FRApps ](/Setup/fr0103_Clone-FR-Apps.md)
+4. [Custom FRApps HTML ](/Setup/fr0104_Custom-FR-Apps-HTML.md)
+5. [Custom FRApps React ](/Setup/fr0105_Custom-FR-Apps-React.md)
 
 <h>2. Setup Remote Server 4:25</h>
 

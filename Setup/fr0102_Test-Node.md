@@ -6,7 +6,7 @@
 [BACK - Build Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[Clone FR Apps - NEXT](/Setup/fr0103_Clone-FR-Apps.md)
+[Clone FRApps - NEXT](/Setup/fr0103_Clone-FR-Apps.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -529,7 +529,7 @@ node queryDB
 [BACK - Build Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[Clone FR Apps - NEXT](/Setup/fr0103_Clone-FR-Apps.md)
+[Clone FRApps - NEXT](/Setup/fr0103_Clone-FR-Apps.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

@@ -2,7 +2,7 @@
 
 <div class="page-back">
 
-[BACK - Clone FR Apps](/Setup/fr0103_Clone-FR-Apps.md)
+[BACK - Clone FRApps](/Setup/fr0103_Clone-FR-Apps.md)
 </div><div class="page-next">
 
 [Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
@@ -10,7 +10,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.5 Custom FR Apps React 0:45
+## 1.5 Custom FRApps React 0:45
 - [Purpose and Background](../Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
@@ -311,7 +311,7 @@ import Image from 'react-bootstrap/Image'
 
 <div class="page-back">
 
-[BACK - Clone FR Apps](/Setup/fr0103_Clone-FR-Apps.md)
+[BACK - Clone FRApps](/Setup/fr0103_Clone-FR-Apps.md)
 </div><div class="page-next">
 
 [Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)

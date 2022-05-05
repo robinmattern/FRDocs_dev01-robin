@@ -6,17 +6,17 @@
 [BACK - Test NodeJS](/Setup/fr0102_Test-Node.md)
 </div><div class="page-next">
 
-[Custom FR Apps HTML - NEXT](/Setup/fr0104_Custom-FR-Apps-HTML.md)
+[Custom FRApps HTML - NEXT](/Setup/fr0104_Custom-FR-Apps-HTML.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.3 Clone FR Apps 0:45
+## 1.3 Clone FRApps 0:45
 - [Purpose and Background](../Setup/purposes/pfr0103_Clone-FR-Apps.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
 #### Introduction  
-- FR Apps is a collection of applications. The apps increase in complexity from simple through database access. 
+- FRApps is a collection of applications. The apps increase in complexity from simple through database access. 
 - In this topic you will clone and test these basic applications on your local workstation.
 
 
@@ -71,9 +71,11 @@ code FRApps.code-workspace
 
 ```
 https://github.com/your-github-name?tab=repositories
-
-then click the New green button
 ```
+
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-01a.png "FRApps-Clone-03")
+
+then click the New green button (if you are not signed in the New button will not appear)
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-01.png "FRApps-Clone-03")
 
@@ -84,7 +86,7 @@ then click the New green button
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-021.png "FRApps-Clone-03")
 
-4. Using VSCode Connect your local FRApps to your personal github FRApps
+4. Using VSCode connect your local FRApps to your personal github FRApps
 
 - Right click on FRApps and click Open in Integrated Terminal, then 
 
@@ -112,8 +114,10 @@ git remote -v
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-06.png "FRApps-Clone-03")
 
 ```
-git remote set-url origin your=github-hostname:your-github-name/FRApps
+git remote set-url origin your-github-hostname:your-github-name/FRApps
 ```
+
+![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-07a.png "FRApps-Clone-03")
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-07.png "FRApps-Clone-03")
 
@@ -144,6 +148,7 @@ git push
 
 8. Confirm the transfer to your github FRApps repo
 
+- Refresh your browser.
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-11.png "FRApps-Clone-03")
 
@@ -346,7 +351,7 @@ npm start
 </div><div class="page-next">
 
 
-[Custom FR Apps HTML - NEXT](/Setup/fr0104_Custom-FR-Apps-HTML.md)
+[Custom FRApps HTML - NEXT](/Setup/fr0104_Custom-FR-Apps-HTML.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

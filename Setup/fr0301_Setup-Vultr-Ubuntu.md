@@ -2,7 +2,7 @@
 
 <div class="page-back">
 
-[BACK - Custom FR Apps React ](/Setup/fr0105_Custom-FR-Apps-React.md)
+[BACK - Custom FRApps React ](/Setup/fr0105_Custom-FR-Apps-React.md)
 </div><div class="page-next">
 
 [Harden Ubuntu - NEXT](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
@@ -167,7 +167,7 @@ Password = Vultr-FormR0 root password (copy from Vultr web page)
 
 <div class="page-back">
 
-[BACK - Custom FR Apps React ](/Setup/fr0105_Custom-FR-Apps-React.md)
+[BACK - Custom FRApps React ](/Setup/fr0105_Custom-FR-Apps-React.md)
 </div><div class="page-next">
 
 [Harden Ubuntu - NEXT](/Setup/fr0302_Setup-Hardening-Ubuntu.md)

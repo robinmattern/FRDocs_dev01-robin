@@ -6,12 +6,12 @@
 [BACK - Test NodeJS](/Setup/purposes/pfr0102_Test-Node.md)
 </div><div class="page-next">
 
-[Custom FR Apps HTML - NEXT](/Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
+[Custom FRApps HTML - NEXT](/Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 </div><div style="margin-top:35px">&nbsp;</div>
  
 <!-- ------------------------------------------------------------------------- -->
 
-## Purpose for 1.3 Clone FR Apps
+## Purpose for 1.3 Clone FRApps
 
 ----
 
@@ -33,7 +33,7 @@ https://relevant.software/blog/react-js-security-guide/
 
 ----
 
-### FR Apps Infrastucture Diagram
+### FRApps Infrastucture Diagram
 
 ![First-React-Apps-Infrastructure](/images/fr0102-51_Simple-React-Apps-Infrastructure.png "First-React-Apps-Infrastructure")
 
@@ -45,6 +45,6 @@ https://relevant.software/blog/react-js-security-guide/
 [BACK - Test Node](/Setup/purposes/pfr0102_Test-Node.md)
 </div><div class="page-next">
 
-[Custom FR Apps HTML - NEXT](/Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
+[Custom FRApps HTML - NEXT](/Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 </div>
 <!-- ------------------------------------------------------------------------- -->
