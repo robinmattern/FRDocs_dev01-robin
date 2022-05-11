@@ -398,7 +398,7 @@ ssh github-mick  e.g. replace mick with your initials
 
 ![Git-for-Windows1](./images/fr0101-06_Git-for-Windows1.png "Git-for-Windows1") 
 
-2. Select all the default values and install
+2. Accept **all the defaults** and install
 
 ![Git-for-Windows2](./images/fr0101-06_Git-for-Windows2.png "Git-for-Windows2")
 
@@ -469,7 +469,7 @@ https://code.visualstudio.com/download
 
 ![VSCode](./images/fr0101-07_VSCode.png "VSCode")
 
-1. Accept all the defaults
+1. Accept **all the defaults**
 
 ![VSCode](./images/fr0101-07_VSCode1.png "VSCode")
 
