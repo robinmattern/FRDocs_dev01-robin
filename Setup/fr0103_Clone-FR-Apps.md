@@ -308,7 +308,7 @@ http://localhost:50115/invoices
 
 ![FRApps-Clone55b](images/fr0103-FRApps-Clone-55b.png "FRApps-Clone-55b")
 
-#### Note: Keep this step 6a running when you do step 7b (next step)
+#### Note: Keep this step 7a running when you do step 7b (next step)
 
 ----
  ### 7b. Run Client 5c-react-app-wi-api application 0:05
