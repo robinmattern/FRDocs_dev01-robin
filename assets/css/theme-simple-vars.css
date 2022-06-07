@@ -155,13 +155,13 @@
 
     --navbar-root-margin                    :  0 0 0 .8em;
 
-    --sidebar-name-color                    : #0374B5;
+    --sidebar-name-color                    : darkblue;
     --sidebar-name-margin                   :  1.5rem -.2rem;
     --sidebar-nav-link-font-weight--active  :  bold;
 
     --pagination-title-color                : #0374B5;
 
-    --link-color                            : #0374B5;
+    --link-color                            : blue;
     --link-text-decoration                  :  underline;
     --link-text-decoration--hover           :  underline;
 
