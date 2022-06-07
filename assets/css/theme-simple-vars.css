@@ -5,7 +5,9 @@
 
 :root {
 
-/*  --toc-width                             :  800px; */
+    --theme-color                           : darkblue;
+
+    /*  --toc-width                             :  800px; */
     --sidebar-width                         :  300px;                                   /* was: 17rem = 272px */;
     --sidebar-padding                       :  0px 25px 0 25px;                         /* was: 0 25px; left snd right(?)*/
 
