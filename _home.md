@@ -181,7 +181,7 @@ GraspingTech, LifeWire, SQL-Hub and W3Schools.
 
 - Complete as of Jan, 2022 are 2 Setup chapters with 9 topics with 76 sections and 246 steps.
 
-- The prime contributors and creators for this tutorial are Robin Mattern, Kennett Fussell and Bruce Troutman.
+- The prime contributors and creators for this tutorial are Robin Mattern, Kennett Fussell, Richard Schinner and Bruce Troutman.
 
 
 
