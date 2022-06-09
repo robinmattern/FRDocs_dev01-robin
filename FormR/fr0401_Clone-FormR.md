@@ -183,7 +183,7 @@ Note: The World sample database has been modified so that all tables contain ID 
 
 4. Enter the following into the Query window, then
 
-```
+```js
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234';
 ```
 
@@ -292,14 +292,22 @@ npm start
    - Click Ok three times
 
 2. Get FormR Tools from 8020data GitHub repository
-   - From Windows command prompt enter: bash
-   - $ cd C:/Repos/FormR
-   - $ git https://github.com/8020data/FRTools.git     tools
+   - From Windows command prompt enter: 
+
+```
+cd C:/Repos/FormR
+
+git https://github.com/8020data/FRTools.git     tools
+```
 
 3. Create a link from ./FormR/_2  ./FormR/tools/_2 to
-   - Open Windows Command prompt Run as Administrator  screen shot 
-   - > cd C:\Repos\FormR
-   - > mklink /d _2 tools\_2
+   - Open Windows Command prompt Run as Administrator  BT-NEED screen shot
+
+``` 
+cd C:\Repos\FormR
+
+mklink /d _2 tools\_2
+```
 
 4. Run FRTools command
    - $ frt  

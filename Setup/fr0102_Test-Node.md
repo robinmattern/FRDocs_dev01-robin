@@ -101,7 +101,7 @@ batch.js
 
 4. Add some code to batch.js:
 
-```
+```js
 console.log("Hello, World!");
 ```
 
@@ -172,7 +172,7 @@ node_modules
 
 - Add this code:
 
-```
+```js
 const express = require("express")
 const app = new express();
 app.use('/',myPage)
@@ -305,7 +305,7 @@ npm start
 
 - In VScode edit myProject/client/package.json, replace
 
-```
+```js
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
@@ -320,7 +320,7 @@ npm start
 
 - with
 
-```
+```js
  "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^11.2.7",
@@ -391,7 +391,7 @@ npm install --save mysql2
 
 7. In the query 1 window enter:
 
-```
+```js
 CREATE DATABASE practice
 ```
 8. Then click the execute icon
@@ -404,7 +404,7 @@ CREATE DATABASE practice
 
 10. From VSCode Explorer navigate to the folder server/app01s and create a new file, queryDB.js, then enter the following code:
 
-```
+```js
 const Sequelize = require("sequelize");
 const sequelize = new Sequelize("practice", "root", "FormR!1234", {
   host: "localhost", 

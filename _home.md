@@ -76,11 +76,10 @@ and it's very secure
 
 - Please tell us if you spot any mistakes or if you have suggestions for improvements. We appreciate all feedback.
 
-- Please use Discord.com to access the 8020data Server. Look for the appropriate text channel and leave a message. You can tag Bruce or Robin by using @Bruce etc in your message. Here is the Discord link:
+- Please use Discord.com to access the 8020data Server. Look for the appropriate text channel and leave a message. You can tag Bruce or Robin by using @Bruce etc in your message.
 
-```
- https://discord.gg/tk5NQAWYxK
-```
+- [Use Discord to communicate with us](https://discord.gg/tk5NQAWYxK)
+
 
 ![Discord](/images/fr0001-01_Discord.png "Discord")
 

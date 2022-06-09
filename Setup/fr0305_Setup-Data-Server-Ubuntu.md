@@ -157,7 +157,7 @@ password: FormR!1234
 
 9. Enter the following from the mysql prompt:
 
-```
+```js
 CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'FormR!1234';
 
 GRANT ALL PRIVILEGES ON *.* TO 'nimdas'@'%';
@@ -206,7 +206,7 @@ Enter v to never save the password
 
 2. Check Version. From the mysql command prompt enter the following:
 
-```
+```js
 \sql SELECT VERSION();
 ```
 
