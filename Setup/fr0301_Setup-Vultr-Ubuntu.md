@@ -95,7 +95,7 @@ https://www.vultr.com/?ref=8778592
 ![Vultr Installing](./images/fr0301-08_Vultr-Installing.png "Installing")
 
 ----
-### 2. Use Bitvise access Vultr-FormR0  0:15
+### 2. Use Bitvise to access Vultr-FormR0  0:15
 ----
 1. Open Bitvise
 
