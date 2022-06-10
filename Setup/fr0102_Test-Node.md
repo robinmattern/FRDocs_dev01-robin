@@ -220,7 +220,7 @@ http://localhost:8080/myProject/server/app01s
 ![Node-browser-server-js](images/fr0102-13_Node-browser-server-js.png "Node-browser-server-js")
 
 
-#### Push your changes to GitHub
+#### ---Push your changes to GitHub
 
 1. Click the Source Control charm
 
@@ -349,12 +349,15 @@ npm audit --production
 ![Node-audit](images/fr0102-18_Node-Audit.png "Node-audit")
 
 
-#### Push your changes to GitHub
+#### ---Push your changes to GitHub
+<br/>
+
+```
      1. Click the Source Control charm
      2. Add description of your choice
      3. Click the checkmark to Commit
      4. Click the Sync Changes button to push to github
-
+```
 ----
 ### 6. Create a Nodejs routine to access the local MySQL database and return information. 0:10
 ----
@@ -512,12 +515,16 @@ node queryDB
 
 ![Node-clean-up-workbench](images/fr0102-30_Node-clean-up-workbench.png "Node-clean-up-workbench")
 
-#### --- Push your changes to Github
+#### ---Push your changes to Github
+<br/>
+
+```
      1. Click the Source Control charm
      2. Add description of your choice
      3. Click the checkmark to Commit
      4. Click the Sync Changes button to push to github
-  
+```
+
 ----
 #### Congratulations! You have run the Node applications that test your development environment.
 ----
