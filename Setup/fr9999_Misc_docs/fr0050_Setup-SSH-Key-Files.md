@@ -1,5 +1,5 @@
 <!-- ------------------------------------------------------------------------- -->
-<script src="purposes/formr.js"></script>
+<script src="purposes/formR.js"></script>
 
 <div class="page-back disabled">
 

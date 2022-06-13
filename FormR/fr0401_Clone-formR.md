@@ -48,7 +48,7 @@ dir
 2. From Windows command propt open with VSCode
 
 ```
-code formr_prod-master.code-workspace
+code formR_prod-master.code-workspace
 ```
 
 ![formR-Clone-03](images/fr0103-formR-Clone-03.png "formR-Clone-03")

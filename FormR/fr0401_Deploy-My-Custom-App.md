@@ -153,10 +153,10 @@ npm run deploy
 ![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15b.png "FRApps-Deploy-15")
 
 ```
-formr-xxx-00.com_5c-my-react-app.conf
+formR-xxx-00.com_5c-my-react-app.conf
 ```
 
-4. Right-click on formr-xxx-00.com_my-react-app.conf and select Edit.
+4. Right-click on formR-xxx-00.com_my-react-app.conf and select Edit.
 
 ![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15c.png "FRApps-Deploy-15")
 
@@ -185,9 +185,9 @@ systemctl restart nginx
 6. From your browser visit
 
 ```
-formr-<your initials>-00.com/5c-my-react-app
+formR-<your initials>-00.com/5c-my-react-app
 
-e.g. formr-cbt-00.com/5c-my-react-app
+e.g. formR-cbt-00.com/5c-my-react-app
 ```
 
 ![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15f.png "FRApps-Deploy-15")

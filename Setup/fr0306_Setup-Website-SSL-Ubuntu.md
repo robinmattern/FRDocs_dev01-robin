@@ -158,8 +158,8 @@ C:\Users\Local_Admin\.ssh
 - then paste in the following:
 
 ```
-Host vultr-formr0-nimda
-    HostName       <paste your formr0 server IP address here>
+Host vultr-formR0-nimda
+    HostName       <paste your formR0 server IP address here>
     IdentityFile   C:/Users/Local_Admin/.ssh/<paste your key heere>
     User           nimda
 ```
@@ -175,7 +175,7 @@ Host vultr-formr0-nimda
 - From the Windows Command prompt enter:
 
 ```
-ssh vultr-formr0-nimda
+ssh vultr-formR0-nimda
 ```
 
 ![ssh-key-to-vultr](./images/fr0306-06_Ubuntu-ssh-key-to-vultr2.png "ssh-key-to-vultr")
@@ -316,7 +316,7 @@ cp -r /webs/simpleApp/etc/nginx/* /etc/nginx/
 ```
 cd /etc/nginx/sites-enabled
 
-ln -s ../sites-available/formr-xxx-00.com_all-apps.conf
+ln -s ../sites-available/formR-xxx-00.com_all-apps.conf
 ```
 
 ![BitVise nginx conf file](./images/fr0306-08_Ubuntu-Bitvise-nginx-conf-file1.png "BitVise nginx conf file")
@@ -342,7 +342,7 @@ systemctl reload nginx
 
 - The GoDaddy web site changes frequently, so the screen shots below may not match. The steps are repeatable. Contact GoDaddy support for more assistance.
 ----
-1. Create a new Domain Name e.g. formr-cbt-00.com at GoDaddy.com. (cbt = my initials. Use yours or something else that is unique)
+1. Create a new Domain Name e.g. formR-cbt-00.com at GoDaddy.com. (cbt = my initials. Use yours or something else that is unique)
 
 2. Browse to
 
@@ -353,9 +353,9 @@ godaddy.com
 3. Enter domain name
 
 ```
-formr-<your initials>-00.com
+formR-<your initials>-00.com
 
-e.g. formr-cbt-00.com
+e.g. formR-cbt-00.com
 ```
 
 ![Create Domain](./images/fr0306-09_Ubuntu-create-domain.png "Create Domain")
@@ -376,7 +376,7 @@ e.g. formr-cbt-00.com
 1. Login to your GoDaddy.com account
 2. Click Your Account
 3. Click My Products
-4. Click YourURL e.g. formr-cbt-00.com
+4. Click YourURL e.g. formR-cbt-00.com
 
 ![BitVise Point DNS](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS.png "BitVise Point DNS")
 
@@ -385,7 +385,7 @@ e.g. formr-cbt-00.com
 
 ![BitVise Point DNS1](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS1.png "BitVise Point DNS1")
 
-7. Enter Your domain e.g. formr-cbt-00.com
+7. Enter Your domain e.g. formR-cbt-00.com
 8. Click it
 
 ![BitVise Point DNS2](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS2.png "BitVise Point DNS2")
@@ -414,15 +414,15 @@ To Your server IP address and Save
 14. Browse to your web site via http
 
 ```
-http://formr-<your initials>-00.com
+http://formR-<your initials>-00.com
 
-e.g http://formr-cbt-00.com
+e.g http://formR-cbt-00.com
 ```
 
 ![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
 
 ----
-### 9. Modify formr-xxx-00.com_all-apps.conf to use your new URL 0:05
+### 9. Modify formR-xxx-00.com_all-apps.conf to use your new URL 0:05
 ----
 1. Open Bitvise 
 2. Load Profile: Vultr-formR0-nimda.tlp
@@ -432,11 +432,11 @@ e.g http://formr-cbt-00.com
 ```
 /etc/nginx/sites-available
 ```
-5. On "formr-xxx-00.com_all-apps" right click and select Edit 
+5. On "formR-xxx-00.com_all-apps" right click and select Edit 
 
 ![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
 
-6. Change yourURL e.g. formr-cbt-00.com
+6. Change yourURL e.g. formR-cbt-00.com
 
 ![BitVise simpleApp2](./images/fr0306-10_Ubuntu-Bitvise-simpleApp2.png "BitVise simpleApp2")
  
@@ -491,7 +491,7 @@ http:<your VM IP>:5000
 ```
 certbot --nginx -d <yoururl>  
 
-<yoururl> =  formr-<yourinitials>-00.com e.g. formr-cbt-00.com
+<yoururl> =  formR-<yourinitials>-00.com e.g. formR-cbt-00.com
 ```
 2. Enter your email address to get renewal notices and then Y to register:
 
@@ -506,7 +506,7 @@ certbot --nginx -d <yoururl>
 ```
 https://yoururl
 
-e.g. https://formr-cbt-00.com
+e.g. https://formR-cbt-00.com
 
 ```
 
@@ -600,7 +600,7 @@ service nginx reload
 ssllabs.com/ssltest/
 ```
 
-- Enter your URL into Hostname e.g. formr-cbt.00.com
+- Enter your URL into Hostname e.g. formR-cbt.00.com
 
 ![SSL Test](./images/fr0306-11_Ubuntu-SSL-test1.png "SSL Test")
 

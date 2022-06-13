@@ -30,7 +30,7 @@
 ----
 <br/>
 
-Your URL would be: formr-yourinitials-00.com
+Your URL would be: formR-yourinitials-00.com
 
 <br/>
 
