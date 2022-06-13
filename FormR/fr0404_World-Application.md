@@ -3,10 +3,10 @@
 <div class="page-back">
 
 
-[BACK - Run User Administration](/FormR/fr0403_User-Administration.md)
+[BACK - Run User Administration](/formR/fr0403_User-Administration.md)
 </div><div class="page-next">
 
-[Use Your Own Data - NEXT](/FormR/fr0501_Use-Your_Qwn_Data.md)
+[Use Your Own Data - NEXT](/formR/fr0501_Use-Your_Qwn_Data.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -32,10 +32,10 @@
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
-[BACK - Run User Administration](/FormR/fr0403_User-Administration.md)
+[BACK - Run User Administration](/formR/fr0403_User-Administration.md)
 </div><div class="page-next">
 
-[Use Your Own Data - NEXT](/FormR/fr0501_Use-Your_Qwn_Data.md)
+[Use Your Own Data - NEXT](/formR/fr0501_Use-Your_Qwn_Data.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

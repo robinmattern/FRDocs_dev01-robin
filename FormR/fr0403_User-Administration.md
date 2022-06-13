@@ -3,10 +3,10 @@
 <div class="page-back">
 
 
-[BACK - Run Authentication](/FormR/fr0402_Authentication.md)
+[BACK - Run Authentication](/formR/fr0402_Authentication.md)
 </div><div class="page-next">
 
-[Run World Application - NEXT](/FormR/fr0404_World-Application.md)
+[Run World Application - NEXT](/formR/fr0404_World-Application.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -33,10 +33,10 @@
 
 <div class="page-back">
 
-[BACK - Run Authentication](/FormR/fr0402_Authentication.md)
+[BACK - Run Authentication](/formR/fr0402_Authentication.md)
 </div><div class="page-next">
 
-[Run World Application - NEXT](/FormR/fr0404_World-Application.md)
+[Run World Application - NEXT](/formR/fr0404_World-Application.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

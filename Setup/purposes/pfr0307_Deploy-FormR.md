@@ -3,7 +3,7 @@
 <div class="page-back">
 
 
-[BACK - Clone FormR](/Setup/purposes/pfr0103_Clone-FormR.md)
+[BACK - Clone formR](/Setup/purposes/pfr0103_Clone-formR.md)
 </div><div class="page-next">
 
 [World Database - NEXT](/Setup/purposes/pfr0307_World-Database.md)
@@ -12,7 +12,7 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## Purpose for 3.3 Deploy FormR
+## Purpose for 3.3 Deploy formR
 
 #### Introduction  (*This section is not complete*)
 ----
@@ -23,7 +23,7 @@
 
 <div class="page-back">
 
-[BACK - Clone FormR](/Setup/purposes/pfr0103_Clone-FormR.md)
+[BACK - Clone formR](/Setup/purposes/pfr0103_Clone-formR.md)
 </div><div class="page-next">
 
 [World Database - NEXT](/Setup/purposes/pfr0307_World-Database.md)

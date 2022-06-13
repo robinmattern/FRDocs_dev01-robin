@@ -7,7 +7,7 @@
 [BACK - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next">
 
-[Clone FormR - NEXT](/FormR/fr0401_Clone-FormR.md)
+[Clone formR - NEXT](/formR/fr0401_Clone-formR.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 
@@ -206,7 +206,7 @@ e.g. formr-cbt-00.com/5c-my-react-app
 [BACK - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next disabled">
 
-[Clone FormR - NEXT](/FormR/fr0401_Clone-FormR.md)
+[Clone formR - NEXT](/formR/fr0401_Clone-formR.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

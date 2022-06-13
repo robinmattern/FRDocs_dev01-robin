@@ -6,7 +6,7 @@
 [BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[Deploy my-react-app - NEXT](/FormR/fr0401_Deploy-My-Custom-App.md)
+[Deploy my-react-app - NEXT](/formR/fr0401_Deploy-My-Custom-App.md)
 </div>
 <div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
@@ -35,7 +35,7 @@
 ### 1. Restart your Vultr VM and Login 0:05
 
 ----
-1. Open Bitvise and Load profile for Vultr-FormR0-root and click Login
+1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
@@ -80,7 +80,7 @@ reboot
 ![BitVise Create File authorized_keys2](./images/fr0306-05_Ubuntu-Bitvise-Create-File-authorized_keys2.png "BitVise Create File authorized_keys2") 
 
 5. In Local files panes (left)
-6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for Vultr_FormR0_nimda
+6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for Vultr_formR0_nimda
 7. Right click and select Edit
 
     (Note you may need to expand the name column to see the .pub extension)
@@ -338,7 +338,7 @@ systemctl reload nginx
 #### Note: 
 - To install a Letsencrypt SSL certificate you will need a Domain Name. Our example creates a domain at GoDaddy.com.
 
-- There are many domain providers. You can expect to pay about $19/yr. Often there are sales promotions. Also all of them offer many extra services. --- In our FormR example we decline all extra services from the domain provider. 
+- There are many domain providers. You can expect to pay about $19/yr. Often there are sales promotions. Also all of them offer many extra services. --- In our formR example we decline all extra services from the domain provider. 
 
 - The GoDaddy web site changes frequently, so the screen shots below may not match. The steps are repeatable. Contact GoDaddy support for more assistance.
 ----
@@ -425,7 +425,7 @@ e.g http://formr-cbt-00.com
 ### 9. Modify formr-xxx-00.com_all-apps.conf to use your new URL 0:05
 ----
 1. Open Bitvise 
-2. Load Profile: Vultr-FormR0-nimda.tlp
+2. Load Profile: Vultr-formR0-nimda.tlp
 3. Login
 4. From your Bitvise SFTP window navigate to 
 
@@ -445,7 +445,7 @@ e.g http://formr-cbt-00.com
 7. Save then close this file
 
 ----
-### 10. Personalize the FormR Home Page 0:05
+### 10. Personalize the formR Home Page 0:05
 ----
 1. From your Bitvise SFTP window navigate to 
 
@@ -457,7 +457,7 @@ e.g http://formr-cbt-00.com
 
 ![BitVise appjs1](./images/fr0306-10_Ubuntu-Bitvise-appjs1.png "BitVise appjs1")
 
-3. Add something personal to the "Welcome to" line. e.g. Welcome to Bruce's FormR 
+3. Add something personal to the "Welcome to" line. e.g. Welcome to Bruce's formR 
 
 ![BitVise appjs2](./images/fr0306-10_Ubuntu-Bitvise-appjs2.png "BitVise appjs2")
  
@@ -638,6 +638,6 @@ ssllabs.com/ssltest/
 [BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[Deploy my-react-app - NEXT](/FormR/fr0401_Deploy-My-React-App.md)
+[Deploy my-react-app - NEXT](/formR/fr0401_Deploy-My-React-App.md)
 </div>
 <!-- ------------------------------------------------------------------------- -->

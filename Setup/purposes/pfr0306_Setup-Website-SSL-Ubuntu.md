@@ -36,7 +36,7 @@ https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with
 7. Create A Domain For Public Access To Your Server (Skip To Step 11, If You Don’t Wan’t To Purchase A Domain.)
 8. Update Your DNS Record To Point YourURL To Your Server IP Address.
 9. Modify SimpleApp.Conf To Use Your New URL
-10. Personalize The FormR Home Page
+10. Personalize The formR Home Page
 11. Disable TLSv1.0 And TLSv1.1 And Enable TLSv1.3 Protocols
 12. Add SSL Certificate Using Letsencrypt
 13. Close Port 5000

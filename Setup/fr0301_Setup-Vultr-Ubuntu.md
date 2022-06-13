@@ -15,7 +15,7 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217076885008495)
 
 #### Introduction
-- In order to test our FormR apps on the Internet  we will create an Ubuntu server on the cloud provider, Vultr.com. 
+- In order to test our formR apps on the Internet  we will create an Ubuntu server on the cloud provider, Vultr.com. 
 - Vultr costs under $10 per month. 
 - Please use the following link when you begin:
 
@@ -32,7 +32,7 @@ https://www.vultr.com/?ref=8778592
 ----
 ### 1. Create New Ubuntu Instance  0:10
 ----
-1. Signin or create an account on vultr.com (Note the ref=8778592 below tells Vultr and us that you are doing the FormR tutorial.)
+1. Signin or create an account on vultr.com (Note the ref=8778592 below tells Vultr and us that you are doing the formR tutorial.)
 
 - Browse to:
 
@@ -56,7 +56,7 @@ https://www.vultr.com/?ref=8778592
 
 ![Vultr Server Location](./images/fr0301-03_Vultr-Server-Location.png "Server Location")
 
-6. Server Image: Ubuntu choose the highest version for the FormR tutorial.
+6. Server Image: Ubuntu choose the highest version for the formR tutorial.
 
 ![Vultr Server Type](./images/fr0301-04_Vultr-Server-Type.png "Server Type")
 
@@ -81,7 +81,7 @@ https://www.vultr.com/?ref=8778592
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Auto-Backup.png "Vultr-Host-Label")
 
-10. Server Hostname and Label: Vultr-FormR0 for both
+10. Server Hostname and Label: Vultr-formR0 for both
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Host-Label.png "Vultr-Host-Label")
 
@@ -95,7 +95,7 @@ https://www.vultr.com/?ref=8778592
 ![Vultr Installing](./images/fr0301-08_Vultr-Installing.png "Installing")
 
 ----
-### 2. Use Bitvise to access Vultr-FormR0  0:15
+### 2. Use Bitvise to access Vultr-formR0  0:15
 ----
 1. Open Bitvise
 
@@ -108,7 +108,7 @@ https://www.vultr.com/?ref=8778592
 3. Enter new profile name
 
 ```
-Vultr-FormR0-root.tlp
+Vultr-formR0-root.tlp
 ```
 
 ![Vultr New-Profile-Name](./images/fr0301-09_Vultr-New-Profile-Name.png "Vultr New-Profile-Name")
@@ -116,7 +116,7 @@ Vultr-FormR0-root.tlp
 4. Fill in the following:
 
 ```
-Host = Vultr-FormR0 IP Address (copy from Vultr web page)
+Host = Vultr-formR0 IP Address (copy from Vultr web page)
 
 Port = 22
 
@@ -126,7 +126,7 @@ Initial Method = password
 
 Click Checkbox - Store encrypted password in profile
 
-Password = Vultr-FormR0 root password (copy from Vultr web page)
+Password = Vultr-formR0 root password (copy from Vultr web page)
 
 ```
 
@@ -154,7 +154,7 @@ Password = Vultr-FormR0 root password (copy from Vultr web page)
 
 7. You will see the Welcome screen for Ubuntu and the command prompt:
 
-    root@Vultr-FormR0:~#
+    root@Vultr-formR0:~#
 
 ![Vultr Welcome](./images/fr0301-13_Vultr-Welcome.png "Welcome")
 

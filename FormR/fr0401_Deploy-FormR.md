@@ -3,16 +3,16 @@
 <div class="page-back">
 
 
-[BACK - Clone FormR](/FormR/fr0401_Clone-FormR.md)
+[BACK - Clone formR](/formR/fr0401_Clone-formR.md)
 </div><div class="page-next">
 
-[Run World Database - NEXT](/FormR/fr0401_World-Database.md)
+[Run World Database - NEXT](/formR/fr0401_World-Database.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 3.3 Deploy FormR
+## 3.3 Deploy formR
 - [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/959889116416319519)
 
@@ -32,10 +32,10 @@
 
 <div class="page-back">
 
-[BACK - Clone FormR](/FormR/fr0401_Clone-FormR.md)
+[BACK - Clone formR](/formR/fr0401_Clone-formR.md)
 </div><div class="page-next">
 
-[Run World Database - NEXT](/FormR/fr0401_World-Database.md)
+[Run World Database - NEXT](/formR/fr0401_World-Database.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

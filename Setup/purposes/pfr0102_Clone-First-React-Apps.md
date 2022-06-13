@@ -15,7 +15,7 @@
 
 ----
 
-FormR uses React as its development strategy.
+formR uses React as its development strategy.
 
 <br/>
 

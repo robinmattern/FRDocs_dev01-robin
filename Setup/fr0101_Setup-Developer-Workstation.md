@@ -2,7 +2,7 @@
 
 <div class="page-back">
 
-[BACK - FormR Introduction](/_home.md.md)
+[BACK - formR Introduction](/_home.md.md)
 </div><div class="page-next">
 
 [Test NodeJS- NEXT](/Setup/fr0102_Test-Node.md)
@@ -68,7 +68,7 @@
 ```
  User name = Local_Admin
 
- password = FormR!1234
+ password = formR!1234
 ```
 
 ![Windows-Createauser](./images/fr0101-00_Windows-Createauser.png "Windows-Createauser")
@@ -204,7 +204,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_
 - Note: Do not enter a passphase, when prompted.
 
 ```
-ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-FormR0_nimda_v210713_key" -C "mickey.mouse@Vultr-FormR0_nimda_v210713"
+ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-formR0_nimda_v210713_key" -C "mickey.mouse@Vultr-formR0_nimda_v210713"
 ```
 
 ![Create New ssh key3](./images/fr0101-03_Create-New-ssh-key3.png "Create New ssh key3")
@@ -825,7 +825,7 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 
 ![MySQL-product-configuration-2](./images/fr0101-12_MySQL-product-configuration-2.png "MySQL-product-configuration-2")
 
-- Use the password: FormR!1234
+- Use the password: formR!1234
 
 ![MySQL-product-configuration-3](./images/fr0101-12_MySQL-product-configuration-3.png "MySQL-product-configuration-3")
 
@@ -842,7 +842,7 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 8. Connect to Server
 
 ```
-Enter this password -> FormR!1234 and click the Check button
+Enter this password -> formR!1234 and click the Check button
 
 #### !! Remember to write your passwords in a safe place !!
 ```
@@ -885,7 +885,7 @@ Enter this password -> FormR!1234 and click the Check button
 - Paste the following
 
 ```
-CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'FormR!1234';
+CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'formR!1234';
 GRANT ALL PRIVILEGES ON *.* TO 'nimdas'@'%';
 SELECT user,authentication_string,plugin,host FROM mysql.user;
 ```
@@ -901,7 +901,7 @@ SELECT user,authentication_string,plugin,host FROM mysql.user;
 ```
 Enter:  \connect root@localhost
 
-Enter: FormR!1234
+Enter: formR!1234
 
 Enter: Y to save password
 
@@ -948,7 +948,7 @@ https://bitvise.com/ssh-client-download
 
 <div class="page-back">
 
-[BACK - FormR Introduction](/_home.md.md)
+[BACK - formR Introduction](/_home.md.md)
 </div><div class="page-next">
 
 [Test NodeJS - NEXT](/Setup/fr0102_Test-Node.md)

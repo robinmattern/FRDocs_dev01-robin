@@ -6,7 +6,7 @@
 [BACK - Website SSL](/Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next">
 
-[Clone FormR - NEXT](/Setup/purposes/pfr0103_Clone-FormR.md)
+[Clone formR - NEXT](/Setup/purposes/pfr0103_Clone-formR.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -26,7 +26,7 @@
 [BACK - Website SSL](/Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next">
 
-[Clone FormR - NEXT](/Setup/purposes/pfr0103_Clone-FormR.md)
+[Clone formR - NEXT](/Setup/purposes/pfr0103_Clone-formR.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

@@ -2,7 +2,7 @@
 
 <div class="page-back">
 
-[BACK - Use Your Own Data](/FormR/fr0501_Use-Your_Qwn_Data.md)
+[BACK - Use Your Own Data](/formR/fr0501_Use-Your_Qwn_Data.md)
 </div><div class="page-next disabled">
 
 
@@ -32,7 +32,7 @@
 
 <div class="page-back">
 
-[BACK - Use Your Own Data](/FormR/fr0501_Use-Your_Qwn_Data.md)
+[BACK - Use Your Own Data](/formR/fr0501_Use-Your_Qwn_Data.md)
 </div><div class="page-next disabled">
 
 

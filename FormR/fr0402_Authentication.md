@@ -3,10 +3,10 @@
 <div class="page-back">
 
 
-[BACK - Run World Database](/FormR/fr0401_World-Database.md)
+[BACK - Run World Database](/formR/fr0401_World-Database.md)
 </div><div class="page-next">
 
-[Run User Administration - NEXT](/FormR/fr0403_User-Administration.md)
+[Run User Administration - NEXT](/formR/fr0403_User-Administration.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -33,10 +33,10 @@
 
 <div class="page-back">
 
-[BACK - Run World Database](/FormR/fr0401_World-Database.md)
+[BACK - Run World Database](/formR/fr0401_World-Database.md)
 </div><div class="page-next">
 
-[Run User Administration - NEXT](/FormR/fr0403_User-Administration.md)
+[Run User Administration - NEXT](/formR/fr0403_User-Administration.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

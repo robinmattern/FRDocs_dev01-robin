@@ -4,10 +4,10 @@
 <div class="page-back">
 
 
-[BACK - Deploy FormR](/FormR/fr0401_Deploy-FormR.md)
+[BACK - Deploy formR](/formR/fr0401_Deploy-formR.md)
 </div><div class="page-next">
 
-[Run Authentication - NEXT](/FormR/fr0402_Authentication.md)
+[Run Authentication - NEXT](/formR/fr0402_Authentication.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -33,10 +33,10 @@
 
 <div class="page-back">
 
-[BACK - Deploy FormR](/FormR/fr0401_Deploy-FormR.md)
+[BACK - Deploy formR](/formR/fr0401_Deploy-formR.md)
 </div><div class="page-next">
 
-[Run Authentication - NEXT](/FormR/fr0402_Authentication.md)
+[Run Authentication - NEXT](/formR/fr0402_Authentication.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

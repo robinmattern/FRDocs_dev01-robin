@@ -13,7 +13,7 @@ BACK
 ## Purpose for 1.1 Workstation 
 ----
 
-The FormR tutorial uses the following tools to create and maintain your applications during development and in production. 
+The formR tutorial uses the following tools to create and maintain your applications during development and in production. 
 
 ----
 Why MySQL

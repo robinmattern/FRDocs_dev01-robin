@@ -46,7 +46,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Save FormR Model Scripts",
+      "label": "Save formR Model Scripts",
       "type": "process",
       "command": "node",
       "args": [

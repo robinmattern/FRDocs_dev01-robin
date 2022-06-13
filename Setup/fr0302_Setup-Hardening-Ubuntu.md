@@ -25,7 +25,7 @@
 ----
 ### 1. Restart your Vultr VM and Login 0:05
 ----
-1. Open Bitvise and Load profile for Vultr-FormR0-root and click Login
+1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
@@ -67,12 +67,12 @@ useradd -ou 0 -g 0 -d /root -s /bin/bash -G sudo nimda
 
 - Tip: To clear the console at the console prompt enter: clear
 
-2. Add the nimda password: FormR!1234 and retype it
+2. Add the nimda password: formR!1234 and retype it
 
 ```
 passwd nimda
 
-FormR!1234
+formR!1234
 ```
 
 ![New User](./images/fr0302-02_Ubuntu-New-User1.png "New User")
@@ -278,9 +278,9 @@ AllowUsers nimda@xxx.xxx.xxx.xxx
 systemctl restart sshd
 ```
 
-#### - Test local access to your Vultr FormR VM. 
+#### - Test local access to your Vultr formR VM. 
 
-6. Get the VM IP address from your Vultr-FormR0 VM i.e 45.76.252.191
+6. Get the VM IP address from your Vultr-formR0 VM i.e 45.76.252.191
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
@@ -296,7 +296,7 @@ ssh nimda@<your VM IP address>
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers2.png "SSH-AllowUsers")
 
-9. Enter the password: FormR!1234
+9. Enter the password: formR!1234
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
 
@@ -305,7 +305,7 @@ ssh nimda@<your VM IP address>
 ```
 Username = nimda
 
-Password = FormR!1234
+Password = formR!1234
 ```
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers4.png "SSH-AllowUsers")
@@ -332,7 +332,7 @@ nano /etc/issue.net
 ```
 ************************************************************************
 
- Warning!!! This server is dedicated for FormR purposes.
+ Warning!!! This server is dedicated for formR purposes.
      
  Malicious users will be subject to civil and/or criminal prosecution.
      
@@ -431,7 +431,7 @@ systemctl restart fail2ban
 
 7. Attempting to login to the server and failing three times, access is blocked. 
 
-#### Special Fail2ban Note: To flush all bans enter the following 2 times from the FormR0 Ubuntu console:
+#### Special Fail2ban Note: To flush all bans enter the following 2 times from the formR0 Ubuntu console:
 
 ```
 fail2ban-client unban --all
@@ -551,7 +551,7 @@ cd /etc/lynis
 
 ![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis4.png "Install Lynis")
 
-#### Note: Issues reported by both rkhunter and lynis require more attention than FormR can offer.
+#### Note: Issues reported by both rkhunter and lynis require more attention than formR can offer.
 
 <br/>
 
@@ -569,9 +569,9 @@ cd /etc/lynis
 ----
 ### 13. Test local access after Hardening 0:05
 ----
-1. Test local access to your Vultr FormR VM. 
+1. Test local access to your Vultr formR VM. 
 
-2. Get the VM IP address from your Vultr-FormR0 VM
+2. Get the VM IP address from your Vultr-formR0 VM
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 

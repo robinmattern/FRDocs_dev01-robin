@@ -3,7 +3,7 @@
 <div class="page-back">
 
 
-[BACK - Deploy FormR](/Setup/purposes/pfr0307_Deploy-FormR.md)
+[BACK - Deploy formR](/Setup/purposes/pfr0307_Deploy-formR.md)
 </div><div class="page-next">
 
 [Authentication - NEXT](/Setup/purposes/pfr0307_Authentication.md)
@@ -23,7 +23,7 @@
 
 <div class="page-back">
 
-[BACK - Deploy FormR](/Setup/purposes/pfr0307_Deploy-FormR.md)
+[BACK - Deploy formR](/Setup/purposes/pfr0307_Deploy-formR.md)
 </div><div class="page-next">
 
 [Authentication - NEXT](/Setup/purposes/pfr0307_Authentication.md)

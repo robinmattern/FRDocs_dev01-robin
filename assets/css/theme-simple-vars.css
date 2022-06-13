@@ -290,6 +290,26 @@
     pointer-events  : none      !important;     /* .(10610.01.2 RAM Disable click event) */
     }
 
+.meta-container a {
+    text-decoration: none;
+    color: unset !important;
+    }
+
+.meta-container {
+    /* float: right; */
+    color: rgba(68, 68, 68, 0.788);
+    position: absolute;
+    position: absolute;
+    bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0px;
+    right: 0px;
+    width: 80%;
+    font-size:80%;
+    text-align:left;   /* was center */
+    }
+
 
 /* aside > div > ul > li:nth-child(2) { color: red; } */ 
   
