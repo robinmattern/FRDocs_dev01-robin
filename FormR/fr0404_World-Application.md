@@ -12,7 +12,7 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 3.7 Run World Application
+## 3.7 Run World Application <!-- {docsify-ignore} -->
 - [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/959889781762957342)
 

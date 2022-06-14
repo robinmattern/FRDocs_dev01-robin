@@ -11,7 +11,7 @@
 <!-- ------------------------------------------------------------------------- -->
 
 
-## 4.2 Deploy Your Own App
+## 4.2 Deploy Your Own App <!-- {docsify-ignore} -->
 - [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/959890078266699813)
 

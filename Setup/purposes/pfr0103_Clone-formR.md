@@ -6,7 +6,7 @@
 [BACK - Deploy my-react-app](/Setup/purposes/pfr0307_Deploy-My-Custom-App.md)
 </div><div class="page-next">
 
-[Deploy-formR - NEXT](/Setup/purposes/pfr0307_Deploy-formR.md)
+[Custom FR Apps HTML - NEXT](/Setup/purposes/pfr0307_pfr0104_Custom-FR-Apps-HTML.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
 
 <!-- ------------------------------------------------------------------------- -->
@@ -30,7 +30,7 @@
 [BACK - Deploy my-react-app](/Setup/purposes/pfr0307_Deploy-My-Custom-App.md)
 </div><div class="page-next">
 
-[Deploy-formR - NEXT](/Setup/purposes/pfr0307_Deploy-formR.md)
+[Custom FR Apps HTML - NEXT](/Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

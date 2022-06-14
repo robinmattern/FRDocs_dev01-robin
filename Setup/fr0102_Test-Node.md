@@ -11,7 +11,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.2 Test NodeJS 1:00
+## 1.2 Test NodeJS 1:00 <!-- {docsify-ignore} -->
 - [Purpose and Background](../Setup/purposes/pfr0102_Test-Node.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216136853413958)
 

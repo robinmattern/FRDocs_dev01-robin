@@ -11,7 +11,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.3 Clone FRApps 0:45
+## 1.3 Clone FRApps 0:45 <!-- {docsify-ignore} -->
 - [Purpose and Background](../Setup/purposes/pfr0103_Clone-FR-Apps.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 

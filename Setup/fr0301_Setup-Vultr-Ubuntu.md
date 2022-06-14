@@ -10,7 +10,7 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.1 Create Vultr Ubuntu 0:25
+## 2.1 Create Vultr Ubuntu 0:25 <!-- {docsify-ignore} -->
 - [Purpose and Background](../Setup/purposes/pfr0301_Setup-Vultr-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217076885008495)
 
