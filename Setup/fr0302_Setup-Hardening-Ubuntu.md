@@ -33,11 +33,11 @@
 
 ![Restart VM](./images/fr0300-01_restart-vm2-root.png "Restart VM")
 
-2. Click New terminal console
+#### 2. Click New terminal console
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console-root.png "Restart VM")
 
-3. Enter:
+#### 3. Enter:
 
 ```
 reboot
@@ -47,7 +47,7 @@ reboot
 
 - Close the Terminal window and wait for Bitvise to automatically login
 
-4. From Bitvise click New terminal console
+#### 4. From Bitvise click New terminal console
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console-root.png "Restart VM")
 
@@ -67,7 +67,7 @@ useradd -ou 0 -g 0 -d /root -s /bin/bash -G sudo nimda
 
 - Tip: To clear the console at the console prompt enter: clear
 
-2. Add the nimda password: formR!1234 and retype it
+#### 2. Add the nimda password: formR!1234 and retype it
 
 ```
 passwd nimda
@@ -78,7 +78,7 @@ formR!1234
 ![New User](./images/fr0302-02_Ubuntu-New-User1.png "New User")
 
 
-3. Check to see if nimda is in sudo group
+#### 3. Check to see if nimda is in sudo group
 
 ```
 grep '^sudo' /etc/group
@@ -86,7 +86,7 @@ grep '^sudo' /etc/group
 
 ![New User](./images/fr0302-02_Ubuntu-New-User2.png "New User")
 
-4. Check user info
+#### 4. Check user info
 
 ```
 cat /etc/passwd
@@ -133,7 +133,7 @@ systemctl restart unattended-upgrades
 ![Install Unattended Upgrades](./images/fr0302-05_Ubuntu-Install-Unattended-Upgrades-1.png "Install Unattended Upgrades")
 
 
-2. Check installation
+#### 2. Check installation
 ```
 systemctl status unattended-upgrades
 ```
@@ -144,13 +144,13 @@ systemctl status unattended-upgrades
 
 ![Check Unattended Upgrades](./images/fr0302-06_Ubuntu-Check-Unattended-Upgrades1.png "Check Unattended Upgrades")
 
-3. Using the nano editor, modify apt.conf.d/50unattended-upgrades
+#### 3. Using the nano editor, modify apt.conf.d/50unattended-upgrades
 
 ```
 nano /etc/apt/apt.conf.d/50unattended-upgrades
 ```
 
-4. Uncomment the “updates” line by deleting the two slashes at the beginning of it:
+#### 4. Uncomment the “updates” line by deleting the two slashes at the beginning of it:
 
 ```
 "${distro_id}:${distro_codename}-updates";
@@ -158,7 +158,7 @@ nano /etc/apt/apt.conf.d/50unattended-upgrades
 
 ![Modify apt.conf.d](./images/fr0302-07_Ubuntu-Modify-apt-conf-d.png "Modify apt.conf.d")
 
-5.  Uncomment and modify: (Note: Use your down arrow to find these items. They are near the bottom of the file.)
+#### 5.  Uncomment and modify: (Note: Use your down arrow to find these items. They are near the bottom of the file.)
 
 ```
 Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";
@@ -169,15 +169,15 @@ Unattended-Upgrade::Automatic-Reboot-Time "02:30";
 
 ![Modify apt.conf.d-2](./images/fr0302-08_Ubuntu-Modify-apt-conf-d-2.png "Modify apt.conf.d-2")
 
-6. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
+#### 6. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
 
-7. Using nano, enable Automatic Updates
+#### 7. Using nano, enable Automatic Updates
 
 ```
 nano /etc/apt/apt.conf.d/20auto-upgrades
 ```
 
-8. Add these lines:
+#### 8. Add these lines:
 ```
 APT::Periodic::Update-Package-Lists "1";
 APT::Periodic::Download-Upgradeable-Packages "1";
@@ -187,9 +187,9 @@ APT::Periodic::Unattended-Upgrade "1";
 
 ![Modify apt.conf.d-3](./images/fr0302-09_Ubuntu-Modify-apt-conf-d-3.png "Modify apt.conf.d-3")
 
-9. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
+#### 9. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
 
-10. Check if Unattended Upgrades works
+#### 10. Check if Unattended Upgrades works
 
 ```
 unattended-upgrades --dry-run --debug
@@ -201,7 +201,7 @@ unattended-upgrades --dry-run --debug
 
 ![Sample Console Warning](./images/fr0302-10_Ubuntu-Sample-Console-Warning.png "Sample Console Warning")
 
-11. Reboot the server
+#### 11. Reboot the server
 
 - From the console prompt enter:
 
@@ -222,7 +222,7 @@ reboot
 nano /etc/fstab
 ```
 
-2. Add the following line to the bottom of that file:
+#### 2. Add the following line to the bottom of that file:
 
 ```
 tmpfs /run/shm tmpfs defaults,noexec,nosuid 0 0  
@@ -230,9 +230,9 @@ tmpfs /run/shm tmpfs defaults,noexec,nosuid 0 0
 
 ![Secure Shared Memory](./images/fr0302-11_Ubuntu-secure-shared-memory.png "Secure Shared Memory")
 
-3. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
+#### 3. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
 
-4. Reboot the server
+#### 4. Reboot the server
 
 - From the console prompt enter:
 
@@ -255,13 +255,13 @@ https://whatismyipaddress.com/
 
 ![Get-IP](./images/fr0302-12_Ubuntu-Get-IP.png "Get-IP")
  
-2. Edit sshd_config
+#### 2. Edit sshd_config
 
 ```
 nano /etc/ssh/sshd_config
 ```
 
-3. At the bottom of the file, add the line: (Use your own workstation's IP address. 
+#### 3. At the bottom of the file, add the line: (Use your own workstation's IP address. 
 
 
 ```
@@ -270,9 +270,9 @@ AllowUsers nimda@xxx.xxx.xxx.xxx
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers.png "SSH-AllowUsers")
 
-4. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
+#### 4. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
 
-5. Restart sshd with this command:
+#### 5. Restart sshd with this command:
 
 ```
 systemctl restart sshd
@@ -280,14 +280,14 @@ systemctl restart sshd
 
 #### - Test local access to your Vultr formR VM. 
 
-6. Get the VM IP address from your Vultr-formR0 VM i.e 45.76.252.191
+#### 6. Get the VM IP address from your Vultr-formR0 VM i.e 45.76.252.191
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
 
-7. Open the Windows command prompt on your Develper Workstation
+#### 7. Open the Windows command prompt on your Develper Workstation
 
-8. Paste the following:
+#### 8. Paste the following:
 
 ```
 ssh nimda@<your VM IP address>
@@ -296,11 +296,11 @@ ssh nimda@<your VM IP address>
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers2.png "SSH-AllowUsers")
 
-9. Enter the password: formR!1234
+#### 9. Enter the password: formR!1234
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
 
-10. Logout of Bitvise and then change the Username and Password and Login
+#### 10. Logout of Bitvise and then change the Username and Password and Login
 
 ```
 Username = nimda
@@ -310,7 +310,7 @@ Password = formR!1234
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers4.png "SSH-AllowUsers")
 
-11. Save the Profile
+#### 11. Save the Profile
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers3.png "SSH-AllowUsers")
 
@@ -327,7 +327,7 @@ Password = formR!1234
 nano /etc/issue.net
 ```
 
-2. - Remove the "Ubuntu..." line and add the following warning message
+#### 2. - Remove the "Ubuntu..." line and add the following warning message
 
 ```
 ************************************************************************
@@ -339,17 +339,17 @@ nano /etc/issue.net
 ************************************************************************
 ```
 
-3. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
+#### 3. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
 
 ![SSH-Banner Issue.net](./images/fr0302-13_Ubuntu-ssh-banner-issue-net.png "SSH-Banner Issue.net")
 
-4. Disable the banner message from Message Of The Day (motd).
+#### 4. Disable the banner message from Message Of The Day (motd).
 
 ```
 nano /etc/pam.d/sshd
 ```
 
-5. Comment out the following two lines (adding a # to the beginning of each line):
+#### 5. Comment out the following two lines (adding a # to the beginning of each line):
 
 ```
 #session optional pam_motd.so motd=run/motd.dynamic
@@ -358,15 +358,15 @@ nano /etc/pam.d/sshd
 
 ![SSH-Comment Out](./images/fr0302-14_Ubuntu-ssh-comment-out-pam-d.png "SSH-Comment Out")
      
-6. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
+#### 6. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
 
-7. Edit sshd_config
+#### 7. Edit sshd_config
 
 ```
 nano /etc/ssh/sshd_config
 ```
 
-8. Replace
+#### 8. Replace
 
 ```
 #Banner none   with    (Remove the #)
@@ -376,15 +376,15 @@ Banner  /etc/issue.net
 
 ![SSH-Banner Config](./images/fr0302-15_Ubuntu-ssh-banner-config.png "SSH-Banner Config")
 
-9. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
+#### 9. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
 
-10. Restart the sshd service
+#### 10. Restart the sshd service
      
 ```
 systemctl restart sshd
 ```
 
-11. When someone logs into your server using SSH, they see your newly added banner warning them of any consequences of further action. 
+#### 11. When someone logs into your server using SSH, they see your newly added banner warning them of any consequences of further action. 
 
 ----
 ### 8. Install Fail2ban 0:10
@@ -400,13 +400,13 @@ apt-get install fail2ban
 
 ![Install Fail2Ban](./images/fr0302-16_Ubuntu-install-fail2ban.png "Install Fail2Ban")
 
-2. Configure Fail2Ban
+#### 2. Configure Fail2Ban
 
 ```     
 nano /etc/fail2ban/jail.local
 ```
 
-3. In this new file, add the following contents:
+#### 3. In this new file, add the following contents:
 
 ```
 [sshd]
@@ -419,17 +419,17 @@ maxretry = 3
 
 ![SSH-jail-local](./images/fr0302-17_Ubuntu-ssh-jail-local.png "SSH-jail-local")
 
-4. This configuration enables the jail, sets the SSH port to be monitored to 22, uses the sshd filter, sets the max login tries, and sets the log file to be monitored.
+#### 4. This configuration enables the jail, sets the SSH port to be monitored to 22, uses the sshd filter, sets the max login tries, and sets the log file to be monitored.
 
-5. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
+#### 5. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
 
-6. Restart fail2ban with the command:
+#### 6. Restart fail2ban with the command:
 
 ```
 systemctl restart fail2ban
 ```
 
-7. Attempting to login to the server and failing three times, access is blocked. 
+#### 7. Attempting to login to the server and failing three times, access is blocked. 
 
 #### Special Fail2ban Note: To flush all bans enter the following 2 times from the formR0 Ubuntu console:
 
@@ -446,13 +446,13 @@ fail2ban-client unban --all
 ufw allow OpenSSH
 ```
 
-2. Enable firewall
+#### 2. Enable firewall
 
 ```
 ufw --force enable
 ```
 
-3. Check firewall status
+#### 3. Check firewall status
 
 ```
 ufw status
@@ -469,7 +469,7 @@ ufw status
 timedatectl set-timezone America/New_York 
 ```
 
-2. Check TimeZone
+#### 2. Check TimeZone
 
 ```
 timedatectl
@@ -489,7 +489,7 @@ apt-get install rkhunter -y
 
 ![Install Lynis](./images/fr0302-19_Ubuntu-install-rkhunter.png "Install rkhunter")
 
-2. Check rkhunter version
+#### 2. Check rkhunter version
 
 ```
 rkhunter --version
@@ -497,7 +497,7 @@ rkhunter --version
 
 ![Install rkhunter](./images/fr0302-19_Ubuntu-install-rkhunter1.png "Install rkhunter")
 
-3. Audit your system
+#### 3. Audit your system
 
 ```
 rkhunter --check
@@ -527,7 +527,7 @@ git clone https://github.com/CISOfy/lynis
 
 ![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis.png "Install Lynis")
 
-2. Check Lynis version
+#### 2. Check Lynis version
 
 ```
 cd /etc/lynis
@@ -537,7 +537,7 @@ cd /etc/lynis
 
 ![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis1.png "Install Lynis")
 
-3. Audit your system
+#### 3. Audit your system
 
 ```
 ./lynis audit system --quick
@@ -547,7 +547,7 @@ cd /etc/lynis
 
 ![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis3.png "Install Lynis")
 
-4. Study the suggestions
+#### 4. Study the suggestions
 
 ![Install Lynis](./images/fr0302-19_Ubuntu-install-lynis4.png "Install Lynis")
 
@@ -571,13 +571,13 @@ cd /etc/lynis
 ----
 #### 1. Test local access to your Vultr formR VM. 
 
-2. Get the VM IP address from your Vultr-formR0 VM
+#### 2. Get the VM IP address from your Vultr-formR0 VM
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
-3. Open the Windows command prompt on your Develper Workstation
+#### 3. Open the Windows command prompt on your Develper Workstation
 
-4. Paste the following:
+#### 4. Paste the following:
 
 ```
 ssh nimda@<your VM IP address>

@@ -80,7 +80,7 @@ npm install
 
 - This process takes several minutes. 
 
-3. Test for vulnerabilities for production
+#### 3. Test for vulnerabilities for production
 
 ```
 npm audit --production
@@ -88,9 +88,9 @@ npm audit --production
 
 ![formR-Clone-06](images/fr0103-formR-Clone-06a.png "formR-Clone-06")
 
-4. Right click on the server folder
+#### 4. Right click on the server folder
 
-5. Click Open in Integrated Terminal, then 
+#### 5. Click Open in Integrated Terminal, then 
 
 ![formR-Clone-07](images/fr0103-formR-Clone-07.png "formR-Clone-07")
 
@@ -102,7 +102,7 @@ npm install
 
 ![formR-Clone-09](images/fr0103-formR-Clone-09.png "formR-Clone-09")
 
-3. Test for vulnerabilities for production
+#### 3. Test for vulnerabilities for production
 
 ```
 npm audit --production
@@ -125,7 +125,7 @@ Note: The World sample database has been modified so that all tables contain ID 
 
 ![formR-Clone-10](images/fr0103-formR-Clone-10.png "formR-Clone-10")
 
-3. Run Script file
+#### 3. Run Script file
 
     - Click on Schemas to show your current databases
 
@@ -134,7 +134,7 @@ Note: The World sample database has been modified so that all tables contain ID 
 
 ![formR-Clone-11](images/fr0103-formR-Clone-11.png "formR-Clone-11")
 
-4. Navigate to and Open: 
+#### 4. Navigate to and Open: 
 
 ```
  C:\repos\formR\prod-master\_3\SQLs\formR_RAuth-DB-Create.
@@ -150,23 +150,23 @@ Note: The World sample database has been modified so that all tables contain ID 
 
 ![formR-Clone-13](images/fr0103-formR-Clone-13.png "formR-Clone-13")
 
-5. Click the Execute icon
+#### 5. Click the Execute icon
 
 ![formR-Clone-14](images/fr0103-formR-Clone-14.png "formR-Clone-14")
 
-6. Click the refesh icon above the schema list
+#### 6. Click the refesh icon above the schema list
 
 ![formR-Clone-15](images/fr0103-formR-Clone-15.png "formR-Clone-15")
 
 ![formR-Clone-16](images/fr0103-formR-Clone-16.png "formR-Clone-16")
 
-7. IMPORTANT - Go back to Step 4. and repeat these same steps for the World DB file
+#### 7. IMPORTANT - Go back to Step #### 4. and repeat these same steps for the World DB file
 
 ```
  C:\repos\formR\prod-master\_3\SQLs\formR_World-DB-Create.sql
 ```
 
-8. Close Workbench
+#### 8. Close Workbench
 
 ----
 ### 4. Make sure that your MySQL password for root  is set to:  formR!1234 0:05
@@ -177,42 +177,42 @@ Note: The World sample database has been modified so that all tables contain ID 
 
 ![formR-Clone-10](images/fr0103-formR-Clone-10.png "formR-Clone-10")
 
-3. Click the File tab, then click 'New Query Tab'
+#### 3. Click the File tab, then click 'New Query Tab'
 
 ![formR-Clone-17](images/fr0103-formR-Clone-17.png "formR-Clone-17") 
 
-4. Enter the following into the Query window, then
+#### 4. Enter the following into the Query window, then
 
 ```js
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'formR!1234';
 ```
 
-5. Click the Execute icon
+#### 5. Click the Execute icon
 
 
 ![formR-Clone-18](images/fr0103-formR-Clone-18.png "formR-Clone-18")
 
 ![formR-Clone-19](images/fr0103-formR-Clone-19.png "formR-Clone-19")
 
-6. Close workbench and reopen it, then
+#### 6. Close workbench and reopen it, then
 
-7. Right click on the Local Instance, then
+#### 7. Right click on the Local Instance, then
 
-8. Click Edit Connection, then
+#### 8. Click Edit Connection, then
 
 ![formR-Clone-20](images/fr0103-formR-Clone-20.png "formR-Clone-20")
 
-9. Click Store in Vault, then
+#### 9. Click Store in Vault, then
 
-10. Enter the new password: formR!1234 and click OK
+#### 10. Enter the new password: formR!1234 and click OK
 
 ![formR-Clone-20a](images/fr0103-formR-Clone-20a.png "formR-Clone-20a")
 
-11. Click Test Connection then
+#### 11. Click Test Connection then
 
 ![formR-Clone-20b](images/fr0103-formR-Clone-20b.png "formR-Clone-20b")
 
-12. Click Close and then close Workbench
+#### 12. Click Close and then close Workbench
 
 
 ----
@@ -232,8 +232,8 @@ npm start
 
 ![formR-Clone22a](images/fr0103-formR-Clone-22a.png "formR-Clone-22a")
 
-3. Right click on the client/1c-world folder and
-4. Click Open in Integrated Terminal, then 
+#### 3. Right click on the client/1c-world folder and
+#### 4. Click Open in Integrated Terminal, then 
 
 (Note: The client application can take up to 15 minutes to start for the first time)
 
@@ -300,7 +300,7 @@ cd C:/Repos/formR
 git https://github.com/8020data/FRTools.git     tools
 ```
 
-3. Create a link from ./formR/_2  ./formR/tools/_2 to
+#### 3. Create a link from ./formR/_2  ./formR/tools/_2 to
    - Open Windows Command prompt Run as Administrator  BT-NEED screen shot
 
 ``` 
@@ -309,7 +309,7 @@ cd C:\Repos\formR
 mklink /d _2 tools\_2
 ```
 
-4. Run FRTools command
+#### 4. Run FRTools command
    - $ frt  
 
 

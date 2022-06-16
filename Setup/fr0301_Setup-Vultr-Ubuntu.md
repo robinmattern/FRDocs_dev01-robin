@@ -40,31 +40,31 @@ https://www.vultr.com/?ref=8778592
 https://www.vultr.com/?ref=8778592
 ```
 
-2. Deploy New Server 
+#### 2. Deploy New Server 
 
 ![Vultr Deploy New Server](./images/fr0301-01_Vultr-Deploy-New-Server.png "Deploy New Server")
 
-3. Choose Server: Cloud Compute
+#### 3. Choose Server: Cloud Compute
 
 ![Vultr Cloud Compute](./images/fr0301-02_Vultr-Cloud-Compute.png "Cloud Compute")
 
-4. CPU and Storage
+#### 4. CPU and Storage
 
 ![Vultr Server Location](./images/fr0301-03_Vultr-Server-CPU.png "Server Location")
 
-5. Server Location
+#### 5. Server Location
 
 ![Vultr Server Location](./images/fr0301-03_Vultr-Server-Location.png "Server Location")
 
-6. Server Image: Ubuntu choose the highest version for the formR tutorial.
+#### 6. Server Image: Ubuntu choose the highest version for the formR tutorial.
 
 ![Vultr Server Type](./images/fr0301-04_Vultr-Server-Type.png "Server Type")
 
-7. Server Size: 25GB
+#### 7. Server Size: 25GB
 
 ![Vultr Server Size](./images/fr0301-05_Vultr-Server-Size.png "Server Size")
 
-8. Add SSH Key
+#### 8. Add SSH Key
     - Select your Vultr public key in C:\users\Local_Admin\\.ssh
 
 ![Vultr-Select-Key](./images/fr0301-06_Vultr-Select-Key.png "Vultr-Select-Key")
@@ -77,16 +77,16 @@ https://www.vultr.com/?ref=8778592
 
 ![Vultr-add-SSH-key-pasted](./images/fr0301-06_Vultr-add-SSH-key-pasted.png "Vultr-add-SSH-key-pasted")
 
-9. Auto Backup = Off
+#### 9. Auto Backup = Off
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Auto-Backup.png "Vultr-Host-Label")
 
-10. Server Hostname and Label: Vultr-formR0 for both
+#### 10. Server Hostname and Label: Vultr-formR0 for both
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Host-Label.png "Vultr-Host-Label")
 
 
-11. Click Deploy Now
+#### 11. Click Deploy Now
 
 ![Vultr Deploy Now](./images/fr0301-07_Vultr-Deploy-Now.png "Deploy Now")
 
@@ -101,11 +101,11 @@ https://www.vultr.com/?ref=8778592
 
 ![Vultr Open-Bitvise](./images/fr0301-09_Vultr-Open-Bitvise.png "Vultr Open-Bitvise")
 
-2. Click New Profile
+#### 2. Click New Profile
 
 ![Vultr New-Profile](./images/fr0301-09_Vultr-New-Profile.png "Vultr New-Profile")
 
-3. Enter new profile name
+#### 3. Enter new profile name
 
 ```
 Vultr-formR0-root.tlp
@@ -113,7 +113,7 @@ Vultr-formR0-root.tlp
 
 ![Vultr New-Profile-Name](./images/fr0301-09_Vultr-New-Profile-Name.png "Vultr New-Profile-Name")
 
-4. Fill in the following:
+#### 4. Fill in the following:
 
 ```
 Host = Vultr-formR0 IP Address (copy from Vultr web page)
@@ -134,13 +134,13 @@ Password = Vultr-formR0 root password (copy from Vultr web page)
 
 ![Vultr New-Profile-Login](./images/fr0301-09_Vultr-New-Profile-Login.png "Vultr New-Profile-Login")
 
-5. Click Login
+#### 5. Click Login
 
 ![Vultr New-Profile-Host](./images/fr0301-09_Vultr-New-Profile-Host.png "Vultr New-Profile-Host")
 
 ![Vultr New-Profile-Auth](./images/fr0301-09_Vultr-New-Profile-Auth.png "Vultr New-Profile-Auth")
 
-6. Important-- Save Profile
+#### 6. Important-- Save Profile
 
 ![Vultr New-Profile-Save](./images/fr0301-09_Vultr-New-Profile-Save.png "Vultr New-Profile-Save")
 
@@ -148,11 +148,11 @@ Password = Vultr-formR0 root password (copy from Vultr web page)
 
 
 
-6. Click New terminal console button
+#### 6. Click New terminal console button
 
 ![Vultr New-Profile-Console](./images/fr0301-09_Vultr-New-Profile-Console-root.png "Vultr New-Profile-Console")
 
-7. You will see the Welcome screen for Ubuntu and the command prompt:
+#### 7. You will see the Welcome screen for Ubuntu and the command prompt:
 
     root@Vultr-formR0:~#
 

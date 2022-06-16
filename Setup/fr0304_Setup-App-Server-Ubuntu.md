@@ -38,11 +38,11 @@
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
-2. Click New terminal console
+#### 2. Click New terminal console
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
-3. Enter:
+#### 3. Enter:
 
 ```
 reboot
@@ -52,7 +52,7 @@ reboot
 
 - Close the Terminal window and wait for Bitvise to automatically login
 
-4. From Bitvise click New terminal console
+#### 4. From Bitvise click New terminal console
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
@@ -98,7 +98,7 @@ nvs link
 
 ![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs3.png "Install NodeJS")
 
-2. Check
+#### 2. Check
 
 ```
 node --version
@@ -119,14 +119,14 @@ npm install -g pm2
 
 ![Install PM2](./images/fr0304-05_Ubuntu-install-pm2.png "Install PM2")
 
-2. Check
+#### 2. Check
 ```
 ps -aux | egrep 'pm2'
 ```
 
 ![Check PM2](./images/fr0304-06_Ubuntu-check-pm2.png "Check PM2")
 
-3. Configure pm2 to start automatically on system startup
+#### 3. Configure pm2 to start automatically on system startup
 ```
 pm2 startup systemd
 ```

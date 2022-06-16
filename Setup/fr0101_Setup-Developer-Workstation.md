@@ -39,31 +39,31 @@
 
 ![Windows-Controlpanel](./images/fr0101-00_Windows-Controlpanel.png "Windows-Controlpanel")
 
-3. Click User Accounts
+#### 3. Click User Accounts
 
 ![Windows-Useraccounts](./images/fr0101-00_Windows-Useraccounts.png "Windows-Useraccounts")
 
-4. Click Change Account Type
+#### 4. Click Change Account Type
 
 ![Windows-Changeaccounttype](./images/fr0101-00_Windows-Changeaccounttype.png "Windows-Changeaccounttype")
 
-5. Click Add New User...
+#### 5. Click Add New User...
 
 ![Windows-Addnewuser](./images/fr0101-00_Windows-Addnewuser.png "Windows-Addnewuser")
 
-6. Click the (+) Add someone else...
+#### 6. Click the (+) Add someone else...
 
 ![Windows-Addsomeoneelse](./images/fr0101-00_Windows-Addsomeoneelse.png "Windows-Addsomeoneelse")
 
-7. Click I don't have this person's...
+#### 7. Click I don't have this person's...
 
 ![Windows-Idonthave](./images/fr0101-00_Windows-Idonthave.png "Windows-Idonthave")
 
-8. Click Add a user without...
+#### 8. Click Add a user without...
 
 ![Windows-Addauserwithout](./images/fr0101-00_Windows-Addauserwithout.png "Windows-Addauserwithout")
 
-9. Create a user by filling in the information for:
+#### 9. Create a user by filling in the information for:
 
 ```
  User name = Local_Admin
@@ -73,21 +73,21 @@
 
 ![Windows-Createauser](./images/fr0101-00_Windows-Createauser.png "Windows-Createauser")
 
-10. Go to Control Panel -> User Accounts -> Change Account Type and select the Local_Admin account
+#### 10. Go to Control Panel -> User Accounts -> Change Account Type and select the Local_Admin account
 
 ![Windows-Selectlocaladmin](./images/fr0101-00_Windows-Selectlocaladmin.png "Windows-Selectlocaladmin")
 
-11. Click Change Account Type
+#### 11. Click Change Account Type
 
 ![Windows-Changelocaladmintype](./images/fr0101-00_Windows-Changelocaladmintype.png "Windows-Changelocaladmintype")
 
-12. Click Administrator radio button and then the Change Account Type button
+#### 12. Click Administrator radio button and then the Change Account Type button
 
 ![Windows-Selectadministrator](./images/fr0101-00_Windows-Selectadministrator.png "Windows-Selectadministrator")
 
 ![Windows-Selectadministrator-1](./images/fr0101-00_Windows-Selectadministrator-1.png "Windows-Selectadministrator-1")
 
-13. Sign out
+#### 13. Sign out
 
 - Click the Start charm on the taskbar
 - then click your login name 
@@ -95,7 +95,7 @@
 
 ![Windows-Signout](./images/fr0101-00_Windows-Signout.png "Windows-Signout")
 
-14. Sign in as Local_Admin
+#### 14. Sign in as Local_Admin
 
 ![Windows-Signin](./images/fr0101-00_Windows-Signin.png "Windows-Signin")
 
@@ -125,7 +125,7 @@
 
 ![Create-folders2](./images/fr0101-02_Create-folders2.png "Create-folders2")
 
-3. Change View Options in File Explorer
+#### 3. Change View Options in File Explorer
 
 ```
 Enable Extentions and Hidden Files
@@ -133,13 +133,13 @@ Enable Extentions and Hidden Files
 
 ![Change-View-Options](./images/fr0101-02_Change-View-Options.png "Change-View-Options")
 
-4. Test if OpenSSH client is installed.
+#### 4. Test if OpenSSH client is installed.
 
 ```
 From DOS command prompt run ssh.
 ```
 
-5.  If OpenSSH client is Not installed
+#### 5.  If OpenSSH client is Not installed
 
 ![OpenSSH-not-installed](./images/fr0101-02_OpenSSH-not-installed.png "OpenSSH-not-installed")
 
@@ -151,11 +151,11 @@ From DOS command prompt run ssh.
 
 ![Install-OpenSSH3](./images/fr0101-02_Install-OpenSSH3.png "Install-OpenSSH3")
 
-6. OpenSSH client
+#### 6. OpenSSH client
 
 ![OpenSSH-is-installed](./images/fr0101-02_OpenSSH-is-installed.png "OpenSSH-is-installed")
 
-7. Create 3 ssh keys. These keys will be used for GitHub, your Cloud Provider and your Remote server. Run from the Windows command prompt
+#### 7. Create 3 ssh keys. These keys will be used for GitHub, your Cloud Provider and your Remote server. Run from the Windows command prompt
 
 ```
 Format:
@@ -179,7 +179,7 @@ In the following change the following to your info:
 - "v210713" to the <current date>
 ```
 
-8. Key pairs for Github:
+#### 8. Key pairs for Github:
 
 - Note: Do not enter a passphase, when prompted.
 
@@ -189,7 +189,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713
 
 ![Create New ssh key1](./images/fr0101-03_Create-New-ssh-key1.png "Create New ssh key1")
 
-9. Key pairs for Cloud Provider:
+#### 9. Key pairs for Cloud Provider:
 
 - Note: Do not enter a passphase, when prompted.
 
@@ -199,7 +199,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_
 
 ![Create New ssh key2](./images/fr0101-03_Create-New-ssh-key2.png "Create New ssh key2")
 
-10. Key pairs for access to Remote Server on Cloud Provider:
+#### 10. Key pairs for access to Remote Server on Cloud Provider:
 
 - Note: Do not enter a passphase, when prompted.
 
@@ -209,7 +209,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-formR0_nimda_
 
 ![Create New ssh key3](./images/fr0101-03_Create-New-ssh-key3.png "Create New ssh key3")
 
-11. View created key files:
+#### 11. View created key files:
 
 ![Create New ssh key4](./images/fr0101-03_Create-New-ssh-key4.png "Create New ssh key4")
 
@@ -232,11 +232,11 @@ https://chrome.google.com/webstore/category/extensions?hl=en-US
 
 ![Chrome-extensions](./images/fr0101-03_Chrome-extensions.png "Chrome-extensions")
 
-3. Add Markdown Preview Plus
+#### 3. Add Markdown Preview Plus
 
 ![Chrome-extensions1](./images/fr0101-03_Chrome-extensions1.png "Chrome-extensions1")
 
-4. Allow access to file URLs
+#### 4. Allow access to file URLs
 
 ```
 chrome://extensions/?id=febilkbfcbhebfnokafefeacimjdckgl
@@ -244,7 +244,7 @@ chrome://extensions/?id=febilkbfcbhebfnokafefeacimjdckgl
 
 ![Chrome-extensions2](./images/fr0101-03_Chrome-extensions2.png "Chrome-extensions2")
 
-5. Add React Developers Tools
+#### 5. Add React Developers Tools
 
 ```
 https://chrome.google.com/webstore/category/extensions?hl=en-US
@@ -252,7 +252,7 @@ https://chrome.google.com/webstore/category/extensions?hl=en-US
 
 ![Chrome-extensions3](./images/fr0101-03_Chrome-extensions3.png "Chrome-extensions3")
 
-6. Check the installations
+#### 6. Check the installations
 
 ```
 chrome://extensions/
@@ -277,25 +277,25 @@ https://github.com
 https://github.com/settings/ssh
 ```
 
-3. Click New SSH Key button
+#### 3. Click New SSH Key button
 
 ![Add New ssh key](./images/fr0101-04_Add-New-ssh-key.png "Add New ssh key")
 
 ![Add New ssh key-1](./images/fr0101-04_Add-New-ssh-key-1.png "Add New ssh key-1")
 
 
-4. In notepad open your github public key from your .ssh folder, then copy the contents to the clipboard.
+#### 4. In notepad open your github public key from your .ssh folder, then copy the contents to the clipboard.
 
 ![Add New ssh key-2](./images/fr0101-04_Add-New-ssh-key-2.png "Add New ssh key-2")
 
 ![Add New ssh key-3](./images/fr0101-04_Add-New-ssh-key-3.png "Add New ssh key-3") 
 
 
-5. Paste the clipboard contents into the Key box in the github SSH Keys/ Add someone elseow.
+#### 5. Paste the clipboard contents into the Key box in the github SSH Keys/ Add someone elseow.
 
-6. Copy the last part of the key and paste it into the Title box.
+#### 6. Copy the last part of the key and paste it into the Title box.
 
-7. Click the Add SSH key button when finished.
+#### 7. Click the Add SSH key button when finished.
 
 
 ![Add New ssh key-4](./images/fr0101-04_Add-New-ssh-key-4.png "Add New ssh key-4")
@@ -303,18 +303,18 @@ https://github.com/settings/ssh
 ![Add New ssh key-5](./images/fr0101-04_Add-New-ssh-key-5.png "Add New ssh key-5")
 
 
-8. Create a new repository: 'myProject'.
+#### 8. Create a new repository: 'myProject'.
 
 ```
 https://github.com/new
 ```
 
-9. Add Repository Name "myProject", select Private and check ReadMe file, then click Create Repository.
+#### 9. Add Repository Name "myProject", select Private and check ReadMe file, then click Create Repository.
 
 
 ![GitHub-myProject](./images/fr0101-04_GitHub-myProject.png "GitHub-myProject")
 
-10. Edit the Readme.md file
+#### 10. Edit the Readme.md file
 
 ```
 Click the pencil
@@ -322,7 +322,7 @@ Click the pencil
 
 ![GitHub-myProject-readme](./images/fr0101-04_GitHub-myProject-readme.png "GitHub-myProject-readme")
 
-11. Change file to:
+#### 11. Change file to:
 
 ```
 # myProject was created on mm/dd/yyyy.
@@ -330,7 +330,7 @@ Click the pencil
 
 ![GitHub-myProject-readme2](./images/fr0101-04_GitHub-myProject-readme2.png "GitHub-myProject-readme2")
 
-12. Commit changes
+#### 12. Commit changes
 
 ```
     - Go to the bottom of the edit page to the Commit Changes section.
@@ -346,7 +346,7 @@ Click the pencil
 
     - Close your browser.
 
-13. Configure ssh Access to Github on your Windows workstation
+#### 13. Configure ssh Access to Github on your Windows workstation
 
 - Create a Host for github connection in the .ssh/config file.
 
@@ -365,7 +365,7 @@ Host github-mick
 
 ![Add Host to config](./images/fr0101-03_Add-host-to-config.png "Add Host to config")
 
-14. From the DOS command window, test the connection to github.
+#### 14. From the DOS command window, test the connection to github.
 
 ```
 ssh github-mick  e.g. replace mick with your initials
@@ -402,17 +402,17 @@ ssh github-mick  e.g. replace mick with your initials
 
 ![Git-for-Windows2](./images/fr0101-06_Git-for-Windows2.png "Git-for-Windows2")
 
-3. Finish Install check Launch Git Bash
+#### 3. Finish Install check Launch Git Bash
 
 ![Git-for-Windows3](./images/fr0101-06_Git-for-Windows3.png "Git-for-Windows3")
 
 
-4. Open Git Bash
+#### 4. Open Git Bash
 
 ![Git-for-Windows4](./images/fr0101-06_Git-for-Windows4.png "Git-for-Windows4")
 
 
-5. From Git Bash prompt add Username for github
+#### 5. From Git Bash prompt add Username for github
 
 ```
 Change Mickey Mouse to <your name>:
@@ -423,7 +423,7 @@ git config --global user.name = "Mickey Mouse"  i.e. <your name>
 ![Git-for-Windows5](./images/fr0101-06_Git-for-Windows5.png "Git-for-Windows5")
 
 
-6. Add User Email for github
+#### 6. Add User Email for github
 
 ```
 Change mickey.mouse@gmail.com to <your email in github>:    
@@ -433,7 +433,7 @@ git config --global user.email = "mickey.mouse@gmail.com"
 
 ![Git-for-Windows6](./images/fr0101-06_Git-for-Windows6.png "Git-for-Windows6")
 
-7. Add git to System path: 
+#### 7. Add git to System path: 
 
 - Enter env from Windows search charm, then click Edit the System Environment Variables
 
@@ -478,29 +478,29 @@ https://code.visualstudio.com/download
 ![VSCode2](./images/fr0101-07_VSCode2.png "VSCode2")
 
 
-3. Open VSCode and Install Extensions
+#### 3. Open VSCode and Install Extensions
 
 ![VSCode3](./images/fr0101-07_VSCode3.png "VSCode3")
 
-4. GitLens  -- Supercharged
+#### 4. GitLens  -- Supercharged
 
 ![VSCode4](./images/fr0101-07_VSCode4.png "VSCode4")
 
-5. Prettier
+#### 5. Prettier
 
 ![VSCode5](./images/fr0101-07_VSCode5.png "VSCode5")
 
-6. Live Server
+#### 6. Live Server
 
 ![VSCode6](./images/fr0101-07_VSCode5-1.png "VSCode6")
 
-7. React Snippets
+#### 7. React Snippets
 
 ![VSCode6](./images/fr0101-07_VSCode6.png "VSCode6")
 
 ![VSCode6a](./images/fr0101-07_VSCode6a.png "VSCode6a")
 
-8. Change default terminal and add Autosave
+#### 8. Change default terminal and add Autosave
 
 - Using File Explorer create or edit settings.json: 
 
@@ -533,7 +533,7 @@ https://code.visualstudio.com/download
 
 ![VSCode11a](./images/fr0101-07_VSCode11a.png "VSCode11a")
 
-9. From VSCode open a new Terminal
+#### 9. From VSCode open a new Terminal
 
 ![VSCode11b](./images/fr0101-07_VSCode11b.png "VSCode11b")
 
@@ -541,7 +541,7 @@ https://code.visualstudio.com/download
 
 ![VSCode11c](./images/fr0101-07_VSCode11c.png "VSCode11c")
 
-10. Close VSCode
+#### 10. Close VSCode
 
 ----
 ### 8. Clone myProject 0:05
@@ -569,7 +569,7 @@ git clone github-mick:mickeymouse/myProject.git
 
 ![Clone-from-GitHub](./images/fr0101-08_Clone-from-GitHub.png "Clone-from-GitHub")
 
-3. Open myProject in VScode
+#### 3. Open myProject in VScode
 
 ```
 cd myProject
@@ -581,16 +581,16 @@ code .
 
 ![Open-in-VsCode](./images/fr0101-08_Open-in-VsCode.png "Open-in-VsCode")
 
-4. Trust the authors
+#### 4. Trust the authors
 
 ![Trust-authors](./images/fr0101-08_Trust-authors.png "Trust-authors")
 
-5. Close the Welcome window
+#### 5. Close the Welcome window
 
 ![Close-welcome](./images/fr0101-08_Close-welcome.png "Close-welcome")
 
 
-6. Click File.. then Save Workspace as: myProject.code-workspace
+#### 6. Click File.. then Save Workspace as: myProject.code-workspace
 
 
 ![VSCode9](./images/fr0101-08_VSCode9.png "VSCode9")
@@ -618,7 +618,7 @@ code .
 
 ![Markdown-Preview4](./images/fr0101-09_Markdown-Preview4.png "Markdown-Preview4")
 
-3. From File Explorer right click on Readme.md then Open With and navigate to Chrome.exe, your preview will display.
+#### 3. From File Explorer right click on Readme.md then Open With and navigate to Chrome.exe, your preview will display.
 
 ![Markdown-Preview5](./images/fr0101-09_Markdown-Preview5.png "Markdown-Preview5")
 
@@ -641,43 +641,43 @@ Added Workspace and Updated Readme.md
 
 ![Github-push-1a](./images/fr0101-10_Github-push-1a.png "Github-push-1a")
 
-3. If this shows then, Select Always at the There are no staged changes... box 
+#### 3. If this shows then, Select Always at the There are no staged changes... box 
 
 ![Github-always](./images/fr0101-10_Github-always.png "Github-always") 
 
-4. Click on the Commit checkmark above the Message textbox
+#### 4. Click on the Commit checkmark above the Message textbox
 
 ![Github-push-2](./images/fr0101-10_Github-push-2.png "Github-push-2")
 
-5. If this shows then, Select Yes at the Git fetch box
+#### 5. If this shows then, Select Yes at the Git fetch box
 
 ![Github-no](./images/fr0101-10_Github-no.png "Github-no")
 
-6. Click the Sync Changes button to push to github
+#### 6. Click the Sync Changes button to push to github
 
 ![Github-push-3](./images/fr0101-10_Github-push-3.png "Github-push-3")
 
-7. Login to GitHub and select the myProject repository then click Readme.md, it should be updated.
+#### 7. Login to GitHub and select the myProject repository then click Readme.md, it should be updated.
 
 ![Github-push-4](./images/fr0101-10_Github-push-4.png "Github-push-4")
 
-8. Modify Readme.md in Github by adding these lines:
+#### 8. Modify Readme.md in Github by adding these lines:
 (Remember the pencil!)
 
 ```
-3. I updated it in GitHub.
+#### 3. I updated it in GitHub.
 
-4. I pulled it to my local repo using VScode
+#### 4. I pulled it to my local repo using VScode
 ```
 
 ![Github-push-5](./images/fr0101-10_Github-push-5.png "Github-push-5")
 
-9. Commit changes
+#### 9. Commit changes
 
 ```
 - Go to the bottom of the edit page to the Commit Changes section.
 
-- A description is required: Update README.md added 3. and 4.
+- A description is required: Update README.md added #### 3. and 4.
 
 - Click commit Changes
 ```
@@ -686,11 +686,11 @@ Added Workspace and Updated Readme.md
 
 ![Github-push-6a](./images/fr0101-10_Github-push-6a.png "Github-push-6a")
 
-10. Click the Sync Changes button to push to github
+#### 10. Click the Sync Changes button to push to github
 
 ![Github-push-7](./images/fr0101-10_Github-push-7.png "Github-push-7")
 
-11. The Github changes will now appear in the Readme.md file. 
+#### 11. The Github changes will now appear in the Readme.md file. 
 
 ![Github-push-8](./images/fr0101-10_Github-push-8.png "Github-push-8")
 
@@ -707,7 +707,7 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 
 ![Nodejs-install-0](./images/fr0101-11_Nodejs-install-0.png "Nodejs-install-0")
 
-3. From your Downloads folder click the .msi file to Install nvs as follows:
+#### 3. From your Downloads folder click the .msi file to Install nvs as follows:
 
 ![Nodejs-install-1](./images/fr0101-11_Nodejs-install-1.png "Nodejs-install-1")
 
@@ -721,7 +721,7 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 
 ![Nodejs-install-1](./images/fr0101-11_Nodejs-install-2.png "Nodejs-install-1")
 
-4. Open Windows command as Administrator 
+#### 4. Open Windows command as Administrator 
 
 ![Nodejs-install-1](./images/fr0101-11_Nodejs-install-2-1.png "Nodejs-install-1")
 
@@ -756,7 +756,7 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-6.png "Nodejs-install-check")
 
-5. Test from Windows command prompt:
+#### 5. Test from Windows command prompt:
 
 ```
     node --version
@@ -787,15 +787,15 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 
 ![MySQL-community](./images/fr0101-12_MySQL-community.png "MySQL-community")
 
-3. Select No, thanks, just start my download
+#### 3. Select No, thanks, just start my download
 
 ![MySQL-no-thanks](./images/fr0101-12_MySQL-no-thanks.png "MySQL-no-thanks")
 
-4. Choose Setup Type: Custom
+#### 4. Choose Setup Type: Custom
 
 ![MySQL-custom](./images/fr0101-12_MySQL-custom.png "MySQL-custom")
 
-5. Select Products 
+#### 5. Select Products 
 
     - MySQL Server
     - MySQL Workbench
@@ -805,7 +805,7 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
     - MySQL Documentation
     - Samples and Examples
 
-6. Select from the "Available Products" column, then click the Top arrow to move it to the left column.
+#### 6. Select from the "Available Products" column, then click the Top arrow to move it to the left column.
 
 ![MySQL-select-products](./images/fr0101-12_MySQL-select-products.png "MySQL-select-products")
 
@@ -817,7 +817,7 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 
 ![MySQL-select-products-4](./images/fr0101-12_MySQL-select-products-4.png "MySQL-select-products-4")
 
-7. Product Configuration
+#### 7. Product Configuration
 
 ![MySQL-product-configuration](./images/fr0101-12_MySQL-product-configuration.png "MySQL-product-configuration")
 
@@ -839,7 +839,7 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 
 ![MySQL-product-configuration-6](./images/fr0101-12_MySQL-product-configuration-6.png "MySQL-product-configuration-6")
 
-8. Connect to Server
+#### 8. Connect to Server
 
 ```
 Enter this password -> formR!1234 and click the Check button
@@ -849,33 +849,33 @@ Enter this password -> formR!1234 and click the Check button
 
 ![MySQL-connect-server](./images/fr0101-12_MySQL-connect-server.png "MySQL-connect-server")
 
-9. Windows Service
+#### 9. Windows Service
 
 ![MySQL-windows-service](./images/fr0101-12_MySQL-windows-service.png "MySQL-windows-service")
 
-10. Apply Configuration
+#### 10. Apply Configuration
 
 ![MySQL-apply-configuration](./images/fr0101-12_MySQL-apply-configuration.png "MySQL-apply-configuration")
 
 ![MySQL-apply-configuration-1](./images/fr0101-12_MySQL-apply-configuration-1.png "MySQL-apply-configuration-1")
 
-11. Be sure to Click the check boxes for Starting Workbench and Shell in the Installation Complete windows
+#### 11. Be sure to Click the check boxes for Starting Workbench and Shell in the Installation Complete windows
 
 ![MySQL-installation-complete](./images/fr0101-12_MySQL-installation-complete.png "MySQL-installation-complete")
 
-12. MySQL Shell and MySQL WorkBench are automatically opened because you clicked the check boxes in the previous step.
+#### 12. MySQL Shell and MySQL WorkBench are automatically opened because you clicked the check boxes in the previous step.
 
 ![MySQL-shell-workbench](./images/fr0101-12_MySQL-shell-workbench.png "MySQL-shell-workbench")
 
-13. Select the Workbench window and click Local Instance 
+#### 13. Select the Workbench window and click Local Instance 
 
 ![MySQL-workbench-login](./images/fr0101-12_MySQL-workbench-login.png "MySQL-workbench-login")
 
-14. Enter credentials
+#### 14. Enter credentials
 
 ![MySQL-workbench-login-1](./images/fr0101-12_MySQL-workbench-login-1.png "MySQL-workbench-login-1")
 
-15. Use mMySQL Workbench to Create and Grant Privileges to user account: nimdas with host %
+#### 15. Use mMySQL Workbench to Create and Grant Privileges to user account: nimdas with host %
 (Note: root@localhost has all rights and nimdas@% will have all rights) 
 
 - Open New Query tab
@@ -896,7 +896,7 @@ SELECT user,authentication_string,plugin,host FROM mysql.user;
 
 ![MySQL-workbench-nimdas2](./images/fr0101-12_MySQL-workbench-nimdas2.png  "MySQL-workbench-nimdas2")
 
-16. Select the MySql Shell window
+#### 16. Select the MySql Shell window
 
 ```
 Enter:  \connect root@localhost
@@ -909,7 +909,7 @@ Enter: Y to save password
 
 ![MySQL-shell-login](./images/fr0101-12_MySQL-shell-login.png "MySQL-shell-login")
 
-17. Shell SHOW DATABASES
+#### 17. Shell SHOW DATABASES
 
 ```
 Enter: \sql SHOW DATABASES;  ( Don't forget the \ and ; )

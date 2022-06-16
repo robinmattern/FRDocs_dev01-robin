@@ -35,11 +35,11 @@
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
-2. Click New terminal console
+#### 2. Click New terminal console
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
-3. Enter:
+#### 3. Enter:
 
 ```
 reboot
@@ -49,7 +49,7 @@ reboot
 
 - Close the Terminal window and wait for Bitvise to automatically login
 
-4. From Bitvise click New terminal console
+#### 4. From Bitvise click New terminal console
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
@@ -70,14 +70,14 @@ apt-get install nginx
 
 ![Install NGINX](./images/fr0303-01_Ubuntu-install-nginx.png "Install NGINX")
 
-2. Check
+#### 2. Check
 ```
 nginx -t
 ```
 
 ![Check NGINX](./images/fr0303-02_Ubuntu-check-nginx.png "Check NGINX")
 
-3. Enable nginx to auto start
+#### 3. Enable nginx to auto start
 
 ```
 systemctl enable nginx
@@ -85,20 +85,20 @@ systemctl enable nginx
 
 ![Enable NGINX](./images/fr0303-03_Ubuntu-enable-nginx.png "Enable NGINX")
 
-4. Allow http & https through firewall
+#### 4. Allow http & https through firewall
 ```
 ufw allow 'Nginx Full'
 ```
 
 ![Allow NGINX Ports](./images/fr0303-04_Ubuntu-allow-nginx-ports.png "Allow NGINX Ports")
 
-5. Test the default web site by IP. 
+#### 5. Test the default web site by IP. 
 
-6. Get the server IP from Vultr
+#### 6. Get the server IP from Vultr
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
-7. Browse to your server's IP address.
+#### 7. Browse to your server's IP address.
 
 ```
 http://xxx.xxx.xxx.xxx
@@ -126,7 +126,7 @@ snap install --classic certbot
 mkdir /webs
 ```
 
-2. Check that /webs directory was created
+#### 2. Check that /webs directory was created
 
 ```
 cd /

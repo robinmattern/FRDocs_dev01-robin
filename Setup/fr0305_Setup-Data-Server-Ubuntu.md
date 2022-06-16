@@ -36,11 +36,11 @@
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
-2. Click New terminal console
+#### 2. Click New terminal console
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
-3. Enter:
+#### 3. Enter:
 
 ```
 reboot
@@ -50,7 +50,7 @@ reboot
 
 - Close the Terminal window and wait for Bitvise to automatically login
 
-4. From Bitvise click New terminal console
+#### 4. From Bitvise click New terminal console
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
@@ -70,7 +70,7 @@ apt-get install mysql-server
 
 ![Install MySQL](./images/fr0305-01_Ubuntu-install-mysql.png "Install MySQL")
 
-2. Check installation
+#### 2. Check installation
 ```
 mysql --version
 ```
@@ -100,7 +100,7 @@ mysql_secure_installation
 
 ![Secure MySQL part 2](./images/fr0305-03_Ubuntu-secure-mysql2.png "Secure MySQL part 2")
 
-2. Allow remote access to MySQL 
+#### 2. Allow remote access to MySQL 
 
 ```
 nano /etc/mysql/mysql.conf.d/mysqld.cnf
@@ -111,9 +111,9 @@ to:                  bind-address = 0.0.0.0
 
 ![Mysql-setup-nano-bind-address](./images/fr0305-04_Ubuntu-nano-bind-address-mysql.png "Mysql-setup-nano-bind-address")
 
-3. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
+#### 3. Save the file by pressing Ctrl-X, then Y and then Enter to save the file name.
 
-4. Restart mysql and comfirm its running
+#### 4. Restart mysql and comfirm its running
 
 ```
 systemctl restart mysql.service
@@ -127,7 +127,7 @@ systemctl status mysql.service
 
 ![Check Unattended Upgrades](./images/fr0302-06_Ubuntu-Check-Unattended-Upgrades1.png "Check Unattended Upgrades")
 
-5. Open firewall rule for port 3306
+#### 5. Open firewall rule for port 3306
 
 ```
 ufw allow 3306/tcp
@@ -137,16 +137,16 @@ ufw status
 
 ![Mysql-setup-open-firewall-port-3360](./images/fr0305-06_Ubuntu-open-firewall-port-3360-mysql.png "Mysql-setup-open-firewall-port-3360")
 
-6. Create and Grant Privileges to user account: nimdas with host %
+#### 6. Create and Grant Privileges to user account: nimdas with host %
 (Note: root@localhost has all rights and nimdas@% will have all rights) 
 
-7. From the  New terminal console prompt enter:
+#### 7. From the  New terminal console prompt enter:
 
 ```
 mysql -p
 ```
 
-8. Enter : the root password -> formR!1234
+#### 8. Enter : the root password -> formR!1234
 
 ```
 password: formR!1234
@@ -155,7 +155,7 @@ password: formR!1234
 #### !! Remember to write your passwords in a safe place !!
 ----
 
-9. Enter the following from the mysql prompt:
+#### 9. Enter the following from the mysql prompt:
 
 ```js
 CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'formR!1234';
@@ -166,14 +166,14 @@ SELECT user,authentication_string,plugin,host FROM mysql.user;
 ```
 ![Mysql-setup-create-admin](./images/fr0305-07_Ubuntu-create-admin-mysql.png "Mysql-setup-create-admin")
 
-10. Exit mysql
+#### 10. Exit mysql
 ```
 mysql> \quit
 ```
 
 ![Mysql-quit-to-console](./images/fr0305-08_Ubuntu-quit-to-console-mysql.png "Mysql-quit-to-console")
 
-11. Stop, Start and check status of MySQL
+#### 11. Stop, Start and check status of MySQL
 ```
 systemctl stop mysql
 systemctl start mysql
@@ -204,7 +204,7 @@ Enter v to never save the password
 
 ![Mysql-setup-login-admin-mysqlsh-local](./images/fr0305-10_Ubuntu-login-admin-mysqlsh-local.png "Mysql-setup-login-admin-mysqlsh-local")
 
-2. Check Version. From the mysql command prompt enter the following:
+#### 2. Check Version. From the mysql command prompt enter the following:
 
 ```js
 \sql SELECT VERSION();
@@ -212,7 +212,7 @@ Enter v to never save the password
 
 ![Mysql-setup-login-admin-mysqlsh-local](./images/fr0305-10_Ubuntu-login-admin-mysqlsh-local1.png "Mysql-setup-login-admin-mysqlsh-local")
  
-3. Exit mysqlsh. From the mysql command prompt enter the following:
+#### 3. Exit mysqlsh. From the mysql command prompt enter the following:
 
 ```
 \quit

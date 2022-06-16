@@ -49,7 +49,7 @@ dir
 
 ![FRApps-Clone-02](images/fr0103-FRApps-Clone-02.png "FRApps-Clone-02")
 
-2. Enter the following in the terminal. (It will open VSCode)
+#### 2. Enter the following in the terminal. (It will open VSCode)
 
 ```
 code FRApps.code-workspace
@@ -61,7 +61,7 @@ code FRApps.code-workspace
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
  
-3. Create FRApps in your github. 
+#### 3. Create FRApps in your github. 
 
 - Browse to and login to your personal github account. (We created this in Step 1.1.5)
 
@@ -86,7 +86,7 @@ then click the New green button (if you are not signed in the New button will no
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-021.png "FRApps-Clone-03")
 
-4. Using VSCode connect your local FRApps to your personal github FRApps
+#### 4. Using VSCode connect your local FRApps to your personal github FRApps
 
 - Right click on FRApps and click Open in Integrated Terminal, then 
 
@@ -129,7 +129,7 @@ git remote -v
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-08.png "FRApps-Clone-03")
 
-6. Pull from your personal github FRApps repo to your local FRApps repo
+#### 6. Pull from your personal github FRApps repo to your local FRApps repo
 
 ```
 git pull
@@ -137,7 +137,7 @@ git pull
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-09.png "FRApps-Clone-03")
 
-7.  Push from your local FRApps repo to personal github FRApps repo
+#### 7.  Push from your local FRApps repo to personal github FRApps repo
 
 ```
 git push
@@ -146,13 +146,13 @@ git push
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-10.png "FRApps-Clone-03")
 
 
-8. Confirm the transfer to your github FRApps repo
+#### 8. Confirm the transfer to your github FRApps repo
 
 - Refresh your browser.
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-11.png "FRApps-Clone-03")
 
-9. Update author in package.json
+#### 9. Update author in package.json
 
 - Open package.json from the client folder and change the author from 8020data to your name
 
@@ -168,7 +168,7 @@ git push
 ----
 #### 1. Right click on the client folder
 
-2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-04](images/fr0103-FRApps-Clone-04.png "FRApps-Clone-04")
 
@@ -178,7 +178,7 @@ npm install
 
 ![FRApps-Clone-05](images/fr0103-FRApps-Clone-05.png "FRApps-Clone-05")
 
-3. Test for production vulnerabilities
+#### 3. Test for production vulnerabilities
 
 ```
 npm audit --production
@@ -186,9 +186,9 @@ npm audit --production
 
 ![FRApps-Clone-06](images/fr0103-FRApps-Clone-06b.png "FRApps-Clone-06")
 
-4. Right click on the server folder
+#### 4. Right click on the server folder
 
-5. Click Open in Integrated Terminal, then 
+#### 5. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-07](images/fr0103-FRApps-Clone-07.png "FRApps-Clone-07")
 
@@ -205,13 +205,13 @@ npm install
 ----
 
 #### 1. Click on the client/1c-html-custom-app folder
-2. Right Click on index.html, then Open with Live Server 
+#### 2. Right Click on index.html, then Open with Live Server 
 
 ![FRApps-Clone-21](images/fr0103-FRApps-Clone-1c1.png "FRApps-Clone-21") 
 
 ![FRApps-Clone22](images/fr0103-FRApps-Clone-1c2.png "FRApps-Clone-22")
 
-3. In your browser click Cards in the navigation menu
+#### 3. In your browser click Cards in the navigation menu
 
 ![FRApps-Clone22a](images/fr0103-FRApps-Clone-1c3.png "FRApps-Clone-22a")
 
@@ -220,7 +220,7 @@ npm install
 ----
 
 #### 1. Right click on the client/2c-React-Empty folder
-2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-21](images/fr0103-FRApps-Clone-21.png "FRApps-Clone-21") 
 
@@ -244,7 +244,7 @@ npm start
 ----
 
 #### 1. Right click on the client/3c-React-Button folder
-2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-31](images/fr0103-FRApps-Clone-31.png "FRApps-Clone-31") 
 
@@ -265,7 +265,7 @@ npm start
 ----
 
 #### 1. Right click on the client/4c-react-app-no-api folder
-2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-41](images/fr0103-FRApps-Clone-41a.png "FRApps-Clone-41") 
 
@@ -278,7 +278,7 @@ npm start
 
 ![FRApps-Clone44a](images/fr0103-FRApps-Clone-44a.png "FRApps-Clone-44a")
 
-3. Click Invoices, then Santa Monica
+#### 3. Click Invoices, then Santa Monica
 
 ![FRApps-Clone44b](images/fr0103-FRApps-Clone-44b.png "FRApps-Clone-44b")
 
@@ -288,7 +288,7 @@ npm start
 
 #### 1. Right click on the server/5s-react-app-wi-api folder 
 ####  Note: server folder  client folder
-2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-51](images/fr0103-FRApps-Clone-51.png "FRApps-Clone-51") 
 
@@ -300,7 +300,7 @@ npm start
 
 ![FRApps-Clone55a](images/fr0103-FRApps-Clone-55a.png "FRApps-Clone-55a")
 
-3. Browse to
+#### 3. Browse to
 
 ```
 http://localhost:50115/invoices
@@ -319,7 +319,7 @@ http://localhost:50115/invoices
 
 #### 1. Right click on the client/5c-react-app-wi-api folder
 ####  Note: "client" folder NOT "server" folder
-2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-61](images/fr0103-FRApps-Clone-61.png "FRApps-Clone-61") 
 
@@ -333,7 +333,7 @@ npm start
 
 ![FRApps-Clone-66b](images/fr0103-FRApps-Clone-66b.png "FRApps-Clone-66b")
 
-3. Click Invoices, then Ocean Avenue
+#### 3. Click Invoices, then Ocean Avenue
 
 ![FRApps-Clone-66c](images/fr0103-FRApps-Clone-66c.png "FRApps-Clone-66c")
 
