@@ -100,6 +100,7 @@ batch.js
 ![Node-create-empty-file](images/fr0102-05_Node-create-empty-file.png "Node-create-empty-file")
 
 #### 4. Add some code to batch.js:
+<br/>
 
 ```js
 console.log("Hello, World!");
@@ -112,6 +113,7 @@ console.log("Hello, World!");
 ![Node-add-to-batch](images/fr0102-06_Node-add-to-batch-1.png "Node-add-to-batch")
 
 #### 6. In Terminal window enter:
+<br/>
 
 ```
 node batch.js
@@ -197,6 +199,7 @@ app.listen( PORT, () => {
 #### 5. Right click on the app01s folder and Select Open in Integrated Terminal and click in the Terminal window
 
 #### 6. Enter:
+<br/>
 
 ```
 node server.js
@@ -212,6 +215,7 @@ node server.js
 ![Node-terminal-server-js](images/fr0102-12_Node-terminal-server-js.png "Node-terminal-server-js")
 
 #### 9. Browse to:
+<br/>
 
 ```
 http://localhost:8080/myProject/server/app01s
@@ -220,13 +224,14 @@ http://localhost:8080/myProject/server/app01s
 ![Node-browser-server-js](images/fr0102-13_Node-browser-server-js.png "Node-browser-server-js")
 
 
-#### ---Push your changes to GitHub
+#### 10. Push your changes to GitHub
 
 1. Click the Source Control charm
 
 ![Node-github-open-source](images/fr0102-14_Node-github-open-source.png "Node-github-open-source")
 
-#### 2. Add Message:
+2. Add Message:
+<br/>
 
 ```
 Add Node App - batch.js
@@ -236,11 +241,12 @@ Add Node App - batch.js
 
 ![Node-github-message-1](images/fr0102-14_Node-github-message-1.png "Node-github-message-1")
 
-#### 3. Click on Commit checkmark -
+3. Click on Commit checkmark -
 
 ![Node-github-checkmark](images/fr0102-15_Node-github-checkmark.png "Node-github-checkmark")
 
-#### 3. Push
+4. Push
+<br/>
 
 ```
 Click on 3 dots then click Push 
@@ -248,14 +254,16 @@ Click on 3 dots then click Push
 
 ![Node-github-push](images/fr0102-15_Node-github-push.png "Node-github-push")
 
-#### 4. The following message may show the first time. 
+5. The following message may show the first time. 
+<br/>
+
 ```
 Click on: Ok, Don't show again
 ```
 
 ![Node-ok-dont-show](images/fr0102-15_Node-ok-dont-show.png "Node-ok-dont-show")
 
-#### *** End of Push to Github
+*** End of Push to Github
 
 ----
 ### 5. Create a basic react app in the client folder and run it with Nodejs. 0:10
