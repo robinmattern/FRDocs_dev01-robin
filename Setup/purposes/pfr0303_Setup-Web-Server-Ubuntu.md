@@ -12,7 +12,7 @@
 
 ## Purpose for 2.3 Install Web Server
 
-#### Introduction  (*This section is not complete*)
+#### Introduction <!-- {docsify-ignore} -->  (*This section is not complete*)
 ----
 
 Why Nginx

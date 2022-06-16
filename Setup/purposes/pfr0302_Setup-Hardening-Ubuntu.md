@@ -12,7 +12,7 @@
 
 ## Purpose for 2.2 Harden Ubuntu
 
-#### Introduction  (*This section is not complete*)
+#### Introduction <!-- {docsify-ignore} -->  (*This section is not complete*)
 ----
 
 ##### Note: This tutorial focuses on securing a single remote server and a basic application. For a full discussion of secuity, visit:

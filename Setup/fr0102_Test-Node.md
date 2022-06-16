@@ -15,11 +15,11 @@
 - [Purpose and Background](../Setup/purposes/pfr0102_Test-Node.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216136853413958)
 
-#### Introduction
+#### Introduction <!-- {docsify-ignore} -->
 - The following steps create several basic node applications. 
 - There are script, server, client and MySQL testing applications. Each has special requirements. You will create a folder structure and install the required packages. Everything will be installed in the repos/myProject folder. All activities will be done in VSCode.   
 
-#### Important note about names, capitalization, pictures and code copying
+#### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 - We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
@@ -28,7 +28,7 @@
 ----
 ### 1. Test the Node version 0:05
 ----
-1. In File Explorer navigate to C repos myProject, then double click on myProject.code-workspace, then
+#### 1. In File Explorer navigate to C repos myProject, then double click on myProject.code-workspace, then
 
 ![Node-test-terminal](images/fr0102-01_Node-test-terminal0.png "Node-test-terminal")
 
@@ -49,7 +49,7 @@
 ----
 ### 2. Create sub-folders in myProject 0:05
 ----
-1. Right-click on the myProject folder and create a new folder:
+#### 1. Right-click on the myProject folder and create a new folder:
 
 ![Node-new-folder](images/fr0102-03_Node-new-folder.png "Node-new-folder")
 
@@ -83,7 +83,7 @@
 ----
 ### 3. Create a new file, batch.js, in the scripts folder and run it with Nodejs. 0:10
 ----
-1. Right-click on the scripts folder, then click New File
+#### 1. Right-click on the scripts folder, then click New File
 
 ![Node-create-empty-file0](images/fr0102-05_Node-create-empty-file0.png "Node-create-empty-file0")
 
@@ -123,7 +123,7 @@ node batch.js
 ----
 ### 4. Create a new file, server.js in the server folder and run it with Nodejs. 0:10
 ----
-1. Right click on the server folder and Select Open in Intgrated Terminal and enter:
+#### 1. Right click on the server folder and Select Open in Intgrated Terminal and enter:
 
 ![Node-install-express](images/fr0102-09_Node-install-express.png "Node-install-express")
 
@@ -260,7 +260,7 @@ Click on: Ok, Don't show again
 ----
 ### 5. Create a basic react app in the client folder and run it with Nodejs. 0:10
 ----
-1. Right click in the - client - folder and select Open in Integrated Terminal and click in the Terminal window
+#### 1. Right click in the - client - folder and select Open in Integrated Terminal and click in the Terminal window
 
 ![Node-client](images/fr0102-16_Node-client.png "Node-client")
 
@@ -361,7 +361,7 @@ npm audit --production
 ----
 ### 6. Create a Nodejs routine to access the local MySQL database and return information. 0:10
 ----
-1. Install Sequelize. It will be used to connect to and access information in MySQL. 
+#### 1. Install Sequelize. It will be used to connect to and access information in MySQL. 
 
 2. Right click in the - server - folder and select Open in Integrated Terminal and click in the Terminal window
 

@@ -13,7 +13,7 @@
 
 ## Purpose for 3.2 Clone formR
 
-#### Introduction  (*This section is not complete*)
+#### Introduction <!-- {docsify-ignore} -->  (*This section is not complete*)
 ----
 
 1. Cloning formR Repository

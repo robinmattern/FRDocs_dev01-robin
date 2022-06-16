@@ -14,12 +14,12 @@
 - [Purpose and Background](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)  
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 
-#### Introduction
+#### Introduction <!-- {docsify-ignore} -->
 - The following steps create the development environment on your workstation for developing an MERN stack (MYSql, Express, React and Node) application. 
 
 - You will access a repository on github and modify it, run it and push changes back to github. We will be using an empty 'Windows Pro N' VM in these instructions. You should be able to use any Windows 10 or above workstation. Just follow the steps. The total disk space required is 7 GB.
 
-#### Important note about names, capitalization, pictures and code copying
+#### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 - We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
@@ -31,11 +31,11 @@
 
 - IMPORTANT--If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
 
-1. Login to your Windows account
+#### 1. Login to your Windows account
 
 ![Windows-Login](./images/fr0101-00_Windows-Login.png "Windows-Login")
 
-2. Search for Control Panel
+#### 2. Search for Control Panel
 
 ![Windows-Controlpanel](./images/fr0101-00_Windows-Controlpanel.png "Windows-Controlpanel")
 
@@ -108,7 +108,7 @@
 ----
 ### 3. Create 3 folders, change View Options,  Setup ssh and Create keys 0:15
 ----
-1. In C:\ add repos and remotes 
+#### 1. In C:\ add repos and remotes 
 
 ```
  'repos' (local copies of your gitHub repositories files)
@@ -117,7 +117,7 @@
 
 ![Create-folders](./images/fr0101-02_Create-folders.png "Create-folders")
 
-2. In C:\users\Local_Admin\ add .ssh 
+#### 2. In C:\users\Local_Admin\ add .ssh 
 
 ```
  '.ssh' (holds your ssh keys related files)
@@ -216,7 +216,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-formR0_nimda_
 ----
 ### 4. Install or open Chrome browser 0:10
 ----
-1. Download and install Chrome from:
+#### 1. Download and install Chrome from:
 
 - Make Chrome your default browser -- Remember this is for the Local_Admin account
 
@@ -224,7 +224,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-formR0_nimda_
 https://google.com/chrome
 ```
 
-2. Install Chrome Extensions
+#### 2. Install Chrome Extensions
 
 ```
 https://chrome.google.com/webstore/category/extensions?hl=en-US
@@ -263,7 +263,7 @@ chrome://extensions/
 ----
 ### 5. Create an account or sign into GitHub then Add your ssh key. 0:15
 ----
-1. Sign in to GitHub. (Create an account, if you don't have one.)
+#### 1. Sign in to GitHub. (Create an account, if you don't have one.)
 
 ```
 https://github.com
@@ -271,7 +271,7 @@ https://github.com
 
 ![Login to Github](./images/fr0101-04_Login-to-github.png "Login to GitHub")
 
-2. Add your Github ssh key from your .ssh folder to your github account.
+#### 2. Add your Github ssh key from your .ssh folder to your github account.
 
 ```
 https://github.com/settings/ssh
@@ -394,11 +394,11 @@ ssh github-mick  e.g. replace mick with your initials
 
 ![Git-for-Windows](./images/fr0101-06_Git-for-Windows.png "Git-for-Windows")
 
-1. Allow changes
+#### 1. Allow changes
 
 ![Git-for-Windows1](./images/fr0101-06_Git-for-Windows1.png "Git-for-Windows1") 
 
-2. Accept **all the defaults** and install
+#### 2. Accept **all the defaults** and install
 
 ![Git-for-Windows2](./images/fr0101-06_Git-for-Windows2.png "Git-for-Windows2")
 
@@ -469,11 +469,11 @@ https://code.visualstudio.com/download
 
 ![VSCode](./images/fr0101-07_VSCode.png "VSCode")
 
-1. Accept **all the defaults**
+#### 1. Accept **all the defaults**
 
 ![VSCode](./images/fr0101-07_VSCode1.png "VSCode")
 
-2. Pin it to Task Bar
+#### 2. Pin it to Task Bar
 
 ![VSCode2](./images/fr0101-07_VSCode2.png "VSCode2")
 
@@ -546,7 +546,7 @@ https://code.visualstudio.com/download
 ----
 ### 8. Clone myProject 0:05
 ----
-1. Using File Explorer 
+#### 1. Using File Explorer 
 
 ```
 Navigate to repos folder, right click and select Git Bash here
@@ -556,7 +556,7 @@ Navigate to repos folder, right click and select Git Bash here
 
 ![Open-git-bash](./images/fr0101-08_Open-git-bash1.png "Open-git-bash")
 
-2. Clone myProject from github into the local repos folder
+#### 2. Clone myProject from github into the local repos folder
 
 ```
 Change:
@@ -600,19 +600,19 @@ code .
 ----
 ### 9. Markdown Preview test 0:05
 ----
-1.  Open MyProject in VSCode and click on the ReadMe.md file and add these lines:
+#### 1.  Open MyProject in VSCode and click on the ReadMe.md file and add these lines:
 
 ```
     1. My first update was changed locally.
 
-    2. I previewed it in VSCode and Chrome.
+    #### 2. I previewed it in VSCode and Chrome.
 ```
 
 ![Markdown-Preview](./images/fr0101-09_Markdown-Preview.png "Markdown-Preview")
 
 ![Markdown-Preview2](./images/fr0101-09_Markdown-Preview2.png "Markdown-Preview2")
 
-2. Click View.. Command Palette and type: >Markdown: Open Preview to the Side, your preview will display.
+#### 2. Click View.. Command Palette and type: >Markdown: Open Preview to the Side, your preview will display.
 
 ![Markdown-Preview3](./images/fr0101-09_Markdown-Preview3.png "Markdown-Preview3")
 
@@ -627,11 +627,11 @@ code .
 ----
 ### 10. From VSCode push and pull with GitHub 0:10
 ----
-1. From VSCode.. Click the Control Source icon with the number of changes. In this case there are 2 files that have been changed.
+#### 1. From VSCode.. Click the Control Source icon with the number of changes. In this case there are 2 files that have been changed.
 
 ![Github-push](./images/fr0101-10_Github-push.png "Github-push")
 
-2. In the Message textbox, type: 
+#### 2. In the Message textbox, type: 
 
 ```
 Added Workspace and Updated Readme.md
@@ -697,9 +697,9 @@ Added Workspace and Updated Readme.md
 ----
 ### 11. Install Node for Windows 0:05
 ----
-1. Be sure to CLOSE VSCode before installing Node
+#### 1. Be sure to CLOSE VSCode before installing Node
 
-2. To download browse to this URL and click to open the downloaded .msi file: 
+#### 2. To download browse to this URL and click to open the downloaded .msi file: 
 
 ```
 https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
@@ -768,7 +768,7 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 ----
 ### 12. Install MySql for Windows 0:45
 ----
-1. Browse to: 
+#### 1. Browse to: 
 
 ```
 dev.mysql.com/downloads
@@ -779,7 +779,7 @@ then click: MySql Installer for Windows
 ![MySQL-installer](./images/fr0101-12_MySQL-installer.png "MySQL-installer")
 
 
-2. Choose the version: 
+#### 2. Choose the version: 
 
 ```
 mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
@@ -921,7 +921,7 @@ Enter: \sql SHOW DATABASES;  ( Don't forget the \ and ; )
 ----
 ### 13. Install Bitvise ssh client 0:05
 ----
-1. Install Bitvise from: 
+#### 1. Install Bitvise from: 
 
 ```
 https://bitvise.com/ssh-client-download

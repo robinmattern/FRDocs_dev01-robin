@@ -17,7 +17,7 @@
 ## 3.1 Deploy My Custom App 0:25 <!-- {docsify-ignore} -->
 - [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217970355667016)
-#### Introduction
+#### Introduction <!-- {docsify-ignore} -->
 - In this step using 5c-my-teact-app you will:
 1. Run the app from development code locally
 2. Build a production version
@@ -26,7 +26,7 @@
 5. Configure the app on your server
 6. Run the app on your server from your local browser
 
-#### Important note about names, capitalization, pictures and code copying
+#### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 - We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
@@ -34,7 +34,7 @@
 ----
 ### 1. Run 5c-my-react-app  0:05
 ----
-1. From File Explorer navigate to:
+#### 1. From File Explorer navigate to:
 
 ```
 C repos FRApps
@@ -74,7 +74,7 @@ npm start
 ----
 ### 2. Build 5c-my-react-app  0:05
 ----
-1. Right click on the client/5c-my-react-app folder
+#### 1. Right click on the client/5c-my-react-app folder
 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-67](../Setup/images/fr0103-FRApps-Clone-67.png "FRApps-Clone-67") 
@@ -91,7 +91,7 @@ npm run build
 
 ### 3. Run Production version of 5c-my-react-app locally 0:05
 ----
-1. Right click on the client/5c-my-react-app folder
+#### 1. Right click on the client/5c-my-react-app folder
 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-67](../Setup/images/fr0103-FRApps-Clone-67.png "FRApps-Clone-67") 
@@ -108,7 +108,7 @@ npm run prod
 
 ### 4. Deploy Production Build to Remote Server 5c-my-react-app  0:05
 ----
-1. Right click on the client/5c-my-react-app folder
+#### 1. Right click on the client/5c-my-react-app folder
 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-67](../Setup/images/fr0103-FRApps-Clone-67.png "FRApps-Clone-67") 
@@ -135,7 +135,7 @@ npm run deploy
 
 ### 5. Configure your remote server to run my-react-app 0:10 
 
-1. Login using Bitvise and open New SFTP Window
+#### 1. Login using Bitvise and open New SFTP Window
 
 ![FRApps-Deploy-15](/images/fr0103-FRApps-Deploy-15.png "FRApps-Deploy-15")
 

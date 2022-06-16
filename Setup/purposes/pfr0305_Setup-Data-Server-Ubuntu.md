@@ -12,7 +12,7 @@
 
 ## Purpose for 2.5 Install Data Server
 
-#### Introduction  (*This section is not complete*)
+#### Introduction <!-- {docsify-ignore} -->  (*This section is not complete*)
 ----
 
 Why MySQL

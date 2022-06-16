@@ -14,12 +14,12 @@
 - [Purpose and Background](../Setup/purposes/pfr0305_Setup-Data-Server-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
 
-#### Introduction
+#### Introduction <!-- {docsify-ignore} -->
 - MySql will be your database on your server.
 - In this step you will install and secure it.
 - You will test your access from your local workstation.
 
-#### Important note about names, capitalization, pictures and code copying
+#### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 - We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
@@ -28,7 +28,7 @@
 ### 1. Restart your Vultr VM and Login 0:05
 
 ----
-1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
+#### 1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
@@ -59,7 +59,7 @@ reboot
 ----
 ### 2. Install MySQL 0:05
 ----
-1. Install MySQL
+#### 1. Install MySQL
 
 ```
 apt-get install mysql-server
@@ -80,7 +80,7 @@ mysql --version
 ----
 ### 3. Secure MySQL 0:10
 ----
-1. Lock down MySQL - Running this script will ask you
+#### 1. Lock down MySQL - Running this script will ask you
 
 ```
 mysql_secure_installation
@@ -190,7 +190,7 @@ systemctl status mysql.service
 ----
 ### 4. Login as nimdas remotely from your local PC with MySQL Shell.  0:05
 ----
-1. From Windows command prompt enter the following: (Use your Vultur server IP address)
+#### 1. From Windows command prompt enter the following: (Use your Vultur server IP address)
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 

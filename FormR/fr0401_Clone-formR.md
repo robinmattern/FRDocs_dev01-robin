@@ -15,10 +15,10 @@
 - [Purpose and Background](../Setup/purposes/pfr0103_Clone-formR.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/959888948623187969)
 
-#### Introduction  
+#### Introduction <!-- {docsify-ignore} -->  
 - In this topic you will clone the formR and test the applications on your local workstation.
 
-#### Important note about names, capitalization, pictures and code copying
+#### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 - We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
@@ -27,7 +27,7 @@
 ----
 ### 1. Cloning formR repository  0:05
 ----
-1. Clone into the local repos folder using the Windows Command prompt
+#### 1. Clone into the local repos folder using the Windows Command prompt
 
 ```
 cd C:\repos\
@@ -45,7 +45,7 @@ dir
 
 ![formR-Clone-02](images/fr0103-formR-Clone-02.png "formR-Clone-02")
 
-2. From Windows command propt open with VSCode
+#### 2. From Windows command propt open with VSCode
 
 ```
 code formR_prod-master.code-workspace
@@ -63,9 +63,9 @@ code formR_prod-master.code-workspace
 ----
 ### 2. Install Node modules  0:10
 ----
-1. Right click on the client folder
+#### 1. Right click on the client folder
 
-2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal, then 
 
 ![formR-Clone-04](images/fr0103-formR-Clone-04.png "formR-Clone-04")
 
@@ -117,11 +117,11 @@ Note: The World sample database has been modified so that all tables contain ID 
 
 ----
 
-1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
+#### 1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
 
 ![formR-Clone-10](images/fr0103-formR-Clone-10-1.png "formR-Clone-10")
 
-2. Click the Local Instance under MySQL Connections
+#### 2. Click the Local Instance under MySQL Connections
 
 ![formR-Clone-10](images/fr0103-formR-Clone-10.png "formR-Clone-10")
 
@@ -171,9 +171,9 @@ Note: The World sample database has been modified so that all tables contain ID 
 ----
 ### 4. Make sure that your MySQL password for root  is set to:  formR!1234 0:05
 ----
-1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
+#### 1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
 
-2. Click the Local Instance under MySQL Connections
+#### 2. Click the Local Instance under MySQL Connections
 
 ![formR-Clone-10](images/fr0103-formR-Clone-10.png "formR-Clone-10")
 
@@ -219,8 +219,8 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'formR!1234';
  ### 5. Run Client and Server applications 0:10
 ----
 
-1. Right click on the server/1s-world folder and
-2. Click Open in Integrated Terminal, then 
+#### 1. Right click on the server/1s-world folder and
+#### 2. Click Open in Integrated Terminal, then 
 
 ![formR-Clone-21](images/fr0103-formR-Clone-21.png "formR-Clone-21") 
 
@@ -252,7 +252,7 @@ npm start
 ----
 ### 6. Test the applications on your local workstation 0:10
 ----
-1. Enter each of the following in your browser to test the server:
+#### 1. Enter each of the following in your browser to test the server:
 
 ```
     localhost:50251
@@ -267,7 +267,7 @@ npm start
     localhost:50251/api/world/countries/1
 ```
 
-2.  Enter the following in your browser to test the client:
+#### 2.  Enter the following in your browser to test the client:
 
 ```
     localhost:50201
@@ -284,14 +284,14 @@ npm start
 
 
 
-1. Set System Path to contain: C:\repos\formR\_2\bin
+#### 1. Set System Path to contain: C:\repos\formR\_2\bin
    - Click Start, type env, select: Edit the system environment variables
    - Click on button, Environment Variables
    - Under System (not User) variables, select Path, then click Edit...
    - Click on button, New, then type: C:\repos\formR\_2\bin
    - Click Ok three times
 
-2. Get formR Tools from 8020data GitHub repository
+#### 2. Get formR Tools from 8020data GitHub repository
    - From Windows command prompt enter: 
 
 ```

@@ -15,12 +15,12 @@
 - [Purpose and Background](../Setup/purposes/pfr0103_Clone-FR-Apps.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
-#### Introduction  
+#### Introduction <!-- {docsify-ignore} -->  
 - FRApps is a collection of applications. The apps increase in complexity from simple through database access. 
 - In this topic you will clone and test these basic applications on your local workstation.
 
 
-#### Important note about names, capitalization, pictures and code copying
+#### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 - We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
@@ -31,7 +31,7 @@
 
 ### 1 Clone FRApps Repository 0:05
 ----
-1. Clone into the local repos folder using the Windows Command prompt
+#### 1. Clone into the local repos folder using the Windows Command prompt
 
 ```
 cd C:\repos
@@ -166,7 +166,7 @@ git push
 ----
 ### 2. Install Node modules  0:15
 ----
-1. Right click on the client folder
+#### 1. Right click on the client folder
 
 2. Click Open in Integrated Terminal, then 
 
@@ -204,7 +204,7 @@ npm install
  ### 3. Run Client 1c-html-custom-app 0:05
 ----
 
-1. Click on the client/1c-html-custom-app folder
+#### 1. Click on the client/1c-html-custom-app folder
 2. Right Click on index.html, then Open with Live Server 
 
 ![FRApps-Clone-21](images/fr0103-FRApps-Clone-1c1.png "FRApps-Clone-21") 
@@ -219,7 +219,7 @@ npm install
  ### 4. Run Client 2c-React-Empty application 0:05
 ----
 
-1. Right click on the client/2c-React-Empty folder
+#### 1. Right click on the client/2c-React-Empty folder
 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-21](images/fr0103-FRApps-Clone-21.png "FRApps-Clone-21") 
@@ -243,7 +243,7 @@ npm start
  ### 5. Run Client 3c-React-Button application 0:05
 ----
 
-1. Right click on the client/3c-React-Button folder
+#### 1. Right click on the client/3c-React-Button folder
 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-31](images/fr0103-FRApps-Clone-31.png "FRApps-Clone-31") 
@@ -264,7 +264,7 @@ npm start
  ### 6. Run Client 4c-react-app-no-api Application 0:05
 ----
 
-1. Right click on the client/4c-react-app-no-api folder
+#### 1. Right click on the client/4c-react-app-no-api folder
 2. Click Open in Integrated Terminal, then 
 
 ![FRApps-Clone-41](images/fr0103-FRApps-Clone-41a.png "FRApps-Clone-41") 
@@ -286,7 +286,7 @@ npm start
  ### 7a. Run Server 5s-react-app-wi-api application 0:05
 ----
 
-1. Right click on the server/5s-react-app-wi-api folder 
+#### 1. Right click on the server/5s-react-app-wi-api folder 
 ####  Note: server folder  client folder
 2. Click Open in Integrated Terminal, then 
 
@@ -317,7 +317,7 @@ http://localhost:50115/invoices
 #### Note: Be sure step 7a is running
 <br/>
 
-1. Right click on the client/5c-react-app-wi-api folder
+#### 1. Right click on the client/5c-react-app-wi-api folder
 ####  Note: "client" folder NOT "server" folder
 2. Click Open in Integrated Terminal, then 
 

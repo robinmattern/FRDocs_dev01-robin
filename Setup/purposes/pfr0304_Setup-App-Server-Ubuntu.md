@@ -13,7 +13,7 @@
 
 ## Purpose for 2.4 Install App Server
 
-#### Introduction  (*This section is not complete*)
+#### Introduction <!-- {docsify-ignore} -->  (*This section is not complete*)
 ----
 Why Node
 

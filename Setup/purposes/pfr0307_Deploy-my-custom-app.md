@@ -14,7 +14,7 @@
 
 ## Purpose for 3.1 Deploy My Custom App
 
-#### Introduction  (*This section is not complete*)
+#### Introduction <!-- {docsify-ignore} -->  (*This section is not complete*)
 ----
 
 

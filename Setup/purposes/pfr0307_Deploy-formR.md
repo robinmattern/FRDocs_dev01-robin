@@ -14,7 +14,7 @@
 
 ## Purpose for 3.3 Deploy formR
 
-#### Introduction  (*This section is not complete*)
+#### Introduction <!-- {docsify-ignore} -->  (*This section is not complete*)
 ----
 
 

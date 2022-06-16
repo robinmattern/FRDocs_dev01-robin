@@ -12,7 +12,7 @@
 
 ## Purpose for 2.1 Vultr Ubuntu
 
-#### Introduction  (*This section is not complete*)
+#### Introduction <!-- {docsify-ignore} -->  (*This section is not complete*)
 ----
 
 The remote environment:

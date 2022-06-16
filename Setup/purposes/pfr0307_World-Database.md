@@ -14,7 +14,7 @@
 
 ## Purpose for 3.4 World Database
 
-#### Introduction  (*This section is not complete*)
+#### Introduction <!-- {docsify-ignore} -->  (*This section is not complete*)
 ----
 
 

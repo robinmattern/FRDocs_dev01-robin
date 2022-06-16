@@ -15,7 +15,7 @@
 - [Purpose and Background](../Setup/purposes/pfr0306_Setup-Website-SSL-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931218167236276224)
 
-#### Introduction
+#### Introduction <!-- {docsify-ignore} -->
 - In this step you will:
     1. Configue publickey access from Bitvice to your server
     2. Clone SimpleApp to your server
@@ -26,7 +26,7 @@
     7. Clean up protocols
     8. Test your new website for SSL security
 
-#### Important note about names, capitalization, pictures and code copying
+#### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 - We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
@@ -35,7 +35,7 @@
 ### 1. Restart your Vultr VM and Login 0:05
 
 ----
-1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
+#### 1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
@@ -59,7 +59,7 @@ reboot
 ----
 ### 2. Configure Login via Public Key (SSH keys are more secure than passwords) 0:15
 ----
-1. In Bitvise click New SFTP window icon
+#### 1. In Bitvise click New SFTP window icon
 
 ![BitVise New SFTP window](./images/fr0306-05_Ubuntu-Bitvise-New-SFTP-window.png "BitVise New SFTP window")
 
@@ -184,7 +184,7 @@ ssh vultr-formR0-nimda
 ----
 ### 3. Using Bitvise New Terminal console delete nginx default files  0:05
 ----
-1. Open New Terminal console
+#### 1. Open New Terminal console
 
 ![BitVise New Terminal](./images/fr0306-06_Ubuntu-Bitvise-new-terminal.png "BitVise New Terminal")
 
@@ -198,7 +198,7 @@ unlink /etc/nginx/sites-enabled/default
 ### 4. Using Bitvise New Terminal console Clone simpleApp using git 0:05
 ----
 
-1. Open New Terminal console
+#### 1. Open New Terminal console
 
 ```
 cd /webs 
@@ -257,7 +257,7 @@ node app.js
 ----
 ### 5. Setup pm2 to run website automatically 0:05
 ----
-1. Go to the Bitvise New terminal console
+#### 1. Go to the Bitvise New terminal console
 2. Navigate to 
 
 ```
@@ -302,7 +302,7 @@ reboot
 ### 6. Setup nginx proxy 0:05
 ----
 
-1. Go to the Bitvise New terminal console
+#### 1. Go to the Bitvise New terminal console
 
 - Copy new folder and files into the nginx folder
 
@@ -342,7 +342,7 @@ systemctl reload nginx
 
 - The GoDaddy web site changes frequently, so the screen shots below may not match. The steps are repeatable. Contact GoDaddy support for more assistance.
 ----
-1. Create a new Domain Name e.g. formR-cbt-00.com at GoDaddy.com. (cbt = my initials. Use yours or something else that is unique)
+#### 1. Create a new Domain Name e.g. formR-cbt-00.com at GoDaddy.com. (cbt = my initials. Use yours or something else that is unique)
 
 2. Browse to
 
@@ -373,7 +373,7 @@ e.g. formR-cbt-00.com
 ----
 ### 8. Update your DNS record to point YourURL to your server IP address. 0:10
 ----
-1. Login to your GoDaddy.com account
+#### 1. Login to your GoDaddy.com account
 2. Click Your Account
 3. Click My Products
 4. Click YourURL e.g. formR-cbt-00.com
@@ -424,7 +424,7 @@ e.g http://formR-cbt-00.com
 ----
 ### 9. Modify formR-xxx-00.com_all-apps.conf to use your new URL 0:05
 ----
-1. Open Bitvise 
+#### 1. Open Bitvise 
 2. Load Profile: Vultr-formR0-nimda.tlp
 3. Login
 4. From your Bitvise SFTP window navigate to 
@@ -447,7 +447,7 @@ e.g http://formR-cbt-00.com
 ----
 ### 10. Personalize the formR Home Page 0:05
 ----
-1. From your Bitvise SFTP window navigate to 
+#### 1. From your Bitvise SFTP window navigate to 
 
 ```
 /webs/simpleApp/
@@ -486,7 +486,7 @@ http:<your VM IP>:5000
 ----
 ### 11. Add SSL certificate using Letsencrypt 0:05
 ----
-1. Open Bitvise New Terminal Console and enter (You might use notpad to build yourURL)
+#### 1. Open Bitvise New Terminal Console and enter (You might use notpad to build yourURL)
 
 ```
 certbot --nginx -d <yoururl>  
@@ -517,7 +517,7 @@ e.g. https://formR-cbt-00.com
 
 - This is for improved SSL security
 ----
-1. Edit nginx.conf
+#### 1. Edit nginx.conf
 
 ```
 nano /etc/nginx/nginx.conf
@@ -615,7 +615,7 @@ ssllabs.com/ssltest/
 ----
 ### 13. Close Port 5000  0:05
 ----
-1. From the Bitvise New terminal console enter:
+#### 1. From the Bitvise New terminal console enter:
 
 ```
    ufw status numbered 

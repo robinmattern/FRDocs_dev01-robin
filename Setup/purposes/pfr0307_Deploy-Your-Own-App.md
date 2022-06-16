@@ -14,7 +14,7 @@
 
 ## Purpose for 4.2 Deploy Your Own App
 
-#### Introduction  (*This section is not complete*)
+#### Introduction <!-- {docsify-ignore} -->  (*This section is not complete*)
 ----
 
 

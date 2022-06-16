@@ -14,12 +14,12 @@
 - [Purpose and Background](../Setup/purposes/pfr0303_Setup-Web-Server-Ubuntu.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931217213539635200)
 
-#### Introduction
+#### Introduction <!-- {docsify-ignore} -->
 - On your server you will use the web service, NGINX, which is similar to Apache.
 - You will also install, Certbot, which will use the LetsEncrypt stategy for SSL certificates.
 - You will create the /webs folder, which will hold you application files.
 
-#### Important note about names, capitalization, pictures and code copying
+#### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 - We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
@@ -27,7 +27,7 @@
 ----
  ### 1. Restart your Vultr VM and Login 0:05
 ----
-1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
+#### 1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
@@ -58,7 +58,7 @@ reboot
 ----
 ### 2. Install nginx 0:05
 
-1. Install
+#### 1. Install
 ----
 
 ```
@@ -109,7 +109,7 @@ http://xxx.xxx.xxx.xxx
 ----
 ### 3. Install Certbot 0:05
 ----
-1. Install  (Certbot is used to create SSL certificates using LetsEncrypt.) This takes several minutes. Be patient.
+#### 1. Install  (Certbot is used to create SSL certificates using LetsEncrypt.) This takes several minutes. Be patient.
 
 ```
 snap install --classic certbot
@@ -120,7 +120,7 @@ snap install --classic certbot
 ----
 ### 4. Create webs directory 0:05
 ----
-1. Create a directory to hold your applications.
+#### 1. Create a directory to hold your applications.
 
 ```
 mkdir /webs
