@@ -25,7 +25,7 @@
 3. If you have substantial knowledge about it.
 4. If you are willing to spend $30.
 5. If you want to create database applications on your own server. 
-6. If you want to boast:  "I have completed all the steps to build my own live and secure web database server on the Internet" 
+6. If you want to boast:  "I have completed all the steps to build my own live and secure web database server and applications on the Internet" 
 
 ----
 <br/>
