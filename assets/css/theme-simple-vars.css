@@ -95,7 +95,7 @@
     --paragraph-h1-margin-top               :  5px;
     --paragraph-h2-margin-top               :  5px;
     --paragraph-h3-margin-top               :  5px;
-
+ 
     --cover-max-width: 45em;
 
     --heading-color                         :  darkblue;                        /* was: var( --mono-shade3 ); */
@@ -177,13 +177,13 @@
 
     --code-block-border-radius              :  var(--border-radius-l);                  /* was --border-radius-m */
     --code-block-line-height                :  var(--base-line-height);
-    --code-block-margin                     :  -15px 0px 15px 0px;                      /* was : 1em 0; */
+    --code-block-margin                     :  1em 0; /* robin  -15px 0px 15px 0px; */                       
     --code-block-padding                    :  4px 8px;                                 /* was 1.75em 1.5em 1.5em 1.5em; */
 
     --code-inline-background                :  rgb(219, 204, 189);                    /* was: var(--code-theme-background); */
     --code-inline-border-radius             :  var(--border-radius-m);
     --code-inline-color                     :  var(--code-theme-text);
-    --code-inline-margin                    :  0px 0px;                                 /* was: 0 0.15em; */
+    --code-inline-margin                    :  0px 4px;                                 /* was: 0 0.15em; */
     --code-inline-padding                   :  0px 4px;                                 /* was: 0.125em 0.4em; */
 
     --pre-font-family                       :  var(--code-font-family);
@@ -254,8 +254,7 @@
 .markdown-section p {
     font-style      :  var(--paragraph-font-style);
     font-size       :  var(--paragraph-font-size);
-/*  margin-top      :  var(--paragraph-margin-top); */
-
+    margin-top      :  var(--paragraph-margin-top); 
     }
 
 .markdown-section blockquote {
@@ -263,7 +262,11 @@
     padding         :  var(--blockquote-padding        );
     }
 
-    
+.markdown-section img {
+    max-width: 100%;
+    margin-top:  .5em; 
+    }
+
 .page-back {
     float        : left;
     font-weight  : normal;

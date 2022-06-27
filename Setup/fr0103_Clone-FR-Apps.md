@@ -33,6 +33,7 @@
 ----
 #### 1. Clone into the local repos folder using the Windows Command prompt
 
+
 ```
 cd C:\repos
 ```
@@ -50,6 +51,8 @@ dir
 ![FRApps-Clone-02](images/fr0103-FRApps-Clone-02.png "FRApps-Clone-02")
 
 #### 2. Enter the following in the terminal. (It will open VSCode)
+
+
 
 ```
 code FRApps.code-workspace
@@ -179,6 +182,7 @@ npm install
 ![FRApps-Clone-05](images/fr0103-FRApps-Clone-05.png "FRApps-Clone-05")
 
 #### 3. Test for production vulnerabilities
+
 
 ```
 npm audit --production
@@ -315,7 +319,7 @@ http://localhost:50115/invoices
 ----
 
 #### Note: Be sure step 7a is running
-<br/>
+
 
 #### 1. Right click on the client/5c-react-app-wi-api folder
 ####  Note: "client" folder NOT "server" folder
