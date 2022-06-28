@@ -34,7 +34,7 @@ Your URL would be: formR-yourinitials-00.com
 
 <br/>
 
-![Your formR Website](/images/fr0001-01_formR.png "Your formR Website")
+![Your formR Website](/assets/images/fr0001-01_formR.png "Your formR Website")
 
 <br/>
 
@@ -42,7 +42,7 @@ and it's very secure
 
 <br/>
 
-![Your formR Secure](/images/fr0001-01_formR1.png "Your formR Secure")
+![Your formR Secure](/assets/images/fr0001-01_formR1.png "Your formR Secure")
 
 <br/>
 
@@ -51,7 +51,7 @@ and it's very secure
 
 <br/>
 
-![Your formR Custom](/images/fr0001-01_formR2.png "Your formR Custom")
+![Your formR Custom](/assets/images/fr0001-01_formR2.png "Your formR Custom")
 
 
 ----
@@ -81,7 +81,7 @@ and it's very secure
 - [Use Discord to communicate with us](https://discord.gg/tk5NQAWYxK)
 
 
-![Discord](/images/fr0001-01_Discord.png "Discord")
+![Discord](/assets/images/fr0001-01_Discord.png "Discord")
 
 
 ----
@@ -130,7 +130,7 @@ and it's very secure
 ### The formR Application Development Strategy
 ----
 
-![formR Stack Diagram](/images/fr0001-01_formR-Stack-Diagram.png "formR Stack Diagram")
+![formR Stack Diagram](/assets/images/fr0001-01_formR-Stack-Diagram.png "formR Stack Diagram")
 
 1. A NodeJS ExpressJS server will be used to receive API calls that use Sequelize to perform database tasks using the database server.  
 
@@ -145,11 +145,11 @@ and it's very secure
 
 - Client-side
 
-![formR Front End Diagram](/images/fr0001-01_formR-Front-End-Diagram.png "formR Front End Diagram")
+![formR Front End Diagram](/assets/images/fr0001-01_formR-Front-End-Diagram.png "formR Front End Diagram")
 
 - Server-side
 
-![formR Back End Diagram](/images/fr0001-01_formR-Back-End-Diagram.png "formR Back End Diagram")
+![formR Back End Diagram](/assets/images/fr0001-01_formR-Back-End-Diagram.png "formR Back End Diagram")
 
 
 #### The formR coding philosophy leans more towards DAMP ("Descriptive and Meaningful Phases") and DRY ("Don't Repeat Yourself") more than  WET ("Write Every Time").
