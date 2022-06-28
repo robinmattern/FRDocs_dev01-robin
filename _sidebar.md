@@ -23,18 +23,18 @@
 
 <h>4. Run formR</h>
 
-1.  [Deploy My Custom App ](/formR/fr0401_Deploy-My-Custom-App.md)
-2.  [Clone formR ](/formR/fr0401_Clone-formR.md)
-3.  [Deploy formR ](/formR/fr0401_Deploy-formR.md)
-4.  [Run World Database ](/formR/fr0401_World-Database.md)
-5.  [Run Authentication ](/formR/fr0402_Authentication.md)
-6.  [Run User Administration ](/formR/fr0403_User-Administration.md)
-7.  [Run World Application ](/formR/fr0404_World-Application.md)
+1.  [Deploy My Custom App ](/FormR/fr0401_Deploy-My-Custom-App.md)
+2.  [Clone formR ](/FormR/fr0401_Clone-formR.md)
+3.  [Deploy formR ](/FormR/fr0401_Deploy-formR.md)
+4.  [Run World Database ](/FormR/fr0401_World-Database.md)
+5.  [Run Authentication ](/FormR/fr0402_Authentication.md)
+6.  [Run User Administration ](/FormR/fr0403_User-Administration.md)
+7.  [Run World Application ](/FormR/fr0404_World-Application.md)
 
 <h>5. Customize formR</h>
 
-1.  [Use Your Own Data ](/formR/fr0501_Use-Your_Qwn_Data.md)
-2.  [Deploy Your Own App ](/formR/fr0501_Deploy-Your-Own-App.md)
+1.  [Use Your Own Data ](/FormR/fr0501_Use-Your_Qwn_Data.md)
+2.  [Deploy Your Own App ](/FormR/fr0501_Deploy-Your-Own-App.md)
 
 <h>6. Markdown Reference</h>
 
