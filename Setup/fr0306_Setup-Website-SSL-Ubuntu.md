@@ -6,7 +6,7 @@
 [BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[Deploy my-react-app - NEXT](/formR/fr0401_Deploy-My-Custom-App.md)
+[My HTML Custom App - NEXT](/formR/fr020100_My-HTML-Custom.md)
 </div>
 <div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
@@ -18,13 +18,13 @@
 #### Introduction <!-- {docsify-ignore} -->
 - In this step you will:
     1. Configue publickey access from Bitvice to your server
-    #### 2. Clone SimpleApp to your server
-    #### 3. Configure your server to run the app
-    #### 4. Obtain a Domain Name and update your DNS record
-    #### 5. Personalize your app
-    #### 6. Add an SSL certificate
-    #### 7. Clean up protocols
-    #### 8. Test your new website for SSL security
+    2. Clone SimpleApp to your server
+    3. Configure your server to run the app
+    4. Obtain a Domain Name and update your DNS record
+    5. Personalize your app
+    6. Add an SSL certificate
+    7. Clean up protocols
+    8. Test your new website for SSL security
 
 #### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
@@ -638,6 +638,6 @@ ssllabs.com/ssltest/
 [BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[Deploy my-react-app - NEXT](/formR/fr0401_Deploy-My-React-App.md)
+[My HTML Custom App - NEXT](/formR/fr020100_My-HTML-Custom.md)
 </div>
 <!-- ------------------------------------------------------------------------- -->

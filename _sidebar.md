@@ -17,7 +17,8 @@
 
 <h>3. Customize FRApps</h>
 
-1. [My HTML Custom App ](/FRApps/fr020100_Introduction.md)
+1. [My HTML Custom App ](/FRApps/fr020000_My-Custom-HTML-App.md)
+1. [aMy HTML Custom App ](/FRApps/fr020100_My-HTML-Custom.md)
 2. [My Javascript Custom App ](/FRApps/fr0105_Custom-FR-Apps-Javascript.md)
 3. [My React Custom App ](/FRApps/fr0105_Custom-FR-Apps-React.md)
 
