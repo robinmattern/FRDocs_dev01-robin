@@ -71,7 +71,9 @@ useradd -ou 0 -g 0 -d /root -s /bin/bash -G sudo nimda
 
 ```
 passwd nimda
+```
 
+```
 formR!1234
 ```
 
@@ -104,9 +106,10 @@ cat /etc/passwd
 
 ```
 apt-get update && apt-get upgrade
+```
 
 (Enter Y to continue, if asked)
-```
+
 
 ![Update and Upgrade](./images/fr0302-04_Ubuntu-Update-Upgrade.png "Update and Upgrade")
 
@@ -117,10 +120,9 @@ apt-get update && apt-get upgrade
 
 ```
 apt-get install unattended-upgrades
+```
 
 (Enter Y to continue, if asked)
-
-```
 
 ![Install Unattended Upgrades](./images/fr0302-05_Ubuntu-Install-Unattended-Upgrades.png "Install Unattended Upgrades")
 
