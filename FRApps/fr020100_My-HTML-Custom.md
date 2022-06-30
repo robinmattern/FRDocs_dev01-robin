@@ -36,7 +36,7 @@ You will find in VSCode a folder "0c1_my-basic-blocks."  In this folder are the 
 
 ___
 
-<img class="shadow-border" src="FRApps//assets/images/md-images/IntroductionImage1.jpg">
+<img class="shadow-border" src="FRApps/assets/images/md-images/IntroductionImage1.jpg">
 
 ___
 
@@ -81,24 +81,28 @@ Both should be empty.
 
 ```HTML
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
     <head>
-       <meta charset="UTF-8">
-       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-       <link rel="stylesheet" href="index.css">
-       <link rel="shortcut icon" href="../favicon.gif">
-       <title>Basic-Training</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML Custom Apps</title>
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Bookman Old Style" >
+        <link rel="stylesheet"    href="index.css">
     </head>
     <body>
+        <!-- REPLACE Point - header -->
         <div class="header">
             <h2>header</h2>
         </div>
+        <!-- REPLACE Point - section1 -->
         <div class="section1">
            <h2>section 1</h2>
         </div>
         <div class="section2">
             <h2>section 2</h2>
         </div>
+        <!-- REPLACE Point - footer -->
         <div class="footer">
             <h2>footer</h2>
         </div>
@@ -124,12 +128,12 @@ Like this:
 <br><br>
 
 ```css
-/* Basic Blocks */
-
+/* Basic Blocks Custom App */
 @import url('https://fonts.googleapis.com/css?family=Bookman Old Style');
 
+/* REPLACE Point - Root Variables */
 /*-----------------------------------------
-root selector to create variables
+:root selector for variables
 -------------------------------------------*/
 :root {
     --header-color: red;
@@ -153,18 +157,19 @@ html {
     text-align: center;
 }
 
+/* REPLACE Point - Body */
 /*-----------------------------------------
 The body properites
 ------------------------------------------*/
 body {
     background: white;
     height: 100%;
+    margin: 0;
 }
 
+/* REPLACE Point - h2 */
 /*-----------------------------------------
-Set global properties for the <h2> tags
-It also overrides the intrinsic margin of
-20 to 0--allowing to stack the blocks together
+<h2> tag properties
 -------------------------------------------*/
 h2 {
     margin: 0;
@@ -174,53 +179,88 @@ h2 {
     text-align: center;
   }
 
+/* REPLACE point - .header */
 /*-----------------------------------------
 The .header properites
 ------------------------------------------*/
 .header {
     background: var(--header-color);
-    width: 300px;
-    height: 100px;
+    width: 300PX;
+    height: 100PX;
     position: relative;
 }
 
+/* INSERT Point - .formr-logo */
+
+/* INSERT Point - .header-logo */
+
+/* INSERT Point - .header-logo:first-letter */
+
+/* INSERT Point - .nav-list */
+
+/* INSERT Point - .nav-list-item a */
+
+/* INSERT Point - .nav-list-item a:hover
+                  .nav-list-item a:active */
+
+/* INSERT Point - .nav-list-item-cta a */
+
+/* INSERT Point - .header h2 */
+/* DELETE Point - .header h2 */
+
+/* REPLACE Point - section1 */
 /*-----------------------------------------
 The .section1 properites
 ------------------------------------------*/
 .section1 {
     background: var(--section1-color);
-    width: 300px;
-    height: 100px;
+    width: 300PX;
+    height: 100PX;
     position: relative;
 }
 
+/* INSERT Point - .image-text */
+
+/* INSERT Point - .image-text::first-letter */
+
+/* REPLACE Point - section2 */
 /*-----------------------------------------
 The .section2 properites
 ------------------------------------------*/
 .section2 {
     background: var(--section2-color);
-    width: 300px;
-    height: 100px;
+    width: 300PX;
+    height: 100PX;
     position: relative;
 }
 
-/*-----------------------------------------
-This is another <h2> override
-setting the font color from white to black
-------------------------------------------*/
-.section2 h2 {
-    color: var(--h2-text-color-dark);
-}
+/* INSERT Point - section2 h2 */
+/* DELETE Point - section2 h2 */
 
+/* REPLACE Point - footer */
 /*-----------------------------------------
-The .footer properites
+.footer properites
 ------------------------------------------*/
 .footer {
     background: var(--footer-color);
-    width: 300px;
-    height: 100px;
+    width: 300PX;
+    height: 100PX;
     position: relative;
 }
+
+/* INSERT Point - footer h2 */
+/* DELETE Point - footer h2 */
+
+/* INSERT Point - .footer-text */
+
+/* INSERT Point - .footer-list */
+
+/* INSERT Point - .footer-list-item a */
+
+/* INSERT Point - .footer-list-item a:hover
+                  .footer-list-item a:active */
+
+/* END */
 ^ copy to here
 
 ```
@@ -228,7 +268,18 @@ The .footer properites
 
 ___
 
-#### 4. Understanding CSS        <!-- .(20615.01.2 RAM Changed to ### 4. Was #### --> 
+
+#### 4.  Basic Blocks Web Page      
+
+- Please check your Chrome browser. 
+
+> We will build from this basic page to create a web site with a fixed header and footer, links with a button, and an image.  From there, the next course we will move on to add some magic with JavaScript (JS) to this web page.
+
+<br>
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicBlocksImage3.jpg">
+
+
+#### 5. Understanding CSS        <!-- .(20615.01.2 RAM Changed to ### 4. Was #### --> 
 <br>
 To understand a little of this CSS code, let's look at the .header properties.
 <br>
@@ -236,7 +287,23 @@ To understand a little of this CSS code, let's look at the .header properties.
 <font color='green'>** Notes:</font>
 <br><br>
 
-```css
+<!--
+> .header {
+>      background: var(--header-color);
+>        ** Sets the background to the variable you set above
+
+>    width: 300px;
+>        ** Sets the width of the header block 300 pixels
+>    height: 100px;
+>        ** Sets the height of the header block 100 pixels
+>    position: relative;
+>       ** Places the header box relative to the html code
+>        *DOM (Document Object Model) reading from 
+>        the top to the bottom  
+>}
+
+
+
 /*-----------------------------------------
 root selector to create variables
 -------------------------------------------*/
@@ -264,8 +331,10 @@ NOTE: in the .header properties below exactly
     --nav-list-font-size: 1.2rem;
     --footer-list-font-size: .9rem;
 } 
-_____________________________________________________
 
+-->
+
+```css
 /*-----------------------------------------
 The .header properites
 ------------------------------------------*/
@@ -287,16 +356,6 @@ The .header properites
 
 &nbsp;&nbsp;&nbsp;&nbsp;*[DOM](https://www.w3.org/TR/WD-DOM/introduction.html "What Is DOM")
 
-
-We will build from this basic page to create a web site with a fixed header and footer, links with a button, and an image.  From there, the next course we will move on to add some magic with JavaScript (JS) to this web page.
-
-
-#### 5.  Basic Blocks Web Page      
-
-- Please check your Chrome browser. 
-
-
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicBlocksImage3.jpg">
 
 
 #### 6.  [View Full Code For Basic Blocks](/FRApps/code/fr020101_basic-blocks-code.md "Full Code")
