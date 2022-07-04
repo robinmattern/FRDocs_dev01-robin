@@ -21,6 +21,8 @@
            }
         }    
 
-  , "terminal.integrated.defaultProfile.windows": "GitBash"
+,
+"terminal.integrated.defaultProfile.windows": "GitBash",
+"liveServer.settings.port": 5501
 
   }

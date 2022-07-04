@@ -1,37 +1,42 @@
 <!-- ---------------------------------------------------------------------- -->
 <div class="page-back">
 
-[<-- BACK](/FRApps/fr020101_Basic-Blocks)
+[<-- BACK](/FRApps/fr020100_My-HTML-Custom)
 
 </div><div class="page-next">
 
 <!-- ---------------------------------------------------------------------- -->
 
-HTML
-
 ___
+
+HTML
 
 
 ```HTML
 <!DOCTYPE html>
 <html lang="en">
     <head>
-       <meta charset="UTF-8">
-       <meta http-equiv="X-UA-Compatible" content="ie=edge">
-       <link rel="stylesheet" href="index.css">
-       <link rel="shortcut icon" href="../favicon.gif">
-       <title>FRApps Basic Blocks</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML Custom Apps</title>
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Bookman Old Style" >
+        <link rel="stylesheet"    href="index_v1.css">
     </head>
     <body>
+        <!-- REPLACE Point - header -->
         <div class="header">
             <h2>header</h2>
         </div>
+        <!-- INSERT Point - mobile nav -->
+        <!-- REPLACE Point - section1 -->
         <div class="section1">
            <h2>section 1</h2>
         </div>
         <div class="section2">
             <h2>section 2</h2>
         </div>
+        <!-- REPLACE Point - footer -->
         <div class="footer">
             <h2>footer</h2>
         </div>
@@ -39,19 +44,19 @@ ___
 </html>
 ```
 
-
-CSS
-
 ___
 
 
-```css
-/* Basic Blocks */
+CSS
 
+
+```css
+/* Basic Blocks Custom App */
 @import url('https://fonts.googleapis.com/css?family=Bookman Old Style');
 
+/* REPLACE Point - Root Variables */
 /*-----------------------------------------
-root selector to create variables
+:root selector for variables
 -------------------------------------------*/
 :root {
     --header-color: red;
@@ -75,18 +80,19 @@ html {
     text-align: center;
 }
 
+/* REPLACE Point - Body */
 /*-----------------------------------------
 The body properites
 ------------------------------------------*/
 body {
     background: white;
     height: 100%;
+    margin: 0;
 }
 
+/* REPLACE Point - h2 */
 /*-----------------------------------------
-Set global properties for the <h2> tags
-It also overrides the intrinsic margin of
-20 to 0--allowing to stack the blocks together
+<h2> tag properties
 -------------------------------------------*/
 h2 {
     margin: 0;
@@ -96,53 +102,94 @@ h2 {
     text-align: center;
   }
 
+/* REPLACE point - .header */
 /*-----------------------------------------
 The .header properites
 ------------------------------------------*/
 .header {
     background: var(--header-color);
-    width: 300px;
-    height: 100px;
+    width: 300PX;
+    height: 100PX;
     position: relative;
 }
 
+/* INSERT Point - .formr-logo */
+
+/* INSERT Point - .header-logo */
+
+/* INSERT Point - .header-logo:first-letter */
+
+/* INSERT Point - .nav-list */
+
+/* INSERT Point - .nav-list-item a */
+
+/* INSERT Point - .nav-list-item a:hover
+                  .nav-list-item a:active */
+
+/* INSERT Point - .nav-list-item-cta a */
+
+/* INSERT Point - .nav-list-item-cta */
+
+/* INSERT Point - @keyframes wiggle */
+
+/* INSERT Point - .header h2 */
+/* DELETE Point - .header h2 */
+
+/* REPLACE Point - section1 */
 /*-----------------------------------------
 The .section1 properites
 ------------------------------------------*/
 .section1 {
     background: var(--section1-color);
-    width: 300px;
-    height: 100px;
+    width: 300PX;
+    height: 100PX;
     position: relative;
 }
 
+/* INSERT Point - .image-text */
+
+/* INSERT Point - .image-text::first-letter */
+
+/* REPLACE Point - section2 */
 /*-----------------------------------------
 The .section2 properites
 ------------------------------------------*/
 .section2 {
     background: var(--section2-color);
-    width: 300px;
-    height: 100px;
+    width: 300PX;
+    height: 100PX;
     position: relative;
 }
 
-/*-----------------------------------------
-This is another <h2> override
-setting the font color from white to black
-------------------------------------------*/
-.section2 h2 {
-    color: var(--h2-text-color-dark);
-}
+/* INSERT Point - section2 h2 */
+/* DELETE Point - section2 h2 */
 
+/* REPLACE Point - footer */
 /*-----------------------------------------
-The .footer properites
+.footer properites
 ------------------------------------------*/
 .footer {
     background: var(--footer-color);
-    width: 300px;
-    height: 100px;
+    width: 300PX;
+    height: 100PX;
     position: relative;
 }
+
+/* INSERT Point - footer h2 */
+/* DELETE Point - footer h2 */
+
+/* INSERT Point - .footer-text */
+
+/* INSERT Point - .footer-list */
+
+/* INSERT Point - .footer-list-item a */
+
+/* INSERT Point - .footer-list-item a:hover
+                  .footer-list-item a:active */
+
+/* INSERT Point - All Responsive Code */                  
+
+/* END */
 
 ```
 ___
