@@ -517,6 +517,7 @@ ___
 - Copy <font color='green'>.section1</font> code below... 
 
 ```css
+/*-----------------------------------------
 The .section1 properites
 ------------------------------------------*/
 .section1 {
@@ -546,6 +547,7 @@ ___
 - Copy <font color='green'>.section</font> code below... 
 
 ```css
+/*-----------------------------------------
 The .section2 properites
 ------------------------------------------*/
 .section2 {
@@ -1291,7 +1293,7 @@ Like this
 
 ___
 
-#### 5. .footer-list-item
+#### 5. .footer-list-item a
 <br>
 For  <font color='green'>.footer-list-item a</font> copy the below...
 
@@ -1777,7 +1779,7 @@ ___
 <!--## 6. View Full Code  <!-- {docsify-ignore} -->
 
 ####  [View Full Code For Basic Blocks](/FRApps/code/fr020106_basic-bonus-code.md "Full Code")
-
+<br>
 
 <!-- ------------------------------------------------------------------------- -->
 
