@@ -1,7 +1,7 @@
 <!-- ---------------------------------------------------------------------- -->
 <div class="page-back">
 
-[<-- BACK](/FRApps/fr020103_Basic-with-Fixed-Header)
+[<-- BACK](/FRApps/fr020100_My-HTML-Custom)
 
 </div><div class="page-next">
 
@@ -17,27 +17,31 @@ ___
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="index.css">
-        <link rel="shortcut icon" href="../favicon.gif">
-        <link href="https://fonts.googleapis.com/css?family=Bookman Old Style" rel="stylesheet">
-        <title>FRApps Basic Blocks w/ Fixed Header</title>
+        <title>HTML Custom Apps</title>
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Bookman Old Style" >
+        <link rel="stylesheet"    href="index.css">
     </head>
     <body>
+        <!-- REPLACE Point - header -->
         <div class="header">
             <span class="header-logo">My Logo</span>
             <ul class="nav-list">
-                <li class="nav-list-item"><a href=#>Links</a>&nbsp;&nbsp;&nbsp;</li>
-                <li class="nav-list-item"><a href=#>Cards</a>&nbsp;&nbsp;&nbsp;</li>
-                <li class="nav-list-item"><a href=#>FAQs</a>&nbsp;&nbsp;&nbsp;</li>
+                <li class="nav-list-item"><a href=#>Links</a></li>
+                <li class="nav-list-item"><a href=#>Cards</a></li>
+                <li class="nav-list-item"><a href=#>FAQs</a></li>
                 <li class="nav-list-item-cta"><a href=#>Sign In</a></li>
             </ul>
-        </div>
+        </div>        
+        <!-- INSERT Point - mobile nav -->
+        <!-- REPLACE Point - section1 -->
         <div class="section1">
-            <h2>section 1</h2>
+           <h2>section 1</h2>
         </div>
         <div class="section2">
             <h2>section 2</h2>
         </div>
+        <!-- REPLACE Point - footer -->
         <div class="footer">
             <h2>footer</h2>
         </div>
@@ -50,12 +54,12 @@ CSS
 ___
 
 ```css
-/*Large Blocks w/ Fixed Header CSS*/
+/* Basic Blocks Custom App */
 @import url('https://fonts.googleapis.com/css?family=Bookman Old Style');
 
+/* REPLACE Point - Root Variables */
 /*-----------------------------------------
-root selector to create variables
-CHANGE: h2-font-size
+:root selector for variables
 -------------------------------------------*/
 :root {
     --header-color: red;
@@ -68,11 +72,10 @@ CHANGE: h2-font-size
     --h2-font-size: 2rem;
     --nav-list-font-size: 1.2rem;
     --footer-list-font-size: .9rem;
-}
+} 
 
 /*-----------------------------------------
 The html properites
-NO CHANGES or ADDITIONS
 ------------------------------------------*/
 html {
     background: #b3b3b3;
@@ -80,9 +83,9 @@ html {
     text-align: center;
 }
 
+/* REPLACE Point - Body */
 /*-----------------------------------------
 The body properites
-NO CHANGES or ADDITIONS
 ------------------------------------------*/
 body {
     background: white;
@@ -91,25 +94,22 @@ body {
     margin: 0;
 }
 
+
+/* REPLACE Point - h2 */
 /*-----------------------------------------
-Set global properties for the <h2> tags
-It also overrides the intrinsic margin of
-20 to 0--allowing to stack the blocks together.
-NO CHANGES or ADDITIONS
+<h2> tag properties
 -------------------------------------------*/
 h2 {
     margin: 0;
-    font-size: var(--h2-font-size);
+    font-size: var(--h2-font-size) ;
     color: var(--h2-text-color-light);
-    padding: 6rem;
+    padding: 1.5rem;
     text-align: center;
-}
+  }
 
+/* REPLACE point - .header */
 /*-----------------------------------------
 The .header properites
-CHANGES: position
-ADDITION: z-index, display & justify-content
-REMOVAL: .header h2 
 ------------------------------------------*/
 .header {
     background: var(--header-color);
@@ -121,9 +121,12 @@ REMOVAL: .header h2
     justify-content: space-between;
 }
 
+
+/* INSERT Point - .formr-logo */
+
+/* INSERT Point - .header-logo */
 /*-----------------------------------------
-***NEW***
-Sets all the properties for the font-based logo
+The .header-logo properites
 ------------------------------------------*/
 .header-logo {
     font-family: "Bookman Old Style", sans-serif;
@@ -134,10 +137,9 @@ Sets all the properties for the font-based logo
     padding-left: 20px;
 }
 
+/* INSERT Point - .header-logo:first-letter */
 /*-----------------------------------------
-***NEW***
-Sets the properties for the first letter
-of the font-based logo
+The .header-logo::first-letter properites
 ------------------------------------------*/
 
 .header-logo::first-letter {
@@ -145,10 +147,9 @@ of the font-based logo
     color: cornflowerblue;
 }
 
+/* INSERT Point - .nav-list */
 /*-----------------------------------------
-***NEW***
-Sets properties for the nav-bar
-introducing the flex property
+The .nav-list properites
 ------------------------------------------*/
 .nav-list {
     list-style: none;
@@ -160,11 +161,9 @@ introducing the flex property
     font-size: var(--nav-list-font-size);
 }
 
+/* INSERT Point - .nav-list-item a */
 /*-----------------------------------------
-***NEW***
-Sets the properties for each
-introducing the flex property
-of the nav-bar items
+The .nav-list-item a properites
 ------------------------------------------*/
 .nav-list-item a {
     color: black;
@@ -174,20 +173,19 @@ of the nav-bar items
     padding: 25px;
 }
 
+/* INSERT Point - .nav-list-item a:hover
+                  .nav-list-item a:active */
 /*-----------------------------------------
-***NEW***
-Sets the color of the nav-bar
-items when you hover
+The .nav-list-item a properites
 ------------------------------------------*/
 .nav-list-item a:hover,
 .nav-list-item a:active {
     color: var(--nav-list-item-hover-color);
 }
 
+/* INSERT Point - .nav-list-item-cta a */
 /*-----------------------------------------
-***NEW***
-Creates the blue button around the 'Sign In'
-button.  -cta stands for 'Call To Action'
+The .nav-list-item-cta a properties
 ------------------------------------------*/
 .nav-list-item-cta a {
     color: white;
@@ -196,58 +194,79 @@ button.  -cta stands for 'Call To Action'
     border-radius: 8px;
 }
 
+/* INSERT Point - .nav-list-item-cta */
+
+/* INSERT Point - @keyframes wiggle */
+
+/* REPLACE Point - section1 */
 /*-----------------------------------------
 The .section1 properites
-ADDITION: top
 ------------------------------------------*/
 .section1 {
     background: var(--section1-color);
     width: 100%;
     height: 40%;
     position: relative;
-    top: 10%; /*Added to adjust the top position*/
+    top:10%; /*<---ADD to adjust the top position*/
 }
 
+/* INSERT Point - .image-text */
+
+/* INSERT Point - .image-text::first-letter */
+
+/* REPLACE Point - section2 */
 /*-----------------------------------------
 The .section2 properites
-CHANGE: height
-ADDITION: top
 ------------------------------------------*/
 .section2 {
-    background: var(--section2-color);
-    width: 100%; 
-    height: 45%;  /*was 400px*/
+    background: var(--section1-color);
+    width: 100%;
+    height: 50%;
     position: relative;
-    top: 10%; /*Added to adjust the top position*/
+    top:10%; /*<---ADD to adjust the top position*/
 }
 
+/* INSERT Point - section2 h2 */
+/* DELETE Point - section2 h2 */
 /*-----------------------------------------
-This is another <h2> override setting 
-the font color from white to black
+The .section2 h2 properites
 ------------------------------------------*/
 .section2 h2 {
     color: var(--h2-text-color-dark);
 }
 
+/* REPLACE Point - footer */
 /*-----------------------------------------
 The .footer properites
-ADDITION: top
 ------------------------------------------*/
 .footer {
     background: var(--footer-color);
     width: 100%;
     height: 10%;
     position: relative;
-    top: 10%; /*Added to adjust the top position*/
+    top:10%; /*<---ADD to adjust the top position*/
 }
 
+/* INSERT Point - footer h2 */
+/* DELETE Point - footer h2 */
 /*-----------------------------------------
-This is another <h2> override
-CHANGE: padding
+The .footer h2 override properties
 ------------------------------------------*/
 .footer h2 {
-    padding: 0;
+    padding: 2rem;
 }
 
+/* INSERT Point - .footer-text */
+
+/* INSERT Point - .footer-list */
+
+/* INSERT Point - .footer-list-item a */
+
+/* INSERT Point - .footer-list-item a:hover
+                  .footer-list-item a:active */
+
+/* INSERT Point - All Responsive Code */                  
+
+/* END */
 ```
 ___

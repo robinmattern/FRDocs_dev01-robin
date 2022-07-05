@@ -1,7 +1,7 @@
 <!-- ---------------------------------------------------------------------- -->
 <div class="page-back">
 
-[<-- BACK](/FRApps/fr020104_Basic-with-Fixed-Footer)
+[<-- BACK](/FRApps/fr020100_My-HTML-Custom)
 
 </div><div class="page-next">
 
@@ -17,33 +17,37 @@ ___
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="index.css">
-        <link rel="shortcut icon" href="../favicon.gif">
-        <link href="https://fonts.googleapis.com/css?family=Bookman Old Style" rel="stylesheet">
-        <title>FRApps Basic Blocks w/ Fixed Footer</title>
+        <title>HTML Custom Apps</title>
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Bookman Old Style" >
+        <link rel="stylesheet"    href="index.css">
     </head>
     <body>
+        <!-- REPLACE Point - header -->
         <div class="header">
             <span class="header-logo">My Logo</span>
             <ul class="nav-list">
-                <li class="nav-list-item"><a href=#>Links</a>&nbsp;&nbsp;&nbsp;</li>
-                <li class="nav-list-item"><a href=#>Cards</a>&nbsp;&nbsp;&nbsp;</li>
-                <li class="nav-list-item"><a href=#>FAQs</a>&nbsp;&nbsp;&nbsp;</li>
+                <li class="nav-list-item"><a href=#>Links</a></li>
+                <li class="nav-list-item"><a href=#>Cards</a></li>
+                <li class="nav-list-item"><a href=#>FAQs</a></li>
                 <li class="nav-list-item-cta"><a href=#>Sign In</a></li>
             </ul>
-        </div>
+        </div>        
+        <!-- INSERT Point - mobile nav -->
+        <!-- REPLACE Point - section1 -->
         <div class="section1">
-            <h2>section 1</h2>
+           <h2>section 1</h2>
         </div>
         <div class="section2">
             <h2>section 2</h2>
         </div>
+        <!-- REPLACE Point - footer -->
         <div class="footer">
             <ul class="footer-list">
                 <li class="footer-list-item"><a href=#>Support</a></li>
                 <li class="footer-list-item"><a href=#>Terms Of Use</a></li>
             </ul>
-        </div>
+        </div>        
     </body>
 </html>
 
@@ -56,12 +60,12 @@ CSS
 ___
 
 ```css
-/*Large Blocks w/ Fixed Footer CSS*/
+/* Basic Blocks Custom App */
 @import url('https://fonts.googleapis.com/css?family=Bookman Old Style');
 
+/* REPLACE Point - Root Variables */
 /*-----------------------------------------
-root selector to create variables
-CHANGE: h2-font-size
+:root selector for variables
 -------------------------------------------*/
 :root {
     --header-color: red;
@@ -74,191 +78,195 @@ CHANGE: h2-font-size
     --h2-font-size: 2rem;
     --nav-list-font-size: 1.2rem;
     --footer-list-font-size: .9rem;
-}
+} 
 
 /*-----------------------------------------
 The html properites
-NO CHANGES or ADDITIONS
 ------------------------------------------*/
 html {
     background: #b3b3b3;
     height: 100%;
-    padding: 0px;
+    text-align: center;
 }
 
+/* REPLACE Point - Body */
 /*-----------------------------------------
 The body properites
-NO CHANGES or ADDITIONS
 ------------------------------------------*/
 body {
-  background: white;
-  height: 100%;
-  width: 100%;
-  margin: 0;
+    background: white;
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
+
+/* REPLACE Point - h2 */
 /*-----------------------------------------
-Set global properties for the <h2> tags
-It also overrides the intrinsic margin of
-20 to 0--allowing to stack the blocks together.
-NO CHANGES or ADDITIONS
+<h2> tag properties
 -------------------------------------------*/
 h2 {
-  margin: 0;
-  font-size: var(--h2-font-size);
-  color: var(--h2-text-color-light);
-  padding: 6rem;
-  text-align: center;
-}
+    margin: 0;
+    font-size: var(--h2-font-size) ;
+    color: var(--h2-text-color-light);
+    padding: 1.5rem;
+    text-align: center;
+  }
 
+/* REPLACE point - .header */
 /*-----------------------------------------
 The .header properites
-NO CHANGES or ADDITIONS
 ------------------------------------------*/
 .header {
-  background: var(--header-color);
-  width: 100%;
-  height: 10%;
-  position: fixed;
-  z-index: 100;
-  display: flex;
-  justify-content: space-between;
+    background: var(--header-color);
+    width: 100%;
+    height: 10%;
+    position: fixed;  /*was relative*/
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
 }
 
+
+/* INSERT Point - .formr-logo */
+
+/* INSERT Point - .header-logo */
 /*-----------------------------------------
-Sets all the properties for the font-based logo
-NO CHANGES or ADDITIONS
+The .header-logo properites
 ------------------------------------------*/
 .header-logo {
-  font-family: "Bookman Old Style", sans-serif;
-  font-size: 30px;
-  font-weight: bolder;
-  color: blue;
-  text-shadow: 2px 2px 12px #000000;
-  padding-left: 20px;
+    font-family: "Bookman Old Style", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: blue;
+    text-shadow: 2px 2px 12px #000000;
+    padding-left: 20px;
 }
 
+/* INSERT Point - .header-logo:first-letter */
 /*-----------------------------------------
-Sets the properties for the first letter
-of the font-based logo
-NO CHANGES or ADDITIONS
+The .header-logo::first-letter properites
 ------------------------------------------*/
+
 .header-logo::first-letter {
-  font-size: 150%;
-  color: cornflowerblue;
+    font-size: 150%;
+    color: cornflowerblue;
 }
 
+/* INSERT Point - .nav-list */
 /*-----------------------------------------
-Sets properties for the nav-bar
-introducing the flex property
-NO CHANGES or ADDITIONS
+The .nav-list properites
 ------------------------------------------*/
 .nav-list {
-  list-style: none;
-  margin-right: 30px;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-size: var(--nav-list-font-size);
+    list-style: none;
+    margin-right: 30px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: var(--nav-list-font-size);
 }
 
+/* INSERT Point - .nav-list-item a */
 /*-----------------------------------------
-Sets the properties for each
-introducing the flex property
-of the nav-bar items
-NO CHANGES or ADDITIONS
+The .nav-list-item a properites
 ------------------------------------------*/
 .nav-list-item a {
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 8px 0;
-  padding: 25px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 8px 0;
+    padding: 25px;
 }
 
+/* INSERT Point - .nav-list-item a:hover
+                  .nav-list-item a:active */
 /*-----------------------------------------
-Sets the color of the nav-bar
-items when you hover
-NO CHANGES or ADDITIONS
+The .nav-list-item a properites
 ------------------------------------------*/
 .nav-list-item a:hover,
 .nav-list-item a:active {
-  color: var(--nav-list-item-hover-color);
+    color: var(--nav-list-item-hover-color);
 }
 
+/* INSERT Point - .nav-list-item-cta a */
 /*-----------------------------------------
-Creates the blue button around the 'Sign In'
-button.  -cta stands for 'Call To Action'
-NO CHANGES or ADDITIONS
+The .nav-list-item-cta a properties
 ------------------------------------------*/
 .nav-list-item-cta a {
-  color: white;
-  background: blue ;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
+    color: white;
+    background: blue ;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
 }
 
+/* INSERT Point - .nav-list-item-cta */
+
+/* INSERT Point - @keyframes wiggle */
+
+/* REPLACE Point - section1 */
 /*-----------------------------------------
 The .section1 properites
-NO CHANGES or ADDITIONS
 ------------------------------------------*/
 .section1 {
-  background: var(--section1-color);
-  width: 100%;
-  height: 45%;
-  position: relative;
-  top: 10%; 
+    background: var(--section1-color);
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top:10%; /*<---ADD to adjust the top position*/
 }
 
+/* INSERT Point - .image-text */
+
+/* INSERT Point - .image-text::first-letter */
+
+/* REPLACE Point - section2 */
 /*-----------------------------------------
 The .section2 properites
-NO CHANGES or ADDITIONS
 ------------------------------------------*/
 .section2 {
-  background: var(--section2-color);
-  width: 100%;    /*was 300px*/
-  height: 50%;  /*Added 5% to create scrolling*/
-  position: relative;
-  top: 10%; /*Added to adjust the top position*/
+    background: var(--section2-color);
+    width: 100%;
+    height: 50%;
+    position: relative;
+    top:10%; /*<---ADD to adjust the top position*/
 }
 
+/* INSERT Point - section2 h2 */
+/* DELETE Point - section2 h2 */
 /*-----------------------------------------
-This is another <h2> override setting 
-the font color from white to black
+The .section2 h2 properites
 ------------------------------------------*/
 .section2 h2 {
-  color: black;
+    color: var(--h2-text-color-dark);
 }
 
+/* REPLACE Point - footer */
 /*-----------------------------------------
 The .footer properites
-ADDITION: z-index, bottom
-CHANGES: position
-REMOVAL: top
 ------------------------------------------*/
 .footer {
-  background: var(--footer-color);
-  width: 100%; 
-  /*top: 10%; */
-  bottom: 0;
-  position: fixed;
-  z-index: 99;
-}
-
+    background: var(--footer-color);
+    width: 100%;
+    /*top: 10%;  Removed in place of the bottom property*/
+    bottom: 0;
+    position: fixed;
+    z-index: 99;
+  }
+  
+/* INSERT Point - .footer-text */
 /*-----------------------------------------
-***NEW***
-Sets properties for the footer text
+The .footer-text properties
 ------------------------------------------*/
 .footer-text {
-  font-size: x-large;
-  text-align: right;
-  padding: 0px 30px 0px 65%;}
-
+    font-size: x-large;
+    text-align: right;
+    padding: 0px 30px 0px 65%;
+  }
+  
+/* INSERT Point - .footer-list */
 /*-----------------------------------------
-***NEW***
-Sets properties for the footer nav list
-introducing the flex property
+The .footer-list properties
 ------------------------------------------*/
 .footer-list {
     list-style: none;
@@ -270,11 +278,9 @@ introducing the flex property
     font-size: var(--footer-list-font-size);
   }
 
+/* INSERT Point - .footer-list-item a */
 /*-----------------------------------------
-***NEW***
-Sets the properties for each nav item
-introducing the flex property
-of the nav-bar items
+The .footer-list-item a properties
 ------------------------------------------*/
 .footer-list-item a {
     color: black;
@@ -284,15 +290,20 @@ of the nav-bar items
     padding: 12px;
   }
 
+/* INSERT Point - .footer-list-item a:hover
+                  .footer-list-item a:active */
 /*-----------------------------------------
-***NEW***
-Sets the color of the footer nav
-items when you hover
+The .footer-list-item a:hover,
+    .footer-list-item a:active properties
 ------------------------------------------*/
 .footer-list-item a:hover,
 .footer-list-item a:active {
   color: var(--nav-list-item-hover-color);
 }
+
+/* INSERT Point - All Responsive Code */                  
+
+/* END */
 
 
 
