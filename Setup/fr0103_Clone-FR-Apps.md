@@ -35,7 +35,8 @@
 
 
 ```
-cd C:\repos
+cd C:/repos
+
 ```
  
 ![FRApps-Clone-01](images/fr0103-FRApps-Clone-01.png "FRApps-Clone-01")
