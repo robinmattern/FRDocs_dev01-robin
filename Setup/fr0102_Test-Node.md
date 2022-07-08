@@ -417,7 +417,8 @@ CREATE DATABASE practice
 
 ```js
 const Sequelize = require("sequelize");
-const sequelize = new Sequelize("practice", "root", "formR!1234", {
+const sequelize = new Sequelize("practice", "root", "FormR!1234
+", {
   host: "localhost", 
   dialect: "mysql", 
 });

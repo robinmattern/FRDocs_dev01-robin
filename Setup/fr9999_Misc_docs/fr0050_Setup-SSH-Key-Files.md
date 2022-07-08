@@ -58,7 +58,8 @@ BACK
             HostName       155.138.238.182
             User           nimda
             Port           22
-         #  Password       formR!1234
+         #  Password       FormR!1234
+
          #  UpdatedOn      Mon Jul 19 2021 09:19:51 (Eastern Daylight Time)
 
 5. Copy the Public Key

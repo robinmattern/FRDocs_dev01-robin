@@ -68,7 +68,8 @@
 ```
  User name = Local_Admin
 
- password = formR!1234
+ password = FormR!1234
+
 ```
 
 ![Windows-Createauser](./images/fr0101-00_Windows-Createauser.png "Windows-Createauser")
@@ -825,7 +826,8 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 
 ![MySQL-product-configuration-2](./images/fr0101-12_MySQL-product-configuration-2.png "MySQL-product-configuration-2")
 
-- Use the password: formR!1234
+- Use the password: FormR!1234
+
 
 ![MySQL-product-configuration-3](./images/fr0101-12_MySQL-product-configuration-3.png "MySQL-product-configuration-3")
 
@@ -842,7 +844,8 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 #### 8. Connect to Server
 
 ```
-Enter this password -> formR!1234 and click the Check button
+Enter this password -> FormR!1234
+ and click the Check button
 
 #### !! Remember to write your passwords in a safe place !!
 ```
@@ -885,7 +888,8 @@ Enter this password -> formR!1234 and click the Check button
 - Paste the following
 
 ```
-CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'formR!1234';
+CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'FormR!1234
+';
 GRANT ALL PRIVILEGES ON *.* TO 'nimdas'@'%';
 SELECT user,authentication_string,plugin,host FROM mysql.user;
 ```
@@ -901,7 +905,8 @@ SELECT user,authentication_string,plugin,host FROM mysql.user;
 ```
 Enter:  \connect root@localhost
 
-Enter: formR!1234
+Enter: FormR!1234
+
 
 Enter: Y to save password
 

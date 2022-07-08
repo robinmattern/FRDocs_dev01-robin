@@ -169,7 +169,8 @@ Note: The World sample database has been modified so that all tables contain ID 
 #### 8. Close Workbench
 
 ----
-### 4. Make sure that your MySQL password for root  is set to:  formR!1234 0:05
+### 4. Make sure that your MySQL password for root  is set to:  FormR!1234
+ 0:05
 ----
 #### 1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
 
@@ -184,7 +185,8 @@ Note: The World sample database has been modified so that all tables contain ID 
 #### 4. Enter the following into the Query window, then
 
 ```js
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'formR!1234';
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234
+';
 ```
 
 #### 5. Click the Execute icon
@@ -204,7 +206,8 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'formR!1234';
 
 #### 9. Click Store in Vault, then
 
-#### 10. Enter the new password: formR!1234 and click OK
+#### 10. Enter the new password: FormR!1234
+ and click OK
 
 ![formR-Clone-20a](images/fr0103-formR-Clone-20a.png "formR-Clone-20a")
 

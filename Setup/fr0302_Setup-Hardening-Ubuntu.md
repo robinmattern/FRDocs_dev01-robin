@@ -67,14 +67,16 @@ useradd -ou 0 -g 0 -d /root -s /bin/bash -G sudo nimda
 
 - Tip: To clear the console at the console prompt enter: clear
 
-#### 2. Add the nimda password: formR!1234 and retype it
+#### 2. Add the nimda password: FormR!1234
+ and retype it
 
 ```
 passwd nimda
 ```
 
 ```
-formR!1234
+FormR!1234
+
 ```
 
 ![New User](./images/fr0302-02_Ubuntu-New-User1.png "New User")
@@ -298,7 +300,8 @@ ssh nimda@<your VM IP address>
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers2.png "SSH-AllowUsers")
 
-#### 9. Enter the password: formR!1234
+#### 9. Enter the password: FormR!1234
+
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
 
@@ -307,7 +310,8 @@ ssh nimda@<your VM IP address>
 ```
 Username = nimda
 
-Password = formR!1234
+Password = FormR!1234
+
 ```
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers4.png "SSH-AllowUsers")

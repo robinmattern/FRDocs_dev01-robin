@@ -88,7 +88,8 @@ mysql_secure_installation
 
       - Add VALIDATE PASSWORD PLUGIN: Yes
       - Enter a "password validation policy level": 2
-      - Enter a password for the user, root, to login to MySQL: formR!1234
+      - Enter a password for the user, root, to login to MySQL: FormR!1234
+
       - Enter to save password: Yes
       - Remove anonymous users? Yes
       - Disallow root login remotely? No (Yes on a production server)
@@ -146,10 +147,12 @@ ufw status
 mysql -p
 ```
 
-#### 8. Enter : the root password -> formR!1234
+#### 8. Enter : the root password -> FormR!1234
+
 
 ```
-password: formR!1234
+password: FormR!1234
+
 ```
 
 #### !! Remember to write your passwords in a safe place !!
@@ -158,7 +161,8 @@ password: formR!1234
 #### 9. Enter the following from the mysql prompt:
 
 ```js
-CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'formR!1234';
+CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'FormR!1234
+';
 
 GRANT ALL PRIVILEGES ON *.* TO 'nimdas'@'%';
 
@@ -197,7 +201,8 @@ systemctl status mysql.service
 ```
 mysqlsh /connect nimdas@xxx.xxx.xxx.xxx:3306
 
-Enter the password formR!1234
+Enter the password FormR!1234
+
 
 Enter v to never save the password
 ```
