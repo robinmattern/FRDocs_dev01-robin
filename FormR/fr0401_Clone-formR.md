@@ -36,10 +36,12 @@ cd C:\repos\
 ![formR-Clone-01](images/fr0103-formR-Clone-01.png "formR-Clone-01")
  
 ```
-git clone https://github.com/8020data/formR_prod-master.git formR
-
-cd formR
-
+git clone https://github.com/8020data/formR_prod-master.git FormR
+```
+```
+cd FormR
+```
+```
 dir
 ```
 
@@ -70,7 +72,7 @@ code formR_prod-master.code-workspace
 ![formR-Clone-04](images/fr0103-formR-Clone-04.png "formR-Clone-04")
 
 ```
-npm install
+npm install --legacy-peer-deps
 ```
 
 ![formR-Clone-05](images/fr0103-formR-Clone-05.png "formR-Clone-05")
