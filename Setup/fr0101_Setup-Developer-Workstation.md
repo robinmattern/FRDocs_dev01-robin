@@ -22,7 +22,8 @@
 #### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
-- We recommend that you copy and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
+- We recommend that you copy and paste code snippets from the documentation into your workstation/server. This will reduce the errors caused by hand typing.
+Hover over the snippet and click copy, then paste as appropriate.
 
 ----
 ### 1. Create a new user, Local_Admin, on your workstation. 0:10
@@ -65,11 +66,13 @@
 
 #### 9. Create a user by filling in the information for:
 
+- User name:
+``` 
+Local_Admin
 ```
- User name = Local_Admin
-
- password = FormR!1234
-
+- Password:
+```
+FormR!1234
 ```
 
 ![Windows-Createauser](./images/fr0101-00_Windows-Createauser.png "Windows-Createauser")
@@ -109,37 +112,30 @@
 ----
 ### 3. Create 3 folders, change View Options,  Setup ssh and Create keys 0:15
 ----
-#### 1. In C:\ add repos and remotes 
+#### 1. In C:\ add repos and remotes folders
 
-```
- 'repos' (local copies of your gitHub repositories files)
- 'remotes' (local copies of remote server files)
-```
+- 'repos' (local copies of your gitHub repositories files)
+
+- 'remotes' (local copies of remote server files)
+
 
 ![Create-folders](./images/fr0101-02_Create-folders.png "Create-folders")
 
-#### 2. In C:\users\Local_Admin\ add .ssh 
+#### 2. In C:\users\Local_Admin\ add .ssh folder
 
-```
- '.ssh' (holds your ssh keys related files)
-```
+- '.ssh' (holds your ssh keys related files)
 
 ![Create-folders2](./images/fr0101-02_Create-folders2.png "Create-folders2")
 
 #### 3. Change View Options in File Explorer
 
-```
-Enable Extentions and Hidden Files
-```
+- Enable Extentions and Hidden Files
 
 ![Change-View-Options](./images/fr0101-02_Change-View-Options.png "Change-View-Options")
 
 #### 4. Test if OpenSSH client is installed.
 
-```
-From DOS command prompt run ssh.
-```
-
+- From DOS command prompt run ssh.
 #### 5.  If OpenSSH client is Not installed
 
 ![OpenSSH-not-installed](./images/fr0101-02_OpenSSH-not-installed.png "OpenSSH-not-installed")
@@ -158,27 +154,24 @@ From DOS command prompt run ssh.
 
 #### 7. Create 3 ssh keys. These keys will be used for GitHub, your Cloud Provider and your Remote server. Run from the Windows command prompt
 
-```
-Format:
+
+- Format:
 
 ssh-keygen -t rsa -f
 "<local user folder>/.ssh/
 <key owner name>@<host name>_<host user initials>_v<date>_key"
 -C "<key owner name>@<host name>_<host user initials>_v<date>"
 
-Example: 
+- Example: 
 
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key" -C "mickey.mouse@github_mick_v210713"
 
-```
+- In the following "mickey mouse snippets" change the following to your info:
 
-```
-In the following change the following to your info:
+    - "mickey.mouse" to <your Key Owner Name> i.e. bruce.troutman
+    - "mick" to <your initiaks> i.e. kff or cbt or bill, etc.
+    - "v210713" to the <current date>
 
-- "mickey.mouse" to <your Key Owner Name> 
-- "mick" to <your initiaks> i.e. kff or cbt or bill, etc.
-- "v210713" to the <current date>
-```
 
 #### 8. Key pairs for Github:
 
@@ -262,7 +255,7 @@ chrome://extensions/
 ![Chrome-extensions4](./images/fr0101-03_Chrome-extensions4.png "Chrome-extensions4")
 
 ----
-### 5. Create an account or sign into GitHub then Add your ssh key. 0:15
+### 5. Create Github account or sign in to GitHub then Add your ssh key. 0:15
 ----
 #### 1. Sign in to GitHub. (Create an account, if you don't have one.)
 
@@ -317,9 +310,8 @@ https://github.com/new
 
 #### 10. Edit the Readme.md file
 
-```
-Click the pencil
-```
+- Click the pencil
+
 
 ![GitHub-myProject-readme](./images/fr0101-04_GitHub-myProject-readme.png "GitHub-myProject-readme")
 
@@ -333,55 +325,57 @@ Click the pencil
 
 #### 12. Commit changes
 
-```
-    - Go to the bottom of the edit page to the Commit Changes section.
+- Go to the bottom of the edit page to the Commit Changes section.
 
-    - A description is required: Update README.md
+- A description is required: Update README.md
 
-    - Click commit Changes
-```
+- Click commit Changes
 
 ![GitHub-myProject-readme3](./images/fr0101-04_GitHub-myProject-readme3.png "GitHub-myProject-readme3")
 
 ![GitHub-myProject-readme4](./images/fr0101-04_GitHub-myProject-readme4.png "GitHub-myProject-readme4")
 
-    - Close your browser.
+- Close your browser.
 
 #### 13. Configure ssh Access to Github on your Windows workstation
 
 - Create a Host for github connection in the .ssh/config file.
 
+
+- Create .ssh/config file in C:/users/Local_Admin/.ssh. Make sure it is saved without the .txt extention, then open with notepad and add the following:
+
 ```
-Create .ssh/config file in C:/users/Local_Admin/.ssh. Make sure it is saved without the .txt extention, then open with notepad and add the following:
-
-Be sure to change the following:
-- "github-mick"  to "github-<your initials>"
-- IdentityFile to the name of your github key file in C:/Users/Local_Admin/.ssh
-
 Host github-mick
     HostName       github.com
     IdentityFile   C:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key
     User           git
 ```
 
+- Be sure to change:
+    - "github-mick"  to "github-(your initials)"
+    - IdentityFile to the name of your github key file in C:/Users/Local_Admin/.ssh
+
+
 ![Add Host to config](./images/fr0101-03_Add-host-to-config.png "Add Host to config")
 
 #### 14. From the DOS command window, test the connection to github.
 
+- Replace mick with your initials
+
 ```
-ssh github-mick  e.g. replace mick with your initials
+ssh github-mick
+```
 
 Note: On the first try when prompted enter "yes" 
-```
+
 
 ![Test ssh to github-1st-yes](./images/fr0101-03_Test-ssh-to-github-1st-yes.png "Test ssh to github-1st-yes") 
 
 - Change directory to repos, connect again and you will be successfully authenticated.
 
 ```
-ssh github-mick  e.g. replace mick with your initials
+ssh github-your initials
 ```
-
 
 ![Test ssh to github](./images/fr0101-03_Test-ssh-to-github.png "Test ssh to github")
 
@@ -415,10 +409,10 @@ ssh github-mick  e.g. replace mick with your initials
 
 #### 5. From Git Bash prompt add Username for github
 
-```
-Change Mickey Mouse to <your name>:
+- Change Mickey Mouse to (your name)
 
-git config --global user.name = "Mickey Mouse"  i.e. <your name>
+```
+git config --global user.name = "Mickey Mouse"
 ```
 
 ![Git-for-Windows5](./images/fr0101-06_Git-for-Windows5.png "Git-for-Windows5")
@@ -426,9 +420,9 @@ git config --global user.name = "Mickey Mouse"  i.e. <your name>
 
 #### 6. Add User Email for github
 
-```
-Change mickey.mouse@gmail.com to <your email in github>:    
+- Change mickey.mouse@gmail.com to <your email in github>:    
 
+```
 git config --global user.email = "mickey.mouse@gmail.com"
 ```
 
@@ -549,9 +543,8 @@ https://code.visualstudio.com/download
 ----
 #### 1. Using File Explorer 
 
-```
-Navigate to repos folder, right click and select Git Bash here
-```
+- Navigate to repos folder, right click and select Git Bash here
+
 
 ![Open-git-bash](./images/fr0101-08_Open-git-bash.png "Open-git-bash")
 
@@ -559,12 +552,13 @@ Navigate to repos folder, right click and select Git Bash here
 
 #### 2. Clone myProject from github into the local repos folder
 
+- Change:
+
+    - github-mick to github-(your initials) that you created in step 1.1.3 above
+
+    - mickeymouse to (your github account name)
+
 ```
-Change:
-    github-mick to github-<your initials> that you created in step 1.1.3 above
-
-    mickeymouse to <your github account name>
-
 git clone github-mick:mickeymouse/myProject.git
 ```
 
@@ -572,12 +566,13 @@ git clone github-mick:mickeymouse/myProject.git
 
 #### 3. Open myProject in VScode
 
+- Remember captialization counts
+
 ```
 cd myProject
-
+```
+```
 code .
-
--- Remember captialization counts
 ```
 
 ![Open-in-VsCode](./images/fr0101-08_Open-in-VsCode.png "Open-in-VsCode")
@@ -663,7 +658,8 @@ Added Workspace and Updated Readme.md
 ![Github-push-4](./images/fr0101-10_Github-push-4.png "Github-push-4")
 
 #### 8. Modify Readme.md in Github by adding these lines:
-(Remember the pencil!)
+
+- Remember the pencil!
 
 ```
 #### 3. I updated it in GitHub.
@@ -675,13 +671,11 @@ Added Workspace and Updated Readme.md
 
 #### 9. Commit changes
 
-```
 - Go to the bottom of the edit page to the Commit Changes section.
 
 - A description is required: Update README.md added #### 3. and 4.
 
 - Click commit Changes
-```
 
 ![Github-push-6](./images/fr0101-10_Github-push-6.png "Github-push-6")
 
@@ -734,9 +728,11 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 
 ```
     nvs add 16
-
+```
+```
     nvs use 16
-    
+```
+```    
     nvs link
 ```
 
@@ -748,9 +744,9 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 
 ```
  nvs menu
- 
- then a comma
 ```
+ 
+ - then a comma
 
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-7.png "Nodejs-install-check")
 
@@ -760,8 +756,10 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 #### 5. Test from Windows command prompt:
 
 ```
-    node --version
-    npm --version
+node --version
+```
+```
+npm --version
 ```
 
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-4.png "Nodejs-install-check")
@@ -773,9 +771,9 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 
 ```
 dev.mysql.com/downloads
-
-then click: MySql Installer for Windows
 ```
+
+- then click: MySql Installer for Windows
 
 ![MySQL-installer](./images/fr0101-12_MySQL-installer.png "MySQL-installer")
 
@@ -783,8 +781,11 @@ then click: MySql Installer for Windows
 #### 2. Choose the version: 
 
 ```
-mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
+mysql-installer-community-x.x.xx.x.msi 
 ```
+
+- Do not choose the web version.
+
 
 ![MySQL-community](./images/fr0101-12_MySQL-community.png "MySQL-community")
 
@@ -798,13 +799,13 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 
 #### 5. Select Products 
 
-    - MySQL Server
-    - MySQL Workbench
-    - MySQL Shell
-    - Connector/ODBC
-    - Connector/J
-    - MySQL Documentation
-    - Samples and Examples
+- MySQL Server
+- MySQL Workbench
+- MySQL Shell
+- Connector/ODBC
+- Connector/J
+- MySQL Documentation
+- Samples and Examples
 
 #### 6. Select from the "Available Products" column, then click the Top arrow to move it to the left column.
 
@@ -831,9 +832,8 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 
 ![MySQL-product-configuration-3](./images/fr0101-12_MySQL-product-configuration-3.png "MySQL-product-configuration-3")
 
-```
+
 #### !! Remember to write your passwords in a safe place !!
-```
 
 ![MySQL-product-configuration-4](./images/fr0101-12_MySQL-product-configuration-4.png "MySQL-product-configuration-4")
 
@@ -843,12 +843,15 @@ mysql-installer-community-x.x.xx.x.msi  (Do not choose the web version.)
 
 #### 8. Connect to Server
 
+- Enter this password:
+
 ```
-Enter this password -> FormR!1234
- and click the Check button
+FormR!1234
+```
+
+- and click the Check button
 
 #### !! Remember to write your passwords in a safe place !!
-```
 
 ![MySQL-connect-server](./images/fr0101-12_MySQL-connect-server.png "MySQL-connect-server")
 
@@ -879,7 +882,8 @@ Enter this password -> FormR!1234
 ![MySQL-workbench-login-1](./images/fr0101-12_MySQL-workbench-login-1.png "MySQL-workbench-login-1")
 
 #### 15. Use mMySQL Workbench to Create and Grant Privileges to user account: nimdas with host %
-(Note: root@localhost has all rights and nimdas@% will have all rights) 
+<br/>
+Note: root@localhost has all rights and nimdas@% will have all rights
 
 - Open New Query tab
 
@@ -902,23 +906,29 @@ SELECT user,authentication_string,plugin,host FROM mysql.user;
 
 #### 16. Select the MySql Shell window
 
+- Enter:  
 ```
-Enter:  \connect root@localhost
-
-Enter: FormR!1234
-
-
-Enter: Y to save password
-
+\connect root@localhost
+```
+- Password: 
+```
+FormR!1234
+```
+- Enter: Y to save password
+```
+Y
 ```
 
 ![MySQL-shell-login](./images/fr0101-12_MySQL-shell-login.png "MySQL-shell-login")
 
 #### 17. Shell SHOW DATABASES
 
+Enter: 
+
 ```
-Enter: \sql SHOW DATABASES;  ( Don't forget the \ and ; )
+\sql SHOW DATABASES;  
 ```
+- Don't forget the \ and ; 
 
 ![MySQL-shell-show-databases](./images/fr0101-12_MySQL-shell-show-databases.png "MySQL-shell-show-databases")
 
@@ -946,7 +956,7 @@ https://bitvise.com/ssh-client-download
 ----
 #### Congratulations! Your Developer Workstation is setup.
 
- After all installations on a new Windows 10 machine, 7 GB was added to Drive C:.
+ - After all installations on a new Windows 10 machine, 7 GB was added to Drive C:.
 
 ----
 <!-- ------------------------------------------------------------------------- -->
