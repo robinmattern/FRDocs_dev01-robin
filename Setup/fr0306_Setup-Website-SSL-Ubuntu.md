@@ -84,7 +84,7 @@ reboot
 #### 6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for Vultr_formR0_nimda
 #### 7. Right click and select Edit
 
-    (Note you may need to expand the name column to see the .pub extension)
+- Note you may need to expand the name column to see the .pub extension
 
 ![BitVise Copy public key](./images/fr0306-05_Ubuntu-Bitvise-Copy-public-key.png "BitVise Copy public key") 
 
@@ -203,14 +203,20 @@ unlink /etc/nginx/sites-enabled/default
 
 ```
 cd /webs 
-
-git clone https://github.com/8020Data/simpleApp.git simpleApp
+```
+```
+git clone https://github.com/8020Data/simpleApp.```
+```
+```
+git simpleApp
 ```
 
 -  Confim clone
 
 ```
 cd simpleApp
+```
+```
 ls -l
 ```
 
@@ -221,7 +227,8 @@ ls -l
 
 ```
 ufw allow 5000
-
+```
+```
 ufw status
 ```
 
@@ -249,9 +256,7 @@ node app.js
 
 - Browse to:
 
-```
-<your server ip address here>:5000
-```
+- (your server ip address here):5000
 
 ![BitVise Browse simpleApp](./images/fr0306-07_Ubuntu-Bitvise-Browse-simpleApp.png "BitVise Browse simpleApp")
 
@@ -285,7 +290,8 @@ pm2 startup systemd
 
 ```
 pm2 save --force
-
+```
+```
 reboot
 ```
 
@@ -316,7 +322,8 @@ cp -r /webs/simpleApp/etc/nginx/* /etc/nginx/
 
 ```
 cd /etc/nginx/sites-enabled
-
+```
+```
 ln -s ../sites-available/formR-xxx-00.com_all-apps.conf
 ```
 
@@ -336,7 +343,9 @@ systemctl reload nginx
 ----
 ### 7. Create a domain for public access to your server 0:15
 ----
-#### Note: 
+
+- Note:
+
 - To install a Letsencrypt SSL certificate you will need a Domain Name. Our example creates a domain at GoDaddy.com.
 
 - There are many domain providers. You can expect to pay about $19/yr. Often there are sales promotions. Also all of them offer many extra services. --- In our formR example we decline all extra services from the domain provider. 
@@ -355,9 +364,9 @@ godaddy.com
 
 ```
 formR-<your initials>-00.com
-
-e.g. formR-cbt-00.com
 ```
+e.g. formR-cbt-00.com
+
 
 ![Create Domain](./images/fr0306-09_Ubuntu-create-domain.png "Create Domain")
 
@@ -416,9 +425,10 @@ To Your server IP address and Save
 
 ```
 http://formR-<your initials>-00.com
-
-e.g http://formR-cbt-00.com
 ```
+
+- e.g http://formR-cbt-00.com
+
 
 ![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
 
@@ -491,9 +501,12 @@ http:<your VM IP>:5000
 
 ```
 certbot --nginx -d <yoururl>  
-
-<yoururl> =  formR-<yourinitials>-00.com e.g. formR-cbt-00.com
 ```
+
+- yoururl =  formR-yourinitials-00.com 
+
+- e.g. formR-cbt-00.com
+
 #### 2. Enter your email address to get renewal notices and then Y to register:
 
 ![BitVise Add SSL](./images/fr0306-11_Ubuntu-Bitvise-add-ssl.png "BitVise Add SSL")
@@ -506,10 +519,10 @@ certbot --nginx -d <yoururl>
 
 ```
 https://yoururl
-
-e.g. https://formR-cbt-00.com
-
 ```
+
+- e.g. https://formR-cbt-00.com
+
 
 ![BitVise Browse with https](./images/fr0306-12_Ubuntu-Bitvise-Browse-with-https.png "BitVise Browse with https")
 
@@ -582,7 +595,8 @@ ssl_protocols TLSv1.2 TLSv1.3;
 
 ```
 nginx -t
-
+```
+```
 service nginx reload
 ```
 
@@ -619,11 +633,13 @@ ssllabs.com/ssltest/
 #### 1. From the Bitvise New terminal console enter:
 
 ```
-   ufw status numbered 
-
-   ufw delete 8
-
-   ufw delete 4
+ufw status numbered 
+```
+```
+ufw delete 8
+```
+```
+ufw delete 4
 ```
 
 ![BitVise Close Port 5000](./images/fr0306-13_Ubuntu-Bitvise-Close-Port-5000.png "BitVise Close Port 5000")

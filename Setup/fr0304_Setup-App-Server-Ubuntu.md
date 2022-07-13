@@ -89,9 +89,11 @@ source .nvs/nvs.sh install
 
 ```
 nvs add 16
-
+```
+```
 nvs use 16
-
+```
+```
 nvs link
 ```
 
@@ -103,7 +105,8 @@ nvs link
 
 ```
 node --version
-
+```
+```
 npm --version
 ```
 
@@ -142,11 +145,14 @@ pm2 startup systemd
 
 ```
 cd /webs
-npm init
-
-Select all defaults by pressing enter,
-then enter Y for "Is this ok?"
 ```
+```
+npm init
+```
+
+- Select all defaults by pressing enter,
+then enter Y for "Is this ok?"
+
 
 ![npm init](./images/fr0304-10_Ubuntu-npm-init.png "npm init")
 

@@ -64,10 +64,9 @@ reboot
 
 ```
 apt-get install nginx
-
-(Enter Y to continue, if asked)
-
 ```
+
+- Enter Y to continue, if asked
 
 ![Install NGINX](./images/fr0303-01_Ubuntu-install-nginx.png "Install NGINX")
 
@@ -131,6 +130,8 @@ mkdir /webs
 
 ```
 cd /
+```
+```
 ls -ld /webs
 ```
 
