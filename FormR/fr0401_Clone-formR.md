@@ -130,9 +130,9 @@ Note: The World sample database has been modified so that all tables contain ID 
 
 #### 3. Run Script file
 
-    - Click on Schemas to show your current databases
+- Click on Schemas to show your current databases
 
-    - Click on the Open a script file in this editor
+- Click on the Open a script file in this editor
 
 
 ![formR-Clone-11](images/fr0103-formR-Clone-11.png "formR-Clone-11")
@@ -142,11 +142,12 @@ Note: The World sample database has been modified so that all tables contain ID 
 ```
  C:\repos\formR\prod-master\_3\SQLs\formR_RAuth-DB-Create.
  sql
-
- then repeat these steps for:
-
- C:\repos\formR\prod-master\_3\SQLs\formR_World-DB-Create.sql
+```
  
+ - then repeat these steps for:
+
+```
+ C:\repos\formR\prod-master\_3\SQLs\formR_World-DB-Create.sql
 ```
 
 ![formR-Clone-12](images/fr0103-formR-Clone-12.png "formR-Clone-12") 
@@ -261,16 +262,32 @@ npm start
 #### 1. Enter each of the following in your browser to test the server:
 
 ```
-    localhost:50251
-    localhost:50251/api/world/cities/test
-    localhost:50251/api/world/cities/model
-    localhost:50251/api/world/cities/
-    localhost:50251/api/world/cities/1
+localhost:50251
+```
+```
+localhost:50251/api/world/cities/test
+```
+```
+localhost:50251/api/world/cities/model
+```
+```
+localhost:50251/api/world/cities/
+```
+```
+localhost:50251/api/world/cities/1
+```
+```
 
-    localhost:50251/api/world/countries/test
-    localhost:50251/api/world/countries/model
-    localhost:50251/api/world/countries/
-    localhost:50251/api/world/countries/1
+localhost:50251/api/world/countries/test
+```
+```
+localhost:50251/api/world/countries/model
+```
+```
+localhost:50251/api/world/countries/
+```
+```
+localhost:50251/api/world/countries/1
 ```
 
 #### 2.  Enter the following in your browser to test the client:
@@ -291,33 +308,40 @@ npm start
 
 
 #### 1. Set System Path to contain: C:\repos\formR\_2\bin
-   - Click Start, type env, select: Edit the system environment variables
-   - Click on button, Environment Variables
-   - Under System (not User) variables, select Path, then click Edit...
-   - Click on button, New, then type: C:\repos\formR\_2\bin
-   - Click Ok three times
+
+- Click Start, type env, select: Edit the system environment variables
+- Click on button, Environment Variables
+- Under System (not User) variables, select Path, then click Edit...
+- Click on button, New, then type: C:\repos\formR\_2\bin
+- Click Ok three times
 
 #### 2. Get formR Tools from 8020data GitHub repository
+
    - From Windows command prompt enter: 
 
 ```
 cd C:/Repos/formR
-
+```
+```
 git https://github.com/8020data/FRTools.git     tools
 ```
 
 #### 3. Create a link from ./formR/_2  ./formR/tools/_2 to
-   - Open Windows Command prompt Run as Administrator  BT-NEED screen shot
+
+- Open Windows Command prompt Run as Administrator  BT-NEED screen shot
 
 ``` 
 cd C:\Repos\formR
-
+```
+```
 mklink /d _2 tools\_2
 ```
 
 #### 4. Run FRTools command
-   - $ frt  
-
+   
+```
+$ frt  
+```
 
 ----
 #### Congratulations! You have Cloned formR successfully to your local workstation.
