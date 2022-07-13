@@ -37,16 +37,17 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 ```
 cd C:/repos
-
 ```
  
 ![FRApps-Clone-01](images/fr0103-FRApps-Clone-01.png "FRApps-Clone-01")
 
 ```
 git clone https://github.com/8020data/FRApps_prod-master.git FRApps
-
+```
+```
 cd FRApps
-
+```
+```
 dir
 ```
 

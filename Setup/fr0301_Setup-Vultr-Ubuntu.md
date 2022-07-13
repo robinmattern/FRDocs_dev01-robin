@@ -116,20 +116,17 @@ Vultr-formR0-root.tlp
 
 #### 4. Fill in the following:
 
-```
-Host = Vultr-formR0 IP Address (copy from Vultr web page)
+- Host = Vultr-formR0 IP Address (copy from Vultr web page)
 
-Port = 22
+- Port = 22
 
-Username = root
+- Username = root
 
-Initial Method = password
+- Initial Method = password
 
-Click Checkbox - Store encrypted password in profile
+- Click Checkbox - Store encrypted password in profile
 
-Password = Vultr-formR0 root password (copy from Vultr web page)
-
-```
+- Password = Vultr-formR0 root password (copy from Vultr web page)
 
 ![Vultr New-Profile-Copy](./images/fr0301-09_Vultr-New-Profile-Copy.png "Vultr New-Profile-Copy")
 

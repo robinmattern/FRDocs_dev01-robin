@@ -163,12 +163,18 @@ nano /etc/apt/apt.conf.d/50unattended-upgrades
 
 ![Modify apt.conf.d](./images/fr0302-07_Ubuntu-Modify-apt-conf-d.png "Modify apt.conf.d")
 
-#### 5.  Uncomment and modify: (Note: Use your down arrow to find these items. They are near the bottom of the file.)
+#### 5. Uncomment and modify: (Note: Use your down arrow to find these items. They are near the bottom of the file.)
 
 ```
 Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";
+```
+```
 Unattended-Upgrade::Remove-Unused-Dependencies "true";
+```
+```
 Unattended-Upgrade::Automatic-Reboot "true";
+```
+```
 Unattended-Upgrade::Automatic-Reboot-Time "02:30";
 ```
 
@@ -308,11 +314,15 @@ ssh nimda@<your VM IP address>
 
 #### 10. Logout of Bitvise and then change the Username and Password and Login
 
+Username:
 ```
-Username = nimda
+nimda
+```
 
-Password = FormR!1234
+Password:
 
+```
+ FormR!1234
 ```
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers4.png "SSH-AllowUsers")
@@ -375,11 +385,12 @@ nano /etc/ssh/sshd_config
 
 #### 8. Replace
 
-```
-#Banner none   with    (Remove the #)
+- #Banner none   with:
 
+```
 Banner  /etc/issue.net
 ```
+- Be sure to Remove the #
 
 ![SSH-Banner Config](./images/fr0302-15_Ubuntu-ssh-banner-config.png "SSH-Banner Config")
 
@@ -400,10 +411,9 @@ systemctl restart sshd
 
 ```
 apt-get install fail2ban
-
-(Enter Y to continue, if asked)
-
 ```
+
+- Enter Y to continue, if asked
 
 ![Install Fail2Ban](./images/fr0302-16_Ubuntu-install-fail2ban.png "Install Fail2Ban")
 
@@ -528,7 +538,8 @@ rkhunter --check
 
 ```
 cd /etc
-
+```
+```
 git clone https://github.com/CISOfy/lynis
 ```
 
@@ -538,7 +549,8 @@ git clone https://github.com/CISOfy/lynis
 
 ```
 cd /etc/lynis
-
+```
+```
 ./lynis --version
 ```
 
