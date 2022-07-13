@@ -61,13 +61,11 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 #### 2. Repeat step 1. for the following:
 
-```
-     docs
+- Create folders for:
+  - docs
+  - scripts
+  - server
 
-     scripts
-
-     server
-```
 
 #### 3. Right-click on the server folder and create a new folder:
 
@@ -247,20 +245,15 @@ Add Node App - batch.js
 ![Node-github-checkmark](images/fr0102-15_Node-github-checkmark.png "Node-github-checkmark")
 
 4. Push
-<br/>
 
-```
-Click on 3 dots then click Push 
-```
+- Click on 3 dots then click Push 
 
 ![Node-github-push](images/fr0102-15_Node-github-push.png "Node-github-push")
 
 5. The following message may show the first time. 
-<br/>
 
-```
-Click on: Ok, Don't show again
-```
+- Click on: Ok, Don't show again
+
 
 ![Node-ok-dont-show](images/fr0102-15_Node-ok-dont-show.png "Node-ok-dont-show")
 
@@ -312,32 +305,15 @@ npm start
 
 #### 6. Adjust package.json for React-Scripts (prevent npm audit from returning development vulnerabilities list for react-scripts)
 
-- In VScode edit myProject/client/package.json, replace
-
-```js
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "^5.0.0",
-    "web-vitals": "^1.1.2"
-  },
+- In VScode edit myProject/client/package.json, Cut the following react-scripts line from the dependencies section of package.json
 
 ```
+    "react-scripts": "^5.0.0",
+```
 
-- with
+- Insert the following devdependencies section:
 
 ```js
- "dependencies": {
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "web-vitals": "^1.1.2"
-  },
   "devdependencies": {
     "react-scripts": "^5.0.0"
   },
@@ -359,14 +335,12 @@ npm audit --production
 
 
 #### ---Push your changes to GitHub
-<br/>
 
-```
-     1. Click the Source Control charm
-     #### 2. Add description of your choice
-     #### 3. Click the checkmark to Commit
-     #### 4. Click the Sync Changes button to push to github
-```
+1. Click the Source Control charm
+2. Add description of your choice
+3. Click the Commit button
+4. Click the Sync Changes button to push to github
+
 ----
 ### 6. Create a Nodejs routine to access the local MySQL database and return information. 0:10
 ----
@@ -526,14 +500,11 @@ node queryDB
 ![Node-clean-up-workbench](images/fr0102-30_Node-clean-up-workbench.png "Node-clean-up-workbench")
 
 #### ---Push your changes to Github
-<br/>
 
-```
-     1. Click the Source Control charm
-     2. Add description of your choice
-     #### 3. Click the checkmark to Commit
-     #### 4. Click the Sync Changes button to push to github
-```
+1. Click the Source Control charm
+2. Add description of your choice
+3. Click the Commit button
+4. Click the Sync Changes button to push to github
 
 ----
 #### Congratulations! You have run the Node applications that test your development environment.
