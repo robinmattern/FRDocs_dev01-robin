@@ -1525,7 +1525,7 @@ If you recall, when we set the padding-left: 54px;
 
 - Let's focus on the Header and how we want it to appear on a smart phone.
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicIPhoneImage1.jpg">
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasiciPhoneImage1.jpg">
 
 - We can set, using CSS, a certain width of the "viewpoint" to where we can make changes to the appearence.  In our code we will set it at 760px.  At that width we can make the NavList (horizontal links) DISAPPEAR; and a NavBar (commonly known as a hamburger) APPEAR.
 
