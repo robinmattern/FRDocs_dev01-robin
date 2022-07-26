@@ -110,9 +110,6 @@ Example:
     + 3. Change Texts
     + 4. Change Colors
 
-- We recommend that you copy and paste code snippets from the documentation into your workstation/server. This will reduce the errors caused by hand typing.
-Hover over the snippet and click copy, then paste as appropriate.
-
 ### *LAYOUT*
 <br>
 Like many web sites (pages) we like to start with a very simple sketch; pencil drawn on a sheet of paper.  Here was our initial thoughts to build a very simple "block" structured web page.  We came very close in achieving our goal.
@@ -921,9 +918,9 @@ ___
 In the <font color='green'>.HeaderLogo</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE H-2 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 
 ```css
@@ -1004,9 +1001,9 @@ ___
 In the <font color='green'>.HeaderNavList</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE H-3 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 ```css
 /* H-3 INSERT Point - .HeaderNavList */
@@ -1236,9 +1233,9 @@ ___
 In the <font color='green'>.FooterNavList</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE F-1 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 ```css
 /*=======================================*/
@@ -1364,9 +1361,9 @@ ___
 In the <font color='green'>.Section1ImageText</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE S1-1 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 
 ```css
@@ -1427,9 +1424,9 @@ ___
 In the <font color='green'>.HeaderNavListCTA</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE H-5 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 ```css
 /* H-5 INSERT Point - .HeaderNavListItemCTA */
@@ -1586,9 +1583,9 @@ Now let's move on to index.**css** to adjust the NavBar in a proper postion
 In the <font color='green'>.HeaderNavBars</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE H-1 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 
 ```css
@@ -1658,9 +1655,9 @@ ___
 In the <font color='green'>/* Responsive Code */</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE R-1 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 
 ```css
@@ -1959,9 +1956,9 @@ Like this
 In the <font color='green'>.HeaderLogo</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE H-2 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 ```css
 /*=======================================*/
@@ -2208,9 +2205,9 @@ There is one last touch for Section 2.  Let's pretty-up that paragraph.  It is d
 Copy <font color='green'>.Section2Paragraph</font> code below... 
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>S2-2 INSERT Point - Section2Paragraph</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 ```css
 
