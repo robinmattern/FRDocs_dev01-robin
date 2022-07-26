@@ -918,9 +918,9 @@ ___
 In the <font color='green'>.HeaderLogo</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE H-2 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 
 ```css
@@ -1001,9 +1001,9 @@ ___
 In the <font color='green'>.HeaderNavList</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE H-3 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 ```css
 /* H-3 INSERT Point - .HeaderNavList */
@@ -1233,9 +1233,9 @@ ___
 In the <font color='green'>.FooterNavList</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE F-1 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 ```css
 /*=======================================*/
@@ -1361,9 +1361,9 @@ ___
 In the <font color='green'>.Section1ImageText</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE S1-1 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 
 ```css
@@ -1424,9 +1424,9 @@ ___
 In the <font color='green'>.HeaderNavListCTA</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE H-5 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 ```css
 /* H-5 INSERT Point - .HeaderNavListItemCTA */
@@ -1522,7 +1522,7 @@ If you recall, when we set the padding-left: 54px;
 
 - Let's focus on the Header and how we want it to appear on a smart phone.
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicIPhoneImage1.jpg">
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasiciPhoneImage1.jpg">
 
 - We can set, using CSS, a certain width of the "viewpoint" to where we can make changes to the appearence.  In our code we will set it at 760px.  At that width we can make the NavList (horizontal links) DISAPPEAR; and a NavBar (commonly known as a hamburger) APPEAR.
 
@@ -1583,9 +1583,9 @@ Now let's move on to index.**css** to adjust the NavBar in a proper postion
 In the <font color='green'>.HeaderNavBars</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE H-1 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 
 ```css
@@ -1655,9 +1655,9 @@ ___
 In the <font color='green'>/* Responsive Code */</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE R-1 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 
 ```css
@@ -1956,9 +1956,9 @@ Like this
 In the <font color='green'>.HeaderLogo</font>, copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE H-2 CODE HERE</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 ```css
 /*=======================================*/
@@ -2114,7 +2114,6 @@ FINALLY, we will CUSTOMIZE with some color changes.
 ### 4. Change Colors
 
 - We were requested to change some colors for the next major lessons. No problem!
-<br>
 
 - This can all be done in the index.**css** file.
 
@@ -2205,9 +2204,9 @@ There is one last touch for Section 2.  Let's pretty-up that paragraph.  It is d
 Copy <font color='green'>.Section2Paragraph</font> code below... 
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
-<br>/&#10035; START BLOCK &#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;&#10035;/
+<br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>S2-2 INSERT Point - Section2Paragraph</font>
-<br>/&#10035;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&#10035;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
 
 ```css
 
@@ -2283,14 +2282,14 @@ Now you have all the tools to go back to your Layout and Customize it the way yo
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicColorImage5.jpg">
 
-> <span style="font-size: 25px"><b>IMPORTANT!</b></span> Remember to change your<br>  "&#60;link rel="stylesheet"    href="index_final_layout.css"&#62;"<br> reference in your index.html file to match the name of your relating index.css file. Like below:
+> <span style="font-size: 25px"><b>IMPORTANT!</b></span> Remember to change your<br><br>  "&#60;link rel="stylesheet"    href="index_final_layout.css"&#62;"<br><br> reference in your <u>index.html</u> file to match the name of your relating <u>index.css</u> file.<br><br> Like below:
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicColorImage6.jpg">
 
-
-
+<br>
 Your next journey will be to add some very cool functions to our web page using JavaScript.
+<br>
 
-Happy coding!
+> <span style="font-size: 25px"><b>HAPPY CODING!</b></span>
 
 <!--## 6. View Full Code  <!-- {docsify-ignore} -->
 
