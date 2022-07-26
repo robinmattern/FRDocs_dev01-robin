@@ -109,7 +109,7 @@ Example:
     + 2. Add Image formR Logo
     + 3. Change Texts
     + 4. Change Colors
-=======
+
 - We recommend that you copy and paste code snippets from the documentation into your workstation/server. This will reduce the errors caused by hand typing.
 Hover over the snippet and click copy, then paste as appropriate.
 
