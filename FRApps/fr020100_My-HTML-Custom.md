@@ -88,7 +88,7 @@ Example:
 
 /*===========================================*/<br>
 /* START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*INSERT CODE HERE*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color='red'>*INSERT CODE HERE*</font><br>
 /* END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br>
 
 <br>
@@ -109,7 +109,7 @@ Example:
     + 2. Add Image formR Logo
     + 3. Change Texts
     + 4. Change Colors
-=======
+
 - We recommend that you copy and paste code snippets from the documentation into your workstation/server. This will reduce the errors caused by hand typing.
 Hover over the snippet and click copy, then paste as appropriate.
 
@@ -1500,7 +1500,7 @@ Like below:
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicDevToolsImage1.jpg">
 
-> Shortcut to Developer Tools on most browsers is press F12 key.
+> Shortcut: To Developer Tools on most browsers is press F12 key.
 
 <br><br>
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicDevToolsImage1b.jpg">
