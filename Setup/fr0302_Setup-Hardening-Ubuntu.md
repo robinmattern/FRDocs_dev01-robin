@@ -21,7 +21,8 @@
 #### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
-- We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
+- We recommend that you copy and paste code snippets from the documentation into your workstation/server. This will reduce the errors caused by hand typing.
+Hover over the snippet and click copy, then paste as appropriate.
 ----
 ### 1. Restart your Vultr VM and Login 0:05
 ----
@@ -67,14 +68,16 @@ useradd -ou 0 -g 0 -d /root -s /bin/bash -G sudo nimda
 
 - Tip: To clear the console at the console prompt enter: clear
 
-#### 2. Add the nimda password: formR!1234 and retype it
+#### 2. Add the nimda password: FormR!1234
+ and retype it
 
 ```
 passwd nimda
 ```
 
 ```
-formR!1234
+FormR!1234
+
 ```
 
 ![New User](./images/fr0302-02_Ubuntu-New-User1.png "New User")
@@ -160,12 +163,18 @@ nano /etc/apt/apt.conf.d/50unattended-upgrades
 
 ![Modify apt.conf.d](./images/fr0302-07_Ubuntu-Modify-apt-conf-d.png "Modify apt.conf.d")
 
-#### 5.  Uncomment and modify: (Note: Use your down arrow to find these items. They are near the bottom of the file.)
+#### 5. Uncomment and modify: (Note: Use your down arrow to find these items. They are near the bottom of the file.)
 
 ```
 Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";
+```
+```
 Unattended-Upgrade::Remove-Unused-Dependencies "true";
+```
+```
 Unattended-Upgrade::Automatic-Reboot "true";
+```
+```
 Unattended-Upgrade::Automatic-Reboot-Time "02:30";
 ```
 
@@ -298,16 +307,22 @@ ssh nimda@<your VM IP address>
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers2.png "SSH-AllowUsers")
 
-#### 9. Enter the password: formR!1234
+#### 9. Enter the password: FormR!1234
+
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
 
 #### 10. Logout of Bitvise and then change the Username and Password and Login
 
+Username:
 ```
-Username = nimda
+nimda
+```
 
-Password = formR!1234
+Password:
+
+```
+ FormR!1234
 ```
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers4.png "SSH-AllowUsers")
@@ -370,11 +385,12 @@ nano /etc/ssh/sshd_config
 
 #### 8. Replace
 
-```
-#Banner none   with    (Remove the #)
+- #Banner none   with:
 
+```
 Banner  /etc/issue.net
 ```
+- Be sure to Remove the #
 
 ![SSH-Banner Config](./images/fr0302-15_Ubuntu-ssh-banner-config.png "SSH-Banner Config")
 
@@ -395,10 +411,9 @@ systemctl restart sshd
 
 ```
 apt-get install fail2ban
-
-(Enter Y to continue, if asked)
-
 ```
+
+- Enter Y to continue, if asked
 
 ![Install Fail2Ban](./images/fr0302-16_Ubuntu-install-fail2ban.png "Install Fail2Ban")
 
@@ -523,7 +538,8 @@ rkhunter --check
 
 ```
 cd /etc
-
+```
+```
 git clone https://github.com/CISOfy/lynis
 ```
 
@@ -533,7 +549,8 @@ git clone https://github.com/CISOfy/lynis
 
 ```
 cd /etc/lynis
-
+```
+```
 ./lynis --version
 ```
 
