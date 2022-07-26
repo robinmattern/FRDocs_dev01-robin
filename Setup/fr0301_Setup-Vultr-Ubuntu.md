@@ -26,7 +26,8 @@ https://www.vultr.com/?ref=8778592
 #### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
-- We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
+- We recommend that you copy and paste code snippets from the documentation into your workstation/server. This will reduce the errors caused by hand typing.
+Hover over the snippet and click copy, then paste as appropriate.
 
 
 ----
@@ -115,20 +116,17 @@ Vultr-formR0-root.tlp
 
 #### 4. Fill in the following:
 
-```
-Host = Vultr-formR0 IP Address (copy from Vultr web page)
+- Host = Vultr-formR0 IP Address (copy from Vultr web page)
 
-Port = 22
+- Port = 22
 
-Username = root
+- Username = root
 
-Initial Method = password
+- Initial Method = password
 
-Click Checkbox - Store encrypted password in profile
+- Click Checkbox - Store encrypted password in profile
 
-Password = Vultr-formR0 root password (copy from Vultr web page)
-
-```
+- Password = Vultr-formR0 root password (copy from Vultr web page)
 
 ![Vultr New-Profile-Copy](./images/fr0301-09_Vultr-New-Profile-Copy.png "Vultr New-Profile-Copy")
 

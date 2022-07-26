@@ -22,7 +22,8 @@
 #### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
-- We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
+- We recommend that you copy and paste code snippets from the documentation into your workstation/server. This will reduce the errors caused by hand typing.
+Hover over the snippet and click copy, then paste as appropriate.
 
 ----
 ### 1. Restart your Vultr VM and Login 0:05
@@ -63,10 +64,9 @@ reboot
 
 ```
 apt-get install mysql-server
-
-(Enter Y to continue, if asked)
-
 ```
+
+- Enter Y to continue, if asked
 
 ![Install MySQL](./images/fr0305-01_Ubuntu-install-mysql.png "Install MySQL")
 
@@ -86,14 +86,15 @@ mysql --version
 mysql_secure_installation
 ```
 
-      - Add VALIDATE PASSWORD PLUGIN: Yes
-      - Enter a "password validation policy level": 2
-      - Enter a password for the user, root, to login to MySQL: formR!1234
-      - Enter to save password: Yes
-      - Remove anonymous users? Yes
-      - Disallow root login remotely? No (Yes on a production server)
-      - Remove test database and access to it? No 
-      - Reload privilege tables now? Yes
+- Add VALIDATE PASSWORD PLUGIN: Yes
+- Enter a "password validation policy level": 2
+- Enter a password for the user, root, to login to MySQL: FormR!1234
+
+- Enter to save password: Yes
+- Remove anonymous users? Yes
+- Disallow root login remotely? No (Yes on a production server)
+- Remove test database and access to it? No 
+- Reload privilege tables now? Yes
 
 
 ![Secure MySQL](./images/fr0305-03_Ubuntu-secure-mysql.png "Secure MySQL")
@@ -104,10 +105,10 @@ mysql_secure_installation
 
 ```
 nano /etc/mysql/mysql.conf.d/mysqld.cnf
-
-Change line:         bind-address = 127.0.0.1
-to:                  bind-address = 0.0.0.0
 ```
+- Change line:         bind-address = 127.0.0.1
+- to:                  bind-address = 0.0.0.0
+
 
 ![Mysql-setup-nano-bind-address](./images/fr0305-04_Ubuntu-nano-bind-address-mysql.png "Mysql-setup-nano-bind-address")
 
@@ -117,7 +118,8 @@ to:                  bind-address = 0.0.0.0
 
 ```
 systemctl restart mysql.service
-
+```
+```
 systemctl status mysql.service
 ```
 
@@ -131,7 +133,8 @@ systemctl status mysql.service
 
 ```
 ufw allow 3306/tcp
-
+```
+```
 ufw status   
 ```
 
@@ -146,10 +149,12 @@ ufw status
 mysql -p
 ```
 
-#### 8. Enter : the root password -> formR!1234
+#### 8. Enter : the root password -> FormR!1234
+
+- Password:
 
 ```
-password: formR!1234
+FormR!1234
 ```
 
 #### !! Remember to write your passwords in a safe place !!
@@ -157,11 +162,14 @@ password: formR!1234
 
 #### 9. Enter the following from the mysql prompt:
 
-```js
-CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'formR!1234';
-
+```
+CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'FormR!1234
+';
+```
+```
 GRANT ALL PRIVILEGES ON *.* TO 'nimdas'@'%';
-
+```
+```
 SELECT user,authentication_string,plugin,host FROM mysql.user;
 ```
 ![Mysql-setup-create-admin](./images/fr0305-07_Ubuntu-create-admin-mysql.png "Mysql-setup-create-admin")
@@ -176,7 +184,11 @@ mysql> \quit
 #### 11. Stop, Start and check status of MySQL
 ```
 systemctl stop mysql
+```
+```
 systemctl start mysql
+```
+```
 systemctl status mysql.service
 ```
 
@@ -194,12 +206,22 @@ systemctl status mysql.service
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
+- Command prompt:
+
 ```
 mysqlsh /connect nimdas@xxx.xxx.xxx.xxx:3306
+```
 
-Enter the password formR!1234
+- Password:
 
-Enter v to never save the password
+```
+FormR!1234
+```
+
+- Enter v to never save the password
+
+```
+v
 ```
 
 ![Mysql-setup-login-admin-mysqlsh-local](./images/fr0305-10_Ubuntu-login-admin-mysqlsh-local.png "Mysql-setup-login-admin-mysqlsh-local")

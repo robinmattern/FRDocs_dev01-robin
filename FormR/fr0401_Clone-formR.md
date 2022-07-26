@@ -21,7 +21,8 @@
 #### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
-- We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing.
+- We recommend that you copy and paste code snippets from the documentation into your workstation/server. This will reduce the errors caused by hand typing.
+Hover over the snippet and click copy, then paste as appropriate.
 
 
 ----
@@ -36,10 +37,12 @@ cd C:\repos\
 ![formR-Clone-01](images/fr0103-formR-Clone-01.png "formR-Clone-01")
  
 ```
-git clone https://github.com/8020data/formR_prod-master.git formR
-
-cd formR
-
+git clone https://github.com/8020data/formR_prod-master.git FormR
+```
+```
+cd FormR
+```
+```
 dir
 ```
 
@@ -70,7 +73,7 @@ code formR_prod-master.code-workspace
 ![formR-Clone-04](images/fr0103-formR-Clone-04.png "formR-Clone-04")
 
 ```
-npm install
+npm install --legacy-peer-deps
 ```
 
 ![formR-Clone-05](images/fr0103-formR-Clone-05.png "formR-Clone-05")
@@ -127,9 +130,9 @@ Note: The World sample database has been modified so that all tables contain ID 
 
 #### 3. Run Script file
 
-    - Click on Schemas to show your current databases
+- Click on Schemas to show your current databases
 
-    - Click on the Open a script file in this editor
+- Click on the Open a script file in this editor
 
 
 ![formR-Clone-11](images/fr0103-formR-Clone-11.png "formR-Clone-11")
@@ -139,11 +142,12 @@ Note: The World sample database has been modified so that all tables contain ID 
 ```
  C:\repos\formR\prod-master\_3\SQLs\formR_RAuth-DB-Create.
  sql
-
- then repeat these steps for:
-
- C:\repos\formR\prod-master\_3\SQLs\formR_World-DB-Create.sql
+```
  
+ - then repeat these steps for:
+
+```
+ C:\repos\formR\prod-master\_3\SQLs\formR_World-DB-Create.sql
 ```
 
 ![formR-Clone-12](images/fr0103-formR-Clone-12.png "formR-Clone-12") 
@@ -169,7 +173,8 @@ Note: The World sample database has been modified so that all tables contain ID 
 #### 8. Close Workbench
 
 ----
-### 4. Make sure that your MySQL password for root  is set to:  formR!1234 0:05
+### 4. Make sure that your MySQL password for root  is set to:  FormR!1234
+ 0:05
 ----
 #### 1. Open MySQL Workbench by clicking its icon in your task bar or by searching for Workbench in the Windows search, then
 
@@ -184,7 +189,8 @@ Note: The World sample database has been modified so that all tables contain ID 
 #### 4. Enter the following into the Query window, then
 
 ```js
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'formR!1234';
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234
+';
 ```
 
 #### 5. Click the Execute icon
@@ -204,7 +210,8 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'formR!1234';
 
 #### 9. Click Store in Vault, then
 
-#### 10. Enter the new password: formR!1234 and click OK
+#### 10. Enter the new password: FormR!1234
+ and click OK
 
 ![formR-Clone-20a](images/fr0103-formR-Clone-20a.png "formR-Clone-20a")
 
@@ -255,16 +262,32 @@ npm start
 #### 1. Enter each of the following in your browser to test the server:
 
 ```
-    localhost:50251
-    localhost:50251/api/world/cities/test
-    localhost:50251/api/world/cities/model
-    localhost:50251/api/world/cities/
-    localhost:50251/api/world/cities/1
+localhost:50251
+```
+```
+localhost:50251/api/world/cities/test
+```
+```
+localhost:50251/api/world/cities/model
+```
+```
+localhost:50251/api/world/cities/
+```
+```
+localhost:50251/api/world/cities/1
+```
+```
 
-    localhost:50251/api/world/countries/test
-    localhost:50251/api/world/countries/model
-    localhost:50251/api/world/countries/
-    localhost:50251/api/world/countries/1
+localhost:50251/api/world/countries/test
+```
+```
+localhost:50251/api/world/countries/model
+```
+```
+localhost:50251/api/world/countries/
+```
+```
+localhost:50251/api/world/countries/1
 ```
 
 #### 2.  Enter the following in your browser to test the client:
@@ -285,33 +308,40 @@ npm start
 
 
 #### 1. Set System Path to contain: C:\repos\formR\_2\bin
-   - Click Start, type env, select: Edit the system environment variables
-   - Click on button, Environment Variables
-   - Under System (not User) variables, select Path, then click Edit...
-   - Click on button, New, then type: C:\repos\formR\_2\bin
-   - Click Ok three times
+
+- Click Start, type env, select: Edit the system environment variables
+- Click on button, Environment Variables
+- Under System (not User) variables, select Path, then click Edit...
+- Click on button, New, then type: C:\repos\formR\_2\bin
+- Click Ok three times
 
 #### 2. Get formR Tools from 8020data GitHub repository
+
    - From Windows command prompt enter: 
 
 ```
 cd C:/Repos/formR
-
+```
+```
 git https://github.com/8020data/FRTools.git     tools
 ```
 
 #### 3. Create a link from ./formR/_2  ./formR/tools/_2 to
-   - Open Windows Command prompt Run as Administrator  BT-NEED screen shot
+
+- Open Windows Command prompt Run as Administrator  BT-NEED screen shot
 
 ``` 
 cd C:\Repos\formR
-
+```
+```
 mklink /d _2 tools\_2
 ```
 
 #### 4. Run FRTools command
-   - $ frt  
-
+   
+```
+$ frt  
+```
 
 ----
 #### Congratulations! You have Cloned formR successfully to your local workstation.
