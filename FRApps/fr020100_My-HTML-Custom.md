@@ -88,7 +88,7 @@ Example:
 
 /*===========================================*/<br>
 /* START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*INSERT CODE HERE*<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color='red'>*INSERT CODE HERE*</font><br>
 /* END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br>
 
 <br>
@@ -109,6 +109,9 @@ Example:
     + 2. Add Image formR Logo
     + 3. Change Texts
     + 4. Change Colors
+
+- We recommend that you copy and paste code snippets from the documentation into your workstation/server. This will reduce the errors caused by hand typing.
+Hover over the snippet and click copy, then paste as appropriate.
 
 ### *LAYOUT*
 <br>
@@ -1497,7 +1500,7 @@ Like below:
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicDevToolsImage1.jpg">
 
-> Shortcut to Developer Tools on most browsers is press F12 key.
+> Shortcut: To Developer Tools on most browsers is press F12 key.
 
 <br><br>
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicDevToolsImage1b.jpg">
@@ -1522,7 +1525,7 @@ If you recall, when we set the padding-left: 54px;
 
 - Let's focus on the Header and how we want it to appear on a smart phone.
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasiciPhoneImage1.jpg">
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasiciphoneImage1.jpg">
 
 - We can set, using CSS, a certain width of the "viewpoint" to where we can make changes to the appearence.  In our code we will set it at 760px.  At that width we can make the NavList (horizontal links) DISAPPEAR; and a NavBar (commonly known as a hamburger) APPEAR.
 
@@ -2114,7 +2117,6 @@ FINALLY, we will CUSTOMIZE with some color changes.
 ### 4. Change Colors
 
 - We were requested to change some colors for the next major lessons. No problem!
-<br>
 
 - This can all be done in the index.**css** file.
 
@@ -2283,14 +2285,14 @@ Now you have all the tools to go back to your Layout and Customize it the way yo
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicColorImage5.jpg">
 
-> <span style="font-size: 25px"><b>IMPORTANT!</b></span> Remember to change your<br>  "&#60;link rel="stylesheet"    href="index_final_layout.css"&#62;"<br> reference in your index.html file to match the name of your relating index.css file. Like below:
+> <span style="font-size: 25px"><b>IMPORTANT!</b></span> Remember to change your<br><br>  "&#60;link rel="stylesheet"    href="index_final_layout.css"&#62;"<br><br> reference in your <u>index.html</u> file to match the name of your relating <u>index.css</u> file.<br><br> Like below:
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicColorImage6.jpg">
 
-
-
+<br>
 Your next journey will be to add some very cool functions to our web page using JavaScript.
+<br>
 
-Happy coding!
+> <span style="font-size: 25px"><b>HAPPY CODING!</b></span>
 
 <!--## 6. View Full Code  <!-- {docsify-ignore} -->
 
