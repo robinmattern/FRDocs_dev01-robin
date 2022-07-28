@@ -58,7 +58,7 @@ dir
 
 
 ```
-code FRApps.code-workspace
+code FRApps_student.code-workspace
 ```
 
 - If prompted, click "Yes I trust the authors".
