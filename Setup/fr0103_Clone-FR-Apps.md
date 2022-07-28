@@ -55,8 +55,6 @@ dir
 
 #### 2. Enter the following in the terminal. (It will open VSCode)
 
-
-
 ```
 code FRApps_student.code-workspace
 ```
@@ -73,7 +71,7 @@ code FRApps_student.code-workspace
 
 - Use Notepad to change your-github-name  e.g. brucetroutman-gmail
 
-- be sure that you are signed in to your github account
+- Be sure that you are "signed in" to your github account
 
 ```
 https://github.com/your-github-name?tab=repositories
