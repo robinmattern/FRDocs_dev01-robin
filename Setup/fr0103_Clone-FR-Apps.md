@@ -92,7 +92,7 @@ then click the New green button (if you are not signed in the New button will no
 
 #### 4. Using VSCode connect your local FRApps to your personal github FRApps
 
-- Click on FRApps and then click the three dots, then click Terminal, then click New Terminal, then 
+- Click on FRApps and then click Terminal (or the three dots if Terminal is not visible), then click New Terminal, then 
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-03.png "FRApps-Clone-03")
 
@@ -126,7 +126,7 @@ git remote rename origin master
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-06.png "FRApps-Clone-03")
 
 ```
-git remote ad origin your-github-hostname:your-github-name/FRApps
+git remote add origin your-github-hostname:your-github-name/FRApps
 ```
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-07a.png "FRApps-Clone-03")
@@ -155,7 +155,7 @@ git pull master
 #### 6. Pull from your personal github FRApps repo to your local FRApps repo
 
 ```
-git pull
+git pull origin
 ```
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-09.png "FRApps-Clone-03")
@@ -163,7 +163,7 @@ git pull
 #### 7.  Push from your local FRApps repo to personal github FRApps repo
 
 ```
-git push
+git push origin
 ```
 
 ![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-10.png "FRApps-Clone-03")
