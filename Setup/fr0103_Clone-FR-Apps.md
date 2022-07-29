@@ -225,10 +225,10 @@ npm install
 ![FRApps-Clone-09](images/fr0103-FRApps-Clone-09.png "FRApps-Clone-09")
 
 ----
- ### 3. Run Client 1c-html-custom-app 0:05
+ ### 3. Run Client 1c-html-app 0:05
 ----
 
-#### 1. Click on the client/1c-html-custom-app folder
+#### 1. Click on the client/1c-html-app folder
 #### 2. Right Click on index.html, then Open with Live Server 
 
 ![FRApps-Clone-21](images/fr0103-FRApps-Clone-1c1.png "FRApps-Clone-21") 
