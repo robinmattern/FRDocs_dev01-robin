@@ -103,7 +103,7 @@ Example:
     + 2. Modify to Large Blocks
     + 3. Add Fixed Header
     + 4. Add Fixed Footer
-    + 5. Add Text Overlay
+    + 5. Add Text
     + 6. Add "Wiggle" Button
     + 7. Add Responsiveness
 - Customize
@@ -441,40 +441,33 @@ ___
 
 #### 5. Understanding CSS        <!-- .(20615.01.2 RAM Changed to ### 4. Was #### --> 
 <br>
-To understand a little of this CSS code, let's look at the .Header properties.
+To understand a <u><i>little</i></u> of this CSS code, let's look at the .Header properties.
 <br>
-<br>
-<font color='green'>** Notes:</font>
 <br>
 
-```css
-/*-----------------------------------------
-The .Header properites
-------------------------------------------*/
-.Header {
-    background: var(--Header_background-color);
-        ** Sets the background to the variable you set above
-    width: 300px;
-        ** Sets the width of the header block 300 pixels
-    height: 100px;
-        ** Sets the height of the header block 100 pixels
-    position: relative;
+
+> /&ast;----------------------------------------------------------<br>
+The .Header properites<br>
+-----------------------------------------------------------*/<br>
+.Header {<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;background: var(--Header_background-color);<br>
+        ** Sets the background to the variable you set above in the :root<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;width: 300px;<br>
+        ** Sets the width of the header block 300 pixels<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;height: 100px;<br>
+        ** Sets the height of the header block 100 pixels<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;position: relative;<br>
         ** Places the header box relative to the html code
-        *DOM (Document Object Model) reading from 
-        the top to the bottom
-        
-}
+        *[DOM](https://www.w3.org/TR/WD-DOM/introduction.html "What Is DOM") (Document Object Model) reading from 
+        the top to the bottom<br><br>        
 
-```
-
-&nbsp;&nbsp;&nbsp;&nbsp;*[DOM](https://www.w3.org/TR/WD-DOM/introduction.html "What Is DOM")
 
 <!--<a href='/FRApps/code/fr020101_basic-blocks-code.md' title='Full Code'>View Full Code For Basic Blocks</a>-->
 
 <!--
 #### 6.  [View Full Code For Basic Blocks](/FRApps/code/fr020101_basic-blocks-code.md "Full Code") -->
-
-- <span style="font-size: 20px"><b>CONGRATULATIONS!!</b></span> You have just created a simple html page with a cascading style sheet (CSS) which makes 4 *basic blocks.*  
+<br>
+<span style="font-size: 20px"><b>CONGRATULATIONS!!</b></span> You have just created a simple html page with a cascading style sheet (CSS) which makes 4 *basic blocks.*  
 
 
 ----
@@ -543,7 +536,7 @@ ___
 ```css
 /*-----------------------------------------
 The .Section1 properites
-------------------------------------------*/
+------------------------------------ ------*/
 .Section1 {
     background: var(--Section1_background-color);
     width: 100%; /*was 300px*/
@@ -563,7 +556,10 @@ Like this
 <br><br>
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4b.jpg">
+<br>
+Follow your progress in Chrome:
 
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4f1.jpg">
 ___
 
 <font color='green'><u>.Section2</u></font>
@@ -593,6 +589,10 @@ Like this
 <br><br>
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4c.jpg">
+
+Back to Chrome:
+
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4f2.jpg">
 
 ___
 
@@ -630,10 +630,23 @@ Like this
 
 ___
 
+
+
+<!--
+
+
+
 #### Index.html
 
 #### 1. Section2 Paragraph
 <br>
+
+> From the original sketch:
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchSection2Image.jpg">
+<br>
+We will add some text.
+
+
 - In the <font color='green'>Section2</font> class section we will REPLACE the code within the <br>
 &#60;div class="Section2"&#62; & &#60;/div&#62; tags:<br><br>
 
@@ -666,10 +679,13 @@ Like this
 This provides a paragraph text we can add some nice attributes later in the <i>Customization</i> section. 
 
 
+-->
+
+
 #### Large Blocks Web Page       <!-- .(20615.01.1 RAM This seems a little out of place --> 
 - Please check your Chrome browser to see your web page so far.
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage5.jpg">
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage5a.jpg">
 
 <br><br>
 <span style="font-size: 25px"><b>CONGRATULATIONS</b></span>! You have built a full page with four distinct blocks using your Basic Blocks index.<b>css</b> code. In the next section. we will add/modify code to secure (fix) the header in one spot.   
@@ -683,7 +699,16 @@ This provides a paragraph text we can add some nice attributes later in the <i>C
 ### 3. Add Fixed Header 
 ----
 
-- Next, we will add to your existing code in  both index.<b>html</b> AND index.<b>css</b> files to continue building on our basic web page.  In this section we will "fix" the Header so when you scroll, the Header stays in place.  We will do the same for the Footer in the next section.  Also, we will be "prettying up" the Navigation Bar on the right side of the Header.  Let's go...
+> From our original sketch:
+ <img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchHeaderImage1a.jpg">
+<br>
+We will add links (NavList) to the right and a font-based logo to the left.
+<br><br>
+The header will fixed in place.  As you scroll up and down the page, the header will remain in place.
+<br>
+
+<br>
+We will add to your existing code in  both index.<b>html</b> AND index.<b>css</b> files to continue building on our basic web page.  In this section we will "fix" the Header so when you scroll, the Header stays in place.  We will do the same for the Footer in the next section.  Also, we will be "prettying up" the Navigation Bar on the right side of the Header.  Let's go...
 
 ___
 
@@ -803,7 +828,7 @@ To handle the Unwanted Space, we need to adjust Sections 1 & 2 and the Footer.  
 &nbsp;&nbsp;&nbsp;&nbsp;AND
 
 - MODIFY in <font color=green>.Section1</font> & <font color=green>.Section2</font>
-    + <font color=#A81966>height</font>: 50%;
+    + <font color=#A81966>height</font>: 46%;
 
 Let's start with <font color=green>.Section1</font> below.
 ___
@@ -819,7 +844,7 @@ The .Section1 properites
 .Section1 {
     background: var(--Section1_background-color);
     width: 100%;
-    height: 50%;
+    height: 46%;
     position: relative;
     top:10%; /*<---ADD to adjust the top position*/
 }
@@ -848,7 +873,7 @@ The .Section2 properites
 .Section2 {
     background: var(--Section2_background-color);
     width: 100%;
-    height: 50%;
+    height: 46%;
     position: relative;
     top:10%; /*<---ADD to adjust the top position*/
 }
@@ -867,6 +892,8 @@ Like this
 
 ___
 
+
+<!--
 #### 4. .Footer
 
 - In the <font color='green'>.Footer</font> class, copy the code below...
@@ -895,6 +922,7 @@ Like this
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0c.jpg">
 
+-->
 ___
 
 Back to Chrome. We now have all the blocks stacked in proper order with no "Unwanted Space" at the bottom. 
@@ -1131,10 +1159,17 @@ Please check your Chrome browser to see your web page thus far.
 ----
 ### 4. Add Fixed Footer 
 ----
+> From the original sketch:
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchFooterImage.jpg">
+<br>
+We will add links (NavList) to the center.
+<br><br>
+The footer will fixed in place. As you scroll up and down the page, the footer will remain in place.<br>
 
-- Next, we will add to your existing code in both the index.<b>html</b> AND index.<b>css</b> files to continue building on our basic web page *LAYOUT*. 
-
-- We will add some links to the Footer and fix the position of the Footer as we did with the Header.
+<br>
+Next, we will add to your existing code in both the index.<b>html</b> AND index.<b>css</b> files to continue building on our basic web page *LAYOUT*. 
+<br><br>
+We will add some links to the Footer and fix the position of the Footer as we did with the Header.
 ___
 
 #### index.html
@@ -1218,7 +1253,7 @@ Like this
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage3.jpg">
 
 <br><br>
-Look on your Chrome browser! This fixed the Footer into a stationary position (same as the Header), but we need to fix the links in the center of the Footer. We will force them to be horizontal without the bullets on the left. We will also add the "hover" feature as we did in the Header.
+Look on your Chrome browser! This fixed the Footer into a stationary position (same as the Header), but we need to correct the links in the center of the Footer. We will force them to be horizontal without the bullets on the left. We will also add the "hover" feature as we did in the Header.
 <br>
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage6.jpg">
@@ -1312,7 +1347,14 @@ Please check your Chrome browser to see your web page thus far:
 
 ___
 
-### 5. Add Text Overlay
+### 5. Add Text
+
+#### Add Text Overlay
+
+> From Original Sketch:
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchSection1Image1.jpg">
+<br>
+We will add a Text Overlay to Section 1
 
 - Now, let's focus on the Text Overlay. It will be another <u>P</u>lace <u>H</u>older (PH Text Overlay).  This will require some modifications to your existing code in both the index.<b>html</b> AND index.<b>css</b> files.  
 
@@ -1411,8 +1453,63 @@ Check it out in Chrome. <br>
 
 ___
 
+#### Add Text Paragraph
+<br>
+
+We will add a Text Paragraph to Section 2
+
+
+> From the original sketch:
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchSection2Image.jpg">
+<br>
+We will add some text.
+
+<br>Now, let's focus on the Text Paragraph. It will be another <u>P</u>lace <u>H</u>older.  This will require some modifications to your existing code in both the index.<b>html</b> file.  
+
+#### Index.html
+
+- In the <font color='green'>Section2</font> class section we will REPLACE the code within the <br>
+&#60;div class="Section2"&#62; & &#60;/div&#62; tags:<br>
+
+Copy <font color='green'>Section2</font> code below ... 
+
+```html
+<div class="Section2">
+    <h2></h2>
+    <p class="Section2Paragraph">
+        PH<br>
+        The quick brown fox jumped over the lazy dog.<br>
+        The quick brown fox jumped over the lazy dog.<br>
+        The quick brown fox jumped over the lazy dog.<br>
+        The quick brown fox jumped over the lazy dog.
+    </p>  
+</div>
+```
+
+...AND make certain you paste it BELOW this *<u>REPLACE point - Section2</u>* comment in your index.**html** file:
+
+
+> &#60;!-- REPLACE Point - Section2 --&#62;
+
+<br>
+
+Like this
+
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage6.jpg">
+<br><br>
+
+Check Chrome.  This provides a paragraph text we can add some nice attributes later in the <i>Customization</i> section. 
+
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLAYOUTImage2.jpg">
+
+___
 
 ### 6. Add "Wiggle" Button
+
+> From the original sketch:<br>
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchWiggleImage.jpg"><br>
+We eventually want this button in the NavList to be special.<br>
+We will add some code to make it "wiggle."
 
 #### index.css
 
@@ -1523,15 +1620,20 @@ If you recall, when we set the padding-left: 54px;
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicDevToolsImage3.jpg">
 <br><br>
 
-#### NavBar
+#### NavBars<br><br>
 
-- Let's focus on the Header and how we want it to appear on a smart phone.
+> From the original sketch:
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchHeaderImage1b.jpg"><br>
+We will add our NavBars (Hamburger)
+
+
+Let's focus on the Header and how we want it to appear on a smart phone.
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasiciphoneImage1.jpg">
 
-- We can set, using CSS, a certain width of the "viewpoint" to where we can make changes to the appearence.  In our code we will set it at 760px.  At that width we can make the NavList (horizontal links) DISAPPEAR; and a NavBar (commonly known as a hamburger) APPEAR.
+- We can set, using CSS, a certain width of the "viewpoint" to where we can make changes to the appearence.  In our code we will set it at 760px.  At that width we can make the NavList (horizontal links) DISAPPEAR; and a NavBars (commonly known as a hamburger) APPEAR.
 
-- First we need to add the NavBar in both index.html and index.css.
+- First we need to add the NavBars in both index.html and index.css.
 
 #### index.html
 
@@ -1564,17 +1666,21 @@ Like this
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveImage3.jpg">
 <br><br>
 
-> Quick discussion on images.  Note in your assets/images directory you have 3 different images.<br>
-    + formr-logo-blue.gif (our logo image)<br>
-    + hamburger.svg (the NavBar we are working with now)<br>
-    + monaco-blue-soft.jpg (an image we will use later in customization)<br>
+> Quick discussion on images.<br><br> 
+Note in your assets/images directory you have 3 different images.<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;+ formr-logo-blue.gif<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(our logo image)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;+ monaco-blue-soft.jpg<br> 
+       &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;(an image we will use later in customization)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;+ hamburger.svg<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(the NavBars we are working with now)
+<br><br>These images will be used in your code. The first 2 as variables in the :root section of the index.css file.  The last will be referenced directly in the Header section of the index.html file. 
 
 <br><br>
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveImage4.jpg">
 
 
-
-Now let's move on to index.**css** to adjust the NavBar in a proper postion
+Now let's move on to index.**css** to adjust the NavBars in a proper postion
 
 #### index.css
 #### 1. .HeaderNavBars
@@ -1657,7 +1763,7 @@ ___
     + <font color='green'>@media (max-width)</font>
 
 <br>
-In the <font color='green'>/* Responsive Code */</font>, copy the code below...
+In the <font color='green'>/* Responsive Code */</font> (at the bottom of index.css file), copy the code below...
 
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
 <br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
@@ -1889,6 +1995,10 @@ Copy <font color='green'>Header</font> code below ...
 Like this
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicformRImage1.jpg">
+
+In Chrome, we have made a mess of the logo.  Be patient, we will take care of this with CSS code.
+
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicformRImage1a.jpg">
 
 ___
 
