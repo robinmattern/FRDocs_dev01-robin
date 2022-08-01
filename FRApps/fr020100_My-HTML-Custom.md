@@ -560,6 +560,7 @@ Like this
 Follow your progress in Chrome:
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4f1.jpg">
+
 ___
 
 <font color='green'><u>.Section2</u></font>
@@ -631,57 +632,6 @@ Like this
 ___
 
 
-
-<!--
-
-
-
-#### Index.html
-
-#### 1. Section2 Paragraph
-<br>
-
-> From the original sketch:
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchSection2Image.jpg">
-<br>
-We will add some text.
-
-
-- In the <font color='green'>Section2</font> class section we will REPLACE the code within the <br>
-&#60;div class="Section2"&#62; & &#60;/div&#62; tags:<br><br>
-
-Copy <font color='green'>Section2</font> code below ... 
-
-```html
-<div class="Section2">
-    <h2></h2>
-    <p class="Section2Paragraph">
-        PH<br>
-        The quick brown fox jumped over the lazy dog.<br>
-        The quick brown fox jumped over the lazy dog.<br>
-        The quick brown fox jumped over the lazy dog.<br>
-        The quick brown fox jumped over the lazy dog.
-    </p>  
-</div>
-```
-
-...AND make certain you paste it BELOW this *<u>REPLACE point - Section2</u>* comment in your index.**html** file:
-
-
-> &#60;!-- REPLACE Point - Section2 --&#62;
-
-<br>
-
-Like this
-
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage6.jpg">
-<br><br>
-This provides a paragraph text we can add some nice attributes later in the <i>Customization</i> section. 
-
-
--->
-
-
 #### Large Blocks Web Page       <!-- .(20615.01.1 RAM This seems a little out of place --> 
 - Please check your Chrome browser to see your web page so far.
 
@@ -696,7 +646,7 @@ This provides a paragraph text we can add some nice attributes later in the <i>C
 
 
 ----
-### 3. Add Fixed Header 
+### 3. Modify Header 
 ----
 
 > From our original sketch:
@@ -953,7 +903,8 @@ In the <font color='green'>.HeaderLogo</font>, copy the code below...
 > Note: In your css code you will see an area to copy a full BLOCK of code like this:
 <br>/&ast; START BLOCK &ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;&ast;/
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=red>PLACE H-2 CODE HERE</font>
-<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/ 
+<br>/&ast;&nbsp;END BLOCK ^^^^^^^^^^^^^^^^^^^&ast;/
+<br><img class="shadow-border" src="FRApps/assets/images/md-images/BasicStartBlockImage1a.jpg"> 
 
 
 ```css
@@ -993,7 +944,9 @@ The .HeaderSpacer properites
 ```
 ...AND make certain you paste it BELOW this *<u>START BLOCK</u>* and *<u>END BLOCK</u>* comment in your index.**css** file:
 
-> NOTE<br><img class="shadow-border" src="FRApps/assets/images/md-images/BasicStartBlockImage1.jpg">
+<!--
+> NOTE<br><img class="shadow-border" src="FRApps/assets/images/md-images/BasicStartBlockImage1a.jpg">
+-->
 
 <br>
 Like this
@@ -1157,7 +1110,7 @@ Please check your Chrome browser to see your web page thus far.
 
 
 ----
-### 4. Add Fixed Footer 
+### 4. Modify Footer 
 ----
 > From the original sketch:
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchFooterImage.jpg">
@@ -1464,7 +1417,7 @@ We will add a Text Paragraph to Section 2
 <br>
 We will add some text.
 
-<br>Now, let's focus on the Text Paragraph. It will be another <u>P</u>lace <u>H</u>older.  This will require some modifications to your existing code in both the index.<b>html</b> file.  
+<br>Now, let's focus on the Text Paragraph. It will be another <u>P</u>lace <u>H</u>older.  This will require some modifications to your existing code in the index.<b>html</b> file.  
 
 #### Index.html
 
