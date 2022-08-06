@@ -144,11 +144,6 @@ Both should be empty.
 
 #### b. HTML Basic Code
 
-<!--
-> <span style="font-size: 25px"><b>REMINDER</b></span><br>
-Mouse over the "HTML" in the upper right corner of the code block to quickly copy all the code.<br>
-<img width="15%" src="FRApps/assets/images/md-images/BasicHTMLCopyImage.jpg">
--->
 
 - Click on and open the index.<b>html</b> file from VSCode. Copy and paste the entire below code to Line 1 of the empty index.<b>html</b> file:
 
@@ -490,7 +485,7 @@ The .Header properites<br>
 <br><br>
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-<span style=font-size:25px><b><u>index.css</u></b></span>
+
 
 #### a. .Header
 
@@ -722,7 +717,7 @@ ___
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
-<span style=font-size:25px><b><u>index.html</u></b></span>
+
 #### a. Header class
 
 
@@ -786,7 +781,7 @@ ___
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
 
-<span style=font-size:25px><b><u>index.css</u></b></span>
+
 
 ___
 
@@ -1109,7 +1104,7 @@ ___
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
-<span style=font-size:25px><b><u>index.html</u></b></span>
+
 #### a. <font color='green'>Footer</font> class
 <br>
 Copy <font color='green'>Footer</font> code below... 
@@ -1149,7 +1144,7 @@ ___
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-<span style=font-size:25px><b><u>index.css</u></b></span>
+
 ___
 
 
@@ -1260,7 +1255,7 @@ First, the index.<b>html</b> file.
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
-<span style=font-size:25px><b><u>index.html</u></b></span>
+
 #### a. <font color='green'>Section1</font> class
 <br>
 Copy <font color='green'>Section1</font> code below... 
@@ -1298,7 +1293,7 @@ ___
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-<span style=font-size:25px><b><u>index.css</u></b></span>
+
 
 #### b. .Section1ImageText
 
@@ -1373,7 +1368,7 @@ We will add some text.
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
-<span style=font-size:25px><b><u>index.html</u></b></span>
+
 
 Copy <font color='green'>Section2</font> code below ... 
 
@@ -1423,7 +1418,7 @@ We will add some code to make it "wiggle."
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-<span style=font-size:25px><b><u>index.css</u></b></span>
+
 
 #### a. .HeaderNavListCTA & @keyframes wiggle
 
@@ -1560,7 +1555,7 @@ Let's focus on the Header and how we want it to appear on a smart phone.
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
-<span style=font-size:25px><b><u>index.html</u></b></span>
+
 
 #### b. HeaderNavBars Class
 <br>
@@ -1623,7 +1618,7 @@ Now let's move on to index.**css** to adjust the NavBars in a proper postion
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-<span style=font-size:25px><b><u>index.css</u></b></span>
+
 #### c. .HeaderNavBars
 
 - We will be INSERTING 2 new classes in one copy/paste block of code:
@@ -1696,7 +1691,7 @@ ___
 <br>
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-<span style=font-size:25px><b><u>index.css</u></b></span>
+
 
 #### e. @media (max-width)
 
@@ -1830,7 +1825,7 @@ ___
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-<span style=font-size:25px><b><u>index.css</u></b></span>
+
 
 #### a. .Section1
 <br>
@@ -1916,7 +1911,7 @@ Now lets add an image in place of the "PH Logo" in the Header. In the "assets/im
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
-<span style=font-size:25px><b><u>index.html</u></b></span>
+
 #### a. Header
 <br>
 
@@ -1968,7 +1963,7 @@ ___
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-<span style=font-size:25px><b><u>index.css</u></b></span>
+
 <br>
 
 #### b. &#58;root
@@ -2147,7 +2142,7 @@ ____
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
-<span style=font-size:25px><b><u>index.html</u></b></span>
+
 
 - Open your index.html file and follow along as we are just going to edit some text in the page, starting with the Header class.
 
@@ -2222,7 +2217,7 @@ FINALLY, we will CUSTOMIZE with some color changes.
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-<span style=font-size:25px><b><u>index.css</u></b></span>
+
 
 #### a. &#58;root
 
