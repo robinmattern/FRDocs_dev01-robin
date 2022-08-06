@@ -142,6 +142,8 @@ Like many web sites (pages) we like to start with a very simple sketch; pencil d
     
 Both should be empty.
 
+<img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
+
 #### b. HTML Basic Code
 
 
@@ -207,7 +209,7 @@ Like this
 
 <span style="font-size: 25px"><b>This is our starting point.</b></span>  Let's move to the CSS code to add our blocks.
 
-___
+<img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
 #### c. CSS Basic Code  
 
@@ -713,7 +715,7 @@ We will add links (NavList) to the right and a font-based logo to the left.
 <br>
 We will add to your existing code in  both index.<b>html</b> AND index.<b>css</b> files to continue building on our basic web page.  In this section we will be "prettying up" the Navigation Bar on the right side of the Header.  Let's go...
 
-
+<br><br>
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
 #### a. Header class
