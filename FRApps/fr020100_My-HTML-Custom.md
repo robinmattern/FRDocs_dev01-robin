@@ -713,10 +713,8 @@ We will add links (NavList) to the right and a font-based logo to the left.
 <br>
 We will add to your existing code in  both index.<b>html</b> AND index.<b>css</b> files to continue building on our basic web page.  In this section we will be "prettying up" the Navigation Bar on the right side of the Header.  Let's go...
 
-___
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
-
 
 #### a. Header class
 
@@ -776,14 +774,9 @@ We now need to go to the index.css file to clean this up.  We are using names li
 <br><br>
 Now we move to the index.css file.
 
-___
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-
-
-
-___
 
 #### b. .Header
 <br>
@@ -1100,7 +1093,6 @@ Next, we will add to your existing code in both the index.<b>html</b> AND index.
 <br><br>
 We will add some links to the Footer and fix the position of the Footer as we did with the Header.
 
-___
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
@@ -1140,12 +1132,8 @@ Let's take a quick look at Chrome.
 <br>
 Good job! Now we move to the index<b>.css</b> file.
 
-___
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
-
-
-___
 
 
 #### b. .FooterNavList - BLOCK
@@ -1253,6 +1241,7 @@ We will add a Text Overlay to Section 1
 
 First, the index.<b>html</b> file.
 
+
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
 
@@ -1289,10 +1278,8 @@ Notice. in CHROME, the "PH Text Overlay" within the &#60;h2&#62; tags.  This wil
 
 Now, we move to the index.<b>css</b> file.
 
-___
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
-
 
 
 #### b. .Section1ImageText
@@ -1417,7 +1404,6 @@ We will add some code to make it "wiggle."
 <br>
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
-
 
 
 #### a. .HeaderNavListCTA & @keyframes wiggle
@@ -1689,9 +1675,6 @@ ___
 
 #### d. Responsive CSS Code
 <br>
-<img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
-
-
 
 #### e. @media (max-width)
 
@@ -1958,13 +1941,10 @@ Like this
 In Chrome, we have made a mess of the logo.  Be patient, we will take care of this with CSS code.
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicformRImage1a.jpg">
-
-___
+<br><br><br>
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-
-<br>
 
 #### b. &#58;root
 <br>
@@ -2138,10 +2118,7 @@ ___
 
 
 
-____
-
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
-
 
 
 - Open your index.html file and follow along as we are just going to edit some text in the page, starting with the Header class.
