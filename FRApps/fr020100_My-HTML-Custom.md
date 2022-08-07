@@ -146,8 +146,10 @@ Both should be empty.
 
 #### b. HTML Basic Code
 
+<br>
+<img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/BasicHTMLEmpty.jpg">
 
-- Click on and open the index.<b>html</b> file from VSCode. Copy and paste the entire below code to Line 1 of the empty index.<b>html</b> file:
+- Copy and paste the entire below code to Line 1 of the empty index.<b>html</b> file (shown above):
 
 ```html
 <!DOCTYPE html>
@@ -213,7 +215,10 @@ Like this
 
 #### c. CSS Basic Code  
 
-- Click on the index.<b>css</b> file. Then copy and paste the below code, on to Line 1 of index.**css**</b>:
+<br>
+<img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/BasicCSSEmpty.jpg">
+
+- Click on the index.<b>css</b> file (shown above). Then copy and paste the below code, on to Line 1 of index.**css**</b>:
 <br>
 
 ```css
@@ -646,7 +651,7 @@ ___
 
     + <b><font color=#A81966>width</font></b> to 100%<br><br>
 - Remove
-    + <b><font color=#A81966>height</font></b> in place of the bottom property<br><br>
+    + <b><font color=#A81966>top</font></b> in place of the bottom property<br><br>
 
 - and ADD:
 
@@ -2343,7 +2348,7 @@ Like this
 <span style="font-size: 25px"><b>CONGRATULATIONS!!</b></span> 
 - You have completed "My HTML Custom App."
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicFINALWithWiggle.jpg">
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicCustomWithWiggle.jpg">
 
 
 #### Final Version With formR logo, text & color changes, "wiggle" button and responsive.
@@ -2391,4 +2396,5 @@ Your next journey will be to add some very cool functions to our web page using 
 </div><div class="page-next">
 
 [Custom FRApps React - NEXT](/Setup/fr0105_Custom-FR-Apps-React.md)
-</div><br>
+</div>
+<br><br>
