@@ -16,7 +16,7 @@
 
 
 #### Introduction 
-- You will be building a web site which starts with very simple index.**html** and index.**css** files.  Your repository will include both of those **empty** files plus the needed images. If you follow the directions and copy/paste each section's code you will end up with a still simple index.html but a rather complex index.css file.
+- You will be building a web site which starts with very simple index.**html** and index.**css** files.  Your repository will include both of those **empty** files plus the needed images. If you follow the directions and copy/paste each section's code, you will end up with a still simple index.html but a rather complex index.css file.
 
 - Tutorial Links 
 
@@ -32,7 +32,7 @@ We are not attempting to teach CSS (Cascading Style Sheets), but providing you w
 
 - Your Workspace
 
-You will find in VSCode a folder "1c1_my-html-custom-app (inside your Client1 folder)."  In this folder are the empty index.<b>html</b> and index.<b>css</b> files, along with a favicon.png image file. There is an "assets" folder that holds an "images" folder with the needed images to build your final project for this HTML Custom App course.
+In VSCode you will find in your FRApps repository a folder "1c1_my-html-custom-app (inside your Client1 folder)."  In this folder are the empty index.<b>html</b> and index.<b>css</b> files, along with a favicon.png image file. There is an "assets" folder that holds an "images" folder with the needed images to build your final project for this HTML Custom App course.
 
 ___
 
@@ -540,6 +540,12 @@ Like this, using the ctrl-v keys to paste the copied code.
 - Replace the entire block with new code, like this.
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4a.jpg">
+
+<!--
+TEST HIGH CONTRAST IMAGE
+
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicDarkContrastImage.jpg">
+-->
 
 > <b><span style=color:red;><font style=font-size:25px;>NOTE (for css files):<br> This is the copy/paste method we will use throughout this exercise in the index.CSS file.  The entire block will be replaced.</font></span></b>
 
@@ -1718,10 +1724,6 @@ The @media MAX-width query properties
 
   .HeaderNavList {
       display: none;
-  }
-
-  .HeaderLogo {
-      font-size: 1rem;
   }
 
   .Section1ImageText {
