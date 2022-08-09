@@ -90,7 +90,7 @@ Example (this is for a .Header  sub class, H-4, in the 4th position from the mai
 ____
 
 > <span style=font-size:25px;>IMPORTANT!</SPAN>
-<br><img class="shadow-border" src="FRApps/assets/images/md-images/BasicCopyHTML.gif"><br>
+<br><img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicCopyHTML.gif"><!--&nbsp;<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicCopyCSS.gif">--><br>
 There will be 3 different methods for copy/paste:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ HTML<br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ CSS Class<br>
@@ -295,7 +295,7 @@ The .Header properites
 .Header {
     background: var(--Header_background-color);
     width: 300px;
-    height: 95px;
+    height: 100px;
     position: relative;
 }
 /* END HR-1 .Header =====================*/
@@ -499,7 +499,7 @@ The .Header properites<br>
 - In the <font color='green'>.Header</font> class section we will MODIFY the following:<br>
 
     + <b><font color=#A81966>width</font></b>: 100%; 
-    + <b><font color=#A81966>height</font></b>: 95px;<br><br>
+    + <b><font color=#A81966>height</font></b>: 10%;<br><br>
 
 - and ADD: <br>
 
@@ -517,7 +517,7 @@ The .Header properites
 .Header {
     background: var(--Header_background-color);
     width: 100%; /*was 300px*/
-    height: 95px;
+    height: 10%;
     position: fixed;
     z-index: 100;
 }
@@ -566,8 +566,7 @@ ___
 
 - and ADD:
 
-    + <b><font color=#A81966>top</font></b> to 95px (.Section1) 
-    + <b><font color=#A81966>top</font></b> to 10% (.Section2) 
+    + <b><font color=#A81966>top</font></b> to 10%
 
 ___
 
@@ -586,7 +585,7 @@ The .Section1 properites
     width: 100%; /*was 300px*/
     height: 46%; /*was 100px*/
     position: relative;
-    top: 95px; /*<---ADD to adjust the top position*/
+    top: 10%; /*<---ADD to adjust the top position*/
 }
 /* END S1R-1 .Section1 =====================*/
 ```
@@ -708,6 +707,21 @@ ___
 <br><br>
 <span style="font-size: 25px"><b>CONGRATULATIONS</b></span>! You have built a full page with four distinct blocks using your Basic Blocks index.<b>css</b> code. We also secured (fixed) the header & footer in one spot.   
 
+
+<!--
+____
+
+- <span style="font-size: 25px"><b><font style=color:red;>WARNING</font></b></span>
+Make certain that your Chrome zoom is set for 100%.  Your blocks will not properly align if it's set differently.
+
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage5b.jpg">
+
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage5c.jpg">
+
+____
+
+-->
+
 <!--## 6. View Full Code  <!-- {docsify-ignore} -->
 
 <!--#### 9. [View Full Code For Basic Blocks](/FRApps/code/fr020102_basic-large-blocks-code.md "Full Code")-->
@@ -811,7 +825,7 @@ The .Header properites
 .Header {
     background: var(--Header_background-color);
     width: 100%;
-    height: 95px;
+    height: 10%;
     position: fixed;  /*was relative*/
     z-index: 100;
     display: flex;
@@ -1851,7 +1865,7 @@ The .Section1 properites
     width: 100%;
     height: 46%;
     position: relative;
-    top: 95px;
+    top: 10%;
 }
 /* END S1R-1 .Section1 =====================*/
 ```

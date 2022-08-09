@@ -73,7 +73,7 @@ The .Header properites
 .Header {
     background: var(--Header_background-color);
     width: 100%;
-    height: 95px;
+    height: 10%;
     position: fixed;  /*was relative*/
     z-index: 100;
     display: flex;
@@ -235,7 +235,7 @@ The .Section1 properites
     width: 100%;
     height: 46%;
     position: relative;
-    top: 95px;
+    top: 10%;
 }
 /* END S1R-1 .Section1 =====================*/
 

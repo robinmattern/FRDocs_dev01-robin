@@ -22,7 +22,7 @@ HTML
         <title>HTML Custom Apps</title>
         <link rel="shortcut icon" href="favicon.png">
         <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Bookman Old Style" >
-        <link rel="stylesheet"    href="index.css">
+        <link rel="stylesheet"    href="index_final_custom.css">
     </head>
 
     <body>    
@@ -80,7 +80,6 @@ HTML
     </body>
 
 </html>
-
 
 ```
 
@@ -166,7 +165,7 @@ The .Header properites
 .Header {
     background: var(--Header_background-color);
     width: 100%;
-    height: 95px;
+    height: 10%;
     position: fixed;  /*was relative*/
     z-index: 100;
     display: flex;
@@ -328,7 +327,7 @@ The .Section1 properites
     width: 100%;
     height: 46%;
     position: relative;
-    top: 95px;
+    top: 10%;
 }
 /* END S1R-1 .Section1 =====================*/
 
@@ -502,10 +501,6 @@ The @media MAX-width query properties
   
     .HeaderNavList {
         display: none;
-    }
-  
-    .HeaderLogo {
-        font-size: 1rem;
     }
   
     .Section1ImageText {
