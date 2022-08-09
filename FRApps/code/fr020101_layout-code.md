@@ -20,12 +20,12 @@ HTML
         <title>HTML Custom Apps</title>
         <link rel="shortcut icon" href="favicon.png">
         <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Bookman Old Style" >
-        <link rel="stylesheet"    href="index.css">
+        <link rel="stylesheet"    href="index_final_layout.css">
     </head>
 
     <body>    
 
-        <!-- REPLACE Point - Header -->
+    <!-- REPLACE Point - Header -->
         <div class="Header">
             <!-- INSERT Point - responsive -->
             <div class="HeaderNavBars">
@@ -33,7 +33,7 @@ HTML
                         type="image/svg+xml" title="Toggle sidebar">
                 </object>
             </div>
-            <div class="HeaderLogo"><a href="">PH Logo</a></div>
+            <div class="HeaderLogo"><a href="/">PH Logo</a></div>
             <div class="HeaderSpacer"></div> 
             <ul class="HeaderNavList">
                 <li class="HeaderNavListItem"><a href=#>PH_Link1</a></li>
@@ -42,15 +42,17 @@ HTML
                 <li class="HeaderNavListItemCTA"><a href=#>PH_CTA</a></li>
             </ul>
         </div>
-        
+    <!-- END REPLACE Point - Header -->
 
-        <!-- REPLACE Point - Section1 -->
+
+    <!-- REPLACE Point - Section1 -->
         <div class="Section1">
             <h2 class="Section1ImageText">PH Text Overlay</h2>
         </div>
-        
-        
-        <!-- REPLACE Point - Section2 -->        
+    <!-- END REPLACE Point - Section1 -->
+
+
+    <!-- REPLACE Point - Section2 -->        
         <div class="Section2">
             <h2></h2>
             <p class="Section2Paragraph">
@@ -61,16 +63,18 @@ HTML
                 The quick brown fox jumped over the lazy dog.
             </p>  
         </div>
-               
-        
-        <!-- REPLACE Point - Footer -->
+    <!-- END REPLACE Point - Section2 -->        
+
+
+    <!-- REPLACE Point - Footer -->
         <div class="Footer">
             <ul class="FooterNavList">
                 <li class="FooterNavListItem"><a href=#>PH Link1</a></li>
                 <li class="FooterNavListItem"><a href=#>PH Link2</a></li>
             </ul>
         </div>
-            
+    <!-- END REPLACE Point - Footer -->
+
     </body>
 
 </html>
@@ -82,7 +86,6 @@ ___
 CSS
 
 ```css
-
 /* Basic Blocks Custom App */
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bookman Old Style');
@@ -111,6 +114,7 @@ CSS
     
     --GlobalFontFamily: "Bookman Old Style", "Frank+Ruhl+Libre:wght@700&display=swap";
 } 
+/* END REPLACE :root =====================*/
 
 
 /*-----------------------------------------
@@ -144,7 +148,7 @@ h2 {
     color: white;
     padding: 1.5rem;
     text-align: center;
-  }
+}
 
 
 /*=======================================*/
@@ -155,28 +159,24 @@ The .Header properites
 .Header {
     background: var(--Header_background-color);
     width: 100%;
-    height: 100px;
+    height: 10%;
     position: fixed;  /*was relative*/
     z-index: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+/* END HR-1 .Header =====================*/
 
 
 /*===========================================*/
-/* START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
-/*=======================================*/
+/* H-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* H-1 INSERT Point - .HeaderNavBars */
 /*-----------------------------------------
 The .HeaderNavBars (hamburger menu) properites
 ------------------------------------------*/
 .HeaderNavBars {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    list-style: none;
+    display: none;
     height: 24px;
     width: 24px;
     background: transparent;
@@ -186,32 +186,33 @@ The .HeaderNavBars (hamburger menu) properites
     box-sizing: border-box;
     margin-left: 20px;
     margin-top: 0px;
-    align-items: center;
-}
+  }
+  
+  /*=======================================*/
+  /* INSERT Point - .HeaderNavBars:focus */
+  /*-----------------------------------------
+  The .HeaderNavBars:focus properites
+  ------------------------------------------*/
+  .HeaderNavBars:focus {
+      outline: none;
+  }
+/* H-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+  
 
+/*===============================================*/
+/* H-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /*=======================================*/
-/* INSERT Point - .HeaderNavBars:focus */
-/*-----------------------------------------
-The .HeaderNavBars:focus properites
-------------------------------------------*/
-.HeaderNavBars:focus {
-    outline: none;
-}
-/* END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
-
-/*===========================================*/
-/* START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-/*=======================================*/
-/* H-2 INSERT Point - .HeaderLogo */
+/* H2 INSERT Point - .HeaderLogo */
 /*-----------------------------------------
 The .HeaderLogo properites
 ------------------------------------------*/
 .HeaderLogo {
+    margin-left: 45px;
     padding-left: 54px;
     font-size: 1.5rem;
     color:whitesmoke;
 }
+
 /*=======================================*/
 /* INSERT Point - .HeaderLogo a */
 /*-----------------------------------------
@@ -234,11 +235,12 @@ The .HeaderSpacer properites
 .HeaderSpacer {
     flex: 1;
 }
-/* END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* H-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
-/*===========================================*/
-/* START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*==============================================*/
+/* H-3 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*========================================*/
 /* H-3 INSERT Point - .HeaderNavList */
 /*-----------------------------------------
 The .HeaderNavList (horizontal menu) properites
@@ -274,7 +276,7 @@ The .HeaderNavListItem a properites
 .HeaderNavListItem a:active {
     color: var(--Header_hover-color);
 }
-/* END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* H-3 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
 /*=======================================*/
@@ -288,10 +290,11 @@ The .HeaderNavListItemCTA a properties
     padding: 0.5rem 1rem;
     border-radius: 8px;
 }
+/* END H-4 .HeaderNavListItemCTA a ======*/
 
 
 /*===========================================*/
-/* START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* H-5 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* H-5 INSERT Point - .HeaderNavListItemCTA */
 /*-----------------------------------------
 The .HeaderNavListItemCTA properties
@@ -309,26 +312,28 @@ The .HeaderNavListItemCTA properties
       0% { transform: rotateZ(  0deg ); }
      50% { transform: rotateZ(-10deg ); }
     100% { transform: rotateZ( 10deg ); }
-  }  
-/* END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
+  }
+/* H-5 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+  
 
 /*=======================================*/
 /* S1R-1 REPLACE Point - Section1 */
 /*-----------------------------------------
 The .Section1 properites
-------------------------------------------*/
+------------------------------------ ------*/
 .Section1 {
     background: var(--Section1_background-color);
-    width: 100%;
-    height: 45%;
+    width: 100%; /*was 300px*/
+    height: 46%; /*was 100px*/
     position: relative;
-    top:10%; /*<---ADD to adjust the top position*/
+    top: 10%; /*<---ADD to adjust the top position*/
 }
+/* END S1R-1 .Section1 =====================*/
+
 
 
 /*===========================================*/
-/* START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* S1-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /*=======================================*/
 /* S1-1 INSERT Point - .Section1ImageText */
 /*-----------------------------------------
@@ -351,8 +356,8 @@ The .Section1ImageText::first-letter properties
     font-size: 150%;
     color: cornflowerblue;
 }
+/* S1-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
-/* END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
 /*=======================================*/
@@ -363,10 +368,11 @@ The .Section2 properites
 .Section2 {
     background: var(--Section2_background-color);
     width: 100%;
-    height: 50%;
+    height: 46%;
     position: relative;
     top:10%; /*<---ADD to adjust the top position*/
 }
+/* END S2R-1 .Section2 =====================*/
 
 
 /*=======================================*/
@@ -380,14 +386,15 @@ The .Section2 h2 properites
     font-size: 1.5rem;
     padding: 1.5;
 }
+/* END S2-1 .Section2 h2==================*/
 
 
 /*===========================================*/
-/* START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* S2-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* S2-2 INSERT Point - Section2Paragraph */
 
 /*      INSERT Point - Section2Paragraph::first-letter/line */
-/* END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* S2-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
 /*=======================================*/
@@ -402,11 +409,12 @@ The .Footer properites
     bottom: 0;
     position: fixed;
     z-index: 99;
-  }  
+  } 
+/* END FR-1 .Footer =====================*/
 
 
-/*===========================================*/
-/* START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*=============================================*/
+/* F-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /*=======================================*/
 /* F1 INSERT Point - .FooterNavList */
 /*-----------------------------------------
@@ -446,53 +454,51 @@ The .FooterNavListItem a:hover,
 .FooterNavListItem a:active {
   color: var(--Footer_hover-color);
 }
-/* END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* F-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
 
 
 /*===========================================*/
-/* START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* Responsive Code */  
-/* R-1 INSERT Point - @media (responsive min-width)*/ 
+/* R-1 INSERT Point - @media (responsive max-width)*/ 
 /*-----------------------------------------
-The @media MIN-width query properties
+The @media MAX-width query properties
 =========================================*/
-@media (min-width: 760px) {
-    .HeaderNavBars {
-      display: none;
-    }
+@media (max-width: 760px) {
+
     .HeaderLogo {
-      margin-left: 45px;
+        font-size: 1.2rem;
+        margin-left: 10px;
+        background-size: 180px 51px;
     }
-  }
   
-  /*=======================================*/
-  /* INSERT Point - @media (responsive max-width)*/
-  /*-----------------------------------------
-  The @media MAX-width query properties
-  =========================================*/
+    .HeaderNavBars {
+      display: flex;
+    }
   
-  @media (max-width: 760px) {
     .HeaderNavList {
         display: none;
     }
-    .HeaderLogo {
-        font-size: 1rem;
-      }    
+  
     .Section1ImageText {
       font-size: 1.5rem;
       padding: 80px 100px 20px 0px;
     }
+  
     .Section2 h2 {
       font-size: 1.7rem;
     }
+  
     .Section2Paragraph {
       font-size: 75%;
     }
   }
+  /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+  
 
-/* END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
+/* END CSS */
 
-/* END */
 
 ```
