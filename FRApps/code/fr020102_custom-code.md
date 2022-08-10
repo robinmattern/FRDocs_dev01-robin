@@ -479,7 +479,6 @@ The .FooterNavListItem a:hover,
 /* F-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
-
 /*===========================================*/
 /* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* Responsive Code */  
@@ -516,10 +515,35 @@ The @media MAX-width query properties
       font-size: 75%;
     }
   }
+
+/*-----------------------------------------
+The @media MAX-width (420px) query properties
+=========================================*/
+@media (max-width: 420px) {
+
+    .HeaderLogo {
+        font-size: .8rem;
+        margin-left: 15px;
+        margin-top: 15px;
+        background-size: 144px 41px;
+    }
+
+    .Section1ImageText {
+        font-size: 1.2rem;
+        padding: 80px 100px 20px 10px;
+      }
+    
+    .Section2Paragraph {
+        font-size: 60%;
+      }
+
+    h2 {
+        padding: 0;
+    }
+    
+}
   /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
   
-
-
 /* END CSS */
 
 ```

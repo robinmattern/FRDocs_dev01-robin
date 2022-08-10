@@ -2481,6 +2481,8 @@ Like this
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicColorImage4.jpg">
 
+### Final CUSTOM
+
 #### Web Page with Color Changes
 
 - Check out Chrome.  
@@ -2525,7 +2527,7 @@ Your next journey will be to add some very cool functions to our web page using 
 
 <!--## 6. View Full Code  <!-- {docsify-ignore} -->
 
-####  [View Full Code For HTML Custom Apps](/FRApps/code/fr020101_custom-code.md "Full Code")
+####  [View Full Code For HTML Custom Apps](/FRApps/code/fr020102_custom-code.md "Full Code")
 <br>
 
 <!-- ------------------------------------------------------------------------- -->
