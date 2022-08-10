@@ -78,6 +78,7 @@ HTML
     </body>
 
 </html>
+
 ```
 
 ___
@@ -457,13 +458,12 @@ The .FooterNavListItem a:hover,
 /* F-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
-
 /*===========================================*/
 /* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* Responsive Code */  
-/* R-1 INSERT Point - @media (responsive max-width)*/ 
+/* R-1 INSERT Point - @media (responsive 760 px max-width)*/ 
 /*-----------------------------------------
-The @media MAX-width query properties
+The @media MAX-width (760px) query properties
 =========================================*/
 @media (max-width: 760px) {
 
@@ -494,9 +494,32 @@ The @media MAX-width query properties
       font-size: 75%;
     }
   }
-  /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-  
 
+
+/* R-1 INSERT Point - @media (responsive 420px max-width)*/ 
+/*-----------------------------------------
+The @media MAX-width (420px) query properties
+=========================================*/
+@media (max-width: 420px) {
+
+  .HeaderLogo {
+      font-size: .8rem;
+      margin-left: 0px;
+      margin-top: 0px;
+      background-size: 144px 41px;
+  }
+
+  .Section1ImageText {
+      font-size: 1.2rem;
+      padding: 80px 100px 20px 10px;
+    }
+  
+  .Section2Paragraph {
+      font-size: 60%;
+    }
+  
+}
+  /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 /* END CSS */
 

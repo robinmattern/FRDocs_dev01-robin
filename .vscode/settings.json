@@ -2,6 +2,7 @@
     "chrome.executable": "C:/Program Files (x86)/Google/Chrome/Application/chrome.exe"
   , "chrome.profileDir": "C:/My/Data/chrome/profile"
   , "docsify.port" : 55000
+  , "editor.hover.enabled": false 
   , "typescript.validate.enable": false
   , "files.associations": { "*.njs": "javascript" }
 

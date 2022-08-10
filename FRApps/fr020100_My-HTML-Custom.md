@@ -1503,7 +1503,7 @@ ___
 
 - A very smart programmer once told me that you code your web page for a hand-held device first, the desk top second.
 
-- This is probably the most important section.  Learn this and you will use these skills to become very accomplished in HTML anf CSS. Go out and research "responsiveness."   
+- This is probably the most important section.  Learn this and you will use these skills to become very accomplished in HTML and CSS. Go out and research "responsiveness."   
 
 -  First let's look at our current web page on an iPhone7 Plus:
 
@@ -1705,11 +1705,11 @@ ___
 
 #### e. @media (max-width)
 
-- Here is where the real magic happens.  With the use of @media query we can test the width of the viewpoint of the screen your web page appears.  In our case we will make changes when the screen is at 760 pixels wide. 
+- Here is where the real magic happens.  With the use of @media query we can test the width of the viewpoint of the screen your web page appears.  In our case we will make changes when the screen is at 760 pixels wide (typical tablet) AND 420 pixels wide (typical smart phone). 
 
 - Again, we will use a Block of code containing the query.
 
-- We will be INSERTING this new query in one copy/paste block of code:
+- We will be INSERTING these new queries in one copy/paste block of code:
 
     + <font color='green'>@media (max-width)</font>
 
@@ -1720,40 +1720,62 @@ In the <font color='green'>/* Responsive Code */</font> (at the bottom of index.
 /*===========================================*/
 /* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* Responsive Code */  
-/* R-1 INSERT Point - @media (responsive max-width)*/ 
+/* R-1 INSERT Point - @media (max-width)*/ 
 /*-----------------------------------------
-The @media MAX-width query properties
+The @media MAX-width (760px) query properties
 =========================================*/
 @media (max-width: 760px) {
 
-  .HeaderLogo {
-    font-size: 1.2rem;
-    margin-left: 10px;
-    background-size: 180px 51px;
+    .HeaderLogo {
+        font-size: 1.2rem;
+        margin-left: 10px;
+        background-size: 180px 51px;
+    }
+  
+    .HeaderNavBars {
+      display: flex;
+    }
+  
+    .HeaderNavList {
+        display: none;
+    }
+  
+    .Section1ImageText {
+      font-size: 1.5rem;
+      padding: 80px 100px 20px 0px;
+    }
+  
+    .Section2 h2 {
+      font-size: 1.7rem;
+    }
+  
+    .Section2Paragraph {
+      font-size: 75%;
+    }
   }
 
-  .HeaderNavBars {
-    display: flex;
-  }
+/*-----------------------------------------
+The @media MAX-width (420px) query properties
+=========================================*/
+@media (max-width: 420px) {
 
-  .HeaderNavList {
-      display: none;
-  }
+    .HeaderLogo {
+        font-size: .8rem;
+        margin-left: 0px;
+        margin-top: 0px;
+        background-size: 144px 41px;
+    }
 
-  .Section1ImageText {
-    font-size: 1.5rem;
-    padding: 80px 100px 20px 0px;
-  }
-
-  .Section2 h2 {
-    font-size: 1.7rem;
-  }
-
-  .Section2Paragraph {
-    font-size: 75%;
-  }
+    .Section1ImageText {
+        font-size: 1.2rem;
+        padding: 80px 100px 20px 10px;
+      }
+    
+    .Section2Paragraph {
+        font-size: 60%;
+      }
 }
-/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+  /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 ```
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
@@ -2084,6 +2106,108 @@ Like this
 <br>
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicformRImage3.jpg">
 
+____
+
+#### d. @media (Slight change for responsiveness)
+
+- In the @media query
+- Under @media (max-width: 420px)<br><br>
+- CHANGE in HeaderLogo:
+    + margin-left from 0px to 15px
+    + margin-top from 0px to 15px<br><br>
+- ADD
+    + h2 padding to 0
+
+The easiest way to accomplish this is to copy/paste the entire Responsive BLOCK.  Copy...
+
+```css
+
+/*===========================================*/
+/* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* Responsive Code */  
+/* R-1 INSERT Point - @media (responsive max-width)*/
+/*-----------------------------------------
+The @media MAX-width query properties
+=========================================*/
+@media (max-width: 760px) {
+
+    .HeaderLogo {
+        font-size: 1.2rem;
+        margin-left: 10px;
+        background-size: 180px 51px;
+    }
+  
+    .HeaderNavBars {
+      display: flex;
+    }
+  
+    .HeaderNavList {
+        display: none;
+    }
+  
+    .Section1ImageText {
+      font-size: 1.5rem;
+      padding: 80px 100px 20px 0px;
+    }
+  
+    .Section2 h2 {
+      font-size: 1.7rem;
+    }
+  
+    .Section2Paragraph {
+      font-size: 75%;
+    }
+  }
+
+/*-----------------------------------------
+The @media MAX-width (420px) query properties
+=========================================*/
+@media (max-width: 420px) {
+
+    .HeaderLogo {
+        font-size: .8rem;
+        margin-left: 15px;
+        margin-top: 15px;
+        background-size: 144px 41px;
+    }
+
+    .Section1ImageText {
+        font-size: 1.2rem;
+        padding: 80px 100px 20px 10px;
+      }
+    
+    .Section2Paragraph {
+        font-size: 60%;
+      }
+
+    h2 {
+        padding: 0;
+    }
+    
+}
+  /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+```
+...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
+<br>
+> /&ast;==============================================&ast;/<br>
+/* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+<br><br>
+/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^/
+<br>comments in your index.**css** file:
+
+<br>
+
+Like this
+
+<img class="shadow-border" src="FRApps/assets/images/
+md-images/BasicResponsiveChange.jpg">
+
+This will give the custom web page's formR logo the proper place in the header when viewing on an iPhone 7 Pro
+
+<img class="shadow-border" src="FRApps/assets/images/
+md-images/BasicFinaliPhoneHeaderImage.jpg">
+____
+
 #### Web Page with formR Logo
 <br>
 <span style="font-size: 25px"><b>CONGRATULATIONS!</b></span>  You have successsfully replaced the "PH Logo" with the image of our formR logo.   
@@ -2357,6 +2481,8 @@ Like this
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicColorImage4.jpg">
 
+### Final CUSTOM
+
 #### Web Page with Color Changes
 
 - Check out Chrome.  
@@ -2401,7 +2527,7 @@ Your next journey will be to add some very cool functions to our web page using 
 
 <!--## 6. View Full Code  <!-- {docsify-ignore} -->
 
-####  [View Full Code For HTML Custom Apps](/FRApps/code/fr020101_custom-code.md "Full Code")
+####  [View Full Code For HTML Custom Apps](/FRApps/code/fr020102_custom-code.md "Full Code")
 <br>
 
 <!-- ------------------------------------------------------------------------- -->
