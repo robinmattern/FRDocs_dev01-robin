@@ -1503,7 +1503,7 @@ ___
 
 - A very smart programmer once told me that you code your web page for a hand-held device first, the desk top second.
 
-- This is probably the most important section.  Learn this and you will use these skills to become very accomplished in HTML anf CSS. Go out and research "responsiveness."   
+- This is probably the most important section.  Learn this and you will use these skills to become very accomplished in HTML and CSS. Go out and research "responsiveness."   
 
 -  First let's look at our current web page on an iPhone7 Plus:
 
