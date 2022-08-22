@@ -1705,13 +1705,13 @@ ___
 
 #### e. @media (max-width)
 
-- Here is where the real magic happens.  With the use of @media query we can test the width of the viewpoint of the screen your web page appears.  In our case we will make changes when the screen is at 760 pixels wide (typical tablet) AND 420 pixels wide (typical smart phone). 
+- Here is where the real magic happens.  With the use of <font color=cornflowerblue>@media</font> query we can test the width of the viewpoint of the screen your web page appears.  In our case we will make changes when the screen is at 760 pixels wide (typical tablet) AND 420 pixels wide (typical smart phone). 
 
 - Again, we will use a Block of code containing the query.
 
 - We will be INSERTING these new queries in one copy/paste block of code:
 
-    + <font color='green'>@media (max-width)</font>
+    + <font color='cornflowerblue'>@media</font> <font color=#A81966>(max-width)</font>
 
 
 In the <font color='green'>/* Responsive Code */</font> (at the bottom of index.css file), copy the code below...
@@ -1837,11 +1837,11 @@ ___
 ### *CUSTOMIZATION*
 ----
 
-- As previoused mentioned, we will make some changes to our LAYOUT.<br>We will:
+- As previoused mentioned, we will make some changes to our LAYOUT.<br>We will:<b>
     + Add an image (.jpg) file to Section 1
     + Change the font-based “PH Logo” to our formR logo image (.gif) file
     + Change all of the Place Holder (PH) text
-    + Change some colors<br><br>
+    + Change some colors</b><br><br>
 
 - Let’s have some fun. This will require some modifications to your existing code in both the index.html AND index.css files.
 
@@ -2110,13 +2110,13 @@ ____
 
 #### d. @media (Slight change for responsiveness)
 
-- In the @media query
-- Under @media (max-width: 420px)<br><br>
+- In the <font color=cornflowerblue>@media</font> query
+- Under <font color=cornflowerblue>@media</font> (max-width: 420px)<br><br>
 - CHANGE in HeaderLogo:
-    + margin-left from 0px to 15px
-    + margin-top from 0px to 15px<br><br>
+    + <font color=#A81966>margin-left</font> from 0px to 15px
+    + <font color=#A81966>margin-top</font> from 0px to 15px<br><br>
 - ADD
-    + h2 padding to 0
+    + <font color=green>h2</font> padding to 0
 
 The easiest way to accomplish this is to copy/paste the entire Responsive BLOCK.  Copy...
 
@@ -2354,13 +2354,13 @@ First, remember the <font color='green'>:root</font> section.
 <br><br>
 Well, it's very simple to make the requested color changes right here in four of the properties:
 
-- --Header_background-color<br>
+- <font color=#A81966>--Header_background-color</font><br>
     &nbsp;&nbsp;&nbsp;&nbsp;(requested change from red to #FF7034; [dark orange])
-- --Section1_background-color  
+- <font color=#A81966>--Section1_background-color</font>  
     &nbsp;&nbsp;&nbsp;&nbsp;(requested change from blue to whitesmoke)
-- --Section2_background-color<br>
+- <font color=#A81966>--Section2_background-color</font><br>
     &nbsp;&nbsp;&nbsp;&nbsp;(requested change from lightgray to whitesmoke)
-- --Footer_background-color<br>
+- <font color=#A81966>--Footer_background-color</font><br>
     &nbsp;&nbsp;&nbsp;&nbsp;(requested change from green to #FF7034; [dark orange])
 <br><br>
 
@@ -2426,9 +2426,9 @@ There is one last touch for Section 2.  Let's pretty-up that paragraph.  It is d
 - Finally we will make the first letter of the first line very large.
 - In the <font color='green'>.Section2Paragraph</font> section we will INSERT the following:<br>
 
-    + <b><font color=#A81966>Section2Paragraph</font></b>: 
-    + <b><font color=#A81966>Section2Paragraph::first-line</font></b>:
-    + <b><font color=#A81966>Section2Paragraph::first-letter</font></b>:
+    + <b><font color='green'>Section2Paragraph</font></b>: 
+    + <b><font color='green'>Section2Paragraph::first-line</font></b>:
+    + <b><font color='green'>Section2Paragraph::first-letter</font></b>:
 
 Copy <font color='green'>.Section2Paragraph</font> code below... 
 
@@ -2446,7 +2446,7 @@ The .Section2Paragraph properites
     font-size: 1.3rem;
     color: var(--Section2Paragraph-font-color); /* dark orange*/
     font-weight: bolder;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 /*=======================================*/
@@ -2527,7 +2527,7 @@ Your next journey will be to add some very cool functions to our web page using 
 
 <!--## 6. View Full Code  <!-- {docsify-ignore} -->
 
-####  [View Full Code For HTML Custom Apps](/FRApps/code/fr020102_custom-code.md "Full Code")
+###  [View Full Code For HTML Custom Apps](/FRApps/code/fr020102_custom-code.md "Full Code")
 <br>
 
 <!-- ------------------------------------------------------------------------- -->
