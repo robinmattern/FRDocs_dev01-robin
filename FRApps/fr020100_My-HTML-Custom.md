@@ -19,12 +19,12 @@ ____
 <font size=6px color=blue>
 <details class="styled">
   <summary class="summary-styled">Rick's First PopUp</summary>
-    <div class='popup' align="center"><br>
+    <div class="popup" align="center"><br>
         This is our new popup.<br>
         We will use these to give you the<br>
         reasons why we do what we do.<br><br>
         <img src="FRApps/assets/images/formr-logo.gif"><br><br>
-        Get ready for some more formR magic!
+        Get ready for some more formR magic!<br><br>
     </div>  
 </details>
 <hr>

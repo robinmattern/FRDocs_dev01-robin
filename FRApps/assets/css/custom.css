@@ -7,6 +7,11 @@
     box-shadow: 1px 1px;
 }
 
+.popup-style {
+    border: 1px solid;
+    box-shadow: 1px 1px;
+}
+
 .full-code-link {
     font-size: .5rem;
 }
@@ -66,7 +71,3 @@ summary.summary-styled {
     font-weight: bold;
 }
 
-.popup {
-    text-align: center;
-
-}
