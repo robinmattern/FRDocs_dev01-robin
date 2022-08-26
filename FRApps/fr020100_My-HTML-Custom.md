@@ -14,6 +14,23 @@
 - [Purpose and Background](../Setup/purposes/pfr020100_fr020100_My-HTML-Custom.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
+____
+
+<font size=6px color=blue>
+<details class="styled">
+  <summary class="summary-styled">Rick's First PopUp</summary>
+    <div class="popup" align="center">
+        This is our new popup.<br>
+        We will use these to give you the<br>
+        reasons why we do what we do.<br><br>
+        <img src="FRApps/assets/images/formr-logo.gif"><br><br>
+        Get ready for some more formR magic!
+        <br><br><br>
+    </div>  
+</details>
+<hr>
+<br>
+</font>
 
 #### Introduction 
 - You will be building a web site which starts with very simple index.**html** and index.**css** files.  Your repository will include both of those **empty** files plus the needed images. If you follow the directions and copy/paste each section's code, you will end up with a still simple index.html but a rather complex index.css file.
