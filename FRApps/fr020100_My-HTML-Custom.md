@@ -16,9 +16,9 @@
 
 ____
 
-<font size=4px>
+<font size=6px color=blue>
 <details class="styled">
-  <summary class="summary-styled">Content for PopUps</summary>
+  <summary class="summary-styled">Rick's First PopUp</summary>
     <div class='popup' align="center"><br>
         This is our new popup.<br>
         We will use these to give you the<br>
