@@ -16,21 +16,19 @@
 
 ____
 
-<font size=6px color=blue>
 <details class="styled">
   <summary class="summary-styled">Rick's First PopUp</summary>
     <div class="popup" align="center">
         This is our new popup.<br>
         We will use these to give you the<br>
         reasons why we do what we do.<br><br>
-        <img src="FRApps/assets/images/formr-logo.gif"><br><br>
+        <img src="FRApps/assets/images/formr-logo.gif" width="40%"><br><br>
         Get ready for some more formR magic!
         <br><br><br>
     </div>  
 </details>
 <hr>
 <br>
-</font>
 
 #### Introduction 
 - You will be building a web site which starts with very simple index.**html** and index.**css** files.  Your repository will include both of those **empty** files plus the needed images. If you follow the directions and copy/paste each section's code, you will end up with a still simple index.html but a rather complex index.css file.
@@ -471,17 +469,15 @@ ___
 From there, the next course we will move on to add some magic with JavaScript (JS) to this web page.
 
 ___
-
-#### e. Understanding CSS  
-<br>
-To understand a <u><i>little</i></u> of this CSS code, let's look at the .Header class properties.
-<br>
-<br>
-
-> /&ast;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;<br>
-The .Header properites<br>
-&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;*/<br>
-.Header {<br><br>
+<details class="styled">
+  <summary class="summary-styled">Understanding CSS</summary>
+&nbsp;&nbsp;&nbsp;&nbsp;To understand a <u><i>little</i></u> of this CSS code,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;let's look at the .Header class properties.
+<br><br>
+&nbsp;&nbsp;/&ast;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;<br>
+&nbsp;&nbsp;The .Header properites<br>
+&nbsp;&nbsp;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;*/<br>
+&nbsp;&nbsp;.Header {<br><br>
 &nbsp;&nbsp;background: var(--Header_background-color);<br>
         &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Sets the background to the variable set above in the :root</span><br><br>
 &nbsp;&nbsp;width: 300px;<br>
@@ -492,13 +488,12 @@ The .Header properites<br>
         &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Places the header box relative to the html code<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[DOM](https://www.w3.org/TR/WD-DOM/introduction.html "What Is DOM")</span> <span style=color:red;>(Document Object Model) reading from<br> 
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the top to the bottom</span><br><br>        
-
+</details>
 
 <!--<a href='/FRApps/code/fr020101_basic-blocks-code.md' title='Full Code'>View Full Code For Basic Blocks</a>-->
 
 <!--
 #### 6.  [View Full Code For Basic Blocks](/FRApps/code/fr020101_basic-blocks-code.md "Full Code") -->
-<br>
 <span style="font-size: 20px"><b>CONGRATULATIONS!!</b></span> You have just created a simple html page with a cascading style sheet (CSS) which makes <b><u>4 basic blocks</u></b>.  
 
 
