@@ -3,7 +3,7 @@
 }
 
 .shadow-border {
-    border: 11px solid;
+    border: 1px solid;
     /*box-shadow: 5px 10px;*/
 
 }
@@ -11,14 +11,6 @@
 .full-code-link {
     font-size: .5rem;
 
-}
-
-.popup {
-    text-align: center;
-}
-
-.full-code-link {
-    font-size: .5rem;
 }
 
 .blue-shadow-border {
@@ -32,13 +24,14 @@ details {
 
 details.styled {
     padding: .2em 0;
-/*    border: 1px solid blue;*/
+    border: 1px solid blue;
     border-radius: 10px;
+    background-color: aliceblue;
     margin-bottom: 2em;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
     max-height: 40px;
     overflow: hidden;
-    font-size: 1.2rem;
+    font-size: 1rem;
     position: relative;
 }
 
@@ -49,8 +42,9 @@ details.styled summary {
 
 details[open].styled {
     border: 1px solid blue;
-    background-color: rgba(0,0,0,0.1);
-    max-height: 2200px;
+    background-color: rgba(240,248,255,0.8);
+    max-height: 3000px;
+    padding: 0px 20px 0px 20px;
 }
 
 details[open].styled summary {
@@ -62,6 +56,7 @@ details[close].styled {
 }
 
 details.styled[open]>summary::after {
+    font-size: 1rem;
     display: inline-block;
     content: "▲ Close  ▲ ";
     position: absolute;
@@ -70,9 +65,15 @@ details.styled[open]>summary::after {
 }
 
 summary.summary-styled {
-    margin-left: 1.5rem;
+    padding: 0px 20px 0px 20px;
     text-align: left;
-    font-size: 1.5rem;
+    color: blue;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
+.popup {
+    text-align: center;
+    color:blue;
+    padding-left: 3px;
+}
