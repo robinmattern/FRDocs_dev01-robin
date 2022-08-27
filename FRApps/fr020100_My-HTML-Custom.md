@@ -468,11 +468,11 @@ ___
 > We will build from this basic page to create a web site with a fixed header and footer, links with a "wiggle" button, and an image with a text overlay--in our customize section.<br><br>
 From there, the next course we will move on to add some magic with JavaScript (JS) to this web page.
 
-___
+____
+
 <details class="styled">
   <summary class="summary-styled">Understanding CSS</summary>
-&nbsp;&nbsp;&nbsp;&nbsp;To understand a <u><i>little</i></u> of this CSS code,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;let's look at the .Header class properties.
+&nbsp;&nbsp;&nbsp;&nbsp;To understand a <u><i>little</i></u> of this CSS code, let's look at the .Header class properties.
 <br><br>
 &nbsp;&nbsp;/&ast;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;<br>
 &nbsp;&nbsp;The .Header properites<br>
@@ -485,10 +485,10 @@ ___
 &nbsp;&nbsp;height: 100px;<br>
         &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Sets the height of the header block 100 pixels</span><br><br>
 &nbsp;&nbsp;position: relative;<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Places the header box relative to the html code<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*[DOM](https://www.w3.org/TR/WD-DOM/introduction.html "What Is DOM")</span> <span style=color:red;>(Document Object Model) reading from<br> 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the top to the bottom</span><br><br>        
+        &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Places the header box relative to the html code reading from the top to the bottom (DOM)</span><br><br>        
 </details>
+
+____
 
 <!--<a href='/FRApps/code/fr020101_basic-blocks-code.md' title='Full Code'>View Full Code For Basic Blocks</a>-->
 
@@ -1521,15 +1521,16 @@ ___
 
 <img class="shadow-border" width=75% src="FRApps/assets/images/md-images/BasicResponsiveImage1.jpg">
 
-___
 
 - We have 2 problems here.
     + The Menu list is too big to properly display
     + All font sizes are too large
 
+We will fix this using "responsive" code in our index.css file with the magic of a <font color='blue'>@media</font> query.
+____
 
-#### Developer Tools
-<br>
+<details class="styled">
+<summary class="summary-styled">Developer's Tools</summary>
 Most all Internet browsers have a wonderful tool called "Developer Tools."
 
 > To get to them, you can go to <img class="shadow-border" width=5% style=border:none; valign=bottom src="FRApps/assets/images/md-images/BasicSettingsButtons.jpg"> settings > More Tools > Developer Tools <br>
@@ -1560,7 +1561,10 @@ Shortcut 2: On most browsers press F12 key.
 Go look in index.css for "H2 .HeaderLogo." We set the padding-left:&nbsp;54px; 
 <br>
 <img class="shadow-border" width=80% src="FRApps/assets/images/md-images/BasicDevToolsImage3.jpg">
-<br>
+<br><br>
+</details>
+
+____
 
 #### a. NavBars 
 <br>
@@ -1624,8 +1628,10 @@ Like this
 <br><br>
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveImage3.jpg">
 <br><br>
+____
 
-> Quick discussion on images.<br><br> 
+<details class="styled">
+<summary class="summary-styled">A Quick Discussion on Images</summary>
 Note in your assets/images directory you have 3 different images.<br>
     &nbsp;&nbsp;&nbsp;&nbsp;+ formr-logo-blue.gif<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(our logo image)<br>
@@ -1637,7 +1643,9 @@ Note in your assets/images directory you have 3 different images.<br>
 
 <br><br>
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveImage4.jpg">
+</details>
 
+____
 
 Now let's move on to index.**css** to adjust the NavBars in a proper postion
 
@@ -1919,7 +1927,12 @@ Like this
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicWithImageImage3.jpg">
 <br>
 
-> Variables Discussion:<br><br>In the above .Section1 CSS code, there were 2 properties that named variables, which were created in the <b>[:root]</b> section at the top the file.<br><br>
+____
+
+<details class="styled">
+<summary class="summary-styled">Variables Discussion</summary>
+
+In the above .Section1 CSS code, there were 2 properties that named variables, which were created in the <b>[:root]</b> section at the top the file.<br><br>
 The background: was set at<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"var(--Section1_background-image),"<br>
 which is blue, as you can see in the [:root] for Section1 section.
@@ -1927,8 +1940,10 @@ which is blue, as you can see in the [:root] for Section1 section.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"var(--Section1_background-image)."<br>
 In the <b>[:root]</b>, this variable was set as 'assets/images/monaco-blue-soft.jpg.'<br><br>Later in the <b><u>Customize</u></b> section, you will find this to be very powerful in changing areas of the web page.<br><br>
 <img src="FRApps/assets/images/md-images/BasicWithImageImage3a.jpg">
+<br><br>
+</details>
 
-___
+____
 
 #### Web Page With Image in Section 1
 <br>

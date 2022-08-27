@@ -13,12 +13,10 @@
 
 }
 
-
 .blue-shadow-border {
     border: 11px solid blue;
     box-shadow: 1px 1px;
 }
-
 
 details {
     margin-top: 2px;
@@ -45,7 +43,8 @@ details.styled summary {
 details[open].styled {
     border: 1px solid blue;
     background-color: rgba(240,248,255,0.8);
-    max-height: 2500px;
+    max-height: 3000px;
+    padding: 0px 20px 0px 20px;
 }
 
 details[open].styled summary {
@@ -66,7 +65,7 @@ details.styled[open]>summary::after {
 }
 
 summary.summary-styled {
-    margin-left: 1.5rem;
+    padding: 0px 20px 0px 20px;
     text-align: left;
     color: blue;
     font-size: 1.1rem;
