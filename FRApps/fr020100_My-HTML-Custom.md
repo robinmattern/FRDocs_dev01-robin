@@ -1562,7 +1562,7 @@ Shortcut 2: On most browsers press F12 key.
 <br>
 Go look in index.css for "H2 .HeaderLogo." We set the padding-left:&nbsp;54px; 
 <br>
-<img class="shadow-border" width=80% src="FRApps/assets/images/md-images/BasicDevToolsImage3.jpg">
+<img class="shadow-border" width=50% src="FRApps/assets/images/md-images/BasicDevToolsImage3.jpg">
 <br><br>
 </details>
 
@@ -1634,6 +1634,7 @@ ____
 
 <details class="details-style">
 <summary class="summary-style">A Quick Discussion on Images</summary>
+<div class="popup">
 Note in your assets/images directory you have 3 different images.<br>
     &nbsp;&nbsp;&nbsp;&nbsp;+ formr-logo-blue.gif<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(our logo image)<br>
@@ -1643,8 +1644,9 @@ Note in your assets/images directory you have 3 different images.<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(the NavBars we are working with now)
 <br><br>These images will be used in your code. The first 2 as variables in the :root section of the index.css file.  The last will be referenced directly in the Header section of the index.html file. 
 
-<br><br>
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveImage4.jpg">
+<br>
+<img class="shadow-border" width="50%" src="FRApps/assets/images/md-images/BasicResponsiveImage4.jpg">
+</div>
 </details>
 
 ____
