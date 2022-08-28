@@ -16,9 +16,9 @@
 
 ____
 
-<details class="styled">
-  <summary class="summary-styled">Rick's First PopUp</summary>
-    <div class="popup" align="center">
+<details class="details-style">
+  <summary class="summary-style">Rick's First PopUp</summary>
+    <div class="ricks-popup" align="center">
         This is our new popup.<br>
         We will use these to give you the<br>
         reasons why we do what we do.<br><br>
@@ -470,14 +470,15 @@ From there, the next course we will move on to add some magic with JavaScript (J
 
 ____
 
-<details class="styled">
-  <summary class="summary-styled">Understanding CSS</summary>
-&nbsp;&nbsp;&nbsp;&nbsp;To understand a <u><i>little</i></u> of this CSS code, let's look at the .Header class properties.
+<details class="details-style">
+  <summary class="summary-style">Understanding CSS</summary>
+<div class="popup">  
+To understand a <u><i>little</i></u> of this CSS code, let's look at the .Header class properties.
 <br><br>
-&nbsp;&nbsp;/&ast;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;<br>
+/&ast;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;<br>
 &nbsp;&nbsp;The .Header properites<br>
-&nbsp;&nbsp;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;*/<br>
-&nbsp;&nbsp;.Header {<br><br>
+&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;*/<br>
+.Header {<br><br>
 &nbsp;&nbsp;background: var(--Header_background-color);<br>
         &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Sets the background to the variable set above in the :root</span><br><br>
 &nbsp;&nbsp;width: 300px;<br>
@@ -486,6 +487,7 @@ ____
         &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Sets the height of the header block 100 pixels</span><br><br>
 &nbsp;&nbsp;position: relative;<br>
         &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Places the header box relative to the html code reading from the top to the bottom (DOM)</span><br><br>        
+</div>    
 </details>
 
 ____
@@ -1529,8 +1531,8 @@ ___
 We will fix this using "responsive" code in our index.css file with the magic of a <font color='blue'>@media</font> query.
 ____
 
-<details class="styled">
-<summary class="summary-styled">Developer's Tools</summary>
+<details class="details-style">
+<summary class="summary-style">Developer's Tools</summary>
 Most all Internet browsers have a wonderful tool called "Developer Tools."
 
 > To get to them, you can go to <img class="shadow-border" width=5% style=border:none; valign=bottom src="FRApps/assets/images/md-images/BasicSettingsButtons.jpg"> settings > More Tools > Developer Tools <br>
@@ -1560,7 +1562,7 @@ Shortcut 2: On most browsers press F12 key.
 <br>
 Go look in index.css for "H2 .HeaderLogo." We set the padding-left:&nbsp;54px; 
 <br>
-<img class="shadow-border" width=80% src="FRApps/assets/images/md-images/BasicDevToolsImage3.jpg">
+<img class="shadow-border" width=50% src="FRApps/assets/images/md-images/BasicDevToolsImage3.jpg">
 <br><br>
 </details>
 
@@ -1630,8 +1632,9 @@ Like this
 <br><br>
 ____
 
-<details class="styled">
-<summary class="summary-styled">A Quick Discussion on Images</summary>
+<details class="details-style">
+<summary class="summary-style">A Quick Discussion on Images</summary>
+<div class="popup">
 Note in your assets/images directory you have 3 different images.<br>
     &nbsp;&nbsp;&nbsp;&nbsp;+ formr-logo-blue.gif<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(our logo image)<br>
@@ -1641,8 +1644,9 @@ Note in your assets/images directory you have 3 different images.<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(the NavBars we are working with now)
 <br><br>These images will be used in your code. The first 2 as variables in the :root section of the index.css file.  The last will be referenced directly in the Header section of the index.html file. 
 
-<br><br>
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveImage4.jpg">
+<br>
+<img class="shadow-border" width="50%" src="FRApps/assets/images/md-images/BasicResponsiveImage4.jpg">
+</div>
 </details>
 
 ____
@@ -1929,8 +1933,8 @@ Like this
 
 ____
 
-<details class="styled">
-<summary class="summary-styled">Variables Discussion</summary>
+<details class="details-style">
+<summary class="summary-style">Variables Discussion</summary>
 
 In the above .Section1 CSS code, there were 2 properties that named variables, which were created in the <b>[:root]</b> section at the top the file.<br><br>
 The background: was set at<br>
