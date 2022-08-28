@@ -22,8 +22,9 @@ details {
     margin-top: 2px;
 }
 
-details.styled {
-    padding: .2em 0;
+details.details-style {
+    padding: 5px 20px 0px 20px;
+    /*padding: .2em 0;*/
     border: 1px solid blue;
     border-radius: 10px;
     background-color: aliceblue;
@@ -35,36 +36,38 @@ details.styled {
     position: relative;
 }
 
-details.styled summary {
+details.details-style summary {
     cursor: pointer;
     outline: none;
 }
 
-details[open].styled {
+details[open].details-style {
     border: 1px solid blue;
-    background-color: rgba(240,248,255,0.8);
+    background-color: rgba(0,0,0,0.1);
+    /*background-color: rgba(240,248,255,0.8);*/
     max-height: 3000px;
-    padding: 0px 20px 0px 20px;
+    padding: 5px 20px 0px 20px;
 }
 
-details[open].styled summary {
+details[open].details-style summary {
     padding-bottom: 2em;
 }
 
-details[close].styled {
+details[close].details-style {
     border-collapse: collapse;
 }
 
-details.styled[open]>summary::after {
+details.details-style[open]>summary::after {
     font-size: 1rem;
     display: inline-block;
-    content: "▲ Close  ▲ ";
+    content: "▲ Close ";
     position: absolute;
+    padding-right: 40px;
     right: 0;
     bottom: 0;
 }
 
-summary.summary-styled {
+summary.summary-style {
     padding: 0px 20px 0px 20px;
     text-align: left;
     color: blue;
@@ -73,7 +76,11 @@ summary.summary-styled {
 }
 
 .popup {
-    text-align: center;
     color:blue;
-    padding-left: 3px;
+    padding-left: 10px;
+}
+
+.ricks-popup {
+    color:blue;
+    text-align: center;
 }
