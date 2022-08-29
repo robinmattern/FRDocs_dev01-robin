@@ -566,7 +566,7 @@ Like this, using the ctrl-v keys to paste the copied code.
 
 - Replace the entire block with new code, like this.
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4a.jpg">
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4a.jpg"><br>
 
 <!--
 TEST HIGH CONTRAST IMAGE
@@ -574,7 +574,11 @@ TEST HIGH CONTRAST IMAGE
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicDarkContrastImage.jpg">
 -->
 
-> <b><span class="banner">NOTE (for css files):<br> This is the copy/paste method we will use throughout this exercise in the index.CSS file.  The entire block will be replaced.</span></b>
+<div class="banner">
+<b>NOTE</b> (for css files):<br><br>
+This is the copy/paste method we will use throughout this exercise in the index.CSS file.<br><br>
+The entire block will be replaced.
+</div>
 
 ___
 
@@ -820,10 +824,15 @@ _____
 Your work should look like this.
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage1.jpg">
-<br>
+<br><br>
 
-> <b><span class="banner">NOTE (for html files):<br> This is the copy/paste method we will use throughout this exercise in the index.HTML file.  The entire block will be replaced.</span></b>
-___
+<div class="banner">
+<b>NOTE</b> (for html files):<br><br>
+This is the copy/paste method we will use throughout this exercise in the index.HTML file.<br><br>
+The entire block will be replaced.
+</div>
+
+____
 
 Take a quick look at Chrome and the Header.  
 
@@ -974,9 +983,11 @@ Like this, using the ctrl-v keys to paste the copied code.
 <br>
 Replace the entire block with new code, like this.
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0d.jpg">
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0d.jpg"><br>
 
-> <b><span class="banner">NOTE (for large blocks in the css file):<br> This is the copy/paste method we will use throughout this exercise in the index.CSS file, for large blocks of code entailing 2 or more classes.  The entire block will be replaced.</span></b>
+<div class="banner"><b>NOTE</b> (for large blocks in the css file):<br><br>
+This is the copy/paste method we will use throughout this exercise in the index.CSS file, for large blocks of code entailing 2 or more classes.<br><br>
+The entire block will be replaced.</div>
 
 ___
 
@@ -1182,11 +1193,12 @@ Please check your Chrome browser to see your web page thus far.
 ----
 ### 4. Modify Footer 
 ----
-> From the original sketch:
+<div class="call-point">
+From the original sketch:
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchFooterImage.jpg">
 <br>
 We will add links (NavList) to the center.
-<br>
+</div>
 
 <br>
 Next, we will add to your existing code in both the index.<b>html</b> AND index.<b>css</b> files to continue building on our basic web page *LAYOUT*. 
@@ -1571,9 +1583,9 @@ ___
 
 - Now check out the "wiggle" when you refresh your page.  Note the CTA button will wiggle 8 times, 2 seconds after the refresh.  The <font color=#A81966><b>animation</b></font> property controls this motion. Remember, CTA stands for "Call To Action."  The wiggle certainly calls for the reader's attention.
 
-> <img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/refreshButton.jpg"><br> 
-You may have to refresh your screen to activate the wiggle button for the first time.
-
+<div class="call-point">
+<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/refreshButtonGray.jpg"> You may have to refresh your screen to activate the wiggle button for the first time.
+</div>
 <br>
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicWiggleImage1.jpg">
 
@@ -1639,9 +1651,11 @@ ____
 #### a. NavBars 
 <br>
 
-> From the original sketch:
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchHeaderImage1b.jpg"><br>
+<div class="call-point">
+From the original sketch:
+<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicSketchHeaderImage1b.jpg"><br>
 We will add our NavBars (Hamburger)
+</div>
 
 <br>
 Let's focus on the Header and how we want it to appear on a smart phone.
@@ -1790,9 +1804,11 @@ ___
 Check it out in Chrome.  
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveImage6.jpg">
 
-> The hamburger is missing?  That is because we set its display to none in the CSS code we pasted in.  
+<div class="call-point">
+The hamburger is missing?  That is because we set its display to none in the CSS code we pasted in.  
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveImage6a.jpg"><br>
 We will take care of this momentarily...
+</div>
 
 ___
 
@@ -1897,7 +1913,7 @@ Check it out in Chrome.
 The image on the left is when the Chrome window is greater than 760 pixels wide, the one on the right is less than 760.  That is "responsiveness!"
 
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage1.jpg">
+<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage1.jpg">
 
 ___
 
@@ -1909,7 +1925,7 @@ ___
 
 Compare the 2 (before and after RESPONSIVE queries)
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveIPhoneImage3.jpg">
+<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicResponsiveIPhoneImage3.jpg">
 
 ___
 
