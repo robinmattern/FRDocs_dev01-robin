@@ -14,7 +14,11 @@
 - [Purpose and Background](../Setup/purposes/pfr020100_fr020100_My-HTML-Custom.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
+<!--
 ____
+
+#####  Ricks Popup
+<br>
 
 <details class="details-style">
   <summary class="summary-style">Rick's First PopUp</summary>
@@ -29,6 +33,7 @@ ____
 </details>
 <hr>
 <br>
+-->
 
 #### Introduction 
 - You will be building a web site which starts with very simple index.**html** and index.**css** files.  Your repository will include both of those **empty** files plus the needed images. If you follow the directions and copy/paste each section's code, you will end up with a still simple index.html but a rather complex index.css file.
@@ -104,7 +109,8 @@ Example (this is for a .Header  sub class, H-4, in the 4th position from the mai
 
 ____
 
-> <span style=font-size:25px;>IMPORTANT!</SPAN>
+<div class="call-point">
+<span style=font-size:25px;>IMPORTANT!</SPAN>
 <br><img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicCopyHTML.gif"><!--&nbsp;<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicCopyCSS.gif">--><br>
 There will be 3 different methods for copy/paste:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ HTML<br>
@@ -112,14 +118,17 @@ There will be 3 different methods for copy/paste:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ CSS Multiple Classes (2 or more)
 <br>
 Each method will be fully discussed at the first instance you encounter them.
+</div>
 
 ____
 
-> <br><u><b><i>LAYOUT vs CUSTOMIZATION</i></b></u>:  As we build upon the code in both index.html and index.css, we will create first a "Layout" with Place Holders; then we will "Customize" it our way.  You will have the opportunity to customize your "Layout" as your "Custom HTML App" later.
+<div class="call-point">
+<u><b><i>LAYOUT vs CUSTOMIZATION</i></b></u>:  As we build upon the code in both index.html and index.css, we will create first a "Layout" with Place Holders; then we will "Customize" it our way.  You will have the opportunity to customize your "Layout" as your "Custom HTML App" later.
+</div>
 <br><br>Below is our outline.<br>
-<br> 
+
 - Layout
-    + 1. Create Basic Blocks
+    + 1. Create Basic Blocks<br>
     + 2. Modify to Large Blocks
     + 3. Modify Header
     + 4. Modify Footer
@@ -470,8 +479,10 @@ From there, the next course we will move on to add some magic with JavaScript (J
 
 ____
 
+#####  CSS Discussion
+<br>
 <details class="details-style">
-  <summary class="summary-style">Understanding CSS</summary>
+  <summary class="summary-style">Discussion on CSS</summary>
 <div class="popup">  
 To understand a <u><i>little</i></u> of this CSS code, let's look at the .Header class properties.
 <br><br>
@@ -540,10 +551,12 @@ The .Header properites
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /*=======================================*/<br>
+<div class="replace-point">
+/*=======================================*/<br>
 /* HR-1 REPLACE Point - .Header */
 <br><br>
- /* END HR-1 .Header ======================*/<br> 
+ /* END HR-1 .Header =======================*/<br> 
+</div>
 
 <br>comments in your index.**css** file:
 
@@ -553,7 +566,7 @@ Like this, using the ctrl-v keys to paste the copied code.
 
 - Replace the entire block with new code, like this.
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4a.jpg">
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4a.jpg"><br>
 
 <!--
 TEST HIGH CONTRAST IMAGE
@@ -561,7 +574,11 @@ TEST HIGH CONTRAST IMAGE
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicDarkContrastImage.jpg">
 -->
 
-> <b><span style=color:red;><font style=font-size:25px;>NOTE (for css files):<br> This is the copy/paste method we will use throughout this exercise in the index.CSS file.  The entire block will be replaced.</font></span></b>
+<div class="banner">
+<b>NOTE</b> (for css files):<br><br>
+This is the copy/paste method we will use throughout this exercise in the index.CSS file.<br><br>
+The entire block will be replaced.
+</div>
 
 ___
 
@@ -606,11 +623,12 @@ The .Section1 properites
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /*=======================================*/<br>
+<div class="replace-point">
+/*=======================================*/<br>
 /* S1R-1 REPLACE Point - .Section1 */
 <br><br>
- /* END S1R-1 .Section1 ===================*/<br> 
-
+ /* END S1R-1 .Section1 =====================*/<br> 
+</div>
 <br>comments in your index.**css** file:
 
 Like this
@@ -645,11 +663,12 @@ The .Section2 properites
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /*=======================================*/<br>
+<div class="replace-point">
+/*=======================================*/<br>
 /* S2R-1 REPLACE Point - .Section2 */
 <br><br>
- /* END S2R-1 .Section2 ===================*/<br> 
-
+/* END S2R-1 .Section2 =====================*/<br> 
+</div>
 <br>comments in your index.**css** file:
 
 Like this
@@ -699,13 +718,14 @@ The .Footer properites
 ```
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /*=======================================*/<br>
+<div class="replace-point">
+/*=======================================*/<br>
 /* FR-1 REPLACE Point - .Footer */
 <br><br>
- /* END FR-1 .Footer =======================*/<br> 
-
+ /* END FR-1 .Footer ========================*/<br> 
+</div>
 <br>comments in your index.**css** file:
-
+<br><br>
 Like this
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4d.jpg">
@@ -783,37 +803,49 @@ Copy <font color='green'>Header</font> code ...
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> &lt;!&dash;&dash; REPLACE Point - Header &dash;&dash;&gt; <br>
+<div class="replace-point">
+&lt;!&dash;&dash; REPLACE Point - Header &dash;&dash;&gt; <br>
 <br>
  &lt;!&dash;&dash; END REPLACE Point - Header &dash;&dash;&gt; <br> 
-
+</div>
 <br>comments in your index.**html** file:
-
-____
-
+<br><br>
 Like this. 
-
+<br>
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicCopyPasteHTML.gif">
-
-> <img class="shadow-border" width=10% style=border:none; src="FRApps/assets/images/md-images/tabButton.jpg"><br>
+<br><br>
+<div class="call-point">
+<img class="shadow-border" width=10% style=border:none; src="FRApps/assets/images/md-images/tabButton.jpg"><br>
  Afterwards, you will most likely have to tab your lines over to properly align to other code.
-____
+ </div><br>
+
+_____
 
 Your work should look like this.
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage1.jpg">
-<br>
+<br><br>
 
-> <b><span style=color:red;><font style=font-size:25px;>NOTE (for html files):<br> This is the copy/paste method we will use throughout this exercise in the index.HTML file.  The entire block will be replaced.</font></span></b>
-___
+<div class="banner">
+<b>NOTE</b> (for html files):<br><br>
+This is the copy/paste method we will use throughout this exercise in the index.HTML file.<br><br>
+The entire block will be replaced.
+</div>
+
+____
 
 Take a quick look at Chrome and the Header.  
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage1a.jpg">
 <br><br>
-We now need to go to the index.css file to clean this up.  We are using names like "PH_Link1" and "PH Logo" as <span style=font-size:28px;><u><b>P</b></u>lace <u><b>H</b></u>olders</span> for the final customization of our Web page.
+
+<div class="call-point">
+We are using names like "PH_Link1" and "PH Logo" as<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style=font-size:28px;><u><b>P</b></u>lace <u><b>H</b></u>olders</span><br>
+for the final customization of our Web page.
+</div>
 <br><br>
-Now we move to the index.css file.
+Now we move to the index.css file.<br><br>
 
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
@@ -850,11 +882,12 @@ The .Header properites
 ```
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /*=======================================*/<br>
+<div class="replace-point">
+/*=======================================*/<br>
 /* HR-1 REPLACE Point - .Header */
 <br><br>
- /* END HR-1 .Header ======================*/<br> 
-
+/* END HR-1 .Header =======================*/<br> 
+</div>
 <br>comments in your index.**css** file:
 <br>
 
@@ -934,11 +967,12 @@ The .HeaderSpacer properites
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /&ast;==============================================&ast;/<br>
-/* H-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+<div class="replace-point">
+/&ast;==============================================&ast;/<br>
+/* H-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
-/* H-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
+/* H-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+</div>
 <br>comments in your index.**css** file.
 
 Like this, using the ctrl-v keys to paste the copied code.
@@ -949,9 +983,11 @@ Like this, using the ctrl-v keys to paste the copied code.
 <br>
 Replace the entire block with new code, like this.
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0d.jpg">
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0d.jpg"><br>
 
-> <b><span style=color:red;><font style=font-size:25px;>NOTE (for large blocks in the css file):<br> This is the copy/paste method we will use throughout this exercise in the index.CSS file, for large blocks of code entailing 2 or more classes.  The entire block will be replaced.</font></span></b>
+<div class="banner"><b>NOTE</b> (for large blocks in the css file):<br><br>
+This is the copy/paste method we will use throughout this exercise in the index.CSS file, for large blocks of code entailing 2 or more classes.<br><br>
+The entire block will be replaced.</div>
 
 ___
 
@@ -1031,11 +1067,12 @@ The .HeaderNavListItem a properites
 ```
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /&ast;===========================================&ast;/<br>
-/* H-3 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+<div class="replace-point">
+/&ast;===========================================&ast;/<br>
+/* H-3 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
-/* H-3 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
+/* H-3 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+</div>
 <br>comments in your index.**css** file:
 <br><br>
 Like this
@@ -1050,13 +1087,45 @@ Go back to Chrome and see the results. Notice that the 3 links on the right will
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage8.jpg">
 
-___
+____
+
+#####  FLEX Discussion
+<br>
+<details class="details-style">
+    <summary class="summary-style">
+        Discussion on FLEX
+    </summary>
+        <div class="popup">
+        One of the more powerful CSS properties is "FLEX."  We used it above to place the stacked links horizontally; in the Header and later in the Footer. Like this:<br><br>
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicConceptColumnToRow.jpg" style=border:none><br><br>  
+        Below is a short discussion on the basics of FLEX.<br>   
+        <h3>Basic concepts of flexbox</h3><br>
+        The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities. This article gives an outline of the main features of flexbox.<br><br>
+        When we describe flexbox as being one dimensional we are describing the fact that flexbox deals with layout in one dimension at a time — either as a row or as a column.<br>
+        <h3>The two axes of flexbox</h3><br>
+        When working with flexbox you need to think in terms of two axes — the main axis and the cross axis. The main axis is defined by the flex-direction property, and the cross axis runs perpendicular to it. Everything we do with flexbox refers back to these axes.  Here we will discuss the Main Axis.<br>
+        <h3>The Main Axis</h3><br>
+        The main axis is defined by flex-direction, which has four possible values:<br>
+            - row<br>
+            - row-reverse<br>
+            - column<br>
+            - column-reverse<br><br>
+        Should you choose row or row-reverse, your main axis will run along the row in the inline direction.
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicConceptsFlexRow.jpg"><br><br>
+        Choose column or column-reverse and your main axis will run from the top of the page to the bottom — in the block direction.
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicConceptFlexColumn.jpg"><br><br>
+<a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox' target='_blank' title='Citation for Flex (MDN WEB DOCS)'>Citation</a>
+        </div>
+        <br>
+</details>
+
+____
 
 #### e. CTA button
 <br>
-
-> CTA stands for Call to Action
-
+<div class="call-point">
+CTA stands for Call to Action
+</div>
 <br>
 Now, let's do something about that "PH CTA" link. Using CSS, we can turn it into a nice blue button. We will copy the below code...<br>
 
@@ -1077,11 +1146,12 @@ The .HeaderNavListItemCTA a properties
 ```
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /*=======================================*/<br>
+<div class="replace-point">
+/*=======================================*/<br>
 /* H-4 REPLACE Point - .HeaderNavListItemCTA a */
 <br><br>
- /* END H-4 .HeaderNavListItemCTA a =======*/<br> 
-
+/* END H-4 .HeaderNavListItemCTA a ==========*/<br> 
+</div>
 <br>comments in your index.**css** file:
 
 Like this
@@ -1123,11 +1193,12 @@ Please check your Chrome browser to see your web page thus far.
 ----
 ### 4. Modify Footer 
 ----
-> From the original sketch:
+<div class="call-point">
+From the original sketch:
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchFooterImage.jpg">
 <br>
 We will add links (NavList) to the center.
-<br>
+</div>
 
 <br>
 Next, we will add to your existing code in both the index.<b>html</b> AND index.<b>css</b> files to continue building on our basic web page *LAYOUT*. 
@@ -1154,10 +1225,11 @@ Copy <font color='green'>Footer</font> code below...
 ```
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> &lt;!&dash;&dash; REPLACE Point - Footer &dash;&dash;&gt; <br>
+<div class="replace-point">
+&lt;!&dash;&dash; REPLACE Point - Footer &dash;&dash;&gt; <br>
 <br>
- &lt;!&dash;&dash; END REPLACE Point - Footer &dash;&dash;&gt; <br> 
-
+&lt;!&dash;&dash; END REPLACE Point - Footer &dash;&dash;&gt; <br> 
+</div>
 <br>comments in your index.**html** file:
 <br>
 
@@ -1237,11 +1309,12 @@ The .FooterNavListItem a:hover,
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /&ast;==============================================&ast;/<br>
-/* F-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+<div class="replace-point">
+/&ast;==============================================&ast;/<br>
+/* F-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
-/* F-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
+/* F-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+</div>
 <br>comments in your index.**css** file:
 <br>
 
@@ -1300,10 +1373,11 @@ Copy <font color='green'>Section1</font> code below...
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> &lt;!&dash;&dash; REPLACE Point - Section1 &dash;&dash;&gt; <br>
+<div class="replace-point">
+&lt;!&dash;&dash; REPLACE Point - Section1 &dash;&dash;&gt; <br>
 <br>
- &lt;!&dash;&dash; END REPLACE Point -Section1 &dash;&dash;&gt; <br> 
-
+&lt;!&dash;&dash; END REPLACE Point -Section1 &dash;&dash;&gt; <br> 
+</div>
 <br>comments in your index.**html** file:
 
 
@@ -1362,11 +1436,12 @@ The .Section1ImageText::first-letter properties
 ```
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /&ast;==============================================&ast;/<br>
-/* S1-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+<div class="replace-point">
+/&ast;==============================================&ast;/<br>
+/* S1-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
-/* S1-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
+/* S1-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+</div>
 <br>comments in your index.**css** file:
 
 Like this
@@ -1417,10 +1492,11 @@ Copy <font color='green'>Section2</font> code below ...
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> &lt;!&dash;&dash; REPLACE Point - Section2 &dash;&dash;&gt; <br>
+<div class="replace-point">
+&lt;!&dash;&dash; REPLACE Point - Section2 &dash;&dash;&gt; <br>
 <br>
- &lt;!&dash;&dash; END REPLACE Point - Section2 &dash;&dash;&gt; <br> 
-
+&lt;!&dash;&dash; END REPLACE Point - Section2 &dash;&dash;&gt; <br> 
+</div>
 <br>comments in your index.**html** file:
 
 Like this
@@ -1437,11 +1513,12 @@ ___
 ### 6. Add "Wiggle" Button
 <br>
 
-> From the original sketch:<br>
+<div class="call-point">
+From the original sketch:<br>
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchWiggleImage.jpg"><br>
 We eventually want this button in the NavList to be special.<br>
 We will add some code to make it "wiggle."
-
+</div>
 <br>
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.css.jpg">
@@ -1487,11 +1564,12 @@ The @keyframes wiggle properties
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /&ast;==============================================&ast;/<br>
-/* H-5 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+<div class="replace-point">
+/&ast;==============================================&ast;/<br>
+/* H-5 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
-/* H-5 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
+/* H-5 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+</div>
 <br>comments in your index.**css** file:
 
 Like this
@@ -1505,9 +1583,9 @@ ___
 
 - Now check out the "wiggle" when you refresh your page.  Note the CTA button will wiggle 8 times, 2 seconds after the refresh.  The <font color=#A81966><b>animation</b></font> property controls this motion. Remember, CTA stands for "Call To Action."  The wiggle certainly calls for the reader's attention.
 
-> <img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/refreshButton.jpg"><br> 
-You may have to refresh your screen to activate the wiggle button for the first time.
-
+<div class="call-point">
+<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/refreshButtonGray.jpg"> You may have to refresh your screen to activate the wiggle button for the first time.
+</div>
 <br>
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicWiggleImage1.jpg">
 
@@ -1531,6 +1609,8 @@ ___
 We will fix this using "responsive" code in our index.css file with the magic of a <font color='blue'>@media</font> query.
 ____
 
+#####  Developer's Tools Discussion
+<br>
 <details class="details-style">
 <summary class="summary-style">Developer's Tools</summary>
 Most all Internet browsers have a wonderful tool called "Developer Tools."
@@ -1571,14 +1651,16 @@ ____
 #### a. NavBars 
 <br>
 
-> From the original sketch:
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicSketchHeaderImage1b.jpg"><br>
+<div class="call-point">
+From the original sketch:
+<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicSketchHeaderImage1b.jpg"><br>
 We will add our NavBars (Hamburger)
+</div>
 
 <br>
 Let's focus on the Header and how we want it to appear on a smart phone.
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasiciphoneImage1.jpg">
+<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasiciphoneImage1.jpg">
 
 - We can set, using CSS, a certain width of the "viewpoint" to where we can make changes to the appearence.  In our code we will set it at 760px.  At that width we can make the NavList (horizontal links) DISAPPEAR; and a NavBars (commonly known as a hamburger) APPEAR.
 
@@ -1616,10 +1698,11 @@ Copy <font color='green'>Header</font> code below ...
 ```        
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> &lt;!&dash;&dash; REPLACE Point - Header &dash;&dash;&gt; <br>
+<div class="replace-point">
+&lt;!&dash;&dash; REPLACE Point - Header &dash;&dash;&gt; <br>
 <br>
- &lt;!&dash;&dash; END REPLACE Point - Header &dash;&dash;&gt; <br> 
-
+&lt;!&dash;&dash; END REPLACE Point - Header &dash;&dash;&gt; <br> 
+</div>
 <br>comments in your index.**html** file:
 
 Like this
@@ -1632,8 +1715,10 @@ Like this
 <br><br>
 ____
 
+#####  Images Discussion
+<br>
 <details class="details-style">
-<summary class="summary-style">A Quick Discussion on Images</summary>
+<summary class="summary-style">Discussion on Images</summary>
 <div class="popup">
 Note in your assets/images directory you have 3 different images.<br>
     &nbsp;&nbsp;&nbsp;&nbsp;+ formr-logo-blue.gif<br>
@@ -1700,11 +1785,12 @@ The .HeaderNavBars:focus properites
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /&ast;==============================================&ast;/<br>
-/* H-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+<div class="replace-point">
+/&ast;==============================================&ast;/<br>
+/* H-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
-/* H-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
+/* H-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+</div>
 <br>comments in your index.**css** file:
 
 <br>
@@ -1718,9 +1804,11 @@ ___
 Check it out in Chrome.  
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveImage6.jpg">
 
-> The hamburger is missing?  That is because we set its display to none in the CSS code we pasted in.  
+<div class="call-point">
+The hamburger is missing?  That is because we set its display to none in the CSS code we pasted in.  
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveImage6a.jpg"><br>
 We will take care of this momentarily...
+</div>
 
 ___
 
@@ -1804,10 +1892,12 @@ The @media MAX-width (420px) query properties
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /&ast;==============================================&ast;/<br>
-/* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+<div class="replace-point">
+/&ast;==============================================&ast;/<br>
+/* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
-/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^/
+/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^/
+</div>
 <br>comments in your index.**css** file:
 
 <br>
@@ -1823,7 +1913,7 @@ Check it out in Chrome.
 The image on the left is when the Chrome window is greater than 760 pixels wide, the one on the right is less than 760.  That is "responsiveness!"
 
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage1.jpg">
+<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage1.jpg">
 
 ___
 
@@ -1835,7 +1925,7 @@ ___
 
 Compare the 2 (before and after RESPONSIVE queries)
 
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveIPhoneImage3.jpg">
+<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicResponsiveIPhoneImage3.jpg">
 
 ___
 
@@ -1917,11 +2007,12 @@ The .Section1 properites
 ```
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /*=======================================*/<br>
+<div class="replace-point">
+/*=======================================*/<br>
 /* S1R-1 REPLACE Point - .Section2 */
 <br><br>
- /* END S1R-1 .Section2 ===================*/<br> 
-
+/* END S1R-1 .Section2 =====================*/<br> 
+</div>
 <br>comments in your index.**css** file:
 
 <br>
@@ -1932,13 +2023,13 @@ Like this
 <br>
 
 ____
-
+#####  Variables Discussion
+<br>
 <details class="details-style">
-<summary class="summary-style">Variables Discussion</summary>
-
+<summary class="summary-style">Discussion on Variables</summary>
 In the above .Section1 CSS code, there were 2 properties that named variables, which were created in the <b>[:root]</b> section at the top the file.<br><br>
 The background: was set at<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"var(--Section1_background-image),"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"var(--Section1_background-color),"<br>
 which is blue, as you can see in the [:root] for Section1 section.
 <br><br>Also, the background: was set as a URL variable,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"var(--Section1_background-image)."<br>
@@ -1999,10 +2090,11 @@ Copy <font color='green'>Header</font> code below ...
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> &lt;!&dash;&dash; REPLACE Point - Header &dash;&dash;&gt; <br>
+<div class="replace-point">
+&lt;!&dash;&dash; REPLACE Point - Header &dash;&dash;&gt; <br>
 <br>
- &lt;!&dash;&dash; END REPLACE Point - Header &dash;&dash;&gt; <br> 
-
+&lt;!&dash;&dash; END REPLACE Point - Header &dash;&dash;&gt; <br> 
+</div>
 <br>comments in your index.**html** file:
 
 Like this
@@ -2062,11 +2154,12 @@ In Chrome, we have made a mess of the logo.  Be patient, we will take care of th
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /*=======================================*/<br>
+<div class="replace-point">
+/*=======================================*/<br>
 /* root REPLACE Point - :root */
 <br><br>
- /* END REPLACE :root =====================*/<br> 
-
+/* END REPLACE :root ======================*/<br> 
+</div>
 <br>comments in your index.**css** file:
 
 Like this
@@ -2126,16 +2219,17 @@ The .HeaderSpacer properites
 ```
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /&ast;==============================================&ast;/<br>
-/* H-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+<div class="replace-point">
+/&ast;==============================================&ast;/<br>
+/* H-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
-/* H-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
+/* H-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+</div>
 <br>comments in your index.**css** file:
 <br><br>
 Like this
 <br>
-<img class="shadow-border" src="FRApps/assets/images/md-images/BasicformRImage3.jpg">
+<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicformRImage3.jpg">
 
 ____
 
@@ -2220,12 +2314,13 @@ The @media MAX-width (420px) query properties
 ```
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /&ast;==============================================&ast;/<br>
-/* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+<div class="replace-point">
+/&ast;==============================================&ast;/<br>
+/* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
-/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^/
+/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^/
 <br>comments in your index.**css** file:
-
+</div>
 <br>
 
 Like this
@@ -2426,11 +2521,12 @@ In the <font color='green'>:root</font> section, copy the code below...
 ```
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /*=======================================*/<br>
+<div class="replace-point">
+/*=======================================*/<br>
 /* root REPLACE Point - :root */
 <br><br>
- /* END REPLACE :root ===================*/<br> 
-
+/* END REPLACE :root ===================*/<br> 
+</div>
 <br>comments in your index.**css** file:
 <br>
 
@@ -2498,11 +2594,12 @@ font-size: 150%;
 
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-> /&ast;==============================================&ast;/<br>
-/* S2-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+<div class="replace-point">
+/&ast;==============================================&ast;/<br>
+/* S2-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
-/* S2-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
+/* S2-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+</div>
 <br>comments in your index.**css** file:
 
 
