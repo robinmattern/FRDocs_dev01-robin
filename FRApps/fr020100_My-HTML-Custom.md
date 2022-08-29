@@ -14,7 +14,11 @@
 - [Purpose and Background](../Setup/purposes/pfr020100_fr020100_My-HTML-Custom.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
+<!--
 ____
+
+#####  Ricks Popup
+<br>
 
 <details class="details-style">
   <summary class="summary-style">Rick's First PopUp</summary>
@@ -29,6 +33,7 @@ ____
 </details>
 <hr>
 <br>
+-->
 
 #### Introduction 
 - You will be building a web site which starts with very simple index.**html** and index.**css** files.  Your repository will include both of those **empty** files plus the needed images. If you follow the directions and copy/paste each section's code, you will end up with a still simple index.html but a rather complex index.css file.
@@ -470,8 +475,10 @@ From there, the next course we will move on to add some magic with JavaScript (J
 
 ____
 
+#####  CSS Discussion
+<br>
 <details class="details-style">
-  <summary class="summary-style">Understanding CSS</summary>
+  <summary class="summary-style">Discussion on CSS</summary>
 <div class="popup">  
 To understand a <u><i>little</i></u> of this CSS code, let's look at the .Header class properties.
 <br><br>
@@ -561,7 +568,7 @@ TEST HIGH CONTRAST IMAGE
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicDarkContrastImage.jpg">
 -->
 
-> <b><span style=color:red;><font style=font-size:25px;>NOTE (for css files):<br> This is the copy/paste method we will use throughout this exercise in the index.CSS file.  The entire block will be replaced.</font></span></b>
+> <b><span class="banner">NOTE (for css files):<br> This is the copy/paste method we will use throughout this exercise in the index.CSS file.  The entire block will be replaced.</span></b>
 
 ___
 
@@ -804,7 +811,7 @@ Your work should look like this.
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage1.jpg">
 <br>
 
-> <b><span style=color:red;><font style=font-size:25px;>NOTE (for html files):<br> This is the copy/paste method we will use throughout this exercise in the index.HTML file.  The entire block will be replaced.</font></span></b>
+> <b><span class="banner">NOTE (for html files):<br> This is the copy/paste method we will use throughout this exercise in the index.HTML file.  The entire block will be replaced.</span></b>
 ___
 
 Take a quick look at Chrome and the Header.  
@@ -951,7 +958,7 @@ Replace the entire block with new code, like this.
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0d.jpg">
 
-> <b><span style=color:red;><font style=font-size:25px;>NOTE (for large blocks in the css file):<br> This is the copy/paste method we will use throughout this exercise in the index.CSS file, for large blocks of code entailing 2 or more classes.  The entire block will be replaced.</font></span></b>
+> <b><span class="banner">NOTE (for large blocks in the css file):<br> This is the copy/paste method we will use throughout this exercise in the index.CSS file, for large blocks of code entailing 2 or more classes.  The entire block will be replaced.</span></b>
 
 ___
 
@@ -1050,7 +1057,39 @@ Go back to Chrome and see the results. Notice that the 3 links on the right will
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage8.jpg">
 
-___
+____
+
+#####  FLEX Discussion
+<br>
+<details class="details-style">
+    <summary class="summary-style">
+        Discussion on FLEX
+    </summary>
+        <div class="popup">
+        One of the more powerful CSS properties is "FLEX."  We used it above to place the stacked links horizontally; in the Header and later in the Footer. Like this:<br><br>
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicConceptColumnToRow.jpg" style=border:none><br><br>  
+        Below is a short discussion on the basics of FLEX.<br>   
+        <h3>Basic concepts of flexbox</h3><br>
+        The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities. This article gives an outline of the main features of flexbox.<br><br>
+        When we describe flexbox as being one dimensional we are describing the fact that flexbox deals with layout in one dimension at a time — either as a row or as a column.<br>
+        <h3>The two axes of flexbox</h3><br>
+        When working with flexbox you need to think in terms of two axes — the main axis and the cross axis. The main axis is defined by the flex-direction property, and the cross axis runs perpendicular to it. Everything we do with flexbox refers back to these axes.  Here we will discuss the Main Axis.<br>
+        <h3>The Main Axis</h3><br>
+        The main axis is defined by flex-direction, which has four possible values:<br>
+            - row<br>
+            - row-reverse<br>
+            - column<br>
+            - column-reverse<br><br>
+        Should you choose row or row-reverse, your main axis will run along the row in the inline direction.
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicConceptsFlexRow.jpg"><br><br>
+        Choose column or column-reverse and your main axis will run from the top of the page to the bottom — in the block direction.
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicConceptFlexColumn.jpg"><br><br>
+<a href='https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox' target='_blank' title='Citation for Flex (MDN WEB DOCS)'>Citation</a>
+        </div>
+        <br>
+</details>
+
+____
 
 #### e. CTA button
 <br>
@@ -1531,6 +1570,8 @@ ___
 We will fix this using "responsive" code in our index.css file with the magic of a <font color='blue'>@media</font> query.
 ____
 
+#####  Developer's Tools Discussion
+<br>
 <details class="details-style">
 <summary class="summary-style">Developer's Tools</summary>
 Most all Internet browsers have a wonderful tool called "Developer Tools."
@@ -1632,8 +1673,10 @@ Like this
 <br><br>
 ____
 
+#####  Images Discussion
+<br>
 <details class="details-style">
-<summary class="summary-style">A Quick Discussion on Images</summary>
+<summary class="summary-style">Discussion on Images</summary>
 <div class="popup">
 Note in your assets/images directory you have 3 different images.<br>
     &nbsp;&nbsp;&nbsp;&nbsp;+ formr-logo-blue.gif<br>
@@ -1932,13 +1975,13 @@ Like this
 <br>
 
 ____
-
+#####  Variables Discussion
+<br>
 <details class="details-style">
-<summary class="summary-style">Variables Discussion</summary>
-
+<summary class="summary-style">Discussion on Variables</summary>
 In the above .Section1 CSS code, there were 2 properties that named variables, which were created in the <b>[:root]</b> section at the top the file.<br><br>
 The background: was set at<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"var(--Section1_background-image),"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"var(--Section1_background-color),"<br>
 which is blue, as you can see in the [:root] for Section1 section.
 <br><br>Also, the background: was set as a URL variable,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"var(--Section1_background-image)."<br>

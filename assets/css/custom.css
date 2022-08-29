@@ -18,17 +18,20 @@
     box-shadow: 1px 1px;
 }
 
+.banner {
+    font-size: 1.3rem;
+    color: red;
+}
+
 details {
     margin-top: 2px;
 }
 
 details.details-style {
     padding: 5px 20px 0px 20px;
-    /*padding: .2em 0;*/
     border: 1px solid blue;
     border-radius: 10px;
     background-color: aliceblue;
-    /*background-color: rgba(255,0,0,0.2);*/
     margin-bottom: 2em;
     transition: all 0.2s ease-in-out;
     max-height: 40px;
@@ -81,7 +84,38 @@ summary.summary-style {
     padding-left: 10px;
 }
 
+.popup h3 {
+    font-size: 1.3rem;
+    color: blue;
+    text-decoration: underline;
+}
+
+/*
 .ricks-popup {
     color:blue;
     text-align: center;
 }
+*/
+
+/* Responsiveness for document */
+/*-----------------------------------------
+The @media MAX-width query properties
+=========================================*/
+@media (max-width: 760px) {
+
+    .banner {
+        font-size: 1.1rem;
+    }
+
+    summary.summary-style {
+        padding: 0px 20px 0px 20px;
+        text-align: left;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .popup h3 {
+        font-size: 1.1rem;
+     }
+  }
+
