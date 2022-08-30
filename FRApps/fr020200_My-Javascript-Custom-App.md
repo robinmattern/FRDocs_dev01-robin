@@ -35,6 +35,75 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 <!-- ------------------------------------------------------------------------- -->
 
+<br>
+<div class="banner"><!-- aka a Warning Notice -->
+  <div class="banner-header">
+    <span class="google-icon">warning</span> <!-- or check -->
+    Warning: Trouble Ahead (aka banner)
+  </div>
+  
+- This is Warning notice is to state that trouble is ahead.
+
+</div>
+
+<!-- ------------------------------------------------------------------------- -->
+
+<br>
+<div class="call-point"><!-- aka a Tip Notice -->
+  <div class="call-point-header">
+    <span class="google-icon">check_box</span> <!-- or check -->
+    Tip: Copy and Paste (aka Call Point)
+  </div>
+
+<!--<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicCopyHTML.gif">-->
+<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicCopyCSS.gif">
+
+There will be 3 different methods for copy/paste:<br>
+- HTML
+- CSS Class
+- CSS Multiple Classes (2 or more)
+
+Each method will be fully discussed at the first instance you encounter them.
+</div>
+
+<!-- ------------------------------------------------------------------------- -->
+
+<br>
+Here is an example of copying some CSS Class styles into your custom index.css file.  
+The actual style definitions are between the comments, but when you click on the copy button
+all the comments will be c opied too. 
+<br><br>
+
+<div class="replace-point">
+/*=======================================*/<br>
+/* HR-1 REPLACE Point - .Header */
+
+```css
+.Header {
+   background: var(--Header-background-color);
+   width     : 100%; /* was 300px; */
+   height    : 95px; 
+   position  : fixed;
+   z-index   : 100; 
+   }
+```
+ /* END HR-1 .Header =======================*/<br> 
+</div>
+
+<!-- ------------------------------------------------------------------------- -->
+
+<br>
+Below is an animated .gif showing how to copy and then paste the code, using the `ctrl-v` keys, into your `index.css` file, shown on the right.
+
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicCopyPasteCSS_2.gif">
+
+<br>
+After pasting the entire block with new code, it will look like this.
+
+<img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4a.jpg"><br>
+
+<!-- ------------------------------------------------------------------------- -->
+
 ### 1. From VSCode open and run the 1c-html-custom-app 0:05
  
 
