@@ -5,12 +5,12 @@
 [BACK - Clone FRApps](/Setup/fr0103_Clone-FR-Apps.md)
 </div><div class="page-next">
 
-[Custom FRApps React - NEXT](/Setup/fr0105_Custom-FR-Apps-React.md)
+[Custom FRApps React - NEXT](/Setup/fr020300_My-React-Custom-App.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.4 Custom FRApps HTML 0:45 <!-- {docsify-ignore} -->
+## 3.2 My Javascript Custom App 0:00 <!-- {docsify-ignore} -->
 - [Purpose and Background](../Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
@@ -19,23 +19,24 @@
 
 - Your first customization will be done using only html, css and javascript. 
 
-#### Important note about names, capitalization, pictures and code copying
+<!-- ------------------------------------------------------------------------- -->
+
+<details class="details-style">
+  <summary class="summary-style">Discussion: Capitalization of Links and File Names</summary>
+  <div class="popup">
+
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 - We recommend that you copy and paste code snippets from the documentation into your workstation/server. This will reduce the errors caused by hand typing.
 Hover over the snippet and click copy, then paste as appropriate.
 
+  </div>  
+</details>
 
-----
-
+<!-- ------------------------------------------------------------------------- -->
 
 ### 1. From VSCode open and run the 1c-html-custom-app 0:05
-----
-
-
-----
-
-
+ 
 
 <!-- ------------------------------------------------------------------------- -->
 
@@ -44,7 +45,8 @@ Hover over the snippet and click copy, then paste as appropriate.
 [BACK - Clone FRApps](/Setup/fr0103_Clone-FR-Apps.md)
 </div><div class="page-next">
 
-[Custom FRApps React - NEXT](/Setup/fr0105_Custom-FR-Apps-React.md)
+[Custom FRApps React - NEXT](/Setup/fr020300_My-React-Custom-App.md)
+
 </div>
 
 
