@@ -28,9 +28,37 @@ Hover over the snippet and click copy, then paste as appropriate.
 ----
 ### 1. Create a new user, Local_Admin, on your workstation. 0:10
 ----
-- This account will be used througout the documentation. 
 
-- IMPORTANT--If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+<details class="details-style">
+    <summary class="summary-style">
+        More Info - Accounts 1
+        <div class="popup">
+
+- This account will be used throughout the documentation.
+</details>
+
+
+<details class="details-style">
+    <summary class="summary-style">
+        More Info - Accounts 2
+        <div class="popup">
+
+#### This account will be used throughout the documentation.
+</details>
+
+<div class="call-point">
+
+- IMPORTANT 1 - If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+</div>
+
+<div class="call-point">
+
+### IMPORTANT  2
+#### If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+</div>
+
+
+- IMPORTANT 3                   - If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
 
 #### 1. Login to your Windows account
 
