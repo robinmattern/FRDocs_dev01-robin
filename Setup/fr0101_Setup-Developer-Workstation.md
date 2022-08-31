@@ -32,18 +32,24 @@ Hover over the snippet and click copy, then paste as appropriate.
 <details class="details-style">
     <summary class="summary-style">
         More Info - Accounts 1
-        <div class="popup">
+    </summary>
+    <div class="popup">
 
-- This account will be used throughout the documentation.
+- This account will be used throughout the documentation.  
+
+</div>
 </details>
 
 
 <details class="details-style">
     <summary class="summary-style">
         More Info - Accounts 2
+    </summary>
         <div class="popup">
 
-#### This account will be used throughout the documentation.
+## This account will be used throughout the documentation.
+  
+</div>
 </details>
 
 <div class="call-point">
@@ -57,8 +63,19 @@ Hover over the snippet and click copy, then paste as appropriate.
 #### If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
 </div>
 
+<div class="banner">
 
-- IMPORTANT 3                   - If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+- IMPORTANT 3 - If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+</div>
+
+<div class="banner">
+
+### IMPORTANT  4
+#### If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+</div>
+
+
+- IMPORTANT 5                   - If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
 
 #### 1. Login to your Windows account
 
