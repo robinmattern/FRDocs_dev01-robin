@@ -21,9 +21,9 @@
 
 <!-- ------------------------------------------------------------------------- -->
 
-<details class="details-style">
-  <summary class="summary-style">Discussion: Capitalization of Links and File Names</summary>
-  <div class="popup">
+<details class="notice-info">
+  <summary class="notice-info-header">Discussion: Capitalization of Links and File Names</summary>
+  <div class="notice-info-popup">
 
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
@@ -35,11 +35,10 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 <!-- ------------------------------------------------------------------------- -->
 
-<br>
-<div class="banner"><!-- aka a Warning Notice -->
-  <div class="banner-header">
+<div class="notice-warning"><!-- aka a Warning Notice -->
+  <div class="notice-warning-header">
     <span class="google-icon">warning</span> <!-- or check -->
-    Warning: Trouble Ahead (aka banner)
+    Warning: Trouble Ahead  
   </div>
   
 - This is Warning notice is to state that trouble is ahead.
@@ -48,11 +47,10 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 <!-- ------------------------------------------------------------------------- -->
 
-<br>
-<div class="call-point"><!-- aka a Tip Notice -->
-  <div class="call-point-header">
+<div class="notice-tip">
+  <div class="notice-tip-header">
     <span class="google-icon">check_box</span> <!-- or check -->
-    Tip: Copy and Paste (aka Call Point)
+    Tip: Copy and Paste  
   </div>
 
 <!--<img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicCopyHTML.gif">-->
@@ -71,10 +69,10 @@ Each method will be fully discussed at the first instance you encounter them.
 <br>
 Here is an example of copying some CSS Class styles into your custom index.css file.  
 The actual style definitions are between the comments, but when you click on the copy button
-all the comments will be c opied too. 
+all the comments will be copied too. 
 <br><br>
 
-<div class="replace-point">
+<div class="replace-code-point">
 /*=======================================*/<br>
 /* HR-1 REPLACE Point - .Header */
 

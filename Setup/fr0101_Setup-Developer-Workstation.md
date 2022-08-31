@@ -27,53 +27,78 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 ----
 ### 1. Create a new user, Local_Admin, on your workstation. 0:10
-----
 
-<details class="details-style">
-    <summary class="summary-style">
+<!-- ---------------------------------------------------------------------- -->
+
+<details class="notice-info">
+    <summary class="notice-info-header">
         More Info - Accounts 1
     </summary>
-    <div class="popup">
+    <div class="notice-info-popup">
 
 - This account will be used throughout the documentation.  
 
-</div>
+    </div>
 </details>
 
 
-<details class="details-style">
-    <summary class="summary-style">
+<details class="notice-info">
+  <summary class="notice-info-header">
         More Info - Accounts 2
-    </summary>
-        <div class="popup">
+  </summary>
+  <div class="notice-info-popup">
 
 ## This account will be used throughout the documentation.
-  
-</div>
+This is some text
+
+  </div>
 </details>
 
-<div class="call-point">
+<!-- ---------------------------------------------------------------------- -->
 
-- IMPORTANT 1 - If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    <span class="google-icon">check_box</span> <!-- or check -->
+    Tip: IMPORTANT 1 
+  </div>
+
+- If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
 </div>
 
-<div class="call-point">
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    <span class="google-icon">check_box</span> <!-- or check -->
+    Tip: IMPORTANT 2 
+  </div>
 
-### IMPORTANT  2
 #### If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
 </div>
 
-<div class="banner">
+<!-- ---------------------------------------------------------------------- -->
 
-- IMPORTANT 3 - If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+<div class="notice-warning">
+  <div class="notice-warning-header">
+    <span class="google-icon">warning</span>     
+      IMPORTANT 3  
+  </div>
+
+If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name. 
+
 </div>
 
-<div class="banner">
 
-### IMPORTANT  4
-#### If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+<div class="notice-warning">
+  <div class="notice-warning-header">
+    <span class="google-icon">warning</span> <!-- or check -->
+      IMPORTANT  4
+  </div>
+
+#### If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.   
+<br>   
+
 </div>
 
+<!-- ---------------------------------------------------------------------- -->
 
 - IMPORTANT 5                   - If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
 
