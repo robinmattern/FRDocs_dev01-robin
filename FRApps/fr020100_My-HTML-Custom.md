@@ -12,7 +12,10 @@
 
 ## 3.1 My HTML Custom App h:mm <!-- {docsify-ignore} -->
 - [Purpose and Background](../Setup/purposes/pfr020100_fr020100_My-HTML-Custom.md)
-- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
+
+<div class="banner">
+
+Tip: [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
 <!--
 ____
