@@ -11,9 +11,18 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 2.5 Install Data Server 0:25 <!-- {docsify-ignore} -->
+<div class="notice-tip">
+
+  <div class="notice-tip-header">
+    <span class="google-icon">check_box</span> <!-- or check -->
+    Tip: See the Background for this Section
+  </div>
+
 - [Purpose and Background](../Setup/purposes/pfr0305_Setup-Data-Server-Ubuntu.md)
+</div>
 
 <div class="notice-tip">
+
   <div class="notice-tip-header">
     <span class="google-icon">check_box</span> <!-- or check -->
     Tip: Use Discord  for Your Comments 

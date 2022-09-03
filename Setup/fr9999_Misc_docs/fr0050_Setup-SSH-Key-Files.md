@@ -12,9 +12,18 @@ BACK
 <!-- ------------------------------------------------------------------------- -->
 
 ## 1.1. Uses of SSH Keys  <!-- {docsify-ignore} -->
+<div class="notice-tip">
+
+  <div class="notice-tip-header">
+    <span class="google-icon">check_box</span> <!-- or check -->
+    Tip: See the Background for this Section
+  </div>
+
 - [Purpose and Background](/SetUp/purposes/pfr0101_Setup-Developer-Workstation.md)
+</div>
 
 <div class="notice-tip">
+
   <div class="notice-tip-header">
     <span class="google-icon">check_box</span> <!-- or check -->
     Tip: Use Discord  for Your Comments 

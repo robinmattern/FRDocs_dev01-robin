@@ -13,9 +13,18 @@
 
 
 ## 3.6 Run User Administration <!-- {docsify-ignore} -->
+<div class="notice-tip">
+
+  <div class="notice-tip-header">
+    <span class="google-icon">check_box</span> <!-- or check -->
+    Tip: See the Background for this Section
+  </div>
+
 - [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
+</div>
 
 <div class="notice-tip">
+
   <div class="notice-tip-header">
     <span class="google-icon">check_box</span> <!-- or check -->
     Tip: Use Discord  for Your Comments 

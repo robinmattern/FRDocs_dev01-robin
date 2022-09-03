@@ -12,9 +12,18 @@
 
 
 ## 2.4 Install App Server 0:25 <!-- {docsify-ignore} -->
+<div class="notice-tip">
+
+  <div class="notice-tip-header">
+    <span class="google-icon">check_box</span> <!-- or check -->
+    Tip: See the Background for this Section
+  </div>
+
 - [Purpose and Background](../Setup/purposes/pfr0304_Setup-App-Server-Ubuntu.md)
+</div>
 
 <div class="notice-tip">
+
   <div class="notice-tip-header">
     <span class="google-icon">check_box</span> <!-- or check -->
     Tip: Use Discord  for Your Comments 

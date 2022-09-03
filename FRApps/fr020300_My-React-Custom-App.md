@@ -11,9 +11,18 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 1.5 Custom FRApps React 0:45 <!-- {docsify-ignore-all} -->
+<div class="notice-tip">
+
+  <div class="notice-tip-header">
+    <span class="google-icon">check_box</span> <!-- or check -->
+    Tip: See the Background for this Section
+  </div>
+
 - [Purpose and Background](../Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
+</div>
 
 <div class="notice-tip">
+
   <div class="notice-tip-header">
     <span class="google-icon">check_box</span> <!-- or check -->
     Tip: Use Discord  for Your Comments 
