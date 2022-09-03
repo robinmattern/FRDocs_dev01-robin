@@ -15,15 +15,19 @@
 ## 3.3 Deploy formR <!-- {docsify-ignore} -->
 - [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
 
-<div class="banner">
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    <span class="google-icon">check_box</span> <!-- or check -->
+    Tip: Use Discord  for Your Comments 
+  </div>
 
-Tip: [Enter Comments in Discord](https://discord.com/channels/928752444316483585/959889116416319519)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/959889116416319519)
 </div>
 
 #### Introduction <!-- {docsify-ignore} -->
 
 
-#### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
+#### More Info: About names, capitalization, pictures and code copying capitalization, pictures and code copying <!-- {docsify-ignore} -->
 - In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 

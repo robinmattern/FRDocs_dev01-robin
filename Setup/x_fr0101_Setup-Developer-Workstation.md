@@ -13,10 +13,16 @@
 ## 1.1 Build Workstation 2:30 <!-- {docsify-ignore} -->
 - [Purpose and Background](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)  
 
-<div class="banner">
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    <span class="google-icon">check_box</span> <!-- or check -->
+    Tip: Use Discord  for Your Comments
+  </div>
 
-Tip: [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)  
 </div>
+
+
 
 #### Introduction <!-- {docsify-ignore} -->- The following steps create the development environment on your workstation for developing an MERN stack (MYSql, Express, React and Node) application. 
 
@@ -39,79 +45,19 @@ Hover over the snippet and click copy, then paste as appropriate.
 ----
 ### 1. Create a new user, Local_Admin, on your workstation. 0:10
 
-<!-- ---------------------------------------------------------------------- -->
 
-<details class="notice-info">
-    <summary class="notice-info-header">
-        More Info - Accounts 1
-    </summary>
-    <div class="notice-info-popup">
-
-- This account will be used throughout the documentation.  
-
-    </div>
-</details>
-
-
-<details class="notice-info">
-  <summary class="notice-info-header">
-        More Info - Accounts 2
-  </summary>
-  <div class="notice-info-popup">
-
-## This account will be used throughout the documentation.
-This is some text
-
-  </div>
-</details>
-
-<!-- ---------------------------------------------------------------------- -->
-
-<div class="notice-tip">
-  <div class="notice-tip-header">
-    <span class="google-icon">check_box</span> <!-- or check -->
-    Tip: IMPORTANT 1 
-  </div>
-
-- If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
-</div>
-
-<div class="notice-tip">
-  <div class="notice-tip-header">
-    <span class="google-icon">check_box</span> <!-- or check -->
-    Tip: IMPORTANT 2 
-  </div>
-
-#### If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
-</div>
-
-<!-- ---------------------------------------------------------------------- -->
 
 <div class="notice-warning">
   <div class="notice-warning-header">
     <span class="google-icon">warning</span>     
-      IMPORTANT 3  
+<!-- or check -->
+    Warning: 
   </div>
 
-If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name. 
-
+- This account will be used throughout the documentation.  
+- It is not recommened to use anoyher account, but if you do so, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
 </div>
 
-
-<div class="notice-warning">
-  <div class="notice-warning-header">
-    <span class="google-icon">warning</span> <!-- or check -->
-      IMPORTANT  4
-  </div>
-
-#### If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.   
-<br>   
-
-</div>
-
-<!-- ---------------------------------------------------------------------- -->
-
-- IMPORTANT 5                   - If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
 
 #### 1. Login to your Windows account
 

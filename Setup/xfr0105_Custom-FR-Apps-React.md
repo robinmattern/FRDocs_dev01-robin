@@ -13,9 +13,13 @@
 ## 1.5 Custom FRApps React 0:45 <!-- {docsify-ignore} -->
 - [Purpose and Background](../Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 
-<div class="banner">
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    <span class="google-icon">check_box</span> <!-- or check -->
+    Tip: Use Discord  for Your Comments 
+  </div>
 
-Tip: [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
 #### Introduction <!-- {docsify-ignore} -->  
 - Blah
@@ -25,7 +29,7 @@ Tip: [Enter Comments in Discord](https://discord.com/channels/928752444316483585
 
 <details class="details-style">
     <summary class="summary-style">
-Important note about names, capitalization, pictures and code copying
+More Info: About names, capitalization, pictures and code copying capitalization, pictures and code copying
     </summary>
     <div class="popup">
 
