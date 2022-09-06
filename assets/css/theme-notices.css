@@ -5,15 +5,15 @@
 
 :root {
     --discussion-border-color       : blue;
-    --discussion-background-color   : aliceblue;    
+    --discussion-background-color   : rgb(245, 250, 255);    
     --discussion-text-color         : blue;
 
     --tip-border-color              : green;    /* .(20830.04.1 RAM Was: red;) */
-    --tip-background-color          : rgba(210, 247, 213, 0.847);
+    --tip-background-color          : rgba(235, 248, 236, 0.847);
     --tip-text-color                : green;
 
     --warning-border-color          : red;
-    --warning-background-color      : rgba(250, 232, 232, 0.776);
+    --warning-background-color      : rgba(253, 241, 241, 0.776);
     --warning-text-color            : red;
 
     --replace-border-color          : black;    /* .(20830.04.2 RAM Was: red;) */  
