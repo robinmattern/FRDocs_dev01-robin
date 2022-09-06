@@ -2,16 +2,15 @@
 
 <div class="page-back">
 
-[BACK - Use Your Own Data](/formR/fr0501_Use-Your_Qwn_Data.md)
-</div><div class="page-next disabled">
+[BACK - Clone FRApps](/Setup/fr0103_Clone-FR-Apps.md)
+</div><div class="page-next">
 
-
-</div><div style="margin-top:35px">&nbsp;</div>
-
+[Custom FRApps React - NEXT](/Setup/fr0105_Custom-FR-Apps-React.md)
+</div><div style="margin-top:35px">&nbsp;</div> 
+ 
 <!-- ------------------------------------------------------------------------- -->
 
-
-## 4.2 Deploy Your Own App <!-- {docsify-ignore} -->
+## 1.4 Custom FRApps HTML 0:45 <!-- {docsify-ignore} -->
 <div class="notice-tip">
 
   <div class="notice-tip-header">
@@ -19,7 +18,7 @@
     Tip: See the Background for this Section
   </div>
 
-- [Purpose and Background](../Setup/purposes/pfr0307_Setup-React-Apps-Ubuntu.md)
+- [Purpose and Background](../Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 </div>
 
 <div class="notice-tip">
@@ -29,11 +28,12 @@
     Tip: Use Discord  for Your Comments 
   </div>
 
-- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/959890078266699813)
-</div>
+- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
-#### Introduction <!-- {docsify-ignore} -->
+#### Introduction <!-- {docsify-ignore} -->  
+- The following steps use the repo: FRApps_dev. Customization of your web apps will be done here. You will create an FRApps_dev repo in your pewrsonal github account. You will be able to Push and Pull as you develop your apps.
 
+- Your first customization will be done using only html, css and javascript. 
 
 <details class="details-style">
     <summary class="summary-style">
@@ -50,18 +50,25 @@ Hover over the snippet and click copy, then paste as appropriate.
 </details>
 
 
-# Not Ready Yet
+----
 
-![Not Ready Yet](./images/fr0000-01_not-ready.png "Not Ready Yet")
+
+### 1. From VSCode open and run the 1c-html-custom-app 0:05
+----
+
+
+----
+
+
 
 <!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
 
-[BACK - Use Your Own Data](/formR/fr0501_Use-Your_Qwn_Data.md)
-</div><div class="page-next disabled">
+[BACK - Clone FRApps](/Setup/fr0103_Clone-FR-Apps.md)
+</div><div class="page-next">
 
-
+[Custom FRApps React - NEXT](/Setup/fr0105_Custom-FR-Apps-React.md)
 </div>
 
-<!-- ------------------------------------------------------------------------- -->
+

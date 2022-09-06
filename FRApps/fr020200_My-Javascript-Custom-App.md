@@ -11,6 +11,13 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 3.2 My Javascript Custom App 0:00 <!-- {docsify-ignore} -->
+<div class="notice-tip">
+
+  <div class="notice-tip-header">
+    <span class="google-icon">check_box</span> <!-- or check -->
+    Tip: See the Background for this Section
+  </div>
+
 - [Purpose and Background](../Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md)
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
 
@@ -46,8 +53,10 @@ Hover over the snippet and click copy, then paste as appropriate.
 </div>
 
 <!-- ------------------------------------------------------------------------- -->
+</div>
 
 <div class="notice-tip">
+
   <div class="notice-tip-header">
     <span class="google-icon">check_box</span> <!-- or check -->
     Tip: Copy and Paste  
