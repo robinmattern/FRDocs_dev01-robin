@@ -31,20 +31,20 @@ Hover over the snippet and click copy, then paste as appropriate.
 <!-- ---------------------------------------------------------------------- -->
 
 <details class="notice-info">
-    <summary class="notice-info-header">
-        More Info - Accounts 1
-    </summary>
-    <div class="notice-info-popup">
+  <summary class="notice-info-header">
+    More Info: Accounts 1
+  </summary>
+  <div class="notice-info-popup">
 
 - This account will be used throughout the documentation.  
 
-    </div>
+  </div>
 </details>
 
 
 <details class="notice-info">
   <summary class="notice-info-header">
-        More Info - Accounts 2
+    More Info: Accounts 2
   </summary>
   <div class="notice-info-popup">
 
@@ -57,8 +57,9 @@ This is some text
 <!-- ---------------------------------------------------------------------- -->
 
 <div class="notice-tip">
+
   <div class="notice-tip-header">
-    <span class="google-icon">check_box</span> <!-- or check -->
+    <span class="google-icon">check</span> <!-- or check -->
     Tip: IMPORTANT 1 
   </div>
 
@@ -67,11 +68,26 @@ This is some text
 
 <div class="notice-tip">
   <div class="notice-tip-header">
-    <span class="google-icon">check_box</span> <!-- or check -->
-    Tip: IMPORTANT 2 
+    <span class="google-icon">account_circle</span> <!-- or check -->
+    Tip: IMPORTANT 2  Save your password
   </div>
 
-#### If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+</div>
+
+<!-- ---------------------------------------------------------------------- -->
+
+<div class="notice-success">
+  <div class="notice-success-header">Success 1: (one liner)</div>
+</div>
+
+<div class="notice-success">
+  <div class="notice-success-header">Success 2: (multi liner)</div>
+
+ Some text
+  - one
+  - two
+  - three
+
 </div>
 
 <!-- ---------------------------------------------------------------------- -->
@@ -79,7 +95,7 @@ This is some text
 <div class="notice-warning">
   <div class="notice-warning-header">
     <span class="google-icon">warning</span>     
-      IMPORTANT 3  
+      Warning: IMPORTANT 3  
   </div>
 
 If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name. 
@@ -90,7 +106,7 @@ If you use another account, it cannot contain spaces in the name. This tutorial 
 <div class="notice-warning">
   <div class="notice-warning-header">
     <span class="google-icon">warning</span> <!-- or check -->
-      IMPORTANT  4
+      Warning: IMPORTANT  4
   </div>
 
 #### If you use another account, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.   
