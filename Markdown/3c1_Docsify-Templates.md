@@ -42,7 +42,8 @@ Some text
 
 #### A Heading  
 <br>
-  Some text
+Some text
+
 - Bullet1
 - Bullet2
 
