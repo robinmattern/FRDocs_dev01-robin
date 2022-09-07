@@ -4,7 +4,7 @@
  <div class="md-title" style="font-size:24px;">by J. Scripter</div>
  <div class="md-subtitle">(June 3, 2022)</div>
 
-# Intoduction 
+# Introduction 
 
   .markdown-section p: regular text.  The quick brown fox jumped over the lazy dog.
   The quick brown fox jumped over the lazy dog.
@@ -36,9 +36,9 @@ Some text
 
 <details class="notice-info">
   <summary class="notice-info-header">
-    More Info: Multi-line popup
+    More Info: Multi-line popup with a very long dummary hear / title
   </summary>
-  <div class="notice-info-popup">
+  <div class="notice-info-popup"><br >
 
 #### A Heading  
 <br>
@@ -67,7 +67,6 @@ Some more text
     Warning: Multi-line notice 
   </div>
 
-Some text
 - Bullet1
 - Bullet2   
 
