@@ -41,7 +41,8 @@
 1. [Introduction        ](/Markdown/0c1_Intro.md                "FRDocs 1 - Markdown Introduction" )
 2. [Markdown Examples   ](/Markdown/1c1_Markdown-Examples.md    "FRDocs 1.1 - Markdown Examples"   )
 3. [CSS Variables       ](/Markdown/2c1_CSS-Variables.md        "FRDocs 1.2 - CSS Examples"        )
-4. [Headings Sample     ](/Markdown/3c1_Headings-Sample.md      "FRDocs 1.3 - Headings Sample"     )
+4. [Docsify Templates   ](/Markdown/3c1_Docsify-Templates.md    "FRDocs 1.3 - Docsify Templates"   )
+5. [FormR Example       ](/Markdown/4c1_Docsify-Example.md      "FRDocs 1.4 - FormR Example"       )
 
 <h>7. Collaborate with Discord</h>
 

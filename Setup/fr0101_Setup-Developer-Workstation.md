@@ -31,8 +31,6 @@
 - [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)  
 </div>
 
-
-
 #### Introduction <!-- {docsify-ignore} -->
 - The following steps create the development environment on your workstation for developing an MERN stack (MySql, Express, React and Node) application. 
 
@@ -57,8 +55,6 @@ Hover over the snippet and click copy, then paste as appropriate.
 ----
 ### 1. Create a new user, Local_Admin, on your workstation. 0:10
 
-
-
 <div class="notice-warning">
   <div class="notice-warning-header">
     <span class="google-icon">warning</span>     
@@ -69,7 +65,6 @@ Hover over the snippet and click copy, then paste as appropriate.
 - This account will be used throughout the documentation.  
 - It is not recommened to use anoyher account, but if you do so, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
 </div>
-
 
 #### 1. Login to your Windows account
 
