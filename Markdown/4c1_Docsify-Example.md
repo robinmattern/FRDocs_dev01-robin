@@ -37,7 +37,8 @@
 
 <details class="notice-info">
   <summary class="notice-info-header">
-    More Info: About names, capitalization, pictures and code copying
+    More Info: Names, Caps, Picts, Code Copy
+
   </summary>
   <div class="notice-info-popup">
 

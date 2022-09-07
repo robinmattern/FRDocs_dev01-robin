@@ -12,23 +12,15 @@
 
 ## 1.1 Build Workstation 2:30 <!-- {docsify-ignore} -->
 <div class="notice-tip">
-
   <div class="notice-tip-header">
-    <span class="google-icon">check_box</span> <!-- or check -->
-    Tip: See the Background for this Section
-  </div>
-
-- [Purpose and Background](../Setup/purposes/pfr0101_Setup-Developer-Workstation.md)  
+    Tip: <a href="../Setup/purposes/pfr0101_Setup-Developer-Workstation.md" target="_blank">Link to Background and Purposes</a> 
+  </div>  
 </div>
 
 <div class="notice-tip">
-
   <div class="notice-tip-header">
-    <span class="google-icon">check_box</span> <!-- or check -->
-    Tip: Use Discord  for Your Comments
-  </div>
-
-- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)  
+    Tip: <a href="https://discord.com/channels/928752444316483585/932678480863305770" target="_blank">Link to Discord for Your Comments</a> 
+  </div>  
 </div>
 
 #### Introduction <!-- {docsify-ignore} -->
@@ -38,7 +30,7 @@
 
 <details class="notice-info">
     <summary class="notice-info-header">
-More Info: About names, capitalization, pictures and code copying
+More Info: Names, Caps, Picts, Code Copy
     </summary>
     <div class="notice-info-popup">
 
@@ -57,13 +49,12 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 <div class="notice-warning">
   <div class="notice-warning-header">
-    <span class="google-icon">warning</span>     
-<!-- or check -->
-    Warning: 
+    Warning: Use the Account: Local_Admin
   </div>
 
 - This account will be used throughout the documentation.  
-- It is not recommened to use anoyher account, but if you do so, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+- It is not recommened to use another account, but if you do so, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
+
 </div>
 
 #### 1. Login to your Windows account

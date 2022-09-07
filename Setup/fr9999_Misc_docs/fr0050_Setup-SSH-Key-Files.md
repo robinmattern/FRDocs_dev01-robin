@@ -13,23 +13,14 @@ BACK
 
 ## 1.1. Uses of SSH Keys  <!-- {docsify-ignore} -->
 <div class="notice-tip">
-
   <div class="notice-tip-header">
-    <span class="google-icon">check_box</span> <!-- or check -->
-    Tip: See the Background for this Section
-  </div>
-
-- [Purpose and Background](/SetUp/purposes/pfr0101_Setup-Developer-Workstation.md)
+    Tip: <a href="/SetUp/purposes/pfr0101_Setup-Developer-Workstation.md" target="_blank">Link to Background and Purposes</a> 
+  </div>  
 </div>
 
 <div class="notice-tip">
-
   <div class="notice-tip-header">
-    <span class="google-icon">check_box</span> <!-- or check -->
-    Tip: Use Discord  for Your Comments 
-  </div>
-
-- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/932678480863305770)
+    Tip: <a href="https://discord.com/channels/928752444316483585/932678480863305770)
 
 ## A1. Uses of SSH Keys  <a href="purposes/pfr0101_Setup-Developer-Workstation.md"><img src="../assets/mdi-question-mark-circle-blue.svg" style="width:25px; block:inline;" onclick="return opnPurpose()"></a>
 
