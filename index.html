@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 
 <div id="app">Please wait...</div>
@@ -21,9 +21,7 @@
          <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Lato|Roboto+Slab&display=swap" rel="stylesheet">
          <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
 
-    <!-- 1. Theme -->
-    <link rel="stylesheet" href="assets/css/theme-simple.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <!-- 1. Docsify Themes -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple-dark.css"> -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-defaults.css"> -->
 
@@ -31,10 +29,13 @@
     <!-- <link rel="stylesheet" href="https://unpkg.com/prism-github/prism-github.css"> -->
     <!-- <link rel="stylesheet" href="https://unpkg.com/prism-theme-one-dark/prism-onedark.css"> -->
 
-    <!-- 3. Custom Theme Properties -->
-    <!-- Custom theme stylesheet -->
-    <!--     <link rel="stylesheet" href="theme-custom.css">-->
-<link rel="stylesheet" href="assets/css/theme-simple-vars.css">
+    <!-- 3. Custom Themes -->
+    <!-- <link rel="stylesheet" href="theme-custom.css">-->
+         <link rel="stylesheet" href="assets/css/theme-simple.css">
+         <link rel="stylesheet" href="assets/css/theme-simple-vars.css">
+         <link rel="stylesheet" href="assets/css/theme-notices.css">    <!-- .(20830.02.1 RAM New styles) -->
+    <!-- <link rel="stylesheet" href="assets/css/custom.css"> -->       <!--#.(20830.02.2 RAM Was: Rick's popup styles) -->
+         <link rel="stylesheet" href="assets/css/custom-rick.css">      <!-- .(20831.01.1 RAM Rick's popup styles) -->
 
 </head>
 
@@ -52,7 +53,10 @@
      //     autoHeader   :  true,
             auto2top     :  true,
      //     maxLevel     :  3,
-            subMaxLevel  :  5,
+
+     //     subMaxLevel  :  5,     //#.(20829.01.1 RJS Set to 5 for development) 
+            subMaxLevel  :  3,     // .(20829.01.2 RAM Set back to 3) 
+
             loadNavbar   :  false, // .(10724.01.1 RAM Was: true)
             mergeNavbar  :  false, // .(10724.01.2 RAM Was: true)
             formatUpdated: '{MM}/{DD}/{YYYY}',
