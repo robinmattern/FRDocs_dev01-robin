@@ -1,0 +1,391 @@
+/*Content Reference ***IMPORTANT*/
+/*https://www.w3schools.com/icons/icons_reference.asp*/
+
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bookman Old Style');
+@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+
+/*Variables*/
+:root {
+    --Border-Curves-Main: 5px;
+    --Border-Curves-Top: 20px;
+    --Border-Curves-Right: 1px;  
+    --Callout-Padding: 10px 10px 10px 10px;    
+}
+
+/*for sizing the copy image*/
+.copy-image {
+    width: 8%
+}
+
+/*Used only around the original sketch*/
+.green-border {
+    background-color: #DCDCDC;
+    border: 2px solid green;
+    border-radius: var(--Border-Curves-Main);
+    border-top-left-radius: var(--Border-Curves-Top);
+    border-bottom-right-radius: var(--Border-Curves-Right);
+    padding: 10px;
+}
+
+/*For most MD images*/
+.shadow-border {
+    border: 1px solid;
+    /*box-shadow: 5px 10px;*/
+}
+
+/*For some MD images*/
+.no-border {
+    border: none;
+    border-radius: 5px;
+}
+
+/*to make blueNSX look stylish*/
+.author {
+    border: 2px cornflowerblue solid;
+    border-radius: var(--Border-Curves-Main);
+    border-top-left-radius: var(--Border-Curves-Top);
+    border-bottom-right-radius: var(--Border-Curves-Right);
+    box-shadow: 3px 3px #0F52BA;
+    font-size: 1.3rem;
+    background-color: whitesmoke;
+    color: blue;
+    font-weight: bold;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.author-image {
+    width: 15%;
+}
+
+/*gives shape and color to all horizontal lines*/
+hr {
+    border: none;
+    height: 3px;
+    color: #DCDCDC;
+    background-color: #DCDCDC;
+}
+
+/*creates a nice wide horizontal line at main divisions*/
+.main-division  {
+    border: 5px solid #DCDCDC;
+}
+
+/* Call Outs */
+/* Call Out for the 3 copy/paste instructions */
+.callout-copy {
+    padding: var(--Callout-Padding);
+    background-color: #DCDCDC;
+    border: 2px solid red;
+    border-radius: var(--Border-Curves-Main);
+    border-top-left-radius: var(--Border-Curves-Top);
+    border-bottom-right-radius: var(--Border-Curves-Right);      
+    font-size: 1.3rem;
+    color: red;
+}
+
+.callout-copy::before {
+    font-family: "Font Awesome 5 Free";
+	font-weight: 800;
+	content: "\f0a4  NOTE!";
+    color: red;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+/* Call Out for instructional tips */
+.callout-tip {
+    padding: var(--Callout-Padding);
+    background-color: gainsboro;
+    border: 2px solid green;
+    border-radius: var(--Border-Curves-Main);
+    border-top-left-radius: var(--Border-Curves-Top);
+    border-bottom-right-radius: var(--Border-Curves-Right);    
+    font-size: 1rem;
+    color: green;
+}
+
+.callout-tip::before {
+    font-family: "Font Awesome 5 Free";
+	font-weight: 800;
+	content: "\f14a  TIP! \A";
+    white-space: pre;
+    color: green;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+/* Call Out for Code WARNINGS */
+.callout-code-warning {
+    padding: var(--Callout-Padding);
+    background-color: #DCDCDC;
+    border: 2px solid red;
+    border-radius: var(--Border-Curves-Main);
+    border-top-left-radius: var(--Border-Curves-Top);
+    border-bottom-right-radius: var(--Border-Curves-Right);   
+    font-size: 1rem;
+    font-weight: 500;
+    color: red;
+}
+
+.callout-code-warning::before {
+    font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	content: "\f071  IMPORTANT! \A";
+    white-space: pre;
+    color: red;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+/*For the copy code with image blurb instructions*/
+.copy-code {
+    color: red;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.copy-code::before {
+    font-family: "Font Awesome 5 Free";
+	font-weight: normal;
+	content: "\f2d2 \A";
+}
+
+/*For the last and final CONGRATULATINS*/
+.final {
+    padding: var(--Callout-Padding);
+    background-color:lightyellow;
+    border: 2px solid goldenrod;
+    border-radius: var(--Border-Curves-Main);
+    border-top-left-radius: var(--Border-Curves-Top);
+    border-bottom-right-radius: var(--Border-Curves-Right);  
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: goldenrod;
+}
+
+.final::before {
+    font-family: "Font Awesome 5 Free";
+	font-weight: normal;
+	content: "\f582 \A";
+}
+
+/*For all the semi-final CONGRATULATIONS*/
+.semi-final {
+    padding: var(--Callout-Padding);
+    background-color:lightblue;
+    border: 2px solid blue;
+    border-radius: var(--Border-Curves-Main);
+    border-top-left-radius: var(--Border-Curves-Top);
+    border-bottom-right-radius: var(--Border-Curves-Right);  
+    font-size: 1rem;
+    font-weight: 500;
+    color: blue;
+}
+
+.semi-final::before {
+    font-family: "Font Awesome 5 Free";
+	font-weight: normal;
+	content: "\f582 \A";
+}
+
+
+/* Call Out for instructionsal tips INSIDE a popup */
+.popup-tip {
+    padding: var(--Callout-Padding);
+    background-color: whitesmoke;
+    border: 2px solid green;
+    border-radius: var(--Border-Curves-Main);
+    border-top-left-radius: var(--Border-Curves-Top);
+    border-bottom-right-radius: var(--Border-Curves-Right);   
+    font-size: 1rem;
+    color: green;
+}
+
+.popup-tip::before {
+    font-family: "Font Awesome 5 Free";
+	font-weight: 800;
+	content: "\f14a  TIP! \A";
+    white-space: pre;
+    color: green;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+/*For the PopUps [details, summary classes]*/
+/*Starting Here*/
+.details {
+    margin-top: 2px;
+}
+
+details.details-style {
+    padding: var(--Callout-Padding);
+    border: 2px solid blue;
+    border-radius: var(--Border-Curves-Main);
+    border-bottom-right-radius: var(--Border-Curves-Right);    
+    border-top-left-radius: 12px;
+    background-color: aliceblue;
+    margin-bottom: 2em;
+    transition: all 0.2s ease-in-out;
+    max-height: 40px;
+    overflow: hidden;
+    font-size: 1rem;
+    position: relative;
+}
+
+
+details.details-style summary {
+    cursor: pointer;
+    outline: none;
+}
+
+details[open].details-style {
+    border: 1px solid blue;
+    background-color: #DCDCDC;
+    max-height: 3000px;
+    padding: 10px 10px 10px 10px;
+}
+
+details[open].details-style summary {
+    padding-bottom: 2em;
+}
+
+details[close].details-style {
+    border-collapse: collapse;
+}
+
+details.details-style[open]>summary::after {
+    font-size: 1rem;
+    display: inline-block;
+    content: "▲ Close ";
+    position: absolute;
+    padding-right: 40px;
+    right: 0;
+    bottom: 0;
+}
+
+summary.summary-style {
+    padding: 0px 20px 0px 20px;
+    text-align: left;
+    color: blue;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+/*=======================*/
+/*Ending Here*/
+
+
+/*For the divs inside the details/summary tags*/
+.popup {
+    color:blue;
+    padding-left: 10px;
+}
+
+.popup h3 {
+    font-size: 1.3rem;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+/* Responsiveness for document */
+/*-----------------------------------------
+The @media MAX-width query properties
+=========================================*/
+@media (max-width: 760px) {
+
+    .author {
+        font-size: 1rem;
+    }
+
+    .author-image {
+        width: 15%;
+    }
+
+    .copy-image {
+        width: 10%
+    }
+
+    .callout-copy {
+        font-size: 1.1rem;
+    }
+
+    .callout-code-warning {
+        font-size: .8rem;
+    }
+ 
+    summary.summary-style {
+        padding: 0px 20px 0px 20px;
+        text-align: left;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .popup h3 {
+        font-size: 1.1rem;
+     }
+  }
+
+/*-----------------------------------------
+The @media MAX-width (420px) query properties
+=========================================*/
+
+  @media (max-width: 420px) {
+
+    .author {
+        font-size: .7rem;
+    }
+
+    .author-image {
+        width: 15%;
+    }
+    
+    .copy-image {
+          width: 8%
+      }
+  
+      .callout-copy {
+          font-size: 1rem;
+      }
+  
+      .callout-code-warning {
+          font-size: .45rem;
+      }
+   
+      summary.summary-style {
+          padding: 0px 20px 0px 20px;
+          text-align: left;
+          font-size: 1rem;
+          font-weight: bold;
+      }
+  
+      .popup h3 {
+          font-size: 1.1rem;
+       }
+    }
+
+
+/*Orphans=====================
+.full-code-link {
+    font-size: .5rem;
+}
+
+.blue-shadow-border {
+    border: 11px solid blue;
+    box-shadow: 1px 1px;
+}
+
+.red-border {
+    border: 1px solid red;
+}
+=============================*/

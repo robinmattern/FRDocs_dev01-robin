@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bookman Old Style');
+
+:root {
+    --GlobalFontFamily: "Bookman Old Style", "Frank+Ruhl+Libre:wght@700&display=swap";
+}
+
+
 .red-border {
     border: 1px solid red;
 }
@@ -6,6 +14,10 @@
     border: 1px solid;
     /*box-shadow: 5px 10px;*/
 
+}
+
+.no-border {
+    border: none;
 }
 
 .full-code-link {
@@ -18,31 +30,95 @@
     box-shadow: 1px 1px;
 }
 
-.banner {
+.author {
+    font-size: 1.2rem;
+    color: blue;
+    font-weight: bold;
+}
+
+/* Call Outs */
+/* Call Out for the 3 copy/paste instructions */
+.callout-copy {
     padding: 10px 0px 10px 10px;
-    background-color: rgba(0,0,0,0.1);
-    border: 1px solid red;
+    background-color: #DCDCDC;
+    border: 2px solid red;
     border-radius: 10px;    
     font-size: 1.3rem;
     color: red;
 }
 
-.call-point {
-    padding: 10px 0px 10px 10px;
-    background-color: rgba(0,0,0,0.1);
-    border: 1px solid red;
+.callout-copy::before {
+    font-family: var(--GlobalFontFamily);
+	font-weight: 800;
+	content: "NOTE!";
+    color: red;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+/* Call Out for instructional tips */
+.callout-tip {
+    padding: 10px 10px 10px 10px;
+    background-color: gainsboro;
+    border: 2px solid green;
     border-radius: 10px;
     font-size: 1rem;
     color: green;
 }
 
-.replace-point {
-    padding: 0px 0px 0px 10px;
-    background-color: rgba(0,0,0,0.1);
-    border: 1px solid red;
+.callout-tip::before {
+    font-family: var(--GlobalFontFamily);
+	font-weight: 800;
+	content: "TIP! \A";
+    white-space: pre;
+    color: green;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+/* Call Out for Code WARNINGS */
+.callout-code-warning {
+    padding: 10px 0px 10px 10px;
+    background-color: #DCDCDC;
+    border: 2px solid red;
     border-radius: 10px;
     font-size: 1rem;
     color: green;
+}
+
+.callout-code-warning::before {
+    font-family: var(--GlobalFontFamily);
+	font-weight: 800;
+    font-style: italic;
+	content: "WARNING! \A";
+    white-space: pre;
+    color: red;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+/* Call Out for instructionsal tips INSIDE a popup */
+.popup-tip {
+    padding: 8px 0px 10px 10px;
+    background-color: whitesmoke;
+    border: 2px solid green;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: green;
+}
+
+.popup-tip::before {
+    font-family: var(--GlobalFontFamily);
+	font-weight: 800;
+	content: "TIP! \A";
+    white-space: pre;
+    color: green;
+    display: inline-block;
+    top: 0;
+    right: 0;
 }
 
 .details {
@@ -51,15 +127,27 @@
 
 details.details-style {
     padding: 5px 20px 0px 20px;
-    border: 1px solid blue;
+    border: 2px solid blue;
     border-radius: 10px;
     background-color: aliceblue;
     margin-bottom: 2em;
     transition: all 0.2s ease-in-out;
-    max-height: 40px;
+    max-height: 100px;
     overflow: hidden;
     font-size: 1rem;
     position: relative;
+}
+
+details::before {
+    font-family: var(--GlobalFontFamily);
+	font-weight: 800;
+    font-style: italic;
+	content: "MORE INFO \A";
+    white-space: pre;
+    color: blue;
+    display: inline-block;
+    top: 0;
+    right: 0;
 }
 
 details.details-style summary {
@@ -69,8 +157,7 @@ details.details-style summary {
 
 details[open].details-style {
     border: 1px solid blue;
-    background-color: rgba(0,0,0,0.1);
-    /*background-color: rgba(240,248,255,0.8);*/
+    background-color: #DCDCDC;
     max-height: 3000px;
     padding: 5px 20px 0px 20px;
 }
@@ -92,6 +179,7 @@ details.details-style[open]>summary::after {
     right: 0;
     bottom: 0;
 }
+
 
 summary.summary-style {
     padding: 0px 20px 0px 20px;
@@ -125,10 +213,14 @@ The @media MAX-width query properties
 =========================================*/
 @media (max-width: 760px) {
 
-    .banner {
+    .callout-copy {
         font-size: 1.1rem;
     }
 
+    .callout-code-warning {
+        font-size: .6rem;
+    }
+ 
     summary.summary-style {
         padding: 0px 20px 0px 20px;
         text-align: left;
