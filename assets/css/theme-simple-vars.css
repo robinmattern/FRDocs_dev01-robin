@@ -87,7 +87,7 @@
 
     --base-font-family                      : "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
     --base-line-height                      :  1.4;
-    --base-font-size                        :  18px;                                    /* was 1.1rem 17.6px */
+    --base-font-size                        :  20px;                                    /* was 1.1rem 17.6px */
     --strong-color                          :  grey !important;                         /* was var(--heading-color); */
     --strong-font-weight                    :  600;
 
