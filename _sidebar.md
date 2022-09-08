@@ -17,9 +17,9 @@
 
 <h>3. Customize FRApps</h>
 
-1. [My HTML Custom App ](/FRApps/fr020100_My-HTML-Custom.md)
-2. [My Javascript Custom App ](/FRApps/fr0105_Custom-FR-Apps-Javascript.md)
-3. [My React Custom App ](/FRApps/fr0105_Custom-FR-Apps-React.md)
+1. [My HTML Custom App       ](/FRApps/fr020100_My-HTML-Custom.md)
+2. [My Javascript Custom App ](/FRApps/fr020200_My-Javascript-Custom-App.md)
+3. [My React Custom App      ](/FRApps/fr020300_My-React-React-App.md)
 
 <h>4. Run formR</h>
 
@@ -41,7 +41,8 @@
 1. [Introduction        ](/Markdown/0c1_Intro.md                "FRDocs 1 - Markdown Introduction" )
 2. [Markdown Examples   ](/Markdown/1c1_Markdown-Examples.md    "FRDocs 1.1 - Markdown Examples"   )
 3. [CSS Variables       ](/Markdown/2c1_CSS-Variables.md        "FRDocs 1.2 - CSS Examples"        )
-4. [Headings Sample     ](/Markdown/3c1_Headings-Sample.md      "FRDocs 1.3 - Headings Sample"     )
+4. [Docsify Templates   ](/Markdown/3c1_Docsify-Templates.md    "FRDocs 1.3 - Docsify Templates"   )
+5. [FormR Example       ](/Markdown/4c1_Docsify-Example.md      "FRDocs 1.4 - FormR Example"       )
 
 <h>7. Collaborate with Discord</h>
 
