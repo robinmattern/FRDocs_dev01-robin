@@ -11,8 +11,14 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ## 3.1 My HTML Custom App h:mm <!-- {docsify-ignore} -->
-- [Purpose and Background](../Setup/purposes/pfr020100_fr020100_My-HTML-Custom.md)
-- [Enter Comments in Discord](https://discord.com/channels/928752444316483585/931216956827250709)
+<br>
+<div class="callout-tip">
+    <a href="../Setup/purposes/pfr0101_Setup-Developer-Workstation.md" target="_blank">Link to Background and Purposes</a> 
+</div>
+<br>
+<div class="callout-tip">
+    <a href="https://discord.com/channels/928752444316483585/932678480863305770" target="_blank">Link to Discord for Your Comments</a> 
+</div>
 
 ____
 
@@ -39,16 +45,16 @@ We are not attempting to teach CSS (Cascading Style Sheets), but providing you w
 In VSCode you will find in your FRApps repository a folder<br>
 &nbsp;&nbsp;&nbsp;&nbsp;<font color='green'>"1c1_my-html-custom-app</font> (inside your <font color='green'>client1</font> folder)."<br>
 In this folder are the empty <font color='green'>index.<b>html</b></font> and <font color='green'>index.<b>css</b></font> files, along with a favicon.png image file.<br>
-<img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1.jpg">
+<img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1.jpg"><br>
 
-And there is an "<font color='green'>assets"</font> folder that holds an "<font color='green'>images</font>" folder with the needed images to build your final project for this HTML Custom App course.<br>
+- And there is an "<font color='green'>assets"</font> folder that holds an "<font color='green'>images</font>" folder with the needed images to build your final project for this HTML Custom App course.
 <img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1a.jpg">
 
 ____
 
 <details class="details-style">
 <summary class="summary-style">More Info: Suggested Workstation Setup</summary>
-Our recommended method to set up your windows.  
+Our recommended method to set up the windows in your workstation.  
 
 + VSCode taking up the right 1/2 of your screen
 + Chrome with a <b><u>TAB</u></b> for your work instructions... 
@@ -76,16 +82,19 @@ The below preview will have a fixed (secured) header and footer, navigation link
 
 ____
 
-<!--
 <details class="details-style">
     <summary class="summary-style">
-        More Info: Names, Capitalization, Pictures & Code Copying
+More Info: Names, Caps, Picts, Code Copy
     </summary>
--->
-#### Important note about names, capitalization, pictures and code copying <!-- {docsify-ignore} -->
-- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.<br><br>
-- This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.<br><br>
-- We recommend that you cut and paste code snippets from the Documentation into your workstation/server. This will reduce the errors caused by hand typing. Hover over the snippet and click copy, then paste as appropriate.<br><br>
+    <div class="popup">
+
+- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
+
+- This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
+
+- We recommend that you copy and paste code snippets from the documentation into your workstation/server. This will reduce the errors caused by hand typing.
+Hover over the snippet and click copy, then paste as appropriate.
+
 - We will be Replacing and Inserting blocks of code in both the index.html & index.css files.  Below is the KEY to aid in finding the place in the code for these actions in the index.**css** file:
     + **HR**:  Header Replace
     + **H**:   Header Insert
@@ -100,9 +109,9 @@ ____
 Example (this is for a .Header  sub class, H-4, in the 4th position from the main .Header class- H-1):
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicBlocksInsertKeyImage1.jpg">
-<!--
+<br><br>
+</div>
 </details>
--->
 
 ____
 
@@ -112,7 +121,7 @@ ____
 There will be 3 different methods for copy/paste:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ HTML<br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ CSS Class<br>
-&nbsp;&nbsp;&nbsp;&nbsp;+ CSS Multiple Classes (2 or more)
+&nbsp;&nbsp;&nbsp;&nbsp;+ CSS Multiple Classes (2 or more in a BLOCK)
 <br>
 Each method will be fully discussed at the first instance you encounter them.
 </div>
@@ -566,7 +575,7 @@ Like this, using the ctrl-v keys to paste the copied code.
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4a.jpg"><br>
 
-<div class="callout-copy">
+<div class="callout-note">
  (for css files):<br><br>
 This is the copy/paste method we will use throughout this exercise in the index.CSS file.<br><br>
 The entire block will be replaced.
@@ -807,7 +816,7 @@ Your work should look like this.
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage1.jpg">
 <br><br>
 
-<div class="callout-copy">
+<div class="callout-note">
  (for html files):<br><br>
 This is the copy/paste method we will use throughout this exercise in the index.HTML file.<br><br>
 The entire block will be replaced.
@@ -878,8 +887,8 @@ comments in your index.<b>css</b> file:
 Like this
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage1b.jpg">
-
-Look at your Chrome browser! The above steps "fixed" the header into a stationary position.
+<br>
+Look at your Chrome browser! 
 
 We still need to:
 
@@ -970,10 +979,10 @@ Replace the entire block with new code, like this.
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0d.jpg"><br>
 
-<div class="callout-copy">
+<div class="callout-note">
  (for large blocks in the css file):<br><br>
 This is the copy/paste method we will use throughout this exercise in the index.CSS file, for large blocks of code entailing 2 or more classes.<br><br>
-The entire block will be replaced.</div>
+The entire block will be replaced. From START BLOCK to END BLOCK.</div>
 
 ___
 
@@ -1679,12 +1688,11 @@ Let's focus on the Header and how we want it to appear on a smart phone.
 
 <img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasiciphoneImage1.jpg">
 
-- We can set, using CSS, a certain width of the "viewpoint" to where we can make changes to the appearence.  In our code we will set it at 760px.  At that width we can make the NavList (horizontal links) DISAPPEAR; and a NavBars (commonly known as a hamburger) APPEAR.
+- We can set, using CSS, a certain width of the "viewpoint" to where we can make changes to the appearence.  In our code we will set it at 760px.  At that width we can make the NavList (horizontal links) DISAPPEAR; and a NavBars (commonly known as a hamburger) APPEAR. And fix that scrunched up Logo.
 
-- First we need to add the NavBars in both index.html and index.css.
+- First we need to add the NavBars (hamburger) in both index.html and index.css.
 
 <img style=border:none; class="shadow-border" src="FRApps/assets/images/md-images/index.html.jpg">
-
 
 
 #### b. HeaderNavBars Class
@@ -1929,7 +1937,7 @@ ___
 
 Check it out in Chrome.
 
-The image on the left is when the Chrome window is greater than 760 pixels wide, the one on the right is less than 760.  That is "responsiveness!"
+The image on the left is when the Chrome window is greater than 420 pixels wide, the one on the right is less than 420.  That is "responsiveness!"
 
 
 <img class="shadow-border" style=border:none; src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage1.jpg">
@@ -2614,19 +2622,25 @@ Like this
 
 #### Web Page with Color Changes
 
-- Check out Chrome.  
+<br>
+<div class="semi-final">
+<span style="font-size: 25px"><b>CONGRATULATIONS!!</b></span>
 
-<span style="font-size: 25px"><b>CONGRATULATIONS!!</b></span> 
-- You have completed "My HTML Custom App."
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have completed "My HTML Custom App."
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GREAT JOB!<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check out your work in Chrome.  
+</div>
+<br>
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicCustomWithWiggle.jpg">
+
 
 
 #### Final Version With formR logo, text & color changes, "wiggle" button and responsive.
 
 ___
 
-- Like the Layout version, your completed custom version is responsive at 760 pixels.  
+- Like the Layout version, your completed custom version is responsive at 420 and 760 pixels.  
 
 <img class="shadow-border" src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage2.jpg">
 
@@ -2637,40 +2651,48 @@ ___
 
 Now you have all the tools to go back to your Layout and Customize it the way you would like.
 
-- We saved your Layout in the 1c1_my-html-custom-app directory.  The files are:
-    + index_final_layout.html
-    + index_final_layout.css
+<div class="save-code"><br><br>
+We saved your Layout AND Custom files in the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"<font color='black'>1c1_my-html-custom-app</font>" directory.<br<br><br><br>
 
-- Here:
+The files are:<br>
++ index_final_custom.css
++ index_final_custom.html
++ index_final_layout.css
++ index_final_layout.html
 
-<img class="eighty-percent" src="FRApps/assets/images/md-images/BasicColorImage5.jpg">
+Here:
+
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicColorImage5.jpg">
+<br><br>
+Please make modifications to the code in either set to help to create your own Custom HTML App.
+<br><br>
+</div>
 <br><br>
 <div class="callout-code-warning">
 Remember to change your<br>  
-&nbsp;&nbsp;&nbsp;&nbsp;"&#60;link rel="stylesheet" href="index_final_layout.css"&#62;"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;'&#60;link rel="stylesheet" href="index_final_layout.css"&#62;'<br>
 reference in your <u>index.<b>html</b></u> file to match the name of your relating <u>index.css</u> file.
 <br><br> Like below:
 <img src="FRApps/assets/images/md-images/BasicColorImage6.jpg">
+<!--</span>-->
 </div>
-
 <br>
 Your next journey will be to add some very cool functions to our web page using JavaScript.
 <br><br>
 
 <div class="final">
     <span class="happy-coding">  
-        <!--<img src="FRApps/assets/images/md-images/HappyCoding4.gif">-->
-        &nbsp;&nbsp;HAPPY CODING!
+        <img class="happy-coding-percent" src="FRApps/assets/images/md-images/HappyCoding6.gif">
+        <!--&nbsp;&nbsp;HAPPY CODING!-->
     </span>
 </div>
 <br>
-<!--## 6. View Full Code  <!-- {docsify-ignore} -->
+## 6. View Full Code  <!-- {docsify-ignore} -->
 
 ###  [View Full Code For HTML Custom Apps](/FRApps/code/fr020102_custom-code.md "Full Code") 
 
 <br>
-
-<!-- ------------------------------------------------------------------------- -->
 
 <div class="page-back">
 

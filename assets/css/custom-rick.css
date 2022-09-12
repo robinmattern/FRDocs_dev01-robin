@@ -8,19 +8,17 @@
 /*-----------------------------------------------*/
 /*Variables*/
 :root {
-    --Border-Curves-Main: 5px;
-    --Border-Curves-Top-Left: 20px;
-    --Border-Curves-Bottom-Right: 1px;  
+    --Border-Curves-Main: 10px; /*was 5*/
+    --Border-Curves-Top-Left: 10px; /*was 20*/
+    --Border-Curves-Bottom-Right: 10px; /*was 1*/  
     --Border-Curves-Top-Left-Pop: 10px;  
     --Callout-Padding: 5px 10px 10px 10px;    
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /*Used only around the original sketch*/
 .green-border {
-    background-color: #DCDCDC;
+    background-color: #ECECEC;
     border: 3px solid green;
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
@@ -28,8 +26,6 @@
     padding: 10px;
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /*For most MD images*/
 .shadow-border {
@@ -37,8 +33,6 @@
     /*box-shadow: 5px 10px;*/
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /*For some MD images*/
 .no-border {
@@ -46,8 +40,6 @@
     border-radius: 5px;
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /*For some MD images*/
 
@@ -63,18 +55,21 @@
     width: 80%;
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /*to make blueNSX look stylish*/
 .author {
     border: 2px cornflowerblue solid;
+    border-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 1px;
+/*
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
     border-bottom-right-radius: var(--Border-Curves-Bottom-Right);
+*/
     box-shadow: 3px 3px #0F52BA;
     font-size: 1.3rem;
-    background-color: whitesmoke;
+    background-color: #ECECEC;
     color: blue;
     font-weight: bold;
     display:flex;
@@ -90,58 +85,51 @@
     width: 15%;
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /*gives shape and color to all horizontal lines*/
 hr {
     border: none;
     height: 3px;
-    color: #DCDCDC;
-    background-color: #DCDCDC;
+    color: #ECECEC;
+    background-color: #ECECEC;
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /*creates a nice wide horizontal line at main divisions*/
 .main-division  {
-    border: 5px solid #DCDCDC;
+    border: 5px solid #ECECEC;
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /* Call Outs */
-/* Call Out for the 3 copy/paste instructions */
-.callout-copy {
+/* Call Out for the 3 copy/paste note instructions */
+.callout-note {
     padding: var(--Callout-Padding);
-    background-color: #DCDCDC;
-    border: 2px solid red;
+    background-color: #ECECEC;
+    border: 2px solid purple;
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
     border-bottom-right-radius: var(--Border-Curves-Bottom-Right);      
-    font-size: 1.3rem;
-    color: red;
+    font-size: 1rem;
+    color: purple;
 }
 
-.callout-copy::before {
+.callout-note::before {
     font-family: "Font Awesome 5 Free";
 	font-weight: 800;
+    font-size: 1.2rem;
 	content: "\f0a4  NOTE!"; /*hand icon*/
-    color: red;
+    color: purple;
     display: inline-block;
     top: 0;
     right: 0;
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /* Call Out for instructional tips */
 .callout-tip {
     padding: var(--Callout-Padding);
-    background-color: gainsboro;
+    background-color: #ECECEC;
     border: 2px solid green;
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
@@ -162,19 +150,17 @@ hr {
     right: 0;
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /* Call Out for Code WARNINGS */
 .callout-code-warning {
     padding: var(--Callout-Padding);
-    background-color: #DCDCDC;
+    background-color: #ECECEC;
     border: 2px solid red;
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
     border-bottom-right-radius: var(--Border-Curves-Bottom-Right);   
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     color: red;
 }
 
@@ -190,8 +176,6 @@ hr {
     right: 0;
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /*For the copy code with image blurb instructions*/
 .copy-code {
@@ -212,12 +196,35 @@ hr {
     width: 8%
 }
 /*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*For the copy code with image blurb instructions*/
+.save-code {
+    padding: var(--Callout-Padding);
+    background-color: #ECECEC;
+    border: 2px solid green;
+    border-radius: var(--Border-Curves-Main);
+    border-top-left-radius: var(--Border-Curves-Top-Left);
+    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);   
+    font-size: 1rem;
+    font-weight: 500;
+    color: green;
+}
 
+.save-code::before {
+    font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+    font-size: 1.2rem;
+	content: "\f07c  SAVED \A";
+}
 
+/*for sizing the copy image*/
+.save-image {
+    width: 8%
+}
+/*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /*For the last and final CONGRATULATINS*/
 .final {
-    padding: var(--Callout-Padding);
     background-color:rgb(255 255 224);
     border: 3px solid goldenrod;
     border-radius: var(--Border-Curves-Main);
@@ -231,26 +238,29 @@ hr {
     padding-bottom: 10px;
     padding-left: 20px;
 }
-
+/*
 .final::before {
     font-family: "Font Awesome 5 Free";
 	font-weight: normal;
     font-size: 2rem;
 	content: "\f582 \A";
 }
-
+*/
 .happy-coding {
     padding-left: 40px;
     padding-top: 0px;
 }
+
+.happy-coding-percent {
+    width: 50%;
+}
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /*For all the semi-final CONGRATULATIONS*/
 .semi-final {
     padding: var(--Callout-Padding);
-    background-color:lightblue;
+ /*   background-color:lightblue; */
+    background-color:#ECECEC;
     border: 2px solid blue;
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
@@ -263,12 +273,10 @@ hr {
 .semi-final::before {
     font-family: "Font Awesome 5 Free";
 	font-weight: normal;
-    font-size: 2rem;
-	content: "\f582 \A";
+    font-size: 1.2rem;
+	content: "\f582 \A \A";
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /* Call Out for instructionsal tips INSIDE a popup */
 .popup-tip {
@@ -293,8 +301,6 @@ hr {
     right: 0;
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /*For the PopUps [details, summary classes]*/
 /*Starting Here*/
@@ -325,7 +331,7 @@ details.details-style summary {
 
 details[open].details-style {
     border: 2px solid blue;
-    background-color: #DCDCDC;
+    background-color: #ECECEC;
     max-height: 3000px;
     padding: 5px 20px 0px 12px;
 }
@@ -358,8 +364,6 @@ summary.summary-style {
 /*=======================*/
 /*Ending Here*/
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /*For the divs inside the details/summary tags*/
 .popup {
@@ -373,91 +377,88 @@ summary.summary-style {
     text-decoration: underline;
 }
 /*-----------------------------------------------*/
-
-
 /*-----------------------------------------------*/
 /* Responsiveness for document */
 /*-----------------------------------------
 The @media MAX-width query properties
+===========================================
+The @media MAX-width (760px) query properties
 =========================================*/
 @media (max-width: 760px) {
-
     .author {
         font-size: 1rem;
     }
-
     .author-image {
         width: 15%;
     }
-
     .copy-image {
         width: 10%
     }
-
     .callout-copy {
         font-size: 1.1rem;
     }
-
     .callout-code-warning {
         font-size: .8rem;
     }
- 
     summary.summary-style {
         padding: 5px 20px 5px 15px;
         text-align: left;
         font-size: .9rem;
         font-weight: bold;
     }
-
     details[open].details-style {
       padding: 5px 20px 0px 12px;
-  }
-
+    }
     .popup h3 {
         font-size: 1.1rem;
-     }
-  }
+    }
+    .happy-coding-percent {
+        width: 65%;
+    }
+    .final {
+        padding-left: 0px;
+    } 
+}
 
 /*-----------------------------------------
 The @media MAX-width (420px) query properties
 =========================================*/
 
   @media (max-width: 420px) {
-
     .author {
         font-size: .7rem;
     }
-
     .author-image {
         width: 15%;
     }
-    
     .copy-image {
           width: 8%
-      }
-  
-      .callout-copy {
-          font-size: 1rem;
-      }
-  
-      .callout-code-warning {
-          font-size: .45rem;
-      }
-   
-      summary.summary-style {
-          padding: 5px 20px 5px 15px;
-          text-align: left;
-          font-size: .8rem;
-          font-weight: bold;
-      }
-  
-      details[open].details-style {
+    }
+    .callout-copy {
+        font-size: 1rem;
+    }
+    .callout-code-warning {
+        font-size: .45rem;
+    }
+    summary.summary-style {
+        padding: 5px 20px 5px 15px;
+        text-align: left;
+        font-size: .8rem;
+        font-weight: bold;
+    }
+    details[open].details-style {
         padding: 5px 20px 0px 12px;
     }
-
-      .popup h3 {
-          font-size: 1.1rem;
-       }
+    .popup h3 {
+        font-size: 1.1rem;
     }
+    .happy-coding {
+    padding-left: 0px;
+    }
+    .final {
+        padding-left: 0px;
+    }    
+}
+
 /*-----------------------------------------------*/
 /*END OF CSS*/
