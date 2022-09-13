@@ -28,16 +28,29 @@
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /*For most MD images*/
-.shadow-border {
-    border: 1px solid;
-    /*box-shadow: 5px 10px;*/
-}
-/*-----------------------------------------------*/
-/*-----------------------------------------------*/
-/*For some MD images*/
 .no-border {
     border: none;
     border-radius: 5px;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*For some text decorations*/
+.pic-text {
+    background-color: blue; 
+    color: white;    
+}
+.doc-dir-text {
+    background-color: yellow; 
+    color: green;
+}
+.callout-dir-text {
+    background-color: yellow; 
+    color: black;
+}
+.css-link-text {
+   font-size: 25px;
+   color: orangered; 
+   background-color: yellow;
 }
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
@@ -141,8 +154,9 @@ hr {
 .callout-tip::before {
     font-family: "Font Awesome 5 Free";
 	font-weight: 800;
-	content: "\f14a  TIP! \A";
-    font-size: 1.2rem;
+	/*content: "\f069  TIP! \A"; /*asterisk*/
+	content: "\f14a  TIP! \A"; /*checkbox*/
+    font-size: 1rem;
     white-space: pre;
     color: green;
     display: inline-block;
@@ -177,6 +191,48 @@ hr {
 }
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
+/* Call Out for Code WARNINGS */
+.callout-oops {
+    padding: var(--Callout-Padding);
+    background-color: #ECECEC;
+    border: 2px solid green;
+    border-radius: var(--Border-Curves-Main);
+    border-top-left-radius: var(--Border-Curves-Top-Left);
+    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);   
+    font-size: 1rem;
+    font-weight: 500;
+    color: green;
+}
+
+.callout-oops::before {
+    font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+    font-size: 1.2rem;
+	content: "\f5a5  OOPS! \A";
+    white-space: pre;
+    color: green;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*For the Chrome Icon*/
+.callout-chrome {
+    color: red;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.callout-chrome::before {
+    font-family: "Font Awesome 5 Free";
+	font-weight: normal;
+    font-size: 1rem;
+	content: "\f268  Chrome \A"; /*CHROME Icon*/
+}
+
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
 /*For the copy code with image blurb instructions*/
 .copy-code {
     color: red;
@@ -201,13 +257,13 @@ hr {
 .save-code {
     padding: var(--Callout-Padding);
     background-color: #ECECEC;
-    border: 2px solid green;
+    border: 2px solid #008098; /*Dark Cyan*/
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
     border-bottom-right-radius: var(--Border-Curves-Bottom-Right);   
     font-size: 1rem;
     font-weight: 500;
-    color: green;
+    color: #008098; /*Dark Cyan*/
 }
 
 .save-code::before {
@@ -382,9 +438,9 @@ summary.summary-style {
 /*-----------------------------------------
 The @media MAX-width query properties
 ===========================================
-The @media MAX-width (760px) query properties
+The @media MAX-width (800px) query properties
 =========================================*/
-@media (max-width: 760px) {
+@media (max-width: 800px) {
     .author {
         font-size: 1rem;
     }
@@ -398,7 +454,7 @@ The @media MAX-width (760px) query properties
         font-size: 1.1rem;
     }
     .callout-code-warning {
-        font-size: .8rem;
+        font-size: .7rem;
     }
     summary.summary-style {
         padding: 5px 20px 5px 15px;
@@ -421,10 +477,15 @@ The @media MAX-width (760px) query properties
 }
 
 /*-----------------------------------------
-The @media MAX-width (420px) query properties
+The @media MAX-width (420px) query properties (iPhone7 Plus) 
 =========================================*/
 
   @media (max-width: 420px) {
+   /*
+    html {
+        orientation: landscape;
+    }
+   */ 
     .author {
         font-size: .7rem;
     }
@@ -432,22 +493,22 @@ The @media MAX-width (420px) query properties
         width: 15%;
     }
     .copy-image {
-          width: 8%
+          width: 12%
     }
     .callout-copy {
         font-size: 1rem;
     }
     .callout-code-warning {
-        font-size: .45rem;
+        font-size: .52rem;
     }
     summary.summary-style {
-        padding: 5px 20px 5px 15px;
+        padding: 5px 20px 5px 5px;
         text-align: left;
-        font-size: .8rem;
+        font-size: .9rem;
         font-weight: bold;
     }
     details[open].details-style {
-        padding: 5px 20px 0px 12px;
+        padding: 5px 20px 0px 7px;
     }
     .popup h3 {
         font-size: 1.1rem;
@@ -460,5 +521,13 @@ The @media MAX-width (420px) query properties
     }    
 }
 
+/*ORPHANS 091322*/
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*For most MD images*/
+.shadow-border {
+    border: 1px solid;
+    /*box-shadow: 5px 10px;*/
+}
 /*-----------------------------------------------*/
 /*END OF CSS*/
