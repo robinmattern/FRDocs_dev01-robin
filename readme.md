@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # The formR Project
 
-- formR is  an easy to use application that uses a MySQL, ExpressJS, React-Admin and NodeJS (MERN) stack. The coding philosophy leans more towards DRY (Don't Repeat Yourself) than WET (Write Every Time).
+- formR is an easy to use application that uses a MySQL, ExpressJS, React-Admin and NodeJS (MERN) stack. The coding philosophy leans more towards DRY (Don't Repeat Yourself) than WET (Write Every Time).
 
 - A NodeJS ExpressJS server is used to receive API calls that use Sequelize to perform database tasks using any database server.  
 
