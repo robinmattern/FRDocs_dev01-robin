@@ -122,14 +122,15 @@ There will be 3 different methods for copy/paste:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ HTML<br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ CSS Class<br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ CSS Multiple Classes (2 or more in a BLOCK)
-<br>
+<br><br>
 Each method will be fully discussed at the first instance you encounter them.
 </div>
 
 ____
 
 <div class="callout-tip">
-<u><b><i>LAYOUT vs CUSTOMIZATION</i></b></u>:  As we build upon the code in both index.html and index.css, we will create first a "Layout" with Place Holders; then we will "Customize" it our way.  You will have the opportunity to customize your "Layout" as your "Custom HTML App" later.
+<u><b><i>LAYOUT vs CUSTOMIZATION</i></b></u>:<br>
+As we build upon the code in both index.html and index.css, we will create first a "Layout" with Place Holders; then we will "Customize" it our way.  You will have the opportunity to customize your "Layout" as your "Custom HTML App" later.
 </div>
 <br>Below is our outline.<br>
 
@@ -487,7 +488,9 @@ ___
 <img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksImage3.jpg"><br><br>
 
 <div class="semi-final">
-<span style="font-size: 20px"><b>CONGRATULATIONS!!</b></span> You have just created a simple html page with a cascading style sheet (CSS) which makes <b><u>4 basic blocks</u></b>.<br><br>  
+<span style="font-size: 20px"><b>CONGRATULATIONS!!</b>
+<br>
+</span> You have just created a simple html page with a cascading style sheet (CSS) which makes <b><u>4 basic blocks</u></b>.<br><br>  
  We will build from this basic page to create a web site with a fixed header and footer, links with a "wiggle" button, and an image with a text overlay--in our customize section.<br><br>
 From there, the next course we will move on to add some magic with JavaScript (JS) to this web page.
 </div>
@@ -559,12 +562,12 @@ The .Header properites
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="multiple-equals-text">
 /*=======================================*/<br>
 /* HR-1 REPLACE Point - .Header */
 <br><br>
  /* END HR-1 .Header =======================*/<br> 
-</font>
+</div>
 comments in your index.<b>css</b> file:
 </div>
 <br>
@@ -577,8 +580,8 @@ Like this, using the ctrl-v keys to paste the copied code.
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4a.jpg"><br>
 
 <div class="callout-note">
- (for css files):<br><br>
-This is the copy/paste method we will use throughout this exercise in the index.CSS file.<br><br>
+(for <b>css</b> files):<br><br>
+This is the copy/paste method we will use throughout this exercise in the <b><u> index.css</u></b> file.<br><br>
 The entire block will be replaced.
 </div>
 
@@ -597,8 +600,6 @@ ___
     + <b><font color=#A81966>height</font></b> to 46%<br>
 - and ADD:
     + <b><font color=#A81966>top</font></b> to 10%
-
-____
 
 <font color='green'><u>Section1</u></font>
 
@@ -626,12 +627,12 @@ The .Section1 properites
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="multiple-equals-text">
 /*=======================================*/<br>
 /* S1R-1 REPLACE Point - Section1 */
 <br><br>
  /* END S1R-1 .Header =======================*/<br> 
-</font>
+</div>
 comments in your index.<b>css</b> file:
 </div>
 <br>
@@ -643,7 +644,7 @@ Follow your progress in Chrome. No worries, those blocks will be put in their pl
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4f1.jpg">
 
-___
+____
 
 <font color='green'><u>.Section2</u></font>
 
@@ -671,12 +672,12 @@ The .Section2 properites
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="multiple-equals-text">
 /*=======================================*/<br>
 /* S2R-1 REPLACE Point - Section2 */
 <br><br>
  /* END S2R-1 .Header =======================*/<br> 
-</font>
+</div>
 comments in your index.<b>css</b> file:
 </div>
 <br>
@@ -725,12 +726,12 @@ The .Footer properites
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="multiple-equals-text">
 /*=======================================*/<br>
 /* FR-1 REPLACE Point - .Footer */
 <br><br>
  /* END FR-1 .Header =======================*/<br> 
-</font>
+</div>
 comments in your index.<b>css</b> file:
 </div>
 <br>
@@ -745,7 +746,7 @@ Like this
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage5a.jpg">
 <br><br>
 <div class="semi-final">
-<span style="font-size: 20px"><b>CONGRATULATIONS!</b></span> You have built a full page with four distinct blocks using your Basic Blocks index.<b>css</b> code. We also secured (fixed) the header & footer in one spot.   
+<span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br> You have built a full page with four distinct blocks using your Basic Blocks index.<b>css</b> code. We also secured (fixed) the header & footer in one spot.   
 </div>
 
 ----
@@ -790,11 +791,11 @@ We will add to your existing code in  both index.<b>html</b> AND index.<b>css</b
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="replace-point-text">
 &lt;!&dash;&dash; REPLACE Point - Header &dash;&dash;&gt; <br>
 <br>
  &lt;!&dash;&dash; END REPLACE Point - Header &dash;&dash;&gt<br> 
-</font>
+</div>
 comments in your index.<b>html</b> file:
 </div>
 <br>
@@ -815,11 +816,11 @@ Your work should look like this.
 <br><br>
 
 <div class="callout-note">
- (for html files):<br><br>
-This is the copy/paste method we will use throughout this exercise in the index.HTML file.<br><br>
+ (for <b>html</b> files):<br><br>
+This is the copy/paste method we will use throughout this exercise in the <b><u>index.html</u></b> file.<br><br>
 The entire block will be replaced.
 </div>
-
+<br>
 Take a quick look at Chrome and the Header.  
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage1a.jpg">
@@ -870,12 +871,12 @@ The .Header properites
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="multiple-equals-text">
 /*=======================================*/<br>
 /* HR-1 REPLACE Point - .Header */
 <br><br>
  /* END HR-1 .Header =======================*/<br> 
-</font>
+</div>
 comments in your index.<b>css</b> file:
 </div>
 <br>
@@ -935,7 +936,7 @@ The .HeaderLogo a properites
 .HeaderLogo a {
     text-decoration: none;
     color: white;
-    background: blue ;
+...and make    background: blue ;
     padding: 0.5rem .5rem;
     border-radius: 8px;
     box-shadow: 4px 4px black;
@@ -956,12 +957,12 @@ The .HeaderSpacer properites
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
-/&ast;==============================================&ast;/<br>
+<div class="replace-point-text">
+/&ast;===================================&ast;/<br>
 /* H-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
 /* H-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
-</font>
+</div>
 comments in your index.<b>css</b> file:
 </div>
 <br>
@@ -977,7 +978,7 @@ Replace the entire block with new code, like this.
 
 <div class="callout-note">
  (for large blocks in the css file):<br><br>
-This is the copy/paste method we will use throughout this exercise in the index.CSS file, for large blocks of code entailing 2 or more classes.<br><br>
+This is the copy/paste method we will use throughout this exercise in the <b><u>index.css</u></b> file, for large blocks of code entailing 2 or more classes.<br><br>
 The entire block will be replaced. From START BLOCK to END BLOCK.</div>
 
 ___
@@ -1075,7 +1076,7 @@ The .HeaderNavListItem a properites
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <font color='green'>
-/&ast;===========================================&ast;/<br>
+/&ast;=======================================&ast;/<br>
 /* H-3 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
 /* H-3 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
@@ -1153,12 +1154,12 @@ The .HeaderNavListItemCTA a properties
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="multiple-equals-text">
 /*=======================================*/<br>
 /* H-4 INSERT Point - .HeaderNavListItemCTA a */
 <br><br>
 /* END H-4 .HeaderNavListItemCTA a ==========*/<br>
-</font>
+</div>
 comments in your index.<b>css</b> file:
 </div>
 <br>
@@ -1185,7 +1186,7 @@ Please check your Chrome browser to see your web page thus far.
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage12.jpg">
 <br><br>
 <div class="semi-final">
-<span style="font-size: 20px"><b>CONGRATULATIONS!</b></span> You have just added to your Basic Blocks code which built a full web page with a fixed header along with links, a "CTA" button, and a font-based logo. In the next section, we will add/modify code that will add links to the footer.   
+<span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br> You have just added to your Basic Blocks code which built a full web page with a fixed header along with links, a "CTA" button, and a font-based logo. In the next section, we will add/modify code that will add links to the footer.   
 </div>
 
 ----
@@ -1225,11 +1226,11 @@ We will add some links to the Footer and fix the position of the Footer as we di
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="replace-point-text">
 &lt;!&dash;&dash; REPLACE Point - Footer &dash;&dash;&gt; <br>
 <br>
 &lt;!&dash;&dash; END REPLACE Point - Footer &dash;&dash;&gt<br> 
-</font>
+</div>
 comments in your index.<b>html</b> file:
 </div>
 <br>
@@ -1311,7 +1312,7 @@ The .FooterNavListItem a:hover,
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <font color='green'>
-/&ast;==============================================&ast;/<br>
+/&ast;======================================&ast;/<br>
 /* F-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
 /* F-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
@@ -1338,7 +1339,7 @@ Please check your Chrome browser to see your web page thus far:
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage9.jpg">
 <br><br>
 <div class="semi-final">
-<span style="font-size: 20px"><b>CONGRATULATIONS!</b></span> You have just added to your Basic Blocks code which builds a full web page with links in the secured (fixed) footer. In the next section, we will add/modify code that will add a text overlay in Section1.   
+<span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br> You have just added to your Basic Blocks code which builds a full web page with links in the secured (fixed) footer. In the next section, we will add/modify code that will add a text overlay in Section1.   
 </div>
 
 ____
@@ -1378,11 +1379,11 @@ First, the index.<b>html</b> file.
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="replace-point-text">
 &lt;!&dash;&dash; REPLACE Point - Section1 &dash;&dash;&gt; <br>
 <br>
 &lt;!&dash;&dash; END REPLACE Point -Section1 &dash;&dash;&gt; <br> 
-</font>
+</div>
 comments in your index.<b>html</b> file:
 </div>
 <br>
@@ -1444,7 +1445,7 @@ The .Section1ImageText::first-letter properties
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <font color='green'>
-/&ast;==============================================&ast;/<br>
+/&ast;======================================&ast;/<br>
 /* S1-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
 /* S1-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
@@ -1500,11 +1501,11 @@ We will add some text.
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="replace-point-text">
 &lt;!&dash;&dash; REPLACE Point - Section2 &dash;&dash;&gt; <br>
 <br>
 &lt;!&dash;&dash; END REPLACE Point - Section2 &dash;&dash;&gt;<br> 
-</font>
+</div>
 comments in your index.<b>html</b> file:
 </div>
 <br>
@@ -1575,7 +1576,7 @@ The @keyframes wiggle properties
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <font color='green'>
-/&ast;==============================================&ast;/<br>
+/&ast;======================================&ast;/<br>
 /* H-5 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
 /* H-5 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
@@ -1714,11 +1715,11 @@ Let's focus on the Header and how we want it to appear on a smart phone.
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="replace-point-text">
 &lt;!&dash;&dash; REPLACE Point - Header &dash;&dash;&gt; <br>
 <br>
 &lt;!&dash;&dash; END REPLACE Point - Header &dash;&dash;&gt;<br> 
-</font>
+</div>
 comments in your index.<b>html</b> file:
 </div>
 <br>
@@ -1734,7 +1735,7 @@ Like this
 ____
 
 <details class="details-style">
-<summary class="summary-style">More Info: Images</summary>
+<summary class="summary-style">More Info: Your Images</summary>
 <div class="popup">
 Note in your assets/images directory you have 3 different images.<br>
     &nbsp;&nbsp;&nbsp;&nbsp;+ formr-logo-blue.gif<br>
@@ -1802,7 +1803,7 @@ The .HeaderNavBars:focus properites
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <font color='green'>
-/&ast;==============================================&ast;/<br>
+/&ast;======================================&ast;/<br>
 /* H-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
 /* H-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
@@ -1910,7 +1911,7 @@ The @media MAX-width (420px) query properties
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <font color='green'>
-/&ast;==============================================&ast;/<br>
+/&ast;======================================&ast;/<br>
 /* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
 /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^/<br> 
@@ -1951,7 +1952,7 @@ ___
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFinalLayout.jpg">
 <br><br>
 <div class="semi-final">
-<span style="font-size: 20px"><b>CONGRATULATIONS!</b></span>  You have completed your web page *LAYOUT* with a fixed header and footer, links, a CTA button, an image and a text overlay.  All Place Holders in their correct positions.  AND responsive to the width size of the screen it is displayed.  
+<span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br>You have completed your web page *LAYOUT* with a fixed header and footer, links, a CTA button, an image and a text overlay.  All Place Holders in their correct positions.  AND responsive to the width size of the screen it is displayed.  
 <br><br>
 You are now ready to *CUSTOMIZE*.  We will work together on our version of a formR web page.  Once complete, please go and *CUSTOMIZE* your own page with a different image, logo and links. 
 </div>
@@ -1974,7 +1975,7 @@ You are now ready to *CUSTOMIZE*.  We will work together on our version of a for
 ___
 
 ### 1. Add Image to Section 1
-----
+
 - To add some pazzazz to your web site, we will include an image in Section 1.  This will require some modifications to your existing code in the index.<b>css</b> file.  
 
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
@@ -2019,12 +2020,12 @@ The .Section1 properites
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="multiple-equals-text">
 /*=======================================*/<br>
 /* S1R-1 REPLACE Point - .Section2 */
 <br><br>
 /* END S1R-1 .Section2 =====================*/<br> 
-</font>
+</div>
 comments in your index.<b>css</b> file:
 </div>
 <br>
@@ -2103,11 +2104,11 @@ Now lets add an image in place of the "PH Logo" in the Header. In the "<span cla
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="replace-point-text">
 &lt;!&dash;&dash; REPLACE Point - Header &dash;&dash;&gt; <br>
 <br>
 &lt;!&dash;&dash; END REPLACE Point - Header &dash;&dash;&gt;<br> 
-</font>
+</div>
 comments in your index.<b>html</b> file:
 </div>
 <br>
@@ -2169,12 +2170,12 @@ In Chrome, we have made a mess of the logo.  Be patient, we will take care of th
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="multiple-equals-text">
 /*=======================================*/<br>
 /* root REPLACE Point - :root */
 <br><br>
 /* END REPLACE :root ======================*/<br> 
-</font>
+</div>
 comments in your index.<b>css</b> file:
 </div>
 <br>
@@ -2239,7 +2240,7 @@ The .HeaderSpacer properites
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <font color='green'>
-/&ast;==============================================&ast;/<br>
+/&ast;======================================&ast;/<br>
 /* H-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
 /* H-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
@@ -2339,7 +2340,7 @@ The @media MAX-width (420px) query properties
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <font color='green'>
-/&ast;==============================================&ast;/<br>
+/&ast;======================================&ast;/<br>
 /* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
 /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^/<br> 
@@ -2361,11 +2362,13 @@ ____
 
 #### Web Page with formR Logo
 <br>
-<span style="font-size: 20px"><b>CONGRATULATIONS!</b></span>  You have successsfully replaced the "PH Logo" with the image of our formR logo.   
-<br><br>
 Please check your Chrome browser to see your web page:
 <br><br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicformRImage4.jpg">
+<br><br>
+<div class="semi-final">
+<span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br>You have successsfully replaced the "PH Logo" with the image of our formR logo.
+</div>
 
 ___
 
@@ -2521,12 +2524,12 @@ Well, it's very simple to make the requested color changes right here in four of
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
-<font color='green'>
+<div class="multiple-equals-text">
 /*=======================================*/<br>
 /* root REPLACE Point - :root */
 <br><br>
 /* END REPLACE :root ===================*/<br> 
-</font>
+</div>
 comments in your index.<b>css</b> file:
 </div>
 <br>
@@ -2595,7 +2598,7 @@ font-size: 150%;
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <font color='green'>
-/&ast;==============================================&ast;/<br>
+/&ast;======================================&ast;/<br>
 /* S2-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
 /* S2-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
@@ -2613,11 +2616,11 @@ Like this
 
 <br>
 <div class="semi-final">
-<span style="font-size: 25px"><b>CONGRATULATIONS!!</b></span>
+<span style="font-size: 20px"><b>CONGRATULATIONS!!</b></span>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have completed "My HTML Custom App."
-<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GREAT JOB!<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have completed "My HTML Custom App."
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GREAT JOB!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check out your work in Chrome.  
 </div>
 <br>
@@ -2677,7 +2680,7 @@ Your next journey will be to add some very cool functions to our web page using 
     </span>
 </div>
 <br>
-## 6. View Full Code  <!-- {docsify-ignore} -->
+<!--## 6. View Full Code-->  <!-- {docsify-ignore} -->
 
 ###  [View Full Code For HTML Custom Apps](/FRApps/code/fr020102_custom-code.md "Full Code") 
 
