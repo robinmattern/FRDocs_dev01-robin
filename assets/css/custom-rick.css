@@ -12,7 +12,10 @@
     --Border-Curves-Top-Left: 10px; /*was 20*/
     --Border-Curves-Bottom-Right: 10px; /*was 1*/  
     --Border-Curves-Top-Left-Pop: 10px;  
-    --Callout-Padding: 5px 10px 10px 10px;    
+    --Callout-Padding: 5px 10px 10px 15px;
+    --Callout-Icon-Font-Family: "Font Awesome 5 Free";    
+    --Callout-Icon-Font-Size: 1rem;    
+    --Callout-Icon-Font-Weight: 600;    
 }
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
@@ -52,6 +55,18 @@
    color: orangered; 
    background-color: yellow;
 }
+ .multiple-equals-text {
+    color: green;
+    font-size: 15px;
+    padding-left: 0px;
+ }
+
+ .replace-point-text {
+    color: green;
+    font-size: 15px;
+    padding-left: 20px;   
+ }
+
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /*For some MD images*/
@@ -81,7 +96,7 @@
     border-bottom-right-radius: var(--Border-Curves-Bottom-Right);
 */
     box-shadow: 3px 3px #0F52BA;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     background-color: #ECECEC;
     color: blue;
     font-weight: bold;
@@ -123,14 +138,14 @@ hr {
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
     border-bottom-right-radius: var(--Border-Curves-Bottom-Right);      
-    font-size: 1rem;
+    font-size: .9rem;
     color: purple;
 }
 
 .callout-note::before {
-    font-family: "Font Awesome 5 Free";
-	font-weight: 800;
-    font-size: 1.2rem;
+    font-family: var(--Callout-Icon-Font-Family);
+	font-weight: var(--Callout-Icon-Font-Weight);
+	font-size: var(--Callout-Icon-Font-Size);
 	content: "\f0a4  NOTE!"; /*hand icon*/
     color: purple;
     display: inline-block;
@@ -147,16 +162,16 @@ hr {
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
     border-bottom-right-radius: var(--Border-Curves-Bottom-Right);    
-    font-size: 1rem;
+    font-size: .9rem;
     color: green;
 }
 
 .callout-tip::before {
-    font-family: "Font Awesome 5 Free";
-	font-weight: 800;
+    font-family: var(--Callout-Icon-Font-Family);
+	font-weight: var(--Callout-Icon-Font-Weight);
+	font-size: var(--Callout-Icon-Font-Size);
 	/*content: "\f069  TIP! \A"; /*asterisk*/
 	content: "\f14a  TIP! \A"; /*checkbox*/
-    font-size: 1rem;
     white-space: pre;
     color: green;
     display: inline-block;
@@ -173,15 +188,15 @@ hr {
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
     border-bottom-right-radius: var(--Border-Curves-Bottom-Right);   
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: 500;
     color: red;
 }
 
 .callout-code-warning::before {
-    font-family: "Font Awesome 5 Free";
-	font-weight: 600;
-    font-size: 1.2rem;
+    font-family: var(--Callout-Icon-Font-Family);
+	font-weight: var(--Callout-Icon-Font-Weight);
+	font-size: var(--Callout-Icon-Font-Size);
 	content: "\f071  IMPORTANT! \A";
     white-space: pre;
     color: red;
@@ -205,9 +220,9 @@ hr {
 }
 
 .callout-oops::before {
-    font-family: "Font Awesome 5 Free";
-	font-weight: 600;
-    font-size: 1.2rem;
+    font-family: var(--Callout-Icon-Font-Family);
+	font-weight: var(--Callout-Icon-Font-Weight);
+	font-size: var(--Callout-Icon-Font-Size);
 	content: "\f5a5  OOPS! \A";
     white-space: pre;
     color: green;
@@ -225,10 +240,15 @@ hr {
 }
 
 .callout-chrome::before {
-    font-family: "Font Awesome 5 Free";
-	font-weight: normal;
-    font-size: 1rem;
+    font-family: var(--Callout-Icon-Font-Family);
+	font-weight: var(--Callout-Icon-Font-Weight);
+	font-size: var(--Callout-Icon-Font-Size);
 	content: "\f268  Chrome \A"; /*CHROME Icon*/
+    white-space: pre;
+    color: red;
+    display: inline-block;
+    top: 0;
+    right: 0;
 }
 
 /*-----------------------------------------------*/
@@ -241,9 +261,9 @@ hr {
 }
 
 .copy-code::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: var(--Callout-Icon-Font-Family);
 	font-weight: normal;
-    font-size: 1.2rem;
+	font-size: var(--Callout-Icon-Font-Size);
 	content: "\f0c5 \A";
 }
 
@@ -261,15 +281,15 @@ hr {
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
     border-bottom-right-radius: var(--Border-Curves-Bottom-Right);   
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 500;
     color: #008098; /*Dark Cyan*/
 }
 
 .save-code::before {
-    font-family: "Font Awesome 5 Free";
-	font-weight: 600;
-    font-size: 1.2rem;
+    font-family: var(--Callout-Icon-Font-Family);
+	font-weight: var(--Callout-Icon-Font-Weight);
+	font-size: var(--Callout-Icon-Font-Size);
 	content: "\f07c  SAVED \A";
 }
 
@@ -296,10 +316,15 @@ hr {
 }
 /*
 .final::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: var(--Callout-Icon-Font-Family);
 	font-weight: normal;
-    font-size: 2rem;
+    font-size: var(--Callout-Icon-Font-Size);
 	content: "\f582 \A";
+    white-space: pre;
+    color: goldenrod;
+    display: inline-block;
+    top: 0;
+    right: 0;
 }
 */
 .happy-coding {
@@ -321,16 +346,16 @@ hr {
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
     border-bottom-right-radius: var(--Border-Curves-Bottom-Right);  
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 500;
     color: blue;
 }
 
 .semi-final::before {
-    font-family: "Font Awesome 5 Free";
-	font-weight: normal;
-    font-size: 1.2rem;
-	content: "\f582 \A \A";
+    font-family: var(--Callout-Icon-Font-Family);
+	font-weight: 500; /*Leave at 500 for open icon */
+	font-size: var(--Callout-Icon-Font-Size);
+	content: "\f582  \A";
 }
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
@@ -347,8 +372,9 @@ hr {
 }
 
 .popup-tip::before {
-    font-family: "Font Awesome 5 Free";
-	font-weight: 800;
+    font-family: var(--Callout-Icon-Font-Family);
+	font-weight: var(--Callout-Icon-Font-Weight);
+	font-size: var(--Callout-Icon-Font-Size);
 	content: "\f14a  TIP! \A";
     white-space: pre;
     color: green;
@@ -474,6 +500,16 @@ The @media MAX-width (800px) query properties
     .final {
         padding-left: 0px;
     } 
+    .css-link-text {
+        font-size: 15px;
+    }
+    .multiple-equals-text {
+        font-size: 14px;
+    }
+    
+     .replace-point-text {
+        font-size: 14px;
+    }    
 }
 
 /*-----------------------------------------
@@ -519,6 +555,16 @@ The @media MAX-width (420px) query properties (iPhone7 Plus)
     .final {
         padding-left: 0px;
     }    
+    .css-link-text {
+        font-size: 15px;
+    }
+    .multiple-equals-text {
+        font-size: 12px;
+    }
+    
+     .replace-point-text {
+        font-size: 12px;
+    }
 }
 
 /*ORPHANS 091322*/
