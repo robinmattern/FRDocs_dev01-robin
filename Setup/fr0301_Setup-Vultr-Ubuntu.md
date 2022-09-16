@@ -74,6 +74,12 @@ https://www.vultr.com/?ref=8778592
 
 #### 5. Server Location
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Tip: Select a location near to you.</a> 
+  </div>
+</div>
+
 ![Vultr Server Location](./images/fr0301-03_Vultr-Server-Location.png "Server Location")
 
 #### 6. Server Image: Ubuntu choose the highest version for the formR tutorial.
@@ -85,15 +91,16 @@ https://www.vultr.com/?ref=8778592
 ![Vultr Server Size](./images/fr0301-05_Vultr-Server-Size.png "Server Size")
 
 #### 8. Add SSH Key
-    - Select your Vultr public key in C:\users\Local_Admin\\.ssh
+
+- Select your Vultr public key in C:\users\Local_Admin\\.ssh
 
 ![Vultr-Select-Key](./images/fr0301-06_Vultr-Select-Key.png "Vultr-Select-Key")
 
-    - Open the file in Notepad and copy the key 
+- Open the file in Notepad and copy the key 
 
 ![Vultr-Copy-Key](./images/fr0301-06_Vultr-Copy-Key.png "Vultr-Copy-Key")
 
-    - Paste the key value into the Vultr SSH Key box and give the key a name.
+- Paste the key value into the Vultr SSH Key box and give the key a name.
 
 ![Vultr-add-SSH-key-pasted](./images/fr0301-06_Vultr-add-SSH-key-pasted.png "Vultr-add-SSH-key-pasted")
 
@@ -101,12 +108,20 @@ https://www.vultr.com/?ref=8778592
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Auto-Backup.png "Vultr-Host-Label")
 
-#### 10. Server Hostname and Label: Vultr-formR0 for both
+#### 10. Server Hostname and Label: 
+
+- Use Vultr-FormR0 for both
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Host-Label.png "Vultr-Host-Label")
 
 
 #### 11. Click Deploy Now
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Info: Deploy now takes a few minutes to complete.</a> 
+  </div>
+</div>
 
 ![Vultr Deploy Now](./images/fr0301-07_Vultr-Deploy-Now.png "Deploy Now")
 
@@ -127,9 +142,8 @@ https://www.vultr.com/?ref=8778592
 
 #### 3. Enter new profile name
 
-```
-Vultr-formR0-root.tlp
-```
+- Vultr-formR0-root.tlp
+
 
 ![Vultr New-Profile-Name](./images/fr0301-09_Vultr-New-Profile-Name.png "Vultr New-Profile-Name")
 
@@ -157,7 +171,14 @@ Vultr-formR0-root.tlp
 
 ![Vultr New-Profile-Auth](./images/fr0301-09_Vultr-New-Profile-Auth.png "Vultr New-Profile-Auth")
 
-#### 6. Important-- Save Profile
+#### 6. Save Profile
+
+<div class="notice-warning">
+  <div class="notice-warning-header">
+    Important: Don't Lose Your Work
+  </div>
+</div>  
+
 
 ![Vultr New-Profile-Save](./images/fr0301-09_Vultr-New-Profile-Save.png "Vultr New-Profile-Save")
 
