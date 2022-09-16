@@ -74,19 +74,19 @@ Tutorial Links
 We are not attempting to teach CSS (Cascading Style Sheets), but providing you with some links above of very good tutorials. Hopefully, this exercise will encourage you to explore these links. Udemy offers some very good video instructions, but usually at a cost. If you sign up with Udemy, they will send you emails with bargain prices. (See Background and Purposes for details)
 <br><br>
 Tools Used:
-    <div class=list-text>
+<div class=list-text>
     <ol>
-    <li>Your completed workstation</li>
-    <li>Chrome web browser</li>
-    <li>Windows File Explorer</li>
-    <li>VS (Visual Studio) Code</li>
-    <li>Git Hub</li>
+        <li>Your completed workstation</li>
+        <li>Chrome web browser</li>
+        <li>Windows File Explorer</li>
+        <li>VS (Visual Studio) Code</li>
+        <li>Git Hub</li>
     </ol>
-    </div>
+</div>
 Your Workspace:<br><br>
 In VSCode you will find in your FRApps repository a folder<br>
 &nbsp;&nbsp;&nbsp;&nbsp;"<span class="doc-dir-text">1c1_my-html-custom-app</span> (inside your <font color='green'>client1</font> folder)."<br>
-In this folder are the empty <font color='green'>index.<b>html</b></font> and <font color='green'>index.<b>css</b></font> files, along with a favicon.png image file.<br><br>
+In this folder are the empty <font color='green'>index.<b>html</b></font> and <font color='green'>index.<b>css</b></font> files, along with a favicon.png image file.<br>
 <img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1.jpg"><br>
 
 And there is an "<font color='green'>assets"</font> folder that holds an "<font color='green'>images</font>" folder with the needed images to build your final project for this HTML Custom App course.<br>
@@ -118,7 +118,7 @@ ____
 
 Your Final CUSTOMIZED Web Site Preview
 
-The below preview will have a fixed (secured) Fheader and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when small or large).
+The below preview will have a fixed (secured) header and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when small or large).
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFINALImage.jpg">
 
@@ -136,7 +136,7 @@ There will be 3 different methods for copy/paste:<br>
 Each method will be fully discussed at the first instance you encounter them.
 </div>
 <br>
-<div class="callout-tip">
+<div class="callout-tip"><br>
 <u><b><i>LAYOUT vs CUSTOMIZATION</i></b></u>:<br>
 As we build upon the code in both index.html and index.css, we will create first a "Layout" with Place Holders; then we will "Customize" it our way.  You will have the opportunity to customize your "Layout" as your "Custom HTML App" later.
 </div>
@@ -262,7 +262,7 @@ Like this
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicHTMLImage.jpg">
 
-- From VSCode, right click on the file "index.<b>html</b>" and click on:
+From VSCode, right click on the file "index.<b>html</b>" and click on:
 <br><span class="pic-text">&nbsp;Open In Live Server&nbsp;</span>
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksImage1.jpg">
@@ -271,7 +271,7 @@ If your Chrome browser is not already open, this command will open it and show t
 <br><br>
 Like this
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksImage2.jpg">
+<img class="basic-image" src="FRApps/assets/images/md-images/BasicBlocksImage2a.jpg">
 <br><br>
 
 <div class="semi-final">
@@ -279,7 +279,7 @@ Like this
 <br>Let's move to the CSS code to add our blocks.
 </div>
 <br>
-<img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
+<img class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
 #### c. CSS Basic Code  
 
@@ -515,7 +515,7 @@ ___
 
 - Please check your Chrome browser. 
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksImage3.jpg"><br><br>
+<img class="basic-image" src="FRApps/assets/images/md-images/BasicBlocksImage3a.jpg"><br><br>
 
 <div class="semi-final">
 <span style="font-size: 20px"><b>CONGRATULATIONS!!</b>

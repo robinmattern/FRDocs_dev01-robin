@@ -106,6 +106,10 @@
 .eighty-percent {
     width: 80%;
 }
+.basic-image {
+    width: 60%;
+    border: none;
+}
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /*to make blueNSX look stylish*/
@@ -540,6 +544,9 @@ The @media MAX-width (800px) query properties
     .copy-image {
         width: 10%
     }
+    .basic-image {
+        width: 95%;
+    }
     .callout-copy {
         font-size: 1.1rem;
     }
@@ -549,14 +556,18 @@ The @media MAX-width (800px) query properties
     .callout-tip {
         font-size: .8rem;
     }
-    summary.summary-style {
-        padding: 5px 20px 5px 15px;
-        text-align: left;
+    .callout-tip-top {
         font-size: .9rem;
+    }   
+    
+    summary.summary-style {
+        padding: 2px 20px 5px 2px;
+        text-align: left;
+        font-size: 1rem;
         font-weight: bold;
     }
     details[open].details-style {
-      padding: 5px 20px 0px 12px;
+        padding: 14px 20px 0px 12px;
     }
     .popup h3 {
         font-size: 1.1rem;
@@ -585,6 +596,10 @@ The @media MAX-width (800px) query properties
         font-size: .75rem;
     }
 }
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The @media MAX-width (800px) query properties
+=========================================*/
+
 /*-----------------------------------------
 The @media MAX-width (420px) query properties (iPhone7 Plus) 
 =========================================*/
@@ -604,23 +619,29 @@ The @media MAX-width (420px) query properties (iPhone7 Plus)
     .copy-image {
           width: 12%
     }
+    .basic-image {
+        width: 95%;
+    }
     .callout-copy {
         font-size: 1rem;
     }
     .callout-code-warning {
         font-size: .52rem;
     }
+    .callout-tip-top {
+        font-size: .8rem;
+    }    
     .callout-tip {
         font-size: .8rem;
     }
     summary.summary-style {
-        padding: 5px 20px 5px 5px;
+        padding: 2px 20px 5px 2px;
         text-align: left;
         font-size: .9rem;
         font-weight: bold;
     }
     details[open].details-style {
-        padding: 5px 20px 0px 7px;
+        padding: 14px 20px 0px 12px;
     }
     .popup h3 {
         font-size: 1.1rem;
@@ -646,17 +667,14 @@ The @media MAX-width (420px) query properties (iPhone7 Plus)
         font-size: 12px;
     }
     .list-text {
-        font-size: .7rem;
+        font-size: .85rem;
     }
 }
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The @media MAX-width (420px) query properties (iPhone7 Plus) 
+=========================================*/
 
-/*ORPHANS 091322*/
-/*-----------------------------------------------*/
-/*-----------------------------------------------*/
-/*For most MD images*/
-.shadow-border {
-    border: 1px solid;
-    /*box-shadow: 5px 10px;*/
-}
+
+
 /*-----------------------------------------------*/
 /*END OF CSS*/
