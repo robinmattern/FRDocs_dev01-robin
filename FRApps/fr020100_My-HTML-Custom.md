@@ -5,82 +5,26 @@
 [BACK - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next">
 
-[Custom FRApps React - NEXT](/Setup/fr0105_Custom-FR-Apps-React.md)
+[JavaScript Custom FRApps - NEXT](/FRApps/fr020200_My-Javascript-Custom-App.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
 
 ## 3.1 My HTML Custom App h:mm <!-- {docsify-ignore} -->
 <br>
-<div class="callout-tip">
+<div class="callout-tip-top">
     <a href="../Setup/purposes/pfr0101_Setup-Developer-Workstation.md" target="_blank">Link to Background and Purposes</a> 
 </div>
 <br>
-<div class="callout-tip">
+<div class="callout-tip-top">
     <a href="https://discord.com/channels/928752444316483585/932678480863305770" target="_blank">Link to Discord for Your Comments</a> 
 </div>
 
 ____
 
 
-<div class="author">
-<img src="FRApps/assets/images/blueNSX.jpg" class="author-image">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Author:&nbsp;<a href="http://www.evantageone.com/rjs" target="_blank" title="Richard's Resume">Richard Schinner</a>
-</div>
-<br>
-
 #### Introduction 
 - You will be building a web site which starts with very simple index.**html** and index.**css** files.  Your repository will include both of those **empty** files plus the needed images. If you follow the directions and copy/paste each section's code, you will end up with a still simple index.html but a rather complex index.css file.
-
-- Tutorial Links 
-
-We are not attempting to teach CSS (Cascading Style Sheets), but providing you with some links below of very good tutorials. Hopefully, this exercise will encourage you to explore these links. (See Purpose and Background for details)
-
-- Tools Used
-    1. Your completed workstation
-    2. Chrome web browser
-    3. Windows File Explorer
-    4. VS (Visual Studio) Code
-    5. Git Hub <br><br>
-- Your Workspace<br>
-In VSCode you will find in your FRApps repository a folder<br>
-&nbsp;&nbsp;&nbsp;&nbsp;"<span class="doc-dir-text">1c1_my-html-custom-app</span> (inside your <font color='green'>client1</font> folder)."<br>
-In this folder are the empty <font color='green'>index.<b>html</b></font> and <font color='green'>index.<b>css</b></font> files, along with a favicon.png image file.<br>
-<img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1.jpg"><br>
-
-- And there is an "<font color='green'>assets"</font> folder that holds an "<font color='green'>images</font>" folder with the needed images to build your final project for this HTML Custom App course.
-<img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1a.jpg">
-
-____
-
-<details class="details-style">
-<summary class="summary-style">More Info: Suggested Setup</summary>
-Our recommended method to set up the windows in your workstation.  
-
-+ VSCode taking up the right 1/2 of your screen
-+ Chrome with a <b><u>TAB</u></b> for your work instructions... 
-+ ...AND a <b><u>TAB</u></b> for your "Live Server" taking up the left side of your screen 
-
-As you add code to your index.html and index.css files, you will be able to see immediate results in the "Live Server" <b><u>TAB</u></b> on your Chrome.  
-
-Like this for Instructions...
-<img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksWorkstationImage1a.jpg">
-
-... and like this for "Live Server."
-<img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksWorkstationImage1b.jpg">
-
-- You may want to maximize either side to better see the code or Chrome; then return to 1/2 screen.
-<br>
-</details>
-
-____
-
-Your Final CUSTOMIZED Web Site Preview
-
-The below preview will have a fixed (secured) header and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when small or large).
-<br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicFINALImage.jpg">
-
-____
 
 <details class="details-style">
     <summary class="summary-style">
@@ -113,7 +57,73 @@ Example (this is for a .Header  sub class, H-4, in the 4th position from the mai
 </div>
 </details>
 
+
+<div class="author">
+<img src="FRApps/assets/images/blueNSX.jpg" class="author-image">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Author:&nbsp;<a href="http://www.evantageone.com/rjs" target="_blank" title="Richard's Resume">Richard Schinner</a>
+</div>
+<br>
+Tutorial Links 
+<ul>
+    <li>
+        <a href="https://www.w3schools.com/css/" target="_blank">https://www.w3schools.com/css/</a>
+    </li>
+    <li>
+        <a href="https://www.udemy.com/topic/css/" target="_blank">https://www.udemy.com/topic/css/</a>
+    </li>
+</ul>
+We are not attempting to teach CSS (Cascading Style Sheets), but providing you with some links above of very good tutorials. Hopefully, this exercise will encourage you to explore these links. Udemy offers some very good video instructions, but usually at a cost. If you sign up with Udemy, they will send you emails with bargain prices. (See Background and Purposes for details)
+<br><br>
+Tools Used:
+    <div class=list-text>
+    <ol>
+    <li>Your completed workstation</li>
+    <li>Chrome web browser</li>
+    <li>Windows File Explorer</li>
+    <li>VS (Visual Studio) Code</li>
+    <li>Git Hub</li>
+    </ol>
+    </div>
+Your Workspace:<br><br>
+In VSCode you will find in your FRApps repository a folder<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"<span class="doc-dir-text">1c1_my-html-custom-app</span> (inside your <font color='green'>client1</font> folder)."<br>
+In this folder are the empty <font color='green'>index.<b>html</b></font> and <font color='green'>index.<b>css</b></font> files, along with a favicon.png image file.<br><br>
+<img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1.jpg"><br>
+
+And there is an "<font color='green'>assets"</font> folder that holds an "<font color='green'>images</font>" folder with the needed images to build your final project for this HTML Custom App course.<br>
+<img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1a.jpg">
+
 ____
+
+<details class="details-style">
+<summary class="summary-style">More Info: Suggested Setup</summary>
+Our recommended method to set up the windows in your workstation.  
+
++ VSCode taking up the right 1/2 of your screen
++ Chrome with a <b><u>TAB</u></b> for your work instructions... 
++ ...AND a <b><u>TAB</u></b> for your "Live Server" taking up the left side of your screen 
+
+As you add code to your index.html and index.css files, you will be able to see immediate results in the "Live Server" <b><u>TAB</u></b> on your Chrome.  
+
+Like this for Instructions...
+<img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksWorkstationImage1a.jpg">
+
+... and like this for "Live Server."
+<img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksWorkstationImage1b.jpg">
+
+You may want to maximize either side to better see the code or Chrome; then return to 1/2 screen.
+<br><br>
+</details>
+
+____
+
+Your Final CUSTOMIZED Web Site Preview
+
+The below preview will have a fixed (secured) Fheader and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when small or large).
+<br>
+<img class="no-border" src="FRApps/assets/images/md-images/BasicFINALImage.jpg">
+
+____
+
 
 <div class="callout-tip"><br>
 <span style=font-size:20px; font-weight:bold>IMPORTANT</SPAN>
@@ -125,15 +135,13 @@ There will be 3 different methods for copy/paste:<br>
 <br><br>
 Each method will be fully discussed at the first instance you encounter them.
 </div>
-
-____
-
+<br>
 <div class="callout-tip">
 <u><b><i>LAYOUT vs CUSTOMIZATION</i></b></u>:<br>
 As we build upon the code in both index.html and index.css, we will create first a "Layout" with Place Holders; then we will "Customize" it our way.  You will have the opportunity to customize your "Layout" as your "Custom HTML App" later.
 </div>
 <br>Below is our outline.<br>
-
+<!--
 - Layout
     + 1. Create Basic Blocks<br>
     + 2. Modify to Large Blocks
@@ -147,7 +155,28 @@ As we build upon the code in both index.html and index.css, we will create first
     + 2. Add Image formR Logo
     + 3. Change Texts
     + 4. Change Colors
-
+-->
+<div class="item-text">
+    <ul>
+        <li class="li-text">Layout</li>
+            <ol>
+                <li>Create Basic Blocks</li>
+                <li>Modify to Large Blocks</li>
+                <li>Modify Header</li>
+                <li>Modify Footer</li>
+                <li>Add Text</li>
+                <li>Add "Wiggle" Button</li>
+                <li>Add Responsiveness</li>
+            </ol>
+        <li class="li-text">Customize</li>
+            <ol>
+                <li>Add Image to Section 1</li>
+                <li>Add Image formR Logo</li>
+                <li>Change Texts</li>
+                <li>Change Colors</li>
+            </ol>
+    </ul>
+</div>
 <hr class="main-division">
 
 ### *LAYOUT*
@@ -230,10 +259,11 @@ Our original sketch...
 </html>
 ```
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicHTMLImage.jpg">
 
-- From VSCode, right click on the file "index.<b>html</b>" and click on "<span class="pic-text">Open In Live Server</span>"
+- From VSCode, right click on the file "index.<b>html</b>" and click on:
+<br><span class="pic-text">&nbsp;Open In Live Server&nbsp;</span>
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksImage1.jpg">
 <br><br>
@@ -507,15 +537,19 @@ To understand a <u><i>little</i></u> of this CSS code, let's look at the .Header
 /&ast;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;<br>
 &nbsp;&nbsp;The .Header properites<br>
 &dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;*/<br>
-.Header {<br><br>
-&nbsp;&nbsp;background: var(--Header_background-color);<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Sets the background to the variable set above in the :root</span><br><br>
-&nbsp;&nbsp;width: 300px;<br>
+.Header {
+<div class="list-text">
+<ul>
+<li>background: var(--Header_background-color);<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Sets the background to the variable set above in the :root</span><br><br></li>
+<li>width: 300px;<br>
         &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Sets the width of the header block 300 pixels</span><br><br>
-&nbsp;&nbsp;height: 100px;<br>
+<li>height: 100px;<br>
         &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Sets the height of the header block 100 pixels</span><br><br>
-&nbsp;&nbsp;position: relative;<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Places the header box relative to the html code reading from the top to the bottom (DOM)</span><br><br>        
+<li>position: relative;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span style=color:red;>** Places the header box relative to the html code reading from the top to the bottom (DOM)</span></li><br><br>        
+</ul>
+</div>
 </div>    
 </details>
 
@@ -882,7 +916,7 @@ comments in your index.<b>css</b> file:
 <br>
 
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage1b.jpg">
 <br><br>
 Look at your Chrome browser! 
@@ -1085,7 +1119,7 @@ comments in your index.<b>css</b> file:
 </div>
 <br>
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0g.jpg">
 <br><br>
 
@@ -1164,7 +1198,7 @@ comments in your index.<b>css</b> file:
 </div>
 <br>
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0j.jpg">
 
 Again, go see it in your Chrome browser.  
@@ -1236,7 +1270,7 @@ comments in your index.<b>html</b> file:
 <br>
 
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage1.jpg">
 <br><br>
 
@@ -1322,7 +1356,7 @@ comments in your index.<b>css</b> file:
 <br>
 
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage7a.jpg">
 
 <br><br>
@@ -1389,7 +1423,7 @@ comments in your index.<b>html</b> file:
 <br>
 
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicWithImageImage1.jpg">
 <br><br>
 Notice. in CHROME, the "PH Text Overlay" within the &#60;h2&#62; tags.  This will become our text overlay.
@@ -1454,7 +1488,7 @@ comments in your index.<b>css</b> file:
 </div>
 <br>
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicWithImageImage5a.jpg">
 
 ___
@@ -1511,7 +1545,7 @@ comments in your index.<b>html</b> file:
 <br>
 
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage6.jpg">
 <br><br>
 
@@ -1814,7 +1848,7 @@ comments in your index.<b>css</b> file:
 <br>
 
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage5.jpg">
 
 ___
@@ -1964,12 +1998,15 @@ You are now ready to *CUSTOMIZE*.  We will work together on our version of a for
 
 ### *CUSTOMIZATION*
 
-- As previously mentioned, we will make some changes to our LAYOUT.<br>We will:<b>
-    + Add an image (.jpg) file to Section 1
-    + Change the font-based “PH Logo” to our formR logo image (.gif) file
-    + Change all of the Place Holder (PH) text
-    + Change some colors</b><br><br>
-
+- As previously mentioned, we will make some changes to our LAYOUT.<br>We will:
+<div class="custom-list-text">    
+    <ul>
+        <li>Add an image (.jpg) file to Section 1</li>
+        <li>Change the font-based “PH Logo” to our formR logo image (.gif) file</li>
+        <li>Change all of the Place Holder (PH) text</li>
+        <li>Change some colors</li>
+    </ul>
+</div>
 - Let’s have some fun. This will require some modifications to your existing code in both the index.html AND index.css files.
 
 ___
@@ -2030,7 +2067,7 @@ comments in your index.<b>css</b> file:
 </div>
 <br>
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicWithImageImage3.jpg">
 <br>
 
@@ -2113,7 +2150,7 @@ comments in your index.<b>html</b> file:
 </div>
 <br>
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicformRImage1.jpg">
 
 > ...OR just follow along with the below video<br>
@@ -2124,7 +2161,7 @@ Like this
 In Chrome, we have made a mess of the logo.  Be patient, we will take care of this with CSS code.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicformRImage1a.jpg">
-<br><br><br>
+<br><br>
 
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
@@ -2132,7 +2169,7 @@ In Chrome, we have made a mess of the logo.  Be patient, we will take care of th
 #### b. &#58;root
 <br>
 
-- In the <font color='green'>:root</font> section we will MODIFY the following:<br>
+In the <font color='green'>:root</font> section we will MODIFY the following:<br>
 
     + <b><font color=#A81966>--HeaderLogo-image:</font></b>: url('assets/images/formr-logo-blue.gif'); 
     + <b><font color=#A81966>--HeaderLogo-margin:</font></b>: 0px 0 0 50px;<br><br>
@@ -2181,7 +2218,7 @@ comments in your index.<b>css</b> file:
 <br>
 
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicformRImage2.jpg">
 
 #### c. .HeaderLogo
@@ -2189,7 +2226,8 @@ Like this
 - We will be <u><b>REPLACING 3 classes</b></u>...
 
     + <font color='green'>.HeaderLogo</font>
-    + <font color='green'>.HeaderLogo a</font> (this class will be removed)
+    + <font color='green'>.HeaderLogo a</font>
+        <br>&nbsp;&nbsp;&nbsp;(^ this class will be removed)
     + <font color='green'>.HeaderSpacer</font><br><br>
 
 - ... <u><b>with 2 classes</b></u>... 
@@ -2350,7 +2388,7 @@ comments in your index.<b>css</b> file:
 <br>
 
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/
 md-images/BasicResponsiveChange.jpg">
 
@@ -2481,16 +2519,28 @@ First, remember the <font color='green'>:root</font> section.
 
 <br><br>
 Well, it's very simple to make the requested color changes right here in four of the properties:
-
-- <font color=#A81966>--Header_background-color</font><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;(requested change from red to #FF7034; [dark orange])
-- <font color=#A81966>--Section1_background-color</font>  
-    &nbsp;&nbsp;&nbsp;&nbsp;(requested change from blue to whitesmoke)
-- <font color=#A81966>--Section2_background-color</font><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;(requested change from lightgray to whitesmoke)
-- <font color=#A81966>--Footer_background-color</font><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;(requested change from green to #FF7034; [dark orange])
-
+<div class="list-text">
+<ul>
+<li>
+    <font color=#A81966>--Header_background-color</font><br>
+    &nbsp;&nbsp;(requested change from <span style="background-color:red;color:white">&nbsp;red&nbsp;</span> to <span style="background-color:#FF7034;color:white">&nbsp;dark orange&nbsp;</span>;<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[hex: #FF7034])
+</li><br>
+<li>
+    <font color=#A81966>--Section1_background-color</font><br>  
+    &nbsp;&nbsp;(requested change from <span style="background-color:blue;color:white">&nbsp;blue&nbsp;</span> to <span style="background-color:whitesmoke;color:#424242">&nbsp;whitesmoke&nbsp;</span>)
+</li><br>
+<li>
+    <font color=#A81966>--Section2_background-color</font><br>
+    &nbsp;&nbsp;(requested change from <span style="background-color:lightgray;color:black">&nbsp;lightgray&nbsp;</span> to <span style="background-color:whitesmoke;color:#424242">&nbsp;whitesmoke&nbsp;</span>)
+</li><br>
+<li>
+    <font color=#A81966>--Footer_background-color</font><br>
+    &nbsp;&nbsp;(requested change from <span style="background-color:green;color:white">&nbsp;green&nbsp;</span> to <span style="background-color:#FF7034;color:white">&nbsp;dark orange&nbsp;</span>; <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[hex: #FF7034])
+</li>
+</ul>
+</div>
 <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>:root</font> code below... </span>
 
 ```css
@@ -2535,7 +2585,7 @@ comments in your index.<b>css</b> file:
 <br>
 
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicColorImage3.jpg">
 
 ___
@@ -2607,7 +2657,7 @@ comments in your index.<b>css</b> file:
 </div>
 <br>
 Like this
-
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicColorImage4.jpg">
 
 ### Final CUSTOM
@@ -2617,16 +2667,16 @@ Like this
 <br>
 <div class="semi-final">
 <span style="font-size: 20px"><b>CONGRATULATIONS!!</b></span>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have completed "My HTML Custom App."
-<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GREAT JOB!<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check out your work in Chrome.  
+    <div class="semi-final-text">
+    You have completed "My HTML Custom App."
+    <ul>
+        <li>GREAT JOB!</li>
+        <li>Check out your work in Chrome.</li>
+    </ul>
+    </div>  
 </div>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicCustomWithWiggle.jpg">
-
-
 
 #### Final Version With formR logo, text & color changes, "wiggle" button and responsive.
 
