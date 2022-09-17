@@ -38,25 +38,9 @@ More Info: Names, Caps, Picts, Code Copy
 
 - We recommend that you copy and paste code snippets from the documentation into your workstation/server. This will reduce the errors caused by hand typing.
 Hover over the snippet and click copy, then paste as appropriate.
-
-- We will be Replacing and Inserting blocks of code in both the index.html & index.css files.  Below is the KEY to aid in finding the place in the code for these actions in the index.**css** file:
-    + **HR**:  Header Replace
-    + **H**:   Header Insert
-    + **S1R**: Section1 Replace
-    + **S1**:  Section1 Insert
-    + **S2R**: Section2 Replace
-    + **S2**:  Section2 Insert
-    + **FR**:  Footer Replace
-    + **F**:   Footer Insert
-    + **R**:   Responsive Insert
-
-Example (this is for a .Header  sub class, H-4, in the 4th position from the main .Header class- H-1):
-
-<img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksInsertKeyImage1.jpg">
 <br><br>
 </div>
 </details>
-
 
 <div class="author">
 <img src="FRApps/assets/images/blueNSX.jpg" class="author-image">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Author:&nbsp;<a href="http://www.evantageone.com/rjs" target="_blank" title="Richard's Resume">Richard Schinner</a>
@@ -124,7 +108,23 @@ The below preview will have a fixed (secured) header and footer, navigation link
 
 ____
 
-
+<div class="callout-tip"><br>
+We will be Replacing and Inserting blocks of code in both the index.html & index.css files.  Below is the KEY to aid in finding the place in the code for these actions in the index.**css** file:
+<ul>
+    <li> HR:  Header Replace</li>
+    <li> H:   Header Insert</li>
+    <li> S1R: Section1 Replace</li>
+    <li> S1:  Section1 Insert</li>
+    <li> S2R: Section2 Replace</li>
+    <li> S2:  Section2 Insert</li>
+    <li> FR:  Footer Replace</li>
+    <li> F:   Footer Insert</li>
+    <li> R:   Responsive Insert</li>
+</ul>
+Example:
+<img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksInsertKeyImage1.jpg">
+</div>
+<br>
 <div class="callout-tip"><br>
 <span style=font-size:20px; font-weight:bold>IMPORTANT</SPAN>
 <br><img class="no-border" src="FRApps/assets/images/md-images/BasicCopyHTML.gif"><br>
@@ -139,23 +139,8 @@ Each method will be fully discussed at the first instance you encounter them.
 <div class="callout-tip"><br>
 <u><b><i>LAYOUT vs CUSTOMIZATION</i></b></u>:<br>
 As we build upon the code in both index.html and index.css, we will create first a "Layout" with Place Holders; then we will "Customize" it our way.  You will have the opportunity to customize your "Layout" as your "Custom HTML App" later.
-</div>
-<br>Below is our outline.<br>
-<!--
-- Layout
-    + 1. Create Basic Blocks<br>
-    + 2. Modify to Large Blocks
-    + 3. Modify Header
-    + 4. Modify Footer
-    + 5. Add Text
-    + 6. Add "Wiggle" Button
-    + 7. Add Responsiveness
-- Customize
-    + 1. Add Image to Section 1
-    + 2. Add Image formR Logo
-    + 3. Change Texts
-    + 4. Change Colors
--->
+
+Below is our outline.
 <div class="item-text">
     <ul>
         <li class="li-text">Layout</li>
@@ -176,6 +161,7 @@ As we build upon the code in both index.html and index.css, we will create first
                 <li>Change Colors</li>
             </ol>
     </ul>
+</div>
 </div>
 <hr class="main-division">
 
