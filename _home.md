@@ -10,7 +10,7 @@
 <!-- ------------------------------------------------------------------------- -->
 
 ----
-### formR Introduction - The Renaissance Developer 
+### formR Introduction - The Renaissance Web Developer 
 ----
 
 - Shouldn't every computer professional understand the total picture? Whether your expertise is infrastructure, database, presentation or project management, you can't go wrong with more knowledge about the other disciplines. 
