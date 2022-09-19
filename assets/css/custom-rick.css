@@ -20,6 +20,7 @@
     --More-Info-Padding-Closed: 10px 10px 10px 13px;
     --More-Info-Padding-Open: 0px 10px 10px 0px;
     --Tip-Top-Background-Color: rgb(243, 247, 244);
+    --Tip-Top-Icon-Font-Size: .9rem;
     --Tip-Background-Color: var(--Callout-Background-Color);
     --Tip-Text-Color: green;
 
@@ -186,14 +187,14 @@ hr {
     border-radius: var(--Border-Curves-Main);
     border-top-left-radius: var(--Border-Curves-Top-Left);
     border-bottom-right-radius: var(--Border-Curves-Bottom-Right);    
-    font-size: 1.1rem;
+    font-size: .9rem;
     color: var(--Tip-Text-Color);
 }
 
 .callout-tip-top::before {
     font-family: var(--Callout-Icon-Font-Family);
 	font-weight: var(--Callout-Icon-Font-Weight);
-	font-size: var(--Callout-Icon-Font-Size);
+	font-size: var(--Tip-Top-Icon-Font-Size);
 	content: "\f005  Tip: \A"; /*star*/
 	/*content: "\f14a  TIP! \A"; /*checkbox*/
 	/*content: "\f069  TIP! \A"; /*asterisk*/
@@ -569,6 +570,9 @@ The @media MAX-width (800px) query properties
     details[open].details-style {
         padding: 14px 20px 0px 12px;
     }
+    .popup {
+        padding: 0px 0px 0px 15px;
+    }
     .popup h3 {
         font-size: 1.1rem;
     }
@@ -642,6 +646,9 @@ The @media MAX-width (420px) query properties (iPhone7 Plus)
     }
     details[open].details-style {
         padding: 14px 20px 0px 12px;
+    }
+    .popup {
+        padding: 0px 0px 0px 15px;
     }
     .popup h3 {
         font-size: 1.1rem;
