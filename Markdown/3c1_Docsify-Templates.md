@@ -25,12 +25,20 @@
 <div class="notice-tip">
   <div class="notice-tip-header">
     Tip: Multi-line notice</a> 
-  </div>
+  </div> 
 
 Some text
 - Bullet1 
 - Bullet2 
 </div>  
+
+<!-- Info ----------------------------------------------- -->
+
+<div class="notice-info1">
+  <div class="notice-info1-header">
+    Info: <a href="../Setup/purposes/pfr0101_Setup-Developer-Workstation.md" target="_blank">Single-line info</a> 
+  </div>  
+</div>
 
 <!-- More Info ------------------------------------------- -->
 
@@ -38,7 +46,7 @@ Some text
   <summary class="notice-info-header">
     More Info: Multi-line popup with a very long dummary hear / title
   </summary>
-  <div class="notice-info-popup"><br >
+  <div class="notice-info-popup"><space> <!-- .(20919.01.2 RAM Added 10pt <space>) -->
 
 #### A Heading  
 <br>
