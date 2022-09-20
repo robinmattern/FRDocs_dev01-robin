@@ -5,12 +5,12 @@
 [BACK - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next">
 
-[JavaScript Custom FRApps - NEXT](/FRApps/fr020200_My-Javascript-Custom-App.md)
+[JS Custom App - NEXT](/FRApps/fr020200_My-Javascript-Custom-App.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 3.1 My HTML Custom App h:mm <!-- {docsify-ignore} -->
+## 3.1 My HTML Custom App <!--h:mm--> <!-- {docsify-ignore} -->
 
 <div class="callout-tip-top"> Tip:
     <a href="../Setup/purposes/pfr0101_Setup-Developer-Workstation.md" target="_blank">Link to Background and Purposes</a> 
@@ -105,7 +105,7 @@ Your Final CUSTOMIZED Web Site Preview
 
 The below preview will have a fixed (secured) header and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when small or large).
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicFINALImage.jpg">
+<img class="no-border" src="FRApps/assets/images/md-images/BasicFINALImageGaramond.jpg">
 
 ____
 
@@ -1953,7 +1953,7 @@ Compare the 2 (before and after RESPONSIVE queries)
 ### Final LAYOUT
 <br>
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicFinalLayout.jpg">
+<img class="no-border" src="FRApps/assets/images/md-images/BasicFinalLayoutGaramond.jpg">
 <br><br>
 <div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br>You have completed your web page *LAYOUT* with a fixed header and footer, links, a CTA button, an image and a text overlay.  All Place Holders in their correct positions.  AND responsive to the width size of the screen it is displayed.  

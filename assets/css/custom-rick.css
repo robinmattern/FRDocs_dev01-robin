@@ -203,7 +203,7 @@ hr {
 /*-----------------------------------------------*/
 /* Call Out for instructional 2 tips at top */
 .callout-tip-top {
-    margin-left: 25px;
+    margin-left: 20px;
     margin-top: 15px;
     padding: var(--CalloutPadding);
     /*background-color: var(--CalloutBackgroundColor);*/
@@ -647,6 +647,8 @@ The @media MAX-width (800px) query properties
     }
     .callout-tip-top {
         font-size: .9rem;
+        margin-left: 5px;
+        margin-top: 15px;
     }   
     summary.summary-style {
         padding: 2px 20px 5px 2px;
@@ -727,6 +729,8 @@ The @media MAX-width (420px) query properties (iPhone7 Plus)
     }
     .callout-tip-top {
         font-size: .8rem;
+        margin-left: 5px;
+        margin-top: 5px;
     }    
     .callout-tip {
         font-size: .8rem;
