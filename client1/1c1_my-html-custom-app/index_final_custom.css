@@ -1,6 +1,6 @@
 /* Basic Blocks Custom App */
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bookman Old Style');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre');
 
 
 /*=======================================*/
@@ -25,7 +25,7 @@
     --Footer_hover-color: white;
     --FooterList-font-size: .9rem;  
     
-    --GlobalFontFamily: "Bookman Old Style", "Frank+Ruhl+Libre:wght@700&display=swap";
+    --GlobalFontFamily: 'EB Garamond', "Frank Ruhl Libre";
 } 
 /* END REPLACE :root =====================*/
 
@@ -304,7 +304,7 @@ The .Section2 h2 properites
 The .Section2Paragraph properites
 ------------------------------------------*/
 .Section2Paragraph {
-    font-family: "Bookman Old Style", sans-serif;
+    font-family: var(--GlobalFontFamily);
     margin-top: 0px;
     font-size: 1.3rem;
     color: var(--Section2Paragraph-font-color); /* dark orange*/
