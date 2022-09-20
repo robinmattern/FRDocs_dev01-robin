@@ -8,33 +8,48 @@
 /*-----------------------------------------------*/
 /*Variables*/
 :root {
-    --Border-Curves-Main: 10px; /*was 5*/
-    --Border-Curves-Top-Left: 10px; /*was 20*/
-    --Border-Curves-Bottom-Right: 10px; /*was 1*/  
-    --Border-Curves-Top-Left-Pop: 10px;
-    --Callout-Background-Color: #ECECEC; /*Very light gray*/  
-    --Callout-Padding: 5px 10px 10px 15px;
-    --Callout-Icon-Font-Family: "Font Awesome 5 Free";    
-    --Callout-Icon-Font-Size: 1rem;    
-    --Callout-Icon-Font-Weight: 600;
-    --More-Info-Padding-Closed: 10px 10px 10px 13px;
-    --More-Info-Padding-Open: 0px 10px 10px 0px;
-    --Tip-Top-Background-Color: rgb(243, 247, 244);
-    --Tip-Top-Icon-Font-Size: .9rem;
-    --Tip-Background-Color: var(--Callout-Background-Color);
-    --Tip-Text-Color: green;
+    --CalloutIconNote: "\f0a4  NOTE!"; /*hand icon*/
+    --CalloutIconTipTop: "\f005  \A"; /*star*/
+    --CalloutIconTip: "\f005  Tip \A"; /*star w/Tip*/
+    --CalloutIconPopTip: "\f14a  TIP! \A"; /*checkbox*/
+    --CalloutIconWarning: "\f071  IMPORTANT! \A"; /*warning triangle*/
+    --CalloutIconOops: "\f5a5  OOPS! \A"; /*sad*/
+    --CalloutIconChrome: "\f268  Chrome \A"; /*CHROME Icon*/
+    --CalloutIconCopy: "\f0c5 \A"; /*copy*/
+    --CalloutIconSaved: "\f07c  SAVED \A"; /*saved*/
+    --CalloutIconSuccess: "\f582  \A"; /*success*/
+    --CalloutIconFinal: "\f582 \A"; /*happy*/
 
-    
+    --CalloutBackgroundColor: #ECECEC; /*Very light gray*/  
+    --CalloutPadding: 5px 10px 10px 10px;
+    --CalloutIconFontFamily: "Font Awesome 5 Free";    
+    --CalloutIconFontSize: 1rem;    
+    --CalloutIconFontWeight: 600;
+
+    --BorderCurvesMain: 10px; /*was 5*/
+    --BorderCurvesTopLeft: 10px; /*was 20*/
+    --BorderCurvesBottomRight: 10px; /*was 1*/  
+    --BorderCurvesTopLeftPop: 10px;
+
+    --MoreInfoPaddingClosed: 10px 10px 10px 13px;
+    --MoreInfoPaddingOpen: 0px 10px 10px 0px;
+    --MoreInfoBackgroundColorClosed: aliceblue; 
+    --MoreInfoBackgroundColorOpen: #ECECEC; 
+
+    --TipTopBackgroundColor: rgb(243, 247, 244);
+    --TipTopIconFontSize: .8rem;
+    --TipBackgroundColor: var(--CalloutBackgroundColor);
+    --TipTextColor: green;    
 }
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /*Used only around the original sketch*/
 .green-border {
-    background-color: var(--Callout-Background-Color);
+    background-color: var(--CalloutBackgroundColor);
     border: 3px solid green;
-    border-radius: var(--Border-Curves-Main);
-    border-top-left-radius: var(--Border-Curves-Top-Left);
-    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);
     padding: 10px;
 }
 /*-----------------------------------------------*/
@@ -86,6 +101,7 @@
  }
  ol {
     list-style-type: numbers;
+    font-size: .9rem;
  }
  .li-text {
     font-weight: 600;
@@ -94,6 +110,15 @@
  .custom-list-text ul {
     font-size: 1rem;
     list-style-type: disc;
+ }
+ .three-problems {
+    font-size: .9rem;
+ }
+ .like-this-text {
+    text-decoration: underline;
+    font-weight: 600;
+    background-color: #ECECEC;
+    color: green;
  }
  /*-----------------------------------------------*/
 /*-----------------------------------------------*/
@@ -121,7 +146,7 @@
     border-bottom-right-radius: 1px;
     box-shadow: 3px 3px #0F52BA;
     font-size: 1.1rem;
-    background-color: var(--Callout-Background-Color);
+    background-color: var(--CalloutBackgroundColor);
     color: blue;
     font-weight: bold;
     display:flex;
@@ -132,7 +157,6 @@
     padding-bottom: 15px;
     padding-left: 20px;
 }
-
 .author-image {
     width: 15%;
 }
@@ -143,7 +167,7 @@ hr {
     border: none;
     height: 3px;
     color: #ECECEC;
-    background-color: var(--Callout-Background-Color);
+    background-color: var(--CalloutBackgroundColor);
 }
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
@@ -156,21 +180,20 @@ hr {
 /* Call Outs */
 /* Call Out for the 3 copy/paste note instructions */
 .callout-note {
-    padding: var(--Callout-Padding);
-    background-color: var(--Callout-Background-Color);
+    padding: var(--CalloutPadding);
+    background-color: var(--CalloutBackgroundColor);
     border: 2px solid purple;
-    border-radius: var(--Border-Curves-Main);
-    border-top-left-radius: var(--Border-Curves-Top-Left);
-    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);      
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);      
     font-size: .9rem;
     color: purple;
 }
-
 .callout-note::before {
-    font-family: var(--Callout-Icon-Font-Family);
-	font-weight: var(--Callout-Icon-Font-Weight);
-	font-size: var(--Callout-Icon-Font-Size);
-	content: "\f0a4  NOTE!"; /*hand icon*/
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconNote); /*hand*/
     color: purple;
     display: inline-block;
     top: 0;
@@ -180,22 +203,27 @@ hr {
 /*-----------------------------------------------*/
 /* Call Out for instructional 2 tips at top */
 .callout-tip-top {
-    padding: var(--Callout-Padding);
-    /*background-color: var(--Callout-Background-Color);*/
-    background-color: var(--Tip-Top-Background-Color);
-    border: 2px solid green;
-    border-radius: var(--Border-Curves-Main);
-    border-top-left-radius: var(--Border-Curves-Top-Left);
-    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);    
-    font-size: .9rem;
-    color: var(--Tip-Text-Color);
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: var(--CalloutPadding);
+    /*background-color: var(--CalloutBackgroundColor);*/
+    background-color: var(--TipTopBackgroundColor);
+    border: 1px solid green;
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);    
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--TipTextColor);
 }
-
+.callout-tip-top a { 
+        color            : var(--TipTextColor); 
+}
 .callout-tip-top::before {
-    font-family: var(--Callout-Icon-Font-Family);
-	font-weight: var(--Callout-Icon-Font-Weight);
-	font-size: var(--Tip-Top-Icon-Font-Size);
-	content: "\f005  Tip: \A"; /*star*/
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--TipTopIconFontSize);
+	content: var(--CalloutIconTipTop); /*star*/
 	/*content: "\f14a  TIP! \A"; /*checkbox*/
 	/*content: "\f069  TIP! \A"; /*asterisk*/
     white-space: pre;
@@ -208,22 +236,21 @@ hr {
 /*-----------------------------------------------*/
 /* Call Out for instructional tips */
 .callout-tip {
-    padding: var(--Callout-Padding);
-    /*background-color: var(--Callout-Background-Color);*/
-    background-color: var(--Tip-Background-Color);
+    padding: var(--CalloutPadding);
+    /*background-color: var(--CalloutBackgroundColor);*/
+    background-color: var(--TipBackgroundColor);
     border: 2px solid green;
-    border-radius: var(--Border-Curves-Main);
-    border-top-left-radius: var(--Border-Curves-Top-Left);
-    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);    
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);    
     font-size: 1rem;
-    color: var(--Tip-Text-Color);
+    color: var(--TipTextColor);
 }
-
 .callout-tip::before {
-    font-family: var(--Callout-Icon-Font-Family);
-	font-weight: var(--Callout-Icon-Font-Weight);
-	font-size: var(--Callout-Icon-Font-Size);
-	content: "\f005  Tip \A"; /*star*/
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconTip); /*star*/
 	/*content: "\f14a  TIP! \A"; /*checkbox*/
 	/*content: "\f069  TIP! \A"; /*asterisk*/
     white-space: pre;
@@ -236,22 +263,21 @@ hr {
 /*-----------------------------------------------*/
 /* Call Out for Code WARNINGS */
 .callout-code-warning {
-    padding: var(--Callout-Padding);
-    background-color: var(--Callout-Background-Color);
+    padding: var(--CalloutPadding);
+    background-color: var(--CalloutBackgroundColor);
     border: 2px solid red;
-    border-radius: var(--Border-Curves-Main);
-    border-top-left-radius: var(--Border-Curves-Top-Left);
-    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);   
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);   
     font-size: .8rem;
     font-weight: 500;
     color: red;
 }
-
 .callout-code-warning::before {
-    font-family: var(--Callout-Icon-Font-Family);
-	font-weight: var(--Callout-Icon-Font-Weight);
-	font-size: var(--Callout-Icon-Font-Size);
-	content: "\f071  IMPORTANT! \A"; /*warning triangle*/
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconWarning); /*warning triangle*/
 	/*content: "\f256  IMPORTANT! \A"; /*warning hand*/
     white-space: pre;
     color: red;
@@ -263,22 +289,21 @@ hr {
 /*-----------------------------------------------*/
 /* Call Out for Code WARNINGS */
 .callout-oops {
-    padding: var(--Callout-Padding);
-    background-color: var(--Callout-Background-Color);
+    padding: var(--CalloutPadding);
+    background-color: var(--CalloutBackgroundColor);
     border: 2px solid green;
-    border-radius: var(--Border-Curves-Main);
-    border-top-left-radius: var(--Border-Curves-Top-Left);
-    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);   
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);   
     font-size: 1rem;
     font-weight: 500;
     color: green;
 }
-
 .callout-oops::before {
-    font-family: var(--Callout-Icon-Font-Family);
-	font-weight: var(--Callout-Icon-Font-Weight);
-	font-size: var(--Callout-Icon-Font-Size);
-	content: "\f5a5  OOPS! \A";
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconOops); /*sad*/
     white-space: pre;
     color: green;
     display: inline-block;
@@ -289,24 +314,22 @@ hr {
 /*-----------------------------------------------*/
 /*For the Chrome Icon*/
 .callout-chrome {
-    background-color: var(--Callout-Background-Color);
+    background-color: var(--CalloutBackgroundColor);
     color: red;
     font-size: 1rem;
     font-weight: 600;
 }
-
 .callout-chrome::before {
-    font-family: var(--Callout-Icon-Font-Family);
-	font-weight: var(--Callout-Icon-Font-Weight);
-	font-size: var(--Callout-Icon-Font-Size);
-	content: "\f268  Chrome \A"; /*CHROME Icon*/
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconChrome); /*CHROME Icon*/
     white-space: pre;
     color: red;
     display: inline-block;
     top: 0;
     right: 0;
 }
-
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /*For the copy code with image blurb instructions*/
@@ -315,14 +338,12 @@ hr {
     font-size: 1rem;
     font-weight: 600;
 }
-
 .copy-code::before {
-    font-family: var(--Callout-Icon-Font-Family);
+    font-family: var(--CalloutIconFontFamily);
 	font-weight: normal;
-	font-size: var(--Callout-Icon-Font-Size);
-	content: "\f0c5 \A";
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconCopy); /*copy*/
 }
-
 /*for sizing the copy image*/
 .copy-image {
     width: 8%
@@ -331,24 +352,22 @@ hr {
 /*-----------------------------------------------*/
 /*For the copy code with image blurb instructions*/
 .save-code {
-    padding: var(--Callout-Padding);
-    background-color: var(--Callout-Background-Color);
+    padding: var(--CalloutPadding);
+    background-color: var(--CalloutBackgroundColor);
     border: 2px solid #008098; /*Dark Cyan*/
-    border-radius: var(--Border-Curves-Main);
-    border-top-left-radius: var(--Border-Curves-Top-Left);
-    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);   
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);   
     font-size: .9rem;
     font-weight: 500;
     color: #008098; /*Dark Cyan*/
 }
-
 .save-code::before {
-    font-family: var(--Callout-Icon-Font-Family);
-	font-weight: var(--Callout-Icon-Font-Weight);
-	font-size: var(--Callout-Icon-Font-Size);
-	content: "\f07c  SAVED \A";
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconSaved); /*saved*/
 }
-
 /*for sizing the copy image*/
 .save-image {
     width: 8%
@@ -359,9 +378,9 @@ hr {
 .final {
     background-color:rgb(255 255 224); /*Light Yellow*/
     border: 3px solid goldenrod;
-    border-radius: var(--Border-Curves-Main);
-    border-top-left-radius: var(--Border-Curves-Top-Left);
-    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);  
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);  
     font-size: 1rem;
     font-weight: 900;
     color: goldenrod;
@@ -372,10 +391,10 @@ hr {
 }
 /*
 .final::before {
-    font-family: var(--Callout-Icon-Font-Family);
+    font-family: var(--CalloutIconFontFamily);
 	font-weight: normal;
-    font-size: var(--Callout-Icon-Font-Size);
-	content: "\f582 \A";
+    font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconFinal); /*happy*//*
     white-space: pre;
     color: goldenrod;
     display: inline-block;
@@ -387,34 +406,31 @@ hr {
     padding-left: 40px;
     padding-top: 0px;
 }
-
 .happy-coding-percent {
     width: 50%;
 }
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
-/*For all the semi-final CONGRATULATIONS*/
-.semi-final {
-    padding: var(--Callout-Padding);
+/*For all the success CONGRATULATIONS*/
+.success {
+    padding: var(--CalloutPadding);
  /*   background-color:lightblue; */
-    background-color: var(--Callout-Background-Color);
+    background-color: var(--CalloutBackgroundColor);
     border: 2px solid blue;
-    border-radius: var(--Border-Curves-Main);
-    border-top-left-radius: var(--Border-Curves-Top-Left);
-    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);  
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);  
     font-size: .9rem;
     font-weight: 500;
     color: blue;
 }
-
-.semi-final::before {
-    font-family: var(--Callout-Icon-Font-Family);
+.success::before {
+    font-family: var(--CalloutIconFontFamily);
 	font-weight: 500; /*Leave at 500 for open icon */
-	font-size: var(--Callout-Icon-Font-Size);
-	content: "\f582  \A";
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconSuccess); /*success*/
 }
-
-.semi-final-text {
+.success-text {
     font-size: 1rem;
     font-weight: bold;
     padding-left: 20px;
@@ -423,21 +439,20 @@ hr {
 /*-----------------------------------------------*/
 /* Call Out for instructionsal tips INSIDE a popup */
 .popup-tip {
-    padding: var(--Callout-Padding);
+    padding: var(--CalloutPadding);
     background-color: whitesmoke;
     border: 2px solid green;
-    border-radius: var(--Border-Curves-Main);
-    border-top-left-radius: var(--Border-Curves-Top-Left);
-    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);   
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);   
     font-size: 1rem;
     color: green;
 }
-
 .popup-tip::before {
-    font-family: var(--Callout-Icon-Font-Family);
-	font-weight: var(--Callout-Icon-Font-Weight);
-	font-size: var(--Callout-Icon-Font-Size);
-	content: "\f14a  TIP! \A";
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconPopTip); /*checkbox*/
     white-space: pre;
     color: green;
     display: inline-block;
@@ -451,14 +466,13 @@ hr {
 .details {
     margin-top: 2px;
 }
-
 details.details-style {
-    padding: var(--More-Info-Padding-Closed);
+    padding: var(--MoreInfoPaddingClosed);
     border: 2px solid blue;
-    border-radius: var(--Border-Curves-Main);
-    border-bottom-right-radius: var(--Border-Curves-Bottom-Right);    
-    border-top-left-radius: var(--Border-Curves-Top-Left-Pop);
-    background-color: aliceblue;
+    border-radius: var(--BorderCurvesMain);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);    
+    border-top-left-radius: var(--BorderCurvesTopLeftPop);
+    background-color: var(--MoreInfoBackgroundColorClosed);
     margin-bottom: 2rem;
     transition: all 0.2s ease-in-out;
     max-height: 40px;
@@ -467,28 +481,22 @@ details.details-style {
     line-height: 20px;
     position: relative;
 }
-
-
 details.details-style summary {
     cursor: pointer;
     outline: none;
 }
-
 details[open].details-style {
     border: 2px solid blue;
-    background-color: var(--Callout-Background-Color);
+    background-color: var(--CalloutBackgroundColor);
+    background-color: var(--MoreInfoBackgroundColorOpen);
     max-height: 3000px;
-    /*padding: 5px 20px 0px 12px;*/
 }
-
 details[open].details-style summary {
-    padding: var(--More-Info-Padding-Open);
+    padding: var(--MoreInfoPaddingOpen);
 }
-
 details[close].details-style {
     border-collapse: collapse;
 }
-
 details.details-style[open]>summary::after {
     font-size: 1rem;
     display: inline-block;
@@ -498,35 +506,115 @@ details.details-style[open]>summary::after {
     right: 0;
     bottom: 0;
 }
-
 summary.summary-style {
     margin-top: -7px;                   /* 26 + 5 + 9 = 40 */ 
 	height:  26px;
     line-height: 26px;
-
-    /*padding: 0px 20px 0px 20px;*/
     text-align: left;
     color: blue;
     font-size: 1rem;
     font-weight: bold;
 }
+/*=================================================*/
+/*=====For only the first popup====================*/
+/*=================================================*/
+details.details-style-top {
+    padding: var(--MoreInfoPaddingClosed);
+    border: 1px solid blue;
+    border-radius: var(--BorderCurvesMain);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);    
+    border-top-left-radius: var(--BorderCurvesTopLeftPop);
+    background-color: var(--MoreInfoBackgroundColorClosed);
+    margin-bottom: 2rem;
+    transition: all 0.2s ease-in-out;
+    max-height: 40px;
+    overflow: hidden;
+    font-size: 1rem;
+    line-height: 20px;
+    position: relative;
+}
+details.details-style-top summary {
+    cursor: pointer;
+    outline: none;
+}
+details[open].details-style-top {
+    border: 1px solid blue;
+    /*
+    background-color: var(--CalloutBackgroundColor);
+    background-color: var(--MoreInfoBackgroundColorOpen);
+    */
+    background-color: rgb(245, 250, 255);
+    max-height: 3000px;
+}
+details[open].details-style-top summary {
+    padding: var(--MoreInfoPaddingOpen);
+}
+details[close].details-style-top {
+    border-collapse: collapse;
+}
+details.details-style-top[open]>summary::after {
+    font-size: 1rem;
+    display: inline-block;
+    content: "▲ Close ";
+    position: absolute;
+    padding-right: 40px;
+    right: 0;
+    bottom: 0;
+}
 /*=======================*/
-/*Ending Here*/
+/* Detail/Summary Ending Here*/
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /*For the divs inside the details/summary tags*/
 .popup {
     margin: 0px 10px 0px -15px;
-
     color:blue;
-    padding-left: 0px;
+    padding: 0px 0px 0px 15px;
 }
-
 .popup h3 {
     font-size: 1.3rem;
     color: blue;
     text-decoration: underline;
 }
+/*-----------------------------------------
+wiggle-me properties
+------------------------------------------*/
+.wiggle-me {
+    width: 7%;
+    text-justify: auto;
+    text-align: center;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+/*
+.wiggle-me:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    }
+*/
+  /*-----------------------------------------
+  The @keyframes wiggle properties
+  ------------------------------------------*/
+  @keyframes shake {
+    0% { transform: rotateZ(  0deg ); }
+   50% { transform: rotateZ(-15deg ); }
+  100% { transform: rotateZ( 15deg ); }
+} 
+/*  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+*/
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /* Responsiveness for document */
@@ -559,8 +647,9 @@ The @media MAX-width (800px) query properties
     }
     .callout-tip-top {
         font-size: .9rem;
+        margin-left: 5px;
+        margin-top: 15px;
     }   
-    
     summary.summary-style {
         padding: 2px 20px 5px 2px;
         text-align: left;
@@ -579,7 +668,7 @@ The @media MAX-width (800px) query properties
     .happy-coding-percent {
         width: 65%;
     }
-    .semi-final-text {
+    .success-text {
         font-size: .8rem;
         padding-left: 10px;
     }
@@ -599,6 +688,13 @@ The @media MAX-width (800px) query properties
     .list-text {
         font-size: .75rem;
     }
+    .wiggle-me {
+        width: 10%;
+        text-justify: auto;
+        text-align: center;
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+    }
 }
 /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The @media MAX-width (800px) query properties
@@ -607,7 +703,6 @@ The @media MAX-width (800px) query properties
 /*-----------------------------------------
 The @media MAX-width (420px) query properties (iPhone7 Plus) 
 =========================================*/
-
   @media (max-width: 420px) {
    /*
     html {
@@ -634,6 +729,8 @@ The @media MAX-width (420px) query properties (iPhone7 Plus)
     }
     .callout-tip-top {
         font-size: .8rem;
+        margin-left: 5px;
+        margin-top: 5px;
     }    
     .callout-tip {
         font-size: .8rem;
@@ -653,7 +750,7 @@ The @media MAX-width (420px) query properties (iPhone7 Plus)
     .popup h3 {
         font-size: 1.1rem;
     }
-    .semi-final-text {
+    .success-text {
         font-size: .8rem;
         padding-left: 10px;
     }
@@ -676,11 +773,17 @@ The @media MAX-width (420px) query properties (iPhone7 Plus)
     .list-text {
         font-size: .85rem;
     }
+    .wiggle-me {
+        width: 12%;
+        text-justify: auto;
+        text-align: center;
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+    }
 }
 /*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The @media MAX-width (420px) query properties (iPhone7 Plus) 
 =========================================*/
-
 
 
 /*-----------------------------------------------*/

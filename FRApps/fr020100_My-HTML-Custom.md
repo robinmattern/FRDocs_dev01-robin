@@ -5,28 +5,27 @@
 [BACK - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next">
 
-[JavaScript Custom FRApps - NEXT](/FRApps/fr020200_My-Javascript-Custom-App.md)
+[JS Custom App - NEXT](/FRApps/fr020200_My-Javascript-Custom-App.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 3.1 My HTML Custom App h:mm <!-- {docsify-ignore} -->
-<br>
-<div class="callout-tip-top">
+## 3.1 My HTML Custom App <!--h:mm--> <!-- {docsify-ignore} -->
+
+<div class="callout-tip-top"> Tip:
     <a href="../Setup/purposes/pfr0101_Setup-Developer-Workstation.md" target="_blank">Link to Background and Purposes</a> 
 </div>
-<br>
-<div class="callout-tip-top">
+
+<div class="callout-tip-top"> Tip:
     <a href="https://discord.com/channels/928752444316483585/932678480863305770" target="_blank">Link to Discord for Your Comments</a> 
 </div>
 
-____
-
 
 #### Introduction 
+
 - You will be building a web site which starts with very simple index.**html** and index.**css** files.  Your repository will include both of those **empty** files plus the needed images. If you follow the directions and copy/paste each section's code, you will end up with a still simple index.html but a rather complex index.css file.
 
-<details class="details-style">
+<details class="details-style-top">
     <summary class="summary-style">
 More Info: Names, Caps, Picts, Code Copy
     </summary>
@@ -42,6 +41,8 @@ Hover over the snippet and click copy, then paste as appropriate.
 </div>
 </details>
 
+____
+
 <div class="author">
 <img src="FRApps/assets/images/blueNSX.jpg" class="author-image">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Author:&nbsp;<a href="http://www.evantageone.com/rjs" target="_blank" title="Richard's Resume">Richard Schinner</a>
 </div>
@@ -55,7 +56,7 @@ Tutorial Links
         <a href="https://www.udemy.com/topic/css/" target="_blank">https://www.udemy.com/topic/css/</a>
     </li>
 </ul>
-We are not attempting to teach CSS (Cascading Style Sheets), but providing you with some links above of very good tutorials. Hopefully, this exercise will encourage you to explore these links. Udemy offers some very good video instructions, but usually at a cost. If you sign up with Udemy, they will send you emails with bargain prices. (See Background and Purposes for details)
+We are not attempting to teach CSS (Cascading Style Sheets), but providing you with some links (above) of very good tutorials. Hopefully, this exercise will encourage you to explore these links. Udemy offers some very good video instructions, but usually at a cost. If you sign up with Udemy, they will send you emails with bargain prices. (See Background and Purposes for details)
 <br><br>
 Tools Used:
 <div class=list-text>
@@ -104,11 +105,13 @@ Your Final CUSTOMIZED Web Site Preview
 
 The below preview will have a fixed (secured) header and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when small or large).
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicFINALImage.jpg">
+<img class="no-border" src="FRApps/assets/images/md-images/BasicFINALImageGaramond.jpg">
 
 ____
 
-<div class="callout-tip"><br>
+<span class="like-this-text">&nbsp;3 Important Tips:&nbsp;</span>
+
+<div class="callout-tip"><b>1</b><br>
 We will be Replacing and Inserting blocks of code in both the index.html & index.css files.  Below is the KEY to aid in finding the place in the code for these actions in the index.**css** file:
 <ul>
     <li> HR:  Header Replace</li>
@@ -125,7 +128,7 @@ Example:
 <img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksInsertKeyImage1.jpg">
 </div>
 <br>
-<div class="callout-tip"><br>
+<div class="callout-tip"><b>2</b><br>
 <span style=font-size:20px; font-weight:bold>IMPORTANT</SPAN>
 <br><img class="no-border" src="FRApps/assets/images/md-images/BasicCopyHTML.gif"><br>
 There will be 3 different methods for copy/paste:<br>
@@ -136,7 +139,7 @@ There will be 3 different methods for copy/paste:<br>
 Each method will be fully discussed at the first instance you encounter them.
 </div>
 <br>
-<div class="callout-tip"><br>
+<div class="callout-tip"><b>3</b><br>
 <u><b><i>LAYOUT vs CUSTOMIZATION</i></b></u>:<br>
 As we build upon the code in both index.html and index.css, we will create first a "Layout" with Place Holders; then we will "Customize" it our way.  You will have the opportunity to customize your "Layout" as your "Custom HTML App" later.
 
@@ -209,7 +212,7 @@ Our original sketch...
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>HTML Custom Apps</title>
         <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Bookman Old Style" >
+        <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=EB Garamond" >
         <link rel="stylesheet"    href="index.css">
     </head>
 
@@ -244,7 +247,7 @@ Our original sketch...
 
 </html>
 ```
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicHTMLImage.jpg">
 
@@ -255,12 +258,12 @@ From VSCode, right click on the file "index.<b>html</b>" and click on:
 <br><br>
 If your Chrome browser is not already open, this command will open it and show the results of the above html code. 
 <br><br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="basic-image" src="FRApps/assets/images/md-images/BasicBlocksImage2a.jpg">
 <br><br>
 
-<div class="semi-final">
+<div class="success">
 <span style="font-size: 20px"><b>This is our starting point.</b></span>
 <br>Let's move to the CSS code to add our blocks.
 </div>
@@ -277,8 +280,8 @@ Like this
 ```css
 
 /* Basic Blocks Custom App */
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bookman Old Style');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre');
 
 /*=======================================*/
 /* root REPLACE Point - :root */
@@ -302,7 +305,7 @@ Like this
     --Footer_hover-color: white;
     --FooterList-font-size: .9rem;  
     
-    --GlobalFontFamily: "Bookman Old Style", "Frank+Ruhl+Libre:wght@700&display=swap";
+    --GlobalFontFamily: 'EB Garamond', "Frank Ruhl Libre";
 } 
 /* END REPLACE :root =====================*/
 
@@ -498,12 +501,12 @@ The .Section2 h2 properites
 ___
 
 #### d. Basic Blocks Web Page      
-
-- Please check your Chrome browser. 
+<br>
+Please check your Chrome browser. 
 <br>
 <img class="basic-image" src="FRApps/assets/images/md-images/BasicBlocksImage3a.jpg"><br><br>
 
-<div class="semi-final">
+<div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!!</b>
 <br>
 </span> You have just created a simple html page with a cascading style sheet (CSS) which makes <b><u>4 basic blocks</u></b>.<br><br>  
@@ -520,9 +523,9 @@ _____
 <div class="popup">  
 To understand a <u><i>little</i></u> of this CSS code, let's look at the .Header class properties.
 <br><br>
-/&ast;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;<br>
+/&ast;------------------------------------------------<br>
 &nbsp;&nbsp;The .Header properites<br>
-&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;&dash;*/<br>
+--------------------------------------------------&ast;/<br>
 .Header {
 <div class="list-text">
 <ul>
@@ -595,7 +598,7 @@ Like this, using the ctrl-v keys to paste the copied code.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicCopyPasteCSS_2.gif">
 
-- Replace the entire block with new code, like this.
+Replace the entire block with new code, like this.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4a.jpg"><br>
 
@@ -605,9 +608,8 @@ This is the copy/paste method we will use throughout this exercise in the <b><u>
 The entire block will be replaced.
 </div>
 
-___
-
-- Check out your live server on Chrome and see the difference the above .Header code made. OOPs, we seemed to have lost Section 1.  Have no fear we will bring it back shortly with more CSS.
+<br>
+Check out your live server on Chrome and see the difference the above .Header code made. OOPs, we seemed to have lost Section 1.  Have no fear we will bring it back shortly with more CSS.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4f.jpg">
 
@@ -641,7 +643,7 @@ The .Section1 properites
 /* END S1R-1 .Section1 =====================*/
 ```
 
-
+Like this&nbsp;</span>
 <br>
 <div class="callout-code-warning">
 <br><br>
@@ -656,7 +658,7 @@ The .Section1 properites
 comments in your index.<b>css</b> file:
 </div>
 <br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4b.jpg">
 <br><br>
@@ -701,7 +703,7 @@ The .Section2 properites
 comments in your index.<b>css</b> file:
 </div>
 <br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4c.jpg">
@@ -755,17 +757,18 @@ The .Footer properites
 comments in your index.<b>css</b> file:
 </div>
 <br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4d.jpg">
 
 
 #### Large Blocks Web Page       <!-- .(20615.01.1 RAM This seems a little out of place --> 
-- Please check your Chrome browser to see your web page so far.  Be sure to scroll up and down to see how we fixed both the Header and Footer in place.
+<br>
+Please check your Chrome browser to see your web page so far.  Be sure to scroll up and down to see how we fixed both the Header and Footer in place.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage5a.jpg">
 <br><br>
-<div class="semi-final">
+<div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br> You have built a full page with four distinct blocks using your Basic Blocks index.<b>css</b> code. We also secured (fixed) the header & footer in one spot.   
 </div>
 
@@ -787,8 +790,8 @@ We will add to your existing code in  both index.<b>html</b> AND index.<b>css</b
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
 #### a. Header class
-
-- In the <font color='green'>Header</font> class section, we will replace the code.
+<br>
+In the <font color='green'>Header</font> class section, we will replace the code.
 
 <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyHTML.gif">&nbsp;<font color='green' style=font-weight:normal;>Header</font> code below... </span>
 
@@ -819,7 +822,7 @@ We will add to your existing code in  both index.<b>html</b> AND index.<b>css</b
 comments in your index.<b>html</b> file:
 </div>
 <br>
-Like this. 
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicCopyPasteHTML.gif">
 <br><br>
@@ -860,13 +863,12 @@ Now we move to the index.css file.<br><br>
 
 #### b. .Header
 <br>
-
-- First and foremost in the <font color='green'>.Header</font> section we will ADD the following:<br>
- 
-    + <font color=#A81966>display</font>: flex; 
-    + <font color=#A81966>justify-content</font>: space-between;
-    + <font color=#A81966>align-items: center;</font>: space-between;
-
+First and foremost in the <font color='green'>.Header</font> section we will ADD the following:
+ <ul>
+    <li><font color=#A81966>display</font>: flex;</li> 
+    <li><font color=#A81966>justify-content</font>: space-between;</li>
+    <li><font color=#A81966>align-items: center;</font>: space-between;</li>
+</ul>
 <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.Header</font> code below... </span> 
 
 ```css
@@ -901,35 +903,32 @@ comments in your index.<b>css</b> file:
 </div>
 <br>
 
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage1b.jpg">
-<br><br>
+<img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage1b.jpg"><br>
 Look at your Chrome browser! 
-
+<br>
 We still need to:
-
-1. Fix the "PH Logo" in the left corner of the header.
-2. Fix the links in the right corner of the header 
-
+<ol>
+<li>Fix the "PH Logo" in the left corner of the header</li>
+<li>Fix the links in the right corner of the header</li>
+</ol>
 
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicFixedHeaderImage3.jpg">
 
 
 #### c. .HeaderLogo (PH Logo)
-
-- Now, let's fix that ugly "PH Logo" on the left side of the header. To do this, we add a new class to our CSS file.
 <br>
-
-
-- We will be INSERTING 3 new classes as a BLOCK of code:
-
-    + <font color='green'>.HeaderLogo</font>
-    + <font color='green'>.HeaderLogo a</font>
-    + <font color='green'>.HeaderLogo:focus</font><br><br>
-
-- This will be the first time pasting into a large block of classes, in the index.css file (CSS Multiple Classes [2 or more]).
-- Please follow the instructions closely.  We have created another small movie to demonstrate.
+Now, let's fix that ugly "PH Logo" on the left side of the header. To do this, we add a new class to our CSS file.
+<br><br>
+We will be INSERTING 3 new classes as a BLOCK of code:
+<ul>
+    <li><font color='green'>.HeaderLogo</font></li>
+    <li><font color='green'>.HeaderLogo a</font></li>
+    <li><font color='green'>.HeaderLogo:focus</font></li>
+</ul>
+This will be the first time pasting into a large block of classes, in the index.css file (CSS Multiple Classes [2 or more]).<br><br>
+Please follow the instructions closely.  We have created another small movie to demonstrate.
 
 <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.HeaderLogo</font> code below... </span>
 
@@ -986,7 +985,7 @@ The .HeaderSpacer properites
 comments in your index.<b>css</b> file:
 </div>
 <br>
-Like this, using the ctrl-v keys to paste the copied code.
+<span class="like-this-text">Like this</span>, using the ctrl-v keys to paste the copied code.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicCopyPasteBlock.gif">
 
@@ -1000,9 +999,7 @@ Replace the entire block with new code, like this.
  (for large blocks in the css file):<br><br>
 This is the copy/paste method we will use throughout this exercise in the <b><u>index.css</u></b> file, for large blocks of code entailing 2 or more classes.<br><br>
 The entire block will be replaced. From START BLOCK to END BLOCK.</div>
-
-___
-
+<br>
 Now check Chrome
 <br>
 
@@ -1015,17 +1012,17 @@ ___
         More Info: Google Fonts
     </summary>
 We changed the "PH Logo" into a nice "font-based" logo.<br><br>
-Note the font is one of Google's special fonts, called "Bookman Old Style."
+Note the font is one of Google's special fonts, called "EB Garamond."
 <br><br>
 We linked to that from the very top of the index.<b>css</b> file...
 <br><br>
-@import url('https://fonts.googleapis.com/css?family=Bookman Old Style');
+@import url('https://fonts.googleapis.com/css?family=EB Garamond');
 <br><br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage6b.jpg">
 <br><br>
 ... and we also linked to it from the very top of the index.<b>html</b> file.
 <br><br>
-&lt; link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bookman Old Style" &gt;
+&lt; link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB Garamond" &gt;
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage6a.jpg">
 <br><br>
@@ -1035,17 +1032,16 @@ This PH Logo is for the *LAYOUT*.  We will replace this with a formR logo image 
 ____
 
 #### d. .HeaderNavList - BLOCK
-
-- Now, let's focus on the stack of links on the right side of the header.  
-
-- We will be INSERTING 3 new classes as a BLOCK of code:
-
-    + <font color='green'>.HeaderNavList</font>
-
-    + <font color='green'>.HeaderNavListItem a</font>
-    + <font color='green'>.HeaderNavListItem a:hover</font><br>
-    <font color='green'>.HeaderNaveListItem a:active</font>
-
+<br>
+Now, let's focus on the stack of links on the right side of the header.  
+<br><br>
+We will be INSERTING 3 new classes as a BLOCK of code:
+<ul>
+    <li><font color='green'>.HeaderNavList</font></li><br>
+    <li><font color='green'>.HeaderNavListItem a</font></li><br>
+    </li><font color='green'>.HeaderNavListItem a:hover</font></li>
+    <font color='green'>.HeaderNaveListItem a:active</font></li>
+</ul>
 <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.HeaderNavList</font> code below... </span>
 
 ```css
@@ -1104,11 +1100,10 @@ The .HeaderNavListItem a properites
 comments in your index.<b>css</b> file:
 </div>
 <br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0g.jpg">
 <br><br>
-
 Go back to Chrome and see the results. Notice that the 3 links on the right will change to a light gray (#ccc) when you mouse over them. They are also aligned horizontally for our *LAYOUT*.
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage8.jpg">
@@ -1183,18 +1178,18 @@ The .HeaderNavListItemCTA a properties
 comments in your index.<b>css</b> file:
 </div>
 <br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0j.jpg">
 
 Again, go see it in your Chrome browser.  
-
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage10.jpg">
 
 
-- You have completed this part of modifying the Header.  Later, we will add an image for a logo instead of the PH logo. <br>
+You have completed this part of modifying the Header.  Later, we will add an image for a logo instead of the PH logo. <br>
 
-- AND add some code to make the "**PH CTA**" button wiggle!
+AND, add some code to make the <img class="wiggle-me" src="FRApps/assets/images/md-images/WiggleButtonPH-CTA.jpg"> button wiggle!
+
 ___
 
 
@@ -1205,7 +1200,7 @@ Please check your Chrome browser to see your web page thus far.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage12.jpg">
 <br><br>
-<div class="semi-final">
+<div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br> You have just added to your Basic Blocks code which built a full web page with a fixed header along with links, a "CTA" button, and a font-based logo. In the next section, we will add/modify code that will add links to the footer.   
 </div>
 
@@ -1255,7 +1250,7 @@ comments in your index.<b>html</b> file:
 </div>
 <br>
 
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage1.jpg">
 <br><br>
@@ -1341,13 +1336,12 @@ comments in your index.<b>css</b> file:
 </div>
 <br>
 
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage7a.jpg">
-
-<br><br>
+<br>
 Again, go see it in your Chrome browser. The links are nicely centered and horizontal, thanks to the CSS "flex" property. 
-<br><br>
+<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage8.jpg">
 
 
@@ -1358,7 +1352,7 @@ Please check your Chrome browser to see your web page thus far:
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage9.jpg">
 <br><br>
-<div class="semi-final">
+<div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br> You have just added to your Basic Blocks code which builds a full web page with links in the secured (fixed) footer. In the next section, we will add/modify code that will add a text overlay in Section1.   
 </div>
 
@@ -1374,9 +1368,9 @@ From Original Sketch:
 <br>
 We will add a Text Overlay to Section 1
 </div>
-
-- Now, let's focus on the Text Overlay. It will be another <u>P</u>lace <u>H</u>older (PH Text Overlay).  This will require some modifications to your existing code in both the index.<b>html</b> AND index.<b>css</b> files.  
-
+<br>
+Now, let's focus on the Text Overlay. It will be another <u>P</u>lace <u>H</u>older (PH Text Overlay).  This will require some modifications to your existing code in both the index.<b>html</b> AND index.<b>css</b> files.  
+<br><br>
 First, the index.<b>html</b> file.
 
 
@@ -1408,16 +1402,14 @@ comments in your index.<b>html</b> file:
 </div>
 <br>
 
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicWithImageImage1.jpg">
 <br><br>
 Notice. in CHROME, the "PH Text Overlay" within the &#60;h2&#62; tags.  This will become our text overlay.
 <br><br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicWithImageImage2.jpg">
-<br><br>
-
-
+<br>
 Now, we move to the index.<b>css</b> file.
 
 
@@ -1473,7 +1465,7 @@ The .Section1ImageText::first-letter properties
 comments in your index.<b>css</b> file:
 </div>
 <br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicWithImageImage5a.jpg">
 
@@ -1530,7 +1522,7 @@ comments in your index.<b>html</b> file:
 </div>
 <br>
 
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage6.jpg">
 <br><br>
@@ -1541,7 +1533,7 @@ Check Chrome.  This provides a paragraph text we can add some nice attributes la
 
 ___
 
-### 6. Add "Wiggle" Button
+### 6. Add "Wiggle" Button <!--<img class="wiggle-me" style="width:20%;" src="FRApps/assets/images/md-images/WiggleButtonPH-CTA.jpg">-->
 <br>
 
 <div class="callout-tip">
@@ -1604,7 +1596,7 @@ The @keyframes wiggle properties
 comments in your index.<b>css</b> file:
 </div>
 <br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicBonusImage5d.jpg">
@@ -1634,12 +1626,14 @@ ___
 <img class="no-border" width=75% src="FRApps/assets/images/md-images/BasicResponsiveImage1.jpg">
 
 
-- We have 3 problems here.
-    + The Menu list is too big to properly display
-    + All font sizes are too large
-    + The Logo is scrunched up
-
+We have 3 problems here.
+<ul class="three-problems">
+    <li>-The Menu list is too big to properly display</li>
+    <li>-All font sizes are too large</li>
+    <li>-The Logo is scrunched up</li>
+</ul>
 We will fix this using "responsive" code in our index.css file with the magic of a <font color='blue'>@media</font> query.
+
 ____
 
 <details class="details-style">
@@ -1698,9 +1692,9 @@ Let's focus on the Header and how we want it to appear on a smart phone.
 
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasiciphoneImage1.jpg">
 
-- We can set, using CSS, a certain width of the "viewpoint" to where we can make changes to the appearence.  In our code we will set it at 760px.  At that width we can make the NavList (horizontal links) DISAPPEAR; and a NavBars (commonly known as a hamburger) APPEAR. And fix that scrunched up Logo.
+We can set, using CSS, a certain width of the "viewpoint" to where we can make changes to the appearence.  In our code we will set it at 760px.  At that width we can make the NavList (horizontal links) DISAPPEAR; and a NavBars (commonly known as a hamburger) APPEAR. And fix that scrunched up Logo.
 
-- First we need to add the NavBars (hamburger) in both index.html and index.css.
+First we need to add the NavBars (hamburger) in both index.html and index.css.
 
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
@@ -1744,7 +1738,7 @@ comments in your index.<b>html</b> file:
 </div>
 <br>
 
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage2.jpg">
 <br><br>
@@ -1833,11 +1827,9 @@ comments in your index.<b>css</b> file:
 
 <br>
 
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage5.jpg">
-
-___
 
 Check it out in Chrome.  
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage6.jpg">
@@ -1939,11 +1931,9 @@ The @media MAX-width (420px) query properties
 comments in your index.<b>css</b> file:
 </div>
 <br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage7.jpg">
-
-___
 
 Check it out in Chrome.
 
@@ -1952,26 +1942,20 @@ The image on the left is when the Chrome window is greater than 420 pixels wide,
 
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage1.jpg">
 
-___
-
 Now, check it out on iPhone 7 Plus. Remember, this is our LAYOUT.  Later, we will see how our CUSTOM web page looks on the iPhone. 
 
 <img class="no-border" width="75%" src="FRApps/assets/images/md-images/BasicResponsiveIPhoneImage2.jpg">
-
-___
 
 Compare the 2 (before and after RESPONSIVE queries)
 
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicResponsiveIPhoneImage3.jpg">
 
-___
-
 ### Final LAYOUT
 <br>
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicFinalLayout.jpg">
+<img class="no-border" src="FRApps/assets/images/md-images/BasicFinalLayoutGaramond.jpg">
 <br><br>
-<div class="semi-final">
+<div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br>You have completed your web page *LAYOUT* with a fixed header and footer, links, a CTA button, an image and a text overlay.  All Place Holders in their correct positions.  AND responsive to the width size of the screen it is displayed.  
 <br><br>
 You are now ready to *CUSTOMIZE*.  We will work together on our version of a formR web page.  Once complete, please go and *CUSTOMIZE* your own page with a different image, logo and links. 
@@ -2052,7 +2036,7 @@ The .Section1 properites
 comments in your index.<b>css</b> file:
 </div>
 <br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicWithImageImage3.jpg">
 <br>
@@ -2135,7 +2119,7 @@ Now lets add an image in place of the "PH Logo" in the Header. In the "<span cla
 comments in your index.<b>html</b> file:
 </div>
 <br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicformRImage1.jpg">
 
@@ -2185,7 +2169,7 @@ In the <font color='green'>:root</font> section we will MODIFY the following:<br
     --Footer_hover-color: white;
     --FooterList-font-size: .9rem;  
     
-    --GlobalFontFamily: "Bookman Old Style", "Frank+Ruhl+Libre:wght@700&display=swap";
+    --GlobalFontFamily: 'EB Garamond', "Frank Ruhl Libre";
 } 
 /* END REPLACE :root =====================*/
 ```
@@ -2203,7 +2187,7 @@ comments in your index.<b>css</b> file:
 </div>
 <br>
 
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicformRImage2.jpg">
 
@@ -2273,7 +2257,7 @@ comments in your index.<b>css</b> file:
 </div>
 <br>
 
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicformRImage3.jpg">
 
@@ -2373,7 +2357,7 @@ comments in your index.<b>css</b> file:
 </div>
 <br>
 
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/
 md-images/BasicResponsiveChange.jpg">
@@ -2390,7 +2374,7 @@ Please check your Chrome browser to see your web page:
 <br><br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicformRImage4.jpg">
 <br><br>
-<div class="semi-final">
+<div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br>You have successsfully replaced the "PH Logo" with the image of our formR logo.
 </div>
 
@@ -2420,7 +2404,7 @@ ___
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
 
-- Open your index.html file and follow along as we are just going to edit some text in the page, starting with the Header class.
+Open your index.html file and follow along as we are just going to edit some text in the page, starting with the Header class.
 
 #### a. <font color='green'>Header</font>
 
@@ -2432,7 +2416,7 @@ ___
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage2.jpg">
 
 <br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicHeaderTextEdit.gif">
 
@@ -2486,10 +2470,10 @@ Now let's see these changes in Chrome.  LOOKS GREAT!
 FINALLY, we will CUSTOMIZE with some color changes.
 
 ### 4. Change Colors
-
-- We were requested to change some colors for the next major lessons. No problem!
-
-- This can all be done in the index.**css** file.
+<br>
+We were requested to change some colors for the next major lessons. No problem!
+<br><br>
+This can all be done in the index.**css** file.
 
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
@@ -2502,7 +2486,6 @@ First, remember the <font color='green'>:root</font> section.
 <br>
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicColorImage1.jpg">
-
 <br><br>
 Well, it's very simple to make the requested color changes right here in four of the properties:
 <div class="list-text">
@@ -2552,7 +2535,7 @@ Well, it's very simple to make the requested color changes right here in four of
     --Footer_hover-color: white;
     --FooterList-font-size: .9rem;  
     
-    --GlobalFontFamily: "Bookman Old Style", "Frank+Ruhl+Libre:wght@700&display=swap";
+    --GlobalFontFamily: 'EB Garamond', "Frank Ruhl Libre";
 } 
 /* END REPLACE :root =====================*/
 ```
@@ -2570,14 +2553,13 @@ comments in your index.<b>css</b> file:
 </div>
 <br>
 
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicColorImage3.jpg">
 
-___
  
-- Check it out in Chrome!  NICE!
-- So easy and powerful with the <font color='green'>:root</font> variables.
+Check it out in Chrome!  NICE!<br>
+So easy and powerful with the <font color='green'>:root</font> variables.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicColorImage3a.jpg">
 
@@ -2588,15 +2570,18 @@ There is one last touch for Section 2.  Let's pretty-up that paragraph.  It is d
 #### b. .Section2Paragraph
 <br>
 
-- We will change the font color to that dark orange color we used for the header and footer background colors.
-- We will make the first line larger than the rest of the lines.
-- Finally we will make the first letter of the first line very large.
-- In the <font color='green'>.Section2Paragraph</font> section we will INSERT the following:<br>
+We will change the font color to that dark orange color we used for the header and footer background colors.<br>
 
-    + <b><font color='green'>Section2Paragraph</font></b>: 
-    + <b><font color='green'>Section2Paragraph::first-line</font></b>:
-    + <b><font color='green'>Section2Paragraph::first-letter</font></b>:
+We will make the first line larger than the rest of the lines.<br>
 
+Finally we will make the first letter of the first line very large.<br>
+
+In the <font color='green'>.Section2Paragraph</font> section we will INSERT the following:<br>
+<ul>
+    <li><b><font color='green'>Section2Paragraph</font></b>:</li><br> 
+    <li><b><font color='green'>Section2Paragraph::first-line</font></b>:</li>
+    <li><b><font color='green'>Section2Paragraph::first-letter</font></b>:</li>
+</ul>
 <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.Section2Paragraph</font> code below... </span>
 
 ```css
@@ -2607,7 +2592,7 @@ There is one last touch for Section 2.  Let's pretty-up that paragraph.  It is d
 The .Section2Paragraph properites
 ------------------------------------------*/
 .Section2Paragraph {
-    font-family: "Bookman Old Style", sans-serif;
+    font-family: var(--GlobalFontFamily);
     margin-top: 0px;
     font-size: 1.3rem;
     color: var(--Section2Paragraph-font-color); /* dark orange*/
@@ -2642,7 +2627,7 @@ font-size: 150%;
 comments in your index.<b>css</b> file:
 </div>
 <br>
-Like this
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicColorImage4.jpg">
 
@@ -2651,9 +2636,9 @@ Like this
 #### Web Page with Color Changes
 
 <br>
-<div class="semi-final">
+<div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!!</b></span>
-    <div class="semi-final-text">
+    <div class="success-text">
     You have completed "My HTML Custom App."
     <ul>
         <li>GREAT JOB!</li>
@@ -2668,16 +2653,16 @@ Like this
 
 ___
 
-- Like the Layout version, your completed custom version is responsive at 420 and 760 pixels.  
+Like the Layout version, your completed custom version is responsive at 420 and 760 pixels.  
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage2.jpg">
-
-- And it looks great on an iPhone 7 Plus.
-
+<br><br>
+And it looks great on an iPhone 7 Plus.
+<br><br>
 <img class="no-border" width=75% src="FRApps/assets/images/md-images/BasicFinaliPhoneImage.jpg">
 <br><br>
 
-Now you have all the tools to go back to your Layout and Customize it the way you would like.
+Now you have all the tools to go back to your Layout and customize it the way you would like.
 
 <div class="save-code"><br><br>
 We saved your Layout AND Custom files in the<br>
@@ -2700,7 +2685,7 @@ Please make modifications to the code in either set to help to create your own C
 <div class="callout-code-warning"><br>
 Remember to change your<br>  
 &nbsp;&nbsp;&nbsp;&nbsp;'&#60;link rel="stylesheet" href="<span class="css-link-text">index_final_layout.css</span>"&#62;'<br>
-reference in your <u>index.<b>html</b></u> file to match the name of your relating <u>index.css</u> file.
+reference in your <u>index.<b>html</b></u> file to match the name of your relating <u>index*.css</u> file.
 <br><br> Like below:
 <img src="FRApps/assets/images/md-images/BasicColorImage6.jpg">
 <!--</span>-->
