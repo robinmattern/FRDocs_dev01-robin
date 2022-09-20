@@ -11,7 +11,7 @@
     --info1-icon             : "\25ba";                  /* notice-info1:           ► right pointing triangle icon */
    }
 
-:root2 {                                                 /* Icon Theme Variables using Awesome values */
+:root {                                                 /* Icon Theme Variables using Awesome values */
     --notice-icon-font-family: "Font Awesome 5 Free";
     --tip-link-color         :  blue;
     --tip-icon               : "\f14a";                  /* notice-tip:      star icon */
