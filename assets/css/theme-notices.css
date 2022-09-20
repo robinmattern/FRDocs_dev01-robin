@@ -4,14 +4,14 @@
 /** ------------------------------------------------------------------------------------------------------------------------------- */
 
 :root {
-    --notice-margin-top          : 15px;                            /* .(20906.07.01 RAM Added) */
+    --notice-margin-top          : 15px;                            /* .(20906.07.01 RAM Added: Space before notice) */
     --notice-margin-left         : 25px;                            /* .(20906.07.02 RAM Added) */
-    --notice-padding             : 12px 0px  8px 40px;              /* .(20906.07.03 RAM Added) */
+    --notice-padding             :  4px 0px  8px 40px;              /* .(20906.07.03 RAM Added: Sets padding-top, Was 12px;) */
     --notice-font-size           : 18px; /* 1rem */                 /* .(20906.07.04 RAM Added) */
     --notice-border-width        :  1px;                            /* .(20912.01.01 RAM Added) */
     --notice-icon-font-family    : 'Material Symbols Outlined';     /* .(20917.07.01 RAM Added) */
 
-    --notice-heading-margin-top  :  -5px;                           /* .(20906.07.05 RAM Added).( 26 + 5 + 9 = 40 ) */
+    --notice-heading-margin-top  :  -25px;                           /* .(20906.07.05 RAM Added).( 26 + 5 + 9 = 40 ) */
     --notice-heading-height      :  26px;                           /* .(20906.07.06 RAM Added).(20906.01.2 RAM Was 28px; then 20px;) */
     --notice-heading-line-height :  26px;                           /* .(20906.07.07 RAM Added) */
     --notice-heading-font-size   :  20px; /* 1.1rem */              /* .(20906.07.08 RAM Added) */
@@ -26,7 +26,7 @@
     --info1-border-color         : blue;                            /* .(20919.03.1 RAM Beg Added for Bruce */
     --info1-background-color     : rgb(245, 250, 255);        
     --info1-text-color           : blue;
-    --info1-icon                 : "▲";                               /* .(20919.03.2 RAM) */
+    --info1-icon                 : "arrow_forward_ios";               /* .(20919.03.2 RAM Could be: aka "\25ba") */
 
     --tip-border-color           : green;                           /* .(20830.04.1 RAM Was: red;) */
 /*  --tip-background-color       : rgba(0,0,0,0.1);               *//* aliceblue;   rgba(210, 247, 213, 0.847); */
@@ -148,7 +148,7 @@
     margin-left         : 25px;                             /* .(20831.02.1 RAM Added) */
 /*  padding             :  0px 0px 10px  0px;             */
 /*  padding             : 10px 0px  5px  0px;             *//* .(20906.01.1 RAM Was 20px; top right bottom left) */
-    padding             : 12px 0px  8px 40px;
+    padding             :  var(--notice-padding);           /* .(20906.07.13 RAM Was: 12px 0px  8px 40px; */
     border              :  var(--notice-border-width) solid var(--tip-border-color); /* .(20912.02.3) */
     border-radius       : 10px;
     background-color    :  var(--tip-background-color);
@@ -207,8 +207,8 @@
 .notice-info1 {                                             /* .(20919.03.2 RAM Beg Added) */
     margin-top          :  var(--notice-margin-top);     
     margin-left         : 25px;                          
-    padding             : 12px 0px  8px 40px;
-    border              :  var(--notice-border-width) solid var(--tip-border-color); 
+    padding             :  var(--notice-padding);           /* .(20906.07.13 RAM Was: 12px 0px  8px 40px; */
+    border              :  var(--notice-border-width) solid var(--info1-border-color); 
     border-radius       : 10px;
     background-color    :  var(--info1-background-color);
     font-size           : 18px;  
@@ -245,7 +245,7 @@
     margin-top          :  var(--notice-margin-top);        /* .(20831.02.1 RAM Added).(20906.07.11) */
     margin-left         :  25px;                            /* .(20906.03.1 RAM Added) */
 /*  padding             :  10px 0px 10px 10px;   */
-    padding             :  12px 0px  8px 40px;              /*   was left: 55px */
+    padding             :  var(--notice-padding);           /* .(20906.07.13 RAM Was: left 55px) */
 /*  padding-left        :  55px;                          *//* .(20830.04.2 RAM Added) */
     background-color    :  var(--success-background-color);
     border              :  var(--notice-border-width) solid var(--success-border-color); /* .(20912.02.4) */
@@ -300,7 +300,8 @@ details.notice-info {                                       /* .(20831.01.3 RAM 
     margin-top          :  var(--notice-margin-top); 		/* .(20831.02.1 RAM Added).(20906.07.11) */
     margin-left         :  25px;                            /* .(20906.03.1 RAM Added) */
 /*  padding             :   5px 20px 0px 20px;   */
-    padding             :  12px 0px  8px 55px; 
+    padding             :  12px 0px  8px 55px;              /* .(20920.01.1  RAM Hard-code it) */
+/*  padding             :  var(--notice-padding);         *//*#.(20906.07.13 RAM Was: 12px 0px  8px 55px;) */
     background-color    :  var(--info-background-color);
     border              :  var(--notice-border-width) solid var(--info-border-color); /* .(20912.02.5) */
     border-radius       :  10px;
@@ -311,7 +312,7 @@ details.notice-info {                                       /* .(20831.01.3 RAM 
     max-height          :  40px; 
 /*  min-height          :  40px;  */
     
-    overflow            :   hidden;
+/*  overflow            :   hidden;                       *//* .(20920.02.2 RAM Tired to make long text visible) */
     position            :   relative;
     transition          :   all 0.2s ease-in-out;
     }
@@ -325,7 +326,7 @@ details.notice-info {                                       /* .(20831.01.3 RAM 
 /*  padding             :   0px 20px 0px 14px;            *//* .(20831.03.1 RAM Left Margin indent) */
 /*  padding-bottom      :  40px;  *//* 0px 0px 40px */
     font-size           :  20px;    /* 1.1rem; */
- 
+    overflow            :  visible;                         /* .(20920.02.1 RAM Show long text, or make it hidden) */
     margin-left         : -32px;                            /* Was: 37px; */
 /*  padding-left        :  35px;  */                        /* .(20902.02.1 RAM Was 35px) */  
     font-weight         :  var(--notice-header-weight);

@@ -27,7 +27,7 @@
     --tip-icon               : "star";                   /* notice-tip:      star icon */
     --warning-icon           : "front_hand";             /* notice-warning:  front hand icon */ 
     --success-icon           : "check_circle";           /* notice-success:  circled check icon*/
-    --info1-icon             : "►";                      /* notice-info1:    expand icon (aka "\25ba") */
+    --info1-icon             : "favorite";               /* notice-info1:    expand icon (aka "\25ba") */
       }   
 
 :root4 {                                                 /* Icon Theme Variables using Unicode values */
