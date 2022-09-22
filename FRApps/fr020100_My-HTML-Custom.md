@@ -105,7 +105,7 @@ Your Final CUSTOMIZED Web Site Preview
 
 The below preview will have a fixed (secured) header and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when small or large).
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicFINALImageGaramond.jpg">
+<img class="no-border" src="FRApps/assets/images/md-images/BasicFinalImageGaramond.jpg">
 
 ____
 
