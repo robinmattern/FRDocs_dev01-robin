@@ -36,7 +36,13 @@ Some text
 
 <div class="notice-info1">
   <div class="notice-info1-header">
-    Info: <a href="../Setup/purposes/pfr0101_Setup-Developer-Workstation.md" target="_blank">Single-line info</a> 
+    Info: <a href="../Setup/purposes/pfr0101_Setup-Developer-Workstation.md" target="_blank">Single-line info link</a> 
+  </div>  
+</div>
+
+<div class="notice-info1">
+  <div class="notice-info1-header">
+    Info: Single-line info, no link 
   </div>  
 </div>
 

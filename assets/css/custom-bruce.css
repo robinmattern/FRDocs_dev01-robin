@@ -11,7 +11,7 @@
     --info1-icon             : "\25ba";                  /* notice-info1:           ► right pointing triangle icon */
    }
 
-:root2 {                                                 /* Icon Theme Variables using Awesome values */
+:root {                                                 /* Icon Theme Variables using Awesome values */
     --notice-icon-font-family: "Font Awesome 5 Free";
     --tip-link-color         :  blue;
     --tip-icon               : "\f14a";                  /* notice-tip:      star icon */
@@ -27,7 +27,7 @@
     --tip-icon               : "star";                   /* notice-tip:      star icon */
     --warning-icon           : "front_hand";             /* notice-warning:  front hand icon */ 
     --success-icon           : "check_circle";           /* notice-success:  circled check icon*/
-    --info1-icon             : "►";                      /* notice-info1:    expand icon (aka "\25ba") */
+    --info1-icon             : "favorite";               /* notice-info1:    expand icon (aka "\25ba") */
       }   
 
 :root4 {                                                 /* Icon Theme Variables using Unicode values */
