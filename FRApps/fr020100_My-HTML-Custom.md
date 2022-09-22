@@ -10,7 +10,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 3.1 My HTML Custom App <!--h:mm--> <!-- {docsify-ignore} -->
+## 3.1 My HTML Custom App h:mm <!-- {docsify-ignore} -->
 
 <div class="callout-tip-top"> Tip:
     <a href="../Setup/purposes/pfr0101_Setup-Developer-Workstation.md" target="_blank">Link to Background and Purposes</a> 
@@ -62,7 +62,7 @@ Tools Used:
 <div class=list-text>
     <ol>
         <li>Your completed workstation</li>
-        <li>Chrome web browser</li>
+        <li><img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome  web browser</li>
         <li>Windows File Explorer</li>
         <li>VS (Visual Studio) Code</li>
         <li>Git Hub</li>
@@ -256,7 +256,7 @@ From VSCode, right click on the file "index.<b>html</b>" and click on:
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksImage1.jpg">
 <br><br>
-If your Chrome browser is not already open, this command will open it and show the results of the above html code. 
+If your Chrome <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> browser is not already open, this command will open it and show the results of the above html code. 
 <br><br>
 <span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
@@ -502,7 +502,7 @@ ___
 
 #### d. Basic Blocks Web Page      
 <br>
-Please check your Chrome browser. 
+Please check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome browser. 
 <br>
 <img class="basic-image" src="FRApps/assets/images/md-images/BasicBlocksImage3a.jpg"><br><br>
 
@@ -609,7 +609,7 @@ The entire block will be replaced.
 </div>
 
 <br>
-Check out your live server on Chrome and see the difference the above .Header code made. OOPs, we seemed to have lost Section 1.  Have no fear we will bring it back shortly with more CSS.
+Check out your live server on <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome and see the difference the above .Header code made. OOPs, we seemed to have lost Section 1.  Have no fear we will bring it back shortly with more CSS.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4f.jpg">
 
@@ -662,7 +662,7 @@ comments in your index.<b>css</b> file:
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4b.jpg">
 <br><br>
-Follow your progress in Chrome. No worries, those blocks will be put in their place soon, with CSS magic.
+Follow your progress in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome. No worries, those blocks will be put in their place soon, with CSS magic.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4f1.jpg">
 
@@ -708,7 +708,7 @@ comments in your index.<b>css</b> file:
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4c.jpg">
 <br><br>
-Back to Chrome.  Promise, that Footer will be next for proper placement.
+Back to <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  Promise, that Footer will be next for proper placement.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4f2.jpg">
 
@@ -764,7 +764,7 @@ comments in your index.<b>css</b> file:
 
 #### Large Blocks Web Page       <!-- .(20615.01.1 RAM This seems a little out of place --> 
 <br>
-Please check your Chrome browser to see your web page so far.  Be sure to scroll up and down to see how we fixed both the Header and Footer in place.
+Please check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome browser to see your web page so far.  Be sure to scroll up and down to see how we fixed both the Header and Footer in place.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage5a.jpg">
 <br><br>
@@ -844,7 +844,7 @@ This is the copy/paste method we will use throughout this exercise in the <b><u>
 The entire block will be replaced.
 </div>
 <br>
-Take a quick look at Chrome and the Header.  
+Take a quick look at <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome and the Header.  
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage1a.jpg">
 <br><br>
@@ -906,7 +906,7 @@ comments in your index.<b>css</b> file:
 <span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage1b.jpg"><br>
-Look at your Chrome browser! 
+Look at your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome browser! 
 <br>
 We still need to:
 <ol>
@@ -925,7 +925,7 @@ We will be INSERTING 3 new classes as a BLOCK of code:
 <ul>
     <li><font color='green'>.HeaderLogo</font></li>
     <li><font color='green'>.HeaderLogo a</font></li>
-    <li><font color='green'>.HeaderLogo:focus</font></li>
+    <li><font color='green'>.HeaderSpacer</font></li>
 </ul>
 This will be the first time pasting into a large block of classes, in the index.css file (CSS Multiple Classes [2 or more]).<br><br>
 Please follow the instructions closely.  We have created another small movie to demonstrate.
@@ -955,7 +955,7 @@ The .HeaderLogo a properites
 .HeaderLogo a {
     text-decoration: none;
     color: white;
-...and make    background: blue ;
+    background: blue ;
     padding: 0.5rem .5rem;
     border-radius: 8px;
     box-shadow: 4px 4px black;
@@ -1000,7 +1000,7 @@ Replace the entire block with new code, like this.
 This is the copy/paste method we will use throughout this exercise in the <b><u>index.css</u></b> file, for large blocks of code entailing 2 or more classes.<br><br>
 The entire block will be replaced. From START BLOCK to END BLOCK.</div>
 <br>
-Now check Chrome
+Now check <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome
 <br>
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage5.jpg">
@@ -1039,8 +1039,8 @@ We will be INSERTING 3 new classes as a BLOCK of code:
 <ul>
     <li><font color='green'>.HeaderNavList</font></li><br>
     <li><font color='green'>.HeaderNavListItem a</font></li><br>
-    </li><font color='green'>.HeaderNavListItem a:hover</font></li>
-    <font color='green'>.HeaderNaveListItem a:active</font></li>
+    </li><font color='green'>.HeaderNavListItem a:hover</li>
+    <li><font color='green'>.HeaderNavListItem a:active</font></li>
 </ul>
 <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.HeaderNavList</font> code below... </span>
 
@@ -1104,7 +1104,7 @@ comments in your index.<b>css</b> file:
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0g.jpg">
 <br><br>
-Go back to Chrome and see the results. Notice that the 3 links on the right will change to a light gray (#ccc) when you mouse over them. They are also aligned horizontally for our *LAYOUT*.
+Go back to <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome and see the results. Notice that the 3 links on the right will change to a light gray (#ccc) when you mouse over them. They are also aligned horizontally for our *LAYOUT*.
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage8.jpg">
 
@@ -1182,7 +1182,7 @@ comments in your index.<b>css</b> file:
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage0j.jpg">
 
-Again, go see it in your Chrome browser.  
+Again, go see it in your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome browser.  
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage10.jpg">
 
 
@@ -1196,7 +1196,7 @@ ___
 #### Modified Header Web Page       <!-- .(20615.01.1 RAM This seems a little out of place --> 
 <br>
 
-Please check your Chrome browser to see your web page thus far.
+Please check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome browser to see your web page thus far.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage12.jpg">
 <br><br>
@@ -1255,7 +1255,7 @@ comments in your index.<b>html</b> file:
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage1.jpg">
 <br><br>
 
-Let's take a quick look at Chrome.
+Let's take a quick look at <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage1a.jpg">
 
@@ -1340,7 +1340,7 @@ comments in your index.<b>css</b> file:
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage7a.jpg">
 <br>
-Again, go see it in your Chrome browser. The links are nicely centered and horizontal, thanks to the CSS "flex" property. 
+Again, go see it in your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome browser. The links are nicely centered and horizontal, thanks to the CSS "flex" property. 
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage8.jpg">
 
@@ -1406,7 +1406,7 @@ comments in your index.<b>html</b> file:
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicWithImageImage1.jpg">
 <br><br>
-Notice. in CHROME, the "PH Text Overlay" within the &#60;h2&#62; tags.  This will become our text overlay.
+Notice. in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome, the "PH Text Overlay" within the &#60;h2&#62; tags.  This will become our text overlay.
 <br><br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicWithImageImage2.jpg">
 <br>
@@ -1472,7 +1472,7 @@ comments in your index.<b>css</b> file:
 ___
 #### c. Text Overlay
 <br>
-Check it out in Chrome. <br> 
+Check it out in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome. <br> 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLAYOUTImage1.jpg">
 
 ___
@@ -1527,7 +1527,7 @@ comments in your index.<b>html</b> file:
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage6.jpg">
 <br><br>
 
-Check Chrome.  This provides a paragraph text we can add some nice attributes later in the <i>Customization</i> section. 
+Check <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  This provides a paragraph text we can add some nice attributes later in the <i>Customization</i> section. 
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLAYOUTImage2.jpg">
 
@@ -1742,7 +1742,7 @@ comments in your index.<b>html</b> file:
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage2.jpg">
 <br><br>
- Take a look at Chrome.  We have successfully added our NavBars.
+ Take a look at <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  We have successfully added our NavBars.
 <br><br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage3.jpg">
 <br><br>
@@ -1831,7 +1831,7 @@ comments in your index.<b>css</b> file:
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage5.jpg">
 
-Check it out in Chrome.  
+Check it out in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage6.jpg">
 
 <div class="callout-oops">
@@ -1935,7 +1935,7 @@ comments in your index.<b>css</b> file:
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage7.jpg">
 
-Check it out in Chrome.
+Check it out in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.
 
 The image on the left is when the Chrome window is greater than 420 pixels wide, the one on the right is less than 420.  That is "responsiveness!"
 
@@ -2062,7 +2062,7 @@ ____
 
 #### Web Page With Image in Section 1
 <br>
-That's it! Check your Chrome browser for the changes; a nice blue image with the font overlay.
+That's it! Check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome browser for the changes; a nice blue image with the font overlay.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicWithImageImage4.jpg">
 
@@ -2128,7 +2128,7 @@ comments in your index.<b>html</b> file:
 
 <br>
 
-In Chrome, we have made a mess of the logo.  Be patient, we will take care of this with CSS code.
+In <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome, we have made a mess of the logo.  Be patient, we will take care of this with CSS code.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicformRImage1a.jpg">
 <br><br>
@@ -2370,7 +2370,7 @@ ____
 
 #### Web Page with formR Logo
 <br>
-Please check your Chrome browser to see your web page:
+Please check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome browser to see your web page:
 <br><br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicformRImage4.jpg">
 <br><br>
@@ -2463,7 +2463,7 @@ Here is what the final index.html page should look like:
 
 #### Web Page with Text Changes
 <br>
-Now let's see these changes in Chrome.  LOOKS GREAT!
+Now let's see these changes in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  LOOKS GREAT!
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicTextFinalImage.jpg">
 <br><br>
@@ -2558,7 +2558,7 @@ comments in your index.<b>css</b> file:
 <img class="no-border" src="FRApps/assets/images/md-images/BasicColorImage3.jpg">
 
  
-Check it out in Chrome!  NICE!<br>
+Check it out in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome!  NICE!<br>
 So easy and powerful with the <font color='green'>:root</font> variables.
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicColorImage3a.jpg">
@@ -2642,7 +2642,7 @@ comments in your index.<b>css</b> file:
     You have completed "My HTML Custom App."
     <ul>
         <li>GREAT JOB!</li>
-        <li>Check out your work in Chrome.</li>
+        <li>Check out your work in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.</li>
     </ul>
     </div>  
 </div>
