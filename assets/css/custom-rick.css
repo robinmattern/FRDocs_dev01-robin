@@ -123,6 +123,9 @@
  /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /*For some MD images*/
+.chrome-image {
+    width: 4%;
+}
 .fifty-percent {
     width: 50%;
 }
@@ -636,6 +639,9 @@ The @media MAX-width (800px) query properties
     .basic-image {
         width: 95%;
     }
+    .chrome-image {
+        width: 4%;
+    }
     .callout-copy {
         font-size: 1.1rem;
     }
@@ -720,6 +726,9 @@ The @media MAX-width (420px) query properties (iPhone7 Plus)
     }
     .basic-image {
         width: 95%;
+    }
+    .chrome-image {
+        width: 8%;
     }
     .callout-copy {
         font-size: 1rem;
