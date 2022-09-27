@@ -62,7 +62,7 @@ Tools Used:
 <div class=list-text>
     <ol>
         <li>Your completed workstation</li>
-        <li><img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome  web browser</li>
+        <li><img src="FRApps/assets/icons//ChromeIcon.png" class="chrome-image"> Chrome  web browser</li>
         <li>Windows File Explorer</li>
         <li>VS (Visual Studio) Code</li>
         <li>Git Hub</li>
