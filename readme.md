@@ -11,4 +11,4 @@
 
 
 - We give credit is given to many whose tutorials, videos and blogs have provided inspiration, information and insight into these topics. We especially thank BezKoder.com, Ben Awad, Jared Palmer, Jason Watmore, 
-GraspingTech.com , LifeWire.com, SQL-Hub.com, W3Schools.com, ZetCode.com, CodEvolution.com, 
+GraspingTech.com , LifeWire.com, SQL-Hub.com, W3Schools.com, ZetCode.com, CodEvolution.com
