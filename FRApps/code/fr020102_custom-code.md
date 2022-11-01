@@ -21,8 +21,9 @@ HTML
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>HTML Custom Apps</title>
         <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Bookman Old Style" >
-        <link rel="stylesheet"    href="index_final_custom.css">
+        <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=EB Garamond" >
+        <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Roboto+Slab" >
+        <link rel="stylesheet"    href="index.css">
     </head>
 
     <body>    
@@ -46,27 +47,24 @@ HTML
         </div>
     <!-- END REPLACE Point - Header -->
 
-
     <!-- REPLACE Point - Section1 -->
         <div class="Section1">
             <h2 class="Section1ImageText">My Image & Text</h2>
         </div>
     <!-- END REPLACE Point - Section1 -->
 
-
     <!-- REPLACE Point - Section2 -->        
         <div class="Section2">
             <h2></h2>
             <p class="Section2Paragraph">
-
+        
                 The quick brown fox jumped over the lazy dog.<br>
                 The quick brown fox jumped over the lazy dog.<br>
                 The quick brown fox jumped over the lazy dog.<br>
                 The quick brown fox jumped over the lazy dog.
             </p>  
         </div>
-    <!-- END REPLACE Point - Section2 -->        
-
+    <!-- END REPLACE Point - Section2 -->       
 
     <!-- REPLACE Point - Footer -->
         <div class="Footer">
@@ -77,8 +75,8 @@ HTML
         </div>
     <!-- END REPLACE Point - Footer -->
 
-    </body>
 
+    </body>
 </html>
 
 ```
@@ -91,9 +89,9 @@ CSS
 
 ```css
 /* Basic Blocks Custom App */
-@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Bookman Old Style');
-
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 
 /*=======================================*/
 /* root REPLACE Point - :root */
@@ -101,49 +99,57 @@ CSS
 :root selector for variables
 -------------------------------------------*/
 :root {
-    --Header_background-color: #FF7034; /*dark orange*/
-    --Header_hover-color: white;
-    --HeaderLogo-image: url( 'assets/images/formr-logo-blue.gif' );
-    --HeaderLogo_margin: 0px 0 0 50px;
-    --HeaderList-font-size: 1.2rem;
+  --Body_background-color: #E5E4E2; /*platinum*/
+ 
+  --Header_background-color: #FF7034; /*dark orange*/
+  --Header_hover-color: white;
+  --HeaderLogo-image: url( 'assets/images/formr-logo-blue.gif' );
+  --HeaderLogo_margin: 0px 0 0 50px;
+  --HeaderLogo-FontFamily: "Roboto Slab";
+  --HeaderList-font-size: 1.2rem;
+
+  --Section1_background-color: whitesmoke;
+  --Section1_background-image: url( 'assets/images/monaco-blue-soft.jpg' );
+
+  --Section2_background-color: whitesmoke;
+  --Section2Paragraph-font-color: #ff7034;  /* dark orange */
+
+  --Footer_background-color: #FF7034; /*dark orange*/
+  --Footer_hover-color: white;
+  --FooterList-font-size: .9rem;  
   
-    --Section1_background-color: whitesmoke;
-    --Section1_background-image: url( 'assets/images/monaco-blue-soft.jpg' );
-  
-    --Section2_background-color: whitesmoke;
-    --Section2Paragraph-font-color: #ff7034;  /* dark orange */
-  
-    --Footer_background-color:#FF7034; /*dark orange*/
-    --Footer_hover-color: white;
-    --FooterList-font-size: .9rem;  
-    
-    --GlobalFontFamily: "Bookman Old Style", "Frank+Ruhl+Libre:wght@700&display=swap";
+  --GlobalFontFamily: "Frank Ruhl Libre", "EB Garamond";
+
+  --Button_Logo_font-color: whitesmoke;
 } 
 /* END REPLACE :root =====================*/
 
 
-
-/*-----------------------------------------
+/*=====================================*/
+/* HTML REPLACE Point */
+/*---------------------------------------
 The <html> tag properites (unchanged)
-------------------------------------------*/
+----------------------------------------*/
 html {
-    background: #b3b3b3;
-    height: 100%;
-    text-align: center;
+  background: var(--Body_background-color);
+  height: 100%;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
 }
+/* END HTML ===========================*/
 
 
 /*-----------------------------------------
 The body properites
 ------------------------------------------*/
 body {
-    background: white;
+    background: var(--Body_background-color);
     height: 100%;
     width: 100%;
     margin: 0;
     font-family: var(--GlobalFontFamily);
 }
-
 
 /*-----------------------------------------
 The <h2> tag properties
@@ -156,21 +162,22 @@ h2 {
     text-align: center;
 }
 
-
 /*=======================================*/
 /* HR-1 REPLACE Point - .Header */
 /*-----------------------------------------
 The .Header properites
 ------------------------------------------*/
 .Header {
-    background: var(--Header_background-color);
-    width: 100%;
-    height: 10%;
-    position: fixed;  /*was relative*/
-    z-index: 100;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background: var(--Header_background-color);
+  width: 100%;
+  height: 80px;
+  position: fixed;  /*was relative*/
+  z-index: 100;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 /* END HR-1 .Header =====================*/
 
@@ -179,31 +186,31 @@ The .Header properites
 /* H-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* H-1 INSERT Point - .HeaderNavBars */
 /*-----------------------------------------
-The .HeaderNavBars (hamburger menu) properites
+The .HeaderNavBars (menu) properites
 ------------------------------------------*/
 .HeaderNavBars {
-    display: none;
-    height: 24px;
-    width: 24px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 0px;
-    box-sizing: border-box;
-    margin-left: 20px;
-    margin-top: 0px;
-  }
-  
-  /*=======================================*/
-  /* INSERT Point - .HeaderNavBars:focus */
-  /*-----------------------------------------
-  The .HeaderNavBars:focus properites
-  ------------------------------------------*/
-  .HeaderNavBars:focus {
-      outline: none;
-  }
+  display: none;
+  height: 24px;
+  width: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+/*=======================================*/
+/* INSERT Point - .HeaderNavBars:focus */
+/*-----------------------------------------
+The .HeaderNavBars:focus properites
+------------------------------------------*/
+.HeaderNavBars:focus {
+    outline: none;
+}
 /* H-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-  
+
 
 /*===============================================*/
 /* H-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
@@ -213,27 +220,28 @@ The .HeaderNavBars (hamburger menu) properites
 The .HeaderLogo properites
 ------------------------------------------*/
 .HeaderLogo {
-    width: 224px;
-    height: 64px;
-    margin-bottom: 0px;
-    background-image: var(--HeaderLogo-image);
-    background-size: 224px 64px;
-    background-repeat: no-repeat;
-    margin: var(--HeaderLogo_margin);
-    font-size: 25px;
-    font-weight: 600;
-  }
-  
-  /*=======================================*/
-  /* INSERT Point - .HeaderSpacer */
-  /*-----------------------------------------
-  The .HeaderSpacer properites
-  ------------------------------------------*/
-  .HeaderSpacer {
-      flex: 1;
-  }
-  /* H-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-  
+  width: 224px;
+  height: 64px;
+  margin-bottom: 0px;
+
+  background-image: var(--HeaderLogo-image);
+  background-size: 224px 64px;
+  background-repeat: no-repeat;
+  margin: var(--HeaderLogo_margin);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/*=======================================*/
+/* INSERT Point - .HeaderSpacer */
+/*-----------------------------------------
+The .HeaderSpacer properites
+------------------------------------------*/
+.HeaderSpacer {
+    flex: 1;
+}
+/* H-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
 
 /*==============================================*/
 /* H-3 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
@@ -243,13 +251,13 @@ The .HeaderLogo properites
 The .HeaderNavList (horizontal menu) properites
 ------------------------------------------*/
 .HeaderNavList {
-    list-style: none;
-    margin-right: 30px;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: var(--HeaderList_font-size);
+  list-style: none;
+  margin-right: 30px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--HeaderList_font-size);
 }
 
 /* INSERT Point .HeaderNavListItem a */
@@ -257,21 +265,21 @@ The .HeaderNavList (horizontal menu) properites
 The .HeaderNavListItem a properites
 ------------------------------------------*/
 .HeaderNavListItem a {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 8px 0;
-    padding: 25px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 8px 0;
+  padding: 25px;
 }
 
 /* INSERT Point .HeaderNavListItem a:hover
-                .HeaderNavListItem a:active */
+              .HeaderNavListItem a:active */
 /*-----------------------------------------
 The .HeaderNavListItem a properites
 ------------------------------------------*/
 .HeaderNavListItem a:hover,
 .HeaderNavListItem a:active {
-    color: var(--Header_hover-color);
+  color: var(--Header_hover-color);
 }
 /* H-3 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
@@ -282,10 +290,13 @@ The .HeaderNavListItem a properites
 The .HeaderNavListItemCTA a properties
 ------------------------------------------*/
 .HeaderNavListItemCTA a {
-    color: white;
-    background: blue ;
-    padding: 0.5rem 1rem;
-    border-radius: 8px;
+  color: var(--Button_Logo_font-color);
+  background: blue ;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: var(--GlobalFontFamily);
+  font-weight: 600;
 }
 /* END H-4 .HeaderNavListItemCTA a ======*/
 
@@ -297,21 +308,21 @@ The .HeaderNavListItemCTA a properties
 The .HeaderNavListItemCTA properties
 ------------------------------------------*/
 .HeaderNavListItemCTA {
-    animation     : wiggle 400ms 2s 8 ease-out none;
-    }
-  
-  /*=======================================*/
-  /* INSERT Point - @keyframes wiggle */
-  /*-----------------------------------------
-  The @keyframes wiggle properties
-  ------------------------------------------*/
-  @keyframes wiggle {
-      0% { transform: rotateZ(  0deg ); }
-     50% { transform: rotateZ(-10deg ); }
-    100% { transform: rotateZ( 10deg ); }
+  animation     : wiggle 400ms 2s 8 ease-out none;
   }
+
+/*=======================================*/
+/* INSERT Point - @keyframes wiggle */
+/*-----------------------------------------
+The @keyframes wiggle properties
+------------------------------------------*/
+@keyframes wiggle {
+    0% { transform: rotateZ(  0deg ); }
+   50% { transform: rotateZ(-10deg ); }
+  100% { transform: rotateZ( 10deg ); }
+}
 /* H-5 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-  
+
 
 /*=======================================*/
 /* S1R-1 REPLACE Point - Section1 */
@@ -319,15 +330,15 @@ The .HeaderNavListItemCTA properties
 The .Section1 properites
 ------------------------------------------*/
 .Section1 {
-    background: var(--Section1_background-image);
-    background-color: var(--Section1_background-color);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 46%;
-    position: relative;
-    top: 10%;
+  background: var(--Section1_background-image);
+  background-color: var(--Section1_background-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 46%;
+  position: relative;
+  top: 80px;
 }
 /* END S1R-1 .Section1 =====================*/
 
@@ -340,11 +351,12 @@ The .Section1 properites
 The .Section1ImageText properties
 ------------------------------------------*/
 .Section1ImageText {
-    font-size: 3rem;
-    font-weight: bolder;
-    color: lightgray;
-    text-shadow: 1px 1px 3px #000000;
-    padding: 80px 350px 20px 0px;
+  font-family: var(--GlobalFontFamily);
+  font-size: 3rem;
+  font-weight: 800;
+  color: lightgray;
+  text-shadow: 1px 1px 3px #000000;
+  padding: 80px 350px 20px 0px;
 }
 
 /*=======================================*/
@@ -353,11 +365,10 @@ The .Section1ImageText properties
 The .Section1ImageText::first-letter properties
 ------------------------------------------*/
 .Section1ImageText::first-letter {
-    font-size: 150%;
-    color: cornflowerblue;
+  font-size: 150%;
+  color: cornflowerblue;
 }
 /* S1-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
 
 
 /*=======================================*/
@@ -366,11 +377,15 @@ The .Section1ImageText::first-letter properties
 The .Section2 properites
 ------------------------------------------*/
 .Section2 {
-    background: var(--Section2_background-color);
-    width: 100%;
-    height: 46%;
-    position: relative;
-    top:10%; /*<---ADD to adjust the top position*/
+  background: var(--Section2_background-color);
+  width: 100%;
+  height: 46%;
+  position: relative;
+  color: black;
+  font-family: var(--GlobalFontFamily);
+  font-size: 1.2rem;
+  font-weight: 600;
+  top: 80px; /*<---ADD to adjust the top position*/
 }
 /* END S2R-1 .Section2 =====================*/
 
@@ -382,9 +397,8 @@ The .Section2 properites
 The .Section2 h2 properites
 ------------------------------------------*/
 .Section2 h2 {
-    color: black;
-    font-size: 1.5rem;
     padding: 1.5;
+    color: black;
 }
 /* END S2-1 .Section2 h2==================*/
 
@@ -396,12 +410,12 @@ The .Section2 h2 properites
 The .Section2Paragraph properites
 ------------------------------------------*/
 .Section2Paragraph {
-    font-family: "Bookman Old Style", sans-serif;
-    margin-top: 0px;
-    font-size: 1.3rem;
-    color: var(--Section2Paragraph-font-color); /* dark orange*/
-    font-weight: bolder;
-    padding-top: 5rem;
+  font-family: var(--GlobalFontFamily);
+  margin-top: 0px;
+  font-size: 1.3rem;
+  color: var(--Section2Paragraph-font-color); /* dark orange*/
+  font-weight: bolder;
+  padding-top: 1rem;
 }
 
 /*=======================================*/
@@ -410,9 +424,9 @@ The .Section2Paragraph properites
 The .Section2Paragraph::firstLetter/line properites
 ------------------------------------------*/
 .Section2Paragraph::first-line {
-  font-size: 125%;
-  }
-  
+font-size: 125%;
+}
+
 .Section2Paragraph::first-letter {
 font-size: 150%;
 }
@@ -425,13 +439,15 @@ font-size: 150%;
 The .Footer properites
 ------------------------------------------*/
 .Footer {
-    background: var(--Footer_background-color);
-    width: 100%; 
-    /*top: 10%;  Removed in place of the bottom property*/
-    bottom: 0;
-    position: fixed;
-    z-index: 99;
-  } 
+  background: var(--Footer_background-color);
+  width: 100%; 
+  /*top: 80px;  Removed in place of the bottom property*/
+  bottom: 0;
+  position: fixed;
+  z-index: 99;
+  max-width: 1000px;
+  margin: auto;
+} 
 /* END FR-1 .Footer =====================*/
 
 
@@ -443,13 +459,13 @@ The .Footer properites
 The .FooterNavList properties
 ------------------------------------------*/
 .FooterNavList {
-    list-style: none;
-    margin: 20px;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: var(--FooterList-font-size);
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: var(--FooterList-font-size);
 }
 
 /*=======================================*/
@@ -458,92 +474,93 @@ The .FooterNavList properties
 The .FooterNavListItem a properties
 ------------------------------------------*/
 .FooterNavListItem a {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 8px 0;
-    padding: 12px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 8px 0;
+  padding: 12px;
 }
 
 /*=======================================*/
 /* INSERT Point - .FooterNavListItem a:hover
-                  .FooterNavListItem a:active */
+                .FooterNavListItem a:active */
 /*-----------------------------------------
 The .FooterNavListItem a:hover,
-    .FooterNavListItem a:active properties
+  .FooterNavListItem a:active properties
 ------------------------------------------*/
 .FooterNavListItem a:hover,
 .FooterNavListItem a:active {
-  color: var(--Footer_hover-color);
+color: var(--Footer_hover-color);
 }
 /* F-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
 
 
 /*===========================================*/
 /* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* Responsive Code */  
-/* R-1 INSERT Point - @media (responsive max-width)*/ 
+/* R-1 INSERT Point - @media (responsive max-width)*/
 /*-----------------------------------------
 The @media MAX-width query properties
 =========================================*/
 @media (max-width: 760px) {
 
-    .HeaderLogo {
-        font-size: 1.2rem;
-        margin-left: 10px;
-        background-size: 180px 51px;
-    }
-  
-    .HeaderNavBars {
-      display: flex;
-    }
-  
-    .HeaderNavList {
-        display: none;
-    }
-  
-    .Section1ImageText {
-      font-size: 1.5rem;
-      padding: 80px 100px 20px 0px;
-    }
-  
-    .Section2 h2 {
-      font-size: 1.7rem;
-    }
-  
-    .Section2Paragraph {
-      font-size: 75%;
-    }
+  .HeaderLogo {
+      font-size: 1.2rem;
+      margin-left: 10px;
+      background-size: 180px 51px;
   }
+
+  .HeaderNavBars {
+    display: flex;
+  }
+
+  .HeaderNavList {
+      display: none;
+  }
+
+  .Section1ImageText {
+    font-size: 1.5rem;
+    padding: 80px 100px 20px 0px;
+  }
+
+  .Section2 h2 {
+    font-size: 1.7rem;
+  }
+
+  .Section2Paragraph {
+    font-size: 75%;
+  }
+}
 
 /*-----------------------------------------
 The @media MAX-width (420px) query properties
 =========================================*/
 @media (max-width: 420px) {
 
-    .HeaderLogo {
-        font-size: .8rem;
-        margin-left: 15px;
-        margin-top: 15px;
-        background-size: 144px 41px;
-    }
+  .HeaderLogo {
+      font-size: .8rem;
+      margin-left: 15px;
+      margin-top: 15px;
+      background-size: 144px 41px;
+  }
 
-    .Section1ImageText {
-        font-size: 1.2rem;
-        padding: 80px 100px 20px 10px;
-      }
-    
-    .Section2Paragraph {
-        font-size: 60%;
-      }
-
-    h2 {
-        padding: 0;
+  .Section1ImageText {
+      font-size: 1.2rem;
+      padding: 80px 100px 20px 10px;
     }
-    
-}
-  /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
   
+  .Section2Paragraph {
+      font-size: 60%;
+    }
+
+  h2 {
+      padding: 0;
+  }
+  
+}
+/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
 /* END CSS */
 
 ```
