@@ -2834,55 +2834,16 @@ Your next journey will be to add some very cool functions to our web page using 
 5. pm2 restart app
 
 
-- simpleApp app.js
+- /etc/nginx/apps-enabled/formr-xxx-00.com_my-html-remote-app conf
 
 ```
-const express = require("express");
-
-const app = express();
-
-app.get("/", (req, res) => {
-  res.send("<h1>Welcome to Bruce's FormR ...<h1>");
-});
-
-app.get("/simpleApp", (req, res) => {
-  res.send("<h1>Welcome to Bruce's FormR ...<h1>");
-});
-
-app.listen(5000, () => {
-  console.log("App listening on port 5000!");
-});
-```
-
-- simpleApp conf
-
-```
-location      /  { 
-
-    proxy_pass http://localhost:5000;
-
-    } 
-# ------------  --------------------------
-```
-- 2c1 conf
-
-```
-location      /2c1_my-html-remote-app {      
+location      /my-html-remote-app {      
 
     alias       /webs/FRApps/client1/2c1_my-html-remote-app/;      
 
 }   
 ```
 
-- root conf
-
-```
-location      /root {      
-
-    alias       /webs/;      
-
-}   
-```
 
 
 
