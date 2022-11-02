@@ -2707,6 +2707,82 @@ Your next journey will be to add some very cool functions to our web page using 
 
 <br>
 
+### *DEPLOY TO INTERNET*
+
+- Initial Clone
+
+1. Make Changes -> push from VSCode to student repo
+2. login to student repo/FRApps
+3. Click code, then https, then copy to clipboard
+4. login to student server
+5. git clone <paste clipboard>
+6. modify app-enable conf files mod simple app.conf /simpleApp create 2c1..conf see below
+7. systemctl restart nginx 
+8. pm2 restart app
+
+- Update 2c1
+1. Make Changes -> push from VSCode to student repo
+2. login to student server. 
+3. git pull
+4. systemctl restart nginx 
+5. pm2 restart app
+
+
+- simpleApp app.js
+
+```
+const express = require("express");
+
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("<h1>Welcome to Bruce's FormR ...<h1>");
+});
+
+app.get("/simpleApp", (req, res) => {
+  res.send("<h1>Welcome to Bruce's FormR ...<h1>");
+});
+
+app.listen(5000, () => {
+  console.log("App listening on port 5000!");
+});
+```
+
+- simpleApp conf
+
+```
+location      /  { 
+
+    proxy_pass http://localhost:5000;
+
+    } 
+# ------------  --------------------------
+```
+- 2c1 conf
+
+```
+location      /2c1_my-html-remote-app {      
+
+    alias       /webs/FRApps/client1/2c1_my-html-remote-app/;      
+
+}   
+```
+
+- root conf
+
+```
+location      /root {      
+
+    alias       /webs/;      
+
+}   
+```
+
+
+
+
+
+
 <div class="page-back">
 
 [BACK - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
