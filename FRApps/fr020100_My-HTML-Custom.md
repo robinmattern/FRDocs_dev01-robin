@@ -213,6 +213,7 @@ Our original sketch...
         <title>HTML Custom Apps</title>
         <link rel="shortcut icon" href="favicon.png">
         <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=EB Garamond" >
+        <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Roboto+Slab" >
         <link rel="stylesheet"    href="index.css">
     </head>
 
@@ -278,10 +279,10 @@ If your Chrome <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> browse
 <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;the entire code below to Line 1 of the empty index.<b>css</b> file (as shown above): </span>
 
 ```css
-
 /* Basic Blocks Custom App */
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 
 /*=======================================*/
 /* root REPLACE Point - :root */
@@ -289,10 +290,13 @@ If your Chrome <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> browse
 :root selector for variables
 -------------------------------------------*/
 :root {
+    --Body_background-color: #E5E4E2; /*platinum*/
+   
     --Header_background-color: red;
     --Header_hover-color: white;
     --HeaderLogo-image: "";
     --HeaderLogo_margin: 35px 0 0 0px;
+    --HeaderLogo-FontFamily: "Roboto Slab";
     --HeaderList-font-size: 1.2rem;
   
     --Section1_background-color: blue;
@@ -305,32 +309,36 @@ If your Chrome <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> browse
     --Footer_hover-color: white;
     --FooterList-font-size: .9rem;  
     
-    --GlobalFontFamily: 'EB Garamond', "Frank Ruhl Libre";
+    --GlobalFontFamily: "Frank Ruhl Libre", "EB Garamond";
+
+    --Button_Logo_font-color: whitesmoke;
 } 
 /* END REPLACE :root =====================*/
 
 
+/*=======================================*/
+/* HTML REPLACE Point */
 /*-----------------------------------------
 The <html> tag properites (unchanged)
 ------------------------------------------*/
 html {
-    background: #b3b3b3;
+    background: var(--Body_background-color);
     height: 100%;
     text-align: center;
 }
+/* END HTML ============================*/
 
 
 /*-----------------------------------------
 The body properites
 ------------------------------------------*/
 body {
-    background: white;
+    background: var(--Body_background-color);
     height: 100%;
     width: 100%;
     margin: 0;
     font-family: var(--GlobalFontFamily);
 }
-
 
 /*-----------------------------------------
 The <h2> tag properties
@@ -343,7 +351,6 @@ h2 {
     text-align: center;
 }
 
-
 /*=======================================*/
 /* HR-1 REPLACE Point - .Header */
 /*-----------------------------------------
@@ -353,7 +360,7 @@ The .Header properites
     background: var(--Header_background-color);
     width: 300px;
     height: 100px;
-    position: relative;
+    position: relative;  /*was relative*/
 }
 /* END HR-1 .Header =====================*/
 
@@ -435,6 +442,10 @@ The .Section2 properites
     width: 300px;
     height: 100px;
     position: relative;
+    color: black;
+    font-family: var(--GlobalFontFamily);
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 /* END S2R-1 .Section2 =====================*/
 
@@ -446,9 +457,8 @@ The .Section2 properites
 The .Section2 h2 properites
 ------------------------------------------*/
 .Section2 h2 {
-    color: black;
-    font-size: 1.5rem;
     padding: 1.5;
+    color: black;
 }
 /* END S2-1 .Section2 h2==================*/
 
@@ -494,8 +504,8 @@ The .Section2 h2 properites
 /*     @media (responsive max-width)*/ 
 /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
-
 /* END CSS */
+
 ```
 
 ___
@@ -550,19 +560,60 @@ ____
 <br><br>
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
+#### a. HTML
 
+- In the <font color='green'>HTML</font>  section we will ADD the following:<br>
 
-#### a. .Header
+    + <b><font color=#A81966>max-width</font></b> to 1000px;   
+    + <b><font color=#A81966>margin</font></b> to auto; 
+
+<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>HTML</font> code below... </span>
+
+```css
+/*=====================================*/
+/* HTML REPLACE Point */
+/*---------------------------------------
+The <html> tag properites (unchanged)
+----------------------------------------*/
+html {
+    background: var(--Body_background-color);
+    height: 100%;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+/* END HTML ===========================*/
+```
+<div class="callout-code-warning">
+<br><br>
+...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
+<br>
+<div class="multiple-equals-text">
+/*=======================================*/<br>
+/* HTML REPLACE Point */
+<br><br>
+ /* END HTML =======================*/<br> 
+</div>
+comments in your index.<b>css</b> file:
+</div>
+<br>
+Replace the entire block with new code, like this.
+
+<img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksHTMLImage.jpg"><br>
+
+#### b. .Header
 
 - In the <font color='green'>.Header</font> class section we will MODIFY the following:<br>
 
     + <b><font color=#A81966>width</font></b>: 100%; 
-    + <b><font color=#A81966>height</font></b>: 10%;<br><br>
+    + <b><font color=#A81966>height</font></b>: 80px;<br><br>
 
 - and ADD: <br>
 
     + <b><font color=#A81966>position</font></b>: fixed; 
     + <b><font color=#A81966>z-index</font></b>: 100;
+    + <b><font color=#A81966>max-width</font></b> to 1000px;  
+    + <b><font color=#A81966>margin</font></b> to auto;
 
 <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.Header</font> code below... </span>
 
@@ -575,9 +626,11 @@ The .Header properites
 .Header {
     background: var(--Header_background-color);
     width: 100%; /*was 300px*/
-    height: 10%;
+    height: 80px;
     position: fixed;
     z-index: 100;
+    max-width: 1000px;
+    margin: auto;
 }
 /* END HR-1 .Header =====================*/
 ```
@@ -615,13 +668,13 @@ Check out your live server on <img src="FRApps/assets/icons//ChromeIcon.png" wid
 
 ___
 
-#### b. .Section 1 & 2
+#### c. .Section 1 & 2
 
 - In <font color='green'>Section1</font> <b>AND</b> <font color='green'>Section2</font>, CHANGE
     + <b><font color=#A81966>width</font></b> to 100%  
     + <b><font color=#A81966>height</font></b> to 46%<br>
 - and ADD:
-    + <b><font color=#A81966>top</font></b> to 10%
+    + <b><font color=#A81966>top</font></b> to 80px
 
 <font color='green'><u>Section1</u></font>
 
@@ -638,7 +691,7 @@ The .Section1 properites
     width: 100%; /*was 300px*/
     height: 46%; /*was 100px*/
     position: relative;
-    top: 10%; /*<---ADD to adjust the top position*/
+    top: 80px; /*<---ADD to adjust the top position*/
 }
 /* END S1R-1 .Section1 =====================*/
 ```
@@ -683,7 +736,11 @@ The .Section2 properites
     width: 100%;
     height: 46%;
     position: relative;
-    top:10%; /*<---ADD to adjust the top position*/
+    color: black;
+    font-family: var(--GlobalFontFamily);
+    font-size: 1.2rem;
+    font-weight: 600;
+    top: 80px; /*<---ADD to adjust the top position*/
 }
 /* END S2R-1 .Section2 =====================*/
 ```
@@ -714,7 +771,7 @@ Back to <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  Prom
 
 ___
 
-#### c. .Footer
+#### d. .Footer
 
 - In <font color='green'>.Footer</font>, section we will CHANGE
     + <b><font color=#A81966>width</font></b> to 100%  
@@ -724,7 +781,8 @@ ___
     + <b><font color=#A81966>bottom</font></b> to 0
     + <b><font color=#A81966>position</font></b> to fixed  
     + <b><font color=#A81966>z-index</font></b> to 99  
-
+    + <b><font color=#A81966>max-width</font></b> to 1000px   
+    + <b><font color=#A81966>margin</font></b> to auto
 
 <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.Footer</font> code below... </span>
 
@@ -737,10 +795,12 @@ The .Footer properites
 .Footer {
     background: var(--Footer_background-color);
     width: 100%; 
-    /*top: 10%;  Removed in place of the bottom property*/
+    /*top: 80px;  Removed in place of the bottom property*/
     bottom: 0;
     position: fixed;
     z-index: 99;
+    max-width: 1000px;
+    margin: auto;
   } 
 /* END FR-1 .Footer =====================*/
 ```
@@ -771,6 +831,34 @@ Please check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chr
 <div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br> You have built a full page with four distinct blocks using your Basic Blocks index.<b>css</b> code. We also secured (fixed) the header & footer in one spot.   
 </div>
+
+----
+
+<details class="details-style">
+    <summary class="summary-style">
+        More Info: Max-Width
+    </summary>
+    <div class="popup">
+    When you build a web site you want it to look good on any size screen. Especially on a full screen of a desktop or laptop. We added a couple properties in the index.css file that helps with this.
+    <ul>
+    <li>max-width: 1000px;</li>
+    <li>margin: auto;</li>
+    </ul>
+    You will see this in 3 places:
+    <ol>
+    <li>html</li>
+    <li>.Header</li>
+    <li>.Footer</li>
+    </ol>
+<img class="no-border" src="FRApps/assets/images/md-images/BasicFullScreenCSSImage.jpg" style=border:none;>  <br><br> 
+    Once this is done, the web site will look like this at full screen:
+<img class="no-border" src="FRApps/assets/images/md-images/BasicFullScreenImage.jpg" style=border:none;>
+
+Maximize your web site screen to see how this looks.  Return to your "working" screens to proceed.<br>
+    </div>
+    <br>
+</details>
+
 
 ----
 ### 3. Modify Header 
@@ -880,9 +968,11 @@ The .Header properites
 .Header {
     background: var(--Header_background-color);
     width: 100%;
-    height: 10%;
+    height: 80px;
     position: fixed;  /*was relative*/
     z-index: 100;
+    max-width: 1000px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -942,9 +1032,7 @@ The .HeaderLogo properites
 ------------------------------------------*/
 .HeaderLogo {
     margin-left: 45px;
-    padding-left: 54px;
-    font-size: 1.5rem;
-    color:whitesmoke;
+    padding-left: 25px;
 }
 
 /*=======================================*/
@@ -954,7 +1042,10 @@ The .HeaderLogo a properites
 ------------------------------------------*/
 .HeaderLogo a {
     text-decoration: none;
-    color: white;
+    font-size: 1.5rem;
+    font-family: var(--HeaderLogo-FontFamily);
+    font-weight: 600;    
+    color: var(--Button_Logo_font-color);
     background: blue ;
     padding: 0.5rem .5rem;
     border-radius: 8px;
@@ -1158,10 +1249,13 @@ Now, let's do something about that "PH CTA" link. Using CSS, we can turn it into
 The .HeaderNavListItemCTA a properties
 ------------------------------------------*/
 .HeaderNavListItemCTA a {
-    color: white;
+    color: var(--Button_Logo_font-color);
     background: blue ;
     padding: 0.5rem 1rem;
     border-radius: 8px;
+    text-decoration: none;
+    font-family: var(--GlobalFontFamily);
+    font-weight: 600;
 }
 /* END H-4 .HeaderNavListItemCTA a ======*/
 ```
@@ -1434,8 +1528,9 @@ Now, we move to the index.<b>css</b> file.
 The .Section1ImageText properties
 ------------------------------------------*/
 .Section1ImageText {
+    font-family: var(--GlobalFontFamily);
     font-size: 3rem;
-    font-weight: bolder;
+    font-weight: 800;
     color: lightgray;
     text-shadow: 1px 1px 3px #000000;
     padding: 80px 350px 20px 0px;
@@ -1669,7 +1764,7 @@ Example (above image): Click on the drop down and:<br>
 </p>
 Go look in index.css for ".HeaderLogo."
 <br>
-We set the padding-left:&nbsp;54px; 
+We set the padding-left:&nbsp;25px; 
 <br>
 <img class="no-border" width=50% src="FRApps/assets/images/md-images/BasicDevToolsImage3.jpg">
 </div>
@@ -1869,7 +1964,7 @@ The @media MAX-width (760px) query properties
 
     .HeaderLogo {
         font-size: 1.2rem;
-        margin-left: 10px;
+        margin-left: 2px;
         background-size: 180px 51px;
     }
   
@@ -1881,10 +1976,10 @@ The @media MAX-width (760px) query properties
         display: none;
     }
   
-    .Section1ImageText {
-      font-size: 1.5rem;
-      padding: 80px 100px 20px 0px;
-    }
+  .Section1ImageText {
+        font-size: 2.5rem;
+        padding: 80px 200px 20px 0px;
+  }
   
     .Section2 h2 {
       font-size: 1.7rem;
@@ -2018,7 +2113,7 @@ The .Section1 properites
     width: 100%;
     height: 46%;
     position: relative;
-    top: 10%;
+    top: 80px;
 }
 /* END S1R-1 .Section1 =====================*/
 ```
@@ -2141,8 +2236,8 @@ In <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome, we have ma
 
 In the <font color='green'>:root</font> section we will MODIFY the following:<br>
 
-    + <b><font color=#A81966>--HeaderLogo-image:</font></b>: url('assets/images/formr-logo-blue.gif'); 
-    + <b><font color=#A81966>--HeaderLogo-margin:</font></b>: 0px 0 0 50px;<br><br>
++ <b><font color=#A81966>--HeaderLogo-image:</font></b> url('assets/images/formr-logo-blue.gif'); 
++ <b><font color=#A81966>--HeaderLogo-margin:</font></b> 0px 0 0 50px;<br>
 
 <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>:root</font> code below... </span>
 
@@ -2153,10 +2248,13 @@ In the <font color='green'>:root</font> section we will MODIFY the following:<br
 :root selector for variables
 -------------------------------------------*/
 :root {
+    --Body_background-color: #E5E4E2; /*platinum*/
+   
     --Header_background-color: red;
     --Header_hover-color: white;
     --HeaderLogo-image: url( 'assets/images/formr-logo-blue.gif' );
     --HeaderLogo_margin: 0px 0 0 50px;
+    --HeaderLogo-FontFamily: "Roboto Slab";
     --HeaderList-font-size: 1.2rem;
   
     --Section1_background-color: blue;
@@ -2165,11 +2263,13 @@ In the <font color='green'>:root</font> section we will MODIFY the following:<br
     --Section2_background-color: lightgray;
     --Section2Paragraph-font-color: #ff7034;  /* dark orange */
   
-    --Footer_background-color:green;
+    --Footer_background-color: green;
     --Footer_hover-color: white;
     --FooterList-font-size: .9rem;  
     
-    --GlobalFontFamily: 'EB Garamond', "Frank Ruhl Libre";
+    --GlobalFontFamily: "Frank Ruhl Libre", "EB Garamond";
+
+    --Button_Logo_font-color: whitesmoke;
 } 
 /* END REPLACE :root =====================*/
 ```
@@ -2519,10 +2619,13 @@ Well, it's very simple to make the requested color changes right here in four of
 :root selector for variables
 -------------------------------------------*/
 :root {
+    --Body_background-color: #E5E4E2; /*platinum*/
+   
     --Header_background-color: #FF7034; /*dark orange*/
     --Header_hover-color: white;
     --HeaderLogo-image: url( 'assets/images/formr-logo-blue.gif' );
     --HeaderLogo_margin: 0px 0 0 50px;
+    --HeaderLogo-FontFamily: "Roboto Slab";
     --HeaderList-font-size: 1.2rem;
   
     --Section1_background-color: whitesmoke;
@@ -2531,13 +2634,16 @@ Well, it's very simple to make the requested color changes right here in four of
     --Section2_background-color: whitesmoke;
     --Section2Paragraph-font-color: #ff7034;  /* dark orange */
   
-    --Footer_background-color:#FF7034; /*dark orange*/
+    --Footer_background-color: #FF7034; /*dark orange*/
     --Footer_hover-color: white;
     --FooterList-font-size: .9rem;  
     
-    --GlobalFontFamily: 'EB Garamond', "Frank Ruhl Libre";
+    --GlobalFontFamily: "Frank Ruhl Libre", "EB Garamond";
+
+    --Button_Logo_font-color: whitesmoke;
 } 
 /* END REPLACE :root =====================*/
+
 ```
 <div class="callout-code-warning">
 <br><br>
@@ -2597,7 +2703,7 @@ The .Section2Paragraph properites
     font-size: 1.3rem;
     color: var(--Section2Paragraph-font-color); /* dark orange*/
     font-weight: bolder;
-    padding-top: 3rem;
+    padding-top: 1rem;
 }
 
 /*=======================================*/
