@@ -2821,12 +2821,12 @@ Your next journey will be to add some very cool functions to our web page using 
 2. login to student repo/FRApps
 3. Click code, then https, then copy to clipboard
 4. login to student server
-5. git clone <paste clipboard>
-6. modify app-enable conf files mod simple app.conf /simpleApp create 2c1..conf see below
+5. git clone <paste clipboard> to my-html-remote-app
+6. create app-enable conf file: formr-xxx-00.com_my-html-remote-app conf (see below)
 7. systemctl restart nginx 
 8. pm2 restart app
 
-- Update 2c1
+- Update my-html-remote-app
 1. Make Changes -> push from VSCode to student repo
 2. login to student server. 
 3. git pull
@@ -2844,7 +2844,15 @@ location      /my-html-remote-app {
 }   
 ```
 
+- Change home page to my-html-remote-app
 
+1. modify /webs/index.html 
+
+```
+<script>
+  document.location.href = "/simpleApp/"
+</script>
+```
 
 
 
