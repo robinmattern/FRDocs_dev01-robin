@@ -2826,6 +2826,9 @@ e.g. C:\repos\FRApps\client1\2c1_my-html-remote-app
 
 ```
 cd /webs
+```
+then
+```
 git clone https://github.com/brucetroutman-gmail/FRApps.git
 ```
 6. From SFTP window navigate to:
