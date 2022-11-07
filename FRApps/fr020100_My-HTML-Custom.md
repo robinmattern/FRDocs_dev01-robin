@@ -2818,17 +2818,16 @@ Your next journey will be to add some very cool functions to our web page using 
 - Initial Clone (Install an App on the Ubuntu server)
 
 1. Create app and make changes locally in VSCode
+e.g. C:\repos\FRApps\client1\2c1_my-html-remote-app
 2. Commit and Sync from VSCode to your Github repository
 3. Login to your Github repository, click code, then https, then copy to clipboard
 4. Using Bitvise login to Ubuntu server
-5. From terminal console enter: 
+5. From terminal console enter: paste from clipboard
 
 ```
 cd /webs
-git clone <paste clipboard> <name of app>
+git clone https://github.com/brucetroutman-gmail/FRApps.git
 ```
-(eg. name of app = my-html-remote-app)
-
 6. From SFTP window navigate to:
 
 ```
@@ -2841,7 +2840,7 @@ git clone <paste clipboard> <name of app>
 formr-xxx-00.com_my-html-remote-app conf
 ```
 
-8. Paste:
+8. Paste the following into this file:
 
 ```
 location      /my-html-remote-app {      
@@ -2853,18 +2852,34 @@ location      /my-html-remote-app {
 
 9. systemctl restart nginx 
 10. pm2 restart app
+11. Browse to your server:
+
+```
+https://formr-cbt-00.com/my-html-remote-app
+```
 
 - Update my-html-remote-app
-1. Create app and make changes locally in VSCode
+1. Modify index.html in VSCode
+
+Replace "My Image & Text" with "Welcome to Bruce's FormR..."
+
 2. Commit and Sync from VSCode to your Github repository
 3. Using Bitvise login to Ubuntu server
 4. From terminal console enter: 
 ```
-cd /webs/my-html-remote-app
+cd /webs/FRApps/client1/2c1_my-html-remote-app
+```
+then
+```
 git pull
 ```
 5. systemctl restart nginx 
 6. pm2 restart app
+7. Browse to your server:
+
+```
+https://formr-cbt-00.com/my-html-remote-app
+```
 
 - Change home page to my-html-remote-app
 
