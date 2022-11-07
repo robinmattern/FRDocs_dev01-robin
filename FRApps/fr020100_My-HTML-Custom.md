@@ -2815,23 +2815,40 @@ Your next journey will be to add some very cool functions to our web page using 
 
 ### *DEPLOY TO INTERNET*
 
-- Initial Clone
+- Initial Clone (Install an App on the Ubuntu server)
 
-1. Make Changes -> push from VSCode to student repo
-2. login to student repo/FRApps
-3. Click code, then https, then copy to clipboard
-4. login to student server
-5. git clone <paste clipboard> to my-html-remote-app
-6. create app-enable conf file: formr-xxx-00.com_my-html-remote-app conf (see below)
-7. systemctl restart nginx 
-8. pm2 restart app
+1. Create app and make changes locally in VSCode
+2. Commit and Sync from VSCode to your Github repository
+3. Login to your Github repository, click code, then https, then copy to clipboard
+4. Using Bitvise login to Ubuntu server
+5. From terminal console enter: 
+```
+cd /webs
+git clone <paste clipboard> <name of app>
+```
+(eg. name of app = my-html-remote-app)
+6. From SFTP window navigate to:
+```
+/etc/nginx/apps-enabled
+```
+7. Right click and click Create file:
+```
+formr-xxx-00.com_my-html-remote-app conf (see below)
+```
+8. systemctl restart nginx 
+9. pm2 restart app
 
 - Update my-html-remote-app
-1. Make Changes -> push from VSCode to student repo
-2. login to student server. 
-3. git pull
-4. systemctl restart nginx 
-5. pm2 restart app
+1. Create app and make changes locally in VSCode
+2. Commit and Sync from VSCode to your Github repository
+3. Using Bitvise login to Ubuntu server
+4. From terminal console enter: 
+```
+cd /webs/my-html-remote-app
+git pull
+```
+5. systemctl restart nginx 
+6. pm2 restart app
 
 
 - /etc/nginx/apps-enabled/formr-xxx-00.com_my-html-remote-app conf
