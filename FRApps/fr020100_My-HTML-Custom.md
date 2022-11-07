@@ -2855,9 +2855,17 @@ location      /my-html-remote-app {
 }   
 ```
 
-9. systemctl restart nginx 
-10. pm2 restart app
-11. Browse to your server:
+9. From Terminal console:
+
+```
+systemctl restart nginx 
+```
+then
+```
+pm2 restart app
+```
+
+10. Browse to your server:
 
 ```
 https://formr-cbt-00.com/my-html-remote-app
@@ -2878,9 +2886,16 @@ then
 ```
 git pull
 ```
-5. systemctl restart nginx 
-6. pm2 restart app
-7. Browse to your server:
+5. From Terminal console:
+
+```
+systemctl restart nginx 
+```
+then
+```
+pm2 restart app
+```
+6. Browse to your server:
 
 ```
 https://formr-cbt-00.com/my-html-remote-app
