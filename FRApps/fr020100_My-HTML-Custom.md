@@ -2822,15 +2822,17 @@ e.g. C:\repos\FRApps\client1\2c1_my-html-remote-app
 2. Commit and Sync from VSCode to your Github repository
 3. Login to your Github repository, click code, then https, then copy to clipboard
 4. Using Bitvise login to Ubuntu server
-5. From terminal console enter: paste from clipboard
+5. From terminal console enter: 
 
 ```
 cd /webs
 ```
-then
+then paste from clipboard
 ```
-git clone https://github.com/brucetroutman-gmail/FRApps.git
+git clone https://...
 ```
+e.g. https://github.com/brucetroutman-gmail/FRApps.git
+
 6. From SFTP window navigate to:
 
 ```
