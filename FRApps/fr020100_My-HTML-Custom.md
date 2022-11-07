@@ -2818,10 +2818,15 @@ Your next journey will be to add some very cool functions to our web page using 
 - Initial Clone (Install an App on the Ubuntu server)
 
 1. Create app and make changes locally in VSCode
+
 e.g. C:\repos\FRApps\client1\2c1_my-html-remote-app
+
 2. Commit and Sync from VSCode to your Github repository
+
 3. Login to your Github repository, click code, then https, then copy to clipboard
+
 4. Using Bitvise login to Ubuntu server
+
 5. From terminal console enter: 
 
 ```
