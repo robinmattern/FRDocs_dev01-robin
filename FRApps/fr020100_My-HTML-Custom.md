@@ -2817,40 +2817,35 @@ Your next journey will be to add some very cool functions to our web page using 
 
 - Initial Clone (Install an App on the Ubuntu server)
 
-1. Create app and make changes locally in VSCode
+1. Commit and Sync from VSCode to your Github repository
 
-e.g. C:\repos\FRApps\client1\2c1_my-html-remote-app
+2. Login to your Github repository, click code, then https, then copy to clipboard
 
-2. Commit and Sync from VSCode to your Github repository
+3. Using Bitvise login to Ubuntu server
 
-3. Login to your Github repository, click code, then https, then copy to clipboard
-
-4. Using Bitvise login to Ubuntu server
-
-5. From terminal console enter: 
+4. From terminal console enter: 
 
 ```
 cd /webs
 ```
-then paste from clipboard
+then paste from clipboard (it will have your own repo info)
 ```
-git clone https://...
+git clone https://github.com/brucetroutman-gmail/FRApps.git
 ```
-e.g. https://github.com/brucetroutman-gmail/FRApps.git
 
-6. From SFTP window navigate to:
+5. From SFTP window navigate to:
 
 ```
 /etc/nginx/apps-enabled
 ```
 
-7. Right click and click Create file:
+6. Right click and click Create file:
 
 ```
-formr-xxx-00.com_my-html-remote-app conf
+formr-xxx-00.com_my-html-remote-app.conf
 ```
 
-8. Paste the following into this file:
+7. Paste the following into this file:
 
 ```
 location      /my-html-remote-app {      
@@ -2860,7 +2855,7 @@ location      /my-html-remote-app {
 }   
 ```
 
-9. From Terminal console:
+8. From Terminal console:
 
 ```
 systemctl restart nginx 
@@ -2870,7 +2865,7 @@ then
 pm2 restart app
 ```
 
-10. Browse to your server:
+9. Browse to your server:
 
 ```
 https://formr-cbt-00.com/my-html-remote-app
@@ -2879,7 +2874,11 @@ https://formr-cbt-00.com/my-html-remote-app
 - Update my-html-remote-app
 1. Modify index.html in VSCode
 
-Replace "My Image & Text" with "Welcome to Bruce's FormR..."
+Replace "My Image & Text" with (use your name)
+
+```
+"Welcome to Bruce's FormR..."
+```
 
 2. Commit and Sync from VSCode to your Github repository
 3. Using Bitvise login to Ubuntu server
@@ -2908,18 +2907,35 @@ https://formr-cbt-00.com/my-html-remote-app
 
 - Change home page to my-html-remote-app
 
-1. modify /webs/index.html 
+1. From the SFTP window edit and replace all: formr-xxx-00.com_my-html-remote-app.conf
 
 ```
-<script>
-  document.location.href = "/simpleApp/"
-</script>
+location      / {      
+
+    alias       /webs/FRApps/client1/2c1_my-html-remote-app/;      
+
+}   
 ```
 
-- Browse to your server:
+2. From the SFTP window edit and replace all: formr-xxx-00.com_simpleApp.conf
+
+```
+location    =  /simpleApp  { 
+
+    proxy_pass http://localhost:5000;
+
+    } 
+# ------------  --------------------------
+   
+```
+
+3. Browse to your server:
 
 ```
 https://formr-cbt-00.com
+
+https://formr-cbt-00.com/simpleApp
+
 ```
 
 
