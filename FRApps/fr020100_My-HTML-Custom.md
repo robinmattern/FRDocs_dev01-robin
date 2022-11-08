@@ -2920,7 +2920,7 @@ location      / {
 2. From the SFTP window edit and replace all: formr-xxx-00.com_simpleApp.conf
 
 ```
-location    =  /simpleApp  { 
+location    =  /simpleapp  { 
 
     proxy_pass http://localhost:5000;
 
@@ -2934,7 +2934,7 @@ location    =  /simpleApp  {
 ```
 https://formr-cbt-00.com
 
-https://formr-cbt-00.com/simpleApp
+https://formr-cbt-00.com/simpleapp
 
 ```
 
