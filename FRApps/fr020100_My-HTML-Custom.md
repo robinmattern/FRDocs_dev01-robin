@@ -1130,7 +1130,7 @@ We will be INSERTING 3 new classes as a BLOCK of code:
 <ul>
     <li><font color='green'>.HeaderNavList</font></li><br>
     <li><font color='green'>.HeaderNavListItem a</font></li><br>
-    </li><font color='green'>.HeaderNavListItem a:hover</li>
+    </li><font color='green'>.HeaderNavListItem a:hover</font></li>
     <li><font color='green'>.HeaderNavListItem a:active</font></li>
 </ul>
 <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.HeaderNavList</font> code below... </span>
