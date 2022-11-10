@@ -2995,7 +2995,7 @@ pm2 restart app
 https://formr-cbt-00.com/my-html-remote-app
 ```
 
-### 3. Change Your Hme Page
+### 3. Change Your Home Page
 
 - We will change your home page from simpleApp to my-html-remote-app
 
