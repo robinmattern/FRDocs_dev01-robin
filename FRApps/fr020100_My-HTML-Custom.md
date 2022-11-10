@@ -2815,23 +2815,34 @@ Your next journey will be to add some very cool functions to our web page using 
 
 ### *DEPLOY TO INTERNET*
 
-- Initial Clone (Install an App on the Ubuntu server)
+### 1. Initial Clone 
 
-1. Commit and Sync from VSCode to your Github repository
+- We will install the App that we just finshed on the Ubuntu server
 
-2. Login to your Github repository, click code, then https, then copy to clipboard
+1. From VSCode, if you have made changes, Commit and Sync them from VSCode to your Github repository
 
-3. Using Bitvise login to Ubuntu server
+2. Using Bitvise login to Ubuntu server
 
-4. From terminal console enter: 
+3. From Terminal Console enter: 
 
 ```
 cd /webs
 ```
-then paste from clipboard (it will have your own repo info)
+
+4. Login to your Github repository for FRApps
+
+- then click Code and HTTPS and the copy button.
+
+- then using Notepad enter:
+
 ```
-git clone https://github.com/brucetroutman-gmail/FRApps.git
+git clone <paste herethe copied https link from your personal Github>
 ```
+
+e.g. https://github.com/brucetroutman-gmail/FRApps.git
+
+- Copy from Notepad and paste into the Terminal Console and execute the clone process.
+
 
 5. From SFTP window navigate to:
 
@@ -2839,23 +2850,25 @@ git clone https://github.com/brucetroutman-gmail/FRApps.git
 /etc/nginx/apps-enabled
 ```
 
-6. Right click and click Create file:
+6. Right click in the white area and click Create file, enter this file name:
 
 ```
 formr-xxx-00.com_my-html-remote-app.conf
 ```
 
-7. Paste the following into this file:
+7. Right click on this file and click Edit
+
+- Paste the following into this file:
 
 ```
-location      /my-html-remote-app {      
+location   =  /my-html-remote-app {      
 
     alias       /webs/FRApps/client1/2c1_my-html-remote-app/;      
 
 }   
 ```
 
-8. From Terminal console:
+8. In Terminal console enter:
 
 ```
 systemctl restart nginx 
@@ -2871,7 +2884,8 @@ pm2 restart app
 https://formr-cbt-00.com/my-html-remote-app
 ```
 
-- Update my-html-remote-app
+### 2. Update Your App
+
 1. Modify index.html in VSCode
 
 Replace "My Image & Text" with (use your name)
@@ -2882,42 +2896,74 @@ Replace "My Image & Text" with (use your name)
 
 2. Commit and Sync from VSCode to your Github repository
 3. Using Bitvise login to Ubuntu server
-4. From terminal console enter: 
+4. In Terminal console enter: 
+
 ```
 cd /webs/FRApps/client1/2c1_my-html-remote-app
 ```
+
 then
+
 ```
 git pull
 ```
-5. From Terminal console:
+
+5. In Terminal console enter:
 
 ```
 systemctl restart nginx 
 ```
+
 then
+
 ```
 pm2 restart app
 ```
+
 6. Browse to your server:
 
 ```
 https://formr-cbt-00.com/my-html-remote-app
 ```
 
-- Change home page to my-html-remote-app
+### 3. Change Your Hme Page
 
-1. From the SFTP window edit and replace all: formr-xxx-00.com_my-html-remote-app.conf
+- We will change your home page from simpleApp to my-html-remote-app
+
+1. From the SFTP window
+
+- Navigate to:
 
 ```
-location      / {      
+/etc/nginx/apps-enabled
+```
+
+- then right click and edit 
+
+formr-xxx-00.com_my-html-remote-app.conf
+
+and replace everything with:
+
+```
+location    =  / {      
 
     alias       /webs/FRApps/client1/2c1_my-html-remote-app/;      
 
 }   
 ```
 
-2. From the SFTP window edit and replace all: formr-xxx-00.com_simpleApp.conf
+2. From the SFTP window
+
+- Navigate to:
+
+```
+/etc/nginx/apps-enabled
+```
+- then right click and edit 
+
+formr-xxx-00.com_simpleApp.conf
+
+and replace everything with:
 
 ```
 location    =  /simpleapp  { 
@@ -2931,10 +2977,19 @@ location    =  /simpleapp  {
 
 3. Browse to your server:
 
+- To now get to simpleApp
+
 ```
-https://formr-cbt-00.com
 
 https://formr-cbt-00.com/simpleapp
+
+```
+
+- Your homepage is now your html remote app
+
+```
+
+https://formr-cbt-00.com
 
 ```
 
