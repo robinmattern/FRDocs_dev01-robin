@@ -2918,12 +2918,17 @@ formr-xxx-00.com_my-html-remote-app.conf
 - Paste the following into this file:
 
 ```
-location   =  /my-html-remote-app {      
+location    /my-html-remote-app {      
 
     alias       /webs/FRApps/client1/2c1_my-html-remote-app/;      
 
 }   
 ```
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-note-paste-conf.jpg">
+<br><br>
+
+- Save the file
 
 8. In Terminal console enter:
 
@@ -2935,11 +2940,18 @@ then
 pm2 restart app
 ```
 
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-restart.jpg">
+<br><br>
+
+
 9. Browse to your server:
 
 ```
 https://formr-cbt-00.com/my-html-remote-app
 ```
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/browse-simp-my-html.jpg">
+<br><br>
+
 
 ### 2. Update Your App
 
@@ -3002,7 +3014,7 @@ formr-xxx-00.com_my-html-remote-app.conf
 and replace everything with:
 
 ```
-location    =  / {      
+location      / {      
 
     alias       /webs/FRApps/client1/2c1_my-html-remote-app/;      
 
