@@ -2821,7 +2821,24 @@ Your next journey will be to add some very cool functions to our web page using 
 
 1. From VSCode, if you have made changes, Commit and Sync them from VSCode to your Github repository
 
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/commit.jpg">
+<br><br>
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sync.jpg">
+<br><br>
+
+- Note: If this is your first commit, please click Publish Branch instead of Sync
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/publish.jpg">
+<br><br>
+
 2. Using Bitvise login to Ubuntu server
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/bitvise-login.jpg">
+<br><br>
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/bitvise-terminal.jpg">
+<br><br>
 
 3. From Terminal Console enter: 
 
@@ -2829,9 +2846,18 @@ Your next journey will be to add some very cool functions to our web page using 
 cd /webs
 ```
 
-4. Login to your Github repository for FRApps
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/terminal-cd-webs.jpg">
+<br><br>
 
-- then click Code and HTTPS and the copy button.
+4. Login to your Github repository for FRApps and click the Code button
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-code.jpg">
+<br><br>
+
+- then click HTTPS and the copy button.
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-https-copy.jpg">
+<br><br>
 
 - then using Notepad enter:
 
@@ -2839,24 +2865,55 @@ cd /webs
 git clone <paste herethe copied https link from your personal Github>
 ```
 
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-note-paste.jpg">
+<br><br>
+
+
 e.g. https://github.com/brucetroutman-gmail/FRApps.git
 
-- Copy from Notepad and paste into the Terminal Console and execute the clone process.
+- Copy from Notepad 
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-note-copy.jpg">
+<br><br>
+
+- and paste into the Terminal Console and execute the clone process.
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-clone.jpg">
+<br><br>
+
+5. From Bitvise SFTP window 
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/bitvise-sftp.jpg">
+<br><br>
 
 
-5. From SFTP window navigate to:
+- navigate to:
 
 ```
 /etc/nginx/apps-enabled
 ```
 
-6. Right click in the white area and click Create file, enter this file name:
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-apps-enabled.jpg">
+<br><br>
+
+6. Right click in the white area and click Create file,
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-create-file.jpg">
+<br><br>
+
+- enter this file name:
 
 ```
 formr-xxx-00.com_my-html-remote-app.conf
 ```
 
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-file-name.jpg">
+<br><br>
+
 7. Right click on this file and click Edit
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-file-edit.jpg">
+<br><br>
 
 - Paste the following into this file:
 
