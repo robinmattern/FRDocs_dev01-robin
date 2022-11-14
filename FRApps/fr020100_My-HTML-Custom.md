@@ -2832,15 +2832,30 @@ Your next journey will be to add some very cool functions to our web page using 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/publish.jpg">
 <br><br>
 
-2. Using Bitvise login to Ubuntu server
+2. Open VSCode new Terminal and connect to your remote Ubuntu server
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/bitvise-login.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/vscode-new-term.jpg">
 <br><br>
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/bitvise-terminal.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/vscode-new-term1.jpg">
 <br><br>
 
-3. From Terminal Console enter: 
+- Connect to your Vultr server using your .ssh
+vultr name (You created this in Build Workstation Step 3.) 
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/ssh-cong-vultr.jpg">
+<br><br>
+
+- enter into your new Terminal in VSCode
+
+```
+ssh vultr-formr0-nimda
+```
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/vscode-term-ssh-login.jpg">
+<br><br>
+
+- From VSCode Terminal enter: 
 
 ```
 cd /webs
@@ -2849,7 +2864,7 @@ cd /webs
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/terminal-cd-webs.jpg">
 <br><br>
 
-4. Login to your Github repository for FRApps and click the Code button
+3. Login to your Github repository for FRApps and click the Code button
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-code.jpg">
 <br><br>
@@ -2859,7 +2874,7 @@ cd /webs
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-https-copy.jpg">
 <br><br>
 
-- then using Notepad enter:
+- then using Notepad enter and paste from clipboard:
 
 ```
 git clone <paste herethe copied https link from your personal Github>
@@ -2868,20 +2883,24 @@ git clone <paste herethe copied https link from your personal Github>
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-note-paste.jpg">
 <br><br>
 
-
-e.g. https://github.com/brucetroutman-gmail/FRApps.git
+```
+e.g. git clone https://github.com/brucetroutman-gmail/FRApps.git
+```
 
 - Copy from Notepad 
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-note-copy.jpg">
 <br><br>
 
-- and paste into the Terminal Console and execute the clone process.
+- and paste into the VSCode Terminal and execute the clone process.
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-clone.jpg">
 <br><br>
 
-5. From Bitvise SFTP window 
+4. Using Bitvise Login and open an SFTP window 
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/bitvise-login.jpg">
+<br><br>
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/bitvise-sftp.jpg">
 <br><br>
@@ -2896,21 +2915,23 @@ e.g. https://github.com/brucetroutman-gmail/FRApps.git
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-apps-enabled.jpg">
 <br><br>
 
-6. Right click in the white area and click Create file,
-
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-create-file.jpg">
-<br><br>
-
-- enter this file name:
+5. Copy this file name to the clipboard:
 
 ```
 formr-xxx-00.com_my-html-remote-app.conf
 ```
 
+- In the SFTP window right click in the white area and click Create file,
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-create-file.jpg">
+<br><br>
+
+- Paste into the new file
+
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-file-name.jpg">
 <br><br>
 
-7. Right click on this file and click Edit
+6. Right click on this file and click Edit
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-file-edit.jpg">
 <br><br>
@@ -2930,7 +2951,7 @@ location    /my-html-remote-app {
 
 - Save the file
 
-8. In Terminal console enter:
+7. In VSCode Terminal enter:
 
 ```
 systemctl restart nginx 
@@ -2944,7 +2965,7 @@ pm2 restart app
 <br><br>
 
 
-9. Browse to your server:
+8. Browse to your server:
 
 ```
 https://formr-cbt-00.com/my-html-remote-app
@@ -2963,9 +2984,21 @@ Replace "My Image & Text" with (use your name)
 "Welcome to Bruce's FormR..."
 ```
 
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/index-change-sect1.jpg">
+<br><br>
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/index-change-sect1-1.jpg">
+<br><br>
+
 2. Commit and Sync from VSCode to your Github repository
-3. Using Bitvise login to Ubuntu server
-4. In Terminal console enter: 
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/commit-sect1.jpg">
+<br><br>
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sync-sect1.jpg">
+<br><br>
+
+3. In VSCode Terminal enter: 
 
 ```
 cd /webs/FRApps/client1/2c1_my-html-remote-app
@@ -2977,23 +3010,17 @@ then
 git pull
 ```
 
-5. In Terminal console enter:
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-git-pull.jpg">
+<br><br>
 
-```
-systemctl restart nginx 
-```
-
-then
-
-```
-pm2 restart app
-```
-
-6. Browse to your server:
+4. Browse to your server:
 
 ```
 https://formr-cbt-00.com/my-html-remote-app
 ```
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/browse-changed-sect1.jpg">
+<br><br>
 
 ### 3. Change Your Home Page
 
@@ -3021,6 +3048,11 @@ location      / {
 }   
 ```
 
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/conf-change-remote-app.jpg">
+<br><br>
+
+- Save the file
+
 2. From the SFTP window
 
 - Navigate to:
@@ -3044,7 +3076,27 @@ location    =  /simpleapp  {
    
 ```
 
-3. Browse to your server:
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/conf-change-simple-app.jpg">
+<br><br>
+
+- Save the file
+
+3. In VSCode Terminal enter:
+
+```
+systemctl restart nginx 
+```
+then
+```
+pm2 restart app
+```
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-restart.jpg">
+<br><br>
+
+
+
+4. Browse to your server:
 
 - To now get to simpleApp
 
@@ -3053,6 +3105,9 @@ location    =  /simpleapp  {
 https://formr-cbt-00.com/simpleapp
 
 ```
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/browse-new-simple-app.jpg">
+<br><br>
+
 
 - Your homepage is now your html remote app
 
@@ -3061,6 +3116,9 @@ https://formr-cbt-00.com/simpleapp
 https://formr-cbt-00.com
 
 ```
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/browse-new-home.jpg">
+<br><br>
 
 
 
