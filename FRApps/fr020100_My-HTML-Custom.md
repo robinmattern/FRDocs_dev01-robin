@@ -2897,7 +2897,7 @@ e.g. git clone https://github.com/brucetroutman-gmail/FRApps.git
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-clone.jpg">
 <br><br>
 
-4. Using Bitvise Login and open an SFTP window 
+4. Using Bitvise Login and click New SFTP window 
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/bitvise-login.jpg">
 <br><br>
@@ -2906,7 +2906,7 @@ e.g. git clone https://github.com/brucetroutman-gmail/FRApps.git
 <br><br>
 
 
-- navigate to:
+- Navigate to:
 
 ```
 /etc/nginx/apps-enabled
@@ -2992,10 +2992,10 @@ Replace "My Image & Text" with (use your name)
 
 2. Commit and Sync from VSCode to your Github repository
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/commit-sect1.jpg">
+<img src="FRApps/assets/images/deploy/commit-sect1.jpg">
 <br><br>
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sync-sect1.jpg">
+<img src="FRApps/assets/images/deploy/sync-sect1.jpg">
 <br><br>
 
 3. In VSCode Terminal enter: 

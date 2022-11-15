@@ -315,7 +315,7 @@ systemctl restart sshd
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
 
-#### 7. Open the Windows command prompt on your Develper Workstation
+#### 7. Open the Windows command prompt on your Developer Workstation
 
 #### 8. Paste the following:
 
@@ -613,7 +613,7 @@ cd /etc/lynis
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
-#### 3. Open the Windows command prompt on your Develper Workstation
+#### 3. Open the Windows command prompt on your Developer Workstation
 
 #### 4. Paste the following:
 
