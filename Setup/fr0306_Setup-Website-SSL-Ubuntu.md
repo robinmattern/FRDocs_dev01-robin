@@ -180,15 +180,17 @@ C:\Users\Local_Admin\.ssh
 ```
 Host vultr-formR0-nimda
     HostName       <paste your formR0 server IP address here>
-    IdentityFile   C:/Users/Local_Admin/.ssh/<paste your key heere>
+    IdentityFile   C:/Users/Local_Admin/.ssh/<paste your key here>
     User           nimda
+    ServerAliveInterval 60
+    ServerAliveCountMax 10
 ```
 
 - then change the Hostname to the IP address of your Vultr server
 - and change the IdentityFile to your private key for vultr-form0-nimda.
 - and save the file
 
-![ssh-key-to-vultr](./images/fr0306-06_Ubuntu-ssh-key-to-vultr1.png "ssh-key-to-vultr")
+![ssh-key-to-vultr](./images/fr0306-06_Ubuntu-ssh-key-to-vultr1.jpg "ssh-key-to-vultr")
 
 #### 28. Login to your Vultr server using your private key
 
