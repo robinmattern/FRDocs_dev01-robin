@@ -2898,7 +2898,7 @@ e.g. git clone https://github.com/brucetroutman-gmail/FRApps.git
 <br><br>
 
 
-- navigate to:
+- Navigate to:
 
 ```
 /etc/nginx/apps-enabled
