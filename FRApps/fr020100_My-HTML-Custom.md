@@ -5,7 +5,7 @@
 [BACK - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next">
 
-[JS Custom App - NEXT](/FRApps/fr020200_My-Javascript-Custom-App.md)
+[Custom FRApps JavaScript - NEXT](/FRApps/fr020200_My-Javascript-Custom-App.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
@@ -2797,16 +2797,7 @@ reference in your <u>index.<b>html</b></u> file to match the name of your relati
 <!--</span>-->
 </div>
 <br>
-Your next journey will be to add some very cool functions to our web page using JavaScript.
-<br><br>
 
-<div class="final">
-    <span class="happy-coding">  
-        <img class="happy-coding-percent" src="FRApps/assets/images/md-images/HappyCoding6.gif">
-        <!--&nbsp;&nbsp;HAPPY CODING!-->
-    </span>
-</div>
-<br>
 <!--## 6. View Full Code-->  <!-- {docsify-ignore} -->
 
 ###  [View Full Code For HTML Custom Apps](/FRApps/code/fr020102_custom-code.md "Full Code") 
@@ -2819,21 +2810,22 @@ Your next journey will be to add some very cool functions to our web page using 
 
 - We will install the App that we just finshed on the Ubuntu server
 
-1. From VSCode, if you have made changes, Commit and Sync them from VSCode to your Github repository
+#### 1. From VSCode, if you have made changes, Commit and Sync them from VSCode to your Github repository
+<br>
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/commit.jpg">
 <br><br>
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/sync.jpg">
 <br><br>
+ 
+- Note: If this is your first commit, please click Publish Branch instead of Sync <br>
 
-- Note: If this is your first commit, please click Publish Branch instead of Sync
-
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/publish.jpg">
+<img class="fifty-percent" src="FRApps/assets/images/deploy/publish.jpg">
 <br><br>
 
-2. Open VSCode new Terminal and connect to your remote Ubuntu server
-
+#### 2. Open VSCode new Terminal and connect to your remote Ubuntu server
+<br>
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/vscode-new-term.jpg">
 <br><br>
 
@@ -2864,8 +2856,8 @@ cd /webs
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/terminal-cd-webs.jpg">
 <br><br>
 
-3. Login to your Github repository for FRApps and click the Code button
-
+#### 3. Login to your Github repository for FRApps and click the Code button
+<br>
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-code.jpg">
 <br><br>
 
@@ -2897,8 +2889,8 @@ e.g. git clone https://github.com/brucetroutman-gmail/FRApps.git
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-clone.jpg">
 <br><br>
 
-4. Using Bitvise Login and open an SFTP window 
-
+#### 4. Using Bitvise Login and open an SFTP window 
+<br>
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/bitvise-login.jpg">
 <br><br>
 
@@ -2915,7 +2907,7 @@ e.g. git clone https://github.com/brucetroutman-gmail/FRApps.git
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-apps-enabled.jpg">
 <br><br>
 
-5. Copy this file name to the clipboard:
+#### 5. Copy this file name to the clipboard:
 
 ```
 formr-xxx-00.com_my-html-remote-app.conf
@@ -2931,8 +2923,8 @@ formr-xxx-00.com_my-html-remote-app.conf
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-file-name.jpg">
 <br><br>
 
-6. Right click on this file and click Edit
-
+#### 6. Right click on this file and click Edit
+<br>
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-file-edit.jpg">
 <br><br>
 
@@ -2951,7 +2943,7 @@ location    /my-html-remote-app {
 
 - Save the file
 
-7. In VSCode Terminal enter:
+#### 7. In VSCode Terminal enter:
 
 ```
 systemctl restart nginx 
@@ -2965,7 +2957,7 @@ pm2 restart app
 <br><br>
 
 
-8. Browse to your server:
+#### 8. Browse to your server:
 
 ```
 https://formr-cbt-00.com/my-html-remote-app
@@ -2976,8 +2968,8 @@ https://formr-cbt-00.com/my-html-remote-app
 
 ### 2. Update Your App
 
-1. Modify index.html in VSCode
-
+#### 1. Modify index.html in VSCode
+<br>
 Replace "My Image & Text" with (use your name)
 
 ```
@@ -2990,15 +2982,15 @@ Replace "My Image & Text" with (use your name)
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/index-change-sect1-1.jpg">
 <br><br>
 
-2. Commit and Sync from VSCode to your Github repository
-
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/commit-sect1.jpg">
+#### 2. Commit and Sync from VSCode to your Github repository
+<br>
+<img src="FRApps/assets/images/deploy/commit-sect1.jpg">
 <br><br>
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sync-sect1.jpg">
+<img src="FRApps/assets/images/deploy/sync-sect1.jpg">
 <br><br>
 
-3. In VSCode Terminal enter: 
+#### 3. In VSCode Terminal enter: 
 
 ```
 cd /webs/FRApps/client1/2c1_my-html-remote-app
@@ -3013,7 +3005,7 @@ git pull
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-git-pull.jpg">
 <br><br>
 
-4. Browse to your server:
+#### 4. Browse to your server:
 
 ```
 https://formr-cbt-00.com/my-html-remote-app
@@ -3026,8 +3018,8 @@ https://formr-cbt-00.com/my-html-remote-app
 
 - We will change your home page from simpleApp to my-html-remote-app
 
-1. From the SFTP window
-
+#### 1. From the SFTP window
+<br>
 - Navigate to:
 
 ```
@@ -3053,7 +3045,7 @@ location      / {
 
 - Save the file
 
-2. From the SFTP window
+#### 2. From the SFTP window
 
 - Navigate to:
 
@@ -3081,7 +3073,7 @@ location    =  /simpleapp  {
 
 - Save the file
 
-3. In VSCode Terminal enter:
+#### 3. In VSCode Terminal enter:
 
 ```
 systemctl restart nginx 
@@ -3096,7 +3088,7 @@ pm2 restart app
 
 
 
-4. Browse to your server:
+#### 4. Browse to your server:
 
 - To now get to simpleApp
 
@@ -3118,15 +3110,25 @@ https://formr-cbt-00.com
 ```
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/browse-new-home.jpg">
+<br>
+
+<hr>
+Your next journey will be to add some very cool functions to our web page using JavaScript.
 <br><br>
 
-
+<div class="final">
+    <span class="happy-coding">  
+        <img class="happy-coding-percent" src="FRApps/assets/images/md-images/HappyCoding6.gif">
+        <!--&nbsp;&nbsp;HAPPY CODING!-->
+    </span>
+</div>
+<br>
 
 <div class="page-back">
 
 [BACK - Website SSL](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 </div><div class="page-next">
 
-[Custom FRApps React - NEXT](/Setup/fr0105_Custom-FR-Apps-React.md)
+[Custom FRApps JavaScript - NEXT](/FRApps/fr020200_My-Javascript-Custom-App.md)
 </div>
 <br><br>
