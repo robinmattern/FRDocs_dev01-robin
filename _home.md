@@ -34,7 +34,7 @@ Your URL would be: formR-yourinitials-00.com
 
 <br/>
 
-![Your formR Website](/assets/images/fr0001-01_formR.png "Your formR Website")
+![Your formR Website](/assets/images/fr0001-01_formR.jpg "Your formR Website")
 
 <br/>
 
