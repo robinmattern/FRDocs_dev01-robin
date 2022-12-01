@@ -977,6 +977,27 @@ https://bitvise.com/ssh-client-download
 
 ![Bitvise-start](./images/fr0101-13_Bitvise-start.png "Bitvise-start")
 
+#### 2. Configure Bitvise
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    These 2 configuration changes will allow Bitvise to cleanly logout when you close your terminal and SFTP windows.
+  </div>  
+</div>
+
+
+- Start Bitvise then click the Options tab then the check box "Logout when session activity is over".
+
+
+![Bitvise-Options-Logout](./images/fr0101-13_Bitvise-options-logout.jpg "Bitvise-Options-Logout")
+
+- Click on the Terminal Tab and choose "Always"
+
+![Bitvise-terminal-always](./images/fr0101-13_Bitvise-terminal-always.jpg "Bitvise-terminal-always")
+
+- Exit Bitvise to Save your changes to the Default profile.
+
+![Bitvise-Exit](./images/fr0101-13_Bitvise-exit.jpg "Bitvise-Exit")
 
 ----
 #### Congratulations! Your Developer Workstation is setup.
