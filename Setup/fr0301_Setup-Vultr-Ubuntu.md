@@ -52,7 +52,14 @@ Hover over the snippet and click copy, then paste as appropriate.
 ----
 ### 1. Create New Ubuntu Instance  0:10
 ----
-#### 1. Signin or create an account on vultr.com (Note the ref=8778592 below tells Vultr and us that you are doing the formR tutorial.)
+#### 1. Signin or create an account on vultr.com 
+
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: the ref=8778592 below tells Vultr and us that you are doing the formR tutorial.
+  </div>  
+</div>
 
 - Browse to:
 
@@ -197,7 +204,12 @@ https://www.vultr.com/?ref=8778592
 ![Vultr Welcome](./images/fr0301-13_Vultr-Welcome.png "Welcome")
 
 ----
-#### Congratulations! You have created your Ubuntu server on Vultr.
+<div class="notice-success">
+  <div class="notice-success-header">
+    Congratulations! You have created your Ubuntu server on Vultr.
+  </div>
+</div>
+
 ----
 
 
