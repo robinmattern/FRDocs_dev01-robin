@@ -52,7 +52,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 ![Node-test-terminal](images/fr0102-01_Node-test-terminal0.png "Node-test-terminal")
 
-- In vscode right click on the myProject folder and click on Open terminal
+- In VSCode right click on the myProject folder and click on Open terminal
 
 ![Node-test-terminal](images/fr0102-01_Node-test-terminal.png "Node-test-terminal")
 
@@ -166,9 +166,13 @@ npm install express
 
 ![Node-npm-express](images/fr0102-09_Node-npm-express.png "Node-npm-express") 
 
-#### 2. In the previous steps we installed using npm (node package manager) which created and populated a new folder node_modules. This folder can be very large in size but does not need to be tracked in GitHub. Files in .gitignore will not be tracked in GitHub. 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Tip: In the previous steps we installed using npm (node package manager) which created and populated a new folder node_modules. This folder can be very large in size but does not need to be tracked in GitHub. Files in .gitignore will not be tracked in GitHub. 
+  </div>  
+</div>
 
-#### 3. Create a new file in the myProject folder, .gitignore and add:
+#### 2. Create a new file in the myProject folder, .gitignore and add:
 
 ![Node-gitignore](images/fr0102-08_Node-gitignore.png "Node-gitignore")
 
@@ -182,7 +186,7 @@ node_modules
 
 ![Node-gitignore](images/fr0102-08_Node-gitignore2.png "Node-gitignore")
 
-#### 4. Create a new file, server.js in the server/app01s folder
+#### 3. Create a new file, server.js in the server/app01s folder
 
 ![Node-create-server-js](images/fr0102-11_Node-create-server-js0.png "Node-create-server-js")
 
@@ -214,25 +218,25 @@ app.listen( PORT, () => {
 
 ![Node-create-server-js](images/fr0102-11_Node-create-server-js.png "Node-create-server-js")
 
-#### 5. Right click on the app01s folder and Select Open in Integrated Terminal and click in the Terminal window
+#### 4. Right click on the app01s folder and Select Open in Integrated Terminal and click in the Terminal window
 
-#### 6. Enter:
+#### 5. Enter:
 <br/>
 
 ```
 node server.js
 ```
 
-#### 7. Allow Access in Microsoft Firewall and click Private networks
+#### 6. Allow Access in Microsoft Firewall and click Private networks
 
 ![Node-terminal-server-js](images/fr0102-12_Node-terminal-allow-access.png "Node-terminal-server-js")
 
 
-#### 8. Terminal shows server running on port 8080
+#### 7. Terminal shows server running on port 8080
 
 ![Node-terminal-server-js](images/fr0102-12_Node-terminal-server-js.png "Node-terminal-server-js")
 
-#### 9. Browse to:
+#### 8. Browse to:
 <br/>
 
 ```
@@ -242,7 +246,7 @@ http://localhost:8080/myProject/server/app01s
 ![Node-browser-server-js](images/fr0102-13_Node-browser-server-js.png "Node-browser-server-js")
 
 
-#### 10. Push your changes to GitHub
+#### 9. Push your changes to GitHub
 
 1. Click the Source Control charm
 
@@ -526,7 +530,12 @@ node queryDB
 4. Click the Sync Changes button to push to github
 
 ----
-#### Congratulations! You have run the Node applications that test your development environment.
+<div class="notice-success">
+  <div class="notice-success-header">
+    Congratulations! You have successfully run the Node applications that test your development environment.
+    </div>
+</div>
+
 ----
 
 <!-- ------------------------------------------------------------------------- -->

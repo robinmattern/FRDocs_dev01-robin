@@ -1000,7 +1000,13 @@ https://bitvise.com/ssh-client-download
 ![Bitvise-Exit](./images/fr0101-13_Bitvise-exit.jpg "Bitvise-Exit")
 
 ----
-#### Congratulations! Your Developer Workstation is setup.
+<div class="notice-success">
+  <div class="notice-success-header">
+    Congratulations! Your Developer Workstation is setup.
+  </div>
+</div>
+
+----
 
  - After all installations on a new Windows 10 machine, 7 GB was added to Drive C:.
 
