@@ -26,7 +26,7 @@
 #### Introduction <!-- {docsify-ignore} -->
 - The following steps create the development environment on your workstation for developing an MERN stack (MySql, Express, React and Node) application. 
 
-- You will access a repository on github and modify it, run it and push changes back to github. We will be using an empty 'Windows Pro N' VM in these instructions. You should be able to use any Windows 10 or above workstation. Just follow the steps. The total disk space required is 7 GB.
+- You will access a repository on github and modify it, run it and push changes back to github. We will be using an empty 'Windows Pro N' VM in these instructions. You should be able to use any Windows 10 or above workstation. Just follow the steps. The total disk space required is about 6          GB.
 
 <details class="notice-info">
     <summary class="notice-info-header">
@@ -52,8 +52,10 @@ Hover over the snippet and click copy, then paste as appropriate.
     Warning: Use the Account Name: Local_Admin
   </div>
 
-- It is not recommended to use another account name
-- This account name will be referenced throughout the tutorial.  
+- It is not recommended to use another account name.
+
+- This account name will be referenced throughout the tutorial.
+
 - If you choose another account name, it cannot contain spaces in the name. This tutorial will fail, if spaces are found in the Windows user account name.
 
 </div>
@@ -70,27 +72,23 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 ![Windows-Useraccounts](./images/fr0101-00_Windows-Useraccounts.png "Windows-Useraccounts")
 
-#### 4. Click Change Account Type
-
-![Windows-Changeaccounttype](./images/fr0101-00_Windows-Changeaccounttype.png "Windows-Changeaccounttype")
-
-#### 5. Click Add New User...
+#### 4. Click Add New User...
 
 ![Windows-Addnewuser](./images/fr0101-00_Windows-Addnewuser.png "Windows-Addnewuser")
 
-#### 6. Click the (+) Add someone else...
+#### 5. Click the (+) Add someone else...
 
 ![Windows-Addsomeoneelse](./images/fr0101-00_Windows-Addsomeoneelse.png "Windows-Addsomeoneelse")
 
-#### 7. Click I don't have this person's...
+#### 6. Click I don't have this person's...
 
 ![Windows-Idonthave](./images/fr0101-00_Windows-Idonthave.png "Windows-Idonthave")
 
-#### 8. Click Add a user without...
+#### 7. Click Add a user without...
 
 ![Windows-Addauserwithout](./images/fr0101-00_Windows-Addauserwithout.png "Windows-Addauserwithout")
 
-#### 9. Create a user by filling in the information for:
+#### 8. Create a user by filling in the information for:
 
 - User name:
 ``` 
@@ -103,21 +101,21 @@ FormR!1234
 
 ![Windows-Createauser](./images/fr0101-00_Windows-Createauser.png "Windows-Createauser")
 
-#### 10. Go to Control Panel -> User Accounts -> Change Account Type and select the Local_Admin account
+#### 9. Go to Control Panel -> User Accounts -> Change Account Type and select the Local_Admin account
 
 ![Windows-Selectlocaladmin](./images/fr0101-00_Windows-Selectlocaladmin.png "Windows-Selectlocaladmin")
 
-#### 11. Click Change Account Type
+#### 10. Click Change Account Type
 
 ![Windows-Changelocaladmintype](./images/fr0101-00_Windows-Changelocaladmintype.png "Windows-Changelocaladmintype")
 
-#### 12. Click Administrator radio button and then the Change Account Type button
+#### 11. Click Administrator radio button and then the Change Account Type button
 
 ![Windows-Selectadministrator](./images/fr0101-00_Windows-Selectadministrator.png "Windows-Selectadministrator")
 
 ![Windows-Selectadministrator-1](./images/fr0101-00_Windows-Selectadministrator-1.png "Windows-Selectadministrator-1")
 
-#### 13. Sign out
+#### 12. Sign out
 
 - Click the Start charm on the taskbar
 - then click your login name 
@@ -125,7 +123,7 @@ FormR!1234
 
 ![Windows-Signout](./images/fr0101-00_Windows-Signout.png "Windows-Signout")
 
-#### 14. Sign in as Local_Admin
+#### 13. Sign in as Local_Admin
 
 ![Windows-Signin](./images/fr0101-00_Windows-Signin.png "Windows-Signin")
 
