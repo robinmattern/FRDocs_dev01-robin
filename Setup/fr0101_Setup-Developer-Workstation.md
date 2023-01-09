@@ -288,22 +288,26 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-formR0_nimda_
 ----
 ### 4. Install or open Chrome browser 0:10
 ----
+
+- If Chrome is installed, skip to step 2.
+
 #### 1. Download and install Chrome from:
 
 ```
 https://google.com/chrome
 ```
 
-- Make Chrome your default browser. 
+#### 2. Make Chrome your default browser
 
 <div class="notice-tip">
   <div class="notice-tip-header">
-    Note: This is only for the Local_Admin account.
+    Note: This only applies to the Local_Admin account.
   </div>  
 </div>
 
 
-#### 2. Install Chrome Extensions
+#### 3. Install Chrome Extensions
+
 
 ```
 https://chrome.google.com/webstore/category/extensions?hl=en-US
@@ -311,11 +315,11 @@ https://chrome.google.com/webstore/category/extensions?hl=en-US
 
 ![Chrome-extensions](./images/fr0101-03_Chrome-extensions.png "Chrome-extensions")
 
-#### 3. Add Markdown Preview Plus
+#### 4. Add Markdown Preview Plus
 
 ![Chrome-extensions1](./images/fr0101-03_Chrome-extensions1.png "Chrome-extensions1")
 
-#### 4. Allow access to file URLs
+#### 5. Allow access to file URLs
 
 ```
 chrome://extensions/?id=febilkbfcbhebfnokafefeacimjdckgl
@@ -323,7 +327,7 @@ chrome://extensions/?id=febilkbfcbhebfnokafefeacimjdckgl
 
 ![Chrome-extensions2](./images/fr0101-03_Chrome-extensions2.png "Chrome-extensions2")
 
-#### 5. Add React Developers Tools
+#### 6. Add React Developers Tools
 
 ```
 https://chrome.google.com/webstore/category/extensions?hl=en-US
@@ -331,7 +335,7 @@ https://chrome.google.com/webstore/category/extensions?hl=en-US
 
 ![Chrome-extensions3](./images/fr0101-03_Chrome-extensions3.png "Chrome-extensions3")
 
-#### 6. Check the installations
+#### 7. Check the installations
 
 ```
 chrome://extensions/
