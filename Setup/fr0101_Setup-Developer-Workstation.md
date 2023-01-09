@@ -199,31 +199,28 @@ ssh
 
 <div class="notice-tip">
   <div class="notice-tip-header">
-
 Note:
 
-  These keys will be used for GitHub, your Cloud Provider and your Remote server.
+-  These keys will be used for GitHub, your Cloud Provider and your Remote server.
 
-  Run from the Windows command prompt.
+-  Run from the Windows command prompt.
 
   </div>  
 </div>
 
 <div class="notice-tip">
-  <div class="notice-tip-header">
+  <div class="notice-tip-header">Format for all 3 ssh keys:
 
-Format for all 3 key:
-
-ssh-keygen -t rsa -f
+- ssh-keygen -t rsa -f
 "local user folder/.ssh/
 key owner name@host name_host user initials_vdate_key"
 -C "key owner name@host name_host user initials_vdate"
 
 Example: 
 
-ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key" -C "mickey.mouse@github_mick_v210713"
+- ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key" -C "mickey.mouse@github_mick_v210713"
 
-In the following "mickey mouse snippets" change the following to your info:
+- In the following "mickey mouse snippets" change the following to your info:
 
 - "mickey.mouse" to your Key Owner Name i.e. bruce.troutman
 - "mick" to your initials i.e. kff or cbt or bill, etc.
@@ -293,11 +290,18 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-formR0_nimda_
 ----
 #### 1. Download and install Chrome from:
 
-- Make Chrome your default browser -- Remember this is for the Local_Admin account
-
 ```
 https://google.com/chrome
 ```
+
+- Make Chrome your default browser. 
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: This is only for the Local_Admin account.
+  </div>  
+</div>
+
 
 #### 2. Install Chrome Extensions
 

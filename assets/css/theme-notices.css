@@ -14,10 +14,10 @@
     --notice-heading-margin-top  :  -25px;                           /* .(20906.07.05 RAM Added).( 26 + 5 + 9 = 40 ) */
     --notice-heading-height      :  26px;                           /* .(20906.07.06 RAM Added).(20906.01.2 RAM Was 28px; then 20px;) */
     --notice-heading-line-height :  26px;                           /* .(20906.07.07 RAM Added) */
-    --notice-heading-font-size   :  20px; /* 1.1rem */              /* .(20906.07.08 RAM Added) */
+    --notice-heading-font-size   :  18px; /* 1.1rem */              /* .(20906.07.08 RAM Added) */
     --notice-heading-margin-left : -34px;                           /* .(20906.07.09 RAM Added) */
     --notice-heading-padding-left:  35px;                           /* .(20906.07.10 RAM Added) */
-    --notice-header-weight       :  bold;
+    --notice-header-weight       :  normal;
 
     --info-border-color          : blue;
     --info-background-color      : rgb(245, 250, 255);              /* was: aliceblue;  */
@@ -31,13 +31,13 @@
     --tip-border-color           : green;                           /* .(20830.04.1 RAM Was: red;) */
 /*  --tip-background-color       : rgba(0,0,0,0.1);               *//* aliceblue;   rgba(210, 247, 213, 0.847); */
     --tip-background-color       : rgb(243, 247, 244);
-    --tip-text-color             : green;
+    --tip-text-color             : black;
     --tip-link-color             : rgb(8, 80, 8);                   /* .(20919.02.2 RAM) */
     --tip-icon                   : "star";                          /* .(20917.07.3) */
 
     --warning-border-color       : red;
     --warning-background-color   : rgba(253, 241, 241, 0.938);      /* was: rgba(250, 232, 232, 0.776); */
-    --warning-text-color         : red;
+    --warning-text-color         : black;
     --warning-icon               : "front_hand";                    /* .(20917.07.4) */
 
     --success-border-color       : rgb(182, 166, 81);               /* .(20830.04.2 RAM Was: red; now Gold) */
@@ -432,7 +432,7 @@ summary.summary-style {                             /*  summary.summary-style */
     padding             : 0px 20px 0px 20px;
     text-align          : left;
     font-size           : 1rem;
-    font-weight         : bold;
+    font-weight         : normal;
     white-space         : nowrap;                   /* .(20830.03.2)  */
     }
 /*
