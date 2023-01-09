@@ -46,6 +46,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 ----
 ### 1. Create a new user, Local_Admin, on your workstation. 0:10
+----
 
 <div class="notice-warning">
   <div class="notice-warning-header">
@@ -61,34 +62,42 @@ Hover over the snippet and click copy, then paste as appropriate.
 </div>
 
 #### 1. Login to your Windows account
+<br/>
 
 ![Windows-Login](./images/fr0101-00_Windows-Login.png "Windows-Login")
 
 #### 2. Search for Control Panel
+<br/>
 
 ![Windows-Controlpanel](./images/fr0101-00_Windows-Controlpanel.png "Windows-Controlpanel")
 
 #### 3. Click User Accounts
+<br/>
 
 ![Windows-Useraccounts](./images/fr0101-00_Windows-Useraccounts.png "Windows-Useraccounts")
 
 #### 4. Click Add New User...
+<br/>
 
 ![Windows-Addnewuser](./images/fr0101-00_Windows-Addnewuser.png "Windows-Addnewuser")
 
 #### 5. Click the (+) Add someone else...
+<br/>
 
 ![Windows-Addsomeoneelse](./images/fr0101-00_Windows-Addsomeoneelse.png "Windows-Addsomeoneelse")
 
 #### 6. Click I don't have this person's...
+<br/>
 
 ![Windows-Idonthave](./images/fr0101-00_Windows-Idonthave.png "Windows-Idonthave")
 
-#### 7. Click Add a user without...
+#### 7. Click Add a user without a Microsoft account
+<br/>
 
 ![Windows-Addauserwithout](./images/fr0101-00_Windows-Addauserwithout.png "Windows-Addauserwithout")
 
 #### 8. Create a user by filling in the information for:
+<br/>
 
 - User name:
 ``` 
@@ -99,17 +108,22 @@ Local_Admin
 FormR!1234
 ```
 
+- Select the secret questions and answers to complete the form.
+
 ![Windows-Createauser](./images/fr0101-00_Windows-Createauser.png "Windows-Createauser")
 
 #### 9. Go to Control Panel -> User Accounts -> Change Account Type and select the Local_Admin account
+<br/>
 
 ![Windows-Selectlocaladmin](./images/fr0101-00_Windows-Selectlocaladmin.png "Windows-Selectlocaladmin")
 
 #### 10. Click Change Account Type
+<br/>
 
 ![Windows-Changelocaladmintype](./images/fr0101-00_Windows-Changelocaladmintype.png "Windows-Changelocaladmintype")
 
 #### 11. Click Administrator radio button and then the Change Account Type button
+<br/>
 
 ![Windows-Selectadministrator](./images/fr0101-00_Windows-Selectadministrator.png "Windows-Selectadministrator")
 
@@ -134,20 +148,17 @@ FormR!1234
 ![Windows-Update](./images/fr0101-01_Windows-Update.png "Windows-Update")
 
 ----
-### 3. Create 3 folders, change View Options,  Setup ssh and Create keys 0:15
+### 3. Create new folders, change View Options, setup ssh and create keys 0:15
 ----
-#### 1. In C:\ add repos and remotes folders
+#### 1. In C:\, add folder: repos 
 
-- 'repos' (local copies of your gitHub repositories files)
-
-- 'remotes' (local copies of remote server files)
-
+- The repos folder has local copies of your gitHub repositories files
 
 ![Create-folders](./images/fr0101-02_Create-folders.png "Create-folders")
 
-#### 2. In C:\users\Local_Admin\ add .ssh folder
+#### 2. In C:\users\Local_Admin\, add folder: .ssh 
 
-- '.ssh' (holds your ssh keys related files)
+- The .ssh folder holds your ssh key related files
 
 ![Create-folders2](./images/fr0101-02_Create-folders2.png "Create-folders2")
 
@@ -160,9 +171,12 @@ FormR!1234
 #### 4. Test if OpenSSH client is installed.
 
 - From DOS command prompt run ssh.
-#### 5.  If OpenSSH client is Not installed
 
 ![OpenSSH-not-installed](./images/fr0101-02_OpenSSH-not-installed.png "OpenSSH-not-installed")
+
+- If .ssh IS installed, skip to step 7.
+
+#### 5.  If OpenSSH client is Not installed
 
 - Install OpenSSH in Apps & Features - Optional Features
 
