@@ -186,7 +186,7 @@ FormR!1234
 
 ![Install-OpenSSH3](./images/fr0101-02_Install-OpenSSH3.png "Install-OpenSSH3")
 
-#### 6. OpenSSH client at the command promt enter:
+#### 6. OpenSSH client at the command prompt enter:
 
 ```
 ssh
@@ -209,13 +209,10 @@ Note:
   </div>  
 </div>
 
-#### 8. Key pairs for Github:
-
-
 <div class="notice-tip">
   <div class="notice-tip-header">
 
-Format:
+Format for all 3 key:
 
 ssh-keygen -t rsa -f
 "local user folder/.ssh/
@@ -235,9 +232,11 @@ In the following "mickey mouse snippets" change the following to your info:
   </div>  
 </div>
 
-----
+
+##### 1. Key pairs for Github:
 
 - Paste the following code into Notepad and modify it to your information:
+
 
 ```
 ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713_key" -C "mickey.mouse@github_mick_v210713"
@@ -251,17 +250,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@github_mick_v210713
 
 ![Create New ssh key1](./images/fr0101-03_Create-New-ssh-key1.png "Create New ssh key1")
 
-#### 9. Key pairs for Cloud Provider:
-
-<div class="notice-tip">
-  <div class="notice-tip-header">
-    Paste the following code into Notepad and modify it to your information:
-  </div>  
-</div>
-
-![Create New ssh key1](./images/fr0101-03_Create-New-ssh-key1.png "Create New ssh key1")
-
-#### 9. Key pairs for Cloud Provider:
+##### 2. Key pairs for Cloud Provider:
 
 - Paste the following code into Notepad and modify it to your information:
 
@@ -278,7 +267,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_
 ![Create New ssh key2](./images/fr0101-03_Create-New-ssh-key2.png "Create New ssh key2")
 
 
-#### 10. Key pairs for access to Remote Server on Cloud Provider:
+##### 3. Key pairs for access to Remote Server on Cloud Provider:
 
 - Paste the following code into Notepad and modify it to your information:
 
@@ -294,7 +283,8 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-formR0_nimda_
 
 ![Create New ssh key3](./images/fr0101-03_Create-New-ssh-key3.png "Create New ssh key3")
 
-#### 11. View created key files:
+##### 4. View created key files:
+<br/>
 
 ![Create New ssh key4](./images/fr0101-03_Create-New-ssh-key4.png "Create New ssh key4")
 
