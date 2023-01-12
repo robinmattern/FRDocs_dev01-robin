@@ -1124,7 +1124,7 @@ https://bitvise.com/ssh-client-download
 - Start Bitvise then click the Options tab then the check box "Logout when session activity is over".
 
 
-![Bitvise-Options-Logout](./images/fr0101-13_Bitvise-options-logout.jpg "Bitvise-Options-Logout")
+![Bitvise-Options-Logout](./images/fr0101-13_Bitvise-options-logout.png "Bitvise-Options-Logout")
 
 - Click on the Terminal Tab and choose "Always"
 
