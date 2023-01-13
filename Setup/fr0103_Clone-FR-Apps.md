@@ -204,7 +204,7 @@ git push origin
 ----
 #### 1. Right click on the client folder
 
-#### 2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Clone-04](images/fr0103-FRApps-Clone-04.png "FRApps-Clone-04")
 
@@ -225,7 +225,7 @@ npm audit --production
 
 #### 4. Right click on the server folder
 
-#### 5. Click Open in Integrated Terminal, then 
+#### 5. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Clone-07](images/fr0103-FRApps-Clone-07.png "FRApps-Clone-07")
 
@@ -257,7 +257,7 @@ npm install
 ----
 
 #### 1. Right click on the client/2c-React-Empty folder
-#### 2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Clone-21](images/fr0103-FRApps-Clone-21.png "FRApps-Clone-21") 
 
@@ -281,7 +281,7 @@ npm start
 ----
 
 #### 1. Right click on the client/3c-React-Button folder
-#### 2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Clone-31](images/fr0103-FRApps-Clone-31.png "FRApps-Clone-31") 
 
@@ -302,7 +302,7 @@ npm start
 ----
 
 #### 1. Right click on the client/4c-react-app-no-api folder
-#### 2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Clone-41](images/fr0103-FRApps-Clone-41a.png "FRApps-Clone-41") 
 
@@ -332,7 +332,7 @@ npm start
   </div>  
 </div>
  
-#### 2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Clone-51](images/fr0103-FRApps-Clone-51.png "FRApps-Clone-51") 
 
@@ -378,7 +378,7 @@ http://localhost:50115/invoices
   </div>  
 </div>
 
-#### 2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Clone-61](images/fr0103-FRApps-Clone-61.png "FRApps-Clone-61") 
 

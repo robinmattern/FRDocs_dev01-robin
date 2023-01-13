@@ -119,7 +119,7 @@ PORT=50166
 ----
 
 1. Right click on the client/6c-my-custom-app folder
-2. Click Open in Integrated Terminal, then 
+2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Custom-01](images/fr0103-FRApps-Custom-01.png "FRApps-Custom-01") 
 
@@ -146,7 +146,7 @@ npm start
 <br/>
 
 1. Right click on the client/ folder
-2. Click Open in Integrated Terminal, then 
+2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Custom-02](images/fr0103-FRApps-Custom-02.png "FRApps-Custom-02")
 

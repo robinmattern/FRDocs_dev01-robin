@@ -74,7 +74,7 @@ C repos FRApps
 
 
 2. Right click on the client/5c-my-react-app folder, then
-click Open in Integrated Terminal, then 
+click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Clone-67](../Setup/images/fr0103-FRApps-Clone-67.png "FRApps-Clone-67") 
 
@@ -96,7 +96,7 @@ npm start
 ### 2. Build 5c-my-react-app  0:05
 ----
 #### 1. Right click on the client/5c-my-react-app folder
-2. Click Open in Integrated Terminal, then 
+2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Clone-67](../Setup/images/fr0103-FRApps-Clone-67.png "FRApps-Clone-67") 
 
@@ -113,7 +113,7 @@ npm run build
 ### 3. Run Production version of 5c-my-react-app locally 0:05
 ----
 #### 1. Right click on the client/5c-my-react-app folder
-2. Click Open in Integrated Terminal, then 
+2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Clone-67](../Setup/images/fr0103-FRApps-Clone-67.png "FRApps-Clone-67") 
 
@@ -130,7 +130,7 @@ npm run prod
 ### 4. Deploy Production Build to Remote Server 5c-my-react-app  0:05
 ----
 #### 1. Right click on the client/5c-my-react-app folder
-2. Click Open in Integrated Terminal, then 
+2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![FRApps-Clone-67](../Setup/images/fr0103-FRApps-Clone-67.png "FRApps-Clone-67") 
 

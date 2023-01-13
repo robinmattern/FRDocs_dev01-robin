@@ -48,7 +48,9 @@ Hover over the snippet and click copy, then paste as appropriate.
 ----
 ### 1. Test the Node version 0:05
 ----
-#### 1. In File Explorer navigate to C repos myProject, then double click on myProject.code-workspace, then
+#### 1. Open VSCode
+
+- In File Explorer navigate to C repos myProject, then double click on myProject.code-workspace.
 
 ![Node-test-terminal](images/fr0102-01_Node-test-terminal0.png "Node-test-terminal")
 
@@ -58,10 +60,12 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 ![Node-test-terminal-1](images/fr0102-01_Node-test-terminal-1.png "Node-test-terminal-1")
 
-#### 2. From terminal enter:
+#### 2. Check Node version
+
+- From terminal enter:
 
 ```
-     node --version 
+node --version 
 ```
 
 ![Node-test](images/fr0102-02_Node-test.png "Node-test")
@@ -73,24 +77,35 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 ![Node-new-folder](images/fr0102-03_Node-new-folder.png "Node-new-folder")
 
-- Enter - client
+- Enter 
 
+```
+client
+```
 
 ![Node-new-folder](images/fr0102-03_Node-new-folder1.png "Node-new-folder")
 
 #### 2. Repeat step 1. for the following:
 
-- Create folders for:
-  - docs
-  - scripts
-  - server
-
+- Right click on myProject folder and create folders for:
+```
+  docs
+```
+```
+  scripts
+```
+```
+  server
+```
 
 #### 3. Right-click on the server folder and create a new folder:
 
 ![Node-create-folders](images/fr0102-04_Node-create-server-folder.png "Node-create-folders")
 
-- Enter -  app01s
+- Enter 
+```
+app01s
+```
 
 ![Node-create-folders](images/fr0102-04_Node-create-server-folder1.png "Node-create-folders")
 
@@ -99,7 +114,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 ![Node-create-folders](images/fr0102-04_Node-create-folders.png "Node-create-folders")
 
 ----
-### 3. Create a new file, batch.js, in the scripts folder and run it with Nodejs. 0:10
+### 3. Create a new file, batch.js and run it with Nodejs. 0:10
 ----
 #### 1. Right-click on the scripts folder, then click New File
 
@@ -113,11 +128,11 @@ batch.js
 
 ![Node-create-empty-file1](images/fr0102-05_Node-create-empty-file1.png "Node-create-empty-file1")
 
-#### 3. Click on batch.js to open it in the editor
+#### 3. Click on batch.js in the editor
 
 ![Node-create-empty-file](images/fr0102-05_Node-create-empty-file.png "Node-create-empty-file")
 
-#### 4. Add some code to batch.js:
+#### 4. Add the following code to batch.js:
 <br/>
 
 ```js
@@ -126,7 +141,7 @@ console.log("Hello, World!");
 
 ![Node-add-to-batch](images/fr0102-06_Node-add-to-batch.png "Node-add-to-batch")
 
-#### 5. Right click on batch.js in the scripts folder and select Open in Integrated Terminal and click in the Terminal window 
+#### 5. Right click on batch.js in the scripts folder and select Open in Integrated Terminal and click in the Terminal window and click in the Terminal window 
 
 ![Node-add-to-batch](images/fr0102-06_Node-add-to-batch-1.png "Node-add-to-batch")
 
@@ -143,22 +158,23 @@ node batch.js
 ----
 ### 4. Create a new file, server.js in the server folder and run it with Nodejs. 0:10
 ----
-#### 1. Right click on the server folder and Select Open in Intgrated Terminal and enter:
+#### 1. Right click on the server folder and Select Open in Integrated Terminal and click in the Terminal window and enter:
 
 ![Node-install-express](images/fr0102-09_Node-install-express.png "Node-install-express")
 
-a. Initialize - Enter: npm init
+1. Enter: 
 
 ```
 npm init
 ```
 
-- Press enter to accept all defaults
+- Press enter 9 times to accept all defaults
 
+- Enter "yes" when prompted "Is this OK?
 
 ![Node-npm-init](images/fr0102-09_Node-npm-init.png "Node-npm-init")
 
-b. Install express
+2. Install express
 
 ```
 npm install express
@@ -176,6 +192,14 @@ npm install express
 
 ![Node-gitignore](images/fr0102-08_Node-gitignore.png "Node-gitignore")
 
+- Enter:
+
+```
+.gitignore
+```
+
+Open the .gitignore file
+
 ![Node-gitignore](images/fr0102-08_Node-gitignore1.png "Node-gitignore")
 
 - Enter:
@@ -189,6 +213,12 @@ node_modules
 #### 3. Create a new file, server.js in the server/app01s folder
 
 ![Node-create-server-js](images/fr0102-11_Node-create-server-js0.png "Node-create-server-js")
+
+- Enter:
+
+```
+server.js
+```
 
 ![Node-create-server-js](images/fr0102-11_Node-create-server-js1.png "Node-create-server-js")
 
@@ -218,14 +248,20 @@ app.listen( PORT, () => {
 
 ![Node-create-server-js](images/fr0102-11_Node-create-server-js.png "Node-create-server-js")
 
-#### 4. Right click on the app01s folder and Select Open in Integrated Terminal and click in the Terminal window
+#### 4. Right click on the app01s folder and Select Open in Integrated Terminal and click in the Terminal window and click in the Terminal window
 
-#### 5. Enter:
-<br/>
+![Node-create-server-js](images/fr0102-11_Node-create-server-js1.png "Node-create-server-js")
+
+#### 5. Run server.js from the new terminal session
+
+- Enter:
 
 ```
 node server.js
 ```
+
+![Node-create-server-js](images/fr0102-11_Node-create-server-js2.png "Node-create-server-js")
+
 
 #### 6. Allow Access in Microsoft Firewall and click Private networks
 
@@ -253,7 +289,6 @@ http://localhost:8080/myProject/server/app01s
 ![Node-github-open-source](images/fr0102-14_Node-github-open-source.png "Node-github-open-source")
 
 2. Add Message:
-<br/>
 
 ```
 Add Node App - batch.js
@@ -263,15 +298,17 @@ Add Node App - batch.js
 
 ![Node-github-message-1](images/fr0102-14_Node-github-message-1.png "Node-github-message-1")
 
-3. Click on Commit checkmark -
+3. Commit
 
-![Node-github-checkmark](images/fr0102-15_Node-github-checkmark.png "Node-github-checkmark")
+- Click on Commit button 
 
-4. Push
+![Node-github-checkmark](images/fr0102-15_Node-github-commit.png "Node-github-checkmark")
 
-- Click on 3 dots then click Push 
+4. Sync
 
-![Node-github-push](images/fr0102-15_Node-github-push.png "Node-github-push")
+- Click on the Sync Changes button 
+
+![Node-github-push](images/fr0102-15_Node-github-sync.png "Node-github-push")
 
 5. The following message may show the first time. 
 
@@ -280,12 +317,10 @@ Add Node App - batch.js
 
 ![Node-ok-dont-show](images/fr0102-15_Node-ok-dont-show.png "Node-ok-dont-show")
 
-*** End of Push to Github
-
 ----
 ### 5. Create a basic react app in the client folder and run it with Nodejs. 0:10
 ----
-#### 1. Right click in the - client - folder and select Open in Integrated Terminal and click in the Terminal window
+#### 1. Right click in the - client - folder and select Open in Integrated Terminal and click in the Terminal window and click in the Terminal window
 
 ![Node-client](images/fr0102-16_Node-client.png "Node-client")
 
@@ -295,9 +330,14 @@ Add Node App - batch.js
 npm init
 ```
 
+- Press enter 9 times to accept all defaults
+
+- Enter "yes" when prompted "Is this OK?
+
+
 ![Node-npm-init](images/fr0102-16_Node-npm-init.png "Node-npm-init")
 
-#### 3. Create the react app:
+#### 3. Create a React app:
 
 ```
 npx create-react-app app01c
@@ -308,7 +348,7 @@ npx create-react-app app01c
 
 ![Node-create-react-app-finish](images/fr0102-17_Node-create-react-app-finish.png "Node-create-react-app-finish")
 
-#### 4. Right click in the - client/app01c - folder and select Open in Integrated Terminal and click in the Terminal window
+#### 4. Right click in the - client/app01c - folder and select Open in Integrated Terminal and click in the Terminal window and click in the Terminal window
 
 ![Node-app01c](images/fr0102-18_Node-app01c.png "Node-app01c")
 
@@ -318,36 +358,63 @@ npx create-react-app app01c
 npm start
 ``` 
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: it takes several minutes for the React app to start up.
+  </div>  
+</div>
+
+
 ![Node-start-app](images/fr0102-18_Node-start.png "Node-start-app")
 
 ![Node-start-app](images/fr0102-18_Node-start-1.png "Node-start-app")
 
 ![Node-start-app](images/fr0102-18_Node-start-2.png "Node-start-app")
 
-![Node-start-app](images/fr0102-18_Node-start-3.png "Node-start-app")
-
-#### 6. Adjust package.json for React-Scripts (prevent npm audit from returning development vulnerabilities list for react-scripts)
-
-- In VScode edit myProject/client/package.json, Cut the following react-scripts line from the dependencies section of package.json
+- Browse to:
 
 ```
-    "react-scripts": "^5.0.0",
+localhost:3000
+```
+
+![Node-start-app](images/fr0102-18_Node-start-3.png "Node-start-app")
+
+![Node-start-app](images/fr0102-18_Node-start-3a.png "Node-start-app")
+
+#### 6. Adjust package.json for React-Scripts 
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: This prevents npm audit from returning development vulnerabilities list for react-scripts
+  </div>  
+</div>
+
+- In VScode edit myProject/client/app01c package.json, 
+
+![edit-package-json](images/fr0102-18_Edit-Package.png "Edit-package-json")
+
+- Cut the following react-scripts line from the dependencies section of package.json
+
+```
+REMOVE This line: "react-scripts": "^5.0.1",
 ```
 
 - Insert the following devdependencies section:
 
 ```js
   "devdependencies": {
-    "react-scripts": "^5.0.0"
+    "react-scripts": "^5.0.1"
   },
 
 ```
 
 ![Node-package-json](images/fr0102-18_Node-Package.png "Node-package-json")
 
-- Test by running npm audit. From client folder, right click and click Open in integated Terminal
+- Test by running npm audit. 
 
-![Node-terminal](images/fr0102-18_Node-Terminal.png "Node-terminal")
+- From client/app01c folder, right click and click Open in Integrated Terminal and click in the Terminal window
+
+![Node-app01c](images/fr0102-18_Node-app01c.png "Node-app01c")
 
 - Test for vulnerabilities in production
 
@@ -464,7 +531,7 @@ async function runQuery() {
 
 ![Node-create-table](images/fr0102-21_Node-create-table.png "Node-create-table")
 
-#### 15. Right click in the - server/app01s - folder and select Open in Integrated Terminal and click in the Terminal window
+#### 15. Right click in the - server/app01s - folder and select Open in Integrated Terminal and click in the Terminal window and click in the Terminal window
 
 ![Open-Terminal-app01s](images/fr0102-19_Open-Terminal-app01s.png "Open-Terminal-app01s")
 

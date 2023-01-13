@@ -87,7 +87,7 @@ code formR_prod-master.code-workspace
 ----
 #### 1. Right click on the client folder
 
-#### 2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
 ![formR-Clone-04](images/fr0103-formR-Clone-04.png "formR-Clone-04")
 
@@ -112,7 +112,7 @@ npm audit --production
 
 #### 4. Right click on the server folder
 
-#### 5. Click Open in Integrated Terminal, then 
+#### 5. Click Open in Integrated Terminal and click in the Terminal window and click in the Terminal window and click in the Terminal window and click in the Terminal window, then 
 
 ![formR-Clone-07](images/fr0103-formR-Clone-07.png "formR-Clone-07")
 
@@ -254,7 +254,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'FormR!1234
 ----
 
 #### 1. Right click on the server/1s-world folder and
-#### 2. Click Open in Integrated Terminal, then 
+#### 2. Click Open in Integrated Terminal and click in the Terminal window and click in the Terminal window, then 
 
 ![formR-Clone-21](images/fr0103-formR-Clone-21.png "formR-Clone-21") 
 
@@ -267,7 +267,7 @@ npm start
 ![formR-Clone22a](images/fr0103-formR-Clone-22a.png "formR-Clone-22a")
 
 #### 3. Right click on the client/1c-world folder and
-#### 4. Click Open in Integrated Terminal, then 
+#### 4. Click Open in Integrated Terminal and click in the Terminal window, then 
 
 <div class="notice-tip">
   <div class="notice-tip-header">
