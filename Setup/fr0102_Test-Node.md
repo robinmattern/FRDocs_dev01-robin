@@ -424,19 +424,34 @@ npm audit --production
 ![Node-audit](images/fr0102-18_Node-Audit.png "Node-audit")
 
 
-#### ---Push your changes to GitHub
+----
+----
+#### * Push your changes to Github *
 
 1. Click the Source Control charm
+
 2. Add description of your choice
+
 3. Click the Commit button
+
 4. Click the Sync Changes button to push to github
+----
 
 ----
 ### 6. Create a Nodejs routine to access the local MySQL database and return information. 0:10
 ----
-#### 1. Install Sequelize. It will be used to connect to and access information in MySQL. 
+#### 1. Install Sequelize. 
 
-#### 2. Right click in the - server - folder and select Open in Integrated Terminal and click in the Terminal window
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Sequelize will be used to connect to and access information in MySQL. 
+  </div>  
+</div>
+
+
+#### 2. Open a New Terminal
+
+- Right click in the - server - folder and select Open in Integrated Terminal and click in the Terminal window
 
 ![Open-Terminal-Server](images/fr0102-19_Open-Terminal-Server.png "Open-Terminal-Server")
 
@@ -465,7 +480,7 @@ npm install --save mysql2
 
 ![Node-click-local-instance](images/fr0102-20_Node-click-local-instance.png "Node-click-local-instance")
 
-#### 7. In the query 1 window enter:
+#### 7. In the query 1 window paste in:
 
 ```js
 CREATE DATABASE practice
@@ -478,32 +493,32 @@ CREATE DATABASE practice
 
 ![Node-schemas-refresh](images/fr0102-20_Node-schemas-refresh.png "Node-schemas-refresh")
 
-#### 10. From VSCode Explorer navigate to the folder server/app01s and create a new file, queryDB.js, then enter the following code:
+#### 10. From VSCode Explorer navigate to the folder server/app01s and create a new file, queryDB.js, then paste in the following code:
 
 ```js
 const Sequelize = require("sequelize");
-const sequelize = new Sequelize("practice", "root", "FormR!1234
-", {
+const sequelize = new Sequelize("practice", "root", "FormR!1234", 
+{
   host: "localhost", 
   dialect: "mysql", 
 });
  
-// 1. CREATE TABLE 
+// Step 1. CREATE TABLE 
 //const SQLstr = "CREATE TABLE customers (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), address VARCHAR(255))"
 
-// 2. SHOW TABLES 
+// Step 2. SHOW TABLES 
 //const SQLstr = "SHOW TABLES"
 
-// #### 3. INSERT 1 ROW
+// Step 3. INSERT 1 ROW
 //const SQLstr = "INSERT INTO customers (name, address) VALUES ('Company Inc', 'Highway 37')"
 
-// #### 4. UPDATE 1 ROW 
+// Step 4. UPDATE 1 ROW 
 //const SQLstr = "UPDATE customers SET address = 'Highway 40' where id = 1"
 
-// #### 5. Create a Stored Procedure
+// Step 5. Create a Stored Procedure
 //const SQLstr = "CREATE PROCEDURE sp_getcustomers() Select id, name,address from customers ;"
 
-// #### 6. Execute a Stored Procedure
+// Step 6. Execute a Stored Procedure
 //const SQLstr = "Call sp_getcustomers"
 
 //------------------------------------------------------------
@@ -519,21 +534,43 @@ async function runQuery() {
 }
 ```
 
-#### 11. In each step 1 - 6 there is a 'const SQLStr..' line. The symbol // is a comment. For each step, one at a time, remove the comment on  the 'const SQLStr..' line, then go to the terminal and run: node queryDB.js. 
+#### 11. Review the Steps
 
-#### 12. After the execution of a step, Comment out the 'const SQLStr..' line for this step and uncomment the line in the next step
+- In queryDB.js each step 1 - 6 there is a 'const SQLStr..' line. 
 
-#### 13. Repeat for all steps. 
+- The symbol // is a comment. 
 
-- Be aware, if you execute the same step twice in a row you will get an error. For example, step 1. creates a table. If you run it a second time  You will get an error that tells you that the table already exists.
+- For each step, one at a time, remove the comment on  the 'const SQLStr..' line, then go to the terminal.
 
-#### 14. Uncomment Step 1 Create Table
 
-![Node-create-table](images/fr0102-21_Node-create-table.png "Node-create-table")
+#### 12. After the execution of a step
 
-#### 15. Right click in the - server/app01s - folder and select Open in Integrated Terminal and click in the Terminal window and click in the Terminal window
+- Comment out the 'const SQLStr..' line for this step (//) and 
+
+- uncomment the line in the next step (delete //)
+
+#### 13. Repeat each time for all 6 steps. 
+
+ <div class="notice-warning">
+  <div class="notice-warning-header">
+    Warning: Execute each step only once.
+  </div>
+
+- Be aware, if you execute the same step twice in a row you will get an error. 
+
+- For example, Step 1. creates a table. If you run it a second time  You will get an error that tells you that the table already exists.
+
+</div>
+
+#### 14. Open a New Terminal
+
+- Right click in the - server/app01s - folder and select Open in Integrated Terminal and click in the Terminal window and click in the Terminal window
 
 ![Open-Terminal-app01s](images/fr0102-19_Open-Terminal-app01s.png "Open-Terminal-app01s")
+
+#### 15. Uncomment Step 1 Create Table
+
+![Node-create-table](images/fr0102-21_Node-create-table.png "Node-create-table")
 
 #### 16. Enter:
 
@@ -545,56 +582,144 @@ node queryDB
 
 #### 17. Check in Workbench that the customers table was created
 
+- Under Schemas click the refresh icon
+
+- open practice, then tables and you will see customers
+
+- You have executed code to create a data table in MySQL
+
 ![Node-create-table-workbench](images/fr0102-24_Node-create-table-workbench.png "Node-create-table-workbench")
 
-#### 18. Comment out "Create Table" and uncomment "Show Tables" then run node queryDB
+#### 18. Comment out "Create Table" and uncomment "Show Tables" then run 
+
+```
+node queryDB
+```
 
 ![Node-show-tables](images/fr0102-25_Node-show-tables.png "Node-show-tables")
 
-#### 19. Comment out "Show Tables" and uncomment "Insert 1 Row" then run node queryDB
+#### 19. Comment out "Show Tables" and uncomment "Insert 1 Row" then run 
+
+```
+node queryDB
+```
+
+- You have executed code to insert information into the customers table
 
 ![Node-Insert-1-row](images/fr0102-26_Node-Insert-1-row.png "Node-Insert-1-row")
 
 #### 20. Check Workbench - Insert
 
+- Click on the Query1 tab
+
+- Delete anything there
+
+- Paste in:
+
+```
+SELECT * FROM practice.customers;
+```
+
+- Click the Execute icon
+
 ![Node-Insert-1-row-workbench](images/fr0102-26_Node-Insert-1-row-workbench.png "Node-Insert-1-row-workbench")
 
-#### 21. Comment out "Insert 1 Row" and uncomment "Update 1 Row" then run node queryDB
+#### 21. Comment out "Insert 1 Row" and uncomment "Update 1 Row" then run 
+
+```
+node queryDB
+```
+
+- You have executed code to update information in the customers table
 
 ![Node-update-1-row](images/fr0102-27_Node-update-1-row.png "Node-update-1-row")
 
 #### 22. Check Workbench - Update
 
+- Click on the Execute icon for Query 1
+
+- The address has changed from Highway 37 to 40
+
 ![Node-update-1-row-workbench](images/fr0102-27_Node-update-1-row-workbench.png "Node-update-1-row-workbench")
 
 #### 23. Comment out "Update 1 Row" and uncomment "Create Stored Procedure" then run node queryDB
+
+```
+node queryDB
+```
+
+- A Store Procedure is code that is executed on the MySQL server
 
 ![Node-create-stored-procedure](images/fr0102-28_Node-create-stored-procedure.png "Node-create-stored-procedure")
 
 #### 24. Check Workbench - Create Stored Procedure
 
+- Under Schemas click the refresh icon
+
+- open StoreProcedures and you will see sp_getcustomers
+
 ![Node-create-stored-procedure-workbench](images/fr0102-28_Node-create-stored-procedure-workbench.png "Node-create-stored-procedure-workbench")
 
-#### 25. Comment out "Create Stored Procedure" and uncomment "Execute Stored Procedure" then run node queryDB
+#### 25. Comment out "Create Stored Procedure" and uncomment "Execute Stored Procedure" then run 
+
+```
+node queryDB
+```
 
 ![Node-execute-stored-procedure](images/fr0102-29_Node-execute-stored-procedure.png "Node-execute-stored-procedure")
 
 #### 26. Check Workbench - Create Stored Procedure
 
+- Click on the Query1 tab
+
+- Delete anything there
+
+- Paste in:
+
+```
+CALL practice.sp_getcustomers();
+```
+
+- Click the Execute icon
+
 ![Node-execute-stored-procedure-workbench](images/fr0102-29_Node-execute-stored-procedure-workbench.png "Node-execute-stored-procedure-workbench")
 
-#### 27. Comment out "Execute Stored Procedure" and go to workbench and Drop Database practice to reset so these routines can be run again.
+#### 27. Reset MySQL to run these actions again
+
+- Comment out "Execute Stored Procedure" step in queryDB.js
+
+- Go to workbench
+
+- Click on the Query1 tab
+
+- Delete anything there
+
+- Paste in:
+
+```
+Drop DATABASE practice;
+```
+
+- Click the Execute icon
 
 ![Node-clean-up](images/fr0102-30_Node-clean-up.png "Node-clean-up")
 
 ![Node-clean-up-workbench](images/fr0102-30_Node-clean-up-workbench.png "Node-clean-up-workbench")
 
-#### ---Push your changes to Github
+
+----
+----
+#### * Push your changes to Github *
 
 1. Click the Source Control charm
+
 2. Add description of your choice
+
 3. Click the Commit button
+
 4. Click the Sync Changes button to push to github
+----
+
 
 ----
 <div class="notice-success">
