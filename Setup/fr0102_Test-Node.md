@@ -424,12 +424,18 @@ npm audit --production
 ![Node-audit](images/fr0102-18_Node-Audit.png "Node-audit")
 
 
-#### ---Push your changes to GitHub
+----
+----
+#### * Push your changes to Github *
 
 1. Click the Source Control charm
+
 2. Add description of your choice
+
 3. Click the Commit button
+
 4. Click the Sync Changes button to push to github
+----
 
 ----
 ### 6. Create a Nodejs routine to access the local MySQL database and return information. 0:10
@@ -700,12 +706,20 @@ Drop DATABASE practice;
 
 ![Node-clean-up-workbench](images/fr0102-30_Node-clean-up-workbench.png "Node-clean-up-workbench")
 
-#### ---Push your changes to Github
+
+----
+----
+#### * Push your changes to Github *
 
 1. Click the Source Control charm
+
 2. Add description of your choice
+
 3. Click the Commit button
+
 4. Click the Sync Changes button to push to github
+----
+
 
 ----
 <div class="notice-success">
