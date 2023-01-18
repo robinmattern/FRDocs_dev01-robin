@@ -1940,78 +1940,115 @@ ___
 #### d. Responsive CSS Code
 <br>
 
-#### e. @media (max-width)
+#### e. @media query
 
-- Here is where the real magic happens.  With the use of <font color=cornflowerblue>@media</font> query we can test the width of the viewpoint of the screen your web page appears.  In our case we will make changes when the screen is at 760 pixels wide (typical tablet) AND 420 pixels wide (typical smart phone). 
+- Here is where the real magic happens.  With the use of <font color=cornflowerblue>@media</font> queries we can test the width of the viewpoint of the screen your web page appears.  In our case we will make 3 changes according to these queries where the screen widths are:
+<ol>
+    <li>between 740 pixels and 1000 pixels (typical tablet in portrait mode)</li>
+    <li>between 441 pixesl AND 740 pixels (typical mobile device in landscape mode)</li>
+    <li>less than 440 pixels (typical mobile device in portrait mode)</li>
+</ol>
 
 - Again, we will use a Block of code containing the query.
 
 - We will be INSERTING these new queries in one copy/paste block of code:
+    + <font color='cornflowerblue'>@media</font> <font color=#A81966>queries</font>
 
-    + <font color='cornflowerblue'>@media</font> <font color=#A81966>(max-width)</font>
-
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>/* Responsive Code */</font> code below... </span>
+<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' sle=font-weight:normal;>/* Responsive Code */</font> code below... </span>
 
 ```css
 /*===========================================*/
 /* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* Responsive Code */  
-/* R-1 INSERT Point - @media (max-width)*/ 
+/* R-1 INSERT Point - @media (responsive)*/
 /*-----------------------------------------
-The @media MAX-width (760px) query properties
+The @media query properties
+Tablet Portrait
 =========================================*/
-@media (max-width: 760px) {
-
-    .HeaderLogo {
-        font-size: 1.2rem;
-        margin-left: 2px;
-        background-size: 180px 51px;
-    }
-  
-    .HeaderNavBars {
-      display: flex;
-    }
-  
-    .HeaderNavList {
-        display: none;
-    }
-  
+@media only screen
+and (min-width: 741px)
+and (max-width: 1000px) 
+{
   .Section1ImageText {
-        font-size: 2.5rem;
-        padding: 80px 200px 20px 0px;
+    font-size: 3rem;
+    padding: 20px 200px 0px 0px;
   }
-  
-    .Section2 h2 {
-      font-size: 1.7rem;
-    }
-  
-    .Section2Paragraph {
-      font-size: 75%;
-    }
+  .Section2Paragraph {
+    font-size: 1rem;
+    padding: 0px 0px 0px 0px;
+    margin: -30px 0px 0px 0px;
   }
-
+}  
+/*-----------------------------------------
+The @media MAX-width query properties
+iPhone Landscape
+=========================================*/
+@media only screen
+and (min-width: 441px)
+and (max-width: 740px) 
+{
+  .HeaderLogo {
+      font-size: 1.2rem;
+      margin-left: 10px;
+      background-size: 180px 51px;
+  }
+  .HeaderNavBars {
+    display: flex;
+  }
+  .HeaderNavList {
+      display: none;
+  }
+  .Section1ImageText {
+    font-size: 2.5rem;
+    text-align: center;
+    vertical-align: center;
+    padding: 0px 150px 20px 0px;
+  }
+  .Section2 h2 {
+    font-size: 1.7rem;
+  }
+  .Section2Paragraph {
+    font-size: 75%;
+    margin-top: -45px;
+  }
+  .Footer {
+    display: none;
+  }
+}
 /*-----------------------------------------
 The @media MAX-width (420px) query properties
+iPhone Portrait
 =========================================*/
-@media (max-width: 420px) {
-
-    .HeaderLogo {
-        font-size: .8rem;
-        margin-left: 0px;
-        margin-top: 0px;
-        background-size: 144px 41px;
+@media only screen
+and (max-width: 440px)  
+{
+  .HeaderLogo {
+      font-size: .8rem;
+      margin-left: 15px;
+      margin-top: 15px;
+      background-size: 144px 41px;
+  }
+  .HeaderNavBars {
+    display: flex;
+  }
+  .HeaderNavList {
+      display: none;
+  }
+  .Section1ImageText {
+      font-size: 2rem;
+      padding: 40px 80px 20px 0px;
+      text-align: center;
+      vertical-align: center;
+    } 
+  .Section2Paragraph {
+      font-size: 60%;
     }
-
-    .Section1ImageText {
-        font-size: 1.2rem;
-        padding: 80px 100px 20px 10px;
-      }
-    
-    .Section2Paragraph {
-        font-size: 60%;
-      }
+  h2 {
+      padding: 0;
+  } 
 }
-  /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
 ```
 <div class="callout-code-warning">
 <br><br>
@@ -2044,6 +2081,10 @@ Now, check it out on iPhone 7 Plus. Remember, this is our LAYOUT.  Later, we wil
 Compare the 2 (before and after RESPONSIVE queries)
 
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicResponsiveIPhoneImage3.jpg">
+<br><br>
+<div class="callout-note">
+There will be a more detailed discussion about responsiveness in the Custom App portion of this tutorial. Search for "More Info: On Responsiveness"
+</div>
 
 ### Final LAYOUT
 <br>
@@ -2371,7 +2412,7 @@ ____
 - CHANGE in HeaderLogo:
 <ol>
     <li><font color=#A81966>margin-left</font> from 0px to 15px</li>
-    <li><font color=#A81966>margin-top</font> from 0px to 15px<</li>
+    <li><font color=#A81966>margin-top</font> from 0px to 15px</li>
 
 </ol>
 
@@ -2403,9 +2444,9 @@ So we have 4 areas in our index.<b>css</b> file to handle this important task.
 <li>Finally, the last bit of code to handle widths less than 440px (Mobile in Portrait mode)<br>
 <img class="no-border" src="FRApps/assets/images/md-images/ResponsiveMobilePortrait.jpg" width="50%" style= text-align:'center';>
 </li>
-</ol>
+</ol><br>
 Each of these coding blocks can be as simple or as complex to accomplish a great looking web page on any device.  Research and learn responsive css--it makes the difference between good and exceptional web design.
-<br><br><br>
+<br><br><br><br><br>
 </details>
 
 The easiest way to accomplish this is to copy/paste the entire Responsive BLOCK.<br> <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>/* Responsive Code */</font> code below... </span>
@@ -2472,7 +2513,7 @@ and (max-width: 740px)
 }
 
 /*-----------------------------------------
-The @media MAX-width (420px) query properties
+The @media query properties
 iPhone Portrait
 =========================================*/
 @media only screen
