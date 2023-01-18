@@ -887,7 +887,7 @@ In the <font color='green'>Header</font> class section, we will replace the code
     <!-- REPLACE Point - Header -->
         <div class="Header">
             <!-- INSERT Point - responsive -->
-            <div class="HeaderLogo"><a href="/">PH Logo</a></div>
+            <div class="HeaderLogo"><a href="#">PH Logo</a></div>
             <div class="HeaderSpacer"></div> 
             <ul class="HeaderNavList">
                 <li class="HeaderNavListItem"><a href=#>PH_Link1</a></li>
@@ -1807,7 +1807,7 @@ First we need to add the NavBars (hamburger) in both index.html and index.css.
                         type="image/svg+xml" title="Toggle sidebar">
                 </object>
             </div>
-            <div class="HeaderLogo"><a href="/">PH Logo</a></div>
+            <div class="HeaderLogo"><a href="#">PH Logo</a></div>
             <div class="HeaderSpacer"></div> 
             <ul class="HeaderNavList">
                 <li class="HeaderNavListItem"><a href=#>PH_Link1</a></li>
@@ -2231,7 +2231,7 @@ Now lets add an image in place of the "PH Logo" in the Header. In the "<span cla
                         type="image/svg+xml" title="Toggle sidebar">
                 </object>
             </div>
-            <div class="HeaderLogo"><a href=""></a></div>
+            <div class="HeaderLogo"><a href="#"></a></div>
             <div class="HeaderSpacer"></div> 
             <ul class="HeaderNavList">
                 <li class="HeaderNavListItem"><a href=#>PH_Link1</a></li>

@@ -34,7 +34,7 @@ HTML
                         type="image/svg+xml" title="Toggle sidebar">
                 </object>
             </div>
-            <div class="HeaderLogo"><a href="/">PH Logo</a></div>
+            <div class="HeaderLogo"><a href="#">PH Logo</a></div>
             <div class="HeaderSpacer"></div> 
             <ul class="HeaderNavList">
                 <li class="HeaderNavListItem"><a href=#>PH_Link1</a></li>
