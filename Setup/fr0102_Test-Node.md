@@ -6,7 +6,7 @@
 [BACK - Build Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[Clone FRApps - NEXT](/Setup/fr0103_Clone-FR-Apps.md)
+[Create Ubuntu Server - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
 </div><div style="margin-top:35px">&nbsp;</div>
 
 <!-- ------------------------------------------------------------------------- -->
@@ -737,7 +737,7 @@ Drop DATABASE practice;
 [BACK - Build Workstation](/Setup/fr0101_Setup-Developer-Workstation.md)
 </div><div class="page-next">
 
-[Clone FRApps - NEXT](/Setup/fr0103_Clone-FR-Apps.md)
+[Create Ubuntu Server - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
 </div>
 
 <!-- ------------------------------------------------------------------------- -->

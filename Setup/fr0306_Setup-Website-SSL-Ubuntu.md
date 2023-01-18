@@ -6,7 +6,7 @@
 [BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[My HTML Custom App - NEXT](/formR/fr020100_My-HTML-Custom.md)
+[Clone FR Apps - NEXT](/FRApps/fr020000_Clone-FR-Apps.md)
 </div>
 <div style="margin-top:35px">&nbsp;</div>
 <!-- ------------------------------------------------------------------------- -->
@@ -692,6 +692,6 @@ ufw delete 4
 [BACK - Install Data Server](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 </div><div class="page-next">
 
-[My HTML Custom App - NEXT](/formR/fr020100_My-HTML-Custom.md)
+[Clone FR Apps - NEXT](/FRApps/fr020000_Clone-FR-Apps.md)
 </div>
 <!-- ------------------------------------------------------------------------- -->
