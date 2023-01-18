@@ -58,7 +58,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 cd C:/repos
 ```
  
-![FRApps-Clone-01](images/fr0103-FRApps-Clone-01.png "FRApps-Clone-01")
+![FRApps-Clone-01](assets/images/clone/fr0103-FRApps-Clone-01.png "FRApps-Clone-01")
 
 ```
 git clone https://github.com/8020data/FRApps_prod-master.git FRApps
@@ -70,7 +70,7 @@ cd FRApps
 dir
 ```
 
-![FRApps-Clone-02](images/fr0103-FRApps-Clone-02.png "FRApps-Clone-02")
+![FRApps-Clone-02](assets/images/clone/fr0103-FRApps-Clone-02.png "FRApps-Clone-02")
 
 #### 2. Enter the following in the terminal. (It will open VSCode)
 
@@ -80,9 +80,9 @@ code FRApps_student.code-workspace
 
 - If prompted, click "Yes I trust the authors".
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-00.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-00.png "FRApps-Clone-03")
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03.png "FRApps-Clone-03")
  
 #### 3. Create FRApps in your github. 
 
@@ -96,24 +96,24 @@ code FRApps_student.code-workspace
 https://github.com/your-github-name?tab=repositories
 ```
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-01a.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-01a.png "FRApps-Clone-03")
 
 then click the New green button (if you are not signed in the New button will not appear)
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-01.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-01.png "FRApps-Clone-03")
 
 
 - Enter FRApps as a new repository and click the Create Repository green button
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-02.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-02.png "FRApps-Clone-03")
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-021.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-021.png "FRApps-Clone-03")
 
 #### 4. Using VSCode connect your local FRApps to your personal github FRApps
 
 - Click on FRApps and then click Terminal (or the three dots if Terminal is not visible), then click New Terminal, then 
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-03.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-03.png "FRApps-Clone-03")
 
 - Show your current remotes: 8020data
 
@@ -121,7 +121,7 @@ then click the New green button (if you are not signed in the New button will no
 git remote -v
 ```
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-04.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-04.png "FRApps-Clone-03")
 
 - Remove this remote from "origin"
 
@@ -131,7 +131,7 @@ git remote remove origin
 
 *NEED PICTURE UPDATE*
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-04a.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-04a.png "FRApps-Clone-03")
 
 - Change your remote to your personal github. 
 
@@ -139,20 +139,20 @@ git remote remove origin
  (Your github host is found in the config file in the .ssh folder)
 
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-05.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-05.png "FRApps-Clone-03")
 
 
 - then, change your-github-name below to your github name. e.g brucetroutman-gmail
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-06.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-06.png "FRApps-Clone-03")
 
 ```
 git remote add origin your-github-hostname:your-github-name/FRApps
 ```
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-07a.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-07a.png "FRApps-Clone-03")
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-07.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-07.png "FRApps-Clone-03")
 
 - Confirm that your remotes have changed
 
@@ -162,7 +162,7 @@ git remote -v
 
 *NEED PICTURE UPDATE*
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-08.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-08.png "FRApps-Clone-03")
 
 
 #### 6. Pull from your personal github FRApps repo to your local FRApps repo
@@ -171,7 +171,7 @@ git remote -v
 git pull origin
 ```
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-09.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-09.png "FRApps-Clone-03")
 
 #### 7.  Push from your local FRApps repo to personal github FRApps repo
 
@@ -179,24 +179,24 @@ git pull origin
 git push origin
 ```
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-10.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-10.png "FRApps-Clone-03")
 
 
 #### 8. Confirm the transfer to your github FRApps repo
 
 - Refresh your browser.
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-11.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-11.png "FRApps-Clone-03")
 
 #### 9. Update author in package.json
 
 - Open package.json from the client folder and change the author from 8020data to your name
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-12.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-12.png "FRApps-Clone-03")
 
 - Open package.json from the server folder and change the author from 8020data to your name
 
-![FRApps-Clone-03](images/fr0103-FRApps-Clone-03-13.png "FRApps-Clone-03")
+![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-13.png "FRApps-Clone-03")
 
 
 ----
@@ -206,13 +206,13 @@ git push origin
 
 #### 2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
-![FRApps-Clone-04](images/fr0103-FRApps-Clone-04.png "FRApps-Clone-04")
+![FRApps-Clone-04](assets/images/clone/fr0103-FRApps-Clone-04.png "FRApps-Clone-04")
 
 ```
 npm install
 ```
 
-![FRApps-Clone-05](images/fr0103-FRApps-Clone-05.png "FRApps-Clone-05")
+![FRApps-Clone-05](assets/images/clone/fr0103-FRApps-Clone-05.png "FRApps-Clone-05")
 
 #### 3. Test for production vulnerabilities
 
@@ -221,21 +221,21 @@ npm install
 npm audit --production
 ```
 
-![FRApps-Clone-06](images/fr0103-FRApps-Clone-06b.png "FRApps-Clone-06")
+![FRApps-Clone-06](assets/images/clone/fr0103-FRApps-Clone-06b.png "FRApps-Clone-06")
 
 #### 4. Right click on the server folder
 
 #### 5. Click Open in Integrated Terminal and click in the Terminal window, then enter 
 
-![FRApps-Clone-07](images/fr0103-FRApps-Clone-07.png "FRApps-Clone-07")
+![FRApps-Clone-07](assets/images/clone/fr0103-FRApps-Clone-07.png "FRApps-Clone-07")
 
 ```
 npm install 
 ```
 
-![FRApps-Clone-08](images/fr0103-FRApps-Clone-08.png "FRApps-Clone-08")
+![FRApps-Clone-08](assets/images/clone/fr0103-FRApps-Clone-08.png "FRApps-Clone-08")
 
-![FRApps-Clone-09](images/fr0103-FRApps-Clone-09.png "FRApps-Clone-09")
+![FRApps-Clone-09](assets/images/clone/fr0103-FRApps-Clone-09.png "FRApps-Clone-09")
 
 
 
