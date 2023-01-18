@@ -2363,15 +2363,50 @@ comments in your index.<b>css</b> file:
 
 ____
 
-#### d. @media (Slight change for responsiveness)
+#### d. @media (Some changes for responsiveness)
 
-- In the <font color=cornflowerblue>@media</font> query
-- Under <font color=cornflowerblue>@media</font> (max-width: 420px)<br><br>
+
+
+- In the <font color=cornflowerblue>@media</font> queries
 - CHANGE in HeaderLogo:
-    + <font color=#A81966>margin-left</font> from 0px to 15px
-    + <font color=#A81966>margin-top</font> from 0px to 15px<br><br>
+<ol>
+    <li><font color=#A81966>margin-left</font> from 0px to 15px</li>
+    <li><font color=#A81966>margin-top</font> from 0px to 15px<</li>
+
+</ol>
+
 - ADD
-    + <font color=green>h2</font> padding to 0
+<ol>
+    <li><font color=cornflowerblue>@media</font> for tablet in portrait mode</li>
+    <li><font color=green>h2</font> padding to 0</li>
+</ol>
+____
+
+<details class="details-style">
+    <summary class="summary-style">
+        More Info: On Responsiveness
+    </summary>
+You will notice in this new <font color=cornflowerblue>@media</font> block of code the addition of:
+
+<img class="no-border" src="FRApps/assets/images/md-images/ResponsiveTabletCodeImage.jpg">
+<br><br>
+This is important. If you recall we set the max-width of our web page to be 1000 pixels (px). To assure our page looks good on all devices that have a width veiwpoint that is less than 1000 pixels we need to address any possible scenarios.   
+<br><br>
+So we have 4 areas in our index.<b>css</b> file to handle this important task.
+<ol>
+<li>The main styles at the top of the file are to handle any width greater to or equal to 1000 px.  The wide gray borders on either side of the 4 main blocks are the background color of the <font color=blue>&#60;body&#62;</font> tag. The 4 blocks are all 1000 pixels in width.  Even on a large desktop monitor, those blocks will be 1000 pixels with the side borders growing or shrinking according to monitor size. </li>
+<img class="no-border" src="FRApps/assets/images/md-images/ResponsiveTabletLandscape.jpg"><br>
+<li>The new code at the top of the <font color=cornflowerblue>@media</font> block is to handle all widths between 741px and 1000px (Tablet in portrait mode)<br>
+<img class="no-border" src="FRApps/assets/images/md-images/ResponsiveTabletPortrait.jpg" width="75%" style=text-align:'center';></li>
+<li>The next block of code is to handle widths between 440px and 740px (Mobile in Landscape mode)<br>
+<img class="no-border" src="FRApps/assets/images/md-images/ResponsiveMobileLandscape.jpg" width="60%" style=text-align:'center';></li>
+<li>Finally, the last bit of code to handle widths less than 440px (Mobile in Portrait mode)<br>
+<img class="no-border" src="FRApps/assets/images/md-images/ResponsiveMobilePortrait.jpg" width="50%" style= text-align:'center';>
+</li>
+</ol>
+Each of these coding blocks can be as simple or as complex to accomplish a great looking web page on any device.  Research and learn responsive css--it makes the difference between good and exceptional web design.
+<br><br><br>
+</details>
 
 The easiest way to accomplish this is to copy/paste the entire Responsive BLOCK.<br> <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>/* Responsive Code */</font> code below... </span>
 
@@ -2383,64 +2418,93 @@ The easiest way to accomplish this is to copy/paste the entire Responsive BLOCK.
 /* R-1 INSERT Point - @media (responsive max-width)*/
 /*-----------------------------------------
 The @media MAX-width query properties
+Tablet Portrait
 =========================================*/
-@media (max-width: 760px) {
-
-    .HeaderLogo {
-        font-size: 1.2rem;
-        margin-left: 10px;
-        background-size: 180px 51px;
-    }
-  
-    .HeaderNavBars {
-      display: flex;
-    }
-  
-    .HeaderNavList {
-        display: none;
-    }
-  
-    .Section1ImageText {
-        font-size: 2.5rem;
-        padding: 120px 250px 20px 0px;
-    }
-
-    .Section2 h2 {
-      font-size: 1.7rem;
-    }
-  
-    .Section2Paragraph {
-      font-size: 75%;
-    }
+@media only screen
+and (min-width: 741px)
+and (max-width: 1000px) 
+{
+  .Section1ImageText {
+    font-size: 3rem;
+    padding: 20px 200px 0px 0px;
   }
+  .Section2Paragraph {
+    font-size: 1rem;
+    padding: 0px 0px 0px 0px;
+    margin: -30px 0px 0px 0px;
+  }
+}  
+/*-----------------------------------------
+The @media MAX-width query properties
+iPhone Landscape
+=========================================*/
+@media only screen
+and (min-width: 441px)
+and (max-width: 740px) 
+{
+  .HeaderLogo {
+      font-size: 1.2rem;
+      margin-left: 10px;
+      background-size: 180px 51px;
+  }
+  .HeaderNavBars {
+    display: flex;
+  }
+  .HeaderNavList {
+      display: none;
+  }
+  .Section1ImageText {
+    font-size: 2.5rem;
+    text-align: center;
+    vertical-align: center;
+    padding: 0px 150px 20px 0px;
+  }
+  .Section2 h2 {
+    font-size: 1.7rem;
+  }
+  .Section2Paragraph {
+    font-size: 75%;
+    margin-top: -45px;
+  }
+  .Footer {
+    display: none;
+  }
+}
 
 /*-----------------------------------------
 The @media MAX-width (420px) query properties
+iPhone Portrait
 =========================================*/
-@media (max-width: 420px) {
-
-    .HeaderLogo {
-        font-size: .8rem;
-        margin-left: 15px;
-        margin-top: 15px;
-        background-size: 144px 41px;
+@media only screen
+and (max-width: 440px)  
+{
+  .HeaderLogo {
+      font-size: .8rem;
+      margin-left: 15px;
+      margin-top: 15px;
+      background-size: 144px 41px;
+  }
+  .HeaderNavBars {
+    display: flex;
+  }
+  .HeaderNavList {
+      display: none;
+  }
+  .Section1ImageText {
+      font-size: 2rem;
+      padding: 40px 80px 20px 0px;
+      text-align: center;
+      vertical-align: center;
     }
-
-    .Section1ImageText {
-        font-size: 1.2rem;
-        padding: 80px 100px 20px 10px;
-      }
-    
-    .Section2Paragraph {
-        font-size: 60%;
-      }
-
-    h2 {
-        padding: 0;
+  .Section2Paragraph {
+      font-size: 60%;
     }
-    
+  h2 {
+      padding: 0;
+  }
 }
-  /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
 ```
 
 <div class="callout-code-warning">
@@ -2460,7 +2524,7 @@ comments in your index.<b>css</b> file:
 <span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" src="FRApps/assets/images/
-md-images/BasicResponsiveChange.jpg">
+md-images/BasicResponsiveChange2.jpg">
 
 This will give the custom web page's formR logo the proper place in the header when viewing on an iPhone 7 Pro
 
