@@ -1,12 +1,11 @@
 <br/>
 
-<h>1. Setup Workstation 4:15</h>
+<h>1. Setup Workstation 3:00</h>
 
 1. [Build Workstation ](/Setup/fr0101_Setup-Developer-Workstation.md)
 2. [Test NodeJS ](/Setup/fr0102_Test-Node.md)
-3. [Clone FRApps ](/Setup/fr0103_Clone-FR-Apps.md)
 
-<h>2. Setup Remote Server 4:25</h>
+<h>2. Setup Server 4:25</h>
 
 1.  [Create Vultr Ubuntu ](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
 2.  [Harden Ubuntu ](/Setup/fr0302_Setup-Hardening-Ubuntu.md)
@@ -17,9 +16,11 @@
 
 <h>3. Customize FRApps</h>
 
-1. [My HTML Custom App       ](/FRApps/fr020100_My-HTML-Custom.md)
-2. [My Javascript Custom App ](/FRApps/fr020200_My-Javascript-Custom-App.md)
-3. [My React Custom App      ](/FRApps/fr020300_My-React-React-App.md)
+1. [Clone FRApps ](/FRApps/fr020000_Clone-FR-Apps.md)
+2. [My HTML Custom App       ](/FRApps/fr020100_My-HTML-Custom.md)
+3. [My Javascript Custom App ](/FRApps/fr020200_My-Javascript-Custom-App.md)
+4. [My Lit Custom App      ](/FRApps/fr020300_My-React-React-App.md)
+5. [My React Custom App      ](/FRApps/fr020300_My-React-React-App.md)
 
 <h>4. Run formR</h>
 
