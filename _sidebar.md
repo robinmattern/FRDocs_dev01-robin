@@ -16,7 +16,7 @@
 
 <h>3. Customize FRApps</h>
 
-1. [Clone FRApps ](/Setup/fr0103_Clone-FR-Apps.md)
+1. [Clone FRApps ](/FRApps/fr020000_Clone-FR-Apps.md)
 2. [My HTML Custom App       ](/FRApps/fr020100_My-HTML-Custom.md)
 3. [My Javascript Custom App ](/FRApps/fr020200_My-Javascript-Custom-App.md)
 4. [My Lit Custom App      ](/FRApps/fr020300_My-React-React-App.md)
