@@ -2436,15 +2436,15 @@ This is important. If you recall we set the max-width of our web page to be 1000
 So we have 4 areas in our index.<b>css</b> file to handle this important task.
 <ol>
 <li>The main styles at the top of the file are to handle any width greater to or equal to 1000 px.  The wide gray borders on either side of the 4 main blocks are the background color of the <font color=blue>&#60;body&#62;</font> tag. The 4 blocks are all 1000 pixels in width.  Even on a large desktop monitor, those blocks will be 1000 pixels with the side borders growing or shrinking according to monitor size. </li>
-<img class="no-border" src="FRApps/assets/images/md-images/ResponsiveTabletLandscape.jpg"><br>
+<img class="no-border" src="FRApps/assets/images/md-images/ResponsiveTabletLandscape.jpg" width="75%"><br>
 <li>The new code at the top of the <font color=cornflowerblue>@media</font> block is to handle all widths between 741px and 1000px (Tablet in portrait mode)<br>
-<img class="no-border" src="FRApps/assets/images/md-images/ResponsiveTabletPortrait.jpg" width="75%" style=text-align:'center';></li>
+<img class="no-border" src="FRApps/assets/images/md-images/ResponsiveTabletPortrait.jpg" width="50%" style=text-align:'center';></li>
 <li>The next block of code is to handle widths between 440px and 740px (Mobile in Landscape mode)<br>
-<img class="no-border" src="FRApps/assets/images/md-images/ResponsiveMobileLandscape.jpg" width="60%" style=text-align:'center';></li>
+<img class="no-border" src="FRApps/assets/images/md-images/ResponsiveMobileLandscape.jpg" width="50%" style=text-align:'center';></li>
 <li>Finally, the last bit of code to handle widths less than 440px (Mobile in Portrait mode)<br>
 <img class="no-border" src="FRApps/assets/images/md-images/ResponsiveMobilePortrait.jpg" width="50%" style= text-align:'center';>
 </li>
-</ol><br>
+</ol>
 Each of these coding blocks can be as simple or as complex to accomplish a great looking web page on any device.  Research and learn responsive css--it makes the difference between good and exceptional web design.
 <br><br><br><br><br>
 </details>
