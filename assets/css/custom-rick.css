@@ -492,7 +492,7 @@ details[open].details-style {
     border: 2px solid blue;
     background-color: var(--CalloutBackgroundColor);
     background-color: var(--MoreInfoBackgroundColorOpen);
-    max-height: 3000px;
+    max-height: 4000px;
 }
 details[open].details-style summary {
     padding: var(--MoreInfoPaddingOpen);
