@@ -347,10 +347,17 @@ hr {
 	font-size: var(--CalloutIconFontSize);
 	content: var(--CalloutIconCopy); /*copy*/
 }
-/*for sizing the copy image*/
+/*for sizing the copy & arrow images*/
 .copy-image {
-    width: 8%
+    width: 10%;
+    vertical-align: sub;
 }
+.arrow-image {
+    width: 8%;
+    text-shadow: none;
+    vertical-align: bottom;
+}
+
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /*For the copy code with image blurb instructions*/
@@ -634,8 +641,14 @@ The @media MAX-width (800px) query properties
         width: 15%;
     }
     .copy-image {
-        width: 10%
+        width: 10%;
     }
+    .arrow-image {
+        width: 8%;
+        text-shadow: none;
+        vertical-align: bottom;
+    }
+
     .basic-image {
         width: 95%;
     }
@@ -707,9 +720,9 @@ The @media MAX-width (800px) query properties
 =========================================*/
 
 /*-----------------------------------------
-The @media MAX-width (420px) query properties (iPhone7 Plus) 
+The @media MAX-width (440px) query properties (iPhone7 Plus) 
 =========================================*/
-  @media (max-width: 420px) {
+  @media (max-width: 440px) {
    /*
     html {
         orientation: landscape;
@@ -723,6 +736,9 @@ The @media MAX-width (420px) query properties (iPhone7 Plus)
     }
     .copy-image {
           width: 12%
+    }
+    .arrow-image {
+        width: 10%;
     }
     .basic-image {
         width: 95%;
