@@ -10,7 +10,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 3.1 My HTML Custom App h:mm <!-- {docsify-ignore} -->
+## 3.2 My HTML Custom App h:mm <!-- {docsify-ignore} -->
 
 <div class="callout-tip-top"> Tip:
     <a href="../Setup/purposes/pfr0101_Setup-Developer-Workstation.md" target="_blank">Link to Background and Purposes</a> 
@@ -70,7 +70,7 @@ Tools Used:
 </div>
 Your Workspace:<br><br>
 In VSCode you will find in your FRApps repository a folder<br>
-&nbsp;&nbsp;&nbsp;&nbsp;"<span class="doc-dir-text">1c1_my-html-custom-app</span> (inside your <font color='green'>client1</font> folder)."<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"<span class="doc-dir-text">c11_my-html-custom-app</span> (inside your <font color='green'>client1</font> folder)."<br>
 In this folder are the empty <font color='green'>index.<b>html</b></font> and <font color='green'>index.<b>css</b></font> files, along with a favicon.png image file.<br>
 <img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1.jpg"><br>
 
@@ -186,7 +186,7 @@ Our original sketch...
 #### a. Review Files
 
 -  Using VSCode, in a folder called<br>
-&nbsp;&nbsp;&nbsp;&nbsp;"<span class="doc-dir-text">1c1_my-html-custom-app</span>" (inside your Client1 folder),
+&nbsp;&nbsp;&nbsp;&nbsp;"<span class="doc-dir-text">c11_my-html-custom-app</span>" (inside your Client1 folder),
 <br>open:
     + index.<b>html</b> and
     + index.<b>css</b><br>
@@ -201,7 +201,8 @@ Our original sketch...
 <br>
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/BasicHTMLEmpty.jpg">
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyHTML.gif">&nbsp;the entire code below to Line 1 of the empty index.<b>html</b> file (as shown above): </span>
+<span class="copy-code">&nbsp;Copy the entire code below to Line 1 of the empty index.<b>html</b> file (as shown above):<br><img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">
+&nbsp;&nbsp;&nbsp;<img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" ></span>
 
 ```html
 <!DOCTYPE html>
@@ -276,9 +277,12 @@ If your Chrome <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> browse
 <br>
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/BasicCSSEmpty.jpg">
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;the entire code below to Line 1 of the empty index.<b>css</b> file (as shown above): </span>
+<span class="copy-code">&nbsp;Copy the entire code below to Line 1 of the empty index.<b>css</b> file (as shown above):<br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp;&nbsp;&nbsp;<img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" ></span>
 
 ```css
+
+
 /* Basic Blocks Custom App */
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre');
@@ -567,7 +571,10 @@ ____
     + <b><font color=#A81966>max-width</font></b> to 1000px;   
     + <b><font color=#A81966>margin</font></b> to auto; 
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>HTML</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
+
 
 ```css
 /*=====================================*/
@@ -615,7 +622,9 @@ Replace the entire block with new code, like this.
     + <b><font color=#A81966>max-width</font></b> to 1000px;  
     + <b><font color=#A81966>margin</font></b> to auto;
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.Header</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*=======================================*/
@@ -678,7 +687,9 @@ ___
 
 <font color='green'><u>Section1</u></font>
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.Section1</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*=======================================*/
@@ -723,7 +734,9 @@ ____
 
 <font color='green'><u>.Section2</u></font>
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.Section2</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*=======================================*/
@@ -784,7 +797,9 @@ ___
     + <b><font color=#A81966>max-width</font></b> to 1000px   
     + <b><font color=#A81966>margin</font></b> to auto
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.Footer</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*=======================================*/
@@ -879,9 +894,11 @@ We will add to your existing code in  both index.<b>html</b> AND index.<b>css</b
 
 #### a. Header class
 <br>
-In the <font color='green'>Header</font> class section, we will replace the code.
+In the <font color='green'>Header</font> section, we will replace the code.
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyHTML.gif">&nbsp;<font color='green' style=font-weight:normal;>Header</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```html
     <!-- REPLACE Point - Header -->
@@ -948,8 +965,7 @@ Now we move to the index.css file.<br><br>
 
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-
-#### b. .Header
+#### b. .Header (class)
 <br>
 First and foremost in the <font color='green'>.Header</font> section we will ADD the following:
  <ul>
@@ -957,7 +973,9 @@ First and foremost in the <font color='green'>.Header</font> section we will ADD
     <li><font color=#A81966>justify-content</font>: space-between;</li>
     <li><font color=#A81966>align-items: center;</font>: space-between;</li>
 </ul>
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.Header</font> code below... </span> 
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span> 
 
 ```css
 /*=======================================*/
@@ -1018,9 +1036,11 @@ We will be INSERTING 3 new classes as a BLOCK of code:
     <li><font color='green'>.HeaderSpacer</font></li>
 </ul>
 This will be the first time pasting into a large block of classes, in the index.css file (CSS Multiple Classes [2 or more]).<br><br>
-Please follow the instructions closely.  We have created another small movie to demonstrate.
+Please follow the instructions closely.  We have created another small movie to demonstrate.<br><br>
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.HeaderLogo</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*===============================================*/
@@ -1133,7 +1153,9 @@ We will be INSERTING 3 new classes as a BLOCK of code:
     </li><font color='green'>.HeaderNavListItem a:hover</font></li>
     <li><font color='green'>.HeaderNavListItem a:active</font></li>
 </ul>
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.HeaderNavList</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*==============================================*/
@@ -1237,9 +1259,11 @@ ____
 CTA stands for Call to Action
 </div>
 <br>
-Now, let's do something about that "PH CTA" link. Using CSS, we can turn it into a nice blue button.
+Now, let's do something about that "PH CTA" link. Using CSS, we can turn it into a nice blue button.<br><br>
 
- <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.HeaderNavListItemCTA </font> code below... </span>
+ <span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 
 ```css
@@ -1317,9 +1341,11 @@ We will add some links to the Footer and fix the position of the Footer as we di
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
 
-#### a. <font color='green'>Footer</font> class
+#### a. <font color='green'>Footer</font>
 <br>
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyHTML.gif">&nbsp;<font color='green' style=font-weight:normal;>Footer</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```html
 <!-- REPLACE Point - Footer -->
@@ -1369,7 +1395,9 @@ Good job! Now we move to the index<b>.css</b> file.
     + <font color='green'>.FooterNavListItem a:hover</font><br>
     <font color='green'>.FooterNavListItem a:active</font>
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.FooterNavList</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*=============================================*/
@@ -1471,9 +1499,11 @@ First, the index.<b>html</b> file.
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
 
-#### a. <font color='green'>Section1</font> class
+#### a. <font color='green'>Section1</font>
 <br>
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyHTML.gif">&nbsp;<font color='green' style=font-weight:normal;>Section1</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```html
     <!-- REPLACE Point - Section1 -->
@@ -1517,7 +1547,9 @@ Now, we move to the index.<b>css</b> file.
     + <font color='green'>.Section1ImageText</font><br>
     + <font color='green'>.Section1ImageText::first-letter</font><br>
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.Section1ImageText</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*===========================================*/
@@ -1587,7 +1619,11 @@ We will add some text.
 
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyHTML.gif">&nbsp;<font color='green' style=font-weight:normal;>Section2</font> code below... </span>
+#### d. Section2 
+<br>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```html
     <!-- REPLACE Point - Section2 -->        
@@ -1652,7 +1688,9 @@ We will add some code to make it "wiggle."
     + <font color='green'>@keyframes wiggle</font>
 
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.HeaderNavListCTA</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*===========================================*/
@@ -1796,7 +1834,9 @@ First we need to add the NavBars (hamburger) in both index.html and index.css.
 
 #### b. HeaderNavBars Class
 <br>
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyHTML.gif">&nbsp;<font color='green' style=font-weight:normal;>Header</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```html
     <!-- REPLACE Point - Header -->
@@ -1874,7 +1914,9 @@ Now let's move on to index.**css** to adjust the NavBars in a proper postion
     + <font color='green'>.HeaderNavBars</font><br>
     + <font color='green'>.HeaderNavBars:focus</font><br>
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.HeaderNavBars</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*===========================================*/
@@ -1954,7 +1996,9 @@ ___
 - We will be INSERTING these new queries in one copy/paste block of code:
     + <font color='cornflowerblue'>@media</font> <font color=#A81966>queries</font>
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' sle=font-weight:normal;>/* Responsive Code */</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*===========================================*/
@@ -2137,7 +2181,9 @@ This is where there is a sizeable change to the .Section1 code below.
     + <font color=#A81966>background-size</font>: cover; 
     + <font color=#A81966>background-position</font>: center; 
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.Section1</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*=======================================*/
@@ -2220,7 +2266,9 @@ Now lets add an image in place of the "PH Logo" in the Header. In the "<span cla
 
 #### a. Header
 <br> 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyHTML.gif">&nbsp;<font color='green' style=font-weight:normal;>Header</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```html
     <!-- REPLACE Point - Header -->
@@ -2280,7 +2328,9 @@ In the <font color='green'>:root</font> section we will MODIFY the following:<br
 + <b><font color=#A81966>--HeaderLogo-image:</font></b> url('assets/images/formr-logo-blue.gif'); 
 + <b><font color=#A81966>--HeaderLogo-margin:</font></b> 0px 0 0 50px;<br>
 
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>:root</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*=======================================*/
@@ -2352,7 +2402,9 @@ comments in your index.<b>css</b> file:
 Take caution to assure that you replace threee (3) classes with just two (2).
 </div>
 <br>
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.HeaderLogo</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*===============================================*/
@@ -2449,7 +2501,10 @@ Each of these coding blocks can be as simple or as complex to accomplish a great
 <br><br><br><br><br>
 </details>
 
-The easiest way to accomplish this is to copy/paste the entire Responsive BLOCK.<br> <span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>/* Responsive Code */</font> code below... </span>
+The easiest way to accomplish this is to copy/paste the entire Responsive BLOCK.<br><br> 
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 
@@ -2715,7 +2770,9 @@ Well, it's very simple to make the requested color changes right here in four of
 </li>
 </ul>
 </div>
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>:root</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*=======================================*/
@@ -2793,7 +2850,9 @@ In the <font color='green'>.Section2Paragraph</font> section we will INSERT the 
     <li><b><font color='green'>Section2Paragraph::first-line</font></b>:</li>
     <li><b><font color='green'>Section2Paragraph::first-letter</font></b>:</li>
 </ul>
-<span class="copy-code"><img class="copy-image" src="FRApps/assets/images/md-images/CopyCSS.gif">&nbsp;<font color='green' style=font-weight:normal;>.Section2Paragraph</font> code below... </span>
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+</span>
 
 ```css
 /*===========================================*/
@@ -2877,7 +2936,7 @@ Now you have all the tools to go back to your Layout and customize it the way yo
 
 <div class="save-code"><br><br>
 We saved your Layout AND Custom files in the<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="callout-dir-text">"1c1_my-html-custom-app"</span> directory.<br<br><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="callout-dir-text">"c11_my-html-custom-app"</span> directory.<br<br><br><br>
 
 The files are:<br>
 + index_final_custom.css

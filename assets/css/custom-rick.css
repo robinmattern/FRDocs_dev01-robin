@@ -347,10 +347,16 @@ hr {
 	font-size: var(--CalloutIconFontSize);
 	content: var(--CalloutIconCopy); /*copy*/
 }
-/*for sizing the copy image*/
+/*for sizing the copy & arrow images*/
 .copy-image {
-    width: 8%
+    width: 20%;
+    vertical-align: sub;
 }
+.arrow-image {
+    width: 8%;
+    vertical-align: baseline;
+}
+
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
 /*For the copy code with image blurb instructions*/
@@ -620,180 +626,130 @@ wiggle-me properties
 */
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
-/* Responsiveness for document */
-/*-----------------------------------------
-The @media MAX-width query properties
-===========================================
-The @media MAX-width (800px) query properties
-=========================================*/
-@media (max-width: 800px) {
-    .author {
-        font-size: 1rem;
-    }
-    .author-image {
-        width: 15%;
-    }
-    .copy-image {
-        width: 10%
-    }
-    .basic-image {
-        width: 95%;
-    }
-    .chrome-image {
-        width: 4%;
-    }
-    .callout-copy {
-        font-size: 1.1rem;
-    }
-    .callout-code-warning {
-        font-size: .7rem;
-    }
-    .callout-tip {
-        font-size: .8rem;
-    }
-    .callout-tip-top {
-        font-size: .9rem;
-        margin-left: 5px;
-        margin-top: 15px;
-    }   
-    summary.summary-style {
-        padding: 2px 20px 5px 2px;
-        text-align: left;
-        font-size: 1rem;
-        font-weight: bold;
-    }
-    details[open].details-style {
-        padding: 14px 20px 0px 12px;
-    }
-    .popup {
-        padding: 0px 0px 0px 15px;
-    }
-    .popup h3 {
-        font-size: 1.1rem;
-    }
-    .happy-coding-percent {
-        width: 65%;
-    }
-    .success-text {
-        font-size: .8rem;
-        padding-left: 10px;
-    }
-    .final {
-        padding-left: 0px;
-    } 
-    .css-link-text {
-        font-size: 15px;
-    }
-    .multiple-equals-text {
-        font-size: 14px;
-    }
-    
-     .replace-point-text {
-        font-size: 14px;
-    }    
-    .list-text {
-        font-size: .75rem;
-    }
-    .wiggle-me {
-        width: 10%;
-        text-justify: auto;
-        text-align: center;
-        animation: shake 0.5s;
-        animation-iteration-count: infinite;
-    }
-}
-/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The @media MAX-width (800px) query properties
-=========================================*/
 
 /*-----------------------------------------
-The @media MAX-width (420px) query properties (iPhone7 Plus) 
+The @media query properties
+Tablet Portrait
 =========================================*/
-  @media (max-width: 420px) {
+@media only screen
+and (min-width: 741px)
+and (max-width: 1000px) 
+{
+    .copy-image {
+        width: 25%
+  }
+    .arrow-image {
+        width: 8%;
+        vertical-align: baseline;
+  }
+}  
+/*-----------------------------------------
+The @media query properties
+Mobile Landscape
+=========================================*/
+@media only screen
+and (min-width: 441px)
+and (max-width: 740px) 
+{
+    .copy-image {
+        width: 18%
+  }
+  .arrow-image {
+      width: 6%;
+      vertical-align: top;
+  }
+}
+
+/*-----------------------------------------
+The @media query properties
+Mobile Portrait
+=========================================*/
+@media only screen
+and (max-width: 440px)  
+{
    /*
     html {
         orientation: landscape;
     }
    */ 
-    .author {
-        font-size: .7rem;
-    }
-    .author-image {
-        width: 15%;
-    }
-    .copy-image {
-          width: 12%
-    }
-    .basic-image {
-        width: 95%;
-    }
-    .chrome-image {
-        width: 8%;
-    }
-    .callout-copy {
-        font-size: 1rem;
-    }
-    .callout-code-warning {
-        font-size: .52rem;
-    }
-    .callout-tip-top {
-        font-size: .8rem;
-        margin-left: 5px;
-        margin-top: 5px;
-    }    
-    .callout-tip {
-        font-size: .8rem;
-    }
-    summary.summary-style {
-        padding: 2px 20px 5px 2px;
-        text-align: left;
-        font-size: .9rem;
-        font-weight: bold;
-    }
-    details[open].details-style {
-        padding: 14px 20px 0px 12px;
-    }
-    .popup {
-        padding: 0px 0px 0px 15px;
-    }
-    .popup h3 {
-        font-size: 1.1rem;
-    }
-    .success-text {
-        font-size: .8rem;
-        padding-left: 10px;
-    }
-    .happy-coding {
-    padding-left: 0px;
-    }
-    .final {
-        padding-left: 0px;
-    }    
-    .css-link-text {
-        font-size: 15px;
-    }
-    .multiple-equals-text {
-        font-size: 12px;
-    }
-    
-     .replace-point-text {
-        font-size: 12px;
-    }
-    .list-text {
-        font-size: .85rem;
-    }
-    .wiggle-me {
-        width: 12%;
-        text-justify: auto;
-        text-align: center;
-        animation: shake 0.5s;
-        animation-iteration-count: infinite;
-    }
+   .author {
+    font-size: .7rem;
 }
-/*^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The @media MAX-width (420px) query properties (iPhone7 Plus) 
-=========================================*/
+.author-image {
+    width: 15%;
+}
+.copy-image {
+      width: 30%
+}
+.arrow-image {
+    width: 10%;
+    vertical-align: top;
+}
+.basic-image {
+    width: 95%;
+}
+.chrome-image {
+    width: 8%;
+}
+.callout-copy {
+    font-size: 1rem;
+}
+.callout-code-warning {
+    font-size: .52rem;
+}
+.callout-tip-top {
+    font-size: .8rem;
+    margin-left: 5px;
+    margin-top: 5px;
+}    
+.callout-tip {
+    font-size: .8rem;
+}
+summary.summary-style {
+    padding: 2px 20px 5px 2px;
+    text-align: left;
+    font-size: .9rem;
+    font-weight: bold;
+}
+details[open].details-style {
+    padding: 14px 20px 0px 12px;
+}
+.popup {
+    padding: 0px 0px 0px 15px;
+}
+.popup h3 {
+    font-size: 1.1rem;
+}
+.success-text {
+    font-size: .8rem;
+    padding-left: 10px;
+}
+.happy-coding {
+padding-left: 0px;
+}
+.final {
+    padding-left: 0px;
+}    
+.css-link-text {
+    font-size: 15px;
+}
+.multiple-equals-text {
+    font-size: 12px;
+}
 
+ .replace-point-text {
+    font-size: 12px;
+}
+.list-text {
+    font-size: .85rem;
+}
+.wiggle-me {
+    width: 12%;
+    text-justify: auto;
+    text-align: center;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+}
 
-/*-----------------------------------------------*/
-/*END OF CSS*/
+/* END CSS */
