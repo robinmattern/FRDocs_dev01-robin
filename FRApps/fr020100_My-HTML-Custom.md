@@ -13,7 +13,7 @@
 ## 3.2 My HTML Custom App h:mm <!-- {docsify-ignore} -->
 
 <div class="callout-tip-top"> Tip:
-    <a href="../Setup/purposes/pfr0101_Setup-Developer-Workstation.md" target="_blank">Link to Background and Purposes</a> 
+    <a href="FRApps_prod-master/client1/c10_background-and-purposes/Read.me" target="_blank">Link to Background and Purposes</a> 
 </div>
 
 <div class="callout-tip-top"> Tip:
@@ -130,7 +130,7 @@ Example:
 <br>
 <div class="callout-tip"><b>2</b><br>
 <span style=font-size:20px; font-weight:bold>IMPORTANT</SPAN>
-<br><img class="no-border" src="FRApps/assets/images/md-images/BasicCopyHTML.gif"><br>
+<br><img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif"><br>
 There will be 3 different methods for copy/paste:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ HTML<br>
 &nbsp;&nbsp;&nbsp;&nbsp;+ CSS Class<br>
@@ -201,7 +201,7 @@ Our original sketch...
 <br>
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/BasicHTMLEmpty.jpg">
 
-<span class="copy-code">&nbsp;Copy the entire code below to Line 1 of the empty index.<b>html</b> file (as shown above):<br><img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">
+<span class="copy-code">&nbsp;Copy the entire code below to Line 1 of the empty index.<b>html</b> file (as shown above):<br><img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">
 &nbsp;&nbsp;&nbsp;<img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" ></span>
 
 ```html
@@ -897,7 +897,7 @@ We will add to your existing code in  both index.<b>html</b> AND index.<b>css</b
 In the <font color='green'>Header</font> section, we will replace the code.
 
 <span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
-<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
 </span>
 
 ```html
@@ -1344,7 +1344,7 @@ We will add some links to the Footer and fix the position of the Footer as we di
 #### a. <font color='green'>Footer</font>
 <br>
 <span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
-<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
 </span>
 
 ```html
@@ -1502,7 +1502,7 @@ First, the index.<b>html</b> file.
 #### a. <font color='green'>Section1</font>
 <br>
 <span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
-<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
 </span>
 
 ```html
@@ -1622,7 +1622,7 @@ We will add some text.
 #### d. Section2 
 <br>
 <span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
-<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
 </span>
 
 ```html
@@ -1835,7 +1835,7 @@ First we need to add the NavBars (hamburger) in both index.html and index.css.
 #### b. HeaderNavBars Class
 <br>
 <span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
-<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
 </span>
 
 ```html
@@ -2267,7 +2267,7 @@ Now lets add an image in place of the "PH Logo" in the Header. In the "<span cla
 #### a. Header
 <br> 
 <span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
-<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedRightDashed.bmp" class="arrow-image" >
 </span>
 
 ```html

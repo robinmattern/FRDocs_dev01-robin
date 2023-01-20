@@ -635,6 +635,10 @@ Tablet Portrait
 and (min-width: 741px)
 and (max-width: 1000px) 
 {
+    summary.summary-style {
+        /* title in dropdown */
+        font-size: .8rem;
+    }    
     .copy-image {
         width: 25%
   }
@@ -651,6 +655,9 @@ Mobile Landscape
 and (min-width: 441px)
 and (max-width: 740px) 
 {
+    summary.summary-style {
+        font-size: 1rem;
+    }    
     .copy-image {
         width: 18%
   }
@@ -708,7 +715,7 @@ and (max-width: 440px)
 summary.summary-style {
     padding: 2px 20px 5px 2px;
     text-align: left;
-    font-size: .9rem;
+    font-size: .75rem;
     font-weight: bold;
 }
 details[open].details-style {
