@@ -353,7 +353,7 @@ hr {
     vertical-align: sub;
 }
 .arrow-image {
-    width: 8%;
+    width: 6%;
     vertical-align: baseline;
 }
 
@@ -659,11 +659,11 @@ and (max-width: 740px)
         font-size: 1rem;
     }    
     .copy-image {
-        width: 18%
+        width: 20%
   }
   .arrow-image {
       width: 6%;
-      vertical-align: top;
+      vertical-align: auto;
   }
 }
 
@@ -686,11 +686,11 @@ and (max-width: 440px)
     width: 15%;
 }
 .copy-image {
-      width: 30%
+      width: 35%
 }
 .arrow-image {
-    width: 10%;
-    vertical-align: top;
+    width: 12%;
+    vertical-align:auto;
 }
 .basic-image {
     width: 95%;
@@ -715,7 +715,7 @@ and (max-width: 440px)
 summary.summary-style {
     padding: 2px 20px 5px 2px;
     text-align: left;
-    font-size: .75rem;
+    font-size: .7rem;
     font-weight: bold;
 }
 details[open].details-style {
