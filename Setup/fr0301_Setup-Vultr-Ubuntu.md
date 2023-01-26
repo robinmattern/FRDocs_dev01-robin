@@ -156,7 +156,7 @@ ssh root@(your Vultr server ip address-copy from Vultr)
 
 ![Vultr ssh 2](./images/fr0301-09_Vultr-ssh2.png "Vultr ssh2")
 
-- Enter yes for Continue connecting ssh2")
+- Enter yes for Continue connecting
 
 ![Vultr ssh 3](./images/fr0301-09_Vultr-ssh3.png "Vultr ssh3")
 
