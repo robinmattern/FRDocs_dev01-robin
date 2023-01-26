@@ -136,6 +136,42 @@ https://www.vultr.com/?ref=8778592
 
 ![Vultr Installing](./images/fr0301-08_Vultr-Installing.png "Installing")
 
+#### 12. Connect from Your Workstation via ssh
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Info: This connection confirms your access from workstation to server.</a> 
+  </div>
+</div>
+
+- Open a command window on your workstation
+
+![Vultr ssh 1](./images/fr0301-09_Vultr-ssh1.png "Vultr ssh1")
+
+- At the command prompt enter:
+
+```
+ssh root@(your Vultr server ip address-copy from Vultr)
+```
+
+![Vultr ssh 2](./images/fr0301-09_Vultr-ssh2.png "Vultr
+
+- Enter yes for Continue connecting ssh2")
+
+![Vultr ssh 3](./images/fr0301-09_Vultr-ssh3.png "Vultr ssh3")
+
+- Enter your Vultr password (copy from Vultr)
+
+![Vultr ssh 4](./images/fr0301-09_Vultr-ssh4.png "Vultr ssh4")
+
+- Right click in the command window and Edit Paste the password
+
+![Vultr ssh 4](./images/fr0301-09_Vultr-ssh5.png "Vultr ssh4")
+
+- Success
+
+![Vultr ssh 4](./images/fr0301-09_Vultr-ssh6.png "Vultr ssh4")
+
 ----
 ### 2. Use Bitvise to access Vultr-FormR0  0:15
 ----
