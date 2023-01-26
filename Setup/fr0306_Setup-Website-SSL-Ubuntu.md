@@ -55,7 +55,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 ### 1. Restart your Vultr VM and Login 0:05
 
 ----
-#### 1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
+#### 1. Open Bitvise and Load profile for Vultr-FormR0-root and click Login
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
@@ -183,7 +183,7 @@ C:\Users\Local_Admin\.ssh
 - then paste in the following:
 
 ```
-Host vultr-formR0-nimda
+Host vultr-FormR0-nimda
     HostName       <paste your formR0 server IP address here>
     IdentityFile   C:/Users/Local_Admin/.ssh/<paste your key here>
     User           nimda
@@ -202,7 +202,7 @@ Host vultr-formR0-nimda
 - From the Windows Command prompt enter:
 
 ```
-ssh vultr-formR0-nimda
+ssh vultr-FormR0-nimda
 ```
 
 ![ssh-key-to-vultr](./images/fr0306-06_Ubuntu-ssh-key-to-vultr2.png "ssh-key-to-vultr")
@@ -468,7 +468,7 @@ http://formR-<your initials>-00.com
 ### 9. Modify formR-xxx-00.com_all-apps.conf to use your new URL 0:05
 ----
 #### 1. Open Bitvise 
-#### 2. Load Profile: Vultr-formR0-nimda.tlp
+#### 2. Load Profile: Vultr-FormR0-nimda.tlp
 #### 3. Login
 #### 4. From your Bitvise SFTP window navigate to 
 

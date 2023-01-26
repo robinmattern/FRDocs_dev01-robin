@@ -45,7 +45,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 ----
 ### 1. Restart your Vultr VM and Login 0:05
 ----
-#### 1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
+#### 1. Open Bitvise and Load profile for Vultr-FormR0-root and click Login
 
 ![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
 
@@ -319,7 +319,7 @@ systemctl restart sshd
 
 #### - Test local access to your Vultr formR VM. 
 
-#### 6. Get the VM IP address from your Vultr-formR0 VM i.e 45.76.252.191
+#### 6. Get the VM IP address from your Vultr-FormR0 VM i.e 45.76.252.191
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
@@ -627,7 +627,7 @@ cd /etc/lynis
 ----
 #### 1. Test local access to your Vultr formR VM. 
 
-#### 2. Get the VM IP address from your Vultr-formR0 VM
+#### 2. Get the VM IP address from your Vultr-FormR0 VM
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
