@@ -25,6 +25,7 @@
 
 #### Introduction <!-- {docsify-ignore} -->
 - When you secure a server on the internet it is called "hardening". 
+
 - In this step you will perform a number of tasks that will make it very difficult for malicious people to harm your server.
 
 <details class="details-style">
@@ -42,6 +43,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 </div>
 </details>
+
 ----
 ### 1. Restart your Vultr VM and Login 0:05
 ----

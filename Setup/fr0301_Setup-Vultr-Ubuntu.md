@@ -185,8 +185,9 @@ ssh root@(your Vultr server ip address-copy from Vultr)
 
 #### 3. Enter new profile name
 
-- Vultr-FormR0-root.tlp
-
+```
+Vultr-FormR0-root.tlp
+```
 
 ![Vultr New-Profile-Name](./images/fr0301-09_Vultr-New-Profile-Name.png "Vultr New-Profile-Name")
 
@@ -218,7 +219,7 @@ ssh root@(your Vultr server ip address-copy from Vultr)
 
 <div class="notice-warning">
   <div class="notice-warning-header">
-    Important: Don't Lose Your Work
+    Important: Save Profile -- Don't Lose Your Work
   </div>
 </div>  
 
