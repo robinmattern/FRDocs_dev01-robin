@@ -154,7 +154,7 @@ https://www.vultr.com/?ref=8778592
 ssh root@(your Vultr server ip address-copy from Vultr)
 ```
 
-![Vultr ssh 2](./images/fr0301-09_Vultr-ssh2.png "Vultr
+![Vultr ssh 2](./images/fr0301-09_Vultr-ssh2.png "Vultr ssh2")
 
 - Enter yes for Continue connecting ssh2")
 
