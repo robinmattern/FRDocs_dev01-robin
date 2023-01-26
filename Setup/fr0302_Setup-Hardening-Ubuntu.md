@@ -67,7 +67,7 @@ reboot
 
 ![Restart VM](./images/fr0300-01_restart-vm4.png "Restart VM")
 
-- Close the Terminal window and wait for Bitvise to automatically login
+- Close the Terminal window and click Logout wait for 30 seconds a then click Login
 
 #### 4. From Bitvise click New terminal console
 
@@ -181,6 +181,18 @@ systemctl status unattended-upgrades
 
 #### 3. Using the nano editor, modify apt.conf.d/50unattended-upgrades
 
+<div class="notice-warning">
+  <div class="notice-warning-header">
+    Important Tip: Pasting into the nano editor
+  </div>
+
+- To paste from the clipboard into nano
+hold the shift key and right click
+
+</div>
+
+
+
 ```
 nano /etc/apt/apt.conf.d/50unattended-upgrades
 ```
@@ -218,7 +230,7 @@ Unattended-Upgrade::Automatic-Reboot-Time "02:30";
 nano /etc/apt/apt.conf.d/20auto-upgrades
 ```
 
-#### 8. Add these lines:
+#### 8. Add these lines: (shift + right click)
 ```
 APT::Periodic::Update-Package-Lists "1";
 APT::Periodic::Download-Upgradeable-Packages "1";
@@ -252,7 +264,7 @@ reboot
 
 - Close the terminal window and Bitvise will automatically reconnect
 
-- Open a New terminal window
+- Open a New terminal console
 
 ----
 ### 5. Secure Shared Memory 0:05
@@ -286,7 +298,7 @@ reboot
 - Open a New terminal window
 
 ----
-### 6. Enable SSH Login for Specific Users Only 0:10
+### 6. Enable SSH Login for Specific Users/IPs Only 0:10
 ----
 #### 1. Get your IP address at:
 
@@ -374,7 +386,7 @@ Password:
 nano /etc/issue.net
 ```
 
-#### 2. - Remove the "Ubuntu..." line and add the following warning message
+#### 2. - Remove the "Ubuntu..." line and add the following warning message (shift+right click)
 
 ```
 ************************************************************************
