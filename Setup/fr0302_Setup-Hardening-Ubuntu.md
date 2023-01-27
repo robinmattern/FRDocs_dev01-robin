@@ -85,6 +85,12 @@ reboot
 
 #### 1. Create a new user alias with root privileges. This user will login remotely.
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: The nimda account wiil have remote access to your server only from your workstation IP address. If you change IP addresses, you must add the new IP address by following the step: Enable SSH Login for Specific Users/IPs.
+  </div>  
+</div>
+
 ```
 useradd -ou 0 -g 0 -d /root -s /bin/bash -G sudo nimda
 ```
@@ -230,7 +236,7 @@ Unattended-Upgrade::Automatic-Reboot-Time "02:30";
 nano /etc/apt/apt.conf.d/20auto-upgrades
 ```
 
-#### 8. Add these lines: (shift + right click)
+#### 8. Add these lines: (shift+right click to paste into nano)
 ```
 APT::Periodic::Update-Package-Lists "1";
 APT::Periodic::Download-Upgradeable-Packages "1";
@@ -300,6 +306,12 @@ reboot
 ----
 ### 6. Enable SSH Login for Specific Users/IPs Only 0:10
 ----
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: If you change IP addresses, you must repeat this step for the new IP address.
+  </div>  
+</div>
+
 #### 1. Get your IP address at:
 
 ```
@@ -350,18 +362,19 @@ ssh nimda@<your VM IP address>
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers2.png "SSH-AllowUsers")
 
 #### 9. Enter the password: FormR!1234
-
+<br/>
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
 
 #### 10. Logout of Bitvise and then change the Username and Password and Login
 
-Username:
+- Username:
+
 ```
 nimda
 ```
 
-Password:
+- Password:
 
 ```
  FormR!1234
@@ -386,7 +399,7 @@ Password:
 nano /etc/issue.net
 ```
 
-#### 2. - Remove the "Ubuntu..." line and add the following warning message (shift+right click)
+#### 2. - Remove the "Ubuntu..." line and add the following warning message (shift+right click to paste into nano)
 
 ```
 ************************************************************************
