@@ -449,6 +449,13 @@ systemctl restart sshd
 ----
 ### 8. Install Fail2ban 0:10
 ----
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Fail2Ban blocks access after X failed attempts. X is set in the configuration file.
+  </div>  
+</div>
+
 #### 1. Install (Enter Y or y to continue, if asked.)
 
 ```
