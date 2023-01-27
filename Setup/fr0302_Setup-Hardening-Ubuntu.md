@@ -47,17 +47,13 @@ Hover over the snippet and click copy, then paste as appropriate.
 ----
 ### 1. Restart your Vultr VM and Login 0:05
 ----
-#### 1. Open Bitvise and Load profile for Vultr-FormR0-root and click Login
+#### 1. Open Bitvise and click Login
 
-![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
-
-![Restart VM](./images/fr0300-01_restart-vm1.png "Restart VM")
-
-![Restart VM](./images/fr0300-01_restart-vm2-root.png "Restart VM")
+![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
 #### 2. Click New terminal console
 
-![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console-root.png "Restart VM")
+![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
 #### 3. Enter:
 
@@ -67,17 +63,18 @@ reboot
 
 ![Restart VM](./images/fr0300-01_restart-vm4.png "Restart VM")
 
-- Close the Terminal window and click Logout wait for 30 seconds a then click Login
+- Close the Terminal window and wait for Bitvise to automatically login
 
 #### 4. From Bitvise click New terminal console
 
-![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console-root.png "Restart VM")
+![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
+
 
 <div class="notice-tip">
   <div class="notice-tip-header">
-    Note: To paste commands into the terminal, right-click at the terminal prompt 
+    Note: To paste commands into the terminal, right-click at the terminal prompt
   </div>  
-</div>
+</div>  
 
 ----
 ### 2. Create a new sudo user 0:05
