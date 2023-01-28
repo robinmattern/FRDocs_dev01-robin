@@ -24,12 +24,12 @@
 </div>
 
 #### Introduction <!-- {docsify-ignore} -->
-- In order to test our formR apps on the Internet  we will create an Ubuntu server on the cloud provider, Vultr.com. 
+- In order to test our formR apps on the Internet [label](http://localhost:5502/#%2FSetup%2Ffr0302_Setup-Hardening-Ubuntu%3Fid%3D_5-uncomment-and-modify-note-use-your-down-arrow-to-find-these-items-they-are-near-the-bottom-of-the-file) we will create an Ubuntu server on the cloud provider, Vultr.com. 
 - Vultr costs under $10 per month. 
 - Please use the following link when you begin:
 
 ```
-https://www.vultr.com/?ref=8778592
+https://www.vultr.com/?ref=9024374-8H
 ```
 
 <details class="details-style">
@@ -57,14 +57,14 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 <div class="notice-tip">
   <div class="notice-tip-header">
-    Note: the ref=8778592 below tells Vultr and us that you are doing the formR tutorial.
+    Note: the ref=9024374-8H below tells Vultr and us that you are doing the formR tutorial.
   </div>  
 </div>
 
 - Browse to:
 
 ```
-https://www.vultr.com/?ref=8778592
+https://www.vultr.com/?ref=9024374-8H
 ```
 
 #### 2. Deploy New Server 
