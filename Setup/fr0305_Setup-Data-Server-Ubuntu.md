@@ -228,7 +228,7 @@ SELECT user,authentication_string,plugin,host FROM mysql.user;
 ```
 ![Mysql-setup-create-admin](./images/fr0305-07_Ubuntu-create-admin-mysql.png "Mysql-setup-create-admin")
 
-#### 10. Exit mysql
+#### 10. Quit mysql
 ```
 mysql> \quit
 ```
