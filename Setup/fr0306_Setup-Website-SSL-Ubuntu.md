@@ -175,7 +175,7 @@ reboot
 
 ![BitVise Select Client Key](./images/fr0306-05_Ubuntu-Bitvise-Select-Client-Key.png "BitVise Select Client Key")
 
-- Click LogOut
+- Click Logout
 
 <div class="notice-warning">
   <div class="notice-warning-header">
@@ -258,10 +258,7 @@ unlink /etc/nginx/sites-enabled/default
 cd /webs 
 ```
 ```
-git clone https://github.com/8020Data/simpleApp.```
-```
-```
-git simpleApp
+git clone https://github.com/8020Data/simpleApp
 ```
 
 -  Confim clone
