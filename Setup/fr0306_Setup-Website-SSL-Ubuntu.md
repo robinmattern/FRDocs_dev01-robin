@@ -175,8 +175,13 @@ reboot
 
 ![BitVise Select Client Key](./images/fr0306-05_Ubuntu-Bitvise-Select-Client-Key.png "BitVise Select Client Key")
 
-#### IMPORTANT -- Click Save Profile As !!!
-</br>
+- Click LogOut
+
+<div class="notice-warning">
+  <div class="notice-warning-header">
+    IMPORTANT -- Click Save Profile As !!!
+  </div>
+</div>
 
 ![BitVise Save Profile](./images/fr0306-05_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
 
@@ -185,6 +190,8 @@ reboot
 ```
 C:\Users\Local_Admin\Documents\Vultr-FormR0-nimda.tlp
 ```
+
+![BitVise Save Profile1](./images/fr0306-05_Ubuntu-Bitvise-Save-Profile1.png "BitVise Save Profile1")
 
 - Select - Any account on this computer - and click OK
 
