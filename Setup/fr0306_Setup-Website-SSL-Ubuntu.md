@@ -108,7 +108,10 @@ reboot
 ![BitVise Create File authorized_keys2](./images/fr0306-05_Ubuntu-Bitvise-Create-File-authorized_keys2.png "BitVise Create File authorized_keys2") 
 
 #### 5. In Local files panes (left)
-#### 6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for Vultr_formR0
+#### 6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for Vultr_formR0_your initials
+
+- e.g. Vultr_formR0_btg_v210703_key.pub
+
 #### 7. Right click and select Edit
 
 
@@ -151,6 +154,9 @@ reboot
 #### 18. Navigate to Local-Admin/.ssh folder
 #### 19. Select 'All files' in the Bitvise Keypair drop down then 
 #### 20. Select the Private key file that matched the previously used Public key then 
+
+- e.g. Vultr_formR0_btg_v210703_key
+
 #### 21. Click Open
 #### 22. Click Import in the Import Client Key window
 
@@ -169,10 +175,16 @@ reboot
 
 ![BitVise Select Client Key](./images/fr0306-05_Ubuntu-Bitvise-Select-Client-Key.png "BitVise Select Client Key")
 
-#### IMPORTANT -- Click Save Profile !!!
+#### IMPORTANT -- Click Save Profile As !!!
 </br>
 
 ![BitVise Save Profile](./images/fr0306-05_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
+
+- Enter:
+
+```
+C:\Users\Local_Admin\Documents\Vultr-FormR0-nimda.tlp
+```
 
 - Select - Any account on this computer - and click OK
 
