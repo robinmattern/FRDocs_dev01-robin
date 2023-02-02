@@ -85,21 +85,26 @@ reboot
 
 #### 1. Install 
 
+- NVS_HOME
+
+```
+export NVS_HOME="$HOME/.nvs"
+```
+
 - Clone nvs
 
 ```
-git clone https://github.com/jasongin/nvs .nvs
+git clone https://github.com/jasongin/nvs "$NVS_HOME"
+```
+
+- Install
+
+```
+. "$NVS_HOME/nvs.sh" install
+
 ```
 
 ![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs1.png "Install NodeJS")
-
-- Install nvs
-
-```
-source .nvs/nvs.sh install
-```
-
-![Install NodeJS](./images/fr0304-01_Ubuntu-install-nodejs2.png "Install NodeJS")
 
 
 ----
