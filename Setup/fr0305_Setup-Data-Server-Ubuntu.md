@@ -198,13 +198,13 @@ ufw status
 </div>
  
 
-#### 7. From the  New terminal console prompt enter:
+#### 7. From the New terminal console prompt enter:
 
 ```
 mysql -p
 ```
 
-#### 8. Enter : the root password -> FormR!1234
+#### 8. Enter the root password 
 
 - Password:
 
