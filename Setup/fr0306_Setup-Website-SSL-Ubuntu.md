@@ -720,14 +720,21 @@ ssllabs.com/ssltest/
 ----
 #### 1. From the Bitvise New terminal console enter:
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Delete the highest number for 5000 first. Otherwise you may delete the wrong rule.
+  </div>  
+</div>  
+
+
 ```
 ufw status numbered 
 ```
 ```
-ufw delete 8
+ufw delete 10
 ```
 ```
-ufw delete 4
+ufw delete 5
 ```
 
 ![BitVise Close Port 5000](./images/fr0306-13_Ubuntu-Bitvise-Close-Port-5000.png "BitVise Close Port 5000")
