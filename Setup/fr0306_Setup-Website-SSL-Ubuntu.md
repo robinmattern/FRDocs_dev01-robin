@@ -374,7 +374,7 @@ cp -r /webs/simpleApp/etc/nginx/* /etc/nginx/
 cd /etc/nginx/sites-enabled
 ```
 ```
-ln -s ../sites-available/formR-xxx-00.com_all-apps.conf
+ln -s ../sites-available/formr-xxx-00.com_all-apps.conf
 ```
 
 ![BitVise nginx conf file](./images/fr0306-08_Ubuntu-Bitvise-nginx-conf-file1.png "BitVise nginx conf file")
