@@ -303,9 +303,10 @@ reboot
 ----
 ### 6. Enable SSH Login for Specific Users/IPs Only 0:10
 ----
-<div class="notice-tip">
-  <div class="notice-tip-header">
-    Note: If you change IP addresses, you must repeat this step for the new IP address.
+
+<div class="notice-warning">
+  <div class="notice-warning-header">
+    Important: If you don't have a fixed IP address, you should skip to step 6. Test local access to your Vultr formR VM. just below.
   </div>  
 </div>
 
@@ -340,9 +341,9 @@ AllowUsers nimda@xxx.xxx.xxx.xxx
 systemctl restart sshd
 ```
 
-#### - Test local access to your Vultr formR VM. 
+#### 6. Test local access to your Vultr formR VM. 
 
-#### 6. Get the VM IP address from your Vultr-FormR0 VM i.e 45.76.252.191
+- Get the VM IP address from your Vultr-FormR0 VM i.e 45.76.252.191
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
