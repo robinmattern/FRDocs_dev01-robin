@@ -479,20 +479,25 @@ To Your server IP address and Save
 ![BitVise Point DNS6](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS6.png "BitVise Point DN65")
 
 #### 13. Wait 10-15 minutes then 
-#### 14. Browse to your web site via http
+#### 14. Ping your URL
+
+- Open the command window on your workstation
+
+- Enter:
 
 ```
-http://formr-<your initials>-00.com
+ping formr-<your initials>-00.com
 ```
 
-- e.g http://formr-cbt-00.com
+- e.g ping formr-cbt-00.com
 
 
-![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
+![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Ping-URL.png "BitVise Browse your website")
 
 ----
 ### 9. Modify formr-xxx-00.com_all-apps.conf to use your new URL 0:05
 ----
+
 #### 1. Open Bitvise 
 #### 2. Load Profile: Vultr-FormR0-nimda.tlp
 #### 3. Login
@@ -514,6 +519,22 @@ http://formr-<your initials>-00.com
 ![BitVise simpleApp3](./images/fr0306-10_Ubuntu-Bitvise-simpleApp3.png "BitVise simpleApp3")
 
 #### 7. Save then close this file
+
+#### 8. Reboot from the Bitvise New terminal console (Bitvise will reconnect when server is back up)
+
+```
+reboot
+```
+
+#### 9. Browse to your URL
+
+```
+formr-<your initials>-00.com
+```
+
+e.g. formr-cbt-00.com
+
+![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
 
 ----
 ### 10. Personalize the formR Home Page 0:05
@@ -543,23 +564,23 @@ http://formr-<your initials>-00.com
 reboot
 ```
 
-#### 6. Browse to your IP e.g. 155.138.210.79:5000
+#### 6. Browse to your URL
 
 ```
-http:<your VM IP>:5000
+formr-<your initials>-00.com
 ```
+
+e.g. formr-cbt-00.com
 
 ![BitVise appjs3](./images/fr0306-10_Ubuntu-Bitvise-appjs3.png "BitVise appjs3")
-
-#### 7. Close Bitvise by clicking X in upper right corner
-
-![BitVise Close](./images/fr0306-13_Ubuntu-Bitvise-Close.png "BitVise Close")
 
 
 ----
 ### 11. Add SSL certificate using Letsencrypt 0:05
 ----
-#### 1. Open Bitvise New Terminal Console and enter (You might use notpad to build yourURL)
+#### 1. From Bitvise New Terminal Console 
+
+- Enter: (You might use notpad to build yourURL)
 
 ```
 certbot --nginx -d <yoururl>  
@@ -585,15 +606,27 @@ https://yoururl
 
 - e.g. https://formr-cbt-00.com
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: The Lock symbol indicates that an SSL Certificate is active
+  </div>  
+</div>  
+
 
 ![BitVise Browse with https](./images/fr0306-12_Ubuntu-Bitvise-Browse-with-https.png "BitVise Browse with https")
 
 ----
 ### 12. Disable TLSv1.0 and TLSv1.1 and enable TLSv1.3 protocols 0:10
 
-- This is for improved SSL security
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: This is for improved SSL security
+  </div>  
+</div>  
+
 ----
-#### 1. Edit nginx.conf
+#### 1. From Bitvise New Terminal Console edit nginx.conf
+
 
 ```
 nano /etc/nginx/nginx.conf
@@ -664,14 +697,7 @@ service nginx reload
 
 ![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS7.png "BitVise TLS")
 
-
-#### 9.  Close Bitvise by clicking X in upper right corner
-
-![BitVise Close](./images/fr0306-13_Ubuntu-Bitvise-Close.png "BitVise Close")
-
-
-
-#### 10. Test your SSL settings by browsing to:
+#### 9. Test your SSL settings by browsing to:
 
 ```
 ssllabs.com/ssltest/
