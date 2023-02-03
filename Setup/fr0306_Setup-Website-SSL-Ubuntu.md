@@ -442,7 +442,9 @@ e.g. formr-cbt-00.com
 #### 1. Login to your GoDaddy.com account
 #### 2. Click Your Account
 #### 3. Click My Products
-#### 4. Click YourURL e.g. formR-cbt-00.com
+#### 4. Click YourURL 
+
+- e.g. formr-cbt-00.com
 
 ![BitVise Point DNS](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS.png "BitVise Point DNS")
 
@@ -451,7 +453,7 @@ e.g. formr-cbt-00.com
 
 ![BitVise Point DNS1](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS1.png "BitVise Point DNS1")
 
-#### 7. Enter Your domain e.g. formR-cbt-00.com
+#### 7. Enter Your domain e.g. formr-cbt-00.com
 #### 8. Click it
 
 ![BitVise Point DNS2](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS2.png "BitVise Point DNS2")
@@ -489,7 +491,7 @@ http://formr-<your initials>-00.com
 ![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
 
 ----
-### 9. Modify formR-xxx-00.com_all-apps.conf to use your new URL 0:05
+### 9. Modify formr-xxx-00.com_all-apps.conf to use your new URL 0:05
 ----
 #### 1. Open Bitvise 
 #### 2. Load Profile: Vultr-FormR0-nimda.tlp
@@ -499,11 +501,13 @@ http://formr-<your initials>-00.com
 ```
 /etc/nginx/sites-available
 ```
-#### 5. On "formR-xxx-00.com_all-apps" right click and select Edit 
+#### 5. On "formr-xxx-00.com_all-apps" right click and select Edit 
 
 ![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
 
-#### 6. Change yourURL e.g. formR-cbt-00.com
+#### 6. Change yourURL 
+
+- e.g. formr-cbt-00.com
 
 ![BitVise simpleApp2](./images/fr0306-10_Ubuntu-Bitvise-simpleApp2.png "BitVise simpleApp2")
  
@@ -524,7 +528,9 @@ http://formr-<your initials>-00.com
 
 ![BitVise appjs1](./images/fr0306-10_Ubuntu-Bitvise-appjs1.png "BitVise appjs1")
 
-#### 3. Add something personal to the "Welcome to" line. e.g. Welcome to Bruce's formR 
+#### 3. Add something personal to the "Welcome to" line. 
+
+- e.g. Welcome to Bruce's formR 
 
 ![BitVise appjs2](./images/fr0306-10_Ubuntu-Bitvise-appjs2.png "BitVise appjs2")
  
@@ -559,9 +565,9 @@ http:<your VM IP>:5000
 certbot --nginx -d <yoururl>  
 ```
 
-- yoururl =  formR-yourinitials-00.com 
+- yoururl =  formr-yourinitials-00.com 
 
-- e.g. formR-cbt-00.com
+- e.g. formr-cbt-00.com
 
 #### 2. Enter your email address to get renewal notices and then Y to register:
 
@@ -577,7 +583,7 @@ certbot --nginx -d <yoururl>
 https://yoururl
 ```
 
-- e.g. https://formR-cbt-00.com
+- e.g. https://formr-cbt-00.com
 
 
 ![BitVise Browse with https](./images/fr0306-12_Ubuntu-Bitvise-Browse-with-https.png "BitVise Browse with https")
@@ -671,7 +677,7 @@ service nginx reload
 ssllabs.com/ssltest/
 ```
 
-- Enter your URL into Hostname e.g. formR-cbt.00.com
+- Enter your URL into Hostname e.g. formr-cbt.00.com
 
 ![SSL Test](./images/fr0306-11_Ubuntu-SSL-test1.png "SSL Test")
 
