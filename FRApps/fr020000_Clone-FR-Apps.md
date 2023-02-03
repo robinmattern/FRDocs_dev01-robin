@@ -72,10 +72,10 @@ dir
 
 ![FRApps-Clone-02](assets/images/clone/fr0103-FRApps-Clone-02.png "FRApps-Clone-02")
 
-#### 2. Enter the following in the terminal. (It will open VSCode)
+#### 2. Enter the following in the Windows command window. (It will open VSCode)
 
 ```
-code FRApps_student.code-workspace
+code FRApps.code-workspace
 ```
 
 - If prompted, click "Yes I trust the authors".
