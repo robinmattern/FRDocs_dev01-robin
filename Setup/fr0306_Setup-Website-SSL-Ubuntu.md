@@ -408,7 +408,7 @@ The GoDaddy web site changes frequently, so the screen shots below may not match
 </div>
 
 ----
-#### 1. Create a new Domain Name e.g. formR-cbt-00.com at GoDaddy.com. (cbt = my initials. Use yours or something else that is unique)
+#### 1. Create a new Domain Name e.g. formr-cbt-00.com at GoDaddy.com. (cbt = my initials. Use yours or something else that is unique)
 
 #### 2. Browse to
 
@@ -419,9 +419,9 @@ godaddy.com
 #### 3. Enter domain name
 
 ```
-formR-<your initials>-00.com
+formr-<your initials>-00.com
 ```
-e.g. formR-cbt-00.com
+e.g. formr-cbt-00.com
 
 
 ![Create Domain](./images/fr0306-09_Ubuntu-create-domain.png "Create Domain")
@@ -480,10 +480,10 @@ To Your server IP address and Save
 #### 14. Browse to your web site via http
 
 ```
-http://formR-<your initials>-00.com
+http://formr-<your initials>-00.com
 ```
 
-- e.g http://formR-cbt-00.com
+- e.g http://formr-cbt-00.com
 
 
 ![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
