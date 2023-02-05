@@ -129,8 +129,6 @@ git remote -v
 git remote remove origin
 ```
 
-*NEED PICTURE UPDATE*
-
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-04a.png "FRApps-Clone-03")
 
 - Change your remote to your personal github. 
@@ -159,8 +157,6 @@ git remote add origin your-github-hostname:your-github-name/FRApps
 ```
 git remote -v
 ```
-
-*NEED PICTURE UPDATE*
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-08.png "FRApps-Clone-03")
 
