@@ -103,7 +103,11 @@ then click the New green button (if you are not signed in the New button will no
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-01.png "FRApps-Clone-03")
 
 
-- Enter FRApps as a new repository and click the Create Repository green button
+- Enter FRApps as a new repository 
+
+- Check Add a README file
+
+- Click the Create Repository green button
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-02.png "FRApps-Clone-03")
 
@@ -161,32 +165,27 @@ git remote -v
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-08.png "FRApps-Clone-03")
 
 
-#### 6. Pull from your personal github FRApps repo to your local FRApps repo
+#### 6.  Push from your local FRApps repo to personal github FRApps 
 
 ```
-git pull origin
+git branch -M main
+```
+```
+git push -u origin main
 ```
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-09.png "FRApps-Clone-03")
 
-#### 7.  Push from your local FRApps repo to personal github FRApps repo
 
-```
-git push origin
-```
-
-![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-10.png "FRApps-Clone-03")
-
-
-#### 8. Confirm the transfer to your github FRApps repo
+#### 7. Confirm the transfer to your github FRApps repo
 
 - Refresh your browser.
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-11.png "FRApps-Clone-03")
 
-#### 9. Update author in package.json
+#### 8. Update author in package.json
 
-- Open package.json from the client folder and change the author from 8020data to your name
+- In VSCode open package.json from the client folder and change the author from 8020data to your name
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-12.png "FRApps-Clone-03")
 
