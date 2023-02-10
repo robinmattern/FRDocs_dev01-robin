@@ -10,7 +10,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 3.2 My HTML Custom App 3:00 <!-- {docsify-ignore} -->
+## 3.2 My HTML Custom App 2:10 <!-- {docsify-ignore} -->
 
 <div class="callout-tip-top"> Tip:
     <a href="FRApps_prod-master/client1/c10_background-and-purposes/Read.me" target="_blank">Link to Background and Purposes</a> 
@@ -168,7 +168,7 @@ Below is our outline.
 </div>
 <hr class="main-division">
 
-### *LAYOUT*
+### *A. LAYOUT* 0:60
 <br>
 Like many web sites (pages) we like to start with a very simple sketch; pencil drawn on a sheet of paper.  Here was our initial thoughts to build a very simple "block" structured web page.  We came very close in achieving our goal.<br><br>
 
@@ -2146,7 +2146,7 @@ You are now ready to *CUSTOMIZE*.  We will work together on our version of a for
 
 <hr class="main-division">
 
-### *CUSTOMIZATION*
+### *B. CUSTOMIZATION* 0:20
 
 - As previously mentioned, we will make some changes to our LAYOUT.<br>We will:
 <div class="custom-list-text">    
@@ -2161,7 +2161,7 @@ You are now ready to *CUSTOMIZE*.  We will work together on our version of a for
 
 ___
 
-### 1. Add Image to Section 1
+### 1. Add Image to Section 1 O:05
 
 - To add some pizzazz to your web site, we will include an image in Section 1.  This will require some modifications to your existing code in the index.<b>css</b> file.  
 
@@ -2250,7 +2250,7 @@ That's it! Check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%">
 
 ____
 
-### 2. Change To formR Logo
+### 2. Change To FormR Logo 0:05
 <br>
 Now lets add an image in place of the "PH Logo" in the Header. In the "<span class="doc-dir-text">assets/images</span>" directory there is a file (formr-logo-blue.gif) that we will add to the left side of the Header.
 <br>
@@ -2642,7 +2642,7 @@ Please check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chr
 ___
 
 
-### 3. Change Texts
+### 3. Change Texts 0:05
 
 - It is time to replace all of our <u><b>P</b></u>lace <u><b>H</b></u>older text.  We can do this by simply changing the texts in our index.**html** file. We will change the following:
 
@@ -2730,7 +2730,7 @@ Now let's see these changes in <img src="FRApps/assets/icons//ChromeIcon.png" wi
 <br><br>
 FINALLY, we will CUSTOMIZE with some color changes.
 
-### 4. Change Colors
+### 4. Change Colors 0:05
 <br>
 We were requested to change some colors for the next major lessons. No problem!
 <br><br>
@@ -2969,9 +2969,9 @@ reference in your <u>index.<b>html</b></u> file to match the name of your relati
 
 <br>
 
-### *DEPLOY TO INTERNET*
+### *C. DEPLOY TO INTERNET* 0:50
 
-### 1. Initial Clone 
+### 1. Initial Clone 0:20
 
 - We will install the App that we just finshed on the Ubuntu server
 
@@ -2989,36 +2989,18 @@ reference in your <u>index.<b>html</b></u> file to match the name of your relati
 <img class="fifty-percent" src="FRApps/assets/images/deploy/publish.jpg">
 <br><br>
 
-#### 2. Open VSCode new Terminal and connect to your remote Ubuntu server
+#### 2. Using Bitvise Login and open a New terminal console
 <br>
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/vscode-new-term.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/vscode-new-term.png">
 <br><br>
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/vscode-new-term1.jpg">
-<br><br>
-
-- Connect to your Vultr server using your .ssh
-vultr name (You created this in Build Workstation Step 3.) 
-
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/ssh-cong-vultr.jpg">
-<br><br>
-
-- enter into your new Terminal in VSCode
-
-```
-ssh vultr-FormR0-nimda
-```
-
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/vscode-term-ssh-login.jpg">
-<br><br>
-
-- From VSCode Terminal enter: 
+- From the New terminal console enter: 
 
 ```
 cd /webs
 ```
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/terminal-cd-webs.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/terminal-cd-webs.png">
 <br><br>
 
 #### 3. Login to your Github repository for FRApps and click the Code button
@@ -3040,9 +3022,8 @@ git clone <paste herethe copied https link from your personal Github>
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-note-paste.jpg">
 <br><br>
 
-```
-e.g. git clone https://github.com/brucetroutman-gmail/FRApps.git
-```
+- e.g. git clone https://github.com/brucetroutman-gmail/FRApps.git
+
 
 - Copy from Notepad 
 
@@ -3051,19 +3032,17 @@ e.g. git clone https://github.com/brucetroutman-gmail/FRApps.git
 
 - and paste into the VSCode Terminal and execute the clone process.
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-clone.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-clone.png">
 <br><br>
 
-#### 4. Using Bitvise Login and open an SFTP window 
+#### 4. In Bitvise open an SFTP window 
 <br>
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/bitvise-login.jpg">
-<br><br>
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/bitvise-sftp.jpg">
 <br><br>
 
 
-- Navigate to:
+- In the Remote column navigate to:
 
 ```
 /etc/nginx/apps-enabled
@@ -3098,34 +3077,28 @@ formr-xxx-00.com_my-html-remote-app.conf
 ```
 location    /my-html-remote-app {      
 
-    alias       /webs/FRApps/client1/2c1_my-html-remote-app/;      
+    alias       /webs/FRApps/client1/c11_my-html-custom-app/;      
 
 }   
 ```
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-note-paste-conf.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-note-paste-conf.png">
 <br><br>
 
 - Save the file
 
-#### 7. In VSCode Terminal enter:
+#### 7. In Bitvise New terminal console enter:
 
-```
-systemctl restart nginx 
-```
-then
-```
-pm2 restart app
-```
-
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-restart.jpg">
-<br>
-
-then
 ```
 reboot
 ```
+
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-restart.png">
+<br>
+
 #### 8. Browse to your server:
+
+- Wait 1 minute until the server reboots then browse to:
 
 ```
 https://formr-cbt-00.com/my-html-remote-app
@@ -3134,7 +3107,7 @@ https://formr-cbt-00.com/my-html-remote-app
 <br><br>
 
 
-### 2. Update Your App
+### 2. Personalize Your App in VSCode 0.15
 
 #### 1. Modify index.html in VSCode
 <br>
@@ -3158,10 +3131,10 @@ Replace "My Image & Text" with (use your name)
 <img src="FRApps/assets/images/deploy/sync-sect1.jpg">
 <br><br>
 
-#### 3. In VSCode Terminal enter: 
+#### 3. In Bitvise New terminal console enter: 
 
 ```
-cd /webs/FRApps/client1/2c1_my-html-remote-app
+cd /webs/FRApps/client1/c11_my-html-custom-app
 ```
 
 then
@@ -3170,7 +3143,7 @@ then
 git pull
 ```
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-git-pull.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-git-pull.png">
 <br><br>
 
 #### 4. Browse to your server:
@@ -3182,7 +3155,7 @@ https://formr-cbt-00.com/my-html-remote-app
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/browse-changed-sect1.jpg">
 <br><br>
 
-### 3. Change Your Home Page
+### 3. Change Your Home Page 0:15
 
 - We will change your home page from simpleApp to my-html-remote-app
 
@@ -3203,7 +3176,7 @@ and replace everything with:
 ```
 location      / {      
 
-    alias       /webs/FRApps/client1/2c1_my-html-remote-app/;      
+    alias       /webs/FRApps/client1/c11_my-html-custom-app/;      
 
 }   
 ```
@@ -3241,27 +3214,23 @@ location    =  /simpleapp  {
 
 - Save the file
 
-#### 3. In VSCode Terminal enter:
+#### 3. In Bitvise terminal console enter:
 
 ```
-systemctl restart nginx 
-```
-then
-```
-pm2 restart app
+reboot
 ```
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-restart.jpg">
-<br><br>
-
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-restart.png">
+<br>
 
 
 #### 4. Browse to your server:
 
+- Wait 1 minute until the derver reboots then browse to:
+
 - To now get to simpleApp
 
 ```
-
 https://formr-cbt-00.com/simpleapp
 
 ```
@@ -3269,10 +3238,9 @@ https://formr-cbt-00.com/simpleapp
 <br><br>
 
 
-- Your homepage is now your html remote app
+- Your new homepage is now your html remote app
 
 ```
-
 https://formr-cbt-00.com
 
 ```
@@ -3281,7 +3249,7 @@ https://formr-cbt-00.com
 <br>
 
 <hr>
-Your next journey will be to add some very cool functions to our web page using JavaScript.
+Your next journey will be to add some very cool functionality to our web page using JavaScript.
 <br><br>
 
 <div class="final">
