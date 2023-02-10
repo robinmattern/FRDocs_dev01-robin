@@ -14,7 +14,7 @@
 5.  [Install Data Server ](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 6.  [Run Website SSL ](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 
-<h>3. Customize FRApps 3:45</h>
+<h>3. Customize FRApps 2:55</h>
 
 1. [Clone FRApps ](/FRApps/fr020000_Clone-FR-Apps.md)
 2. [My HTML Custom App       ](/FRApps/fr020100_My-HTML-Custom.md)
