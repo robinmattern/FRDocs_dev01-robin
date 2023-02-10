@@ -178,7 +178,7 @@ Our original sketch...
 </div>
 
 ----
-### 1. Create Basic Blocks
+### 1. Create Basic Blocks 0:10
 
 - We will begin this Custom App by simply copying & pasting the code below into  your empty <b>html</b> and <b>css</b> files.  The results will be 4 very basic blocks that sit on top of each other.  Let's start by reviewing the files in your [<font color='red'>repos</font>]itory.
 
@@ -192,7 +192,7 @@ Our original sketch...
     + index.<b>css</b><br>
 - Both should be empty 
 - If they are not empty, simply press "ctrl-a" to highlight all the text, then press "delete"
-- <span class="doc-dir-text">IT IS VERY IMPORTANT THATbmp YOU START OFF WITH THESE TWO FILES BEING EMPTY</span>
+- <span class="doc-dir-text">IT IS VERY IMPORTANT THAT YOU START OFF WITH THESE TWO FILES BEING EMPTY</span>
 
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
@@ -558,7 +558,7 @@ To understand a <u><i>little</i></u> of this CSS code, let's look at the .Header
 
 ____
 
-### 2. Modify to Large Blocks  
+### 2. Modify to Large Blocks 0:10 
 
 - Next, we will add to your existing code in the index.<b>css</b> file to continue building on our basic web page.  We will fill the web page up with our 4 blocks; one block on top of the next block.  They will be "Large Blocks."
 <br><br>
@@ -876,7 +876,7 @@ Maximize your web site screen to see how this looks.  Return to your "working" s
 
 
 ----
-### 3. Modify Header 
+### 3. Modify Header 0:10
 <br>
 <div class="callout-tip">
 From our original sketch:
@@ -1323,7 +1323,7 @@ Please check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chr
 </div>
 
 ----
-### 4. Modify Footer 
+### 4. Modify Footer 0:05
 <br>
 <div class="callout-tip">
 From the original sketch:
@@ -1480,7 +1480,7 @@ Please check your Chrome browser to see your web page thus far:
 
 ____
 
-### 5. Add Text
+### 5. Add Text 0:10
 
 #### Add Text Overlay
 <br>
@@ -1664,7 +1664,7 @@ Check <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  This p
 
 ___
 
-### 6. Add "Wiggle" Button <!--<img class="wiggle-me" style="width:20%;" src="FRApps/assets/images/md-images/WiggleButtonPH-CTA.jpg">-->
+### 6. Add "Wiggle" Button 0:05 <!--<img class="wiggle-me" style="width:20%;" src="FRApps/assets/images/md-images/WiggleButtonPH-CTA.jpg">-->
 <br>
 
 <div class="callout-tip">
@@ -1748,7 +1748,7 @@ ___
 
 ___
 
-### 7. Make Responsive
+### 7. Make Responsive 0:10
 
 - A very smart programmer once told me that you code your web page for a hand-held device first, the desk top second.
 
@@ -2163,7 +2163,7 @@ ___
 
 ### 1. Add Image to Section 1
 
-- To add some pazzazz to your web site, we will include an image in Section 1.  This will require some modifications to your existing code in the index.<b>css</b> file.  
+- To add some pizzazz to your web site, we will include an image in Section 1.  This will require some modifications to your existing code in the index.<b>css</b> file.  
 
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
@@ -3006,7 +3006,7 @@ vultr name (You created this in Build Workstation Step 3.)
 - enter into your new Terminal in VSCode
 
 ```
-ssh vultr-formr0-nimda
+ssh vultr-FormR0-nimda
 ```
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/vscode-term-ssh-login.jpg">
@@ -3119,9 +3119,12 @@ pm2 restart app
 ```
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-restart.jpg">
-<br><br>
+<br>
 
-
+then
+```
+reboot
+```
 #### 8. Browse to your server:
 
 ```
