@@ -183,55 +183,8 @@ git push -u origin main
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-11.png "FRApps-Clone-03")
 
-#### 8. Update author in package.json
-
-- In VSCode open package.json from the client folder and change the author from 8020data to your name
-
-![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-12.png "FRApps-Clone-03")
-
-- Open package.json from the server folder and change the author from 8020data to your name
-
-![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-13.png "FRApps-Clone-03")
-
 
 ----
-### 2. Install Node modules  0:15
-----
-#### 1. Right click on the client folder
-
-#### 2. Click Open in Integrated Terminal and click in the Terminal window, then enter 
-
-![FRApps-Clone-04](assets/images/clone/fr0103-FRApps-Clone-04.png "FRApps-Clone-04")
-
-```
-npm install
-```
-
-![FRApps-Clone-05](assets/images/clone/fr0103-FRApps-Clone-05.png "FRApps-Clone-05")
-
-#### 3. Test for production vulnerabilities
-
-
-```
-npm audit --production
-```
-
-![FRApps-Clone-06](assets/images/clone/fr0103-FRApps-Clone-06b.png "FRApps-Clone-06")
-
-#### 4. Right click on the server folder
-
-#### 5. Click Open in Integrated Terminal and click in the Terminal window, then enter 
-
-![FRApps-Clone-07](assets/images/clone/fr0103-FRApps-Clone-07.png "FRApps-Clone-07")
-
-```
-npm install 
-```
-
-![FRApps-Clone-08](assets/images/clone/fr0103-FRApps-Clone-08.png "FRApps-Clone-08")
-
-![FRApps-Clone-09](assets/images/clone/fr0103-FRApps-Clone-09.png "FRApps-Clone-09")
-
 
 
 
