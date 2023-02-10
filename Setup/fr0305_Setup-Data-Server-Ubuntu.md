@@ -48,11 +48,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 ### 1. Restart your Vultr VM and Login 0:05
 
 ----
-#### 1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
-
-![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
-
-![Restart VM](./images/fr0300-01_restart-vm1.png "Restart VM")
+#### 1. Open Bitvise and click Login
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
@@ -73,6 +69,7 @@ reboot
 #### 4. From Bitvise click New terminal console
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
+
 
 <div class="notice-tip">
   <div class="notice-tip-header">
@@ -101,6 +98,29 @@ mysql --version
 
 ![Check MySQL](./images/fr0305-02_Ubuntu-check-mysql.png "Check MySQL")
 
+#### 3. Create root password
+
+- Enter:
+
+```
+mysql
+```
+
+- then
+
+```
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'FormR!1234';
+
+```
+
+- then
+
+```
+exit
+```
+
+![Check MySQL](./images/fr0305-02_Ubuntu-root-password.png "Check MySQL")
+
 ----
 ### 3. Secure MySQL 0:10
 ----
@@ -110,15 +130,14 @@ mysql --version
 mysql_secure_installation
 ```
 
-- Add VALIDATE PASSWORD PLUGIN: Yes
+- Add VALIDATE PASSWORD PLUGIN: Y
 - Enter a "password validation policy level": 2
-- Enter a password for the user, root, to login to MySQL: FormR!1234
-
-- Enter to save password: Yes
-- Remove anonymous users? Yes
+- Change Password for root N
+- Enter to save password: Y
+- Remove anonymous users? Y
 - Disallow root login remotely? No (Yes on a production server)
-- Remove test database and access to it? No 
-- Reload privilege tables now? Yes
+- Remove test database and access to it? N 
+- Reload privilege tables now? Y
 
 
 ![Secure MySQL](./images/fr0305-03_Ubuntu-secure-mysql.png "Secure MySQL")
@@ -179,13 +198,13 @@ ufw status
 </div>
  
 
-#### 7. From the  New terminal console prompt enter:
+#### 7. From the New terminal console prompt enter:
 
 ```
 mysql -p
 ```
 
-#### 8. Enter : the root password -> FormR!1234
+#### 8. Enter the root password 
 
 - Password:
 
@@ -199,8 +218,7 @@ FormR!1234
 #### 9. Enter the following from the mysql prompt:
 
 ```
-CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'FormR!1234
-';
+CREATE USER 'nimdas'@'%' IDENTIFIED WITH mysql_native_password BY 'FormR!1234';
 ```
 ```
 GRANT ALL PRIVILEGES ON *.* TO 'nimdas'@'%';
@@ -210,7 +228,7 @@ SELECT user,authentication_string,plugin,host FROM mysql.user;
 ```
 ![Mysql-setup-create-admin](./images/fr0305-07_Ubuntu-create-admin-mysql.png "Mysql-setup-create-admin")
 
-#### 10. Exit mysql
+#### 10. Quit mysql
 ```
 mysql> \quit
 ```

@@ -14,10 +14,13 @@
 5.  [Install Data Server ](/Setup/fr0305_Setup-Data-Server-Ubuntu.md)
 6.  [Run Website SSL ](/Setup/fr0306_Setup-Website-SSL-Ubuntu.md)
 
-<h>3. Customize FRApps</h>
+<h>3. Customize FRApps 3:45</h>
 
 1. [Clone FRApps ](/FRApps/fr020000_Clone-FR-Apps.md)
 2. [My HTML Custom App       ](/FRApps/fr020100_My-HTML-Custom.md)
+
+<h>The Following Sections are not Complete:</h>
+
 3. [My Javascript Custom App ](/FRApps/fr020200_My-Javascript-Custom-App.md)
 4. [My Lit Custom App      ](/FRApps/fr020300_My-React-React-App.md)
 5. [My React Custom App      ](/FRApps/fr020300_My-React-React-App.md)

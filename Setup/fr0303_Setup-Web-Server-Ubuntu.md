@@ -47,11 +47,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 ----
  ### 1. Restart your Vultr VM and Login 0:05
 ----
-#### 1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
-
-![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
-
-![Restart VM](./images/fr0300-01_restart-vm1.png "Restart VM")
+#### 1. Open Bitvise and click Login
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 

@@ -10,7 +10,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 3.2 My HTML Custom App h:mm <!-- {docsify-ignore} -->
+## 3.2 My HTML Custom App 3:00 <!-- {docsify-ignore} -->
 
 <div class="callout-tip-top"> Tip:
     <a href="FRApps_prod-master/client1/c10_background-and-purposes/Read.me" target="_blank">Link to Background and Purposes</a> 
@@ -192,7 +192,7 @@ Our original sketch...
     + index.<b>css</b><br>
 - Both should be empty 
 - If they are not empty, simply press "ctrl-a" to highlight all the text, then press "delete"
-- <span class="doc-dir-text">IT IS VERY IMPORTANT THAT YOU START OFF WITH THESE TWO FILES BEING EMPTY</span>
+- <span class="doc-dir-text">IT IS VERY IMPORTANT THATbmp YOU START OFF WITH THESE TWO FILES BEING EMPTY</span>
 
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
 

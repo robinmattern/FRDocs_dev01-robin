@@ -55,15 +55,11 @@ Hover over the snippet and click copy, then paste as appropriate.
 ### 1. Restart your Vultr VM and Login 0:05
 
 ----
-#### 1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
-
-![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
-
-![Restart VM](./images/fr0300-01_restart-vm1.png "Restart VM")
+#### 1. Open Bitvise and click Login
 
 ![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
-2. Click New terminal console
+#### 2. Click New terminal console
 
 ![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
@@ -72,9 +68,21 @@ Hover over the snippet and click copy, then paste as appropriate.
 ```
 reboot
 ```
+
 ![Restart VM](./images/fr0300-01_restart-vm4.png "Restart VM")
 
 - Close the Terminal window and wait for Bitvise to automatically login
+
+#### 4. From Bitvise click New terminal console
+
+![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
+
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: To paste commands into the terminal, right-click at the terminal prompt
+  </div>  
+</div>  
 
 ----
 ### 2. Configure Login via Public Key (SSH keys are more secure than passwords) 0:15
@@ -100,7 +108,10 @@ reboot
 ![BitVise Create File authorized_keys2](./images/fr0306-05_Ubuntu-Bitvise-Create-File-authorized_keys2.png "BitVise Create File authorized_keys2") 
 
 #### 5. In Local files panes (left)
-#### 6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for Vultr_formR0_nimda
+#### 6. Navigate to C:/users/Local_Admin/.ssh and edit the public key (.pub) file for Vultr_formR0_your initials
+
+- e.g. Vultr_formR0_btg_v210703_key.pub
+
 #### 7. Right click and select Edit
 
 
@@ -143,6 +154,9 @@ reboot
 #### 18. Navigate to Local-Admin/.ssh folder
 #### 19. Select 'All files' in the Bitvise Keypair drop down then 
 #### 20. Select the Private key file that matched the previously used Public key then 
+
+- e.g. Vultr_formR0_btg_v210703_key
+
 #### 21. Click Open
 #### 22. Click Import in the Import Client Key window
 
@@ -161,10 +175,23 @@ reboot
 
 ![BitVise Select Client Key](./images/fr0306-05_Ubuntu-Bitvise-Select-Client-Key.png "BitVise Select Client Key")
 
-#### IMPORTANT -- Click Save Profile !!!
-</br>
+- Click Logout
+
+<div class="notice-warning">
+  <div class="notice-warning-header">
+    IMPORTANT -- Click Save Profile As !!!
+  </div>
+</div>
 
 ![BitVise Save Profile](./images/fr0306-05_Ubuntu-Bitvise-Save-Profile.png "BitVise Save Profile")
+
+- Enter:
+
+```
+C:\Users\Local_Admin\Documents\Vultr-FormR0-nimda.tlp
+```
+
+![BitVise Save Profile1](./images/fr0306-05_Ubuntu-Bitvise-Save-Profile1.png "BitVise Save Profile1")
 
 - Select - Any account on this computer - and click OK
 
@@ -183,7 +210,7 @@ C:\Users\Local_Admin\.ssh
 - then paste in the following:
 
 ```
-Host vultr-formR0-nimda
+Host vultr-FormR0-nimda
     HostName       <paste your formR0 server IP address here>
     IdentityFile   C:/Users/Local_Admin/.ssh/<paste your key here>
     User           nimda
@@ -202,7 +229,7 @@ Host vultr-formR0-nimda
 - From the Windows Command prompt enter:
 
 ```
-ssh vultr-formR0-nimda
+ssh vultr-FormR0-nimda
 ```
 
 ![ssh-key-to-vultr](./images/fr0306-06_Ubuntu-ssh-key-to-vultr2.png "ssh-key-to-vultr")
@@ -231,10 +258,7 @@ unlink /etc/nginx/sites-enabled/default
 cd /webs 
 ```
 ```
-git clone https://github.com/8020Data/simpleApp.```
-```
-```
-git simpleApp
+git clone https://github.com/8020Data/simpleApp
 ```
 
 -  Confim clone
@@ -350,7 +374,7 @@ cp -r /webs/simpleApp/etc/nginx/* /etc/nginx/
 cd /etc/nginx/sites-enabled
 ```
 ```
-ln -s ../sites-available/formR-xxx-00.com_all-apps.conf
+ln -s ../sites-available/formr-xxx-00.com_all-apps.conf
 ```
 
 ![BitVise nginx conf file](./images/fr0306-08_Ubuntu-Bitvise-nginx-conf-file1.png "BitVise nginx conf file")
@@ -384,7 +408,7 @@ The GoDaddy web site changes frequently, so the screen shots below may not match
 </div>
 
 ----
-#### 1. Create a new Domain Name e.g. formR-cbt-00.com at GoDaddy.com. (cbt = my initials. Use yours or something else that is unique)
+#### 1. Create a new Domain Name e.g. formr-cbt-00.com at GoDaddy.com. (cbt = my initials. Use yours or something else that is unique)
 
 #### 2. Browse to
 
@@ -395,9 +419,9 @@ godaddy.com
 #### 3. Enter domain name
 
 ```
-formR-<your initials>-00.com
+formr-<your initials>-00.com
 ```
-e.g. formR-cbt-00.com
+e.g. formr-cbt-00.com
 
 
 ![Create Domain](./images/fr0306-09_Ubuntu-create-domain.png "Create Domain")
@@ -418,7 +442,9 @@ e.g. formR-cbt-00.com
 #### 1. Login to your GoDaddy.com account
 #### 2. Click Your Account
 #### 3. Click My Products
-#### 4. Click YourURL e.g. formR-cbt-00.com
+#### 4. Click YourURL 
+
+- e.g. formr-cbt-00.com
 
 ![BitVise Point DNS](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS.png "BitVise Point DNS")
 
@@ -427,7 +453,7 @@ e.g. formR-cbt-00.com
 
 ![BitVise Point DNS1](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS1.png "BitVise Point DNS1")
 
-#### 7. Enter Your domain e.g. formR-cbt-00.com
+#### 7. Enter Your domain e.g. formr-cbt-00.com
 #### 8. Click it
 
 ![BitVise Point DNS2](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS2.png "BitVise Point DNS2")
@@ -453,39 +479,62 @@ To Your server IP address and Save
 ![BitVise Point DNS6](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS6.png "BitVise Point DN65")
 
 #### 13. Wait 10-15 minutes then 
-#### 14. Browse to your web site via http
+#### 14. Ping your URL
+
+- Open the command window on your workstation
+
+- Enter:
 
 ```
-http://formR-<your initials>-00.com
+ping formr-<your initials>-00.com
 ```
 
-- e.g http://formR-cbt-00.com
+- e.g ping formr-cbt-00.com
 
 
-![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
+![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Ping-URL.png "BitVise Browse your website")
 
 ----
-### 9. Modify formR-xxx-00.com_all-apps.conf to use your new URL 0:05
+### 9. Modify formr-xxx-00.com_all-apps.conf to use your new URL 0:05
 ----
+
 #### 1. Open Bitvise 
-#### 2. Load Profile: Vultr-formR0-nimda.tlp
+#### 2. Load Profile: Vultr-FormR0-nimda.tlp
 #### 3. Login
 #### 4. From your Bitvise SFTP window navigate to 
 
 ```
 /etc/nginx/sites-available
 ```
-#### 5. On "formR-xxx-00.com_all-apps" right click and select Edit 
+#### 5. On "formr-xxx-00.com_all-apps" right click and select Edit 
 
 ![BitVise simpleApp1](./images/fr0306-10_Ubuntu-Bitvise-simpleApp1.png "BitVise simpleApp1")
 
-#### 6. Change yourURL e.g. formR-cbt-00.com
+#### 6. Change yourURL 
+
+- e.g. formr-cbt-00.com
 
 ![BitVise simpleApp2](./images/fr0306-10_Ubuntu-Bitvise-simpleApp2.png "BitVise simpleApp2")
  
 ![BitVise simpleApp3](./images/fr0306-10_Ubuntu-Bitvise-simpleApp3.png "BitVise simpleApp3")
 
 #### 7. Save then close this file
+
+#### 8. Reboot from the Bitvise New terminal console (Bitvise will reconnect when server is back up)
+
+```
+reboot
+```
+
+#### 9. Browse to your URL
+
+```
+formr-<your initials>-00.com
+```
+
+e.g. formr-cbt-00.com
+
+![BitVise Browse your website](./images/fr0306-10_Ubuntu-Bitvise-Browse-your-website.png "BitVise Browse your website")
 
 ----
 ### 10. Personalize the formR Home Page 0:05
@@ -500,7 +549,9 @@ http://formR-<your initials>-00.com
 
 ![BitVise appjs1](./images/fr0306-10_Ubuntu-Bitvise-appjs1.png "BitVise appjs1")
 
-#### 3. Add something personal to the "Welcome to" line. e.g. Welcome to Bruce's formR 
+#### 3. Add something personal to the "Welcome to" line. 
+
+- e.g. Welcome to Bruce's formR 
 
 ![BitVise appjs2](./images/fr0306-10_Ubuntu-Bitvise-appjs2.png "BitVise appjs2")
  
@@ -513,31 +564,31 @@ http://formR-<your initials>-00.com
 reboot
 ```
 
-#### 6. Browse to your IP e.g. 155.138.210.79:5000
+#### 6. Browse to your URL
 
 ```
-http:<your VM IP>:5000
+formr-<your initials>-00.com
 ```
+
+e.g. formr-cbt-00.com
 
 ![BitVise appjs3](./images/fr0306-10_Ubuntu-Bitvise-appjs3.png "BitVise appjs3")
-
-#### 7. Close Bitvise by clicking X in upper right corner
-
-![BitVise Close](./images/fr0306-13_Ubuntu-Bitvise-Close.png "BitVise Close")
 
 
 ----
 ### 11. Add SSL certificate using Letsencrypt 0:05
 ----
-#### 1. Open Bitvise New Terminal Console and enter (You might use notpad to build yourURL)
+#### 1. From Bitvise New Terminal Console 
+
+- Enter: (You might use notpad to build yourURL)
 
 ```
 certbot --nginx -d <yoururl>  
 ```
 
-- yoururl =  formR-yourinitials-00.com 
+- yoururl =  formr-yourinitials-00.com 
 
-- e.g. formR-cbt-00.com
+- e.g. formr-cbt-00.com
 
 #### 2. Enter your email address to get renewal notices and then Y to register:
 
@@ -553,7 +604,13 @@ certbot --nginx -d <yoururl>
 https://yoururl
 ```
 
-- e.g. https://formR-cbt-00.com
+- e.g. https://formr-cbt-00.com
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: The Lock symbol indicates that an SSL Certificate is active
+  </div>  
+</div>  
 
 
 ![BitVise Browse with https](./images/fr0306-12_Ubuntu-Bitvise-Browse-with-https.png "BitVise Browse with https")
@@ -561,9 +618,15 @@ https://yoururl
 ----
 ### 12. Disable TLSv1.0 and TLSv1.1 and enable TLSv1.3 protocols 0:10
 
-- This is for improved SSL security
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: This is for improved SSL security
+  </div>  
+</div>  
+
 ----
-#### 1. Edit nginx.conf
+#### 1. From Bitvise New Terminal Console edit nginx.conf
+
 
 ```
 nano /etc/nginx/nginx.conf
@@ -634,20 +697,13 @@ service nginx reload
 
 ![BitVise TLS](./images/fr0306-13_Ubuntu-Bitvise-TLS7.png "BitVise TLS")
 
-
-#### 9.  Close Bitvise by clicking X in upper right corner
-
-![BitVise Close](./images/fr0306-13_Ubuntu-Bitvise-Close.png "BitVise Close")
-
-
-
-#### 10. Test your SSL settings by browsing to:
+#### 9. Test your SSL settings by browsing to:
 
 ```
 ssllabs.com/ssltest/
 ```
 
-- Enter your URL into Hostname e.g. formR-cbt.00.com
+- Enter your URL into Hostname e.g. formr-cbt.00.com
 
 ![SSL Test](./images/fr0306-11_Ubuntu-SSL-test1.png "SSL Test")
 
@@ -664,14 +720,21 @@ ssllabs.com/ssltest/
 ----
 #### 1. From the Bitvise New terminal console enter:
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Delete the highest number for 5000 first. Otherwise you may delete the wrong rule.
+  </div>  
+</div>  
+
+
 ```
 ufw status numbered 
 ```
 ```
-ufw delete 8
+ufw delete 10
 ```
 ```
-ufw delete 4
+ufw delete 5
 ```
 
 ![BitVise Close Port 5000](./images/fr0306-13_Ubuntu-Bitvise-Close-Port-5000.png "BitVise Close Port 5000")

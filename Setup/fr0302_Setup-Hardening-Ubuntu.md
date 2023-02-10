@@ -25,6 +25,7 @@
 
 #### Introduction <!-- {docsify-ignore} -->
 - When you secure a server on the internet it is called "hardening". 
+
 - In this step you will perform a number of tasks that will make it very difficult for malicious people to harm your server.
 
 <details class="details-style">
@@ -42,20 +43,17 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 </div>
 </details>
+
 ----
 ### 1. Restart your Vultr VM and Login 0:05
 ----
-#### 1. Open Bitvise and Load profile for Vultr-formR0-root and click Login
+#### 1. Open Bitvise and click Login
 
-![Restart VM](./images/fr0300-01_restart-vm.png "Restart VM")
-
-![Restart VM](./images/fr0300-01_restart-vm1.png "Restart VM")
-
-![Restart VM](./images/fr0300-01_restart-vm2-root.png "Restart VM")
+![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
 
 #### 2. Click New terminal console
 
-![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console-root.png "Restart VM")
+![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
 
 #### 3. Enter:
 
@@ -69,19 +67,26 @@ reboot
 
 #### 4. From Bitvise click New terminal console
 
-![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console-root.png "Restart VM")
+![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
+
 
 <div class="notice-tip">
   <div class="notice-tip-header">
-    Note: To paste commands into the terminal, right-click at the terminal prompt 
+    Note: To paste commands into the terminal, right-click at the terminal prompt
   </div>  
-</div>
+</div>  
 
 ----
 ### 2. Create a new sudo user 0:05
 ----
 
 #### 1. Create a new user alias with root privileges. This user will login remotely.
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: The nimda account wiil have remote access to your server only from your workstation IP address. If you change IP addresses, you must add the new IP address by following the step: Enable SSH Login for Specific Users/IPs.
+  </div>  
+</div>
 
 ```
 useradd -ou 0 -g 0 -d /root -s /bin/bash -G sudo nimda
@@ -179,6 +184,18 @@ systemctl status unattended-upgrades
 
 #### 3. Using the nano editor, modify apt.conf.d/50unattended-upgrades
 
+<div class="notice-warning">
+  <div class="notice-warning-header">
+    Important Tip: Pasting into the nano editor
+  </div>
+
+- To paste from the clipboard into nano
+hold the shift key and right click
+
+</div>
+
+
+
 ```
 nano /etc/apt/apt.conf.d/50unattended-upgrades
 ```
@@ -216,7 +233,7 @@ Unattended-Upgrade::Automatic-Reboot-Time "02:30";
 nano /etc/apt/apt.conf.d/20auto-upgrades
 ```
 
-#### 8. Add these lines:
+#### 8. Add these lines: (shift+right click to paste into nano)
 ```
 APT::Periodic::Update-Package-Lists "1";
 APT::Periodic::Download-Upgradeable-Packages "1";
@@ -250,7 +267,7 @@ reboot
 
 - Close the terminal window and Bitvise will automatically reconnect
 
-- Open a New terminal window
+- Open a New terminal console
 
 ----
 ### 5. Secure Shared Memory 0:05
@@ -284,8 +301,15 @@ reboot
 - Open a New terminal window
 
 ----
-### 6. Enable SSH Login for Specific Users Only 0:10
+### 6. Enable SSH Login for Specific Users/IPs Only 0:10
 ----
+
+<div class="notice-warning">
+  <div class="notice-warning-header">
+    Important: If you don't have a fixed IP address, you should skip to step 6. Test local access to your Vultr formR VM. just below.
+  </div>  
+</div>
+
 #### 1. Get your IP address at:
 
 ```
@@ -317,9 +341,9 @@ AllowUsers nimda@xxx.xxx.xxx.xxx
 systemctl restart sshd
 ```
 
-#### - Test local access to your Vultr formR VM. 
+#### 6. Test local access to your Vultr formR VM. 
 
-#### 6. Get the VM IP address from your Vultr-formR0 VM i.e 45.76.252.191
+- Get the VM IP address from your Vultr-FormR0 VM i.e 45.76.252.191
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 
@@ -336,18 +360,19 @@ ssh nimda@<your VM IP address>
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers2.png "SSH-AllowUsers")
 
 #### 9. Enter the password: FormR!1234
-
+<br/>
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
 
 #### 10. Logout of Bitvise and then change the Username and Password and Login
 
-Username:
+- Username:
+
 ```
 nimda
 ```
 
-Password:
+- Password:
 
 ```
  FormR!1234
@@ -372,7 +397,7 @@ Password:
 nano /etc/issue.net
 ```
 
-#### 2. - Remove the "Ubuntu..." line and add the following warning message
+#### 2. - Remove the "Ubuntu..." line and add the following warning message (shift+right click to paste into nano)
 
 ```
 ************************************************************************
@@ -435,6 +460,13 @@ systemctl restart sshd
 ----
 ### 8. Install Fail2ban 0:10
 ----
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Fail2Ban blocks access after X failed attempts. X is set in the configuration file.
+  </div>  
+</div>
+
 #### 1. Install (Enter Y or y to continue, if asked.)
 
 ```
@@ -627,7 +659,7 @@ cd /etc/lynis
 ----
 #### 1. Test local access to your Vultr formR VM. 
 
-#### 2. Get the VM IP address from your Vultr-formR0 VM
+#### 2. Get the VM IP address from your Vultr-FormR0 VM
 
 ![GetVultrIP](./images/fr0302-12_Get-Vultr-IP.png "GetVultrIP")
 

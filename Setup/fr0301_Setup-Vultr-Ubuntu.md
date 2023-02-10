@@ -24,12 +24,12 @@
 </div>
 
 #### Introduction <!-- {docsify-ignore} -->
-- In order to test our formR apps on the Internet  we will create an Ubuntu server on the cloud provider, Vultr.com. 
+- In order to test our formR apps on the Internet [label](http://localhost:5502/#%2FSetup%2Ffr0302_Setup-Hardening-Ubuntu%3Fid%3D_5-uncomment-and-modify-note-use-your-down-arrow-to-find-these-items-they-are-near-the-bottom-of-the-file) we will create an Ubuntu server on the cloud provider, Vultr.com. 
 - Vultr costs under $10 per month. 
 - Please use the following link when you begin:
 
 ```
-https://www.vultr.com/?ref=8778592
+https://www.vultr.com/?ref=9024374-8H
 ```
 
 <details class="details-style">
@@ -57,14 +57,14 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 <div class="notice-tip">
   <div class="notice-tip-header">
-    Note: the ref=8778592 below tells Vultr and us that you are doing the formR tutorial.
+    Note: the ref=9024374-8H below tells Vultr and us that you are doing the formR tutorial.
   </div>  
 </div>
 
 - Browse to:
 
 ```
-https://www.vultr.com/?ref=8778592
+https://www.vultr.com/?ref=9024374-8H
 ```
 
 #### 2. Deploy New Server 
@@ -136,8 +136,44 @@ https://www.vultr.com/?ref=8778592
 
 ![Vultr Installing](./images/fr0301-08_Vultr-Installing.png "Installing")
 
+#### 12. Connect from Your Workstation via ssh
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Info: This connection confirms your access from workstation to server.</a> 
+  </div>
+</div>
+
+- Open a command window on your workstation
+
+![Vultr ssh 1](./images/fr0301-09_Vultr-ssh1.png "Vultr ssh1")
+
+- At the command prompt enter:
+
+```
+ssh root@(your Vultr server ip address-copy from Vultr)
+```
+
+![Vultr ssh 2](./images/fr0301-09_Vultr-ssh2.png "Vultr ssh2")
+
+- Enter yes for Continue connecting
+
+![Vultr ssh 3](./images/fr0301-09_Vultr-ssh3.png "Vultr ssh3")
+
+- Enter your Vultr password (copy from Vultr)
+
+![Vultr ssh 4](./images/fr0301-09_Vultr-ssh4.png "Vultr ssh4")
+
+- Right click in the command window and Edit Paste the password
+
+![Vultr ssh 4](./images/fr0301-09_Vultr-ssh5.png "Vultr ssh4")
+
+- Success
+
+![Vultr ssh 4](./images/fr0301-09_Vultr-ssh6.png "Vultr ssh4")
+
 ----
-### 2. Use Bitvise to access Vultr-formR0  0:15
+### 2. Use Bitvise to access Vultr-FormR0  0:15
 ----
 #### 1. Open Bitvise
 
@@ -149,14 +185,15 @@ https://www.vultr.com/?ref=8778592
 
 #### 3. Enter new profile name
 
-- Vultr-formR0-root.tlp
-
+```
+Vultr-FormR0-root.tlp
+```
 
 ![Vultr New-Profile-Name](./images/fr0301-09_Vultr-New-Profile-Name.png "Vultr New-Profile-Name")
 
 #### 4. Fill in the following:
 
-- Host = Vultr-formR0 IP Address (copy from Vultr web page)
+- Host = Vultr-FormR0 IP Address (copy from Vultr web page)
 
 - Port = 22
 
@@ -166,7 +203,7 @@ https://www.vultr.com/?ref=8778592
 
 - Click Checkbox - Store encrypted password in profile
 
-- Password = Vultr-formR0 root password (copy from Vultr web page)
+- Password = Vultr-FormR0 root password (copy from Vultr web page)
 
 ![Vultr New-Profile-Copy](./images/fr0301-09_Vultr-New-Profile-Copy.png "Vultr New-Profile-Copy")
 
@@ -182,7 +219,7 @@ https://www.vultr.com/?ref=8778592
 
 <div class="notice-warning">
   <div class="notice-warning-header">
-    Important: Don't Lose Your Work
+    Important: Save Profile -- Don't Lose Your Work
   </div>
 </div>  
 
@@ -199,7 +236,7 @@ https://www.vultr.com/?ref=8778592
 
 #### 7. You will see the Welcome screen for Ubuntu and the command prompt:
 
-    root@Vultr-formR0:~#
+    root@Vultr-FormR0:~#
 
 ![Vultr Welcome](./images/fr0301-13_Vultr-Welcome.png "Welcome")
 

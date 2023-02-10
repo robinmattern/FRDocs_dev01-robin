@@ -28,10 +28,10 @@ BACK
 
 1. Make a Private and Public Key pair of files
 
-   keys  Make  Key  Robin.Mattern  Vultr-formR0  nimda  ram doit
+   keys  Make  Key  Robin.Mattern  Vultr-FormR0  nimda  ram doit
 
    ```
-   ssh-keygen -t rsa -P '' -q -f "/c/Users/robin/.ssh/Robin.Mattern@Vultr-formR0_nimda_ram_a210719_key" -C "Robin.Mattern@Vultr-formR0_nimda_ram_a210719"
+   ssh-keygen -t rsa -P '' -q -f "/c/Users/robin/.ssh/Robin.Mattern@Vultr-FormR0_nimda_ram_a210719_key" -C "Robin.Mattern@Vultr-FormR0_nimda_ram_a210719"
    ```
 2. Show Key Files
 
@@ -42,13 +42,13 @@ BACK
 
 3. Set up an SSH Host Alias Name using a KeyFile
 
-   keys  Set  Host  0  Vultr-formR0:155.138.238.182  nimda  ram  doit
+   keys  Set  Host  0  Vultr-FormR0:155.138.238.182  nimda  ram  doit
 
        nano ~/.ssh/config
 
-          Host Vultr-formR0-nimda-ram
+          Host Vultr-FormR0-nimda-ram
             HostName       155.138.238.182
-            IdentityFile   /C/Users/robin/.ssh/Robin.Mattern@Vultr-formR0_nimda_ram_a210719_key
+            IdentityFile   /C/Users/robin/.ssh/Robin.Mattern@Vultr-FormR0_nimda_ram_a210719_key
             IdentitiesOnly yes
             User           nimda
             Port           22
@@ -57,11 +57,11 @@ BACK
 
 4. Set up a SSH Host Alias using a Password
 
-   keys  Set  Host  Vultr-formR0:155.138.238.182  nimda  doit
+   keys  Set  Host  Vultr-FormR0:155.138.238.182  nimda  doit
 
        nano ~/.ssh/config
 
-          Host Vultr-formR0-nimda Vultr-formR0-nimda-account
+          Host Vultr-FormR0-nimda Vultr-FormR0-nimda-account
             HostName       155.138.238.182
             User           nimda
             Port           22
@@ -73,11 +73,11 @@ BACK
 
    keys  Copy  0
 
-       cat "C:/Users/robin/.ssh/Robin.Mattern@Vultr-formR0_nimda_ram_a210719_key.pub" | clip    # (8)
+       cat "C:/Users/robin/.ssh/Robin.Mattern@Vultr-FormR0_nimda_ram_a210719_key.pub" | clip    # (8)
 
 6. Paste the Public Key
 
-       ssh Vultr-formR0-nimda
+       ssh Vultr-FormR0-nimda
        nano ~/.ssh/authorized_keys
        ctrl-v
        ctrl-x y <cr>
@@ -85,17 +85,17 @@ BACK
 
 7. Test logging into Server with the SSH Key
 
-   keys  Test  SSH  Vultr-formR0-nimda-ram
+   keys  Test  SSH  Vultr-FormR0-nimda-ram
 
-       ssh Vultr-formR0-nimda-ram
+       ssh Vultr-FormR0-nimda-ram
 
 
 8. Add Key to BitVise
 
    - Open BitVise
-   - Create a New Profile: Vultr-formR0 (155.138.238.182) via Nimda-ram.tlp
+   - Create a New Profile: Vultr-FormR0 (155.138.238.182) via Nimda-ram.tlp
    - Click on Client Key Manager
-   - Import Private Key File: C:\Users\robin\.ssh\Robin.Mattern@Vultr-formR0_nimda_ram_a210719_key
+   - Import Private Key File: C:\Users\robin\.ssh\Robin.Mattern@Vultr-FormR0_nimda_ram_a210719_key
    - Close the Client Key Manager window
    - Enter Host IP Address: 155.138.238.182
    - Enter Username: nimda
@@ -112,8 +112,8 @@ BACK
 
 1. Make a Private and Public Key pair of files
 
-   keys  Make  Key  Robin.Mattern  GitHub  Vultr-formR0 doit
-   keys  Make  Key  Bruce.Troutman GitHub  Vultr-formR0 doit
+   keys  Make  Key  Robin.Mattern  GitHub  Vultr-FormR0 doit
+   keys  Make  Key  Bruce.Troutman GitHub  Vultr-FormR0 doit
    keys  Make  Key  Robin.Mattern  GitHub  rm218d doit
 
        ssh-keygen -t rsa -f "/c/Users/robin/.ssh/Robin.Mattern@GitHub_a210715_key" -C "Robin.Mattern@GitHub_a210715"
@@ -256,9 +256,9 @@ BACK
 
 1. Log into Server with the SSH Key
 
-   keys  SSH  Vultr-formR0-nimda-ram
+   keys  SSH  Vultr-FormR0-nimda-ram
 
-       ssh Vultr-formR0-nimda-ram
+       ssh Vultr-FormR0-nimda-ram
 
 2. Make a Private and Public Key pair of files
 
@@ -269,13 +269,13 @@ BACK
 
 3. Set up an SSH Host Alias Name
 
-   keys  Set  Host  2  Vultr-formR0  github  doit
+   keys  Set  Host  2  Vultr-FormR0  github  doit
 
        nano ~/.ssh/config
 
-          Host Vultr-formR0-github Vultr-formR0-github-account
+          Host Vultr-FormR0-github Vultr-FormR0-github-account
             HostName       github.com
-            IdentityFile   /root/.ssh/Vultr-formR0@GitHub_a210719_key
+            IdentityFile   /root/.ssh/Vultr-FormR0@GitHub_a210719_key
             IdentitiesOnly yes
             User           git
             Port           22
@@ -286,7 +286,7 @@ BACK
 
    keys  Copy  2
 
-        - cat "/root/.ssh/Vultr-formR0@GitHub_a210719_key.pub"    # (2)
+        - cat "/root/.ssh/Vultr-FormR0@GitHub_a210719_key.pub"    # (2)
 
 
 5. Paste the Public Key
@@ -305,7 +305,7 @@ BACK
 
 7. Clone a GitHub Repository
 
-   gitr  clone  Vultr-formR0-github  {branch}
+   gitr  clone  Vultr-FormR0-github  {branch}
 
        git clone github-robin:robinmattern/formR0.git
        cd formR0
