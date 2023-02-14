@@ -269,7 +269,7 @@ ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr_mick_v210713_
 - Paste the following code into Notepad and modify it to your information:
 
 ```
-ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-FormR0_nimda_v210713_key" -C "mickey.mouse@Vultr-FormR0_nimda_v210713"
+ssh-keygen -t rsa -f "c:/Users/Local_Admin/.ssh/mickey.mouse@Vultr-FormR0_mick_v210713_key" -C "mickey.mouse@Vultr-FormR0_mick_v210713"
 ```
 
 <div class="notice-tip">
