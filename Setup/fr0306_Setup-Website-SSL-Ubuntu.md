@@ -418,6 +418,12 @@ godaddy.com
 
 #### 3. Enter domain name
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Use your domain name in this step. e.g. formr-cbt-00.com or whatever you choose.
+  </div>  
+</div>
+
 ```
 formr-<your initials>-00.com
 ```
@@ -444,6 +450,12 @@ e.g. formr-cbt-00.com
 #### 3. Click My Products
 #### 4. Click YourURL 
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Use your domain name in this step. e.g. formr-cbt-00.com or whatever you chose.
+  </div>  
+</div>
+
 - e.g. formr-cbt-00.com
 
 ![BitVise Point DNS](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS.png "BitVise Point DNS")
@@ -454,6 +466,13 @@ e.g. formr-cbt-00.com
 ![BitVise Point DNS1](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS1.png "BitVise Point DNS1")
 
 #### 7. Enter Your domain e.g. formr-cbt-00.com
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Use your domain name in this step. e.g. formr-cbt-00.com or whatever you chose.
+  </div>  
+</div>
+
 #### 8. Click it
 
 ![BitVise Point DNS2](./images/fr0306-09_Ubuntu-Bitvise-Point-DNS2.png "BitVise Point DNS2")
@@ -485,6 +504,12 @@ To Your server IP address and Save
 
 - Enter:
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Use your domain name in this step. e.g. formr-cbt-00.com or whatever you chose.
+  </div>  
+</div>
+
 ```
 ping formr-<your initials>-00.com
 ```
@@ -512,7 +537,11 @@ ping formr-<your initials>-00.com
 
 #### 6. Change yourURL 
 
-- e.g. formr-cbt-00.com
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Use your domain name in this step. e.g. formr-cbt-00.com or whatever you chose.
+  </div>  
+</div>
 
 ![BitVise simpleApp2](./images/fr0306-10_Ubuntu-Bitvise-simpleApp2.png "BitVise simpleApp2")
  
@@ -527,6 +556,13 @@ reboot
 ```
 
 #### 9. Browse to your URL
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Use your domain name in this step. e.g. formr-cbt-00.com or whatever you chose.
+  </div>  
+</div>
+
 
 ```
 formr-<your initials>-00.com
@@ -566,6 +602,12 @@ reboot
 
 #### 6. Browse to your URL
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Use your domain name in this step. e.g. formr-cbt-00.com or whatever you chose.
+  </div>  
+</div>
+
 ```
 formr-<your initials>-00.com
 ```
@@ -586,6 +628,12 @@ e.g. formr-cbt-00.com
 certbot --nginx -d <yoururl>  
 ```
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Use your domain name (URL) in this step. e.g. formr-cbt-00.com or whatever you chose.
+  </div>  
+</div>
+
 - yoururl =  formr-yourinitials-00.com 
 
 - e.g. formr-cbt-00.com
@@ -599,6 +647,12 @@ certbot --nginx -d <yoururl>
 ![BitVise Add SSL2](./images/fr0306-11_Ubuntu-Bitvise-add-ssl2.png "BitVise Add SSL2")
 
 #### 4. Browse to your web via https
+
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Note: Use your domain name (URL) in this step. e.g. formr-cbt-00.com or whatever you chose.
+  </div>  
+</div>
 
 ```
 https://yoururl
