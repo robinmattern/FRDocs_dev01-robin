@@ -71,7 +71,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 ![Windows-Controlpanel](./images/fr0101-00_Windows-Controlpanel.png "Windows-Controlpanel")
 
-#### 3. Click User Accounts
+#### 3. Click Change account type under User Accounts
 <br/>
 
 ![Windows-Useraccounts](./images/fr0101-00_Windows-Useraccounts.png "Windows-Useraccounts")

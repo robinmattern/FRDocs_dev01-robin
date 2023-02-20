@@ -22,8 +22,8 @@
 <h>The Following Sections are not Complete:</h>
 
 3. [My Javascript Custom App ](/FRApps/fr020200_My-Javascript-Custom-App.md)
-4. [My Lit Custom App      ](/FRApps/fr020300_My-React-React-App.md)
-5. [My React Custom App      ](/FRApps/fr020300_My-React-React-App.md)
+4. [My Lit Custom App      ](/FRApps/fr020300_My-Lit-Custom-App.md)
+5. [My React Custom App      ](/FRApps/fr020300_My-React-Custom-App.md)
 
 <h>4. Run formR</h>
 
