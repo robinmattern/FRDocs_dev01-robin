@@ -23,7 +23,7 @@
 
 #### Introduction 
 
-- You will be building a web site which starts with very simple index.**html** and index.**css** files.  Your repository will include both of those **empty** files plus the needed images. If you follow the directions and copy/paste each section's code, you will end up with a still simple index.html but a rather complex index.css file.
+- You will be building a web site which starts with very simple index.**html** and index.**css** files.  Your repository will include both of those **empty** files plus the needed images. If you follow the directions and copy/paste each section's code, you will end up with both a nice layout web page and a customized page with rather complex index.html and index.css files.
 
 <details class="details-style-top">
     <summary class="summary-style">
@@ -72,10 +72,21 @@ Your Workspace:<br><br>
 In VSCode you will find in your FRApps repository a folder<br>
 &nbsp;&nbsp;&nbsp;&nbsp;"<span class="doc-dir-text">c11_my-html-custom-app</span> (inside your <font color='green'>client1</font> folder)."<br>
 In this folder are the empty <font color='green'>index.<b>html</b></font> and <font color='green'>index.<b>css</b></font> files, along with a favicon.png image file.<br>
-<img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1.jpg"><br>
+<img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1.jpg"><br><br>
 
-And there is an "<font color='green'>assets"</font> folder that holds an "<font color='green'>images</font>" folder with the needed images to build your final project for this HTML Custom App course.<br>
-<img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1a.jpg">
+<span class="callout-image"><font color='#616161'>Images:</font></span>
+There is an "<font color='green'>assets"</font> folder that holds an "<font color='green'>images</font>" folder with the needed images to build your final project for this HTML Custom App course.<br>
+
+They are:
+
+<ol>
+    <li>formr-logo-blue.gif (our logo image)</li>
+    <li>monaco-blue-soft.jpg (for Section1)</li>
+</ol>
+
+These images will be used in your code. As variables in the :root section of the index.css file.   
+
+<img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1a1.jpg">
 
 ____
 
@@ -103,7 +114,7 @@ ____
 
 Your Final CUSTOMIZED Web Site Preview
 
-The below preview will have a fixed (secured) header and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when small or large).
+The below preview will have a fixed (secured) header and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when large or small - with a <img class="two-percent" src="FRApps/assets/images/md-images/HamburgerBlue.jpg"> hamburger menu ).
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFinalImageGaramond.jpg">
 
@@ -113,6 +124,7 @@ ____
 
 <div class="callout-tip"><b>1</b><br>
 We will be Replacing and Inserting blocks of code in both the index.html & index.css files.  Below is the KEY to aid in finding the place in the code for these actions in the index.**css** file:
+
 <ul>
     <li> HR:  Header Replace</li>
     <li> H:   Header Insert</li>
@@ -122,9 +134,10 @@ We will be Replacing and Inserting blocks of code in both the index.html & index
     <li> S2:  Section2 Insert</li>
     <li> FR:  Footer Replace</li>
     <li> F:   Footer Insert</li>
+    <li> HAM: Hamburger Insert</li>
     <li> R:   Responsive Insert</li>
 </ul>
-Example:
+Example:&nbsp;&nbsp;
 <img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksInsertKeyImage1.jpg">
 </div>
 <br>
@@ -154,7 +167,8 @@ Below is our outline.
                 <li>Modify Footer</li>
                 <li>Add Text</li>
                 <li>Add "Wiggle" Button</li>
-                <li>Add Responsiveness</li>
+                <li>Add Responsiveness & Hamburger</li>
+                <li>See Hamburger in Action</li>
             </ol>
         <li class="li-text">Customize</li>
             <ol>
@@ -192,7 +206,7 @@ Our original sketch...
     + index.<b>css</b><br>
 - Both should be empty 
 - If they are not empty, simply press "ctrl-a" to highlight all the text, then press "delete"
-- <span class="doc-dir-text">IT IS VERY IMPORTANT THATbmp YOU START OFF WITH THESE TWO FILES BEING EMPTY</span>
+- <span class="doc-dir-text">IT IS VERY IMPORTANT THAT YOU START OFF WITH THESE TWO FILES BEING EMPTY</span>
 
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
@@ -222,8 +236,13 @@ Our original sketch...
 
     <!-- REPLACE Point - Header -->
         <div class="Header">
-        	<!-- INSERT Point - responsive -->
-        	<h2>PH Header</h2>
+
+        	<!-- INSERT Point - Responsive -->
+        	<!-- END INSERT  -  Responsive -->
+            <!-- REPLACE Point Logo -->
+            <!-- END REPLACE Point - Logo -->
+
+            <h2>PH Header</h2>
         </div>
     <!-- END REPLACE Point - Header -->
 
@@ -251,7 +270,7 @@ Our original sketch...
 ```
 <span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicHTMLImage.jpg">
+<img class="no-border" src="FRApps/assets/images/md-images/BasicHTMLImage2.jpg">
 
 From VSCode, right click on the file "index.<b>html</b>" and click on:
 <br><span class="pic-text">&nbsp;Open In Live Server&nbsp;</span>
@@ -282,17 +301,16 @@ If your Chrome <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> browse
 
 ```css
 
-
 /* Basic Blocks Custom App */
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
 
-/*=======================================*/
+/*=============================================*/
 /* root REPLACE Point - :root */
-/*-----------------------------------------
+/*----------------------------------------------
 :root selector for variables
--------------------------------------------*/
+-----------------------------------------------*/
 :root {
     --Body_background-color: #E5E4E2; /*platinum*/
    
@@ -317,25 +335,25 @@ If your Chrome <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> browse
 
     --Button_Logo_font-color: whitesmoke;
 } 
-/* END REPLACE :root =====================*/
+/* END REPLACE :root ==========================*/
 
 
-/*=======================================*/
+/*=============================================*/
 /* HTML REPLACE Point */
-/*-----------------------------------------
+/*----------------------------------------------
 The <html> tag properites (unchanged)
-------------------------------------------*/
+-----------------------------------------------*/
 html {
     background: var(--Body_background-color);
     height: 100%;
     text-align: center;
 }
-/* END HTML ============================*/
+/* END HTML ===================================*/
 
 
-/*-----------------------------------------
+/*----------------------------------------------
 The body properites
-------------------------------------------*/
+-----------------------------------------------*/
 body {
     background: var(--Body_background-color);
     height: 100%;
@@ -344,9 +362,9 @@ body {
     font-family: var(--GlobalFontFamily);
 }
 
-/*-----------------------------------------
+/*----------------------------------------------
 The <h2> tag properties
--------------------------------------------*/
+-----------------------------------------------*/
 h2 {
     margin: 0;
     font-size: 1.5rem;
@@ -355,92 +373,84 @@ h2 {
     text-align: center;
 }
 
-/*=======================================*/
+/*=============================================*/
 /* HR-1 REPLACE Point - .Header */
-/*-----------------------------------------
+/*----------------------------------------------
 The .Header properites
-------------------------------------------*/
+-----------------------------------------------*/
 .Header {
     background: var(--Header_background-color);
     width: 300px;
     height: 100px;
-    position: relative;  /*was relative*/
+    position: relative; 
 }
-/* END HR-1 .Header =====================*/
+/* END HR-1 .Header ===========================*/
 
 
-/*===========================================*/
-/* H-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-/* H-1 INSERT Point - .HeaderNavBars */
-
-/*     INSERT Point - .HeaderNavBars:focus */
-/* H-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-
-
-/*===========================================*/
-/* H-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*=============================================*/
+/* H-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* H-2 INSERT Point - .HeaderLogo */
 
 /*     INSERT Point - .HeaderLogo a */
 
 /*     INSERT Point - .HeaderSpacer */
-/* H-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* H-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
-/*===========================================*/
-/* H-3 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*=============================================*/
+/* H-3 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* H-3 INSERT Point - .HeaderNavList */
 
 /*     INSERT Point - .HeaderNavListItem a */
 
 /*     INSERT Point  - .HeaderNavListItem a:hover
                        .HeaderNavListItem a:active */
-/* H-3 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* H-3 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
-/*=======================================*/
-/* H-4 INSERT Point - .HeaderNavListItemCTA a */
-/*----------------------------------------
+/*=============================================*/
+/* H-4 INSERT Point - .HeaderNavListItemCTA a  */
+/*---------------------------------------------
 The .HeaderNavListItemCTA a properties
------------------------------------------*/
-/* END H-4 .HeaderNavListItemCTA a ======*/
+-----------------------------------------------*/
+/* END H-4 .HeaderNavListItemCTA a ============*/
 
 
-/*===========================================*/
-/* H-5 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*=============================================*/
+/* H-5 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* H-5 INSERT Point - .HeaderNavListItemCTA */
 
 /* INSERT Point - @keyframes wiggle */
-/* H-5 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* H-5 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
-/*=======================================*/
+/*==============================================*/
 /* S1R-1 REPLACE Point - Section1 */
-/*-----------------------------------------
+/*----------------------------------------------
 The .Section1 properites
-------------------------------------------*/
+------------------------------------------------*/
 .Section1 {
     background: var(--Section1_background-color);
     width: 300px;
     height: 100px;
     position: relative;
 }
-/* END S1R-1 .Section1 =====================*/
+/* END S1R-1 .Section1 =========================*/
 
 
-/*===========================================*/
-/* S1-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*==============================================*/
+/* S1-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* S1-1 INSERT Point - .Section1ImageText */
 
 /*      INSERT Point - .Section1ImageText::first-letter */
-/* S1-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* S1-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
-/*=======================================*/
+/*==============================================*/
 /* S2R-1 REPLACE Point - Section2 */
-/*-----------------------------------------
+/*----------------------------------------------
 The .Section2 properites
-------------------------------------------*/
+------------------------------------------------*/
 .Section2 {
     background: var(--Section2_background-color);
     width: 300px;
@@ -451,45 +461,45 @@ The .Section2 properites
     font-size: 1.2rem;
     font-weight: 600;
 }
-/* END S2R-1 .Section2 =====================*/
+/* END S2R-1 .Section2 ==========================*/
 
 
-/*=======================================*/
+/*===============================================*/
 /* S2-1 INSERT Point - Section2 h2 */
 /*      DELETE Point - Section2 h2 */
-/*-----------------------------------------
+/*-----------------------------------------------
 The .Section2 h2 properites
-------------------------------------------*/
+-------------------------------------------------*/
 .Section2 h2 {
     padding: 1.5;
     color: black;
 }
-/* END S2-1 .Section2 h2==================*/
+/* END S2-1 .Section2 h2=========================*/
 
 
-/*===========================================*/
-/* S2-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*===============================================*/
+/* S2-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* S2-2 INSERT Point - Section2Paragraph */
 
 /*      INSERT Point - Section2Paragraph::first-letter/line */
-/* S2-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* S2-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
-/*=======================================*/
+/*===============================================*/
 /* FR-1 REPLACE Point - Footer */
-/*-----------------------------------------
+/*------------------------------------------------
 .Footer properites
-------------------------------------------*/
+-------------------------------------------------*/
 .Footer {
     background: var(--Footer_background-color);
     width: 300px;
     height: 100px;
     position: relative;
 }
-/* END FR-1 .Footer =====================*/
+/* END FR-1 .Footer =============================*/
 
 
-/*=============================================*/
+/*===============================================*/
 /* F-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* F-1 INSERT Point - .FooterNavList */
 
@@ -500,7 +510,16 @@ The .Section2 h2 properites
 /* F-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
-/*===========================================*/
+/*~~~~~~~~~~~ VERY LARGE BLOCK OF CODE ~~~~~~~~~~*/
+/*===============================================*/
+/* HAM HAMBURGER START BLOCK ^^^^^^^^^^^^^^^^^^^^*/
+/* Hamburger Code */  
+
+/* HAMBURGER END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*===============================================*/
 /* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* Responsive Code */  
 /* R-1 INSERT Point - @media (responsive min-width)*/                
@@ -577,11 +596,11 @@ ____
 
 
 ```css
-/*=====================================*/
+/*===============================================*/
 /* HTML REPLACE Point */
-/*---------------------------------------
+/*------------------------------------------------
 The <html> tag properites (unchanged)
-----------------------------------------*/
+-------------------------------------------------*/
 html {
     background: var(--Body_background-color);
     height: 100%;
@@ -589,7 +608,7 @@ html {
     max-width: 1000px;
     margin: auto;
 }
-/* END HTML ===========================*/
+/* END HTML =====================================*/
 ```
 <div class="callout-code-warning">
 <br><br>
@@ -627,11 +646,11 @@ Replace the entire block with new code, like this.
 </span>
 
 ```css
-/*=======================================*/
+/*===============================================*/
 /* HR-1 REPLACE Point - .Header */
-/*-----------------------------------------
+/*------------------------------------------------
 The .Header properites
-------------------------------------------*/
+-------------------------------------------------*/
 .Header {
     background: var(--Header_background-color);
     width: 100%; /*was 300px*/
@@ -641,7 +660,7 @@ The .Header properites
     max-width: 1000px;
     margin: auto;
 }
-/* END HR-1 .Header =====================*/
+/* END HR-1 .Header =============================*/
 ```
 <div class="callout-code-warning">
 <br><br>
@@ -658,7 +677,7 @@ comments in your index.<b>css</b> file:
 <br>
 Like this, using the ctrl-v keys to paste the copied code.
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicCopyPasteCSS_2.gif">
+<img class="no-border" src="FRApps/assets/images/md-images/BasicCopyPasteCSS.gif">
 
 Replace the entire block with new code, like this.
 
@@ -692,11 +711,11 @@ ___
 </span>
 
 ```css
-/*=======================================*/
+/*===============================================*/
 /* S1R-1 REPLACE Point - Section1 */
-/*-----------------------------------------
+/*------------------------------------------------
 The .Section1 properites
------------------------------------- ------*/
+-------------------------------------------------*/
 .Section1 {
     background: var(--Section1_background-color);
     width: 100%; /*was 300px*/
@@ -704,7 +723,7 @@ The .Section1 properites
     position: relative;
     top: 80px; /*<---ADD to adjust the top position*/
 }
-/* END S1R-1 .Section1 =====================*/
+/* END S1R-1 .Section1 ===========================*/
 ```
 
 Like this&nbsp;</span>
@@ -739,11 +758,11 @@ ____
 </span>
 
 ```css
-/*=======================================*/
+/*===============================================*/
 /* S2R-1 REPLACE Point - Section2 */
-/*-----------------------------------------
+/*------------------------------------------------
 The .Section2 properites
-------------------------------------------*/
+-------------------------------------------------*/
 .Section2 {
     background: var(--Section2_background-color);
     width: 100%;
@@ -755,7 +774,7 @@ The .Section2 properites
     font-weight: 600;
     top: 80px; /*<---ADD to adjust the top position*/
 }
-/* END S2R-1 .Section2 =====================*/
+/* END S2R-1 .Section2 ===========================*/
 ```
 
 
@@ -802,11 +821,11 @@ ___
 </span>
 
 ```css
-/*=======================================*/
+/*===============================================*/
 /* FR-1 REPLACE Point - Footer */
-/*-----------------------------------------
+/*------------------------------------------------
 The .Footer properites
-------------------------------------------*/
+-------------------------------------------------*/
 .Footer {
     background: var(--Footer_background-color);
     width: 100%; 
@@ -817,7 +836,7 @@ The .Footer properites
     max-width: 1000px;
     margin: auto;
   } 
-/* END FR-1 .Footer =====================*/
+/* END FR-1 .Footer =============================*/
 ```
 <div class="callout-code-warning">
 <br><br>
@@ -903,8 +922,12 @@ In the <font color='green'>Header</font> section, we will replace the code.
 ```html
     <!-- REPLACE Point - Header -->
         <div class="Header">
+
             <!-- INSERT Point - responsive -->
+            <!-- END INSERT  -  responsive -->
+            <!-- REPLACE Point Logo -->
             <div class="HeaderLogo"><a href="#">PH Logo</a></div>
+            <!-- END REPLACE Point - Logo -->
             <div class="HeaderSpacer"></div> 
             <ul class="HeaderNavList">
                 <li class="HeaderNavListItem"><a href=#>PH_Link1</a></li>
@@ -929,7 +952,7 @@ comments in your index.<b>html</b> file:
 <br>
 <span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicCopyPasteHTML.gif">
+<img class="no-border" src="FRApps/assets/images/md-images/BasicCopyPasteHTML2.gif">
 <br><br>
 <div class="callout-tip"><br>
 <img class="no-border" width=10% style=border:none; src="FRApps/assets/images/md-images/tabButton.jpg"><br>
@@ -978,11 +1001,11 @@ First and foremost in the <font color='green'>.Header</font> section we will ADD
 </span> 
 
 ```css
-/*=======================================*/
+/*===============================================*/
 /* HR-1 REPLACE Point - .Header */
-/*-----------------------------------------
+/*------------------------------------------------
 The .Header properites
-------------------------------------------*/
+-------------------------------------------------*/
 .Header {
     background: var(--Header_background-color);
     width: 100%;
@@ -995,7 +1018,7 @@ The .Header properites
     justify-content: space-between;
     align-items: center;
 }
-/* END HR-1 .Header =====================*/
+/* END HR-1 .Header =============================*/
 ```
 <div class="callout-code-warning">
 <br><br>
@@ -1045,21 +1068,21 @@ Please follow the instructions closely.  We have created another small movie to 
 ```css
 /*===============================================*/
 /* H-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-/*=======================================*/
+/*===============================================*/
 /* H2 INSERT Point - .HeaderLogo */
-/*-----------------------------------------
+/*------------------------------------------------
 The .HeaderLogo properites
-------------------------------------------*/
+-------------------------------------------------*/
 .HeaderLogo {
-    margin-left: 45px;
+    margin-left: 5px;
     padding-left: 25px;
 }
 
-/*=======================================*/
+/*===============================================*/
 /* INSERT Point - .HeaderLogo a */
-/*-----------------------------------------
+/*------------------------------------------------
 The .HeaderLogo a properites
-------------------------------------------*/
+-------------------------------------------------*/
 .HeaderLogo a {
     text-decoration: none;
     font-size: 1.5rem;
@@ -1072,11 +1095,11 @@ The .HeaderLogo a properites
     box-shadow: 4px 4px black;
 }
 
-/*=======================================*/
+/*===============================================*/
 /* INSERT Point - .HeaderSpacer */
-/*-----------------------------------------
+/*-------------------------------------------------
 The .HeaderSpacer properites
-------------------------------------------*/
+-------------------------------------------------*/
 .HeaderSpacer {
     flex: 1;
 }
@@ -1158,13 +1181,13 @@ We will be INSERTING 3 new classes as a BLOCK of code:
 </span>
 
 ```css
-/*==============================================*/
+/*===============================================*/
 /* H-3 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-/*========================================*/
+/*===============================================*/
 /* H-3 INSERT Point - .HeaderNavList */
-/*-----------------------------------------
+/*------------------------------------------------
 The .HeaderNavList (horizontal menu) properites
-------------------------------------------*/
+-------------------------------------------------*/
 .HeaderNavList {
     list-style: none;
     margin-right: 30px;
@@ -1176,9 +1199,9 @@ The .HeaderNavList (horizontal menu) properites
 }
 
 /* INSERT Point .HeaderNavListItem a */
-/*-----------------------------------------
+/*------------------------------------------------
 The .HeaderNavListItem a properites
-------------------------------------------*/
+-------------------------------------------------*/
 .HeaderNavListItem a {
     color: black;
     font-weight: bold;
@@ -1189,9 +1212,9 @@ The .HeaderNavListItem a properites
 
 /* INSERT Point .HeaderNavListItem a:hover
                 .HeaderNavListItem a:active */
-/*-----------------------------------------
+/*------------------------------------------------
 The .HeaderNavListItem a properites
-------------------------------------------*/
+-------------------------------------------------*/
 .HeaderNavListItem a:hover,
 .HeaderNavListItem a:active {
     color: var(--Header_hover-color);
@@ -1267,11 +1290,11 @@ Now, let's do something about that "PH CTA" link. Using CSS, we can turn it into
 
 
 ```css
-/*=======================================*/
+/*===============================================*/
 /* H-4 INSERT Point - .HeaderNavListItemCTA a */
-/*-----------------------------------------
+/*------------------------------------------------
 The .HeaderNavListItemCTA a properties
-------------------------------------------*/
+-------------------------------------------------*/
 .HeaderNavListItemCTA a {
     color: var(--Button_Logo_font-color);
     background: blue ;
@@ -1281,7 +1304,7 @@ The .HeaderNavListItemCTA a properties
     font-family: var(--GlobalFontFamily);
     font-weight: 600;
 }
-/* END H-4 .HeaderNavListItemCTA a ======*/
+/* END H-4 .HeaderNavListItemCTA a ==============*/
 ```
 <div class="callout-code-warning">
 <br><br>
@@ -1400,13 +1423,13 @@ Good job! Now we move to the index<b>.css</b> file.
 </span>
 
 ```css
-/*=============================================*/
+/*===============================================*/
 /* F-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-/*=======================================*/
+/*===============================================*/
 /* F1 INSERT Point - .FooterNavList */
-/*-----------------------------------------
+/*------------------------------------------------
 The .FooterNavList properties
-------------------------------------------*/
+-------------------------------------------------*/
 .FooterNavList {
     list-style: none;
     margin: 20px;
@@ -1417,11 +1440,11 @@ The .FooterNavList properties
     font-size: var(--FooterList-font-size);
 }
 
-/*=======================================*/
+/*===============================================*/
 /* INSERT Point - .FooterNavListItem a */
-/*-----------------------------------------
+/*------------------------------------------------
 The .FooterNavListItem a properties
-------------------------------------------*/
+-------------------------------------------------*/
 .FooterNavListItem a {
     color: black;
     font-weight: bold;
@@ -1430,13 +1453,13 @@ The .FooterNavListItem a properties
     padding: 12px;
 }
 
-/*=======================================*/
+/*===============================================*/
 /* INSERT Point - .FooterNavListItem a:hover
                   .FooterNavListItem a:active */
-/*-----------------------------------------
+/*------------------------------------------------
 The .FooterNavListItem a:hover,
     .FooterNavListItem a:active properties
-------------------------------------------*/
+------------------------------------------------*/
 .FooterNavListItem a:hover,
 .FooterNavListItem a:active {
   color: var(--Footer_hover-color);
@@ -1552,27 +1575,27 @@ Now, we move to the index.<b>css</b> file.
 </span>
 
 ```css
-/*===========================================*/
-/* S1-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-/*=======================================*/
+/*===============================================*/
+/* S1-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*===============================================*/
 /* S1-1 INSERT Point - .Section1ImageText */
-/*-----------------------------------------
+/*------------------------------------------------
 The .Section1ImageText properties
-------------------------------------------*/
+-------------------------------------------------*/
 .Section1ImageText {
     font-family: var(--GlobalFontFamily);
     font-size: 3rem;
     font-weight: 800;
     color: lightgray;
     text-shadow: 1px 1px 3px #000000;
-    padding: 80px 350px 20px 0px;
+    padding: 80px 250px 20px 0px;
 }
 
-/*=======================================*/
+/*===============================================*/
 /* INSERT Point - .Section1ImageText::first-letter */
-/*-----------------------------------------
+/*------------------------------------------------
 The .Section1ImageText::first-letter properties
-------------------------------------------*/
+-------------------------------------------------*/
 .Section1ImageText::first-letter {
     font-size: 150%;
     color: cornflowerblue;
@@ -1693,21 +1716,21 @@ We will add some code to make it "wiggle."
 </span>
 
 ```css
-/*===========================================*/
+/*===============================================*/
 /* H-5 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* H-5 INSERT Point - .HeaderNavListItemCTA */
-/*-----------------------------------------
+/*------------------------------------------------
 The .HeaderNavListItemCTA properties
-------------------------------------------*/
+-------------------------------------------------*/
 .HeaderNavListItemCTA {
   animation     : wiggle 400ms 2s 8 ease-out none;
   }
 
-/*=======================================*/
+/*===============================================*/
 /* INSERT Point - @keyframes wiggle */
-/*-----------------------------------------
+/*------------------------------------------------
 The @keyframes wiggle properties
-------------------------------------------*/
+-------------------------------------------------*/
 @keyframes wiggle {
     0% { transform: rotateZ(  0deg ); }
    50% { transform: rotateZ(-10deg ); }
@@ -1748,7 +1771,7 @@ ___
 
 ___
 
-### 7. Make Responsive 0:10
+### 7. Make Responsive & Add Hamburger 0:20
 
 - A very smart programmer once told me that you code your web page for a hand-held device first, the desk top second.
 
@@ -1756,7 +1779,7 @@ ___
 
 -  First let's look at our current web page on an iPhone7 Plus:
 
-<img class="no-border" width=75% src="FRApps/assets/images/md-images/BasicResponsiveImage1.jpg">
+<img class="forty-percent" src="FRApps/assets/images/md-images/BasicResponsiveImage1.jpg">
 
 
 We have 3 problems here.
@@ -1825,38 +1848,62 @@ Let's focus on the Header and how we want it to appear on a smart phone.
 
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasiciphoneImage1.jpg">
 
-We can set, using CSS, a certain width of the "viewpoint" to where we can make changes to the appearence.  In our code we will set it at 760px.  At that width we can make the NavList (horizontal links) DISAPPEAR; and a NavBars (commonly known as a hamburger) APPEAR. And fix that scrunched up Logo.
+We can set, using CSS, a certain width of the "viewport" to where we can make changes to the appearence.  In our code we will have 4 sets of responsive code.  They will be viewports set at:
+<ul>
+<li>Greater than 1000 px (lap/desktop)</li>
+<li>Between 541 - 1000 px (tablet in landscape)</li>
+<li>Between 440 - 500 px (mobile in landscape)</li>
+<li>Less than 440 px (mobile in portrait)</li>
+</ul>
 
-First we need to add the NavBars (hamburger) in both index.html and index.css.
+At those widths we can make the NavList (the horizontal links) DISAPPEAR; and a NavBars (commonly known as a hamburger) APPEAR whenever needed. AND fix that scrunched up Logo.
+
+<div class="callout-note"><br>To see what the viewport dimensions are of the device you are viewing, go here:
+
+https://viewportsizer.com/the-viewport-in-responsive-web-design/
+
+<img class="seventyfive-percent" src="FRApps/assets/images/md-images/ViewportWebsite.jpg">
+
+My current viewport dimensions are <b>701 pixels</b> wide by <b>779 pixels</b> high.
+</div>
+
+<br>
+First we need to add the NavBars (HAMBURGER) in both index.html and index.css.  We will call it a MenuWrap class.
 
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
 
 
-#### b. HeaderNavBars Class
+#### b. MenuWrap Class
 <br>
 <span class="copy-code"> copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
 <img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" >
 </span>
 
 ```html
-    <!-- REPLACE Point - Header -->
-        <div class="Header">
-            <!-- INSERT Point - responsive -->
-            <div class="HeaderNavBars">
-                <object data="assets/images/hamburger.svg?fill=white"
-                        type="image/svg+xml" title="Toggle sidebar">
-                </object>
+<!-- INSERT Point - Responsive -->
+    <div class="MenuWrap">
+        <input title="Menu" type="checkbox" class="Toggler">
+        <div class="Hamburger"><div></div></div>
+        <div class="Menu">
+            <div>
+                <div>
+                    <ul class="MenuList">
+                        <li class="MenuListItem" id="H-PHLink" ><a href="#" >Home</a></li>
+                        <li class="MenuListItemLine" id="PHLinkLine" ><hr></li>
+                        <li class="MenuListItem" id="H-PHLinkCTA" ><a href="#" >H-PH_CTA</a></li>
+                        <li class="MenuListItem" id="H-PHLink" ><a href="#" >H-PH_Link1</a></li>
+                        <li class="MenuListItem" id="H-PHLink" ><a href="#" >H-PH_Link2</a></li>
+                        <li class="MenuListItem" id="H-PHLink" ><a href="#" >H-PH_Link3</a></li>
+                        <li class="MenuListItemLine" id="PHLinkLine" ><hr></li>
+                        <li class="MenuListItem" id="F-PHLink" ><a href="#" >F-PH_Link1</a></li>
+                        <li class="MenuListItem" id="F-PHLink" ><a href="#" >F-PH_Link2</a></li>
+                        <li class="MenuListItemLine" id="PHLinkLine" ><hr></li>
+                    </ul>
+                </div>
             </div>
-            <div class="HeaderLogo"><a href="#">PH Logo</a></div>
-            <div class="HeaderSpacer"></div> 
-            <ul class="HeaderNavList">
-                <li class="HeaderNavListItem"><a href=#>PH_Link1</a></li>
-                <li class="HeaderNavListItem"><a href=#>PH_Link2</a></li>
-                <li class="HeaderNavListItem"><a href=#>PH_Link3</a></li>
-                <li class="HeaderNavListItemCTA"><a href=#>PH_CTA</a></li>
-            </ul>
         </div>
-    <!-- END REPLACE Point - Header -->
+    </div>
+<!-- END INSERT Point - Responsive -->
 
 ``` 
 
@@ -1865,9 +1912,9 @@ First we need to add the NavBars (hamburger) in both index.html and index.css.
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <div class="replace-point-text">
-&lt;!&dash;&dash; REPLACE Point - Header &dash;&dash;&gt; <br>
+&lt;!&dash;&dash; INSERT Point - Responsive &dash;&dash;&gt; <br>
 <br>
-&lt;!&dash;&dash; END REPLACE Point - Header &dash;&dash;&gt;<br> 
+&lt;!&dash;&dash; END INSERT Point - Responsive &dash;&dash;&gt;<br> 
 </div>
 comments in your index.<b>html</b> file:
 </div>
@@ -1877,76 +1924,212 @@ comments in your index.<b>html</b> file:
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage2.jpg">
 <br><br>
- Take a look at <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  We have successfully added our NavBars.
+ Take a look at <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  Look closely and you will see the makings of our Hamburger menu. We now need to add to our index.css to successfully create our Hamburger. <img class="two-percent" src="FRApps/assets/images/md-images/HamburgerBlue.jpg">
 <br><br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage3.jpg">
 <br><br>
-____
 
-<details class="details-style">
-<summary class="summary-style">More Info: Your Images</summary>
-<div class="popup">
-Note in your assets/images directory you have 3 different images.<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;+ formr-logo-blue.gif<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(our logo image)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;+ monaco-blue-soft.jpg<br> 
-       &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;(an image we will use later in customization)<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;+ hamburger.svg<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(the NavBars we are working with now)
-<br><br>These images will be used in your code. The first 2 as variables in the :root section of the index.css file.  The last will be referenced directly in the Header section of the index.html file. 
-
-<br>
-<img class="no-border" width="30%" src="FRApps/assets/images/md-images/BasicResponsiveImage4.jpg">
-</div>
-</details>
-
-____
-
-Now let's move on to index.**css** to adjust the NavBars in a proper postion
+Now let's move on to index.**css** to create the Hamburger in a proper postion.
 
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
 
 #### c. .HeaderNavBars
 
-- We will be INSERTING 2 new classes in one copy/paste block of code:
+- We will be INSERTING a <b><u>HUGE</u></b> block of code in one copy/paste block of code:
 
-    + <font color='green'>.HeaderNavBars</font><br>
-    + <font color='green'>.HeaderNavBars:focus</font><br>
 
 <span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
 <img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" >
 </span>
 
 ```css
-/*===========================================*/
-/* H-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
-/* H-1 INSERT Point - .HeaderNavBars */
-/*-----------------------------------------
-The .HeaderNavBars (menu) properites
-------------------------------------------*/
-.HeaderNavBars {
+/*~~~~~~~~~~~ VERY LARGE BLOCK OF CODE ~~~~~~~~~~*/
+/*===============================================*/
+/* HAM HAMBURGER START BLOCK ^^^^^^^^^^^^^^^^^^^^*/
+/* Hamburger Code */
+
+/* MENU (3 bars) STYLES */
+.MenuWrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
   display: none;
-  height: 24px;
-  width: 24px;
-  background: transparent;
-  border: none;
+}
+.MenuWrap .Toggler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
   cursor: pointer;
-  padding: 0px;
-  box-sizing: border-box;
-  margin-left: 20px;
-  margin-top: 0px;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+/*===============================================*/
+/*BEGIN Make a three line Hamburger*/
+.MenuWrap .Hamburger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  padding: 18px 16px 10px 16px;
+  background: var(--Header_background-color);
+    /*Red for Layout; Orange for Customization*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/*=======================================*/
-/* INSERT Point - .HeaderNavBars:focus */
-/*-----------------------------------------
-The .HeaderNavBars:focus properites
-------------------------------------------*/
-.HeaderNavBars:focus {
-    outline: none;
+/* Hamburger Line */
+.MenuWrap .Hamburger > div {
+  position: relative;
+  flex: none;
+  width: 100%;
+  height: 3px;
+  background: blue; /*bar colors*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
 }
-/* H-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+/* Hamburger Lines - Top & Bottom */
+.MenuWrap .Hamburger > div::before,
+.MenuWrap .Hamburger > div::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  width: 100%;
+  height: 3px;
+  background: inherit;
+}
+
+/* Moves Line Down */
+.MenuWrap .Hamburger > div::after {
+  top: 10px;
+}
+/*END Make a three line Hamburger*/
+/*===============================================*/
+
+/*===============================================*/
+/* BEGIN Toggler Animation -- Allows the... */
+/*change the BGColor of the hamburger from red*/
+.MenuWrap .Toggler:checked + .Hamburger {
+  background-color: whitesmoke;
+  opacity: 0.3;
+}
+.MenuWrap .Toggler:checked + .Hamburger > div {
+  background: var(--Header_background-color); 
+    /* X color  Red in Layout; Orange for customization*/
+}
+
+/* ...three lines to turn into an animated X */
+.MenuWrap .Toggler:checked + .Hamburger > div {
+  transform: rotate(135deg);
+}
+/* Turns Lines Into X */
+.MenuWrap .Toggler:checked + .Hamburger > div:before,
+.MenuWrap .Toggler:checked + .Hamburger > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+/* Rotate On Hover When Checked */
+.MenuWrap .Toggler:checked:hover + .Hamburger > div {
+  transform: rotate(1305deg); 
+  transition-duration: .5s; 
+}
+/*END Toggler animation*/
+/*===============================================*/
+
+/*===============================================*/
+/* BEGIN Show Menu */
+.MenuWrap .Toggler:checked ~ .Menu {
+  visibility: visible;
+}
+.MenuWrap .Toggler:checked ~ .Menu > div {
+  transform: scale(1.1);
+  transition-duration: 0.5s; 
+}
+.MenuWrap .Toggler:checked ~ .Menu > div > div {
+  opacity: 1.0;
+  transition:  opacity 0.1s ease;
+}
+.MenuWrap .Menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px 150px 95px;
+}
+.MenuWrap .Menu > div {
+  background: whitesmoke;
+  opacity: 0.95;
+  border-radius: 10%;
+  width: 150vw; 
+  height: 350vw;     
+  display: flex;
+  flex: none;
+  align-items: center;
+/*move menu around*/
+  justify-content: left; 
+  padding-left: 155px; 
+  margin-top: -175px; 
+/*end of move around*/
+  transform: scale(0);
+  transition: all 0.5s ease;
+}
+.MenuWrap .Menu > div > div {
+  text-align: center;
+  max-width: 90vw;
+  max-height: 100vh;
+  opacity: 0.0;
+  transition: opacity 0.5s ease;
+}
+.MenuWrap .Menu > div > div > ul > li {
+  list-style: none;
+  color: blue;
+  font-weight: 800;
+  padding: 5px;
+  background-color: whitesmoke; 
+  opacity: 1;
+}
+.MenuWrap .Menu > div > div > ul > li > a {
+  font-size: .9rem;
+  font-weight: 800;
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.1s ease;
+}
+/*===============================================*/
+
+/*===============================================*/
+#PHLinkLine hr {
+  height: 1px;
+  background-color: blue;
+}
+#H-PHLinkCTA {
+  color: white;
+  background: blue;
+  opacity: .9;
+  border-radius: 8px;
+}
+/* END Show Menu */
+/*===============================================*/
+
+/* HAMBURGER END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 ```
 
 <div class="callout-code-warning">
@@ -1954,26 +2137,28 @@ The .HeaderNavBars:focus properites
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <font color='green'>
-/&ast;======================================&ast;/<br>
-/* H-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*~~~~~~~~~~~ <b>VERY LARGE BLOCK OF CODE</b> ~~~~~~~~~~*/
+/&ast;===============================================&ast;/<br>
+/* HAM HAMBURGER START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^*/
 <br><br>
-/* H-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
-</font>
+/* HAMBURGER END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+</font><br>
 comments in your index.<b>css</b> file:
 </div>
 
 <br>
 
-<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<span class="like-this-text">&nbsp;Like this&nbsp;(very large)</span>
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage5.jpg">
+<img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage5-3.jpg">
 
 Check it out in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage6.jpg">
 
 <div class="callout-oops">
 The hamburger is missing?  That is because we set its display to none in the CSS code we pasted in.  
-<img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage6a.jpg"><br>
+<img class="fifty-percent" src="FRApps/assets/images/md-images/BasicResponsiveImage6a2.jpg"><br>
 We will take care of this momentarily...
 </div>
 
@@ -1984,11 +2169,12 @@ ___
 
 #### e. @media query
 
-- Here is where the real magic happens.  With the use of <font color=cornflowerblue>@media</font> queries we can test the width of the viewpoint of the screen your web page appears.  In our case we will make 3 changes according to these queries where the screen widths are:
+- Here is where the real magic happens.  With the use of <font color=cornflowerblue>@media</font> queries we can test the width of the viewport of the screen your web page appears.  In our case we will make 3 changes according to these queries where the screen widths are:
 <ol>
-    <li>between 740 pixels and 1000 pixels (typical tablet in portrait mode)</li>
-    <li>between 441 pixesl AND 740 pixels (typical mobile device in landscape mode)</li>
+    <li>between 541 pixels and 1000 pixels (typical tablet in portrait mode)</li>
+    <li>between 441 pixesl AND 540 pixels (typical mobile device in landscape mode)</li>
     <li>less than 440 pixels (typical mobile device in portrait mode)</li>
+    <li>be aware that for screen size greater than 1000 pixels, we do not need a query because all of our current css code is written for those sizes</li>
 </ol>
 
 - Again, we will use a Block of code containing the query.
@@ -2004,13 +2190,13 @@ ___
 /*===========================================*/
 /* R-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* Responsive Code */  
-/* R-1 INSERT Point - @media (responsive)*/
+/* R-1 INSERT Point - @media (responsive max-width)*/
 /*-----------------------------------------
-The @media query properties
+The @media MAX-width query properties
 Tablet Portrait
 =========================================*/
 @media only screen
-and (min-width: 741px)
+and (min-width: 541px)
 and (max-width: 1000px) 
 {
   .Section1ImageText {
@@ -2029,16 +2215,23 @@ iPhone Landscape
 =========================================*/
 @media only screen
 and (min-width: 441px)
-and (max-width: 740px) 
+and (max-width: 540px) 
 {
   .HeaderLogo {
       font-size: 1.2rem;
-      margin-left: 10px;
+      margin-left: 50px;
       background-size: 180px 51px;
   }
-  .HeaderNavBars {
+  .MenuWrap {
     display: flex;
   }
+  .MenuWrap .Menu > div {
+    /*move menu around*/
+      justify-content: left;
+      padding-left: 280px;
+      margin-top: -280px; 
+    /*end of move around*/
+    }
   .HeaderNavList {
       display: none;
   }
@@ -2046,37 +2239,48 @@ and (max-width: 740px)
     font-size: 2.5rem;
     text-align: center;
     vertical-align: center;
-    padding: 0px 150px 20px 0px;
+    padding: 20px 150px 20px 0px;
   }
   .Section2 h2 {
     font-size: 1.7rem;
   }
   .Section2Paragraph {
     font-size: 75%;
-    margin-top: -45px;
+    margin-top: -40px;
   }
   .Footer {
     display: none;
   }
 }
 /*-----------------------------------------
-The @media MAX-width (420px) query properties
+The @media MAX-width (440px) query properties
 iPhone Portrait
 =========================================*/
 @media only screen
 and (max-width: 440px)  
 {
-  .HeaderLogo {
-      font-size: .8rem;
-      margin-left: 15px;
-      margin-top: 15px;
-      background-size: 144px 41px;
-  }
-  .HeaderNavBars {
+  .MenuWrap {
     display: flex;
   }
+  .MenuWrap .Menu > div {
+  /*move menu around*/
+    justify-content: left;
+    padding-left: 200px;
+    margin-top: -80px; 
+  /*end of move around*/
+  }
+  .Footer {
+    display: none;
+  }
+  .HeaderLogo {
+      font-size: .8rem;
+      margin-left: 0px;
+      margin-top: 0px;
+      background-size: 144px 41px;
+      padding: 10px 0px 20px 70px;
+  }
   .HeaderNavList {
-      display: none;
+    display: none;
   }
   .Section1ImageText {
       font-size: 2rem;
@@ -2085,13 +2289,15 @@ and (max-width: 440px)
       vertical-align: center;
     } 
   .Section2Paragraph {
-      font-size: 60%;
+      font-size: 70%;
+      margin-top: -10px;
     }
   h2 {
-      padding: 0;
+      padding: 10;
   } 
 }
-/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/ 
+
 
 ```
 <div class="callout-code-warning">
@@ -2109,18 +2315,16 @@ comments in your index.<b>css</b> file:
 <br>
 <span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage7.jpg">
+<img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage7-2.jpg">
 
 Check it out in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.
 
-The image on the left is when the Chrome window is greater than 420 pixels wide, the one on the right is less than 420.  That is "responsiveness!"
+The image on the left is when the Chrome window is greater than 440 pixels wide, the one on the right is less than 440.  That is "responsiveness!"
 
 
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage1.jpg">
 
 Now, check it out on iPhone 7 Plus. Remember, this is our LAYOUT.  Later, we will see how our CUSTOM web page looks on the iPhone. 
-
-<img class="no-border" width="75%" src="FRApps/assets/images/md-images/BasicResponsiveIPhoneImage2.jpg">
 
 Compare the 2 (before and after RESPONSIVE queries)
 
@@ -2130,13 +2334,22 @@ Compare the 2 (before and after RESPONSIVE queries)
 There will be a more detailed discussion about responsiveness in the Custom App portion of this tutorial. Search for "More Info: On Responsiveness"
 </div>
 
+<br>
+
+### 8. Hamburger In Action
+
+<br>
+Now if you click on the Hamburger, you will see the Hamburger css code in action.  It looks like this:<br>
+
+<img class="eighty-percent" style=border:none; src="FRApps/assets/images/md-images/HamburgerInActionLayout.gif">
+
 ### Final LAYOUT
 <br>
 
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFinalLayoutGaramond.jpg">
 <br><br>
 <div class="success">
-<span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br>You have completed your web page *LAYOUT* with a fixed header and footer, links, a CTA button, an image and a text overlay.  All Place Holders in their correct positions.  AND responsive to the width size of the screen it is displayed.  
+<span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br>You have completed your web page *LAYOUT* with a fixed header and footer, links, a CTA button, an image and a text overlay.  All Place Holders in their correct positions.  AND responsive to the width size of the screen it is displayed along with the coveted hamburger menu.  
 <br><br>
 You are now ready to *CUSTOMIZE*.  We will work together on our version of a formR web page.  Once complete, please go and *CUSTOMIZE* your own page with a different image, logo and links. 
 </div>
@@ -2161,7 +2374,7 @@ You are now ready to *CUSTOMIZE*.  We will work together on our version of a for
 
 ___
 
-### 1. Add Image to Section 1 O:05
+### 1. Add Image to Section 1 0:05
 
 - To add some pizzazz to your web site, we will include an image in Section 1.  This will require some modifications to your existing code in the index.<b>css</b> file.  
 
@@ -2186,11 +2399,11 @@ This is where there is a sizeable change to the .Section1 code below.
 </span>
 
 ```css
-/*=======================================*/
+/*===============================================*/
 /* S1R-1 REPLACE Point - Section1 */
-/*-----------------------------------------
+/*------------------------------------------------
 The .Section1 properites
-------------------------------------------*/
+-------------------------------------------------*/
 .Section1 {
     background: var(--Section1_background-image);
     background-color: var(--Section1_background-color);
@@ -2202,7 +2415,7 @@ The .Section1 properites
     position: relative;
     top: 80px;
 }
-/* END S1R-1 .Section1 =====================*/
+/* END S1R-1 .Section1 ===========================*/
 ```
 
 <div class="callout-code-warning">
@@ -2271,24 +2484,10 @@ Now lets add an image in place of the "PH Logo" in the Header. In the "<span cla
 </span>
 
 ```html
-    <!-- REPLACE Point - Header -->
-        <div class="Header">
-            <!-- INSERT Point - responsive -->
-            <div class="HeaderNavBars">
-                <object data="assets/images/hamburger.svg?fill=white"
-                        type="image/svg+xml" title="Toggle sidebar">
-                </object>
-            </div>
+    <!-- REPLACE Point Logo -->
             <div class="HeaderLogo"><a href="#"></a></div>
-            <div class="HeaderSpacer"></div> 
-            <ul class="HeaderNavList">
-                <li class="HeaderNavListItem"><a href=#>PH_Link1</a></li>
-                <li class="HeaderNavListItem"><a href=#>PH_Link2</a></li>
-                <li class="HeaderNavListItem"><a href=#>PH_Link3</a></li>
-                <li class="HeaderNavListItemCTA"><a href=#>PH_CTA</a></li>
-            </ul>
-        </div>
-    <!-- END REPLACE Point - Header -->
+    <!-- END REPLACE Point - Logo -->
+
 ```
 
 <div class="callout-code-warning">
@@ -2296,20 +2495,21 @@ Now lets add an image in place of the "PH Logo" in the Header. In the "<span cla
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <div class="replace-point-text">
-&lt;!&dash;&dash; REPLACE Point - Header &dash;&dash;&gt; <br>
+&lt;!&dash;&dash; REPLACE Point - Logo &dash;&dash;&gt; <br>
 <br>
-&lt;!&dash;&dash; END REPLACE Point - Header &dash;&dash;&gt;<br> 
+&lt;!&dash;&dash; END REPLACE Point - Logo &dash;&dash;&gt;<br> 
 </div>
 comments in your index.<b>html</b> file:
 </div>
 <br>
 <span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicformRImage1.jpg">
+<img class="no-border" src="FRApps/assets/images/md-images/BasicformRImage1-2.jpg">
 
+<!--
 > ...OR just follow along with the below video<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicHeaderPHLogoDelete.gif">
-
+-->
 <br>
 
 In <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome, we have made a mess of the logo.  Be patient, we will take care of this with CSS code.
@@ -2326,7 +2526,7 @@ In <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome, we have ma
 In the <font color='green'>:root</font> section we will MODIFY the following:<br>
 
 + <b><font color=#A81966>--HeaderLogo-image:</font></b> url('assets/images/formr-logo-blue.gif'); 
-+ <b><font color=#A81966>--HeaderLogo-margin:</font></b> 0px 0 0 50px;<br>
++ <b><font color=#A81966>--HeaderLogo-margin:</font></b> 0px 0 0 30px;<br>
 
 <span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
 <img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" >
@@ -2344,7 +2544,7 @@ In the <font color='green'>:root</font> section we will MODIFY the following:<br
     --Header_background-color: red;
     --Header_hover-color: white;
     --HeaderLogo-image: url( 'assets/images/formr-logo-blue.gif' );
-    --HeaderLogo_margin: 0px 0 0 50px;
+    --HeaderLogo_margin: 0px 0px 0px 3px;
     --HeaderLogo-FontFamily: "Roboto Slab";
     --HeaderList-font-size: 1.2rem;
   
@@ -2518,7 +2718,7 @@ The @media MAX-width query properties
 Tablet Portrait
 =========================================*/
 @media only screen
-and (min-width: 741px)
+and (min-width: 541px)
 and (max-width: 1000px) 
 {
   .Section1ImageText {
@@ -2537,16 +2737,23 @@ iPhone Landscape
 =========================================*/
 @media only screen
 and (min-width: 441px)
-and (max-width: 740px) 
+and (max-width: 540px) 
 {
   .HeaderLogo {
       font-size: 1.2rem;
-      margin-left: 10px;
+      margin-left: 70px;
       background-size: 180px 51px;
   }
-  .HeaderNavBars {
+  .MenuWrap {
     display: flex;
   }
+  .MenuWrap .Menu > div {
+    /*move menu around*/
+      justify-content: left;
+      padding-left: 280px;
+      margin-top: -280px; 
+    /*end of move around*/
+    }
   .HeaderNavList {
       display: none;
   }
@@ -2554,53 +2761,65 @@ and (max-width: 740px)
     font-size: 2.5rem;
     text-align: center;
     vertical-align: center;
-    padding: 0px 150px 20px 0px;
+    padding: 20px 150px 20px 0px;
   }
   .Section2 h2 {
     font-size: 1.7rem;
   }
   .Section2Paragraph {
     font-size: 75%;
-    margin-top: -45px;
+    margin-top: -20px;
   }
   .Footer {
     display: none;
   }
 }
-
 /*-----------------------------------------
-The @media query properties
+The @media MAX-width (440px) query properties
 iPhone Portrait
 =========================================*/
 @media only screen
 and (max-width: 440px)  
 {
-  .HeaderLogo {
-      font-size: .8rem;
-      margin-left: 15px;
-      margin-top: 15px;
-      background-size: 144px 41px;
-  }
-  .HeaderNavBars {
+  .MenuWrap {
     display: flex;
   }
+  .MenuWrap .Menu > div {
+  /*move menu around*/
+    justify-content: left;
+    padding-left: 200px;
+    margin-top: -80px; 
+  /*end of move around*/
+  }
+  .Footer {
+    display: none;
+  }
+  .HeaderLogo {
+      font-size: .8rem;
+      margin-left: 60px;
+      margin-top: 40px;
+      background-size: 144px 41px;
+      padding: 10px 0px 20px 70px;
+  }
   .HeaderNavList {
-      display: none;
+    display: none;
   }
   .Section1ImageText {
       font-size: 2rem;
       padding: 40px 80px 20px 0px;
       text-align: center;
       vertical-align: center;
-    }
+    } 
   .Section2Paragraph {
-      font-size: 60%;
+      font-size: 70%;
+      margin-top: -10px;
     }
   h2 {
-      padding: 0;
-  }
+      padding: 10;
+  } 
 }
-/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/ 
+
 
 ```
 
@@ -2642,39 +2861,51 @@ Please check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chr
 ___
 
 
-### 3. Change Texts 0:05
+### 3. Change Texts 0:10
 
 - It is time to replace all of our <u><b>P</b></u>lace <u><b>H</b></u>older text.  We can do this by simply changing the texts in our index.**html** file. We will change the following:
 
-
-- Header (Section)
-    + "PH_Link1" ---> "Links"
-    + "PH_Link1" ---> "Cards"
-    + "PH_Link1" ---> "FAQs"
-    + "PH_CTA"   ---> "Sign In"
-- Section 1
-    + "PH Text Overlay ---> "My Image & Text"
-- Section2
-    + "PH &#60;br&#62;" ---> *null*
-- Footer (Section)
-    + "PH Link1" ---> "Support"
-    + "PH Link2" ---> "Terms Of Use"
-
-
-
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
-
 
 Open your index.html file and follow along as we are just going to edit some text in the page, starting with the Header class.
 
-#### a. <font color='green'>Header</font>
+#### a. <font color='green'>MenuWrap</font>
+
+- In the &#60;li&#62; tags please make the 6 changes as shown in the below "before" and "after" images.
+<ul><b>
+    <li>"H-PH_CTA"   ---> "Sign In</li>
+    <li>"H-PH_Link1" ---> "Links"</li>
+    <li>"H-PH_Link2" ---> "Cards"</li>
+    <li>"H-PH_Link3" ---> "FAQs"</li>
+    <li>"F-PH_Link1" ---> "Support"</li>
+    <li>"F-PH_Link2" ---> "Terms Of Use"</li></b>
+</ul>
+
+ <span style="font-size: 25px"><b>BEFORE</b></span><br>
+<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage0a.jpg"><br>
+<span style="font-size: 25px"><b>AFTER</b></span><br>
+<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage0b.jpg">
+
+<br>
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br>
+<img class="no-border" src="FRApps/assets/images/md-images/BasicMenuWrapTextEdit.gif">
+
+____
+
+#### b. <font color='green'>Header</font>
 
 - In the &#60;li&#62; tags please make the 4 changes as shown in the below "before" and "after" images.
-
-> <span style="font-size: 25px"><b>BEFORE</b></span><br>
-<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage1.jpg"><br>
+<ul><b>
+    <li>"PH_Link1" ---> "Links"</li>
+    <li>"PH_Link2" ---> "Cards"</li>
+    <li>"PH_Link3" ---> "FAQs"</li>
+    <li>"PH_CTA"   ---> "Sign In</li></b>
+</ul>
+ <span style="font-size: 25px"><b>BEFORE</b></span><br>
+<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage1a.jpg"><br>
 <span style="font-size: 25px"><b>AFTER</b></span><br>
-<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage2.jpg">
+<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage2a.jpg">
 
 <br>
 <span class="like-this-text">&nbsp;Like this&nbsp;</span>
@@ -2683,44 +2914,61 @@ Open your index.html file and follow along as we are just going to edit some tex
 
 ____
 
-#### b. <font color='green'>Section 1</font>
+#### c. <font color='green'>Section 1</font>
 
-- In the &#60;h2&#62; tag please make the 1 change as shown in the below "before" and "after" images.
+- In the &#60;h2&#62; tag please make the 1 change as shown in the below "before" and "after" images.<br>
+<ul><b>
+    <li>"PH Text Overlay"   ---> "My Image & Text</li></b>
+</ul>
 
-><span style="font-size: 25px"><b>BEFORE</b></span><br>
-<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage3.jpg"><br>
+<span style="font-size: 25px"><b>BEFORE</b></span><br>
+<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage3a.jpg"><br>
 <span style="font-size: 25px"><b>AFTER</b></span><br>
-<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage4.jpg">
+<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage4a.jpg">
+
 <br>
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br>
+<img class="no-border" src="FRApps/assets/images/md-images/BasicSection1TextEdit.gif">
 
 ___
 
-#### c. <font color='green'>Section 2</font>
+#### d. <font color='green'>Section 2</font>
 
-- In the &#60;p&#62; tag please make the 1 change as shown in the below "before" and "after" images. 
-
-- Just remove the PH &#60;br&#62;.
-
-> <span style="font-size: 25px"><b>BEFORE</b></span><br>
+- In the &#60;p&#62; tag please make the 1 change as shown in the below "before" and "after" images. Just remove the PH &#60;br&#62;.
+<ul><b>
+    <li>"PH &#60;br&#62;" ---> *null*</li></b>
+</ul>
+ <span style="font-size: 25px"><b>BEFORE</b></span><br>
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage5.jpg"><br>
 <span style="font-size: 25px"><b>AFTER</b></span><br>
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage6.jpg">
 <br>
-
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br>
+<img class="no-border" src="FRApps/assets/images/md-images/BasicSection2TextEdit.gif">
 ___
 
-#### d. <font color='green'>Footer</font>
+#### e. <font color='green'>Footer</font>
 - In the &#60;li&#62; tags please make the 2 changes as shown in the below "before" and "after" images.
+<ul><b>
+    <li>"PH_Link1" ---> "Support"</li>
+    <li>"PH_Link2" ---> "Terms Of Use"</li></b>
+</ul>
 
-> <span style="font-size: 25px"><b>BEFORE</b></span><br>
-<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage7.jpg">&nbsp;<br>
+ <span style="font-size: 25px"><b>BEFORE</b></span><br>
+<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage7a.jpg">&nbsp;<br>
 <span style="font-size: 25px"><b>AFTER</b></span><br>
-<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage8.jpg">
+<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicTextImage8a.jpg">
+<br>
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br>
+<img class="no-border" src="FRApps/assets/images/md-images/BasicFooterTextEdit.gif">
 ___
 
 Here is what the final index.html page should look like:
 
-<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicCustomHTMLFull.jpg">
+<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicCustomHTMLFulla.jpg">
 
 #### Web Page with Text Changes
 <br>
@@ -2787,7 +3035,7 @@ Well, it's very simple to make the requested color changes right here in four of
     --Header_background-color: #FF7034; /*dark orange*/
     --Header_hover-color: white;
     --HeaderLogo-image: url( 'assets/images/formr-logo-blue.gif' );
-    --HeaderLogo_margin: 0px 0 0 50px;
+    --HeaderLogo_margin: 0px 0 0 3px;
     --HeaderLogo-FontFamily: "Roboto Slab";
     --HeaderList-font-size: 1.2rem;
   
@@ -2926,11 +3174,11 @@ ___
 
 Like the Layout version, your completed custom version is responsive at 420 and 760 pixels.  
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage2.jpg">
+<img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage3.jpg">
 <br><br>
-And it looks great on an iPhone 7 Plus.
+And it looks great on an iPhone 7 Plus, with the working Hamburger.
 <br><br>
-<img class="no-border" width=75% src="FRApps/assets/images/md-images/BasicFinaliPhoneImage.jpg">
+<img class="no-border" width=75% src="FRApps/assets/images/md-images/aniBasicFinaliPhoneImage.gif">
 <br><br>
 
 Now you have all the tools to go back to your Layout and customize it the way you would like.
