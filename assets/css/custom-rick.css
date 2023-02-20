@@ -1,9 +1,10 @@
 /*Content Reference ***IMPORTANT*/
 /*https://www.w3schools.com/icons/icons_reference.asp*/
 
-@import url('https://fonts.googleapis.com/css?family=Bookman Old Style');
+/* @import url('https://fonts.googleapis.com/css?family=Bookman Old Style'); */
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre');
-@import url('/font-awesome-4.6.3/css/font-awesome.min.css');
+/* @import url('/font-awesome-4.6.3/css/font-awesome.min.css');  */
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css') */
 
 /*-----------------------------------------------*/
 /*Variables*/
@@ -13,6 +14,7 @@
     --CalloutIconTip: "\f005  Tip \A"; /*star w/Tip*/
     --CalloutIconPopTip: "\f14a  TIP! \A"; /*checkbox*/
     --CalloutIconWarning: "\f071  IMPORTANT! \A"; /*warning triangle*/
+    --CalloutIconImage: "\f03e  \A"; /*image*/
     --CalloutIconOops: "\f5a5  OOPS! \A"; /*sad*/
     --CalloutIconChrome: "\f268  Chrome \A"; /*CHROME Icon*/
     --CalloutIconCopy: "\f0c5 \A"; /*copy*/
@@ -126,6 +128,18 @@
 .chrome-image {
     width: 4%;
 }
+.two-percent {
+    width: 2%;
+}
+.five-percent {
+    width: 5%;
+}
+.twentyfive-percent {
+    width: 25%;
+}
+.forty-percent {
+    width: 40%;
+}
 .fifty-percent {
     width: 50%;
 }
@@ -145,7 +159,7 @@
 .author {
     border: 2px cornflowerblue solid;
     border-radius: 5px;
-    border-top-left-radius: 20px;
+    border-top-left-radius: 12px;
     border-bottom-right-radius: 1px;
     box-shadow: 3px 3px #0F52BA;
     font-size: 1.1rem;
@@ -315,7 +329,31 @@ hr {
 }
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
-/*For the Chrome Icon*/
+/* Call Out for Code WARNINGS */
+.callout-image {
+    padding: var(--CalloutPadding);
+    /* background-color: var(--CalloutBackgroundColor); */
+    border: 0px solid green;
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);   
+    font-size: 1rem;
+    font-weight: 500;
+    color: whitesmoke;
+}
+.callout-image::before {
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconImage); /*image*/
+    white-space: pre;
+    color: #616161;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*//*For the Chrome Icon*/
 .callout-chrome {
     background-color: var(--CalloutBackgroundColor);
     color: red;
