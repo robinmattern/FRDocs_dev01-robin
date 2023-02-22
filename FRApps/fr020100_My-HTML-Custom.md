@@ -347,6 +347,8 @@ html {
     background: var(--Body_background-color);
     height: 100%;
     text-align: center;
+    max-width: 1000px;
+    margin: auto;
 }
 /* END HTML ===================================*/
 
@@ -403,7 +405,22 @@ The .Header properites
 
 /*     INSERT Point - .HeaderNavListItem a */
 
-/*     INSERT Point  - .HeaderNavListItem a:hover
+/*     INSERT Point  - .HeaderNavListItem /*===============================================*/
+/* HR-1 REPLACE Point - .Header */
+/*------------------------------------------------
+The .Header properites
+-------------------------------------------------*/
+.Header {
+    background: var(--Header_background-color);
+    width: 100%; /*was 300px*/
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+    max-width: 1000px;
+    margin: auto;
+}
+/* END HR-1 .Header =============================*/
+a:hover
                        .HeaderNavListItem a:active */
 /* H-3 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
@@ -583,53 +600,9 @@ ____
 <br><br>
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
 
-#### a. HTML
+#### a. .Header
 
-- In the <font color='green'>HTML</font>  section we will ADD the following:<br>
-
-    + <b><font color=#A81966>max-width</font></b> to 1000px;   
-    + <b><font color=#A81966>margin</font></b> to auto; 
-
-<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
-<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" >
-</span>
-
-
-```css
-/*===============================================*/
-/* HTML REPLACE Point */
-/*------------------------------------------------
-The <html> tag properites (unchanged)
--------------------------------------------------*/
-html {
-    background: var(--Body_background-color);
-    height: 100%;
-    text-align: center;
-    max-width: 1000px;
-    margin: auto;
-}
-/* END HTML =====================================*/
-```
-<div class="callout-code-warning">
-<br><br>
-...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
-<br>
-<div class="multiple-equals-text">
-/*=======================================*/<br>
-/* HTML REPLACE Point */
-<br><br>
- /* END HTML =======================*/<br> 
-</div>
-comments in your index.<b>css</b> file:
-</div>
-<br>
-Replace the entire block with new code, like this.
-
-<img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksHTMLImage.jpg"><br>
-
-#### b. .Header
-
-- In the <font color='green'>.Header</font> class section we will MODIFY the following:<br>
+- In the <font color='green'>.Header</font> class section of your index.css file we will MODIFY the following:<br>
 
     + <b><font color=#A81966>width</font></b>: 100%; 
     + <b><font color=#A81966>height</font></b>: 80px;<br><br>
@@ -696,7 +669,7 @@ Check out your live server on <img src="FRApps/assets/icons//ChromeIcon.png" wid
 
 ___
 
-#### c. .Section 1 & 2
+#### b. .Section 1 & 2
 
 - In <font color='green'>Section1</font> <b>AND</b> <font color='green'>Section2</font>, CHANGE
     + <b><font color=#A81966>width</font></b> to 100%  
@@ -803,7 +776,7 @@ Back to <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  Prom
 
 ___
 
-#### d. .Footer
+#### c. .Footer
 
 - In <font color='green'>.Footer</font>, section we will CHANGE
     + <b><font color=#A81966>width</font></b> to 100%  
@@ -2157,7 +2130,7 @@ Check it out in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrom
 <img class="no-border" src="FRApps/assets/images/md-images/BasicResponsiveImage6.jpg">
 
 <div class="callout-oops">
-The hamburger is missing?  That is because we set its display to none in the CSS code we pasted in.  
+The hamburger is missing?  That is because we set its display to none in the CSS code we pasted in.<br>  
 <img class="fifty-percent" src="FRApps/assets/images/md-images/BasicResponsiveImage6a2.jpg"><br>
 We will take care of this momentarily...
 </div>
