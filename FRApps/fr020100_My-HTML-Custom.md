@@ -182,7 +182,7 @@ Below is our outline.
 </div>
 <hr class="main-division">
 
-### *A. LAYOUT* 0:60
+### *A. LAYOUT* 1:10
 <br>
 Like many web sites (pages) we like to start with a very simple sketch; pencil drawn on a sheet of paper.  Here was our initial thoughts to build a very simple "block" structured web page.  We came very close in achieving our goal.<br><br>
 
@@ -2332,7 +2332,7 @@ You are now ready to *CUSTOMIZE*.  We will work together on our version of a for
 
 <hr class="main-division">
 
-### *B. CUSTOMIZATION* 0:20
+### *B. CUSTOMIZATION* 0:25
 
 - As previously mentioned, we will make some changes to our LAYOUT.<br>We will:
 <div class="custom-list-text">    
@@ -2347,7 +2347,7 @@ You are now ready to *CUSTOMIZE*.  We will work together on our version of a for
 
 ___
 
-### 1. Add Image to Section 1 0:05
+### 1. Add Image to Section1 0:05
 
 - To add some pizzazz to your web site, we will include an image in Section 1.  This will require some modifications to your existing code in the index.<b>css</b> file.  
 
