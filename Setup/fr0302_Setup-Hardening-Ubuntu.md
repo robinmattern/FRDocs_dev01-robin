@@ -49,11 +49,11 @@ Hover over the snippet and click copy, then paste as appropriate.
 ----
 #### 1. Open Bitvise and click Login
 
-![Restart VM](./images/fr0300-01_restart-vm2.png "Restart VM")
+![Restart VM](./images/fr0300-01_restart-vm2-root.png "Restart VM")
 
 #### 2. Click New terminal console
 
-![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console.png "Restart VM")
+![Restart VM](./images/fr0301-09_Vultr-New-Profile-Console-root.png "Restart VM")
 
 #### 3. Enter:
 
@@ -672,6 +672,8 @@ ssh nimda@<your Vultr IP address>
 ```
 
 ![SSH-AllowUsers](./images/fr0302-12_Ubuntu-ssh-allowusers1.png "SSH-AllowUsers")
+
+- Enter your password: FormR!1234
 
 ----
 <div class="notice-success">
