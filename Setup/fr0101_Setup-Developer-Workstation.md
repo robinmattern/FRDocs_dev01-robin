@@ -667,15 +667,19 @@ https://code.visualstudio.com/download
 
 #### 2. Clone myProject from github into the local repos folder
 
+- Copy to Notpad for editing:
+
+```
+git clone github-mick:mickeymouse/myProject.git
+```
+
 - Change:
 
     - github-mick to github-(your initials) that you created in step 1.1.3 above
 
     - mickeymouse to (your github account name)
 
-```
-git clone github-mick:mickeymouse/myProject.git
-```
+    - Copy to git-bash
 
 ![Clone-from-GitHub](./images/fr0101-08_Clone-from-GitHub.png "Clone-from-GitHub")
 
@@ -800,11 +804,7 @@ Update README.md added 3. and 4.
 
 ![Github-push-6a](./images/fr0101-10_Github-push-6a.png "Github-push-6a")
 
-<<<<<<< Updated upstream
 #### 10. Click the Sync Changes button to push to github
-=======
-#### 8. In VSCode click the Sync charm on the left of the bottom tray to pull from github
->>>>>>> Stashed changes
 
 ![Github-push-7](./images/fr0101-10_Github-push-7.png "Github-push-7")
 
