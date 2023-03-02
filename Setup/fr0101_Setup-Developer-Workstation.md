@@ -814,7 +814,10 @@ Update README.md added 3. and 4.
 
 ----
 ### 11. Install Node Version Selector for Windows 0:05
+
 ----
+#### 1. Close VSCode
+
 <div class="notice-warning">
   <div class="notice-warning-header">
     Warning: Be sure to CLOSE VSCode before installing NVS
@@ -859,7 +862,7 @@ https://github.com/jasongin/nvs/releases/download/v1.6.0/nvs-1.6.0.msi
 
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-6.png "Nodejs-install-check")
 
-- Add and use the latedt RVEN Node Version i.e. 18
+- Add and use the latest EVEN Node Version i.e. 18
 
 ```
     nvs add 18
