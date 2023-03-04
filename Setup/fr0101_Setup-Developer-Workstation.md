@@ -890,6 +890,8 @@ npm --version
 
 ![Nodejs-install-check](./images/fr0101-11_Nodejs-install-4.png "Nodejs-install-check")
 
+- then close Windows Command window
+
 ----
 ### 12. Install MySql for Windows 0:45
 ----
