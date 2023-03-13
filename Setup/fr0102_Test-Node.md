@@ -50,11 +50,11 @@ Hover over the snippet and click copy, then paste as appropriate.
 ----
 #### 1. Open VSCode
 
-- In File Explorer navigate to C repos myProject, then double click on myProject.code-workspace.
+- In File Explorer navigate to C:/repos/myProject, then double click on myProject.code-workspace.
 
 ![Node-test-terminal](images/fr0102-01_Node-test-terminal0.png "Node-test-terminal")
 
-- In VSCode right click on the myProject folder and click on Open terminal
+- In VSCode right click on the myProject folder and click on Open in Integrated Terminal
 
 ![Node-test-terminal](images/fr0102-01_Node-test-terminal.png "Node-test-terminal")
 
@@ -62,7 +62,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 #### 2. Check Node version
 
-- From terminal enter:
+- From terminal enter:  (Make sure its installed)
 
 ```
 node --version 
