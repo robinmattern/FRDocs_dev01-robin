@@ -71,6 +71,21 @@ https://www.vultr.com/?ref=9024374-8H
 
 ![Vultr Deploy New Server](./images/fr0301-01_Vultr-Deploy-New-Server.png "Deploy New Server")
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Summary: Vultr changes its deploy steps from time to time, so our pictures below may be different. Here is a list of configurations that you need:<br/><br/>
+    Server = Cloud Compute<br/>
+    CPU and Storage = Intel High Performance<br/>
+    Server Location = Choose one near you<br/>
+    Server Image = Ubuntu (choose highest numbered version)<br/>
+    Server Size = Choose smallest available and lowest price<br/>
+    Auto Backup = Off<br/>
+    Additional features = Enable IPv6<br/>
+    Server Hostname and Label = Vultr-FormR0 
+  </div>  
+</div>
+
+
 #### 3. Choose Server: Cloud Compute
 
 ![Vultr Cloud Compute](./images/fr0301-02_Vultr-Cloud-Compute.png "Cloud Compute")
