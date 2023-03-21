@@ -113,16 +113,33 @@ https://www.vultr.com/?ref=9024374-8H
 
 #### 9. Auto Backup = Off
 
+<div class="notice-tip">
+  <div class="notice-tip-header">
+    Hint: Turn backup off for now. Turn on if you are going to keep this server after completing the tutorial.
+.</a> 
+  </div>
+</div>
+
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Auto-Backup.png "Vultr-Host-Label")
 
-#### 10. Server Hostname and Label: 
+#### 10. Additional Features
 
-- Use Vultr-FormR0 for both
+- Enable IPv6
+
+![Vultr-IPv6](./images/fr0301-07_Vultr-IPv6.png "Vultr-IPv6")
+
+#### 11. Server Hostname and Label: 
+
+- Use for both Hostname and Label:
+
+```
+Vultr-FormR0 
+```
 
 ![Vultr-Host-Label](./images/fr0301-07_Vultr-Host-Label.png "Vultr-Host-Label")
 
 
-#### 11. Click Deploy Now
+#### 12. Click Deploy Now
 
 <div class="notice-tip">
   <div class="notice-tip-header">
@@ -136,7 +153,7 @@ https://www.vultr.com/?ref=9024374-8H
 
 ![Vultr Installing](./images/fr0301-08_Vultr-Installing.png "Installing")
 
-#### 12. Connect from Your Workstation via ssh
+#### 13. Connect from Your Workstation via ssh
 
 <div class="notice-tip">
   <div class="notice-tip-header">
