@@ -10,7 +10,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 3.2 My HTML Custom App 2:10 <!-- {docsify-ignore} -->
+## 3.2 My HTML Custom App 4:05 <!-- {docsify-ignore} -->
 
 <div class="callout-tip-top"> Tip:
     <a href="FRApps_prod-master/client1/c10_background-and-purposes/Read.me" target="_blank">Link to Background and Purposes</a> 
@@ -71,7 +71,8 @@ Tools Used:
 Your Workspace:<br><br>
 In VSCode you will find in your FRApps repository a folder<br>
 &nbsp;&nbsp;&nbsp;&nbsp;"<span class="doc-dir-text">c11_my-html-custom-app</span> (inside your <font color='green'>client1</font> folder)."<br>
-In this folder are the empty <font color='green'>index.<b>html</b></font> and <font color='green'>index.<b>css</b></font> files, along with a favicon.png image file.<br>
+In this folder are the empty <span class="black-bg">&nbsp;<font color='blue'>#</font> index.<b>css</b></font>&nbsp;</span> and <span class="black-bg">&nbsp;<font color='red'><></font> index.<b>html</b></font>&nbsp;</span> files; and several other folders, which we will explain later.<br>
+
 <img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1.jpg"><br><br>
 
 <span class="callout-image"><font color='#616161'>Images:</font></span>
@@ -80,13 +81,14 @@ There is an "<font color='green'>assets"</font> folder that holds an "<font colo
 They are:
 
 <ol>
+    <li>favicon.png (our tab image - see below)</li>
     <li>formr-logo-blue.gif (our logo image)</li>
     <li>monaco-blue-soft.jpg (for Section1)</li>
 </ol>
 
 These images will be used in your code. As variables in the :root section of the index.css file.   
 
-<img class="fifty-percent" src="FRApps/assets/images/md-images/IntroductionImage1a1.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/IntroductionImage1a1.jpg">
 
 ____
 
@@ -112,26 +114,27 @@ You may want to maximize either side to better see the code or Chrome; then retu
 
 ____
 
-Your Final CUSTOMIZED Web Site Preview
-
-The below preview will have a fixed (secured) header and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when large or small - with a <img class="two-percent" src="FRApps/assets/images/md-images/HamburgerBlue.jpg"> hamburger menu ).
+#### Your Final <u><b>CUSTOMIZED</b></u> Web Site Preview
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicFinalImageGaramond.jpg">
+The below preview will have a fixed (secured) header and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when large or small - with a <img class="two-percent" src="FRApps/assets/images/md-images/HamburgerBlue.jpg"> hamburger menu).
+<br><br>
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicFinalImageGaramond.jpg">
 
 ____
 
-<span class="like-this-text">&nbsp;3 Important Tips:&nbsp;</span>
+<span class="like-this-text">&nbsp;4 Important Tips:&nbsp;</span>
 
 <div class="callout-tip"><b>1</b><br>
-We will be Replacing and Inserting blocks of code in both the index.html & index.css files.  Below is the KEY to aid in finding the place in the code for these actions in the index.**css** file:
+We will be Replacing and Inserting blocks of code in both the index.html & index.css files.  Below is the KEY to aid in finding the place in the code for these actions in the index.<b>css</b> file:
 
 <ul>
     <li> HR:  Header Replace</li>
     <li> H:   Header Insert</li>
+    <li> D-1: Dropdown Menu Insert</li>
     <li> S1R: Section1 Replace</li>
-    <li> S1:  Section1 Insert</li>
+    <li> S1-1:  Section1 Insert</li>
     <li> S2R: Section2 Replace</li>
-    <li> S2:  Section2 Insert</li>
+    <li> S2-2:  Section2 Insert</li>
     <li> FR:  Footer Replace</li>
     <li> F:   Footer Insert</li>
     <li> HAM: Hamburger Insert</li>
@@ -139,9 +142,26 @@ We will be Replacing and Inserting blocks of code in both the index.html & index
 </ul>
 Example:&nbsp;&nbsp;
 <img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksInsertKeyImage1.jpg">
+
+<font color=red><b>This is dedious work. We have repeated the process at every step so that you will be extra careful in where you paste the copied code. The repitition in itself is tedious but very important to end up with the custom app intended.</b></font>  
 </div>
 <br>
 <div class="callout-tip"><b>2</b><br>
+<span style=font-size:20px; font-weight:bold>IMPORTANT</SPAN>
+<br>
+Beware of these images!  When you see these, they mean that you should be working in a SPECIFIC file.
+<br><br>
+Be in your <u><b>index.html</b></u> file when you do work under this image:
+<img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html_bggray.jpg">
+<br>
+<br>
+Be in your <u><b>index.css</b></u> file when you do work under this image:
+<img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css_bggray.jpg">
+<br><br>
+<span class="small-fonts">(It will save you some grief!)</span>
+</div>
+<br>
+<div class="callout-tip"><b>3</b><br>
 <span style=font-size:20px; font-weight:bold>IMPORTANT</SPAN>
 <br><img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif"><br>
 There will be 3 different methods for copy/paste:<br>
@@ -152,7 +172,7 @@ There will be 3 different methods for copy/paste:<br>
 Each method will be fully discussed at the first instance you encounter them.
 </div>
 <br>
-<div class="callout-tip"><b>3</b><br>
+<div class="callout-tip"><b>4</b><br>
 <u><b><i>LAYOUT vs CUSTOMIZATION</i></b></u>:<br>
 As we build upon the code in both index.html and index.css, we will create first a "Layout" with Place Holders; then we will "Customize" it our way.  You will have the opportunity to customize your "Layout" as your "Custom HTML App" later.
 
@@ -177,9 +197,22 @@ Below is our outline.
                 <li>Change Texts</li>
                 <li>Change Colors</li>
             </ol>
-    </ul>
+        <li class="li-text">Bonus (with Data)</li>
+            <ol>
+                <li>Get Data From MySQL</li>
+                <li>Change Text in Section 1</li>
+                <li>Adjust Text in Section 1</li>
+                <li>Fetch Data (index.html)</li>
+                <li>Render Data (index.html)</li>
+                <li>Replace the Styles for Section 2</li>
+            </ol>
+            <ul class="li-text">Added Bonus</ul>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add Dropdown Menu with Icons&nbsp;&nbsp;<span class="callout-icon"></span></li>
+                <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Update Hamburger Menu with Icons&nbsp;&nbsp;<span class="callout-icon2"></span></li>
+    
 </div>
 </div>
+
 <hr class="main-division">
 
 ### *A. LAYOUT* 1:10
@@ -226,10 +259,14 @@ Our original sketch...
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>HTML Custom Apps</title>
-        <link rel="shortcut icon" href="favicon.png">
+        <link rel="shortcut icon" href="assets/images/favicon.png">
         <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=EB Garamond" >
         <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Roboto+Slab" >
+        <link rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
         <link rel="stylesheet"    href="index.css">
+
+    <!-- INSERT Point - DATA FETCHING -->
+    <!-- END INSERT Point - DATA FETCHING -->
     </head>
 
     <body>    
@@ -237,8 +274,9 @@ Our original sketch...
     <!-- REPLACE Point - Header -->
         <div class="Header">
 
-        	<!-- INSERT Point - Responsive -->
-        	<!-- END INSERT  -  Responsive -->
+            <!-- INSERT Point - Responsive -->
+            <!-- END INSERT Point -  Responsive -->
+
             <!-- REPLACE Point Logo -->
             <!-- END REPLACE Point - Logo -->
 
@@ -267,6 +305,7 @@ Our original sketch...
     </body>
 
 </html>
+
 ```
 <span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
@@ -405,23 +444,7 @@ The .Header properites
 
 /*     INSERT Point - .HeaderNavListItem a */
 
-/*     INSERT Point  - .HeaderNavListItem /*===============================================*/
-/* HR-1 REPLACE Point - .Header */
-/*------------------------------------------------
-The .Header properites
--------------------------------------------------*/
-.Header {
-    background: var(--Header_background-color);
-    width: 100%; /*was 300px*/
-    height: 80px;
-    position: fixed;
-    z-index: 100;
-    max-width: 1000px;
-    margin: auto;
-}
-/* END HR-1 .Header =============================*/
-a:hover
-                       .HeaderNavListItem a:active */
+/*     INSERT Point  - .HeaderNavListItem */
 /* H-3 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
@@ -439,6 +462,14 @@ The .HeaderNavListItemCTA a properties
 
 /* INSERT Point - @keyframes wiggle */
 /* H-5 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+/*===============================================*/
+/* D-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* INSERT DROPDOWN ==============================*/
+
+/* END DROPDOWN */
+/* D-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*===============================================*/
 
 
 /*==============================================*/
@@ -459,9 +490,12 @@ The .Section1 properites
 /* S1-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* S1-1 INSERT Point - .Section1ImageText */
 
-/*      INSERT Point - .Section1ImageText::first-letter */
+/* INSERT Point - .Section1ImageText::first-letter */
 /* S1-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
+
+/*=============================================*/
+/* S2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 /*==============================================*/
 /* S2R-1 REPLACE Point - Section2 */
@@ -498,8 +532,10 @@ The .Section2 h2 properites
 /* S2-2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 /* S2-2 INSERT Point - Section2Paragraph */
 
-/*      INSERT Point - Section2Paragraph::first-letter/line */
+/* INSERT Point - Section2Paragraph::first-letter/line */
 /* S2-2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+/* S2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
 /*===============================================*/
@@ -720,7 +756,7 @@ comments in your index.<b>css</b> file:
 <br><br>
 Follow your progress in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome. No worries, those blocks will be put in their place soon, with CSS magic.
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4f1.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4f1.jpg">
 
 ____
 
@@ -771,8 +807,8 @@ comments in your index.<b>css</b> file:
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4c.jpg">
 <br><br>
 Back to <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  Promise, that Footer will be next for proper placement.
-
-<img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4f2.jpg">
+<br>
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicLargeBlocksImage4f2.jpg">
 
 ___
 
@@ -833,7 +869,7 @@ comments in your index.<b>css</b> file:
 <br>
 Please check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome browser to see your web page so far.  Be sure to scroll up and down to see how we fixed both the Header and Footer in place.
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage5a.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicLargeBlocksImage5a.jpg">
 <br><br>
 <div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br> You have built a full page with four distinct blocks using your Basic Blocks index.<b>css</b> code. We also secured (fixed) the header & footer in one spot.   
@@ -860,7 +896,7 @@ Please check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chr
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFullScreenCSSImage.jpg" style=border:none;>  <br><br> 
     Once this is done, the web site will look like this at full screen:
 <img class="no-border" src="FRApps/assets/images/md-images/BasicFullScreenImage.jpg" style=border:none;>
-
+<br><br>
 Maximize your web site screen to see how this looks.  Return to your "working" screens to proceed.<br>
     </div>
     <br>
@@ -906,6 +942,8 @@ In the <font color='green'>Header</font> section, we will replace the code.
                 <li class="HeaderNavListItem"><a href=#>PH_Link1</a></li>
                 <li class="HeaderNavListItem"><a href=#>PH_Link2</a></li>
                 <li class="HeaderNavListItem"><a href=#>PH_Link3</a></li>
+                <!-- INSERT Point - Dropdown Menu -->
+                <!-- END INSERT  -  Dropdown Menu -->
                 <li class="HeaderNavListItemCTA"><a href=#>PH_CTA</a></li>
             </ul>
         </div>
@@ -1018,7 +1056,7 @@ We still need to:
 <li>Fix the links in the right corner of the header</li>
 </ol>
 
-<img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicFixedHeaderImage3.jpg">
+<img class="seventy-five-percent" style=border:none; src="FRApps/assets/images/md-images/BasicFixedHeaderImage3.jpg">
 
 
 #### c. .HeaderLogo (PH Logo)
@@ -1312,7 +1350,7 @@ ___
 
 Please check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome browser to see your web page thus far.
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicFixedHeaderImage12.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicFixedHeaderImage12.jpg">
 <br><br>
 <div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br> You have just added to your Basic Blocks code which built a full web page with a fixed header along with links, a "CTA" button, and a font-based logo. In the next section, we will add/modify code that will add links to the footer.   
@@ -1468,7 +1506,7 @@ Again, go see it in your <img src="FRApps/assets/icons//ChromeIcon.png" width="4
 
 Please check your Chrome browser to see your web page thus far:
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicFixedFooterImage9.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicFixedFooterImage9.jpg">
 <br><br>
 <div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br> You have just added to your Basic Blocks code which builds a full web page with links in the secured (fixed) footer. In the next section, we will add/modify code that will add a text overlay in Section1.   
@@ -1528,7 +1566,7 @@ comments in your index.<b>html</b> file:
 <br><br>
 Notice. in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome, the "PH Text Overlay" within the &#60;h2&#62; tags.  This will become our text overlay.
 <br><br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicWithImageImage2.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicWithImageImage2.jpg">
 <br>
 Now, we move to the index.<b>css</b> file.
 
@@ -1596,7 +1634,7 @@ ___
 #### c. Text Overlay
 <br>
 Check it out in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome. <br> 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicLAYOUTImage1.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicLAYOUTImage1.jpg">
 
 ___
 
@@ -1656,7 +1694,7 @@ comments in your index.<b>html</b> file:
 
 Check <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  This provides a paragraph text we can add some nice attributes later in the <i>Customization</i> section. 
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicLAYOUTImage2.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicLAYOUTImage2.jpg">
 
 ___
 
@@ -1740,7 +1778,7 @@ ___
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/refreshButtonGray.jpg"> You may have to refresh your screen to activate the wiggle button for the first time.
 </div>
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicWiggleImage1.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicWiggleImage1.jpg">
 
 ___
 
@@ -1832,6 +1870,9 @@ We can set, using CSS, a certain width of the "viewport" to where we can make ch
 At those widths we can make the NavList (the horizontal links) DISAPPEAR; and a NavBars (commonly known as a hamburger) APPEAR whenever needed. AND fix that scrunched up Logo.
 
 <div class="callout-note"><br>To see what the viewport dimensions are of the device you are viewing, go here:
+<br>
+
+- (once the web site is up, it takes a few seconds before the dimension show up at the top)
 
 https://viewportsizer.com/the-viewport-in-responsive-web-design/
 
@@ -2144,8 +2185,8 @@ ___
 
 - Here is where the real magic happens.  With the use of <font color=cornflowerblue>@media</font> queries we can test the width of the viewport of the screen your web page appears.  In our case we will make 3 changes according to these queries where the screen widths are:
 <ol>
-    <li>between 541 pixels and 1000 pixels (typical tablet in portrait mode)</li>
-    <li>between 441 pixesl AND 540 pixels (typical mobile device in landscape mode)</li>
+    <li>between 621 pixels and 1000 pixels (typical tablet in portrait mode)</li>
+    <li>between 441 pixesl AND 620 pixels (typical mobile device in landscape mode)</li>
     <li>less than 440 pixels (typical mobile device in portrait mode)</li>
     <li>be aware that for screen size greater than 1000 pixels, we do not need a query because all of our current css code is written for those sizes</li>
 </ol>
@@ -2169,7 +2210,7 @@ The @media MAX-width query properties
 Tablet Portrait
 =========================================*/
 @media only screen
-and (min-width: 541px)
+and (min-width: 621px)
 and (max-width: 1000px) 
 {
   .Section1ImageText {
@@ -2188,7 +2229,7 @@ iPhone Landscape
 =========================================*/
 @media only screen
 and (min-width: 441px)
-and (max-width: 540px) 
+and (max-width: 620px) 
 {
   .HeaderLogo {
       font-size: 1.2rem;
@@ -2314,12 +2355,12 @@ There will be a more detailed discussion about responsiveness in the Custom App 
 <br>
 Now if you click on the Hamburger, you will see the Hamburger css code in action.  It looks like this:<br>
 
-<img class="eighty-percent" style=border:none; src="FRApps/assets/images/md-images/HamburgerInActionLayout.gif">
+<img class="seventy-five-percent" style=border:none; src="FRApps/assets/images/md-images/HamburgerInActionLayout.gif">
 
 ### Final LAYOUT
 <br>
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicFinalLayoutGaramond.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicFinalLayoutGaramond.jpg">
 <br><br>
 <div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br>You have completed your web page *LAYOUT* with a fixed header and footer, links, a CTA button, an image and a text overlay.  All Place Holders in their correct positions.  AND responsive to the width size of the screen it is displayed along with the coveted hamburger menu.  
@@ -2327,8 +2368,39 @@ Now if you click on the Hamburger, you will see the Hamburger css code in action
 You are now ready to *CUSTOMIZE*.  We will work together on our version of a formR web page.  Once complete, please go and *CUSTOMIZE* your own page with a different image, logo and links. 
 </div>
 
-###  [View Full Code For HTML / CSS Layout](/FRApps/code/fr020101_layout-code.md "Full Code")
+____
+#### Saved Layout Files
 <br>
+<div class="save-code"><br><br>
+We saved your Layout files in the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="callout-dir-text">[c11_my-html-custom-app] > [library] > [1_layout]</span> folder.<br<br><br><br>
+
+The files are:<br>
++ <img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;c11_my-html-custom-app
++ &nbsp;&nbsp;<img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;library [folder] with saved apps
++ &nbsp;&nbsp;&nbsp;&nbsp;<img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;1_layout [folder] with layout app
++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;assets [folder] with images
++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>index.css</b> [saved css file]
++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>index.html</b> [saved html file]
+
+Here:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="seventy-five-percent" src="FRApps/assets/images/md-images/YourLayoutLibrary.jpg">
+<br><br>
+Later you can use this Layout app to  make modifications to the code to create your own truly Custom HTML App.
+<br><br>
+</div>
+<br>
+<!--
+### View Full LAYOUT Code  
+<br>
+<div class="callout-link">
+<br><br>
+-->
+<!--
+<b>...</b> [Full Code For HTML LAYOUT App](/FRApps/code/fr020101_layout-code.md "Full Code") 
+<br><br>&nbsp;&nbsp;&nbsp;<b>* PLEASE MAXIMIZE YOUR SCREEN</b>
+</div>
+-->
 
 <hr class="main-division">
 
@@ -2397,9 +2469,9 @@ The .Section1 properites
 <br>
 <div class="multiple-equals-text">
 /*=======================================*/<br>
-/* S1R-1 REPLACE Point - .Section2 */
+/* S1R-1 REPLACE Point - .Section1 */
 <br><br>
-/* END S1R-1 .Section2 =====================*/<br> 
+/* END S1R-1 .Section1 =====================*/<br> 
 </div>
 comments in your index.<b>css</b> file:
 </div>
@@ -2432,7 +2504,7 @@ ____
 <br>
 That's it! Check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome browser for the changes; a nice blue image with the font overlay.
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicWithImageImage4.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicWithImageImage4.jpg">
 
 ____
 
@@ -2517,7 +2589,7 @@ In the <font color='green'>:root</font> section we will MODIFY the following:<br
     --Header_background-color: red;
     --Header_hover-color: white;
     --HeaderLogo-image: url( 'assets/images/formr-logo-blue.gif' );
-    --HeaderLogo_margin: 0px 0px 0px 3px;
+    --HeaderLogo_margin: 0px 0px 0px 30px;
     --HeaderLogo-FontFamily: "Roboto Slab";
     --HeaderList-font-size: 1.2rem;
   
@@ -2588,11 +2660,11 @@ Take caution to assure that you replace threee (3) classes with just two (2).
 The .HeaderLogo properites
 ------------------------------------------*/
 .HeaderLogo {
-  width: 224px;
+  width: 200px;
   height: 64px;
   margin-bottom: 0px;
   background-image: var(--HeaderLogo-image);
-  background-size: 224px 64px;
+  background-size: 200px 64px;
   background-repeat: no-repeat;
   margin: var(--HeaderLogo_margin);
   font-size: 25px;
@@ -2626,6 +2698,11 @@ comments in your index.<b>css</b> file:
 <span class="like-this-text">&nbsp;Like this&nbsp;</span>
 <br>
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/BasicformRImage3.jpg">
+
+The results is a nice formR logo image.  We need to assure all works properly through our @media query in the responsive section of index.<b>css</b> file.  
+
+<img src="FRApps/assets/images/md-images/BasicformRImage5.jpg">
+
 
 ____
 
@@ -2691,7 +2768,7 @@ The @media MAX-width query properties
 Tablet Portrait
 =========================================*/
 @media only screen
-and (min-width: 541px)
+and (min-width: 621px)
 and (max-width: 1000px) 
 {
   .Section1ImageText {
@@ -2710,7 +2787,7 @@ iPhone Landscape
 =========================================*/
 @media only screen
 and (min-width: 441px)
-and (max-width: 540px) 
+and (max-width: 620px) 
 {
   .HeaderLogo {
       font-size: 1.2rem;
@@ -2817,7 +2894,7 @@ md-images/BasicResponsiveChange2.jpg">
 
 This will give the custom web page's formR logo the proper place in the header when viewing on an iPhone 7 Pro
 
-<img class="no-border" src="FRApps/assets/images/
+<img class="seventy-five-percent" src="FRApps/assets/images/
 md-images/BasicFinaliPhoneHeaderImage.jpg">
 ____
 
@@ -2825,7 +2902,7 @@ ____
 <br>
 Please check your <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome browser to see your web page:
 <br><br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicformRImage4.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicformRImage4.jpg">
 <br><br>
 <div class="success">
 <span style="font-size: 20px"><b>CONGRATULATIONS!</b></span><br>You have successsfully replaced the "PH Logo" with the image of our formR logo.
@@ -2947,9 +3024,115 @@ Here is what the final index.html page should look like:
 <br>
 Now let's see these changes in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  LOOKS GREAT!
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicTextFinalImage.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicTextFinalImage.jpg">
 <br><br>
-FINALLY, we will CUSTOMIZE with some color changes.
+<details class="details-style">
+<summary class="summary-style">More Info: LIFE LINE for Index.html </summary>
+<div class="popup">
+In the event your "Change Text" by typing caused your web page to not look like the above; please delete the entire content of your index.<b>html</b> page and copy below and paste it entirely into your now empty file.
+</div>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML Custom Apps</title>
+        <link rel="shortcut icon" href="assets/images/favicon.png">
+        <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=EB Garamond" >
+        <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Roboto+Slab" >
+        <link rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link rel="stylesheet"    href="index.css">
+
+    <!-- INSERT Point - DATA FETCHING -->
+    <!-- END INSERT Point - DATA FETCHING -->
+    </head>
+
+    <body>    
+
+    <!-- REPLACE Point - Header -->
+        <div class="Header">
+
+        <!-- INSERT Point - Responsive -->
+            <div class="MenuWrap">
+                <input title="Menu" type="checkbox" class="Toggler">
+                <div class="Hamburger"><div></div></div>
+                <div class="Menu">
+                    <div>
+                        <div>
+                            <ul class="MenuList">
+                                <li class="MenuListItem" id="H-PHLink" ><a href="#" >Home</a></li>
+                                <li class="MenuListItemLine" id="PHLinkLine" ><hr></li>
+                                <li class="MenuListItem" id="H-PHLinkCTA" ><a href="#" >Sign In</a></li>
+                                <li class="MenuListItem" id="H-PHLink" ><a href="#" >Links</a></li>
+                                <li class="MenuListItem" id="H-PHLink" ><a href="#" >Cards</a></li>
+                                <li class="MenuListItem" id="H-PHLink" ><a href="#" >FAQs</a></li>
+                                <li class="MenuListItemLine" id="PHLinkLine" ><hr></li>
+                                <li class="MenuListItem" id="F-PHLink" ><a href="#" >Support</a></li>
+                                <li class="MenuListItem" id="F-PHLink" ><a href="#" >Terms Of Use</a></li>
+                                <li class="MenuListItemLine" id="PHLinkLine" ><hr></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- END INSERT Point - Responsive -->
+        <!-- REPLACE Point Logo -->
+            <div class="HeaderLogo"><a href="#"></a></div>
+        <!-- END REPLACE Point - Logo -->
+            <div class="HeaderSpacer"></div> 
+            <ul class="HeaderNavList">
+                <li class="HeaderNavListItem"><a href=#>Links</a></li>
+                <li class="HeaderNavListItem"><a href=#>Cards</a></li>
+                <li class="HeaderNavListItem"><a href=#>FAQs</a></li>
+                <!-- INSERT Point - Dropdown Menu -->
+                <!-- END INSERT  -  Dropdown Menu -->
+                <li class="HeaderNavListItemCTA"><a href=#>Sign In</a></li>
+            </ul>
+        </div>
+    <!-- END REPLACE Point - Header -->
+
+
+    <!-- REPLACE Point - Section1 -->
+        <div class="Section1">
+            <h2 class="Section1ImageText">My Text & Logo</h2>
+        </div>
+    <!-- END REPLACE Point - Section1 -->
+
+    <!-- REPLACE Point - Section2 -->        
+        <div class="Section2">
+            <h2></h2>
+            <p class="Section2Paragraph">
+                
+                The quick brown fox jumped over the lazy dog.<br>
+                The quick brown fox jumped over the lazy dog.<br>
+                The quick brown fox jumped over the lazy dog.<br>
+                The quick brown fox jumped over the lazy dog.
+            </p>  
+        </div>
+    <!-- END REPLACE Point - Section2 -->       
+
+    <!-- REPLACE Point - Footer -->
+        <div class="Footer">
+            <ul class="FooterNavList">
+                <li class="FooterNavListItem"><a href=#>Support</a></li>
+                <li class="FooterNavListItem"><a href=#>Terms Of Use</a></li>
+            </ul>
+        </div>
+    <!-- END REPLACE Point - Footer -->
+    </body>
+
+</html>
+
+
+```
+</details>
+
+____
+
+<b>FINALLY, we will CUSTOMIZE with some color changes.</b>
 
 ### 4. Change Colors 0:05
 <br>
@@ -3051,7 +3234,7 @@ comments in your index.<b>css</b> file:
 Check it out in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome!  NICE!<br>
 So easy and powerful with the <font color='green'>:root</font> variables.
 
-<img class="no-border" src="FRApps/assets/images/md-images/BasicColorImage3a.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicColorImage3a.jpg">
 
 ___
 
@@ -3139,7 +3322,7 @@ comments in your index.<b>css</b> file:
     </div>  
 </div>
 <br>
-<img class="no-border" src="FRApps/assets/images/md-images/BasicCustomWithWiggle.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicCustomWithWiggle.jpg">
 
 #### Final Version With formR logo, text & color changes, "wiggle" button and responsive.
 
@@ -3151,46 +3334,1020 @@ Like the Layout version, your completed custom version is responsive at 420 and 
 <br><br>
 And it looks great on an iPhone 7 Plus, with the working Hamburger.
 <br><br>
-<img class="no-border" width=75% src="FRApps/assets/images/md-images/aniBasicFinaliPhoneImage.gif">
+<img class="no-border" width=50% src="FRApps/assets/images/md-images/aniBasicFinaliPhoneImage.gif">
 <br><br>
 
 Now you have all the tools to go back to your Layout and customize it the way you would like.
 
+____
+
+#### Saved Custom Files
+
+<br>
 <div class="save-code"><br><br>
-We saved your Layout AND Custom files in the<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="callout-dir-text">"c11_my-html-custom-app"</span> directory.<br<br><br><br>
+We saved your Custom files in the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="callout-dir-text">[c11_my-html-custom-app] > [library] > [2_custom]</span> folder.<br<br><br><br>
 
 The files are:<br>
-+ index_final_custom.css
-+ index_final_custom.html
-+ index_final_layout.css
-+ index_final_layout.html
++ <img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;c11_my-html-custom-app
++ &nbsp;&nbsp;<img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;library [folder] with saved apps
++ &nbsp;&nbsp;&nbsp;&nbsp;<img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;2_custom [folder] with custom app
++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;assets [folder] with images
++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>index.css</b> [saved css file]
++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>index.html</b> [saved html file]
 
-Here:
-
-<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicColorImage5.jpg">
+Here:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="seventy-five-percent" src="FRApps/assets/images/md-images/YourCustomLibrary.jpg">
 <br><br>
-Please make modifications to the code in either set to help to create your own Custom HTML App.
-<br><br>
+Please make modifications to the code to create your own truly Custom HTML App.
+<br>
 </div>
-<br><br>
+<br>
+
+<!--
 <div class="callout-code-warning"><br>
 Remember to change your<br>  
 &nbsp;&nbsp;&nbsp;&nbsp;'&#60;link rel="stylesheet" href="<span class="css-link-text">index_final_layout.css</span>"&#62;'<br>
 reference in your <u>index.<b>html</b></u> file to match the name of your relating <u>index*.css</u> file.
 <br><br> Like below:
 <img src="FRApps/assets/images/md-images/BasicColorImage6.jpg">
-<!--</span>-->
 </div>
 <br>
 
-<!--## 6. View Full Code-->  <!-- {docsify-ignore} -->
+### View Full CUSTOM Code  
+<br>
+<div class="callout-link">
+<br><br>
 
-###  [View Full Code For HTML Custom Apps](/FRApps/code/fr020102_custom-code.md "Full Code") 
+<b>...</b> [Full Code For HTML CUSTOM App](/FRApps/code/fr020102_custom-code.md "Full Code") 
+<br><br>&nbsp;&nbsp;&nbsp;<b>* PLEASE MAXIMIZE YOUR SCREEN</b>
+</div>
+-->
+
+<hr class="main-division">
+
+### *C. BONUS* - (With Data) 1:40
 
 <br>
+As a bonus we will be adding data to Section 2 of our custom app.  When we are done with this section your web page will look like this:
+<br>
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/DataFinalCustomApp.jpg">
+<br><br>
+<div class="callout-summary"><br><br>
+We will be taking the following steps:
+    <ol>
+        <li>Get the Data from MySQL</li>
+        <li>Change Text in Section 1</li>
+        <li>Adjust Text in Section 1</li>
+        <li>Fetch the Data in index.<b>html</b></li>
+        <li>Render the Data in Section 2 of index.<b>html</b></li>
+        <li>Replace the styles for Section 2 in index.<b>css</b></li>
+        <li>Extra Bonus - Add a Dropdown Menu & Adjust the Hamburger Menu</li>
+    </ol>
+</div>
 
-### *C. DEPLOY TO INTERNET* 0:50
+____
+
+### 1. Get The Data From MySQL 0:30
+
+<br>
+We will add the data from the "World" database you received when you downloaded mySQL along with MySQL Workbench, in Section 1.1.12 (Install MySQL for Windows).
+From your Windows tray at the bottom of your screen, click on the MySQL Workbench Icon:<br><img class="seventyfive-percent" style="padding-left: 50px;" src="FRApps/assets/images/md-images/DataWorkbenchIcon.jpg">
+<br><br>
+
+<details class="details-style">
+    <summary class="summary-style">
+        More Info: HELP! No MySQL Workbench Icon!
+    </summary>
+<!--<div class="callout-note">-->
+If you do not have that Icon in your tray, follow these instructions:<br>
+
+Click on your Windows Charm (bottom left):<br>
+<img width="8%" src="FRApps/assets/images/md-images/DataWindowsCharm.jpg"> 
+
+Click on the search magnifying class (upper right):<br>
+<img class="eighty-five-percent" src="FRApps/assets/images/md-images/DataWindowsSearch.jpg">
+
+Type in MySQL, like this: <br>
+<img class="fifty-percent" src="FRApps/assets/images/md-images/DataWindowsSearchMySQL.jpg">
+
+NOTE: To add the MySQL Workbench icon to your tray, right click here on the icon and chose "Pin To Taskbar," like this:<br>
+<img class="fifty-percent" src="FRApps/assets/images/md-images/DataWindowsPinMySQL.jpg">
+
+Left click on the MySQL Workbench icon to open the tool.<br>
+<img class="fifty-percent" src="FRApps/assets/images/md-images/DataWindowsClickMySQL.jpg">
+<!--</div>-->
+</details>
+
+<b>You will see your MySQL Workbench:</b><br>
+<img class="orange-border" src="FRApps/assets/images/md-images/DataMySQLWelcome.jpg">
+<br><br>
+We created, in <b><u>our</u></b> local instance of MySQL, a view (query) that we can use as our data-set for this bonus piece.  We hope this little teaser will pique your interest in our next chapters of incorporating MySQL data directly into your web page(s). See the flow in the picture below:
+<br><br>
+<img class="orange-border" src="FRApps/assets/images/md-images/DataMySQLFlow2.jpg">
+<br><br>
+
+<div class="callout-database">
+<br><br>
+If you are familiar with MySQL and want to create this view-- below is the SQL statement.
+<br><br>
+This is for students that want to see this view in their MySQL Local Instance and know how to run a SQL statement.
+<br><br>
+For everyone else, patience please as this will be discussed in a later chapter.
+
+```
+CREATE 
+    ALGORITHM = UNDEFINED 
+    DEFINER = `nimdas`@`%` 
+    SQL SECURITY DEFINER
+VIEW `countries_view` AS
+    SELECT 
+        `country`.`Code` AS `Code`,
+        `country`.`Name` AS `Name`,
+        `country`.`Continent` AS `Continent`,
+        FORMAT(`country`.`SurfaceArea`, 0) AS `SurfaceArea`,
+        FORMAT(`country`.`Population`, 0) AS `Population`
+    FROM
+        `country`
+    ORDER BY `country`.`Name`
+```
+</div>
+<br>
+For now, through some magic, we created the data contents for the <b>db.json</b> file in text format that the browser can read and render. You will find that data in <b>db.json</b> file in your assets/data directory.  Click on it to see this data.
+<br><br>
+<img class="fifty-percent" src="FRApps/assets/images/md-images/DatadbjsonLocation.jpg">
+<br><br>
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br><br>
+<img src="FRApps/assets/images/md-images/DatadbjsonFill.jpg">
+<br><br>
+<div class="success">Your "countries" data is now ready to add to Section 2 of your Custom App.
+</div><br>
+
+____
+
+### 2. Change Text in Section 1 0:05
+
+<br>
+<img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
+
+In order to give your data a title, let's change the text in index.<b>html</b>, Section 1 from "My Image & Text" to "world.countries_view."  We did this same process above when we customized the page.
+
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br><br>
+<img src="FRApps/assets/images/md-images/DataSection1TextChange.jpg">
+<br>
+Please change the text manually yourself.
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="FRApps/assets/images/md-images/DataSection1TextChange-ANI.gif">
+
+____
+
+### 3. Adjust Text in Section 1 0:05
+
+<br>
+<img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
+
+The new text will need to be adjusted in Section 1 to be lower and nudged to the right some.  We will do this by...
+
+<span class="copy-code"> ...copying <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" >
+
+```css
+/*===============================================*/
+/* S1R-1 REPLACE Point - Section1 */
+/*------------------------------------------------
+The .Section1 properites
+-------------------------------------------------*/
+.Section1 {
+  background: var(--Section1_background-image);
+  background-color: var(--Section1_background-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 46%;
+  position: relative;
+  top: 80px;
+}
+.Section1 h2 {
+  padding: 180px 250px 0px 0px;
+}
+/* END S1R-1 .Section1 ===========================*/
+```
+
+<div class="callout-code-warning">
+<br><br>
+...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
+<br>
+<div class="multiple-equals-text">
+/*=======================================*/<br>
+/* S1R-1 REPLACE Point - .Section1 */
+<br><br>
+/* END S1R-1 .Section1 =====================*/<br> 
+</div>
+comments in your index.<b>css</b> file:
+</div>
+<br>
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br>
+<img class="no-border" src="FRApps/assets/images/md-images/DataSection1TextChange1.jpg">
+
+<br>
+Check out your work in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.
+Section 1 Text will look like this:
+<br><br>
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/DataSection1TextChange2.jpg">
+
+____
+
+### 4. Fetch the Data in index.<b>html</b> 0:10
+
+<br>
+<img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
+
+<br>
+The JavaScript code below will fetch the data we just pasted into <b>db.json</b> file.  Later, this data will be rendered into HTML format.  You will need to hold your breath for awhile to get some understanding of how this works.  Section 3 of this tutorial goes into depth the JavaScript that performs this magic. But first (in the <font color="#008080">&lt;head&gt;</font> section of <u><b>HTML</b></u>) let's...
+<br><br>
+<span class="copy-code"> ...copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" ></span>
+
+```HTML
+
+    <!-- INSERT Point - DATA FETCHING -->
+    <script type="module">                          
+        window.getCountries = async function ( ) {      // Must define async function to use with await below            
+                var pResponse  = await          fetch( './assets/data/db.json' )
+                var pJSON      = await pResponse.json( )           
+                var nRows      = 9999
+                var mCountries = pJSON.countries.filter( (pCountry, i) => { return i < nRows } )
+                return mCountries   }          
+        </script>        
+    <!-- END INSERT Point - DATA FETCHING -->
+
+```
+<div class="callout-code-warning">
+<br><br>
+...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
+<br>
+<div class="replace-point-text">
+&lt;!&dash;&dash; INSERT Point - DATA FETCHING &dash;&dash;&gt; <br>
+<br>
+ &lt;!&dash;&dash; END INSERT Point - DATA FETCHING &dash;&dash;&gt<br> 
+</div>
+comments in your index.<b>html</b> file:
+</div>
+<br>
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br><br>
+<img src="FRApps/assets/images/md-images/DataDataFetchingScript.jpg">
+<br><br>
+You will not see any changes in your web page.  This code fetches the data from the <b>db.json</b> file you filled earlier.  Next we will see that data rendered on your page.
+
+____
+
+### 5. Render the Data in Section 2 of index.<b>html</b> 0:10
+
+<br>
+<img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.html.jpg">
+<br>
+
+Now that we have fetched the data, it's time to render it in <b>HTML</b>.  The following code will completly replace what we have in Section 2.
+
+
+<span class="copy-code"> ...copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" ></span>
+
+```html
+<!-- REPLACE Point - Section2 -->        
+    <div class="Section2">
+        <!-- COUNTRY DATA RENDERING-->  
+        <div class="countryList">
+            <table class="CountryTable" cellspacing="0">
+                <tbody>
+                <tr>
+                    <th class="CountryCode-th">Code</th>
+                    <th class="Country-th">Country</th>
+                    <th class="Continent-th">Continent</th>
+                    <th class="Area-th">Area (mi<sup>2</sup>)</th>
+                    <th class="Population-th">Population</th>                
+                </tr>
+            <tbody id="Countries"></tbody>
+            </table>
+
+            <script type="module"> 
+                var  mCountries  =  await getCountries( )     // Must assign mCountries here with await                     
+                var  mHTMLrows   =  mCountries.map(  fmtCountry )
+                        mHTMLrows.push ( `<tr class="lastRow" ><td colspan="5"></td></tr>` )
+                var  pCountries           =  document.getElementById( "Countries" )
+                        pCountries.innerHTML =  mHTMLrows.join( "\n" )
+        
+            function  fmtCountry( pCountry, i ) {           
+                var  aColor      =  i % 2 == 1 ? '#EFF8F8'  : '#DEEEF7'
+                var  aID         = `id="R${ `${ i + 1 }`.padStart( 3, "0" )}"`
+                var  aHTMLrow    = `
+                <tr ${aID} Class="${`eachRow ${aColor}`}">
+                    <td bgColor="${aColor}" class="CountryCode-td"> ${ pCountry.Code }</td>
+                    <td bgColor="${aColor}" class="Country-td"> ${ pCountry.Name }</td>
+                    <td bgColor="${aColor}" class="Continent-td"> ${ pCountry.Continent }</td>
+                    <td bgColor="${aColor}" class="Area-td"> ${ pCountry.SurfaceArea }</td>
+                    <td bgColor="${aColor}" class="Population-td"> ${ pCountry.Population }</td>
+                </tr> `
+            return  aHTMLrow }
+            </script>            
+        </div>
+        <!-- END COUNTRY DATA RENDERING -->  
+    </div>
+<!-- END REPLACE Point - Section2 -->
+
+```
+
+<div class="callout-code-warning">
+<br><br>
+...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
+<br>
+<div class="replace-point-text">
+&lt;!&dash;&dash; REPLACE Point - Section2 &dash;&dash;&gt; <br>
+<br>
+ &lt;!&dash;&dash; END REPLACE Point - Section2 &dash;&dash;&gt<br> 
+</div>
+comments in your index.<b>html</b> file:
+</div>
+<br>
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br>
+<img src="FRApps/assets/images/md-images/DataSection2.jpg">
+
+<br>
+Check out your work in <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome. You fetched and rendered the data that you copied to the db.json file. 
+<br><br>
+It isn't very pretty; so let's replace the <b>css</b> code for Section 2.
+<br><br>
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/DataSection2Unstyled.jpg">
+
+____
+### 6. Replace the styles for Section 2 in index.<b>css</b> 0:10
+
+<br>
+<img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
+<br>
+This code will mostly format the table for cell widths and alignment. Let's pretty-up that table.
+<br><br>
+
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" >
+</span>
+
+
+```css
+/*=============================================*/
+/* S2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+/*===============================================*/
+/* S2R-1 REPLACE Point - Section2 */
+/*------------------------------------------------
+The .Section2 properites
+-------------------------------------------------*/
+.Section2 {
+  background-color: #DCDCDC;
+  font-family: var(--GlobalFontFamily);
+  height: 46%;    
+  width: 100%;
+  max-width: 1000px;
+  top: 370px;
+  position: fixed;
+  overflow-y: scroll;
+}
+th {
+  position: sticky;
+  top: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--Header_background-color);
+  background: #183582; /*Dark Sky Blue*/
+  color: white;
+}
+.lastRow {
+  height: 20px;
+  background: #183582; /*Dark Sky Blue*/
+}
+.CountryTable {
+  width: 100%;
+}
+.CountryTable tr th {
+  font-size: 16px;
+  padding-left: 3px;
+}
+.CountryCode-th {
+  width: 8%;
+  text-align: left;
+}
+.Country-th {
+  width: 40%;
+  text-align: left;
+}
+.Continent-th {
+  width: 22%;
+  text-align: left;
+}
+.Area-th {
+  width: 15%;
+  text-align: right;
+  padding-right: 10px;
+}
+.Population-th {
+  width: 15%;
+  text-align: right;
+  padding-right: 10px;
+}
+.CountryCode-td, 
+.Country-td, 
+.Continent-td, 
+.Area-td, 
+.Population-td {
+  font-size: 16px;
+  text-align: left;
+  vertical-align: top;
+  padding-left: 3px;
+}
+.Area-td,
+.Population-td {
+  text-align: right;
+  vertical-align: top;
+  padding-right: 10px;
+}
+
+/* S2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+```
+<br>
+<div class="callout-code-warning">
+<br><br>
+...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
+<br>
+<div class="multiple-equals-text">
+/*=======================================*/<br>
+/* S2 START BLOCK */
+<br><br>
+/* S2 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
+</div>
+comments in your index.<b>css</b> file:
+</div>
+<br>
+
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br>
+<img src="FRApps/assets/images/md-images/DataSection2Styles.jpg">
+<br>
+Check it out with <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome. The data in Section 2 is nicely formated and scrolls beautifully.
+<br>
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/DataFinalCustomApp-ANI.gif">
+<br>
+<div class="callout-note"><br>
+The top title row of the table ([Code], [Country], [Continent], [Area] & [Population]) is fixed so it is alway visible as you scroll up and down the table.  This is done using the "sticky" property in <b>css</b>.
+<br>
+<img class="seventy-five-percent" style=padding-left:100px; src="FRApps/assets/images/md-images/DataTHSticky.jpg">
+</div>
+
+____
+### Added Bonus 0:30
+
+#### a. Add Dropdown Menu with Icons
+<br>
+
+We will undertake one last task (I PROMISE).  In the next chapter, the author request four (4) more links in the header.  Well, we don't have space to add 4 horozontially.  So we will do a cool <b>html/css</b> dropdown menu.  AND, even more cool we will add little icons. <div class="callout-home"></div>
+
+<div class="callout-summary">
+
+- We will add <b>
++ &nbsp;&nbsp;&nbsp;&nbsp;[Home] 
++ &nbsp;&nbsp;&nbsp;&nbsp;[Countries]
++ &nbsp;&nbsp;&nbsp;&nbsp;[Cities]
++ &nbsp;&nbsp;&nbsp;&nbsp;[Languages] 
+</b>
+
+- to a dropdown just to the left of our <img class="wiggle-me" src="FRApps/assets/images/md-images/WiggleButton-SignIn.jpg"> wiggle button.
+- AND add these and more icons to the Hamburger Menu
+
+</div>
+<br>
+Lets get started.
+<br><br>
+<div class="callout-fa">
+<br><font color="darkblue">
+At the top (&#60;<font color="#008080">head</font>&#62; section) of your index.html file is a link to a wonderful collection of icons from "Font Awesome." We will be using this link to grab the icons we want for our dropdown menu.
+<br>
+<img src="FRApps/assets/images/md-images/FontAwesomeLink.jpg">
+</font>
+</div>
+<br>
+
+<img src="FRApps/assets/images/md-images/index.html.jpg">
+
+First in the <b>Navigaton</b> section in the <b>index.html</b> file.
+
+<span class="copy-code"> ...copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" ></span>
+
+```html
+<!-- REPLACE Point Navigation -->
+<div class="HeaderSpacer"></div> 
+<ul class="HeaderNavList">
+    <li class="HeaderNavListItem"><a href=#>Links</a></li>
+    <li class="HeaderNavListItem"><a href=#>Cards</a></li>
+    <li class="HeaderNavListItem"><a href=#>FAQs</a></li>
+    <li class="DropdownMenu">
+    <div class="dropdown">
+        <button class="dropbtn">Data</button>
+        <div class="dropdown-content">
+            <hr style="border-top: 5px solid #C0C0C0; margin-top: 0px;">                           
+                <a href="#" title="Go Home"><i class="fa fa-home"></i>&nbsp;&nbsp;Home</a>
+            <hr style="border-top: 2px solid blue">
+                <a href="#" title="Country Data"><i class="fa fa-flag-usa"></i>&nbsp;&nbsp;&nbsp;Countries</a>
+                <a href="#" title="City Data"><i class="fa fa-city"></i>&nbsp;&nbsp;Cities</a>
+                <a href="#" title="Language Data"><i class="fa fa-comments"></i></i>&nbsp;&nbsp;Languages</a>
+            <hr style="border-top: 5px solid #C0C0C0; margin-bottom: 0px;">                            
+            </div>
+    </div>        
+    </li>
+    <li class="HeaderNavListItemCTA"><a href=#>Sign In</a></li>
+</ul>
+<!-- END REPLACE Point - Navigation -->
+```
+<div class="callout-code-warning">
+<br><br>
+...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
+<br>
+<div class="replace-point-text">
+&lt;!&dash;&dash; REPLACE Point - Navigation &dash;&dash;&gt; <br>
+<br>
+ &lt;!&dash;&dash; END REPLACE Point - Navigation &dash;&dash;&gt<br> 
+</div>
+comments in your index.<b>html</b> file:
+</div>
+<br>
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br>
+<img src="FRApps/assets/images/md-images/DropdownHTML.jpg">
+<br>
+<hr>
+Check it out with <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome. Once again, we made a mess.  
+<img src="FRApps/assets/images/md-images/DropdownChrome.jpg">
+<br><br>
+But with the help of <b>CSS</b> we can make it look great.
+<br><br>
+<img src="FRApps/assets/images/md-images/index.css.jpg">
+
+<span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" >
+</span>
+
+```css
+/*===============================================*/
+/* D-1 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/* INSERT DROPDOWN ==============================*/
+.dropbtn {
+  background-color: var(--Header_background-color);
+  color: black;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 6px ;
+  font-family: var(--GlobalFontFamily);
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-right: 30px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 20px;
+  /* ^^ to move the menu left:0 or right:0 */
+}
+.dropdown-content a {
+  color: black;
+  padding: 7px 12px;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  font-size: 16px;
+  font-family: var(--GlobalFontFamily);
+  font-weight: 500;
+}
+.dropdown-content a:hover {
+  background-color: rgb(66, 66, 245);
+  color: white;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  /* background-color: blue; */
+  color: white;
+}
+/* END DROPDOWN */
+/* D-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*===============================================*/
+```
+
+<br>
+<div class="callout-code-warning">
+<br><br>
+...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
+<br>
+<div class="multiple-equals-text">
+/*=======================================*/<br>
+/* D-1 START BLOCK */
+<br><br>
+/* D-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
+</div>
+comments in your index.<b>css</b> file:
+</div>
+<br>
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br>
+<img src="FRApps/assets/images/md-images/DropdownCSS.jpg">
+<hr>
+Check it out with <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome. Hover over the <b>[Data]</b> link.  PERFECT!  
+<br><br>
+<img src="FRApps/assets/images/md-images/DropdownChromeFinal.jpg">
+<br>
+
+#### b. Update Hamburger with Icons
+
+<br>
+I know I said this was it, but your will soon learn as you become a great coder, there are always improvements you can make.  As I look at our wonderful web page I think the absolute last touch needed is to add those cool font awesome icons to our hamburger menu; along with the added links.  Just a couple cut and paste.  You'll see...
+<br><br>
+<img src="FRApps/assets/images/md-images/index.html.jpg">
+<br><br>
+First the <b>index.html</b> file. We will be replacing the entire <b>Responsive</b> section.
+<br><br>
+<span class="copy-code"> ...copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" ></span>
+
+
+
+```html
+<!-- INSERT Point - Responsive -->
+<div class="MenuWrap">
+    <input title="Menu" type="checkbox" class="Toggler">
+    <div class="Hamburger"><div></div></div>
+    <div class="Menu">
+        <div>
+            <div>
+                <ul class="MenuList">
+                    <li class="MenuListItem" id="H-PHLink" ><a href="#" ><i class="fa fa-home"></i>&nbsp;Home</a></li>
+                    <li class="MenuListItemLine" id="PHLinkLine" ><hr></li>
+                    <li class="MenuListItem" id="H-PHLinkCTA" ><a href="#" ><i class="fa fa-right-to-bracket"></i>&nbsp;&nbsp;Sign In</a></li>
+                    <li class="MenuListItem" id="H-PHLink" ><a href="#" ><i class="fa fa-link"></i>&nbsp;Links</a></li>
+                    <li class="MenuListItem" id="H-PHLink" ><a href="#" ><i class="fa fa-id-card"></i>&nbsp;Cards</a></li>
+                    <li class="MenuListItem" id="H-PHLink" ><a href="#" ><i class="fa fa-clipboard-question"></i>&nbsp;&nbsp;FAQs</a></li>
+                    <li class="MenuListItemLine" id="PHLinkLine" ><hr></li>
+                    <li class="MenuListItem" id="H-PHLink" ><a href="#" ><i class="fa fa-flag-usa"></i>&nbsp;&nbsp;Countries</a></li>
+                    <li class="MenuListItem" id="H-PHLink" ><a href="#" ><i class="fa fa-city"></i>&nbsp;Cities</a></li>
+                    <li class="MenuListItem" id="H-PHLink" ><a href="#" ><i class="fa fa-comments"></i>&nbsp;Languages</a></li>
+                    <li class="MenuListItemLine" id="PHLinkLine" ><hr></li>
+                    <li class="MenuListItem" id="F-PHLink" ><a href="#" ><i class="fa fa-circle-info"></i>&nbsp;Support</a></li>
+                    <li class="MenuListItem" id="F-PHLink" ><a href="#" ><i class="fa fa-file-contract"></i>&nbsp;Terms Of Use</a></li>
+                    <li class="MenuListItemLine" id="PHLinkLine" ><hr></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END INSERT Point - Responsive -->
+```
+<div class="callout-code-warning">
+<br><br>
+...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
+<br>
+<div class="replace-point-text">
+&lt;!&dash;&dash; INSERT Point - Responsive &dash;&dash;&gt; <br>
+<br>
+ &lt;!&dash;&dash; END INSERT Point - Responsive &dash;&dash;&gt<br> 
+</div>
+comments in your index.<b>html</b> file:
+</div>
+<br>
+<span class="like-this-text">&nbsp;Like this with the added links&nbsp;</span>
+<br>
+<img src="FRApps/assets/images/md-images/HamburgerHTML_Final.jpg">
+<br><br>
+<div class="callout-note">
+<br>
+The &#60;i class="fa fa-home"&#62;&#60;i&#62; code.  It is the code that brings in the home icon.
+<br>
+<img src="FRApps/assets/images/md-images/FA-home.jpg">
+</div>
+
+____
+
+Check it out with <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.
+<br>    
+<img class="twentyfive-percent" style="border: 1px black solid; box-shadow: 2px 2px #C0C0C0" src="FRApps/assets/images/md-images/HamburgerWithIconsCenter.jpg">
+<br><br>
+Not bad. But wouldn't it look better if the links were left justified.  That will take some CSS work.  We will do ONE more cut/paste in your <b>CSS</b> file.
+<br><br>
+<img src="FRApps/assets/images/md-images/index.css.jpg">
+<br><br>
+<span class="copy-code"> copy VERY LARGE <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
+<img class="copy-image" src="FRApps/assets/images/md-images/CSSCopy.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" >
+</span>
+
+```css
+/*~~~~~~~~~~~ VERY LARGE BLOCK OF CODE ~~~~~~~~~~*/
+/*===============================================*/
+/* HAM HAMBURGER START BLOCK ^^^^^^^^^^^^^^^^^^^^*/
+/* Hamburger Code */
+
+/* MENU (3 bars) STYLES */
+.MenuWrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+  }
+  .MenuWrap .Toggler {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+  }
+  /*===============================================*/
+  /*BEGIN Make a three line Hamburger*/
+  .MenuWrap .Hamburger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    padding: 18px 16px 10px 16px;
+    background: var(--Header_background-color);
+      /*Red for Layout; Orange for Customization*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Hamburger Line */
+  .MenuWrap .Hamburger > div {
+    position: relative;
+    flex: none;
+    width: 100%;
+    height: 3px;
+    background: blue; /*bar colors*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+  }
+  
+  /* Hamburger Lines - Top & Bottom */
+  .MenuWrap .Hamburger > div::before,
+  .MenuWrap .Hamburger > div::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 3px;
+    background: inherit;
+  }
+  
+  /* Moves Line Down */
+  .MenuWrap .Hamburger > div::after {
+    top: 10px;
+  }
+  /*END Make a three line Hamburger*/
+  /*===============================================*/
+  
+  /*===============================================*/
+  /* BEGIN Toggler Animation -- Allows the... */
+  /*change the BGColor of the hamburger from red*/
+  .MenuWrap .Toggler:checked + .Hamburger {
+    background-color: whitesmoke;
+    opacity: 0.3;
+  }
+  .MenuWrap .Toggler:checked + .Hamburger > div {
+    background: var(--Header_background-color); 
+      /* X color  Red in Layout; Orange for customization*/
+  }
+  
+  /* ...three lines to turn into an animated X */
+  .MenuWrap .Toggler:checked + .Hamburger > div {
+    transform: rotate(135deg);
+  }
+  /* Turns Lines Into X */
+  .MenuWrap .Toggler:checked + .Hamburger > div:before,
+  .MenuWrap .Toggler:checked + .Hamburger > div:after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  /* Rotate On Hover When Checked */
+  .MenuWrap .Toggler:checked:hover + .Hamburger > div {
+    transform: rotate(1305deg); 
+    transition-duration: .5s; 
+  }
+  /*END Toggler animation*/
+  /*===============================================*/
+  
+  /*===============================================*/
+  /* BEGIN Show Menu */
+  .MenuWrap .Toggler:checked ~ .Menu {
+    visibility: visible;
+  }
+  .MenuWrap .Toggler:checked ~ .Menu > div {
+    transform: scale(1.1);
+    transition-duration: 0.5s; 
+  }
+  .MenuWrap .Toggler:checked ~ .Menu > div > div {
+    opacity: 1.0;
+    transition:  opacity 0.1s ease;
+  }
+  .MenuWrap .Menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 150px 95px;
+  }
+  .MenuWrap .Menu > div {
+    background: whitesmoke;
+    opacity: 0.95;
+    border-radius: 10%;
+    width: 150vw; 
+    height: 350vw;     
+    display: flex;
+    flex: none;
+    align-items: center;
+  /*move menu around*/
+    justify-content: left; 
+    padding-left: 155px; 
+    margin-top: -175px; 
+  /*end of move around*/
+    transform: scale(0);
+    transition: all 0.5s ease;
+  }
+  .MenuWrap .Menu > div > div {
+    text-align: left;
+    /*^ align text in the menu*/
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0.0;
+    transition: opacity 0.5s ease;
+  }
+  .MenuWrap .Menu > div > div > ul > li {
+    list-style: none;
+    color: blue;
+    font-weight: 800;
+    padding: 1px;
+    background-color: whitesmoke; 
+    opacity: 1;
+  }
+  .MenuWrap .Menu > div > div > ul > li > a {
+    font-size: .9rem;
+    font-weight: 800;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.1s ease;
+  }
+  /*===============================================*/
+  
+  /*===============================================*/
+  #PHLinkLine hr {
+    height: 1px;
+    background-color: blue;
+  }
+  #H-PHLinkCTA {
+    color: white;
+    background: blue;
+    opacity: .9;
+    border-radius: 8px;
+  }
+  /* END Show Menu */
+  /*===============================================*/
+  
+  /* HAMBURGER END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/  
+
+```
+<br>
+<div class="callout-code-warning">
+<br><br>
+...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
+<br>
+<div class="multiple-equals-text">
+/*~~~~~~~~ VERY LARGE BLOCK OF CODE ~~~~~~~~*/<br>
+/*=======================================*/<br>
+/* HAM HAMBURGER START BLOCK */
+<br><br>
+/* HAMBURGER END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^*/<br> 
+</div>
+comments in your index.<b>css</b> file:
+</div>
+<br>
+<span class="like-this-text">&nbsp;Like this&nbsp;</span>
+<br>
+<img src="FRApps/assets/images/md-images/HamburgerCSSFinal.jpg">
+<br>
+Check it out with <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  It is nicely left justified and looking great.
+<br><br>
+<img class="twentyfive-percent"  style="border: 1px black solid; box-shadow: 2px 2px #C0C0C0" src="FRApps/assets/images/md-images/HamburgerWithIconsLeft.jpg">
+
+<hr>
+
+### Final BONUS
+
+<br>
+We did a great job of starting out with EMPTY files to creating this very nice web page with lots of features.  
+<br><br>
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/DataDropdownFinalCustomApp-ANI.gif">
+<br><br>
+<b>AND, a new and improved hamburger menu.</b>
+<br>
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/HamburgerWithIcons.gif">
+
+____
+
+#### Saved Bonus Files
+<br>
+<div class="save-code"><br><br>
+We saved your Bonus files in the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="callout-dir-text">[c11_my-html-custom-app] > [library] > [3_bonus]</span> folder.<br<br><br><br>
+
+The files are:<br>
++ <img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;c11_my-html-custom-app
++ &nbsp;&nbsp;<img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;library [folder] with saved apps
++ &nbsp;&nbsp;&nbsp;&nbsp;<img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;3_bonus [folder] with custom app
++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;assets [folder] with images
++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>index.css</b> [saved css file]
++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>index.html</b> [saved html file]
+
+Here:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="seventy-five-percent" src="FRApps/assets/images/md-images/YourBonusLibrary.jpg">
+<br><br>
+Please make modifications to the code to create your own truly Custom HTML App.
+<br>
+</div>
+
+<!--
+<br><br>
+<div class="callout-code-warning"><br>
+Remember to change your<br>  
+&nbsp;&nbsp;&nbsp;&nbsp;'&#60;link rel="stylesheet" href="<span class="css-link-text">index_final_bonus.css</span>"&#62;'<br>
+reference in your <u>index.<b>html</b></u> file to match the name of your relating <u>index*.css</u> file.
+<br><br> Like below:
+<img src="FRApps/assets/images/md-images/DataCSSLink.jpg">
+</div>
+-->
+
+<br>
+<div class="success">
+<span style="font-size: 20px"><b>Great job!</b></span>
+<br><br>
+You made it all the way through your custom html/css app.  Thank you for your hard work and patience through some tedious tasks.  
+<br><br>
+Please remember, we started here:<br>
+<img class="twentyfive-percent" style="border: 2px blue solid; box-shadow: 4px 4px #000000" src="FRApps/assets/images/md-images/BasicBlocksImage2b.jpg">
+<br><br>
+It has been a pleasure creating this portion of the tutorial. I hope you enjoyed it.  Remember, all the correct code is in your [library], so copy it if you need.
+<br><br>
+Next we will DEPLOY your Custom App to your Internet web site on your Vultr server.
+</div>
+
+<!--
+### View Full BONUS Code  
+<br>
+<div class="callout-link">
+<br><br>
+
+<b>...</b> [Full Code For HTML BONUS App](/FRApps/code/fr020103_bonus-code.md "Full Code") 
+<br><br>&nbsp;&nbsp;&nbsp;<b>* PLEASE MAXIMIZE YOUR SCREEN</b>
+</div>
+-->
+
+<hr class="main-division">
+
+### *D. DEPLOY TO INTERNET* 0:50
 
 ### 1. Initial Clone 0:20
 
@@ -3205,10 +4362,13 @@ reference in your <u>index.<b>html</b></u> file to match the name of your relati
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/sync.jpg">
 <br><br>
  
-- Note: If this is your first commit, please click Publish Branch instead of Sync <br>
+ <div class="callout-note">
+<br>
+If this is your first commit, please click <b>Publish Branch</b> instead of Sync. <br>
 
-<img class="fifty-percent" src="FRApps/assets/images/deploy/publish.jpg">
-<br><br>
+<img class="seventy-five-percent" src="FRApps/assets/images/deploy/publish.jpg">
+<br>
+</div>
 
 #### 2. Using Bitvise Login and open a New terminal console
 <br>
@@ -3231,29 +4391,28 @@ cd /webs
 
 - then click HTTPS and the copy button.
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-https-copy.jpg">
+<img src="FRApps/assets/images/deploy/git-https-copy.jpg">
 <br><br>
 
 - then using Notepad enter and paste from clipboard:
 
 ```
-git clone <paste herethe copied https link from your personal Github>
+git clone <paste here the copied https link from your personal Github>
 ```
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-note-paste.jpg">
-<br><br>
+<img src="FRApps/assets/images/deploy/git-note-paste.jpg">
+<br>
 
-- e.g. git clone https://github.com/brucetroutman-gmail/FRApps.git
-
+<img src="FRApps/assets/images/deploy/GitCloneNotepad.jpg">
 
 - Copy from Notepad 
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/git-note-copy.jpg">
-<br><br>
+<img src="FRApps/assets/images/deploy/git-note-copy.jpg">
+<br>
 
-- and paste into the VSCode Terminal and execute the clone process.
+- and <b>paste</b> into the VSCode Terminal and press [enter] to execute the clone process.
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-clone.png">
+<img src="FRApps/assets/images/deploy/term-clone.png">
 <br><br>
 
 #### 4. In Bitvise open an SFTP window 
@@ -3269,7 +4428,7 @@ git clone <paste herethe copied https link from your personal Github>
 /etc/nginx/apps-enabled
 ```
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-apps-enabled.jpg">
+<img src="FRApps/assets/images/deploy/sftp-apps-enabled.jpg">
 <br><br>
 
 #### 5. Copy this file name to the clipboard:
@@ -3280,17 +4439,17 @@ formr-xxx-00.com_my-html-remote-app.conf
 
 - In the SFTP window right click in the white area and click Create file,
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-create-file.jpg">
+<img src="FRApps/assets/images/deploy/sftp-create-file.jpg">
 <br><br>
 
 - Paste into the new file
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-file-name.jpg">
+<img src="FRApps/assets/images/deploy/sftp-file-name.jpg">
 <br><br>
 
 #### 6. Right click on this file and click Edit
 <br>
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/sftp-file-edit.jpg">
+<img src="FRApps/assets/images/deploy/sftp-file-edit.jpg">
 <br><br>
 
 - Paste the following into this file:
@@ -3314,7 +4473,7 @@ location    /my-html-remote-app {
 reboot
 ```
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-restart.png">
+<img src="FRApps/assets/images/deploy/term-restart.png">
 <br>
 
 #### 8. Browse to your server:
@@ -3335,7 +4494,7 @@ https://formr-cbt-00.com/my-html-remote-app
 Replace "My Image & Text" with (use your name)
 
 ```
-"Welcome to Bruce's FormR..."
+"welcome to Bruce's FormR..."
 ```
 
 <img class="seventy-five-percent" src="FRApps/assets/images/deploy/index-change-sect1.jpg">
@@ -3364,7 +4523,7 @@ then
 git pull
 ```
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-git-pull.png">
+<img src="FRApps/assets/images/deploy/term-git-pull.png">
 <br><br>
 
 #### 4. Browse to your server:
@@ -3441,7 +4600,7 @@ location    =  /simpleapp  {
 reboot
 ```
 
-<img class="seventy-five-percent" src="FRApps/assets/images/deploy/term-restart.png">
+<img src="FRApps/assets/images/deploy/term-restart.png">
 <br>
 
 
@@ -3470,9 +4629,12 @@ https://formr-cbt-00.com
 <br>
 
 <hr>
+<div class="success">
+<span style="font-size: 20px"><b>Great job!</b></span>
 Your next journey will be to add some very cool functionality to our web page using JavaScript.
-<br><br>
-
+<br>
+</div>
+<br>
 <div class="final">
     <span class="happy-coding">  
         <img class="happy-coding-percent" src="FRApps/assets/images/md-images/HappyCoding6.gif">
