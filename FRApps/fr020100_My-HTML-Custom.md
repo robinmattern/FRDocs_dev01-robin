@@ -140,10 +140,10 @@ We will be Replacing and Inserting blocks of code in both the index.html & index
     <li> HAM: Hamburger Insert</li>
     <li> R:   Responsive Insert</li>
 </ul>
-Example:&nbsp;&nbsp;
+Example:&nbsp;&nbsp;<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksInsertKeyImage1.jpg">
 
-<font color=red><b>This is dedious work. We have repeated the process at every step so that you will be extra careful in where you paste the copied code. The repitition in itself is tedious but very important to end up with the custom app intended.</b></font>  
+<font color=red><b>This is tedious work. We have repeated the process at every step so that you will be extra careful in where you paste the copied code. The repitition in itself is tedious but very important to end up with the custom app intended.</b></font>  
 </div>
 <br>
 <div class="callout-tip"><b>2</b><br>
@@ -173,10 +173,13 @@ Each method will be fully discussed at the first instance you encounter them.
 </div>
 <br>
 <div class="callout-tip"><b>4</b><br>
-<u><b><i>LAYOUT vs CUSTOMIZATION</i></b></u>:<br>
+<u><b><i>LAYOUT vs CUSTOMIZATION vs BONUS</i></b></u>:<br>
 As we build upon the code in both index.html and index.css, we will create first a "Layout" with Place Holders; then we will "Customize" it our way.  You will have the opportunity to customize your "Layout" as your "Custom HTML App" later.
+<br><br>
 
 Below is our outline.
+<br>
+<div class="callout-outline">
 <div class="item-text">
     <ul>
         <li class="li-text">Layout</li>
@@ -202,14 +205,14 @@ Below is our outline.
                 <li>Get Data From MySQL</li>
                 <li>Change Text in Section 1</li>
                 <li>Adjust Text in Section 1</li>
-                <li>Fetch Data (index.html)</li>
+           v     <li>Fetch Data (index.html)</li>
                 <li>Render Data (index.html)</li>
                 <li>Replace the Styles for Section 2</li>
             </ol>
             <ul class="li-text">Added Bonus</ul>
                 <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add Dropdown Menu with Icons&nbsp;&nbsp;<span class="callout-icon"></span></li>
                 <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Update Hamburger Menu with Icons&nbsp;&nbsp;<span class="callout-icon2"></span></li>
-    
+    </div>
 </div>
 </div>
 
