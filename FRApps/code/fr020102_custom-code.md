@@ -20,16 +20,20 @@ HTML
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>HTML Custom Apps</title>
-        <link rel="shortcut icon" href="favicon.png">
+        <link rel="shortcut icon" href="assets/images/favicon.png">
         <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=EB Garamond" >
         <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Roboto+Slab" >
+        <link rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
         <link rel="stylesheet"    href="index.css">
+
+    <!-- INSERT Point - DATA FETCHING -->
+    <!-- END INSERT Point - DATA FETCHING -->
     </head>
 
     <body>    
 
     <!-- REPLACE Point - Header -->
-        <div class="Header">
+    <div class="Header">
 
         <!-- INSERT Point - Responsive -->
         <div class="MenuWrap">
@@ -39,7 +43,6 @@ HTML
                 <div>
                     <div>
                         <ul class="MenuList">
-                            <li class="MenuListItem" id="H-PHLink" ><a href="#" >Home</a></li>
                             <li class="MenuListItemLine" id="PHLinkLine" ><hr></li>
                             <li class="MenuListItem" id="H-PHLinkCTA" ><a href="#" >Sign In</a></li>
                             <li class="MenuListItem" id="H-PHLink" ><a href="#" >Links</a></li>
@@ -55,47 +58,48 @@ HTML
             </div>
         </div>
         <!-- END INSERT Point - Responsive -->
-        
-            <!-- REPLACE Point Logo -->
-                <div class="HeaderLogo"><a href="#"></a></div>
-            <!-- END REPLACE Point - Logo -->
 
-            <div class="HeaderSpacer"></div> 
-            <ul class="HeaderNavList">
-                <li class="HeaderNavListItem"><a href=#>Links</a></li>
-                <li class="HeaderNavListItem"><a href=#>Cards</a></li>
-                <li class="HeaderNavListItem"><a href=#>FAQs</a></li>
-                <li class="HeaderNavListItemCTA"><a href=#>Sign In</a></li>
-            </ul>
-        </div>
+        <!-- REPLACE Point Logo -->
+            <div class="HeaderLogo"><a href="#"></a></div>
+        <!-- END REPLACE Point - Logo -->
+
+        <div class="HeaderSpacer"></div> 
+        <ul class="HeaderNavList">
+            <li class="HeaderNavListItem"><a href=#>Links</a></li>
+            <li class="HeaderNavListItem"><a href=#>Cards</a></li>
+            <li class="HeaderNavListItem"><a href=#>FAQs</a></li>
+            <li class="HeaderNavListItemCTA"><a href=#>Sign In</a></li>
+        </ul>
+    </div>
     <!-- END REPLACE Point - Header -->
 
     <!-- REPLACE Point - Section1 -->
-        <div class="Section1">
-            <h2 class="Section1ImageText">My Image & Text</h2>
-        </div>
+    <div class="Section1">
+        <h2 class="Section1ImageText">My Image & Text</h2>
+    </div>
     <!-- END REPLACE Point - Section1 -->
 
     <!-- REPLACE Point - Section2 -->        
-        <div class="Section2">
-            <h2></h2>
-            <p class="Section2Paragraph">
-                
-                The quick brown fox jumped over the lazy dog.<br>
-                The quick brown fox jumped over the lazy dog.<br>
-                The quick brown fox jumped over the lazy dog.<br>
-                The quick brown fox jumped over the lazy dog.
-            </p>  
-        </div>
+    <div class="Section2">
+        <h2></h2>
+        <p class="Section2Paragraph">
+            
+            The quick brown fox jumped over the lazy dog.<br>
+            The quick brown fox jumped over the lazy dog.<br>
+            The quick brown fox jumped over the lazy dog.<br>
+            The quick brown fox jumped over the lazy dog.
+        </p>  
+    </div>
     <!-- END REPLACE Point - Section2 -->       
 
+
     <!-- REPLACE Point - Footer -->
-        <div class="Footer">
-            <ul class="FooterNavList">
-                <li class="FooterNavListItem"><a href=#>Support</a></li>
-                <li class="FooterNavListItem"><a href=#>Terms Of Use</a></li>
-            </ul>
-        </div>
+    <div class="Footer">
+        <ul class="FooterNavList">
+            <li class="FooterNavListItem"><a href=#>Support</a></li>
+            <li class="FooterNavListItem"><a href=#>Terms Of Use</a></li>
+        </ul>
+    </div>
     <!-- END REPLACE Point - Footer -->
 
     </body>
@@ -113,6 +117,7 @@ CSS
 
 ```css
 
+
 /* Basic Blocks Custom App */
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre');
@@ -129,7 +134,7 @@ CSS
   --Header_background-color: #FF7034; /*dark orange*/
   --Header_hover-color: white;
   --HeaderLogo-image: url( 'assets/images/formr-logo-blue.gif' );
-  --HeaderLogo_margin: 0px 0 0 30px;
+  --HeaderLogo_margin: 0px 0 0 3px;
   --HeaderLogo-FontFamily: "Roboto Slab";
   --HeaderList-font-size: 1.2rem;
 
@@ -150,20 +155,19 @@ CSS
 /* END REPLACE :root =====================*/
 
 
-
-/*===============================================*/
+/*=============================================*/
 /* HTML REPLACE Point */
-/*------------------------------------------------
+/*----------------------------------------------
 The <html> tag properites (unchanged)
--------------------------------------------------*/
+-----------------------------------------------*/
 html {
-  background: var(--Body_background-color);
-  height: 100%;
-  text-align: center;
-  max-width: 1000px;
-  margin: auto;
+    background: var(--Body_background-color);
+    height: 100%;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
 }
-/* END HTML =====================================*/
+/* END HTML ===================================*/
 
 
 /*----------------------------------------------
@@ -188,6 +192,7 @@ h2 {
     text-align: center;
 }
 
+/*=============================================*/
 /*===============================================*/
 /* HR-1 REPLACE Point - .Header */
 /*------------------------------------------------
@@ -366,6 +371,10 @@ The .Section1ImageText::first-letter properties
 /* S1-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
 
 
+
+/*=============================================*/
+/* S2 START BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
 /*===============================================*/
 /* S2R-1 REPLACE Point - Section2 */
 /*------------------------------------------------
@@ -383,7 +392,6 @@ The .Section2 properites
   top: 80px; /*<---ADD to adjust the top position*/
 }
 /* END S2R-1 .Section2 ===========================*/
-
 
 /*===============================================*/
 /* S2-1 INSERT Point - Section2 h2 */
@@ -687,7 +695,7 @@ The @media MAX-width query properties
 Tablet Portrait
 =========================================*/
 @media only screen
-and (min-width: 541px)
+and (min-width: 621px)
 and (max-width: 1000px) 
 {
   .Section1ImageText {
@@ -706,7 +714,7 @@ iPhone Landscape
 =========================================*/
 @media only screen
 and (min-width: 441px)
-and (max-width: 540px) 
+and (max-width: 620px) 
 {
   .HeaderLogo {
       font-size: 1.2rem;
@@ -790,9 +798,7 @@ and (max-width: 440px)
 /* R-1 END BLOCK ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/ 
 
 
-
 /* END CSS */
-
 
 ```
 ___

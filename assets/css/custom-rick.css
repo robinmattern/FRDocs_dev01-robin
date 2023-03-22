@@ -9,7 +9,14 @@
 /*-----------------------------------------------*/
 /*Variables*/
 :root {
+    --CalloutIconFA: "\f024  Font Awesome"; /*font awesome icon*/
+    --CalloutIconIcons: " \f015  \f74d  \f64f  \f086 "; /* icons*/
+    --CalloutIconIcons2: " \f0c1  \f05a  \f2c2  \f2f6 "; /* icons*/
+    --CalloutIconHome: "Like these: \f015  \f74d  \f64f  \f086  and more"; /*home icon*/
     --CalloutIconNote: "\f0a4  NOTE!"; /*hand icon*/
+    --CalloutIconDB: "\f1c0  MySQL "; /*database*/
+    --CalloutIconSummary: "\f0cb  Summary "; /*summary list*/
+    --CalloutIconLink: "\f0c1  Link To... "; /*chain link*/
     --CalloutIconTipTop: "\f005  \A"; /*star*/
     --CalloutIconTip: "\f005  Tip \A"; /*star w/Tip*/
     --CalloutIconPopTip: "\f14a  TIP! \A"; /*checkbox*/
@@ -53,6 +60,18 @@
     border-top-left-radius: var(--BorderCurvesTopLeft);
     border-bottom-right-radius: var(--BorderCurvesBottomRight);
     padding: 10px;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*Used only around the MySQL Images*/
+.orange-border {
+    background-color: var(--CalloutBackgroundColor);
+    border: 2px solid #CC5500; /*burnt orange*/
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);
+    padding: 6px;
+    box-shadow: 1px 1px 000;
 }
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
@@ -119,8 +138,18 @@
  .like-this-text {
     text-decoration: underline;
     font-weight: 600;
+    font-size: 25px;
     background-color: #ECECEC;
     color: green;
+ }
+ .small-fonts {
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+ }
+ .black-bg {
+    color: white;
+    background: black;
  }
  /*-----------------------------------------------*/
 /*-----------------------------------------------*/
@@ -131,8 +160,17 @@
 .two-percent {
     width: 2%;
 }
+.three-percent {
+    width: 3%;
+}
+.four-percent {
+    width: 4%;
+}
 .five-percent {
     width: 5%;
+}
+.ten-percent {
+    width: 10%;
 }
 .twentyfive-percent {
     width: 25%;
@@ -212,6 +250,149 @@ hr {
 	font-size: var(--CalloutIconFontSize);
 	content: var(--CalloutIconNote); /*hand*/
     color: purple;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/* Call Out for (FA) font awesome */
+.callout-fa {
+    padding: var(--CalloutPadding);
+    background-color: var(--CalloutBackgroundColor);
+    border: 2px solid cornflowerblue;
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);      
+    font-size: .9rem;
+    color: cornflowerblue;
+}
+.callout-fa::before {
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconFA); /*font awesome*/
+    color: cornflowerblue;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/* Call Out for instructional icons */
+.callout-icon {
+    color: black;
+    font-size: 18px;
+}
+.callout-icon::before {
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: 15px; 
+	content: var(--CalloutIconIcons); /*icons*/
+    color: green;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/* Call Out for instructional icons2 */
+.callout-icon2 {
+    color: black;
+    font-size: 18px;
+}
+.callout-icon2::before {
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: 15px; 
+	content: var(--CalloutIconIcons2); /*icons2*/
+    color: green;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/* Call Out for instructional home */
+.callout-home {
+    color: black;
+    font-size: 18px;
+}
+.callout-home::before {
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: 15px; 
+	content: var(--CalloutIconHome); /*home*/
+    color: black;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/* Call Out for instructional database */
+.callout-database {
+    padding: var(--CalloutPadding);
+    background-color: var(--CalloutBackgroundColor);
+    border: 2px solid #CC5500; /* burnt orange */
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);      
+    font-size: .9rem;
+    color: #CC5500; /* burnt orange */
+}
+.callout-database::before {
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconDB); /*database*/
+    color: #CC5500; /* burnt orange */
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/* Call Out for instructional 2 tips at top */
+.callout-summary {
+    padding: var(--CalloutPadding);
+    background-color: var(--CalloutBackgroundColor);
+    border: 2px solid blue;
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);      
+    box-shadow: #C0C0C0 2px 2px;
+    font-size: .9rem;
+    color: blue
+}
+.callout-summary::before {
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconSummary); /*summary*/
+    color: blue;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/* Call Out for instructional 2 tips at top */
+.callout-link {
+    padding: var(--CalloutPadding);
+    background-color: var(--CalloutBackgroundColor);
+    border: 6px solid #AC9F3C; /* brass */
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);      
+    box-shadow: #C0C0C0 2px 2px;
+    font-size: .9rem;
+    color: blue
+}
+.callout-link::before {
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconLink); /*link*/
+    color: blue;
     display: inline-block;
     top: 0;
     right: 0;
@@ -617,6 +798,7 @@ details.details-style-top[open]>summary::after {
     margin: 0px 10px 0px -15px;
     color:blue;
     padding: 0px 0px 0px 15px;
+    font-size: 18px;
 }
 .popup h3 {
     font-size: 1.3rem;
