@@ -379,7 +379,7 @@ hr {
 /* Call Out for outline */
 .callout-outline {
     padding: var(--CalloutPadding);
-    background-color: var(--CalloutBackgroundColor);
+    background-color: whitesmoke; /*var(--CalloutBackgroundColor);*/
     border: 2px solid green;
     border-radius: var(--BorderCurvesMain);
     border-top-left-radius: var(--BorderCurvesTopLeft);
