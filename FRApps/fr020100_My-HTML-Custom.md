@@ -122,9 +122,17 @@ The below preview will have a fixed (secured) header and footer, navigation link
 
 ____
 
-<span class="like-this-text">&nbsp;4 Important Tips:&nbsp;</span>
+<span class="like-this-text">&nbsp;5 Important Tips:&nbsp;</span>
 
-<div class="callout-tip"><b>1</b><br>
+<div class="callout-tip"><b>1</b><br><br>
+If you haven't already done so, make certain your "Auto Save" is checked (ON) in your VS Code.  It is in the "File" menu.
+<br><br>
+Like this: <br><br>
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicAutoSaveON.jpg">
+
+</div>
+
+<div class="callout-tip"><b>2</b><br>
 We will be Replacing and Inserting blocks of code in both the index.html & index.css files.  Below is the KEY to aid in finding the place in the code for these actions in the index.<b>css</b> file:
 
 <ul>
@@ -140,13 +148,13 @@ We will be Replacing and Inserting blocks of code in both the index.html & index
     <li> HAM: Hamburger Insert</li>
     <li> R:   Responsive Insert</li>
 </ul>
-Example:&nbsp;&nbsp;
+Example:&nbsp;&nbsp;<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksInsertKeyImage1.jpg">
 
-<font color=red><b>This is dedious work. We have repeated the process at every step so that you will be extra careful in where you paste the copied code. The repitition in itself is tedious but very important to end up with the custom app intended.</b></font>  
+<font color=red><b>This is tedious work. We have repeated the process at every step so that you will be extra careful in where you paste the copied code. The repitition in itself is tedious but very important to end up with the custom app intended.</b></font>  
 </div>
 <br>
-<div class="callout-tip"><b>2</b><br>
+<div class="callout-tip"><b>3</b><br>
 <span style=font-size:20px; font-weight:bold>IMPORTANT</SPAN>
 <br>
 Beware of these images!  When you see these, they mean that you should be working in a SPECIFIC file.
@@ -161,7 +169,7 @@ Be in your <u><b>index.css</b></u> file when you do work under this image:
 <span class="small-fonts">(It will save you some grief!)</span>
 </div>
 <br>
-<div class="callout-tip"><b>3</b><br>
+<div class="callout-tip"><b>4</b><br>
 <span style=font-size:20px; font-weight:bold>IMPORTANT</SPAN>
 <br><img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif"><br>
 There will be 3 different methods for copy/paste:<br>
@@ -172,11 +180,14 @@ There will be 3 different methods for copy/paste:<br>
 Each method will be fully discussed at the first instance you encounter them.
 </div>
 <br>
-<div class="callout-tip"><b>4</b><br>
-<u><b><i>LAYOUT vs CUSTOMIZATION</i></b></u>:<br>
+<div class="callout-tip"><b>5</b><br>
+<u><b><i>LAYOUT vs CUSTOMIZATION vs BONUS</i></b></u>:<br>
 As we build upon the code in both index.html and index.css, we will create first a "Layout" with Place Holders; then we will "Customize" it our way.  You will have the opportunity to customize your "Layout" as your "Custom HTML App" later.
+<br><br>
 
 Below is our outline.
+<br>
+<div class="callout-outline">
 <div class="item-text">
     <ul>
         <li class="li-text">Layout</li>
@@ -209,7 +220,7 @@ Below is our outline.
             <ul class="li-text">Added Bonus</ul>
                 <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add Dropdown Menu with Icons&nbsp;&nbsp;<span class="callout-icon"></span></li>
                 <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Update Hamburger Menu with Icons&nbsp;&nbsp;<span class="callout-icon2"></span></li>
-    
+    </div>
 </div>
 </div>
 

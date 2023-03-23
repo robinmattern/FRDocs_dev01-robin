@@ -16,6 +16,7 @@
     --CalloutIconNote: "\f0a4  NOTE!"; /*hand icon*/
     --CalloutIconDB: "\f1c0  MySQL "; /*database*/
     --CalloutIconSummary: "\f0cb  Summary "; /*summary list*/
+    --CalloutIconOutline: "\f46d  Outline "; /*outline list*/
     --CalloutIconLink: "\f0c1  Link To... "; /*chain link*/
     --CalloutIconTipTop: "\f005  \A"; /*star*/
     --CalloutIconTip: "\f005  Tip \A"; /*star w/Tip*/
@@ -351,7 +352,7 @@ hr {
 }
 /*-----------------------------------------------*/
 /*-----------------------------------------------*/
-/* Call Out for instructional 2 tips at top */
+/* Call Out for summary */
 .callout-summary {
     padding: var(--CalloutPadding);
     background-color: var(--CalloutBackgroundColor);
@@ -369,6 +370,30 @@ hr {
 	font-size: var(--CalloutIconFontSize);
 	content: var(--CalloutIconSummary); /*summary*/
     color: blue;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/* Call Out for outline */
+.callout-outline {
+    padding: var(--CalloutPadding);
+    background-color: whitesmoke; /*var(--CalloutBackgroundColor);*/
+    border: 2px solid green;
+    border-radius: var(--BorderCurvesMain);
+    border-top-left-radius: var(--BorderCurvesTopLeft);
+    border-bottom-right-radius: var(--BorderCurvesBottomRight);      
+    box-shadow: #C0C0C0 2px 2px;
+    font-size: .9rem;
+    color: green
+}
+.callout-outline::before {
+    font-family: var(--CalloutIconFontFamily);
+	font-weight: var(--CalloutIconFontWeight);
+	font-size: var(--CalloutIconFontSize);
+	content: var(--CalloutIconOutline); /*outline*/
+    color: green;
     display: inline-block;
     top: 0;
     right: 0;
