@@ -131,7 +131,7 @@ Like this: <br><br>
 <img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicAutoSaveON.jpg">
 
 </div>
-
+<br>
 <div class="callout-tip"><b>2</b><br>
 We will be Replacing and Inserting blocks of code in both the index.html & index.css files.  Below is the KEY to aid in finding the place in the code for these actions in the index.<b>css</b> file:
 
