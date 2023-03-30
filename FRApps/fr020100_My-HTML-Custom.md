@@ -243,9 +243,8 @@ Our original sketch...
 
 #### a. Review Files
 
--  Using VSCode, in a folder called<br>
-&nbsp;&nbsp;&nbsp;&nbsp;"<span class="doc-dir-text">c11_my-html-custom-app</span>" (inside your Client1 folder),
-<br>open:
+-  In VSCode, open the folder called<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"<span class="doc-dir-text">c11_my-html-custom-app</span>" (inside your <span class="doc-dir-text">Client1</span> folder):
     + index.<b>html</b> and
     + index.<b>css</b><br>
 - Both should be empty 
@@ -256,6 +255,9 @@ Our original sketch...
 
 #### b. HTML Basic Code
 
++ <img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;client1
++ &nbsp;&nbsp;<img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;c11_my-html-custom-app
++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>index.html</b> [EMPTY]
 <br>
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/BasicHTMLEmpty.jpg">
 
@@ -343,6 +345,9 @@ If your Chrome <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> browse
 
 #### c. CSS Basic Code  
 
++ <img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;client1
++ &nbsp;&nbsp;<img class="four-percent" src="FRApps/assets/images/md-images/folder.gif">&nbsp;c11_my-html-custom-app
++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>index.css</b> [EMPTY]
 <br>
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/BasicCSSEmpty.jpg">
 
@@ -1400,7 +1405,7 @@ We will add some links to the Footer and fix the position of the Footer as we di
             <li class="FooterNavListItem"><a href=#>PH Link2</a></li>
         </ul>
     </div>
-    <!-- END REPLACE Point - Footer -->
+<!-- END REPLACE Point - Footer -->
 ```
 <div class="callout-code-warning">
 <br><br>
