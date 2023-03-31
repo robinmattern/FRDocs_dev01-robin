@@ -3113,7 +3113,7 @@ In the event your "Change Text" by typing caused your web page to not look like 
 
     <!-- REPLACE Point - Section1 -->
         <div class="Section1">
-            <h2 class="Section1ImageText">My Text & Logo</h2>
+            <h2 class="Section1ImageText">My Image & Text</h2>
         </div>
     <!-- END REPLACE Point - Section1 -->
 
@@ -3707,7 +3707,7 @@ ____
 <br>
 <img style=border:none; class="no-border" src="FRApps/assets/images/md-images/index.css.jpg">
 <br>
-This code will mostly format the table for cell widths and alignment. Let's pretty-up that table.
+This code will mostly format the table for cell widths and alignment. Let's pretty-up that table.  Take special care to paste this code into the S2 BLOCK which replaces a few styles with many.
 <br><br>
 
 <span class="copy-code"> copy <font color='green' style=font-weight:normal;>CSS</font> code below... <br>
@@ -3859,18 +3859,13 @@ At the top (&#60;<font color="#008080">head</font>&#62; section) of your index.h
 
 <img src="FRApps/assets/images/md-images/index.html.jpg">
 
-First in the <b>Navigaton</b> section in the <b>index.html</b> file.
+First in the <b>Header</b> section in the <b>index.html</b> file.
 
 <span class="copy-code"> ...copy <font color='green' style=font-weight:normal;>HTML</font> code below... <br>
 <img class="copy-image" src="FRApps/assets/images/md-images/HTMLCopy2.gif">&nbsp; <img src="FRApps/assets/images/md-images/ArrowRedSEDashed.gif" class="arrow-image" ></span>
 
 ```html
-<!-- REPLACE Point Navigation -->
-<div class="HeaderSpacer"></div> 
-<ul class="HeaderNavList">
-    <li class="HeaderNavListItem"><a href=#>Links</a></li>
-    <li class="HeaderNavListItem"><a href=#>Cards</a></li>
-    <li class="HeaderNavListItem"><a href=#>FAQs</a></li>
+  <!-- INSERT Point Dropdown -->
     <li class="DropdownMenu">
     <div class="dropdown">
         <button class="dropbtn">Data</button>
@@ -3884,19 +3879,16 @@ First in the <b>Navigaton</b> section in the <b>index.html</b> file.
             <hr style="border-top: 5px solid #C0C0C0; margin-bottom: 0px;">                            
             </div>
     </div>        
-    </li>
-    <li class="HeaderNavListItemCTA"><a href=#>Sign In</a></li>
-</ul>
-<!-- END REPLACE Point - Navigation -->
+<!-- END INSERT Point - Dropdown -->
 ```
 <div class="callout-code-warning">
 <br><br>
 ...AND make certain you paste it <u>ENTIRELY WITHIN</u> these
 <br>
 <div class="replace-point-text">
-&lt;!&dash;&dash; REPLACE Point - Navigation &dash;&dash;&gt; <br>
+&lt;!&dash;&dash; INSERT Point - Dropdown &dash;&dash;&gt; <br>
 <br>
- &lt;!&dash;&dash; END REPLACE Point - Navigation &dash;&dash;&gt<br> 
+ &lt;!&dash;&dash; END INSERT Point - Dropdown &dash;&dash;&gt<br> 
 </div>
 comments in your index.<b>html</b> file:
 </div>
