@@ -167,7 +167,7 @@ git remote -v
 
 #### 5.  Push from your local FRApps repo to personal github FRApps 
 
-- 5.1. Paste the folling into your VSCode terminal:
+- 5.1. Paste the following into your VSCode terminal:
 
 ```
 git branch -M main
