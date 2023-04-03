@@ -105,8 +105,6 @@ then click the New green button (if you are not signed in the New button will no
 
 - Enter FRApps as a new repository 
 
-- Check Add a README file
-
 - Click the Create Repository green button
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-02.png "FRApps-Clone-03")
