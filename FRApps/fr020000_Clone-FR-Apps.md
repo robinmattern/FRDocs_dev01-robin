@@ -53,6 +53,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 ----
 #### 1. Clone into the local repos folder using the Windows Command prompt
 
+- 1.1. Paste the following to your command prompt:
 
 ```
 cd C:/repos
@@ -74,11 +75,13 @@ dir
 
 #### 2. Enter the following in the Windows command window. (It will open VSCode)
 
+- 2.1. Paste the following to your command prompt:
+
 ```
 code FRApps.code-workspace
 ```
 
-- 2.1.  If prompted, click "Yes I trust the authors".
+- 2.2.  If prompted, click "Yes I trust the authors".
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-00.png "FRApps-Clone-03")
 
@@ -113,11 +116,11 @@ then click the New green button (if you are not signed in the New button will no
 
 #### 4. Using VSCode connect your local FRApps to your personal github FRApps
 
-- Click on FRApps and then click Terminal (or the three dots if Terminal is not visible), then click New Terminal, then 
+- 4.1. Click on FRApps and then click Terminal (or the three dots if Terminal is not visible), then click New Terminal, then 
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-03.png "FRApps-Clone-03")
 
-- 4.1. Show your current remotes: 8020data
+- 4.2. Show your current remotes: 8020data
 
 ```
 git remote -v
@@ -125,7 +128,7 @@ git remote -v
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-04.png "FRApps-Clone-03")
 
-- 4.2. Remove this remote from "origin"
+- 4.3. Remove this remote from "origin"
 
 ```
 git remote remove origin
@@ -133,17 +136,16 @@ git remote remove origin
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-04a.png "FRApps-Clone-03")
 
-- 4.3.  Change your remote to your personal github. 
+- 4.4.  Change your remote to your personal github. 
 
-- 4.4. Use Notepad to change your=github-hostname below to your host. e.g. github-btg
+- 4.5. Use Notepad to change your=github-hostname below to your host. e.g. github-btg
  (Your github host is found in the config file in the .ssh folder)
 
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-05.png "FRApps-Clone-03")
 
 
-- 4.5. then, change your-github-name below to your github name. e.g brucetroutman-gmail
-
+- 4,6. then, change your-github-name below to your github name. e.g brucetroutman-gmail6
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-06.png "FRApps-Clone-03")
 
 ```
@@ -154,7 +156,7 @@ git remote add origin your-github-hostname:your-github-name/FRApps
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-07.png "FRApps-Clone-03")
 
-- 4.6. Confirm that your remotes have changed
+- 4.7. Confirm that your remotes have changed
 
 ```
 git remote -v
@@ -164,6 +166,8 @@ git remote -v
 
 
 #### 5.  Push from your local FRApps repo to personal github FRApps 
+
+- 5.1. Paste the folling into your VSCode terminal:
 
 ```
 git branch -M main
