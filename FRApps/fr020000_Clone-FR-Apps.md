@@ -78,7 +78,7 @@ dir
 code FRApps.code-workspace
 ```
 
-- If prompted, click "Yes I trust the authors".
+- 2.1.  If prompted, click "Yes I trust the authors".
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-00.png "FRApps-Clone-03")
 
@@ -86,11 +86,11 @@ code FRApps.code-workspace
  
 #### 3. Create FRApps in your github. 
 
-- 1. Browse to and login to your personal github account. (We created this in Step 1.1.5)
+- 3.1. Browse to and login to your personal github account. (We created this in Step 1.1.5)
 
-- 2. Use Notepad to change your-github-name  e.g. brucetroutman-gmail
+- 3.2. Use Notepad to change your-github-name  e.g. brucetroutman-gmail
 
-- 3. Be sure that you are "signed in" to your github account
+- 3.3. Be sure that you are "signed in" to your github account
 
 ```
 https://github.com/your-github-name?tab=repositories
@@ -103,9 +103,9 @@ then click the New green button (if you are not signed in the New button will no
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-01.png "FRApps-Clone-03")
 
 
-- 4. Enter FRApps as a new repository 
+- 3.4. Enter FRApps as a new repository 
 
-- 5. Click the Create Repository green button
+- 3.5. Click the Create Repository green button
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-02.png "FRApps-Clone-03")
 
@@ -117,7 +117,7 @@ then click the New green button (if you are not signed in the New button will no
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-03.png "FRApps-Clone-03")
 
-- Show your current remotes: 8020data
+- 4.1. Show your current remotes: 8020data
 
 ```
 git remote -v
@@ -125,7 +125,7 @@ git remote -v
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-04.png "FRApps-Clone-03")
 
-- Remove this remote from "origin"
+- 4.2. Remove this remote from "origin"
 
 ```
 git remote remove origin
@@ -133,16 +133,16 @@ git remote remove origin
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-04a.png "FRApps-Clone-03")
 
-- Change your remote to your personal github. 
+- 4.3.  Change your remote to your personal github. 
 
-- Use Notepad to change your=github-hostname below to your host. e.g. github-btg
+- 4.4. Use Notepad to change your=github-hostname below to your host. e.g. github-btg
  (Your github host is found in the config file in the .ssh folder)
 
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-05.png "FRApps-Clone-03")
 
 
-- then, change your-github-name below to your github name. e.g brucetroutman-gmail
+- 4.5. then, change your-github-name below to your github name. e.g brucetroutman-gmail
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-06.png "FRApps-Clone-03")
 
@@ -154,7 +154,7 @@ git remote add origin your-github-hostname:your-github-name/FRApps
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-07.png "FRApps-Clone-03")
 
-- Confirm that your remotes have changed
+- 4.6. Confirm that your remotes have changed
 
 ```
 git remote -v
@@ -163,7 +163,7 @@ git remote -v
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-08.png "FRApps-Clone-03")
 
 
-#### 6.  Push from your local FRApps repo to personal github FRApps 
+#### 5.  Push from your local FRApps repo to personal github FRApps 
 
 ```
 git branch -M main
@@ -175,9 +175,9 @@ git push -u origin main
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-09.png "FRApps-Clone-03")
 
 
-#### 7. Confirm the transfer to your github FRApps repo
+#### 6. Confirm the transfer to your github FRApps repo
 
-- Refresh your browser.
+- 6.1. Refresh your browser.
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-11.png "FRApps-Clone-03")
 
