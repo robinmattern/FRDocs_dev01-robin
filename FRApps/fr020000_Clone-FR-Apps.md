@@ -145,7 +145,8 @@ git remote remove origin
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-05.png "FRApps-Clone-03")
 
 
-- 4,6. then, change your-github-name below to your github name. e.g brucetroutman-gmail6
+- 4.6. then, change your-github-name below to your github name. e.g brucetroutman-gmail
+
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-06.png "FRApps-Clone-03")
 
 ```
