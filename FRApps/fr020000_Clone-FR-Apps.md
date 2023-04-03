@@ -86,11 +86,11 @@ code FRApps.code-workspace
  
 #### 3. Create FRApps in your github. 
 
-- Browse to and login to your personal github account. (We created this in Step 1.1.5)
+- 1. Browse to and login to your personal github account. (We created this in Step 1.1.5)
 
-- Use Notepad to change your-github-name  e.g. brucetroutman-gmail
+- 2. Use Notepad to change your-github-name  e.g. brucetroutman-gmail
 
-- Be sure that you are "signed in" to your github account
+- 3. Be sure that you are "signed in" to your github account
 
 ```
 https://github.com/your-github-name?tab=repositories
@@ -103,9 +103,9 @@ then click the New green button (if you are not signed in the New button will no
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-01.png "FRApps-Clone-03")
 
 
-- Enter FRApps as a new repository 
+- 4. Enter FRApps as a new repository 
 
-- Click the Create Repository green button
+- 5. Click the Create Repository green button
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-02.png "FRApps-Clone-03")
 
