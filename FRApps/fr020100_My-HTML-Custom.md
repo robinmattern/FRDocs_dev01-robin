@@ -1794,7 +1794,7 @@ ___
 <img class="no-border" style=border:none; src="FRApps/assets/images/md-images/refreshButtonGray.jpg"> You may have to refresh your screen to activate the wiggle button for the first time.
 </div>
 <br>
-<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicWiggleImage1.jpg">
+<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicLayoutWiggleButton.gif">
 
 ___
 
