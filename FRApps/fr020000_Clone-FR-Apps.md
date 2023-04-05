@@ -173,6 +173,9 @@ git remote -v
 ```
 git branch -M main
 ```
+
+then
+
 ```
 git push -u origin main
 ```
