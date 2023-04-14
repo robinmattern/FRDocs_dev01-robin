@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # The formR Project
 
 - formR is an easy to use application that uses a MySQL, ExpressJS, React-Admin and NodeJS (MERN) stack. The coding philosophy leans more towards DRY (Don't Repeat Yourself) than WET (Write Every Time).
@@ -12,3 +12,4 @@
 
 - We give credit is given to many whose tutorials, videos and blogs have provided inspiration, information and insight into these topics. We especially thank BezKoder.com, Ben Awad, Jared Palmer, Jason Watmore, 
 GraspingTech.com , LifeWire.com, SQL-Hub.com, W3Schools.com, ZetCode.com, CodEvolution.com
+
