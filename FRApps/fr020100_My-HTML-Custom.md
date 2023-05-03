@@ -31,7 +31,7 @@ More Info: Names, Caps, Picts, Code Copy
     </summary>
     <div class="popup">
 
-- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
+- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper capitalization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 
