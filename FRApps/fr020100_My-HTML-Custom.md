@@ -86,7 +86,7 @@ They are:
     <li>monaco-blue-soft.jpg (for Section1)</li>
 </ol>
 
-These images will be used in your code. As variables in the :root section of the index.css file.   
+These images will be used in your code as variables in the :root section of the index.css file.   
 
 <img class="seventy-five-percent" src="FRApps/assets/images/md-images/IntroductionImage1a1.jpg">
 
@@ -118,7 +118,9 @@ ____
 <br>
 The below preview will have a fixed (secured) header and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when large or small - with a <img class="two-percent" src="FRApps/assets/images/md-images/HamburgerBlue.jpg"> hamburger menu).
 <br><br>
-<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicFinalImageGaramond.jpg">
+<img src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage4.jpg">
+
+<!--<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicFinalImageGaramond.jpg">-->
 
 ____
 
@@ -151,7 +153,7 @@ We will be Replacing and Inserting blocks of code in both the index.html & index
 Example:&nbsp;&nbsp;<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksInsertKeyImage1.jpg">
 
-<font color=red><b>This is tedious work. We have repeated the process at every step so that you will be extra careful in where you paste the copied code. The repitition in itself is tedious but very important to end up with the custom app intended.</b></font>  
+<font color=red><b>This is tedious work. We have repeated the process at every step so that you will be extra careful in where you paste the copied code. The repetition in itself is tedious but very important to end up with the custom app intended.</b></font>  
 </div>
 <br>
 <div class="callout-tip"><b>3</b><br>
