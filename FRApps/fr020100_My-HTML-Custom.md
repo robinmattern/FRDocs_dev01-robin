@@ -31,7 +31,7 @@ More Info: Names, Caps, Picts, Code Copy
     </summary>
     <div class="popup">
 
-- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper captialization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
+- In this tutorial please be careful to use the Exact Spelling and Capitalization. You will be using Windows, Unix and GitBash command prompts. Improper capitalization will cause commands to fail. Some examples are: Local_Admin, myProject, repos, remotes and .ssh.
 
 - This documentation was produced in 2021-2022. You will experience differences in some of the pictures due to the changes made over time by the developers of the softwares and web sites that are used.
 
@@ -86,15 +86,15 @@ They are:
     <li>monaco-blue-soft.jpg (for Section1)</li>
 </ol>
 
-These images will be used in your code. As variables in the :root section of the index.css file.   
+These images will be used in your code as variables in the :root section of the index.css file.   
 
 <img class="seventy-five-percent" src="FRApps/assets/images/md-images/IntroductionImage1a1.jpg">
 
 ____
 
 <details class="details-style">
-<summary class="summary-style">More Info: Suggested Setup</summary>
-Our recommended method to set up the windows in your workstation.  
+<summary class="summary-style">More Info: Highly Recommended Work Station Setup</summary>
+Our recommended method to set up the windows in your workstation.  You may work any other way you want, but <b><u>you will not be sorry</u></b> if you follow this recommendation.  
 
 + VSCode taking up the right 1/2 of your screen
 + Chrome with a <b><u>TAB</u></b> for your work instructions... 
@@ -118,7 +118,9 @@ ____
 <br>
 The below preview will have a fixed (secured) header and footer, navigation links and a "wiggle" button, an image with a font-based overlay, a formR logo, and is responsive (the page will react properly when large or small - with a <img class="two-percent" src="FRApps/assets/images/md-images/HamburgerBlue.jpg"> hamburger menu).
 <br><br>
-<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicFinalImageGaramond.jpg">
+<img src="FRApps/assets/images/md-images/BasicResponsiveDualScreenImage4.jpg">
+
+<!--<img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicFinalImageGaramond.jpg">-->
 
 ____
 
@@ -151,7 +153,7 @@ We will be Replacing and Inserting blocks of code in both the index.html & index
 Example:&nbsp;&nbsp;<br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicBlocksInsertKeyImage1.jpg">
 
-<font color=red><b>This is tedious work. We have repeated the process at every step so that you will be extra careful in where you paste the copied code. The repitition in itself is tedious but very important to end up with the custom app intended.</b></font>  
+<font color=red><b>This is tedious work. We have repeated the process at every step so that you will be extra careful in where you paste the copied code. The repetition in itself is tedious but very important to end up with the custom app intended.</b></font>  
 </div>
 <br>
 <div class="callout-tip"><b>3</b><br>
@@ -228,7 +230,7 @@ Below is our outline.
 
 ### *A. LAYOUT* 1:10
 <br>
-Like many web sites (pages) we like to start with a very simple sketch; pencil drawn on a sheet of paper.  Here was our initial thoughts to build a very simple "block" structured web page.  We came very close in achieving our goal.<br><br>
+Like many web sites (pages) we like to start with a very simple sketch; pencil drawn on a sheet of paper.  Here were our initial thoughts to build a very simple "block" structured web page.  We came very close in achieving our goal.<br><br>
 
 <div class="green-border">
 Our original sketch...
@@ -1707,8 +1709,7 @@ comments in your index.<b>html</b> file:
 <br>
 <img class="no-border" src="FRApps/assets/images/md-images/BasicLargeBlocksImage6.jpg">
 <br><br>
-
-Check <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  This provides a paragraph text we can add some nice attributes later in the <i>Customization</i> section. 
+Check <img src="FRApps/assets/icons//ChromeIcon.png" width="4%"> Chrome.  This provides a paragraph of text to which we can add some nice attributes later in the <i>Customization</i> section. 
 
 <img class="seventy-five-percent" src="FRApps/assets/images/md-images/BasicLAYOUTImage2.jpg">
 

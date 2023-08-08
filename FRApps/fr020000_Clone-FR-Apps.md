@@ -185,7 +185,7 @@ git push -u origin main
 
 #### 6. Confirm the transfer to your github FRApps repo
 
-- 6.1 Refresh your browser.
+- 6.1 Browser to your github repo for FRApps and view the files .
 
 ![FRApps-Clone-03](assets/images/clone/fr0103-FRApps-Clone-03-11.png "FRApps-Clone-03")
 
