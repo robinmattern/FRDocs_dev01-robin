@@ -10,7 +10,7 @@
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 3.4 Custom FRApps Lit 0:45 <!-- {docsify-ignore-all} -->
+## 3.4 My Lit Custom App 0:45 <!-- {docsify-ignore-all} -->
 <div class="notice-tip">
   <div class="notice-tip-header">
     Tip: <a href="../Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md" target="_blank">Link to Background and Purposes</a> 
