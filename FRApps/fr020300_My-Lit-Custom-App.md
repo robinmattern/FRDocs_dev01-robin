@@ -5,12 +5,12 @@
 [BACK - My Javascript Custom App](/FRApps/fr020200_My-Javascript-Custom-App.md)
 </div><div class="page-next">
 
-[My React Custom App - NEXT](/FRApps/fr020200_My-Javascript-Custom-App.md)
+[My React Custom App - NEXT](/FRApps/fr020300_My-React-Custom-App.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 2.4 Custom FRApps Lit 0:45 <!-- {docsify-ignore-all} -->
+## 3.4 Custom FRApps Lit 0:45 <!-- {docsify-ignore-all} -->
 <div class="notice-tip">
   <div class="notice-tip-header">
     Tip: <a href="../Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md" target="_blank">Link to Background and Purposes</a> 
@@ -335,7 +335,7 @@ import Image from 'react-bootstrap/Image'
 [BACK - My Javascript Custom App](/FRApps/fr020200_My-Javascript-Custom-App.md)
 </div><div class="page-next">
 
-[My React Custom App - NEXT](/FRApps/fr020200_My-React-Custom-App.md)
+[My React Custom App - NEXT](/FRApps/fr020300_My-React-Custom-App.md)
 </div>
 
 
