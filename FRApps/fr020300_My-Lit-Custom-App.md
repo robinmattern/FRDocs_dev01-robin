@@ -2,15 +2,15 @@
 
 <div class="page-back">
 
-[BACK - Clone FRApps](/Setup/fr0103_Clone-FR-Apps.md)
+[BACK - My Javascript Custom App](/FRApps/fr020200_My-Javascript-Custom-App.md)
 </div><div class="page-next">
 
-[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+[My React Custom App - NEXT](/FRApps/fr020200_My-Javascript-Custom-App.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
 
-## 1.5 Custom FRApps Lit 0:45 <!-- {docsify-ignore-all} -->
+## 2.4 Custom FRApps Lit 0:45 <!-- {docsify-ignore-all} -->
 <div class="notice-tip">
   <div class="notice-tip-header">
     Tip: <a href="../Setup/purposes/pfr0104_Custom-FR-Apps-HTML.md" target="_blank">Link to Background and Purposes</a> 
@@ -332,10 +332,10 @@ import Image from 'react-bootstrap/Image'
 
 <div class="page-back">
 
-[BACK - Clone FRApps](/Setup/fr0103_Clone-FR-Apps.md)
+[BACK - My Javascript Custom App](/FRApps/fr020200_My-Javascript-Custom-App.md)
 </div><div class="page-next">
 
-[Vultr Ubuntu - NEXT](/Setup/fr0301_Setup-Vultr-Ubuntu.md)
+[My React Custom App - NEXT](/FRApps/fr020200_My-React-Custom-App.md)
 </div>
 
 

@@ -2,10 +2,10 @@
 
 <div class="page-back">
 
-[BACK - My HTML Custom App](/Setup/fr0103_Clone-FR-Apps.md)
+[BACK - My HTML Custom App](/FRApps/fr020100_My-HTML-Custom.md)
 </div><div class="page-next">
 
-[My Lit Custom App - NEXT](/Setup/fr020300_My-React-Custom-App.md)
+[My Lit Custom App - NEXT](/Setup/fr020300_My-Lit-Custom-App.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
@@ -54,10 +54,10 @@ Hover over the snippet and click copy, then paste as appropriate.
 
 <div class="page-back">
 
-[BACK - My HTML Custom App](/Setup/fr0103_Clone-FR-Apps.md)
+[BACK - My HTML Custom App](/FRApps/fr020100_My-HTML-Custom.md)
 </div><div class="page-next">
 
-[My Lit Custom App - NEXT](/Setup/fr020300_My-React-Custom-App.md)
+[My Lit Custom App - NEXT](/Setup/fr020300_My-Lit-Custom-App.md)
 
 </div>
 
