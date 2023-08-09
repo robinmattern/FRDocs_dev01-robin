@@ -5,7 +5,7 @@
 [BACK - My HTML Custom App](/FRApps/fr020100_My-HTML-Custom.md)
 </div><div class="page-next">
 
-[My Lit Custom App - NEXT](/Setup/fr020300_My-Lit-Custom-App.md)
+[My Lit Custom App - NEXT](/FRApps/fr020300_My-Lit-Custom-App.md)
 </div><div style="margin-top:35px">&nbsp;</div> 
  
 <!-- ------------------------------------------------------------------------- -->
@@ -57,7 +57,7 @@ Hover over the snippet and click copy, then paste as appropriate.
 [BACK - My HTML Custom App](/FRApps/fr020100_My-HTML-Custom.md)
 </div><div class="page-next">
 
-[My Lit Custom App - NEXT](/Setup/fr020300_My-Lit-Custom-App.md)
+[My Lit Custom App - NEXT](/FRApps/fr020300_My-Lit-Custom-App.md)
 
 </div>
 
